@@ -54,3 +54,24 @@ Para cada estudo incluído, registrar:
 ## 5. Regra para atualizar a matriz
 
 Uma referência só deve justificar uma decisão específica quando o texto integral ou resumo confiável sustentar essa relação. Distinguir sempre: (a) resultado observado em estudo; (b) recomendação de diretriz; (c) decisão de design do projeto; e (d) hipótese ainda não testada. Não transformar uma decisão de design em afirmação de eficácia.
+
+
+## 6. Evidências adicionadas na busca de 17/10/2026
+
+As fontes abaixo foram localizadas em páginas oficiais de organizações, periódicos ou repositórios bibliográficos. O resumo é uma triagem inicial, não uma avaliação crítica completa dos artigos.
+
+| Fonte | Tipo e achado útil | Aplicação no projeto | Limitação de interpretação |
+|---|---|---|---|
+| WHO; ITU (2024), *Implementation toolkit for accessible telehealth services*. https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities | Ferramenta de implementação que complementa o padrão global de acessibilidade de 2022 e recomenda incorporar acessibilidade desde o planejamento. | Transformar acessibilidade em checklist desde o início; incluir testes de teclado, foco, telas pequenas e requisitos de tecnologias assistivas conforme o escopo do protótipo. | Diretriz de serviço; não comprova que este protótipo específico atende aos requisitos. |
+| W3C (2024), *Web Content Accessibility Guidelines (WCAG) 2.2*. https://www.w3.org/TR/WCAG22/ | Recomendação técnica publicada em 12/12/2024; inclui foco visível, foco não encoberto, navegação por teclado e tamanho mínimo de alvos de ponteiro. | Referência técnica para auditoria de interface; usar critérios pertinentes ao protótipo e registrar o que foi e não foi testado. | A conformidade não pode ser declarada só com inspeção do código; exige avaliação mais abrangente. |
+| Santos MR et al. (2023), *The Brazilian version of the telehealth usability questionnaire (telehealth usability questionnaire Brazil): translation, cross-cultural adaptation, and psychometric properties*. Revista da Associação Médica Brasileira, 69(12):e20230228. DOI: https://doi.org/10.1590/1806-9282.20230228 | Estudo metodológico de adaptação transcultural e propriedades psicométricas de questionário de usabilidade em telessaúde para português brasileiro. | Candidato a instrumento para discussão com a orientação se a pergunta e o protótipo forem compatíveis. | Foi desenvolvido para avaliar usabilidade de telessaúde; a adequação a um protótipo breve e demonstrativo deve ser justificada. Verificar condições de uso e texto integral. |
+| Jiang X et al. (2024), *The level of electronic health literacy among older adults: a systematic review and meta-analysis*. Archives of Public Health, 82:204. DOI: https://doi.org/10.1186/s13690-024-01428-9 | Revisão sistemática e metanálise de 48 estudos, totalizando 33.919 adultos mais velhos; relata heterogeneidade substancial entre estudos e diferenças de literacia digital em saúde. | Reforça a necessidade de não presumir familiaridade digital uniforme; usar linguagem direta, controles claros e tarefas que observem dificuldades. | Estudos incluídos usaram eHEALS e são heterogêneos; resultados agregados não descrevem automaticamente o público de Guaraí. |
+| Dunnett J et al. (2025), *Effectiveness and acceptability of interventions to improve readability of patient healthcare materials: A narrative systematic review*. Public Health, 248:105937. DOI: https://doi.org/10.1016/j.puhe.2025.105937 | Revisão de 30 estudos; linguagem simplificada e estruturação visual foram associadas, em geral, a melhor compreensão e preferência, enquanto efeitos sobre adesão e desfechos clínicos foram mistos. | Apoia testar compreensão diretamente e usar frases curtas e organização visual; não basta declarar que o texto é simples. | A revisão relata limitações metodológicas e evidência limitada para efeitos de longo prazo; não sustenta alegações de impacto clínico. |
+
+### Consequências para os requisitos
+
+1. Manter linguagem simples, mas testar compreensão com tarefas específicas, sem confundir legibilidade com compreensão.
+2. Usar a WCAG 2.2 como referência técnica de verificação, sem afirmar conformidade integral após uma revisão estática.
+3. Discutir o TUQ Brazil com a orientação como opção possível, não como instrumento já selecionado.
+4. Evitar tratar adultos como um grupo digitalmente homogêneo; o protocolo deve considerar variedade de experiência e acessibilidade.
+5. Não concluir que usabilidade ou clareza do protótipo melhora adesão, continuidade real do cuidado ou desfechos clínicos.
