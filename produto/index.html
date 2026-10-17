@@ -20,21 +20,21 @@
 
   <main id="main" class="layout">
     <section class="intro">
-      <p class="eyebrow">TELessaúde · COMUNICAÇÃO CLARA</p>
+      <p class="eyebrow">TELESSAÚDE · COMUNICAÇÃO CLARA</p>
       <h1>Prepare sua conversa. Entenda os próximos passos.</h1>
       <p>Um espaço simples para organizar perguntas, consultar um exemplo de orientação e visualizar próximos passos.</p>
       <div class="notice" role="note"><strong>Importante:</strong> esta é uma demonstração acadêmica. Não substitui profissionais de saúde e não deve ser usada para registrar informações reais de saúde.</div>
     </section>
 
     <nav class="tabs" aria-label="Etapas da demonstração">
-      <button class="tab active" data-view="prepare" aria-current="step"><span>1</span> Preparar</button>
-      <button class="tab" data-view="guidance"><span>2</span> Entender</button>
-      <button class="tab" data-view="next"><span>3</span> Próximos passos</button>
+      <button class="tab active" data-view="prepare" aria-current="step" aria-controls="view-prepare"><span>1</span> Preparar</button>
+      <button class="tab" data-view="guidance" aria-controls="view-guidance"><span>2</span> Entender</button>
+      <button class="tab" data-view="next" aria-controls="view-next"><span>3</span> Próximos passos</button>
     </nav>
 
-    <section class="panel" id="view-prepare">
+    <section class="panel" id="view-prepare" aria-labelledby="prepare-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">ANTES DO ATENDIMENTO</p><h2>O que você quer conversar?</h2></div>
+        <div><p class="eyebrow">ANTES DO ATENDIMENTO</p><h2 id="prepare-title">O que você quer conversar?</h2></div>
         <span class="step-count">Etapa 1 de 3</span>
       </div>
       <p>Marque os itens que gostaria de lembrar durante uma consulta. Você não precisa marcar todos.</p>
@@ -48,9 +48,9 @@
       <p class="helper" id="check-status" aria-live="polite">Nenhum item marcado.</p>
     </section>
 
-    <section class="panel hidden" id="view-guidance">
+    <section class="panel hidden" id="view-guidance" aria-labelledby="guidance-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">EXEMPLO APÓS O ATENDIMENTO</p><h2>Orientações em linguagem clara</h2></div>
+        <div><p class="eyebrow">EXEMPLO APÓS O ATENDIMENTO</p><h2 id="guidance-title">Orientações em linguagem clara</h2></div>
         <span class="step-count">Etapa 2 de 3</span>
       </div>
       <div class="fictional-banner"><span aria-hidden="true">ⓘ</span> Exemplo inteiramente fictício — não representa uma recomendação médica.</div>
@@ -69,9 +69,9 @@
       <div class="actions"><button class="button secondary" data-go="prepare" type="button">← Voltar</button><button class="button primary" data-go="next" type="button">Continuar →</button></div>
     </section>
 
-    <section class="panel hidden" id="view-next">
+    <section class="panel hidden" id="view-next" aria-labelledby="next-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">ORGANIZAÇÃO</p><h2>Próximos passos</h2></div>
+        <div><p class="eyebrow">ORGANIZAÇÃO</p><h2 id="next-title">Próximos passos</h2></div>
         <span class="step-count">Etapa 3 de 3</span>
       </div>
       <p>Este exemplo mostra como ações combinadas com o serviço poderiam ser organizadas. Os itens abaixo são fictícios.</p>
@@ -80,7 +80,7 @@
         <div class="next-item"><span class="next-icon" aria-hidden="true">?</span><div><strong>Anotar dúvidas que permaneceram</strong><p>Leve as perguntas ao profissional responsável.</p></div><span class="tag">Exemplo</span></div>
         <div class="next-item"><span class="next-icon" aria-hidden="true">↗</span><div><strong>Confirmar orientações pouco claras</strong><p>Não altere medicamentos ou condutas com base nesta demonstração.</p></div><span class="tag">Exemplo</span></div>
       </div>
-      <div class="feedback-box"><h3>Como foi a experiência?</h3><p>Esta pergunta serve apenas para explorar a interface. A resposta não é enviada nem armazenada.</p><div class="rating" role="group" aria-label="Facilidade de uso"><button type="button" data-rating="1">1<br><small>Difícil</small></button><button type="button" data-rating="2">2</button><button type="button" data-rating="3">3</button><button type="button" data-rating="4">4</button><button type="button" data-rating="5">5<br><small>Fácil</small></button></div><p class="feedback" id="rating-feedback" aria-live="polite"></p></div>
+      <div class="feedback-box"><h3>Como foi a experiência?</h3><p>Esta pergunta serve apenas para explorar a interface. A resposta não é enviada nem armazenada.</p><p class="rating-hint">Escolha uma nota de 1 (difícil) a 5 (fácil).</p><div class="rating" role="group" aria-label="Facilidade de uso, de 1 difícil a 5 fácil"><button type="button" data-rating="1" aria-label="1 de 5, difícil" aria-pressed="false">1<br><small>Difícil</small></button><button type="button" data-rating="2" aria-label="2 de 5" aria-pressed="false">2</button><button type="button" data-rating="3" aria-label="3 de 5" aria-pressed="false">3</button><button type="button" data-rating="4" aria-label="4 de 5" aria-pressed="false">4</button><button type="button" data-rating="5" aria-label="5 de 5, fácil" aria-pressed="false">5<br><small>Fácil</small></button></div><p class="feedback" id="rating-feedback" aria-live="polite"></p></div>
       <div class="actions"><button class="button secondary" data-go="guidance" type="button">← Voltar</button><button class="button primary" id="restart" type="button">Reiniciar demonstração</button></div>
     </section>
 
