@@ -7,8 +7,12 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Excluir integração com prontuários e inteligência artificial da primeira versão.
 - [x] Definir usuários adultos e profissionais de saúde como grupos de interesse.
 - [x] Definir Guaraí-TO como cenário preferencial, ainda sujeito a parceria.
-- [ ] Revisar literatura e identificar instrumentos de avaliação apropriados.
-- [ ] Adequar o anteprojeto ao modelo oficial da UERJ.
+- [x] Reunir referências iniciais oficiais e acadêmicas.
+- [x] Criar versão de trabalho organizada conforme o modelo oficial da UERJ.
+- [x] Especificar o produto mínimo e seus limites.
+- [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
+- [ ] Ampliar e atualizar a revisão da literatura; identificar instrumentos apropriados.
+- [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
 - [ ] Discutir pergunta, método e produto com a orientação acadêmica.
 
 ## Fase 1 — Articulação e diagnóstico
