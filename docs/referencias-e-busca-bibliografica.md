@@ -84,3 +84,20 @@ Estas referências formam uma base inicial, não uma revisão sistemática nem u
 - Estratégia: buscas exploratórias na web por diretrizes oficiais e artigos de revisão ou validação relacionados a acessibilidade de telessaúde, WCAG, usabilidade de telessaúde em português brasileiro, literacia em saúde digital e legibilidade de materiais para pacientes.
 - Seleção desta rodada: quatro fontes novas priorizadas pela relação direta com os requisitos técnicos ou com a avaliação do protótipo.
 - Limitação: esta rodada não é uma revisão sistemática. Ainda é necessário executar e registrar buscas estruturadas nas bases indicadas, aplicar critérios de inclusão/exclusão e examinar os textos integrais.
+
+
+## Busca estruturada e síntese crítica — 17/10/2026
+
+Foi criado o documento [Busca bibliográfica estruturada — protocolo e síntese crítica](busca-bibliografica-estruturada.md), que reúne pergunta PCC, estratégias propostas para PubMed/MEDLINE, BVS/LILACS e SciELO, critérios de elegibilidade, fluxo de seleção, avaliação crítica preliminar de nove estudos e implicações para o projeto.
+
+Referências acadêmicas adicionais discutidas na síntese:
+
+12. **KIM, H.; XIE, B. (2017).** Health literacy in the eHealth era: A systematic review of the literature. *Patient Education and Counseling*, 100(6), 1073–1082. https://doi.org/10.1016/j.pec.2017.01.015. Revisão de 74 publicações; destaca legibilidade e usabilidade como barreiras.
+13. **DARAZ, L. et al. (2018).** Readability of Online Health Information: A Meta-Narrative Systematic Review. *Journal of General Internal Medicine*. https://doi.org/10.1177/1062860617751639. Revisão de 157 estudos e 7.891 websites; limitações de legibilidade são recorrentes.
+14. **MILANTI, A. et al. (2023).** Determinants and outcomes of eHealth literacy in healthy adults: A systematic review. *PLOS ONE*, 18(10), e0291229. https://doi.org/10.1371/journal.pone.0291229. Organiza fatores individuais, sociais e estruturais relacionados ao letramento digital em saúde.
+15. **NEVES, R. B. et al. (2025).** Desafios na usabilidade do aplicativo e-SUS Território da Estratégia de Saúde Digital do Brasil. *Saúde em Debate*, 49(spe1). https://doi.org/10.1590/2358-28982025E19774P. Estudo brasileiro de método misto com ACS; útil como exemplo de avaliação contextualizada, não como benchmark direto.
+16. **OLIVEIRA, M. S. et al. (2025).** Usabilidade do sistema eSUS Feedback por gestores de Unidades Básicas de Saúde. *Saúde em Debate*, 49(spe1). https://doi.org/10.1590/2358-28982025E19981P. Estudo transversal com SUS e UEQ em gestores; população e sistema diferem do protótipo.
+17. **COLUSSI, C. F. et al. (2026).** Implementação das teleconsultorias no Sistema Único de Saúde: proposta de modelo avaliativo. *Ciência & Saúde Coletiva*, 31(5). https://doi.org/10.1590/1413-81232026315.24792025. Proposta metodológica sem aplicação empírica.
+18. **WIENER, R. C.; ABUHALIMEH, B. J. (2025).** Evaluating adult digital health literacy, 2020–2025: A systematic review. *PLOS Digital Health*, 4(11), e0001075. https://doi.org/10.1371/journal.pdig.0001075. Revisão de 20 estudos que utilizaram eHEALS; relata heterogeneidade entre adultos.
+
+**Nota metodológica:** as estratégias e strings estão registradas, mas a pesquisa direta e reprodutível nas interfaces oficiais e a contagem de resultados continuam pendentes. A síntese não deve ser chamada de revisão sistemática concluída.
