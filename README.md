@@ -46,6 +46,10 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [Especificação do produto mínimo](docs/produto-minimo.md)
 - [Estratégia de parceria e ética](docs/parceria-e-etica.md)
 - [Roteiro de reunião com a Secretaria Municipal de Saúde](docs/roteiro-reuniao-secretaria.md)
+- [Especificação do produto mínimo](docs/produto-minimo.md)
+- [Protótipo — página inicial](produto/index.html)
+- [Estilos do protótipo](produto/styles.css)
+- [Interações do protótipo](produto/app.js)
 
 ## Situação atual
 
