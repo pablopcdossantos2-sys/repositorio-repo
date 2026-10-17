@@ -5,14 +5,31 @@
   const status = document.getElementById("check-status");
 
   function showView(name) {
-    views.forEach(view => view.classList.toggle("hidden", view.id !== "view-" + name));
+    const target = document.getElementById("view-" + name);
+    if (!target) return;
+
+    views.forEach(view => {
+      const active = view === target;
+      view.classList.toggle("hidden", !active);
+      view.setAttribute("aria-hidden", String(!active));
+    });
+
     tabs.forEach(tab => {
       const active = tab.dataset.view === name;
       tab.classList.toggle("active", active);
       if (active) tab.setAttribute("aria-current", "step");
       else tab.removeAttribute("aria-current");
     });
-    document.querySelector(".panel:not(.hidden)")?.scrollIntoView({behavior:"smooth",block:"start"});
+
+    // Move keyboard/screen-reader focus out of the panel that is being hidden.
+    const heading = target.querySelector("h2");
+    if (heading) {
+      heading.setAttribute("tabindex", "-1");
+      heading.focus({ preventScroll: true });
+    }
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    target.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
   }
 
   function updateCheckStatus() {
@@ -23,6 +40,7 @@
   tabs.forEach(tab => tab.addEventListener("click", () => showView(tab.dataset.view)));
   document.querySelectorAll("[data-go]").forEach(button => button.addEventListener("click", () => showView(button.dataset.go)));
   checks.forEach(input => input.addEventListener("change", updateCheckStatus));
+
   document.getElementById("reset-checks").addEventListener("click", () => {
     checks.forEach(input => { input.checked = false; });
     updateCheckStatus();
@@ -54,9 +72,14 @@
     checks.forEach(input => { input.checked = false; });
     document.querySelectorAll("input[name='understanding']").forEach(input => { input.checked = false; });
     document.getElementById("understanding-feedback").textContent = "";
-    document.querySelectorAll("[data-rating]").forEach(button => button.removeAttribute("aria-pressed"));
+    document.getElementById("understanding-feedback").style.color = "";
+    document.querySelectorAll("[data-rating]").forEach(button => button.setAttribute("aria-pressed", "false"));
     document.getElementById("rating-feedback").textContent = "";
     updateCheckStatus();
     showView("prepare");
   });
+
+  // Explicit initial state makes the navigation state deterministic on reload.
+  views.forEach(view => view.setAttribute("aria-hidden", String(view.id !== "view-prepare")));
+  updateCheckStatus();
 })();
