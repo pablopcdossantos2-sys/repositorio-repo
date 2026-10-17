@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8fc">
+  <meta name="description" content="Protótipo demonstrativo de apoio à preparação e compreensão de orientações em telessaúde.">
+  <title>Conversa Clara — protótipo de telessaúde</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Pular para o conteúdo</a>
+  <header class="topbar">
+    <div class="brand" aria-label="Conversa Clara">
+      <span class="brand-mark" aria-hidden="true">+</span>
+      <span><strong>Conversa Clara</strong><small>Protótipo de pesquisa</small></span>
+    </div>
+    <span class="demo-label">Demonstração com dados fictícios</span>
+  </header>
+
+  <main id="main" class="layout">
+    <section class="intro">
+      <p class="eyebrow">TELessaúde · COMUNICAÇÃO CLARA</p>
+      <h1>Prepare sua conversa. Entenda os próximos passos.</h1>
+      <p>Um espaço simples para organizar perguntas, consultar um exemplo de orientação e visualizar próximos passos.</p>
+      <div class="notice" role="note"><strong>Importante:</strong> esta é uma demonstração acadêmica. Não substitui profissionais de saúde e não deve ser usada para registrar informações reais de saúde.</div>
+    </section>
+
+    <nav class="tabs" aria-label="Etapas da demonstração">
+      <button class="tab active" data-view="prepare" aria-current="step"><span>1</span> Preparar</button>
+      <button class="tab" data-view="guidance"><span>2</span> Entender</button>
+      <button class="tab" data-view="next"><span>3</span> Próximos passos</button>
+    </nav>
+
+    <section class="panel" id="view-prepare">
+      <div class="panel-heading">
+        <div><p class="eyebrow">ANTES DO ATENDIMENTO</p><h2>O que você quer conversar?</h2></div>
+        <span class="step-count">Etapa 1 de 3</span>
+      </div>
+      <p>Marque os itens que gostaria de lembrar durante uma consulta. Você não precisa marcar todos.</p>
+      <div class="checklist">
+        <label class="check-row"><input type="checkbox"><span><strong>Explicar o que estou sentindo</strong><small>Quando começou e o que percebi.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Fazer perguntas sobre meu cuidado</strong><small>O que gostaria de entender melhor.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Contar o que preciso esclarecer</strong><small>Algo que não ficou claro anteriormente.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Confirmar os próximos passos</strong><small>Retorno, exame ou encaminhamento, se indicado.</small></span></label>
+      </div>
+      <div class="actions"><button class="button secondary" id="reset-checks" type="button">Desmarcar tudo</button><button class="button primary" data-go="guidance" type="button">Continuar <span aria-hidden="true">→</span></button></div>
+      <p class="helper" id="check-status" aria-live="polite">Nenhum item marcado.</p>
+    </section>
+
+    <section class="panel hidden" id="view-guidance">
+      <div class="panel-heading">
+        <div><p class="eyebrow">EXEMPLO APÓS O ATENDIMENTO</p><h2>Orientações em linguagem clara</h2></div>
+        <span class="step-count">Etapa 2 de 3</span>
+      </div>
+      <div class="fictional-banner"><span aria-hidden="true">ⓘ</span> Exemplo inteiramente fictício — não representa uma recomendação médica.</div>
+      <article class="guidance-card">
+        <h3>Exemplo de resumo</h3>
+        <p>“A equipe combinou que você fará um retorno em uma data definida pelo serviço. Se alguma orientação não ficou clara, entre em contato com a unidade para confirmar.”</p>
+        <div class="understand-check">
+          <p><strong>Em suas palavras, qual é a ideia principal deste exemplo?</strong></p>
+          <label class="choice"><input type="radio" name="understanding" value="correct"> Confirmar com o serviço a data do retorno e esclarecer dúvidas.</label>
+          <label class="choice"><input type="radio" name="understanding" value="wrong"> Alterar por conta própria as orientações recebidas.</label>
+          <label class="choice"><input type="radio" name="understanding" value="wrong"> O sistema está indicando um tratamento específico.</label>
+          <button class="button secondary" id="check-understanding" type="button">Verificar resposta</button>
+          <p class="feedback" id="understanding-feedback" aria-live="polite"></p>
+        </div>
+      </article>
+      <div class="actions"><button class="button secondary" data-go="prepare" type="button">← Voltar</button><button class="button primary" data-go="next" type="button">Continuar →</button></div>
+    </section>
+
+    <section class="panel hidden" id="view-next">
+      <div class="panel-heading">
+        <div><p class="eyebrow">ORGANIZAÇÃO</p><h2>Próximos passos</h2></div>
+        <span class="step-count">Etapa 3 de 3</span>
+      </div>
+      <p>Este exemplo mostra como ações combinadas com o serviço poderiam ser organizadas. Os itens abaixo são fictícios.</p>
+      <div class="next-list">
+        <div class="next-item"><span class="next-icon" aria-hidden="true">✓</span><div><strong>Confirmar a data de retorno</strong><p>Consulte a unidade ou o canal oficial do serviço.</p></div><span class="tag">Exemplo</span></div>
+        <div class="next-item"><span class="next-icon" aria-hidden="true">?</span><div><strong>Anotar dúvidas que permaneceram</strong><p>Leve as perguntas ao profissional responsável.</p></div><span class="tag">Exemplo</span></div>
+        <div class="next-item"><span class="next-icon" aria-hidden="true">↗</span><div><strong>Confirmar orientações pouco claras</strong><p>Não altere medicamentos ou condutas com base nesta demonstração.</p></div><span class="tag">Exemplo</span></div>
+      </div>
+      <div class="feedback-box"><h3>Como foi a experiência?</h3><p>Esta pergunta serve apenas para explorar a interface. A resposta não é enviada nem armazenada.</p><div class="rating" role="group" aria-label="Facilidade de uso"><button type="button" data-rating="1">1<br><small>Difícil</small></button><button type="button" data-rating="2">2</button><button type="button" data-rating="3">3</button><button type="button" data-rating="4">4</button><button type="button" data-rating="5">5<br><small>Fácil</small></button></div><p class="feedback" id="rating-feedback" aria-live="polite"></p></div>
+      <div class="actions"><button class="button secondary" data-go="guidance" type="button">← Voltar</button><button class="button primary" id="restart" type="button">Reiniciar demonstração</button></div>
+    </section>
+
+    <section class="limits" aria-labelledby="limits-title">
+      <h2 id="limits-title">Limites desta versão</h2>
+      <ul><li>Não faz diagnóstico, prescrição nem recomenda tratamento.</li><li>Não se conecta a prontuários ou serviços de saúde.</li><li>Não envia nem armazena as respostas desta demonstração.</li><li>Todo conteúdo clínico é fictício e serve somente para demonstrar a interface.</li></ul>
+    </section>
+    <footer>Protótipo acadêmico inicial · Conversa Clara · Não destinado ao uso assistencial.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
