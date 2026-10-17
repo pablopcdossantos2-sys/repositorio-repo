@@ -12,6 +12,8 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Especificar o produto mínimo e seus limites.
 - [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
 - [ ] Ampliar e atualizar a revisão da literatura; identificar instrumentos apropriados.
+- [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
+- [ ] Criar matriz de evidências que conecte referências, requisitos e decisões de produto.
 - [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
 - [ ] Discutir pergunta, método e produto com a orientação acadêmica.
 
@@ -36,11 +38,13 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Implementar exemplo fictício de orientações em linguagem clara.
 - [x] Implementar organização demonstrativa dos próximos passos.
 - [x] Implementar navegação entre módulos e reinicialização local.
-- [ ] Testar manualmente em diferentes celulares e computadores.
+- [ ] Executar checklist técnico interno em diferentes celulares e computadores, sem participantes.
+- [ ] Testar manualmente com participantes somente após definição do protocolo e aprovações aplicáveis.
 - [ ] Refinar acessibilidade e documentar resultados dos testes.
 
 ## Fase 4 — Avaliação e aperfeiçoamento
-- [ ] Definir tarefas e indicadores de avaliação.
+- [x] Elaborar lista preliminar de tarefas e indicadores no protocolo preliminar de avaliação.
+- [ ] Definir tarefas, indicadores e critérios finais com a orientação.
 - [ ] Realizar testes aprovados com usuários adultos e profissionais.
 - [ ] Analisar resultados qualitativos e quantitativos.
 - [ ] Corrigir problemas de usabilidade e compreensão.
