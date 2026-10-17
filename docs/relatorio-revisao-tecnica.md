@@ -47,3 +47,34 @@ Esta foi uma revisão estática e correção de código. Ela não prova conformi
 ## 6. Critérios de saída para esta fase
 
 A revisão de código e a preparação do checklist estão concluídas. A verificação empírica do comportamento em navegador/dispositivos permanece pendente. Não foram realizados testes com participantes nem coletados dados de pesquisa.
+
+
+## 7. Verificação complementar — 17/10/2026
+
+### Inspeção do código e achados
+
+Foi feita nova inspeção do HTML, JavaScript e CSS atuais, incluindo os caminhos de navegação e reinicialização descritos no código.
+
+- **Navegação por teclado — inspeção de código:** os três destinos são botões HTML nativos, portanto entram na ordem normal de foco e aceitam ativação por teclado. Ao mudar de etapa, o script move o foco para o título do painel de destino e oculta os outros painéis com `display: none` via classe `.hidden` e `aria-hidden="true"`. Isso é coerente em princípio, mas precisa ser confirmado em navegador real.
+- **Checklist — inspeção de código:** os checkboxes têm rótulos explícitos; o texto de estado é atualizado numa região `aria-live="polite"`. O botão “Desmarcar tudo” limpa apenas o checklist, como seu rótulo indica.
+- **Compreensão — correção aplicada:** as opções de resposta estavam dentro de uma `div`, sem agrupamento semântico nativo. Foram envolvidas em `fieldset` com `legend` e o CSS foi ajustado para manter a apresentação visual. Isso dá ao leitor de tela um nome de grupo explícito.
+- **Reinicialização — inspeção de código:** o botão limpa os checkboxes, a opção de rádio, as mensagens de feedback, a seleção de nota e os estados `aria-pressed`; em seguida, retorna à etapa inicial e move o foco ao título. A confirmação real ainda precisa ocorrer no navegador.
+- **Escala de facilidade — inspeção de código:** as notas são botões com nomes acessíveis e `aria-pressed` sincronizado; a escala tem nome de grupo. O estado selecionado também é indicado visualmente, mas a percepção de contraste precisa ser medida.
+- **Telas estreitas — inspeção de CSS:** há regras para 560 px e 360 px, ações empilhadas até 360 px, quebra de textos longos e alvos de toque com altura mínima declarada de 44 px. Essas regras não provam ausência de rolagem horizontal; isso depende de teste em navegador.
+- **Movimento reduzido — inspeção de código/CSS:** o JavaScript consulta `prefers-reduced-motion` antes da rolagem suave, e o CSS remove transições quando a preferência está ativa.
+
+### Limitação operacional desta rodada
+
+**Não foi possível afirmar que o teste prático em navegador e leitor de tela foi concluído.** O repositório informa `has_pages: false` na metadata pública do GitHub e não foi encontrada configuração de workflow de publicação no inventário de arquivos. Além disso, o ambiente de execução desta revisão não conseguiu baixar os arquivos do GitHub para abrir a cópia local em Chromium. A inspeção acima é de código e metadata; não foi uma sessão real com Tab/Shift+Tab, zoom, TalkBack, NVDA ou VoiceOver.
+
+### Próxima execução manual necessária
+
+1. Abra `produto/index.html` localmente no navegador.
+2. Use somente Tab e Shift+Tab para percorrer os controles; confirme foco visível e ordem lógica.
+3. Ative cada botão com Enter e Espaço. Percorra as três etapas e confirme que o foco vai ao título correto.
+4. Marque itens, escolha cada tipo de resposta e uma nota; reinicie e confirme que tudo volta ao estado inicial, inclusive as mensagens.
+5. Repita em 320, 360, 390, 768 e 1280 px e com zoom de 200%; registre qualquer rolagem horizontal, sobreposição ou corte.
+6. No Android, use TalkBack; em computador, use NVDA com Firefox ou leitor de tela já disponível. Confirme que o grupo de opções de compreensão é anunciado com a legenda, que mudanças de etapa são percebidas e que os feedbacks são lidos.
+7. Use um verificador automatizado de acessibilidade e uma ferramenta de contraste como apoio, não como substituto do teste manual.
+
+Não marcar os testes de navegador, dispositivo ou leitor de tela como concluídos até que alguém os execute e registre os resultados.
