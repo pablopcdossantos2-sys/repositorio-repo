@@ -13,7 +13,7 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
 - [ ] Ampliar e atualizar a revisão da literatura; identificar instrumentos apropriados.
 - [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
-- [ ] Criar matriz de evidências que conecte referências, requisitos e decisões de produto.
+- [x] Criar matriz inicial de evidências que conecta referências, requisitos e decisões de produto; ampliar após a revisão bibliográfica.
 - [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
 - [ ] Discutir pergunta, método e produto com a orientação acadêmica.
 
