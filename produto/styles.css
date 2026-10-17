@@ -18,3 +18,7 @@
   .actions .button { width: 100%; }
   .demo-label { max-width: 100%; white-space: normal; }
 }
+
+/* Agrupamento nativo e acessível das opções de compreensão. */
+.understand-check { border: 0; padding-left: 0; padding-right: 0; min-width: 0; }
+.understand-check legend { padding: 0; margin-bottom: 8px; font-weight: 700; }
