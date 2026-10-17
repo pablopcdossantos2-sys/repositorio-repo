@@ -24,18 +24,20 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [ ] Realizar diagnóstico de necessidades após as aprovações aplicáveis.
 
 ## Fase 2 — Especificação do produto
-- [ ] Definir requisitos mínimos com base na literatura e no diagnóstico.
-- [ ] Definir conteúdo e revisão profissional das orientações.
-- [ ] Definir requisitos de acessibilidade e linguagem simples.
-- [ ] Especificar política de dados, retenção e segurança.
-- [ ] Criar protótipo de baixa fidelidade antes de implementar.
+- [x] Definir requisitos mínimos iniciais com base na literatura.
+- [x] Definir limites de conteúdo e exigir revisão profissional de orientações clínicas.
+- [x] Documentar requisitos iniciais de acessibilidade e linguagem simples.
+- [x] Definir que a demonstração não coleta nem transmite dados.
+- [x] Criar primeira versão navegável com cenários fictícios.
+- [ ] Validar requisitos com usuários e profissionais após aprovações aplicáveis.
 
 ## Fase 3 — Protótipo funcional
-- [ ] Implementar checklist pré-consulta.
-- [ ] Implementar visualização de orientações validadas.
-- [ ] Implementar organização dos próximos passos.
-- [ ] Testar em celulares e computadores.
-- [ ] Documentar limitações e instruções de uso.
+- [x] Implementar checklist pré-consulta demonstrativo.
+- [x] Implementar exemplo fictício de orientações em linguagem clara.
+- [x] Implementar organização demonstrativa dos próximos passos.
+- [x] Implementar navegação entre módulos e reinicialização local.
+- [ ] Testar manualmente em diferentes celulares e computadores.
+- [ ] Refinar acessibilidade e documentar resultados dos testes.
 
 ## Fase 4 — Avaliação e aperfeiçoamento
 - [ ] Definir tarefas e indicadores de avaliação.
