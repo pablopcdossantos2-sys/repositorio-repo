@@ -11,7 +11,8 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Criar versão de trabalho organizada conforme o modelo oficial da UERJ.
 - [x] Especificar o produto mínimo e seus limites.
 - [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
-- [ ] Ampliar e atualizar a revisão da literatura; identificar instrumentos apropriados.
+- [x] Acrescentar quatro fontes relevantes à matriz e ao plano de referências (busca exploratória de 17/10/2026).
+- [ ] Executar busca estruturada nas bases e documentar estratégia, seleção e avaliação dos estudos.
 - [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
 - [x] Criar matriz inicial de evidências que conecta referências, requisitos e decisões de produto; ampliar após a revisão bibliográfica.
 - [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
@@ -38,7 +39,9 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Implementar exemplo fictício de orientações em linguagem clara.
 - [x] Implementar organização demonstrativa dos próximos passos.
 - [x] Implementar navegação entre módulos e reinicialização local.
-- [ ] Executar checklist técnico interno em diferentes celulares e computadores, sem participantes.
+- [x] Fazer revisão estática do HTML/CSS/JavaScript e corrigir pontos de foco, nomes acessíveis e estado de reinicialização.
+- [x] Documentar checklist técnico interno em `docs/relatorio-revisao-tecnica.md`.
+- [ ] Executar checklist manual em diferentes celulares, larguras e navegadores, sem participantes.
 - [ ] Testar manualmente com participantes somente após definição do protocolo e aprovações aplicáveis.
 - [ ] Refinar acessibilidade e documentar resultados dos testes.
 
