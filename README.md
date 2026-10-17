@@ -40,8 +40,12 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 ## Estrutura do repositório
 
 - [Anteprojeto — base de trabalho](docs/anteprojeto-base.md)
+- [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
+- [Referências iniciais e plano de busca bibliográfica](docs/referencias-e-busca-bibliografica.md)
 - [Plano de desenvolvimento e roadmap](docs/roadmap.md)
+- [Especificação do produto mínimo](docs/produto-minimo.md)
 - [Estratégia de parceria e ética](docs/parceria-e-etica.md)
+- [Roteiro de reunião com a Secretaria Municipal de Saúde](docs/roteiro-reuniao-secretaria.md)
 
 ## Situação atual
 
@@ -49,7 +53,7 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [x] Definido o cenário preferencial em Guaraí-TO e o plano alternativo simulado.
 - [ ] Conversar com a Secretaria Municipal de Saúde.
 - [ ] Confirmar fluxo, unidade potencial e autorizações necessárias.
-- [ ] Ajustar o anteprojeto ao modelo oficial da UERJ.
+- [x] Criar uma versão de trabalho organizada conforme o modelo oficial da UERJ (ainda precisa de revisão e adequação final).
 - [ ] Refinar método, instrumentos e plano de análise com a orientação.
 - [ ] Submeter o protocolo à apreciação ética aplicável antes da pesquisa com participantes.
 
