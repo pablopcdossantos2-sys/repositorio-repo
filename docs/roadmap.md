@@ -11,7 +11,7 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Criar versão de trabalho organizada conforme o modelo oficial da UERJ.
 - [x] Especificar o produto mínimo e seus limites.
 - [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
-- [x] Acrescentar quatro fontes relevantes à matriz e ao plano de referências (busca exploratória de 17/10/2026).
+- [x] Acrescentar cinco fontes relevantes à matriz e ao plano de referências (busca exploratória de 17/10/2026).
 - [ ] Executar busca estruturada nas bases e documentar estratégia, seleção e avaliação dos estudos.
 - [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
 - [x] Criar matriz inicial de evidências que conecta referências, requisitos e decisões de produto; ampliar após a revisão bibliográfica.
