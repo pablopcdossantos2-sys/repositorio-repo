@@ -59,3 +59,28 @@ Termos em inglês:
 ## Nota
 
 Estas referências formam uma base inicial, não uma revisão sistemática nem uma bibliografia final. Conferir metadados, normas da instituição e atualidade antes da submissão.
+
+
+## Referências acrescentadas na busca de 17/10/2026
+
+7. **WORLD HEALTH ORGANIZATION; INTERNATIONAL TELECOMMUNICATION UNION (2024).** *Implementation toolkit for accessible telehealth services.* Disponível em: https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities. Acesso em: 17 out. 2026.  
+   Relevância: orientação prática para integrar acessibilidade ao planejamento e à implementação de serviços de telessaúde. Complementa o padrão global de 2022.
+
+8. **WORLD WIDE WEB CONSORTIUM (W3C) (2024).** *Web Content Accessibility Guidelines (WCAG) 2.2.* W3C Recommendation, 12 dez. 2024. Disponível em: https://www.w3.org/TR/WCAG22/. Acesso em: 17 out. 2026.  
+   Relevância: critérios técnicos para conteúdo web acessível, incluindo operação por teclado, foco visível, alvos de ponteiro e apresentação do conteúdo. Usar como referência de auditoria, sem declarar conformidade total sem avaliação apropriada.
+
+9. **SANTOS, Marissa Rocha et al. (2023).** The Brazilian version of the telehealth usability questionnaire (telehealth usability questionnaire Brazil): translation, cross-cultural adaptation, and psychometric properties. *Revista da Associação Médica Brasileira*, v. 69, n. 12, e20230228. DOI: https://doi.org/10.1590/1806-9282.20230228.  
+   Relevância: oferece um possível instrumento em português brasileiro para discutir a avaliação de usabilidade de telessaúde. A adequação ao protótipo e as condições de uso devem ser verificadas antes de selecionar o instrumento.
+
+10. **JIANG, Xin et al. (2024).** The level of electronic health literacy among older adults: a systematic review and meta-analysis. *Archives of Public Health*, v. 82, art. 204. DOI: https://doi.org/10.1186/s13690-024-01428-9.  
+    Relevância: revisão de 48 estudos e 33.919 adultos mais velhos que destaca variação e desafios de literacia eletrônica em saúde. Não assumir que as estimativas agregadas representem o público local.
+
+11. **DUNNETT, Jo et al. (2025).** Effectiveness and acceptability of interventions to improve readability of patient healthcare materials: a narrative systematic review. *Public Health*, v. 248, art. 105937. DOI: https://doi.org/10.1016/j.puhe.2025.105937.  
+    Relevância: sintetiza intervenções de legibilidade em materiais de saúde; aponta resultados favoráveis à compreensão e preferência para conteúdo simplificado, mas evidência mista para adesão e desfechos. Não sustenta inferências de eficácia clínica para este protótipo.
+
+### Registro desta rodada de busca
+
+- Data: 17/10/2026.
+- Estratégia: buscas exploratórias na web por diretrizes oficiais e artigos de revisão ou validação relacionados a acessibilidade de telessaúde, WCAG, usabilidade de telessaúde em português brasileiro, literacia em saúde digital e legibilidade de materiais para pacientes.
+- Seleção desta rodada: quatro fontes novas priorizadas pela relação direta com os requisitos técnicos ou com a avaliação do protótipo.
+- Limitação: esta rodada não é uma revisão sistemática. Ainda é necessário executar e registrar buscas estruturadas nas bases indicadas, aplicar critérios de inclusão/exclusão e examinar os textos integrais.
