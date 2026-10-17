@@ -75,3 +75,8 @@ As fontes abaixo foram localizadas em páginas oficiais de organizações, peri�
 3. Discutir o TUQ Brazil com a orientação como opção possível, não como instrumento já selecionado.
 4. Evitar tratar adultos como um grupo digitalmente homogêneo; o protocolo deve considerar variedade de experiência e acessibilidade.
 5. Não concluir que usabilidade ou clareza do protótipo melhora adesão, continuidade real do cuidado ou desfechos clínicos.
+
+
+## 7. Relação com a busca bibliográfica estruturada
+
+A síntese crítica e as estratégias de busca estão em [docs/busca-bibliografica-estruturada.md](busca-bibliografica-estruturada.md). Os estudos de Kim e Xie (2017), Daraz et al. (2018), Milanti et al. (2023), Santos et al. (2023), Jiang et al. (2024), Neves et al. (2025), Oliveira et al. (2025), Wiener e Abuhalimeh (2025) e Colussi et al. (2026) ajudam a sustentar requisitos de linguagem compreensível, acessibilidade e avaliação contextualizada. A síntese é provisória; a execução documentada das buscas nas interfaces oficiais, leitura integral e avaliação formal de qualidade ainda são necessárias.
