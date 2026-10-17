@@ -12,7 +12,8 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Especificar o produto mínimo e seus limites.
 - [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
 - [x] Acrescentar cinco fontes relevantes à matriz e ao plano de referências (busca exploratória de 17/10/2026).
-- [ ] Executar busca estruturada nas bases e documentar estratégia, seleção e avaliação dos estudos.
+- [x] Definir a pergunta, registrar strings propostas e critérios de elegibilidade e elaborar síntese crítica preliminar de nove estudos (17/10/2026); ver `docs/busca-bibliografica-estruturada.md`.
+- [ ] Executar e registrar as buscas diretamente nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO; contabilizar resultados/duplicatas/exclusões e concluir leitura integral e avaliação formal de qualidade.
 - [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
 - [x] Criar matriz inicial de evidências que conecta referências, requisitos e decisões de produto; ampliar após a revisão bibliográfica.
 - [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
