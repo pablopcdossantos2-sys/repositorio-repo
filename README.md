@@ -47,6 +47,7 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [Estratégia de parceria e ética](docs/parceria-e-etica.md)
 - [Protocolo preliminar de avaliação](docs/protocolo-preliminar-avaliacao.md)
 - [Matriz de evidências e requisitos](docs/matriz-evidencias-requisitos.md)
+- [Relatório de revisão técnica do protótipo](docs/relatorio-revisao-tecnica.md)
 - [Roteiro de reunião com a Secretaria Municipal de Saúde](docs/roteiro-reuniao-secretaria.md)
 - [Protótipo — página inicial](produto/index.html)
 - [Estilos do protótipo](produto/styles.css)
