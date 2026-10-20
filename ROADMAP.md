@@ -67,7 +67,7 @@ O arquivo [`docs/tarefas-pessoais-e-proximos-passos.md`](docs/tarefas-pessoais-e
 - [ ] Examinar os textos integrais pertinentes e avaliar criticamente as evidências de acordo com o tipo de estudo.
 - [ ] Atualizar `docs/busca-bibliografica-estruturada.md` e `docs/matriz-evidencias-requisitos.md` com resultados reproduzíveis.
 - [ ] Conferir referências bibliográficas, DOI, metadados e adequação das afirmações aos estudos.
-- [ ] Comparar e escolher o tema final usando os sete critérios do edital e a matriz de cinco candidatos em `docs/criterios-edital-e-cinco-temas.md`.
+- [ ] Comparar e escolher o tema final usando os sete critérios do edital e a matriz de seis candidatos em `docs/criterios-edital-e-cinco-temas.md`.
 - [ ] Discutir com a orientação a aderência da pergunta e dos objetivos à linha “Tecnologias para Educação em Saúde”, ao tipo de projeto selecionado, aos instrumentos e à viabilidade dentro do prazo.
 - [ ] Conferir o edital e o modelo oficial vigentes da UERJ, incluindo extensão, formato e campos que ainda são rascunho.
 
