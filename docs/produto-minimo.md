@@ -58,9 +58,9 @@ A tabela separa a especificação desejada da implementação observada no códi
 | RF-03 — checklist de preparação | Implementado | Há quatro itens e controle para desmarcar; confirmar comportamento manualmente. |
 | RF-04 — entrada fictícia na sala | Implementado | O botão apresenta feedback e não abre uma sala real. |
 | RF-05 — controles fictícios de áudio e comunicação | Implementado | Os controles só atualizam mensagens locais; confirmar no navegador e na inspeção de rede. |
-| RF-06 — três cenários com escolhas e feedback | Implementado | Link, áudio e esclarecimento; revisão editorial e auditoria manual pendentes. |
+| RF-06 — três cenários com escolhas e feedback | Implementado | Link, áudio e esclarecimento; revisão editorial concluída, teste de regressão e auditoria manual pendentes. |
 | RF-07 — prática interativa de encerramento | **Pendente / decisão de escopo** | Há exemplos estáticos, mas não uma tarefa de escolha com feedback para OE-05. |
-| RF-08 — feedback claro e respeitoso | Parcialmente implementado | Feedbacks existem nos três cenários; revisão pedagógica e de linguagem pendente. |
+| RF-08 — feedback claro e respeitoso | Implementado em texto, ainda não verificado por regressão | Feedbacks dos três cenários foram revisados editorialmente; falta executar a suíte após a edição e fazer auditoria manual. |
 | RF-09 — reiniciar e limpar estados locais | Implementado em código | Confirmar manualmente que todos os estados e o foco retornam corretamente. |
 | RF-10 — não coletar/transmitir/persistir dados | Implementado por desenho e inspeção estática parcial | Não equivale a prova universal; executar a verificação de Network/Application no navegador. |
 | RF-11 — conteúdo fictício e sem aconselhamento clínico | Implementado em conteúdo atual | Revisar textos e verificar que nada sugere serviço oficial ou instrução clínica individual. |
