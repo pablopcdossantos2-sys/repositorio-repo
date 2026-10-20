@@ -288,3 +288,12 @@ Uma rodada complementar na web localizou literatura metodológica sobre avaliaç
 A literatura recente sobre simulação encontrada neste levantamento está orientada sobretudo à formação profissional. Ela ajuda a selecionar métodos de teste pré-piloto, mas não demonstra ausência de simuladores autoguiados de pacientes. Para o protótipo, adotar uma rubrica candidata por tarefa: (a) ação segura e adequada concluída independentemente; (b) ação adequada após ajuda/feedback; (c) escolha insegura ou tarefa não concluída. Registrar também o tipo de ajuda e a compreensão do feedback, sem tratar sucesso imediato como prova de aprendizagem duradoura.
 
 **Limite:** busca realizada em resultados web, com abertura de páginas acessíveis; não executada com contagens ou exportações dentro das interfaces oficiais das três bases. Não usar os registros como resultado exaustivo nem alegar conformidade PRISMA.
+
+
+## 10. Benchmark de recursos educativos e orientações públicas — rodada exploratória de 20/10/2026
+
+Foi criado o documento [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md), com descrição preliminar de Digital House Calls (BridgingApps), tutorial de teleconsulta do TelessaúdeBA, guias do HHS, Patient Telehealth Readiness Assessment Tool do NCFH e toolkit WHO/ITU, além da revisão de escopo de Galvin et al. (2024).
+
+O benchmark sugere que existem materiais de preparação autoguiada e tutoriais de acesso; portanto, **não se deve alegar originalidade do produto com base apenas no fluxo antes/durante/depois ou em instruções de preparação**. Uma possível contribuição a investigar é a prática de escolhas com feedback imediato em situações fictícias, em português brasileiro e sem dados reais, mas isso ainda precisa ser comparado de forma mais completa e não constitui prova de inovação.
+
+Esta rodada foi uma pesquisa web exploratória e não substitui as buscas nas interfaces oficiais, a leitura integral dos materiais nem uma comparação exaustiva. As strings, datas, contagens, exportações e triagem das bases oficiais continuam pendentes.
