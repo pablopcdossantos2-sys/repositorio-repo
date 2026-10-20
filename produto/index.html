@@ -56,7 +56,16 @@
       <div class="fictional-banner"><span aria-hidden="true">ⓘ</span> Exemplo inteiramente fictício — não representa uma recomendação médica.</div>
       <article class="guidance-card">
         <h3>Situação simulada</h3>
-        <p>Você entrou na sala virtual fictícia, mas não consegue ouvir a pessoa profissional. Qual seria uma ação segura para tentar resolver a dificuldade?</p>
+        <p>Você entrou na sala virtual fictícia, mas não consegue ouvir a pessoa profissional. Pratique primeiro uma ação nos controles simulados e depois escolha o que faria nesta situação.</p>
+        <div class="simulation-card" aria-label="Controles fictícios da sala virtual">
+          <h4>Controles da sala de treino</h4>
+          <p>Estes botões não ativam microfone nem áudio real; servem apenas para praticar a sequência.</p>
+          <div class="simulation-actions">
+            <button class="button secondary" id="simulate-audio" type="button">Conferir áudio (simulação)</button>
+            <button class="button secondary" id="simulate-help" type="button">Avisar que não estou ouvindo</button>
+          </div>
+          <p class="feedback" id="room-feedback" aria-live="polite"></p>
+        </div>
         <fieldset class="understand-check">
           <legend>O que você pode fazer primeiro?</legend>
           <label class="choice"><input type="radio" name="understanding" value="correct"> Conferir o volume ou o controle de áudio disponível e avisar que não está ouvindo.</label>
