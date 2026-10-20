@@ -19,7 +19,7 @@ Como um simulador educativo web, acessível e desenvolvido em linguagem simples,
 ## Produto mínimo em foco
 
 1. **Antes:** preparar aparelho, conexão, ambiente privado e dúvidas que a pessoa deseja levar ao atendimento.
-2. **Durante — simulação:** praticar a entrada em uma sala fictícia, reconhecer controles básicos e escolher ações seguras diante de problemas simples, como não ouvir o profissional.
+2. **Durante — simulação:** praticar em três situações selecionáveis: o link não abre, não consigo ouvir e não entendi uma informação. Cada escolha recebe feedback específico, sem conexão com sistemas reais.
 3. **Ao encerrar:** praticar como pedir esclarecimentos, confirmar o que ficou combinado e identificar canais oficiais de contato quando persistirem dúvidas.
 
 Os cenários e nomes serão fictícios. O produto não terá login, integração com prontuários, inteligência artificial, diagnóstico, prescrição nem recomendação clínica automatizada. Não deverá pedir nem armazenar informações pessoais ou de saúde. A interface deve oferecer instruções passo a passo, linguagem clara, botões identificáveis, baixa carga cognitiva e uso em celular.
@@ -61,6 +61,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Especificação do produto mínimo](docs/produto-minimo.md)
 - [Protocolo preliminar de avaliação](docs/protocolo-preliminar-avaliacao.md)
 - [Matriz de evidências e requisitos](docs/matriz-evidencias-requisitos.md)
+- [Nota de evidências e decisões para o tema](docs/nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md)
 - [Critérios do edital e decisão de tema](docs/criterios-edital-e-seis-temas.md)
 - [Plano de parceria e ética](docs/parceria-e-etica.md)
 - [Roteiro de conversa exploratória com a Secretaria](docs/roteiro-reuniao-secretaria.md)
@@ -83,7 +84,9 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 
 - [x] Tema de trabalho escolhido: **Treino de Teleconsulta**.
 - [x] Enquadramento declarado na linha de Tecnologias para Educação em Saúde.
-- [x] Protótipo técnico inicial existente; sua interface deve permanecer alinhada à simulação de teleconsulta.
+- [x] Protótipo reorientado ao tema, com três situações interativas e feedback condicionado à escolha.
+- [x] Contraste de foco e bordas significativas incluído nas verificações estáticas.
+- [ ] Confirmar a suíte automatizada após a última atualização de cenários; testes manuais de acessibilidade continuam pendentes.
 - [ ] Refinar pergunta, objetivos e definição operacional de “baixa familiaridade digital” com a orientação.
 - [ ] Concluir busca bibliográfica reproduzível nas bases previstas e mapear produtos semelhantes.
 - [ ] Validar os objetivos educativos, os cenários e os critérios de êxito.
