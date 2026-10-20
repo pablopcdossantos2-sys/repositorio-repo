@@ -17,7 +17,7 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 
 ## Critérios de revisão de textos e feedbacks
 
-A revisão editorial dos cenários e os critérios observáveis por objetivo, feedback e teste estão documentados em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md) e na [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md). Esses documentos orientam a inspeção sem participantes; não demonstram compreensão pelo público-alvo.
+A revisão editorial e a simplificação da linguagem dos cenários, assim como os critérios observáveis por objetivo, feedback e teste, estão documentadas em [Revisão editorial e simplificação dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md) e na [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md). A interface troca termos mais abstratos por ações concretas, mas a adequação desses textos ao público-alvo não foi testada e continua sendo hipótese de design.
 
 ## Princípios de design
 

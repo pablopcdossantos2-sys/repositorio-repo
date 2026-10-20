@@ -323,3 +323,23 @@ Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos
 
 
 - [x] Conferir o encadeamento documental: o roadmap técnico também aponta diretamente para a [matriz de critérios de qualidade dos textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md).
+
+
+## Atualização — segunda simplificação editorial dos cenários (20/10/2026)
+
+### Concluído nesta rodada
+
+- [x] Tornar o texto de acesso mais concreto: verificar a internet, confirmar o link pelo contato informado anteriormente pelo serviço de saúde e pedir ajuda por esse contato se a falha persistir.
+- [x] Substituir “saída de som” por referência ao volume, alto-falante ou fone em uso; manter o pedido de ajuda se o áudio continuar falhando.
+- [x] Simplificar o cenário de esclarecimento para pedir repetição/explicação em outras palavras e confirmar o próximo passo mencionado.
+- [x] Harmonizar HTML, JavaScript, testes Playwright, mapa de objetivos, matriz editorial, especificação, anteprojetos, README e diretriz para IAs.
+- [x] Preservar a etapa “Encerrar” como conteúdo estático; não acrescentar uma interação sem decisão de escopo.
+
+### Pendências e limite
+
+- [ ] Executar a suíte Playwright/axe-core e confirmar a CI associada ao commit atual.
+- [ ] Fazer auditoria manual de teclado, foco, mensagens, zoom/reflow, leitor de tela, estados visuais e comportamento de rede.
+- [ ] Executar a busca bibliográfica formal e registrar contagens/exportações reais.
+- [ ] Confirmar com a orientação se o desenho sem participantes atende aos requisitos do curso.
+
+A revisão é documental e de conteúdo. Não comprova compreensão do público-alvo, usabilidade real ou eficácia educativa.

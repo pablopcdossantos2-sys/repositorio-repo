@@ -444,3 +444,29 @@ A matriz, a especificação do produto, o mapa de objetivos, o README, o antepro
 
 
 O roadmap técnico `docs/roadmap.md` também aponta para a matriz de critérios, junto do `README.md`, `ROADMAP.md`, mapa de objetivos, especificação do produto e anteprojetos. Esta verificação foi documental; não altera o estado dos testes.
+
+
+## Atualização de continuidade — segunda simplificação editorial dos cenários (20/10/2026)
+
+### Alterações desta rodada
+
+- Os textos de OE-02 usam uma ação mais concreta: verificar a internet e confirmar o link pelo contato que o serviço de saúde informou anteriormente, pedindo ajuda por esse contato se o problema persistir.
+- Os textos de OE-03 nomeiam volume, alto-falante ou fone, em vez de depender apenas da expressão “saída de som”; o texto reconhece que os dispositivos podem variar.
+- Os textos de OE-04 orientam pedir repetição/explicação em outras palavras e confirmar o próximo passo, sem adivinhar ou modificar orientação profissional.
+- O HTML, os feedbacks JavaScript, os testes Playwright e a documentação ligada aos objetivos e anteprojetos foram atualizados em conjunto.
+- A etapa “Encerrar” permanece composta por exemplos estáticos. A escala de facilidade não foi transformada em tarefa de aprendizagem, e nenhuma funcionalidade nova foi acrescentada.
+
+### Evidências e limites
+
+Os guias do HHS e o toolkit WHO/ITU orientam princípios gerais de preparação e acessibilidade; Galvin et al. (2024) alerta para a evidência limitada/mista sobre melhoria de competência em estratégias de treinamento. Essas fontes não validam os microtextos específicos. A alteração é uma decisão editorial de design, não uma avaliação da compreensão, usabilidade ou eficácia com adultos com baixa familiaridade digital.
+
+### Pendências a manter
+
+- Executar Playwright/axe-core para o commit atual e conferir o resultado da CI; não inferir aprovação apenas pela existência dos testes.
+- Fazer auditoria manual de teclado, foco, zoom/reflow, mensagens anunciadas, responsividade e comportamento de rede.
+- Executar e registrar as buscas formais em PubMed/MEDLINE, BVS/LILACS e SciELO.
+- Confirmar com a orientação se o plano inicial sem participantes atende aos requisitos do curso.
+
+### Diretriz para a próxima IA
+
+Ao continuar, leia novamente o README, o roadmap e este documento. Use o registro editorial, a matriz e o mapa de objetivos como fontes de rastreabilidade; não afirme validação dos textos com usuários, nem implemente uma tarefa interativa de encerramento sem revisar o ganho pedagógico e a decisão de escopo.
