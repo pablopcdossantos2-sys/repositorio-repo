@@ -20,11 +20,11 @@
 
 | ID | Requisito / objetivo de aprendizagem | Justificativa | Como verificar sem participantes | Estado |
 |---|---|---|---|---|
-| OA-01 | Reconhecer passos básicos de preparação do aparelho e do ambiente | Reduzir a complexidade percebida por meio de uma sequência clara e previsível | Conferir instruções e testar checklist local | Implementado na interface; retestar após a alteração do conteúdo |
-| OA-02 | Praticar a entrada em uma sala virtual fictícia | Treinar sequência de ações sem expor o usuário a um serviço real | Inspecionar instruções e garantir que nenhum link real seja aberto | Conteúdo em desenvolvimento; verificar no navegador |
-| OA-03 | Escolher uma resposta segura diante de uma falha de áudio simulada | Permitir prática contextual e feedback orientado à tarefa | Testar opções correta/incorretas e mensagem de feedback | Implementado no cenário; retestar após a alteração |
-| OA-04 | Ensaiar pedido de repetição/esclarecimento | Tornar visível uma estratégia de comunicação que pode ser praticada sem dados pessoais | Revisar clareza da frase modelo e confirmar sua natureza fictícia | Incluído como conteúdo; revisar pedagogicamente |
-| OA-05 | Localizar e confirmar os próximos passos apresentados no cenário | Praticar a confirmação de informação sem gerar recomendação clínica | Verificar hierarquia visual e conteúdo fictício | Incluído como conteúdo; testar responsividade |
+| OA-01 | Reconhecer passos básicos de preparação do aparelho e do ambiente | Reduzir a complexidade percebida por meio de sequência clara | Conferir instruções e testar checklist local | Implementado; retestar na CI mais recente |
+| OA-02 | Responder à indisponibilidade de uma sala virtual fictícia | Praticar conferir conexão/link oficial e pedir ajuda por canal conhecido | Selecionar resposta segura/insegura e conferir feedback; verificar ausência de requisição real | Implementado; reteste automatizado pendente após a última alteração |
+| OA-03 | Escolher uma resposta segura diante de falha de áudio simulada | Prática contextual de controle e comunicação de dificuldade | Testar respostas corretas/incorretas, os controles locais e o feedback | Implementado; reteste automatizado pendente |
+| OA-04 | Pedir repetição/esclarecimento em vez de fingir que entendeu | Praticar comunicação clara sem orientação clínica individual | Testar respostas corretas/incorretas e feedback contextual | Implementado no cenário 3; reteste automatizado e revisão pedagógica pendentes |
+| OA-05 | Localizar e confirmar os próximos passos apresentados no cenário | Praticar confirmação de informação sem gerar recomendação clínica | Verificar hierarquia visual e conteúdo fictício | Incluído; revisão pedagógica e responsividade pendentes |
 | RF-01 | Explicar finalidade e limites do simulador | Evitar confusão com serviço clínico ou plataforma oficial | Revisão textual da tela inicial e dos avisos | Implementado; retestar |
 | RF-02 | Navegar entre três etapas sem conta | Simplicidade e baixo atrito | Percorrer todas as rotas em desktop e celular | Implementado; retestar |
 | RF-03 | Manter todas as escolhas somente na sessão local | Privacidade por padrão | Inspecionar armazenamento, código e rede | Declarado; revalidar tecnicamente |
@@ -35,6 +35,8 @@
 | AQ-04 | Dar feedback simples e não punitivo | Apoiar a prática sem aumentar a carga cognitiva | Acionar estados vazios, respostas corretas/incorretas e reinicialização | Implementado; retestar |
 
 ## 3. Lacunas prioritárias para o Treino de Teleconsulta
+
+A revisão de escopo de Galvin et al. (2024) é evidência diretamente pertinente ao treinamento de usuários, mas identifica formatos predominantemente mediados e evidência limitada/mista de melhoria de competência. O curso Digital House Calls, em inglês e espanhol, demonstra que já existem recursos autoguiados com vídeos e plano antes/durante/depois. Portanto, **a lacuna de um simulador autoguiado em português permanece hipótese a verificar**, não conclusão desta matriz. Ver [Nota de evidências e decisões de 20/10/2026](nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md).
 
 1. Estudos empíricos sobre preparação/treinamento de usuários para teleconsultas e prática de tarefas digitais.
 2. Recursos ou simuladores existentes que ensinem entrada em sala virtual, uso de controles e resposta a problemas técnicos simples.
