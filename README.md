@@ -1,5 +1,7 @@
 # Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital
 
+> **Para continuidade do trabalho:** antes de qualquer alteração, leia [Estado atual do projeto e diretrizes para IAs](docs/estado-atual-e-diretrizes-para-ias.md). Esse documento consolida as decisões vigentes e orienta como resolver conflitos com rascunhos anteriores.
+
 Projeto de pesquisa tecnológica em desenvolvimento para o **Mestrado Profissional em Telessaúde e Saúde Digital da UERJ**. O tema escolhido é, de forma exclusiva:
 
 > **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital.**
