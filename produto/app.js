@@ -55,10 +55,10 @@
       return;
     }
     if (selected.value === "correct") {
-      feedback.textContent = "Isso! No exemplo, a pessoa deve confirmar o retorno e esclarecer dúvidas com o serviço. O texto é fictício.";
+      feedback.textContent = "Isso! Primeiro, confira o controle de áudio disponível e avise que não está ouvindo. Esta é uma situação fictícia; o simulador não se conecta a uma consulta real.";
       feedback.style.color = "#155e42";
     } else {
-      feedback.textContent = "Essa não é a ideia do exemplo. A demonstração não orienta alteração de condutas; dúvidas devem ser esclarecidas com o serviço.";
+      feedback.textContent = "Tente novamente: não precisa encerrar sem avisar nem compartilhar dados pessoais. Procure o controle de áudio visível e comunique a dificuldade.";
       feedback.style.color = "#8a4b00";
     }
   });
