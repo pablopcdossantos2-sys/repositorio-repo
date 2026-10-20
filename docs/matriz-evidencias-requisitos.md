@@ -2,6 +2,8 @@
 
 > **Status: preliminar.** Esta matriz organiza a fundamentação já listada no repositório; não equivale a revisão sistemática, avaliação formal da qualidade da evidência ou validação clínica. As referências e seus metadados devem ser conferidos antes da versão final do anteprojeto.
 
+**Enquadramento do projeto:** linha “2) Tecnologias para Educação em Saúde”; tipo “Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”. Os requisitos devem priorizar qualidade educativa, linguagem clara, acessibilidade e compreensão das mensagens, sem presumir aprendizagem duradoura ou eficácia clínica.
+
 ## 1. Matriz de rastreabilidade
 
 | Tema | Referência inicial | Implicação para o projeto | Requisito ou decisão de produto | Evidência ainda necessária |
