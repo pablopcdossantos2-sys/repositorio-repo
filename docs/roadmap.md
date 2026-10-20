@@ -20,7 +20,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Criar uma primeira interface web estática, com cenários fictícios e sem dependências externas no tempo de uso.
 - [x] Reorientar a interface para três etapas gerais: preparação, situações simuladas durante a consulta e encerramento.
 - [x] Implementar três situações selecionáveis com feedback dependente da resposta (link indisponível, áudio e pedido de esclarecimento).
-- [ ] Mapear objetivos de aprendizagem e vincular cada um a uma tarefa observável e a um teste.
+- [x] Criar mapa preliminar de objetivos educativos e tarefas ([mapa](mapa-objetivos-educativos-e-tarefas.md)).
+- [ ] Revisar objetivos, tarefas e testes, incluindo a lacuna de prática interativa no encerramento.
 - [ ] Definir de modo não estigmatizante o que será considerado “baixa familiaridade digital”.
 
 ## Fase 1 — Evidências e diferenciação (P0)
