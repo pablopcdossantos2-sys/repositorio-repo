@@ -62,6 +62,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](docs/roteiro-auditoria-tecnica-sem-participantes.md)).
 - [x] Realizar e registrar inspeção estática parcial do HTML/JS/CSS, incluindo busca por campos pessoais e APIs comuns de rede/persistência ([registro](docs/registro-auditoria-estatica-2026-10-20.md)).
 - [x] Calcular contraste de combinações selecionadas de texto, foco e estados e registrar possíveis pendências ([verificação preliminar](docs/verificacao-preliminar-contraste-2026-10-20.md)).
+- [x] Fazer revisão contextual estática das bordas com baixo contraste: há outros indicadores de estado no código, mas AUD-15 segue parcial até teste manual em navegador/tecnologia assistiva.
 - [x] Conferir a última CI para o código do protótipo inspecionado: 22 testes Playwright + axe-core passaram no commit de código registrado ([execução](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)); os testes manuais continuam pendentes.
 - [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
 - [x] Criar mapa preliminar de objetivos educativos e tarefas, distinguindo conteúdo estático de prática interativa ([mapa](docs/mapa-objetivos-educativos-e-tarefas.md)).
@@ -154,3 +155,10 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 - [ ] Personalizar nome e motivação do candidato e confirmar no edital vigente duração e permissão de slides.
 
 **Arquivos adicionados:** `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`. A apresentação é material de preparação, não substitui a conferência do edital vigente nem validação acadêmica do método.
+
+
+## Atualização — revisão contextual de contraste (20/10/2026)
+
+- [x] Relidos os seletores CSS e os elementos HTML relacionados às três bordas de baixo contraste.
+- [x] Registrado que a etapa ativa também usa fundo, texto, círculo preenchido e `aria-current`; o checklist usa checkbox nativo e fundo; o aviso contém símbolo, fundo e texto explícito.
+- [ ] Confirmar esses indicadores no estado renderizado, teclado e tecnologia assistiva. AUD-15 permanece parcial; nenhuma mudança de CSS foi feita.
