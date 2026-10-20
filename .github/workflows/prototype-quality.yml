@@ -1,0 +1,35 @@
+name: Prototype quality checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "produto/**"
+      - "scripts/**"
+      - ".github/workflows/prototype-quality.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "produto/**"
+      - "scripts/**"
+      - ".github/workflows/prototype-quality.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-checks:
+    name: Static checks for the web prototype
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Check JavaScript syntax
+        run: node --check produto/app.js
+      - name: Check prototype structure, accessibility safeguards and local behavior
+        run: node scripts/check-prototype.mjs
