@@ -55,7 +55,7 @@ Todos os nomes, mensagens e situações devem permanecer fictícios e não devem
 
 ## 4. Evidências e pesquisa bibliográfica: estado real
 
-Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`) e documentação de estudos e recomendações de acessibilidade. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
+Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`docs/roteiro-auditoria-tecnica-sem-participantes.md`) e documentação de estudos e recomendações de acessibilidade. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
 
 Continuam pendentes:
 - executar e documentar buscas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO;
@@ -90,7 +90,7 @@ Quando o código ou os fluxos mudarem:
 ### P1 — Produto e avaliação técnica sem participantes
 6. Revisar conteúdo e fluxo, preservando o escopo enxuto e fictício.
 7. Garantir que cada funcionalidade tenha justificativa, requisito e verificação.
-8. Realizar auditoria técnica, pedagógica, de linguagem simples, privacidade e acessibilidade.
+8. Realizar auditoria técnica, pedagógica, de linguagem simples, privacidade e acessibilidade usando o roteiro de auditoria criado.
 9. Fazer testes manuais e documentar resultados, problemas em aberto e retestes.
 
 ### P2 — Consolidação
