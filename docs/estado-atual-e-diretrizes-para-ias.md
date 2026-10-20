@@ -150,6 +150,8 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 ## 10. Histórico desta consolidação
 
+- **20/10/2026 — continuação:** consolidadas estratégias e um formulário de registro para buscas em PubMed/MEDLINE, BVS/LILACS e SciELO. A tentativa de abrir páginas de resultados pelo ambiente de navegação não permitiu obter contagens; as consultas oficiais e exportações continuam pendentes. Foi realizada e documentada inspeção estática parcial do HTML/JS/CSS, sem execução no navegador, sem alteração do produto e sem nova rodada de testes automatizados. Os registros correspondentes foram ligados ao README e aos dois roadmaps.
+
 - **20/10/2026:** registrada a diretriz de começar com um projeto simples, sem ou com pouca interação com pessoas; a inclusão de teste com pessoas fica condicionada à orientação acadêmica. O guia foi criado e vinculado no README, nos roadmaps e nos documentos metodológicos; anteprojeto-modelo, guia de tarefas pessoais, especificação do produto e protocolo preliminar foram harmonizados para não tratar participação de pessoas como etapa inicial. Também foram acrescentados um benchmark exploratório de recursos públicos (Digital House Calls, TelessaúdeBA, HHS, NCFH e WHO/ITU), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes e um mapa preliminar de objetivos educativos/tarefas. As buscas oficiais, a execução da auditoria e o aprofundamento do benchmark continuam pendentes.
 
 **Ao alterar esta diretriz no futuro:** editar a data e o histórico acima, resumir o que mudou e atualizar os documentos dependentes. Não apagar decisões anteriores necessárias para entender por que o escopo foi alterado.
