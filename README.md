@@ -72,7 +72,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Plano de parceria e ética](docs/parceria-e-etica.md)
 - [Roteiro de conversa exploratória com a Secretaria](docs/roteiro-reuniao-secretaria.md)
 - [Busca bibliográfica estruturada — protocolo e síntese crítica](docs/busca-bibliografica-estruturada.md)
-- [Referências iniciais e plano de busca](docs/referencias-e-busca-bibliografica.md)
+- [Referências iniciais e plano de busca](docs/referencias-e-busca-bibliografica.md)\n- [Benchmark exploratório de recursos existentes](docs/benchmark-recursos-existentes.md)
 - [Revisão rápida de evidências e recomendações](docs/revisao-rapida-evidencias-e-recomendacoes.md)
 - [Registro da busca exploratória complementar — 19/10/2026](docs/registro-busca-exploratoria-2026-10-19.md)
 - [Registro da busca exploratória complementar — 20/10/2026](docs/registro-busca-exploratoria-2026-10-20.md)
