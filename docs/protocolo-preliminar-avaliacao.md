@@ -53,13 +53,13 @@ Se essa camada não for possível no prazo, ampliar a auditoria e o benchmark da
 | Código | Tarefa | Evidência possível |
 |---|---|---|
 | T1 | Encontrar os passos de preparação do aparelho/ambiente | conclusão, dúvida e necessidade de ajuda |
-| T2 | Seguir a instrução para entrar na sala virtual fictícia | conclusão e erro de navegação |
-| T3 | Responder a um cenário em que o áudio não é ouvido | escolha, interpretação e necessidade de ajuda |
-| T4 | Praticar como pedir repetição ou esclarecimento | adequação à tarefa simulada, segundo rubrica a definir |
-| T5 | Localizar os próximos passos apresentados no cenário | localização e compreensão da informação |
-| T6 | Reiniciar a experiência | se escolhas, mensagens e estado foram limpos |
+| T2 | No cenário em que o link não abre, selecionar como agir | escolha, compreensão do canal oficial e necessidade de ajuda |
+| T3 | Na situação sem áudio, praticar a conferência do controle e avisar que não ouve | ação escolhida, feedback compreendido e necessidade de ajuda |
+| T4 | Na situação de informação pouco clara, escolher como pedir repetição/esclarecimento | escolha, compreensão da instrução e necessidade de ajuda |
+| T5 | Localizar e confirmar os próximos passos apresentados no cenário de encerramento | localização e compreensão da informação |
+| T6 | Reiniciar a experiência e mudar entre cenários | se escolhas, mensagens, estados de cenário e nota foram limpos |
 
-Estas tarefas são candidatas para discussão, não um roteiro aprovado para executar com participantes. Os textos e critérios serão fechados antes de qualquer coleta.
+Estas tarefas correspondem aos três cenários atualmente implementados e continuam candidatas para discussão, não um roteiro aprovado para executar com participantes. Os critérios de conclusão, erros e necessidade de ajuda serão fechados com a orientação antes de qualquer coleta. A questão de uso autônomo versus mediado também permanece em aberto.
 
 ## 7. Indicadores candidatos
 
