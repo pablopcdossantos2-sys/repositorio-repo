@@ -14,6 +14,7 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 - [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
 - [Verificação preliminar de contraste (20/10/2026)](docs/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
 - [Revisão editorial dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — ajustes de instruções e feedbacks; testes de regressão e auditoria manual ainda pendentes.
+- [Matriz de critérios para revisão de textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
 
 ## Objetivo do projeto
 
