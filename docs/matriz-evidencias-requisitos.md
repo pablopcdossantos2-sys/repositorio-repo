@@ -127,3 +127,19 @@ A seleção e os limites da busca desta rodada estão registrados em [registro d
 | Acessibilidade de telessaúde | WHO; ITU (2024), *Implementation toolkit for accessible telehealth services*. https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities | Ampliar a auditoria de acessibilidade para além do contraste: verificar conteúdo compreensível, ordem e visibilidade do foco, navegação por teclado e, onde pertinente, compatibilidade com tecnologia assistiva e alternativas a conteúdos audiovisuais. | Trata-se de orientação para acessibilidade de serviços de telessaúde. A referência ajuda a planejar a auditoria, mas não prova conformidade automática do protótipo. |
 
 **Registro de procedência:** a rodada de 20/10/2026 foi exploratória na web; buscas oficiais reproduzíveis nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO, com exportação e contagens, continuam pendentes. Consulte [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
+
+
+## 11. Benchmark exploratório de recursos existentes — 20/10/2026
+
+O [benchmark de recursos existentes](benchmark-recursos-existentes.md) identifica materiais públicos que ajudam a preparar usuários para teleconsulta. O levantamento é exploratório, não exaustivo e não constitui teste comparativo de eficácia.
+
+| Fonte/recurso | O que acrescenta à matriz | Requisito ou decisão provisória | Limite |
+|---|---|---|---|
+| Galvin et al. (2024), revisão de escopo | Treinamentos de usuários frequentemente usam instruções e apoio técnico; evidência de melhora de competência é limitada/mista. | Não prometer eficácia; manter resultados esperados proporcionais à avaliação realizada. | Busca da revisão primária até junho de 2023; heterogeneidade dos estudos. |
+| BridgingApps — Digital House Calls | Curso autoguiado com vídeos e estrutura antes/durante/depois. | Comparar conteúdo e funcionalidades; não alegar originalidade pelo simples uso dessa sequência. | Página pública examinada, não curso integralmente auditado. |
+| TelessaúdeBA — tutorial do paciente | Etapas de acesso a um serviço brasileiro específico. | Considerar tarefas de acesso, mas manter exemplos fictícios e nunca pedir CPF ou dados reais. | Fluxo local específico; não universalizar. |
+| HHS — guias de preparação | Dispositivo, conexão, ambiente, privacidade e apoio técnico. | Verificar se a preparação cobre dispositivo/ambiente e alternativas seguras. | Contexto dos EUA; transferibilidade precisa de análise. |
+| NCFH — readiness tool | Prontidão inclui recursos, conectividade e necessidade de treinamento. | Considerar barreiras estruturais na fundamentação; não adicionar questionário de prontidão ao produto mínimo sem justificativa. | Ferramenta para uso mediado por equipe, contexto norte-americano. |
+| WHO/ITU (2024) | Recomenda integrar acessibilidade ao planejamento da telessaúde. | Traduzir recomendações aplicáveis em itens verificáveis na auditoria técnica/manual. | Diretriz de serviços, não avaliação direta do protótipo. |
+
+**Próxima ação:** verificar o conteúdo completo dos recursos comparadores mais próximos, executar buscas oficiais reproduzíveis e mapear cada requisito ao protótipo e a um teste interno. Não inferir validação por usuários nem eficácia educativa.
