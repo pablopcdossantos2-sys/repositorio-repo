@@ -79,6 +79,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Registro da busca exploratória complementar — 20/10/2026](docs/registro-busca-exploratoria-2026-10-20.md)
 - [Guia operacional das tarefas pessoais](docs/tarefas-pessoais-e-proximos-passos.md)
 - [Relatório de revisão técnica](docs/relatorio-revisao-tecnica.md)
+- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](docs/roteiro-auditoria-tecnica-sem-participantes.md)
 - [Carta de exposição de motivos — minuta editável](docs/carta-exposicao-de-motivos.md)
 - [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](docs/declaracao-conhecimento-deliberacao-13-2023.md)
 - [Protótipo — página inicial](produto/index.html)
