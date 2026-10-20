@@ -30,16 +30,16 @@ O público de interesse são **adultos com baixa familiaridade digital**; a defi
 
 ## Método de trabalho — ainda sujeito à orientação
 
-A preferência metodológica de trabalho é **identificar necessidades e produzir um protótipo fundamentado**, usando uma combinação enxuta de identificação de necessidades e revisão de uma representação simples da solução. O acesso ao público permanece incerto; nenhuma parceria, aprovação ou amostra está confirmada.
+A preferência metodológica inicial é desenvolver um **protótipo simples fundamentado em literatura e análise de soluções existentes**, com avaliação técnica, pedagógica e de acessibilidade sem participantes. A interação com pessoas não é requisito inicial; só será incorporada se a orientação acadêmica indicar que é necessária e após verificar viabilidade e autorizações. Nenhuma parceria, campo, aprovação ou amostra está confirmada.
 
 1. Executar uma busca bibliográfica reproduzível e mapear soluções existentes.
 2. Derivar requisitos preliminares da literatura, guias e soluções analisadas, distinguindo evidências de hipóteses.
-3. Investigar alternativas de acesso ao público e, se houver acesso e aprovações aplicáveis, identificar necessidades e revisar uma representação simples/protótipo de baixa fidelidade.
+3. Confirmar com a orientação se o plano inicial sem participantes atende aos requisitos; apenas se for necessário, definir a atividade mínima com pessoas e verificar acesso e aprovações.
 4. Desenvolver e avaliar tecnicamente o simulador com cenários fictícios, incorporando os requisitos priorizados.
-5. Considerar avaliação formativa de usabilidade autônoma como etapa complementar, somente se houver viabilidade, tempo e aprovações aplicáveis.
+5. Manter testes com pessoas fora do plano inicial, salvo indicação da orientação e confirmação de viabilidade e autorizações.
 6. Documentar decisões, alterações, limites e recomendações.
 
-A técnica de identificação de necessidades, a amostra, os instrumentos e o plano de análise permanecem pendentes de discussão metodológica. Nenhuma atividade de pesquisa com participantes deve começar antes de verificar e obter as aprovações aplicáveis.
+A prioridade é consolidar evidências, requisitos e avaliação técnica/pedagógica sem participantes. Técnica, amostra, instrumentos e análise de atividades com pessoas só serão definidos se a orientação solicitar essa etapa. Nenhuma atividade de pesquisa com participantes deve começar antes de verificar e obter as aprovações aplicáveis.
 
 ## Critérios que orientam o anteprojeto
 
@@ -97,7 +97,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [ ] Concluir busca bibliográfica reproduzível nas bases previstas e mapear produtos semelhantes.
 - [ ] Validar os objetivos educativos, os cenários e os critérios de êxito.
 - [ ] Fazer contato exploratório para avaliar possibilidade de parceria/campo, sem pressupor autorização.
-- [ ] Discutir com a orientação as decisões metodológicas preliminares, incluindo codesenho e eventual avaliação de usabilidade autônoma.
+- [ ] Confirmar com a orientação se o plano documental/técnico sem participantes atende aos requisitos; só discutir codesenho ou teste com pessoas se necessário.
 - [ ] Definir protocolo, plano de dados e aprovações aplicáveis antes de qualquer pesquisa com participantes.
 - [ ] Concluir testes manuais de acessibilidade em navegador, dispositivo e tecnologia assistiva.
 
