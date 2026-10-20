@@ -78,3 +78,13 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 ## Regra de escopo
 
 Não acrescentar chatbot, IA, integração com prontuário, consulta real, contas de usuário, transmissão/armazenamento de respostas ou decisões clínicas à primeira versão sem justificativa científica e revisão do protocolo. O tema central permanece o treino educativo de habilidades digitais para teleconsulta.
+
+
+## Atualização — revisão estática e precisão pedagógica (20/10/2026)
+
+- [x] Registrar a segunda revisão estática em [segunda-revisao-estatica-2026-10-20.md](segunda-revisao-estatica-2026-10-20.md).
+- [x] Distinguir o conteúdo educativo estático de encerramento da escala interativa de facilidade (1–5); esta escala não é tarefa de OE-05 nem medida de aprendizagem.
+- [x] Atualizar o mapa de objetivos, o relatório técnico, o guia da defesa e o estado atual do projeto.
+- [x] Corrigir o slide da apresentação ODP para refletir a distinção; [commit da correção](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36).
+- [ ] Executar auditoria manual em navegador/tecnologia assistiva; esta revisão foi estática, sem execução de testes.
+- [ ] Concluir buscas bibliográficas formais e registrar contagens/exportações reais.
