@@ -18,6 +18,18 @@ test("começa na etapa Preparar e mantém os outros painéis ocultos", async ({ 
   await expect(page.locator("#view-guidance")).toHaveAttribute("aria-hidden", "true");
 });
 
+test("teclado percorre a navegação e ativa etapa com Enter", async ({ page }) => {
+  await page.keyboard.press("Tab");
+  await expect(page.locator(".skip-link")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator('.tab[data-view="prepare"]')).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator('.tab[data-view="guidance"]')).toBeFocused();
+  await page.keyboard.press("Enter");
+  await expect(page.locator("#guidance-title")).toBeFocused();
+  await expect(page.locator("#view-guidance")).toBeVisible();
+});
+
 test("checklist atualiza o status e Desmarcar tudo limpa as escolhas", async ({ page }) => {
   const checks = page.locator(".check-row input");
   await checks.nth(0).check();
