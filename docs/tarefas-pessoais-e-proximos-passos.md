@@ -7,6 +7,14 @@
 
 Este guia reúne as ações que exigem decisão, contato, julgamento ou presença da pessoa responsável pelo projeto. O código e a documentação do protótipo já avançaram, mas isso não significa que a pesquisa esteja aprovada, que o produto esteja validado com pessoas ou que a parceria institucional esteja confirmada.
 
+## Enquadramento atual do projeto
+
+- **Linha de pesquisa selecionada:** 2) Tecnologias para Educação em Saúde.
+- **Tipo de projeto selecionado:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Título de trabalho:** “Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações”.
+
+A escolha foi registrada nos documentos de trabalho; ainda deve ser discutida com a orientação para confirmar aderência metodológica e ao edital da turma. A atividade educativa é demonstrativa, e a avaliação de compreensão imediata não será apresentada como prova de aprendizagem duradoura nem de eficácia clínica.
+
 ## Antes de começar: regras que valem para todas as etapas
 
 1. **Não marque uma tarefa como concluída apenas porque existe um plano.** Guarde uma evidência verificável: estratégia de busca executada, e-mail enviado, ata, parecer, relatório de teste ou decisão escrita.
@@ -42,7 +50,7 @@ As tarefas 1–8 podem avançar em paralelo quando isso não antecipar uma ativi
 - Envie à orientação o README, o anteprojeto, o ROADMAP, a matriz de evidências e o protocolo preliminar.
 - Peça uma reunião dedicada a decisões concretas.
 - Leve estas perguntas e anote a decisão para cada uma:
-  1. A pergunta de pesquisa está delimitada e adequada à linha de pesquisa?
+  1. A pergunta de pesquisa está delimitada e demonstra aderência à linha “Tecnologias para Educação em Saúde” e ao tipo de projeto selecionado?
   2. O produto será avaliado em um fluxo real de telessaúde ou em tarefas simuladas? Qual é o plano alternativo?
   3. Quais grupos são realmente necessários: usuários adultos, profissionais de saúde ou ambos?
   4. Como definir número de participantes e critérios de elegibilidade de forma justificável?
@@ -273,6 +281,8 @@ Use “Bloqueada” quando a próxima ação depender de decisão, aprovação o
 ## Documentos de apoio
 
 - [Anteprojeto organizado conforme o modelo da UERJ](anteprojeto-modelo-uerj.md)
+- [Carta de exposição de motivos](carta-exposicao-de-motivos.md)
+- [Declaração de conhecimento da Deliberação nº 13/2023](declaracao-conhecimento-deliberacao-13-2023.md)
 - [Busca bibliográfica estruturada](busca-bibliografica-estruturada.md)
 - [Registro da busca exploratória](registro-busca-exploratoria-2026-10-19.md)
 - [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md)
