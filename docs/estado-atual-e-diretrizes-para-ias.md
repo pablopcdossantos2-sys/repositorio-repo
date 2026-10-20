@@ -159,3 +159,27 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 - **20/10/2026:** registrada a diretriz de começar com um projeto simples, sem ou com pouca interação com pessoas; a inclusão de teste com pessoas fica condicionada à orientação acadêmica. O guia foi criado e vinculado no README, nos roadmaps e nos documentos metodológicos; anteprojeto-modelo, guia de tarefas pessoais, especificação do produto e protocolo preliminar foram harmonizados para não tratar participação de pessoas como etapa inicial. Também foram acrescentados um benchmark exploratório de recursos públicos (Digital House Calls, TelessaúdeBA, HHS, NCFH e WHO/ITU), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes e um mapa preliminar de objetivos educativos/tarefas. As buscas oficiais, a execução da auditoria e o aprofundamento do benchmark continuam pendentes.
 
 **Ao alterar esta diretriz no futuro:** editar a data e o histórico acima, resumir o que mudou e atualizar os documentos dependentes. Não apagar decisões anteriores necessárias para entender por que o escopo foi alterado.
+
+
+## Atualização de continuidade — apresentação oral (20/10/2026)
+
+Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e deve ser sincronizada para `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`.
+
+### Conteúdo alinhado ao estado atual
+
+- Escopo deliberadamente enxuto: revisão/documentação, avaliação técnica, pedagógica e de acessibilidade sem participantes como prioridade.
+- O protótipo é demonstrativo, com cenários fictícios; a etapa “Encerrar” tem conteúdo estático.
+- O último CI documentado é de 22 testes Playwright + axe-core aprovados no commit `11d5bee68f5f8de4234ab9f5388f7f1067545b69`; não apresentar a auditoria manual como concluída.
+- A busca bibliográfica formal em PubMed/MEDLINE, BVS/LILACS e SciELO continua pendente; não inventar contagens.
+- A análise de contraste é preliminar e parcial; algumas bordas precisam de avaliação contextual.
+- Não assumir parceria, campo, amostra, entrevistas, testes com participantes ou eficácia clínica. Qualquer mudança para incluir pessoas exige discussão explícita com a orientação e aprovações aplicáveis.
+
+### Próximas ações da apresentação
+
+1. Adicionar os dois arquivos ao repositório em `apresentacao/`.
+2. Conferir abertura, fontes, quebras de linha e legibilidade no LibreOffice Impress.
+3. Preencher o nome do candidato e personalizar o slide “Por que este mestrado?” com informações reais.
+4. Confirmar no edital vigente se slides são permitidos e qual é a duração.
+5. Manter ROADMAP e este documento atualizados a cada avanço verificável.
+
+A apresentação e o guia são materiais de preparação; não representam validação da proposta pela orientação nem conclusão das pendências bibliográficas/técnicas.
