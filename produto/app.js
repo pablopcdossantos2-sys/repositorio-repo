@@ -46,6 +46,14 @@
     updateCheckStatus();
   });
 
+  document.getElementById("simulate-audio").addEventListener("click", () => {
+    document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Se ainda não ouvir, avise a pessoa profissional.";
+  });
+
+  document.getElementById("simulate-help").addEventListener("click", () => {
+    document.getElementById("room-feedback").textContent = "Boa prática: informe com clareza que não está ouvindo e peça ajuda. Este botão não envia uma mensagem real.";
+  });
+
   document.getElementById("check-understanding").addEventListener("click", () => {
     const selected = document.querySelector("input[name='understanding']:checked");
     const feedback = document.getElementById("understanding-feedback");
@@ -72,6 +80,7 @@
     checks.forEach(input => { input.checked = false; });
     document.querySelectorAll("input[name='understanding']").forEach(input => { input.checked = false; });
     document.getElementById("understanding-feedback").textContent = "";
+    document.getElementById("room-feedback").textContent = "";
     document.getElementById("understanding-feedback").style.color = "";
     document.querySelectorAll("[data-rating]").forEach(button => button.setAttribute("aria-pressed", "false"));
     document.getElementById("rating-feedback").textContent = "";
