@@ -59,6 +59,7 @@ Esta melhoria é uma proposta de design, não uma decisão aprovada nem uma tare
 
 - [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md): compara recursos e fundamenta requisitos provisórios.
 - [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md): rastreia fontes, requisitos e verificações.
+- [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md): relaciona objetivos, ações seguras, feedbacks e testes de regressão.
 - [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md): fornece os casos AUD-01 a AUD-20 para inspeção.
 - [Especificação do produto mínimo](produto-minimo.md): descreve limites e funcionalidades atuais.
 - [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md): define a diretriz de escopo vigente.
@@ -68,7 +69,7 @@ Esta melhoria é uma proposta de design, não uma decisão aprovada nem uma tare
 
 **Complemento estático de 20/10/2026:** a segunda revisão confirmou, por inspeção textual, 24 IDs sem duplicações, três destinos de `aria-controls` existentes, nove referências únicas de `getElementById` sem destino ausente e nenhuma URL HTTP(S) em `href`/`src`. A escala de facilidade do encerramento é interativa, mas não constitui tarefa de OE-05. Detalhes e hashes em [segunda revisão estática](segunda-revisao-estatica-2026-10-20.md). A inspeção não executou navegador nem testes nesta rodada.
 
-1. [x] Fazer revisão editorial dos textos e feedbacks dos três cenários interativos com base nos critérios da seção 5; ver [registro da revisão](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+1. [x] Fazer revisão editorial dos textos e feedbacks dos três cenários interativos com base nos critérios da seção 5; ver [registro da revisão](revisao-editorial-cenarios-feedbacks-2026-10-20.md) e [matriz de critérios](matriz-criterios-qualidade-textos-feedbacks.md).
 2. [ ] Atualizar a matriz de rastreabilidade para cada objetivo após o desenvolvedor executar os testes de regressão.
 3. [ ] Executar os testes automatizados correspondentes após as alterações de interface/texto e verificar a CI correspondente.
 4. Decidir se a etapa “Encerrar” precisa de uma interação simples ou se o conteúdo estático é suficiente para o escopo do mestrado.
