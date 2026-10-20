@@ -1,12 +1,14 @@
 # Busca bibliográfica estruturada — protocolo e síntese crítica
 
-**Projeto:** Conversa Clara — solução tecnológica de educação em saúde no contexto de telessaúde  
+**Projeto:** Treino de Teleconsulta — solução tecnológica de educação em saúde no contexto de telessaúde  
 **Data deste levantamento:** 17 de outubro de 2026  
 **Status:** busca estruturada preliminar; síntese crítica inicial, ainda não uma revisão sistemática concluída.
 
 ## 1. Pergunta e escopo
 
-**Pergunta orientadora:** Que evidências orientam o desenho e a avaliação de uma solução web acessível de educação em saúde, com linguagem clara e atividade demonstrativa de compreensão, para apoiar adultos na preparação para atendimentos de telessaúde e na identificação de próximos passos, sem substituir profissionais ou serviços de saúde?
+**Recorte ativo desde 20/10/2026:** apenas o Tema 4 — Treino de Teleconsulta. A comparação de outras ideias terminou; a busca deve priorizar preparação e treinamento para teleconsulta, simulação educativa, necessidades de apoio digital, desenho inclusivo e soluções já existentes. Esta é uma pergunta de busca, não um resultado já demonstrado.
+
+**Pergunta orientadora:** Quais evidências e boas práticas orientam o desenho, a acessibilidade e a avaliação de recursos educativos que permitem a adultos com baixa familiaridade digital praticar tarefas de acesso e participação em teleconsultas?
 
 O objeto é uma solução tecnológica de ensino/educação em saúde aplicada ao contexto de telessaúde. A revisão deve informar conteúdo educativo, linguagem clara, acessibilidade, compreensão, usabilidade e avaliação centrada no público. Não se pressupõe aprendizagem duradoura, mudança de comportamento ou melhoria de desfechos clínicos. O projeto inicial não inclui prontuário eletrônico, inteligência artificial, diagnóstico nem prescrição.
 
@@ -17,6 +19,11 @@ O objeto é uma solução tecnológica de ensino/educação em saúde aplicada a
 - **Contexto (C):** educação em saúde no contexto de telessaúde, teleconsulta, atenção primária e serviços públicos, priorizando o SUS e contextos brasileiros.
 
 ## 2. Fontes e transparência da busca
+
+### Foco de busca após a decisão do tema
+
+Além das estratégias gerais já registradas, adaptar consultas para combinar: (a) teleconsulta/telessaúde/telemedicina; (b) treinamento, preparação, simulação, tutorial ou educação do paciente; e (c) familiaridade/competência/literacia digital, necessidade de apoio, acessibilidade ou usabilidade. Na triagem, registrar explicitamente se o recurso permite prática interativa, para qual público foi desenvolvido, que tarefas ensina, se avalia desempenho/compreensão e quais limitações possui. A expressão abaixo é um conceito de busca a testar e adaptar à sintaxe de cada base, não evidência de uma busca já executada: `(teleconsult* OR telehealth OR telemedicine) AND (simulation OR training OR preparation OR tutorial OR patient education) AND (digital skills OR digital literacy OR digital support needs OR usability OR accessibility)`.
+
 
 Bases-alvo: **PubMed/MEDLINE, BVS (incluindo LILACS) e SciELO**. O levantamento de 17/10/2026 combinou buscas direcionadas por termos e conferência de registros e resumos disponíveis nos portais e em resultados indexados. As páginas de pesquisa direta das três bases não puderam ser recuperadas de forma consistente pelo ambiente de pesquisa utilizado. Portanto, **não há contagem reprodutível de todos os registros recuperados, duplicatas ou exclusões**, e não se declara que a busca em cada interface tenha sido exaustiva. As estratégias abaixo são as strings propostas para execução e registro nas interfaces oficiais; precisam ser executadas/exportadas nas próprias bases antes de se apresentar o trabalho como revisão sistemática ou de escopo concluída.
 
