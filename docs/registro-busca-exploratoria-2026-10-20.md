@@ -82,3 +82,34 @@ O artigo orienta a preparação de pacientes padronizados para atividades de sim
 - Próximo passo bibliográfico: executar as estratégias adaptadas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO, salvar exportações e registrar números exatos.
 - Próximo passo de produto: concluir uma rubrica de avaliação técnica de cada tarefa e realizar auditoria manual de acessibilidade sem participantes.
 - Qualquer teste de pesquisa com participantes dependerá da definição metodológica e das aprovações institucionais/éticas aplicáveis.
+
+
+## 6. Rodada complementar de benchmarking — recursos para usuários (20/10/2026)
+
+### Consultas web utilizadas
+
+- `telehealth patient readiness tool digital skills patient educational resource official`
+- `site:gov.br teleconsulta orientações paciente passo a passo SUS video consulta`
+- `site:saude.gov.br teleconsulta orientação paciente vídeo`
+- `site:bridgingapps.org Digital House Calls telehealth training patients`
+- `Patient Telehealth Readiness Assessment Tool NCFH PDF`
+- `Preparing patients for a telehealth visit HHS`
+- `site:pubmed.ncbi.nlm.nih.gov Training Service Users in the Use of Telehealth 2024`
+- `site:scielo.br teleconsulta literacia digital educação paciente`
+
+### Recursos localizados
+
+- **Digital House Calls (BridgingApps):** curso autoguiado gratuito com vídeos, textos e recursos visuais, voltado a pessoas idosas e cuidadores, com organização antes/durante/depois. Página: https://bridgingapps.org/courses-landing/.
+- **Telessaúde Bahia — Como acessar sua Teleconsulta:** tutorial específico de serviço público, com protocolo/link/QR code, identificação, consentimento, espera e autorização de câmera/microfone. Página: https://telessaude.saude.ba.gov.br/25181-2/.
+- **Telehealth.HHS.gov:** guias para preparar pacientes, incluindo conectividade, dispositivo, privacidade e ambiente. Páginas: https://telehealth.hhs.gov/providers/preparing-patients-for-telehealth e https://telehealth.hhs.gov/providers/preparing-patients-for-their-appointment.
+- **National Center for Farmworker Health:** Patient Telehealth Readiness Assessment Tool, uma ferramenta de prontidão e recomendações de apoio mediada por equipes. Página: https://www.ncfh.org/digital-library/patient-telehealth-readiness-assessment-tool/.
+- **Galvin et al. (2024):** revisão de escopo de treinamento de usuários finais; 13 estudos incluídos, com evidência limitada e mista de melhoria de competência. PubMed: https://pubmed.ncbi.nlm.nih.gov/39083789/.
+- **WHO/ITU (2024):** toolkit técnico de acessibilidade para serviços de telessaúde. OMS: https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities.
+
+A análise de propósito, formato, público, limites e requisitos derivados está em [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md).
+
+### Interpretação e limites
+
+O Digital House Calls é um comparador próximo por combinar preparação autoguiada e etapas antes/durante/depois. O tutorial do TelessaúdeBA mostra um fluxo brasileiro real, mas é específico do serviço e solicita identificação; o nosso protótipo deve continuar fictício e não solicitar dados pessoais. HHS e NCFH são úteis para requisitos de preparação e barreiras estruturais, mas não são simuladores independentes. A revisão de Galvin et al. informa o estado da evidência, não a eficácia do nosso produto.
+
+Esta busca foi exploratória na web; não foram executadas todas as strings nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO, nem geradas contagens/exportações completas. Não é permitido concluir que os recursos localizados esgotam o universo ou que o protótipo é único.
