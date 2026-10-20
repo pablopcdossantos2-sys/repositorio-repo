@@ -22,6 +22,8 @@ Bases-alvo: **PubMed/MEDLINE, BVS (incluindo LILACS) e SciELO**. O levantamento 
 
 Data de corte desta versão: 17/10/2026. Idiomas de interesse: português, inglês e espanhol. Janela prioritária: 2016–2026; trabalhos fundamentais anteriores podem ser incluídos por relevância conceitual. Não foi aplicado filtro de desenho na busca principal, para não excluir estudos qualitativos ou de implementação.
 
+Em 19/10/2026 foi feita uma busca web complementar para localizar registros mais recentes e confirmar metadados de estudos relevantes; as consultas e os limites dessa rodada estão em [Registro da busca exploratória complementar](registro-busca-exploratoria-2026-10-19.md). Essa rodada não gerou contagens completas nas bases oficiais e não substitui a execução das estratégias abaixo diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO.
+
 ## 3. Estratégias de busca para executar nas interfaces oficiais
 
 A sintaxe deve ser adaptada ao campo e aos vocabulários de cada plataforma; registrar a string final efetivamente submetida, data/hora, filtros, número de resultados e arquivo exportado.
