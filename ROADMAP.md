@@ -44,7 +44,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [#1 — Busca bibliográfica reproduzível nas bases oficiais](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/1)
 - [#2 — Testes manuais de acessibilidade](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/2)
 - [#3 — Protocolo de avaliação e autorizações aplicáveis](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/3)
-- [#4 — Viabilidade de cenário/parceria em Guaraí](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/4)
+- [#4 — Viabilidade de cenário/parceria em Guaraí](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/4)\n- [Registro de execução das buscas (20/10/2026)](docs/registro-busca-estruturada-2026-10-20.md)\n- [Registro da auditoria estática parcial (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md)
 
 ## Fase 0 — Decisões e base técnica
 
@@ -57,7 +57,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Adicionar escolhas com feedback específico em cada situação e manter todas as interações locais.
 - [x] Escurecer a variável de borda e acrescentar verificação estática do contraste de bordas significativas.
 - [x] Confirmar a suíte automatizada após as mudanças: 15 verificações estáticas e 22 testes de navegador/axe-core passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
-- [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](docs/roteiro-auditoria-tecnica-sem-participantes.md)).
+- [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](docs/roteiro-auditoria-tecnica-sem-participantes.md)).\n- [x] Realizar e registrar inspeção estática parcial do HTML/JS/CSS, incluindo busca por campos pessoais e APIs comuns de rede/persistência ([registro](docs/registro-auditoria-estatica-2026-10-20.md)).
 - [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
 - [x] Criar mapa preliminar de objetivos educativos e tarefas, distinguindo conteúdo estático de prática interativa ([mapa](docs/mapa-objetivos-educativos-e-tarefas.md)).
 - [ ] Revisar os objetivos com base na literatura e definir critérios de verificação.
@@ -97,7 +97,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Acrescentar em cada cenário uma tarefa de escolha e feedback acolhedor; a revisão pedagógica com a orientação ainda está pendente.
 - [ ] Garantir que exemplos, nome de serviço, link, data e profissionais sejam fictícios; não imitar portal oficial real de modo enganoso.
 - [ ] Evitar pedir informações pessoais ou clínicas; nenhuma resposta deve ser enviada ou armazenada.
-- [ ] Testar navegação por teclado, foco, mensagens dinâmicas, movimento reduzido, contraste, larguras de tela e ampliação.
+- [ ] Testar navegação por teclado, foco, mensagens dinâmicas, movimento reduzido, contraste, larguras de tela e ampliação; registrar resultados no roteiro de auditoria.
 - [ ] Testar manualmente com tecnologia assistiva disponível e documentar limitações reais.
 - [x] Atualizar `docs/produto-minimo.md` e a especificação do produto com os três cenários.
 - [ ] Atualizar o relatório com o resultado da CI final após os testes do novo fluxo.
