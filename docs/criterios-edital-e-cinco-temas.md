@@ -170,13 +170,13 @@ O ponto forte é transformar esse conhecimento combinado em um **produto educaci
 
 Notas de 1 a 5, usadas somente para comparar ideias nesta fase. São hipóteses de planejamento, não notas oficiais.
 
-| Tema | Justificativa e aderência | Inovação e escala | 2 anos | Impacto social | Equidade/diversidade | ODS | Transformação SUS Digital | Dependência institucional estimada |
-|---|---:|---:|---:|---:|---:|---:|---:|---|
-| 1. Saúde em Checagem | 5 | 5 | 5 | 5 | 5 | 5 | 4 | Baixa |
-| 2. Risco sem Confusão | 5 | 4 | 5 | 4 | 5 | 5 | 4 | Baixa |
-| 3. Da linguagem médica à linguagem clara | 5 | 4 | 4 | 5 | 5 | 5 | 5 | Média |
-| 4. IA em saúde com senso crítico | 5 | 5 | 4 | 4 | 4 | 4 | 5 | Baixa para desenvolver; média para atualização |
-| 5. SUS Digital sem barreiras | 5 | 4 | 5 | 5 | 5 | 5 | 5 | Baixa a média |
+| Tema | Justificativa e aderência | Inovação e escala | 2 anos | Impacto social | Equidade/diversidade | ODS | Transformação SUS Digital | Soma interna /35 | Dependência institucional estimada |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|
+| 1. Saúde em Checagem | 5 | 5 | 5 | 5 | 5 | 5 | 4 | 34 | Baixa |
+| 2. Risco sem Confusão | 5 | 4 | 5 | 4 | 5 | 5 | 4 | 32 | Baixa |
+| 3. Da linguagem médica à linguagem clara | 5 | 4 | 4 | 5 | 5 | 5 | 5 | 33 | Média |
+| 4. IA em saúde com senso crítico | 5 | 5 | 4 | 4 | 4 | 4 | 5 | 31 | Baixa para desenvolver; média para atualização |
+| 5. SUS Digital sem barreiras | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 34 | Baixa a média |
 
 ### Interpretação da matriz
 
