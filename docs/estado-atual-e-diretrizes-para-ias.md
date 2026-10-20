@@ -232,3 +232,15 @@ A etapa “Encerrar” tem conteúdo educativo estático, mas também inclui uma
 Nenhum arquivo de produto foi alterado, nenhuma execução nova de CI foi realizada e nenhuma avaliação com participantes ocorreu. Continuam prioritários: auditoria manual no navegador (teclado/foco, zoom/reflow, leitor de tela, estados visuais e Network/Application), buscas bibliográficas oficiais com contagens/exportações reais e eventual execução da suíte após mudanças de código.
 
 A regra de continuidade permanece: após cada avanço verificável, atualizar `ROADMAP.md` e este documento; não registrar como concluídas atividades que não foram executadas.
+
+
+### Ajuste da apresentação após a segunda revisão — 20/10/2026
+
+A apresentação ODP foi corrigida para distinguir o conteúdo educativo estático da etapa “Encerrar” da escala interativa de facilidade (1–5) presente na interface. A escala dá feedback local e declara que não envia nem armazena a resposta; ela não pratica o objetivo OE-05 e não deve ser tratada como instrumento de avaliação de aprendizagem ou validação com usuários.
+
+- Arquivo: `apresentacao/defesa-oral-atualizada.odp`.
+- Commit da correção: [50bd1e648bf871afea0d90266fd95153da40fa36](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36).
+- O mapa de objetivos, o guia da defesa, o relatório técnico e a segunda revisão estática foram harmonizados com essa distinção.
+- Não houve alteração do HTML/CSS/JS, execução de navegador, nova CI ou atividade com participantes nesta rodada.
+
+Manter essa distinção em respostas futuras: **a escala de facilidade não é uma tarefa de aprendizagem**. As próximas pendências permanecem a auditoria manual e a busca bibliográfica formal com contagens/exportações reais.
