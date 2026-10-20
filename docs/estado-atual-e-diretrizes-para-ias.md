@@ -318,3 +318,34 @@ Foi registrada em `docs/registro-busca-estruturada-2026-10-20.md` uma tentativa 
 3. Realizar auditoria manual conforme AUD-01 a AUD-20; não marcar casos como concluídos sem evidência.
 4. Fazer revisão editorial de cada cenário e feedback com base na matriz de objetivos.
 5. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
+
+
+## Atualização de continuidade — revisão editorial dos cenários (20/10/2026)
+
+### Alterações confirmadas no repositório
+
+- Revisados os textos de situação, opções e feedbacks para os três cenários interativos em `produto/index.html` e `produto/app.js`.
+- OE-02 (link): feedback orienta conferir conexão e link/canal oficial conhecido, pedir ajuda pelo contato oficial conhecido e não compartilhar senhas/dados em links inesperados.
+- OE-03 (áudio): feedback orienta conferir volume e controles de som disponíveis, e comunicar a dificuldade caso persista.
+- OE-04 (esclarecimento): feedback orienta pedir repetição/explicação alternativa e confirmar o próximo passo, sem adivinhar ou criar orientação clínica.
+- Criado `docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md`, com texto revisado, racional, fontes contextuais e verificações pendentes.
+- Atualizado `docs/mapa-objetivos-educativos-e-tarefas.md` e os anteprojetos `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md`.
+- O `README.md` foi atualizado com link para o novo registro. As seções “Preparação para defesa oral”, “Situação atual” e “Aviso” continuam removidas.
+- Adicionado teste Playwright em `tests/prototype.spec.js` para verificar a presença de instruções concretas nos feedbacks dos três cenários.
+
+### Evidências e limites
+
+A revisão se baseia nas referências já documentadas no repositório, especialmente Galvin et al. (2024) sobre treinamento de usuários em telessaúde, WHO/ITU (2024) sobre acessibilidade de serviços de telessaúde e guias HHS de preparação para teleconsulta. Essas fontes fundamentam critérios gerais de design; não validam as formulações específicas nem demonstram que o público-alvo as compreende.
+
+A escala de facilidade de 1 a 5 no encerramento continua sendo apenas feedback local de interface. OE-05 não recebeu nova interação nesta rodada; o conteúdo educativo de encerramento permanece estático.
+
+### Verificações ainda pendentes
+
+- [ ] Confirmar execução e resultado da CI após as mudanças em HTML/JS e no teste automatizado.
+- [ ] Fazer inspeção manual do fluxo, teclado/foco, mensagens de estado e comportamento em navegador.
+- [ ] Manter a auditoria manual e as buscas bibliográficas oficiais como pendências até execução documentada.
+- [ ] Não afirmar validação com usuários, compreensão demonstrada, aprendizagem ou eficácia educativa.
+
+### Diretriz operacional atualizada
+
+Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre objetivo educativo, texto apresentado, feedback de acerto/tentativa e critério de teste. Se uma fonte só fundamenta um princípio geral, não a apresentar como validação do texto específico. Atualizar sempre `ROADMAP.md` e este documento após avanços verificáveis.
