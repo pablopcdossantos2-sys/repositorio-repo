@@ -235,3 +235,29 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 - [ ] Executar PM-1 a PM-4, BVS-1 a BVS-3 e SC-1 a SC-2 nas interfaces oficiais com contagens e exportações reais. A busca formal continua pendente.
 
 **Limites desta atualização:** nenhuma alteração de HTML/CSS/JS e nenhuma nova execução de testes automatizados. A inspeção da matriz de requisitos é documental e não substitui a auditoria manual do navegador.
+
+
+## Atualização — revisão pedagógica dos cenários e feedbacks (20/10/2026)
+
+### Concluído nesta rodada
+
+- [x] Revisar editorialmente os três cenários interativos com foco em ação concreta, feedback explicativo, tom não punitivo, privacidade e limites não clínicos.
+- [x] Atualizar os textos do cenário “O link não abre”: conferir conexão e link/canal oficial conhecido; pedir ajuda por contato oficial conhecido; não compartilhar senhas/dados em links inesperados.
+- [x] Atualizar “Não consigo ouvir”: conferir volume e controles de saída de som quando disponíveis e avisar o profissional se o problema continuar.
+- [x] Atualizar “Não entendi uma informação”: pedir repetição/explicação alternativa e confirmar o próximo passo, sem adivinhar.
+- [x] Criar [registro da revisão editorial dos cenários e feedbacks](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) com racional, fontes já documentadas, rastreabilidade e limites.
+- [x] Harmonizar o mapa de objetivos educativos e os dois rascunhos de anteprojeto, corrigindo a descrição da etapa “Encerrar”: os exemplos são estáticos; a escala de facilidade 1–5 não é tarefa de aprendizagem.
+- [x] Adicionar teste Playwright para conferir que o feedback dos três cenários contém a próxima ação concreta.
+- [x] Indexar o registro de revisão no README.
+
+### Evidências e pendências
+
+- Alterações de produto: `produto/app.js` e `produto/index.html`.
+- Teste acrescentado: `tests/prototype.spec.js`.
+- Commits de código: [ee4f89f](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/ee4f89fc94ccbe2f91839e3a56b23b67092c656b), [e97887c](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/e97887ce65bd4225d01b6d40e3ffb07d6db2c70d) e [63a267b](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/63a267bd7ecd61f9effd22db79a3e36388b22455).
+- [ ] Aguardar/conferir a CI correspondente aos commits de código; não há resultado novo de testes confirmado nesta atualização.
+- [ ] Fazer inspeção manual no navegador dos fluxos e mensagens.
+- [ ] Executar as buscas bibliográficas formais em PubMed/MEDLINE, BVS/LILACS e SciELO com contagens e exportações reais.
+- [ ] Confirmar com a orientação se o desenho sem participantes atende aos requisitos do mestrado.
+
+**Limite:** esta rodada é uma revisão editorial e técnica; não prova compreensão pelo público-alvo nem eficácia educativa. A etapa “Encerrar” permanece estática e não foi ampliada.
