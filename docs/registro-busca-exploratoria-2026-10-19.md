@@ -1,9 +1,13 @@
 # Registro da busca complementar de evidências — 19/10/2026
 
-**Projeto:** Telessaúde Guaraí / Conversa Clara  
+**Projeto:** Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital  
 **Tipo de busca:** complementar, exploratória e dirigida à pergunta do projeto  
 **Data:** 19/10/2026 (fuso local do projeto)  
 **Documento de síntese:** [Revisão rápida de evidências e recomendações](revisao-rapida-evidencias-e-recomendacoes.md)
+
+## Atualização de escopo (20/10/2026)
+
+Este registro foi produzido antes da decisão final do tema e, por isso, é uma busca complementar exploratória sobre usabilidade, acessibilidade e experiência digital em telessaúde. Ela **não é uma busca específica e concluída sobre simuladores de treinamento para teleconsulta**. A partir de 20/10/2026, o tema ativo é exclusivamente o Treino de Teleconsulta; devem ser feitas buscas dirigidas adicionais, com estratégia reproduzível e comparação de soluções existentes. O conteúdo abaixo permanece como registro histórico fiel do que foi pesquisado naquela rodada.
 
 ## Limite importante
 
