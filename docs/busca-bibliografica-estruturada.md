@@ -273,7 +273,7 @@ Uma rodada complementar na web localizou literatura metodológica sobre avaliaç
 
 ### Registros a incorporar à triagem
 
-**LESSEROTH/LESSELROTH et al. (2025).** Usability Testing an Educational Telemedicine Simulation: Description of Methods and Preliminary Findings. *Studies in Health Technology and Informatics*, 327, 273–277. DOI: [10.3233/SHTI250327](https://doi.org/10.3233/SHTI250327). Descreve teste pré-piloto de simulação destinada a residentes de obstetrícia/ginecologia e medicina de família, com observação de problemas de usabilidade, erros, facilidade de uso e satisfação. Evidência metodológica adjacente, não treinamento de usuários/pacientes.
+**LESSELROTH et al. (2025).** Usability Testing an Educational Telemedicine Simulation: Description of Methods and Preliminary Findings. *Studies in Health Technology and Informatics*, 327, 273–277. DOI: [10.3233/SHTI250327](https://doi.org/10.3233/SHTI250327). Descreve teste pré-piloto de simulação destinada a residentes de obstetrícia/ginecologia e medicina de família, com observação de problemas de usabilidade, erros, facilidade de uso e satisfação. Evidência metodológica adjacente, não treinamento de usuários/pacientes.
 
 **LESSELROTH et al. (2026).** Hybrid Usability Analysis to Improve an Educational Telemedicine Simulation: Task Analysis and Survey Results. DOI: [10.3233/SHTI250237](https://doi.org/10.3233/SHTI250237). Combina conclusão de tarefas, avaliação de competências, percepções e observações qualitativas. A população são aprendizes/profissionais, portanto os resultados não devem ser transferidos diretamente ao público deste projeto.
 
