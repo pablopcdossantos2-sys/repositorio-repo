@@ -2,11 +2,11 @@
 
 ## Objetivo
 
-Agendar uma conversa exploratória para compreender o fluxo de telessaúde e verificar se existe viabilidade de parceria para pesquisa acadêmica. O primeiro contato não deve solicitar dados de pacientes, prontuários nem autorização para iniciar recrutamento.
+Agendar uma conversa exploratória para compreender o contexto de telessaúde e educação em saúde e verificar se existe viabilidade de parceria para pesquisa tecnológica de uma solução educativa digital. O primeiro contato não deve solicitar dados de pacientes, prontuários nem autorização para iniciar recrutamento.
 
 ## Mensagem inicial sugerida
 
-Olá! Estou preparando um anteprojeto para o Mestrado Profissional em Telessaúde e Saúde Digital da UERJ. A proposta é desenvolver e avaliar uma ferramenta digital simples para ajudar adultos a se prepararem para atendimentos de telessaúde, compreenderem orientações recebidas e organizarem os próximos passos do cuidado.
+Olá! Estou preparando um anteprojeto para o Mestrado Profissional em Telessaúde e Saúde Digital da UERJ, na linha “Tecnologias para Educação em Saúde”. A proposta é desenvolver e avaliar um recurso educativo digital simples, em linguagem clara, para ajudar adultos a se prepararem para atendimentos de telessaúde, compreenderem exemplos de informações em saúde e identificarem próximos passos descritos no cenário educativo.
 
 Gostaria de conversar com a Secretaria Municipal de Saúde para conhecer o fluxo de telessaúde utilizado no município e verificar se haveria possibilidade de uma futura parceria de pesquisa. Neste primeiro momento, a intenção é apenas apresentar a proposta e entender os procedimentos necessários. Qualquer pesquisa com participantes dependerá das autorizações institucionais e éticas aplicáveis.
 
@@ -24,7 +24,8 @@ Seria possível agendar uma breve conversa com a pessoa responsável pela teless
 ## Perguntas a fazer
 
 - Quais serviços ou unidades participam do fluxo de telemedicina/telessaúde?
-- O município dispõe de procedimentos ou materiais de preparação e orientação pós-atendimento?
+- O município dispõe de materiais de educação em saúde, preparação para atendimento ou orientação pós-atendimento?
+- Quais formatos educativos já são usados e quais dificuldades de compreensão são observadas pelas equipes, sem solicitar informações identificáveis de pacientes?
 - Quem seria a pessoa responsável por avaliar uma proposta de pesquisa?
 - Seria possível realizar entrevistas e testes de usabilidade sem acessar prontuários?
 - Quais autorizações formais seriam necessárias?
