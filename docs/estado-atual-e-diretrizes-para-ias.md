@@ -199,3 +199,13 @@ Próximas pendências prioritárias permanecem: executar a busca bibliográfica 
 ### Verificação de renderização — 20/10/2026
 
 O arquivo `apresentacao/defesa-oral-atualizada.odp` foi convertido com sucesso para PDF usando o LibreOffice Impress em modo headless. O PDF resultante contém **15 páginas**, correspondentes aos 15 slides. Foi gerada uma folha de miniaturas para inspeção geral; não foram identificadas páginas ausentes. Esta verificação não substitui uma revisão de legibilidade em tela cheia, ensaio com tempo cronometrado ou personalização do slide de motivação.
+
+
+## Atualização técnica — revisão contextual de contraste (20/10/2026)
+
+Foi feita uma leitura estática adicional do HTML/CSS para contextualizar as três bordas abaixo de 3:1 calculadas anteriormente. O código apresenta indicadores adicionais:
+- Etapa ativa: fundo e texto diferentes, círculo numerado preenchido e `aria-current="step"`.
+- Checklist marcado: checkbox nativo marcado e fundo diferente.
+- Aviso de exemplo fictício: símbolo de informação, fundo amarelo-claro e texto explícito.
+
+Essa leitura sugere que as bordas podem não ser o único indicador de estado, mas **não encerra a auditoria de acessibilidade**: ainda faltam inspeção em navegador, teclado e tecnologia assistiva. AUD-15 permanece parcial. Não foi alterado CSS; portanto, não houve necessidade de nova CI por esta atualização documental. O detalhe foi registrado em [verificação preliminar de contraste](verificacao-preliminar-contraste-2026-10-20.md) e [registro da auditoria estática](registro-auditoria-estatica-2026-10-20.md).
