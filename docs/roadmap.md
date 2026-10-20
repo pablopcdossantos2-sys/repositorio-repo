@@ -15,7 +15,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Escolher o Tema 4 como foco exclusivo.
 - [x] Manter o enquadramento acadêmico de Tecnologias para Educação em Saúde.
 - [x] Criar uma primeira interface web estática, com cenários fictícios e sem dependências externas no tempo de uso.
-- [ ] Alinhar a interface atual a um treino explícito de etapas de teleconsulta (preparação, sala virtual fictícia, encerramento).
+- [x] Reorientar a interface para três etapas gerais: preparação, situações simuladas durante a consulta e encerramento.
+- [x] Implementar três situações selecionáveis com feedback dependente da resposta (link indisponível, áudio e pedido de esclarecimento).
 - [ ] Mapear objetivos de aprendizagem e vincular cada um a uma tarefa observável e a um teste.
 - [ ] Definir de modo não estigmatizante o que será considerado “baixa familiaridade digital”.
 
