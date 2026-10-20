@@ -1,75 +1,64 @@
-# Roadmap de desenvolvimento — Conversa Clara / educação em saúde
+# Roadmap de desenvolvimento — Treino de Teleconsulta
 
-O objetivo é entregar um produto de escopo controlado e avaliável no prazo do mestrado. Evitar funcionalidades que aumentem desnecessariamente a complexidade.
+Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. A escolha de tema foi registrada em 20/10/2026; o anteprojeto e o protótipo continuam em refinamento.
 
-## Enquadramento acadêmico selecionado
+## Enquadramento acadêmico
 
-- **Linha de pesquisa:** 2) Tecnologias para Educação em Saúde.
-- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
-- **Foco do produto:** recurso educativo digital com linguagem clara e atividade demonstrativa de compreensão no contexto de preparação para atendimentos de telessaúde.
-- **Limite de inferência:** tarefas de compreensão imediata não serão tratadas como prova de aprendizagem duradoura ou de eficácia clínica.
+- **Linha:** 2) Tecnologias para Educação em Saúde.
+- **Tipo:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Objetivo educativo:** prática guiada de tarefas digitais relacionadas a uma teleconsulta em ambiente fictício.
+- **Público:** adultos com baixa familiaridade digital; a definição operacional permanece pendente de discussão com a orientação.
+- **Limite de inferência:** desempenho em tarefas simuladas não comprova aprendizagem duradoura, melhor acesso a teleconsultas reais ou eficácia clínica.
 
-## Fase 0 — Projeto de pesquisa
-- [x] Definir aplicação web responsiva como formato inicial.
-- [x] Excluir integração com prontuários e inteligência artificial da primeira versão.
-- [x] Definir usuários adultos e profissionais de saúde como grupos de interesse.
-- [x] Definir Guaraí-TO como cenário preferencial, ainda sujeito a parceria.
-- [x] Reunir referências iniciais oficiais e acadêmicas.
-- [x] Criar versão de trabalho organizada conforme o modelo oficial da UERJ.
-- [x] Especificar o produto mínimo e seus limites.
-- [x] Preparar roteiro de contato com a Secretaria Municipal de Saúde.
-- [x] Acrescentar cinco fontes relevantes à matriz e ao plano de referências (busca exploratória de 17/10/2026).
-- [x] Definir a pergunta, registrar strings propostas e critérios de elegibilidade e elaborar síntese crítica preliminar de nove estudos (17/10/2026); ver `docs/busca-bibliografica-estruturada.md`.
-- [ ] Executar e registrar as buscas diretamente nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO; contabilizar resultados/duplicatas/exclusões e concluir leitura integral e avaliação formal de qualidade.
-- [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
-- [x] Criar matriz inicial de evidências que conecta referências, requisitos e decisões de produto; ampliar após a revisão bibliográfica.
-- [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
-- [ ] Confirmar com a orientação a aderência da pergunta, do método e do produto à linha “Tecnologias para Educação em Saúde” e ao tipo de projeto selecionado.
+## Fase 0 — Decisão e base técnica
 
-## Fase 1 — Articulação e diagnóstico
-- [ ] Contatar a Secretaria Municipal de Saúde.
-- [ ] Identificar unidades e fluxo de telessaúde elegíveis.
-- [ ] Confirmar autorizações, recursos e viabilidade do recrutamento.
-- [ ] Preparar roteiro de entrevistas e plano de análise.
-- [ ] Cumprir trâmites éticos e institucionais antes de pesquisa com participantes.
-- [ ] Realizar diagnóstico de necessidades após as aprovações aplicáveis.
+- [x] Escolher o Tema 4 como foco exclusivo.
+- [x] Manter o enquadramento acadêmico de Tecnologias para Educação em Saúde.
+- [x] Criar uma primeira interface web estática, com cenários fictícios e sem dependências externas no tempo de uso.
+- [ ] Alinhar a interface atual a um treino explícito de etapas de teleconsulta (preparação, sala virtual fictícia, encerramento).
+- [ ] Mapear objetivos de aprendizagem e vincular cada um a uma tarefa observável e a um teste.
+- [ ] Definir de modo não estigmatizante o que será considerado “baixa familiaridade digital”.
 
-## Fase 2 — Especificação do produto
-- [x] Definir requisitos mínimos iniciais com base na literatura.
-- [x] Definir limites de conteúdo e exigir revisão profissional de orientações clínicas.
-- [x] Documentar requisitos iniciais de acessibilidade e linguagem simples.
-- [x] Definir que a demonstração não coleta nem transmite dados.
-- [x] Criar primeira versão navegável com cenários fictícios.
-- [ ] Validar requisitos com usuários e profissionais após aprovações aplicáveis.
+## Fase 1 — Evidências e diferenciação (P0)
 
-## Fase 3 — Protótipo funcional
-- [x] Implementar checklist pré-consulta demonstrativo.
-- [x] Implementar exemplo fictício de orientações em linguagem clara.
-- [x] Implementar organização demonstrativa dos próximos passos.
-- [x] Implementar navegação entre módulos e reinicialização local.
-- [x] Fazer revisão estática do HTML/CSS/JavaScript e corrigir pontos de foco, nomes acessíveis e estado de reinicialização.
-- [x] Documentar checklist técnico interno em `docs/relatorio-revisao-tecnica.md`.
-- [ ] Executar checklist manual em diferentes celulares, larguras e navegadores, sem participantes.
-- [ ] Testar manualmente com participantes somente após definição do protocolo e aprovações aplicáveis.
-- [ ] Refinar acessibilidade e documentar resultados dos testes.
+- [ ] Executar buscas reprodutíveis em PubMed/MEDLINE, BVS/LILACS e SciELO.
+- [ ] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital.
+- [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
+- [ ] Fazer benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
+- [ ] Definir a lacuna do projeto com base no que foi encontrado, sem presumir originalidade antes da comparação.
+- [ ] Atualizar a matriz de evidências e requisitos com referências conferidas.
 
-## Fase 4 — Avaliação e aperfeiçoamento
-- [x] Elaborar lista preliminar de tarefas e indicadores no protocolo preliminar de avaliação.
-- [ ] Definir tarefas, indicadores e critérios finais com a orientação.
-- [ ] Realizar testes aprovados com usuários adultos e profissionais.
-- [ ] Analisar resultados qualitativos e quantitativos.
-- [ ] Corrigir problemas de usabilidade e compreensão.
-- [ ] Registrar versão final do produto e limitações.
+## Fase 2 — Cenário, público e ética (P0)
 
-## Fase 5 — Entrega acadêmica
-- [ ] Documentar arquitetura, requisitos e decisões.
-- [ ] Consolidar resultados e recomendações.
-- [ ] Finalizar dissertação e documentação do produto.
-- [ ] Preparar apresentação e materiais de demonstração.
+- [ ] Discutir a pergunta, público, tarefas e desenho com a orientação.
+- [ ] Avaliar se a Secretaria Municipal de Saúde de Guaraí é um campo viável; a parceria é apenas potencial, não confirmada.
+- [ ] Definir elegibilidade, amostra, recrutamento e proteção de dados se houver participantes.
+- [ ] Confirmar autorizações administrativas e apreciação ética aplicáveis.
+- [ ] Não recrutar, entrevistar ou testar com participantes antes da confirmação das aprovações pertinentes.
 
-## Regras de escopo da primeira versão
-- Sem integração com prontuários.
-- Sem inteligência artificial.
-- Sem diagnóstico ou prescrição.
-- Sem dados reais de pacientes no repositório.
-- Priorizar um produto demonstrável, acessível e passível de avaliação.
+## Fase 3 — Protótipo e acessibilidade (P1)
+
+- [x] Implementar navegação entre três painéis, checklist local, feedback e reinicialização.
+- [ ] Atualizar conteúdo: instruções passo a passo, entrada simulada, controle de áudio/vídeo fictício, pedido de esclarecimento e próximos passos.
+- [ ] Garantir que a interface não solicite dados pessoais/clínicos e não transmita ou armazene respostas.
+- [ ] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional.
+- [ ] Completar testes manuais de teclado, leitor de tela, contraste, zoom, telas pequenas e movimento reduzido.
+
+## Fase 4 — Avaliação e aperfeiçoamento (P1)
+
+- [ ] Definir tarefas padronizadas, critérios de conclusão, erros, necessidade de ajuda e rubrica de compreensão.
+- [ ] Escolher instrumento de usabilidade de acordo com o que o simulador realmente testa; não presumir que uma escala de consulta real seja automaticamente adequada.
+- [ ] Planejar análise antes da coleta.
+- [ ] Caso haja aprovação e viabilidade, conduzir a avaliação prevista no protocolo; caso contrário, limitar a avaliação a evidências documentais, técnicas e pedagógicas.
+- [ ] Corrigir problemas identificados e manter registro dos testes.
+
+## Fase 5 — Entrega acadêmica (P2)
+
+- [ ] Consolidar produto, requisitos e documentação.
+- [ ] Atualizar o anteprojeto conforme o edital e o modelo oficial da UERJ.
+- [ ] Documentar resultados, limitações e plano de evolução.
+- [ ] Definir publicação/hospedagem sem sugerir implantação oficial sem autorização.
+
+## Regra de escopo
+
+Não acrescentar chatbot, IA, integração com prontuário, consulta real, contas de usuário, transmissão/armazenamento de respostas ou decisões clínicas à primeira versão sem justificativa científica e revisão do protocolo. O tema central permanece o treino educativo de habilidades digitais para teleconsulta.
