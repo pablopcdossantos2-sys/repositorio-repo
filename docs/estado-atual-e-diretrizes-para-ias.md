@@ -176,11 +176,11 @@ Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complem
 
 ### Próximas ações da apresentação
 
-1. Adicionar os dois arquivos ao repositório em `apresentacao/`.
-2. Conferir abertura, fontes, quebras de linha e legibilidade no LibreOffice Impress.
-3. Preencher o nome do candidato e personalizar o slide “Por que este mestrado?” com informações reais.
-4. Confirmar no edital vigente se slides são permitidos e qual é a duração.
-5. Manter ROADMAP e este documento atualizados a cada avanço verificável.
+1. [x] Adicionar os dois arquivos ao repositório em `apresentacao/`.
+2. [x] Abrir o ODP no LibreOffice Impress e converter para PDF: 15 páginas geradas; a inspeção de miniaturas não mostrou páginas ausentes.
+3. [ ] Fazer revisão final de legibilidade em tamanho real; preencher o nome do candidato e personalizar o slide “Por que este mestrado?”.
+4. [ ] Confirmar no edital vigente se slides são permitidos e qual é a duração.
+5. [x] Atualizar ROADMAP e este documento com o resultado da sincronização e da verificação de renderização.
 
 A apresentação e o guia são materiais de preparação; não representam validação da proposta pela orientação nem conclusão das pendências bibliográficas/técnicas.
 
@@ -191,7 +191,7 @@ Em 20/10/2026, os dois arquivos foram adicionados à branch `main`:
 - `apresentacao/defesa-oral-atualizada.odp`
 - `apresentacao/guia-defesa-oral-atualizado.md`
 
-Commit de inclusão do ODP: [e9c32c88c61cca79f0c93b0ee853a01eb0d2b014](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/e9c32c88c61cca79f0c93b0ee853a01eb0d2b014). O guia foi incluído em commit anterior. O conteúdo do arquivo ODP foi enviado como blob binário e a estrutura do pacote ZIP/ODP foi validada localmente; a renderização final de todos os slides no LibreOffice Impress não foi confirmada nesta rodada.
+Commit de inclusão do ODP: [e9c32c88c61cca79f0c93b0ee853a01eb0d2b014](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/e9c32c88c61cca79f0c93b0ee853a01eb0d2b014). O guia foi incluído em commit anterior. O conteúdo do arquivo ODP foi enviado como blob binário, a estrutura do pacote ZIP/ODP foi validada localmente e a conversão para PDF no LibreOffice Impress gerou 15 páginas.
 
 Próximas pendências prioritárias permanecem: executar a busca bibliográfica formal nas bases oficiais e registrar contagens reais; concluir a auditoria manual de acessibilidade e avaliar visualmente as bordas de estado; revisar a apresentação no LibreOffice e preencher os dados pessoais que faltam. Não iniciar atividades com participantes sem indicação explícita da orientação acadêmica.
 
