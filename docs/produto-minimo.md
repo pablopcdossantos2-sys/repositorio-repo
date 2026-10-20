@@ -1,8 +1,14 @@
-# Especificação do produto mínimo
+# Especificação do produto mínimo — solução de educação em saúde
 
 ## Propósito
 
-Construir o menor protótipo útil para avaliar se uma interface digital simples pode ajudar adultos a se prepararem para um atendimento de telessaúde, compreenderem orientações e organizarem próximos passos.
+Construir o menor protótipo útil para investigar uma solução digital de educação em saúde: apoiar adultos na preparação para atendimentos de telessaúde, na compreensão de mensagens educativas fictícias apresentadas em linguagem clara e na identificação de próximos passos descritos no cenário.
+
+## Enquadramento acadêmico
+
+- **Linha de pesquisa:** Tecnologias para Educação em Saúde.
+- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Objetivo educativo inicial:** tornar mais fácil localizar e compreender informação demonstrativa em saúde; a avaliação de uma resposta imediata não será tratada como evidência de aprendizagem duradoura.
 
 ## Decisões de escopo
 
@@ -19,8 +25,8 @@ Construir o menor protótipo útil para avaliar se uma interface digital simples
 
 1. Tela inicial com explicação breve sobre a finalidade e os limites do protótipo.
 2. Módulo “Preparar minha consulta”: checklist local de dúvidas e perguntas; permitir marcar itens concluídos.
-3. Módulo “Entender as orientações”: demonstrar um exemplo de resumo em linguagem clara; o conteúdo deve ser fictício ou aprovado para o estudo.
-4. Módulo “Meus próximos passos”: lista de ações exemplificativas (por exemplo, retorno ou exame) informadas no cenário; sem envio de alertas clínicos.
+3. Módulo “Entender as orientações”: apresentar um exemplo educativo fictício em linguagem clara e uma atividade demonstrativa para que o usuário identifique a mensagem principal.
+4. Módulo “Meus próximos passos”: organizar os passos descritos no cenário fictício, sem prescrever condutas nem emitir alertas clínicos.
 5. Tela final de avaliação com perguntas sobre clareza, facilidade de uso e pontos de dificuldade.
 
 ## Requisitos funcionais mínimos
@@ -28,7 +34,8 @@ Construir o menor protótipo útil para avaliar se uma interface digital simples
 - RF-01: apresentar claramente a finalidade e os limites do protótipo.
 - RF-02: permitir navegar entre os três módulos sem criar conta.
 - RF-03: permitir interagir com um checklist de preparação.
-- RF-04: apresentar orientações em linguagem simples no cenário demonstrativo.
+- RF-04: apresentar conteúdo educativo fictício em linguagem simples no cenário demonstrativo.
+- RF-09: oferecer uma atividade demonstrativa de compreensão, com feedback claro e sem sugerir diagnóstico ou prescrição.
 - RF-05: organizar próximos passos de forma legível.
 - RF-06: permitir reiniciar a demonstração e limpar o conteúdo inserido na sessão.
 - RF-07: oferecer um modo de demonstração com dados fictícios para testes.
@@ -58,9 +65,11 @@ Construir o menor protótipo útil para avaliar se uma interface digital simples
 
 Tarefas exemplificativas:
 1. Encontrar e marcar perguntas para levar ao atendimento.
-2. Localizar uma orientação no resumo demonstrativo e explicar com suas próprias palavras o que ela significa.
+2. Localizar o exemplo educativo e explicar com suas próprias palavras a mensagem principal.
 3. Identificar o próximo passo descrito no cenário fictício.
-4. Informar qual parte da interface foi confusa ou difícil.
+4. Informar qual parte do conteúdo ou da interface foi confusa ou difícil.
+
+A resposta imediata serve como indicador de compreensão daquela tarefa, não como medida suficiente de aprendizagem duradoura.
 
 Indicadores candidatos:
 - tarefa concluída sem ajuda;
