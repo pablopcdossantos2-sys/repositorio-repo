@@ -1,11 +1,11 @@
-# Critérios do edital e seis opções de tema para o anteprojeto
+# Critérios do edital e registro da decisão de tema
 
-**Status:** documento de decisão preliminar — **versão revisada em 20/10/2026** (ver histórico de alterações no final).  
+**Status:** decisão de tema registrada em 20/10/2026; documento mantido como histórico de comparação.  
 **Linha de pesquisa selecionada:** 2) Tecnologias para Educação em Saúde.  
 **Tipo de projeto selecionado:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.  
 **Formação informada pelo candidato:** graduação em Comunicação Social — Jornalismo e graduação em Medicina.
 
-> **Importante:** os seis temas abaixo são opções para comparação, não uma decisão definitiva. A linha e o tipo de projeto foram selecionados; o tema, a pergunta de pesquisa e o produto devem ser escolhidos após comparação com os critérios do edital e validação com a orientação. A pontuação desta matriz é uma avaliação interna de triagem (1–5), não uma nota oficial nem uma previsão de aprovação.
+**Decisão vigente:** trabalhar exclusivamente com **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. A tabela e as descrições dos outros cinco temas abaixo são registro histórico da comparação, não alternativas ativas. Pergunta, método, inovação e viabilidade continuam sujeitos a validação com a orientação.
 >
 > **Nota sobre o nome do arquivo:** o nome contém "cinco temas" por razões históricas e é mantido para não quebrar os links do repositório. O documento contém **seis** temas.
 
@@ -54,9 +54,9 @@ A combinação de **Jornalismo e Medicina** permite trabalhar dois aspectos comp
 
 O ponto forte é transformar esse conhecimento combinado em um **produto educacional digital que ensine uma habilidade**, em vez de construir apenas uma página informativa. O produto deve permitir que a pessoa pratique, receba feedback e demonstre o que conseguiu compreender. Resultados em um questionário imediato, porém, não provam aprendizagem duradoura nem mudança de comportamento.
 
-## 3. Seis temas candidatos
+## 3. Registro histórico dos seis temas comparados
 
-Os Temas 1 a 3 foram mantidos da versão anterior (correspondem aos antigos Temas 5, 4 e 6, respectivamente). Os Temas 4 a 6 são novos. Os três temas removidos estão descritos no histórico de alterações.
+As descrições e a matriz abaixo preservam a trilha de comparação feita antes da decisão. Elas não representam uma chamada à escolha entre alternativas: o único tema ativo é o Treino de Teleconsulta.
 
 ## Tema 1 — SUS Digital sem barreiras: recurso educativo para uso seguro de serviços e informações digitais de saúde
 
@@ -254,25 +254,13 @@ Notas de 1 a 5, usadas somente para comparar ideias nesta fase. São hipóteses 
 - **Mais sujeito a questionamento de inovação e enquadramento:** Tema 3. O campo é concorrido e a banca pode ver o tema como educação midiática. Só deve avançar se a busca mostrar uma lacuna brasileira real.
 - **Ressalva sobre a matriz:** a pontuação foi feita sem verificar a existência de produtos semelhantes, a disponibilidade dos dados do Tema 5 e os pesos do edital. Todas essas checagens estão nas pendências.
 
-## 5. Recomendação inicial
+## 5. Decisão tomada: Tema 4 — Treino de Teleconsulta
 
-**Candidato principal: Tema 1 — SUS Digital sem barreiras.** Combina a maior aderência ao programa e ao critério de transformação digital do SUS com equidade como eixo do desenho, e pode ser construído sem Secretaria, prontuário, integração técnica ou compra de serviços.
+**Tema escolhido:** **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital.** O produto será um simulador web de prática guiada, com cenários fictícios, para apoiar adultos com baixa familiaridade digital a praticar etapas comuns de uma teleconsulta sem conectar-se a um atendimento real.
 
-**Alternativas próximas, conforme a prioridade:**
-- **Tema 4 — Treino de Teleconsulta**, se a prioridade for a ligação direta com a telessaúde e o reaproveitamento do protótipo já existente.
-- **Tema 2 — IA em saúde com senso crítico**, se a prioridade for a inovação, desde que o recorte seja bem delimitado.
-- **Tema 5 ou 6**, se a prioridade for **minimizar a dependência de terceiros** e garantir uma dissertação defensável mesmo que a avaliação com pessoas atrase ou não seja autorizada.
+**Racional da decisão:** a proposta tem ligação direta com telessaúde e educação em saúde, ensina habilidades práticas em vez de apenas disponibilizar informação, mantém o escopo técnico controlável por simulação e permite incorporar acessibilidade desde o desenho. Não se pressupõe parceria com a Secretaria, e nenhum teste com pessoas começa sem a confirmação das aprovações aplicáveis.
 
-A recomendação **não significa que a escolha final já esteja feita**.
-
-Razões:
-1. Os Temas 1 e 4 têm a justificativa institucional mais clara para o programa de Telessaúde e Saúde Digital.
-2. Todos os temas podem ter o produto desenvolvido sem parceria institucional.
-3. A estrutura de avaliação em camadas permite concluir o trabalho com a Camada 0 e acrescentar a Camada 1 se houver autorização.
-4. Todos geram um produto tecnológico claro, com casos, decisões e feedback, e possibilidade de distribuição como recurso aberto.
-5. O vínculo com Jornalismo e Medicina é aproveitado em todos, de modos diferentes: avaliação de fontes e dados (Temas 2, 3 e 5), comunicação e acessibilidade (Temas 4 e 6) e informação segura (Tema 1).
-
-A avaliação com usuários ou especialistas ainda deverá ser planejada com a orientação e submetida às verificações e aprovações aplicáveis. “Menos dependência de terceiros” não significa ignorar a ética, dispensar a avaliação ou afirmar resultados sem evidência.
+A escolha do tema está feita para orientar o trabalho subsequente. A formulação definitiva da pergunta, a definição operacional do público e o método continuam sujeitos à discussão com a orientação.
 
 ## 6. Plano de execução possível em 24 meses
 
@@ -291,9 +279,9 @@ O plano abaixo é uma referência inicial, não um cronograma aprovado. **Difere
 
 Os prazos de análise ética variam e não foram verificados; o calendário deve ser ajustado ao programa, à orientação e ao CEP responsável.
 
-## 7. Critérios para escolher o tema final
+## 7. Critérios para refinar e validar o tema escolhido
 
-Antes de substituir o tema atual, responda para cada finalista:
+Use estas perguntas para refinar o Treino de Teleconsulta e verificar se a proposta é defensável:
 
 1. Consigo explicar o problema e o público em duas frases?
 2. O produto ensina uma habilidade definida, em vez de apenas disponibilizar texto?
@@ -305,21 +293,17 @@ Antes de substituir o tema atual, responda para cada finalista:
 8. A inovação é real e comparada com o que já existe, ou apenas rebatiza um conteúdo comum?
 9. A justificativa explica por que o tema é **saúde digital / educação em saúde** e não apenas educação midiática, estatística ou acessibilidade em geral?
 
-A escolha deverá ser feita com base na aderência e na exequibilidade demonstráveis, não apenas por ser um tema popular ou por parecer inovador.
+O tema está escolhido; sua sustentação deve ser demonstrada por aderência, evidência de necessidade, comparação com soluções existentes e exequibilidade — não apenas pela relevância aparente do assunto.
 
-## 8. Pendências de decisão
+## 8. Pendências de refinamento do tema escolhido
 
-- [ ] Discutir os temas finalistas (1, 4 e um entre 2, 5 ou 6) com a orientação, sem assumir que a escolha atual é definitiva.
-- [ ] **Unificar o repositório em torno do tema escolhido:** o README, o `anteprojeto-base.md` e o `anteprojeto-modelo-uerj.md` ainda descrevem o "Conversa Clara" (preparação para teleconsulta em Guaraí), que não é um dos temas acima e tem a maior dependência de terceiros.
-- [ ] Confirmar a aderência do tema final à linha e ao tipo de projeto no edital vigente, incluindo os pesos dos critérios, se houver.
-- [ ] Fazer uma busca dirigida para identificar produtos semelhantes e tornar a lacuna de inovação defensável (em especial para os Temas 2, 3 e 6).
-- [ ] No Tema 5, verificar fontes, indicadores, licenças e estabilidade dos dados públicos.
-- [ ] Definir público-alvo, objetivos de aprendizagem, conteúdo mínimo e indicador principal.
-- [ ] Confirmar com o programa e o CEP: se a avaliação com pessoas e o painel de especialistas exigem apreciação ética, quando a submissão pode ser feita e se alguma etapa se enquadra em hipótese de dispensa (Resolução CNS nº 510/2016).
-- [ ] Atualizar o cronograma do anteprojeto com a etapa de análise ética e a avaliação em camadas.
-- [ ] Atualizar o título e todo o anteprojeto somente após a decisão sobre o tema.
-
----
+- [ ] Refinar a pergunta e os objetivos de aprendizagem com a orientação.
+- [ ] Definir operacionalmente “baixa familiaridade digital” e a estratégia de elegibilidade sem inferir incapacidade pela idade ou escolaridade.
+- [ ] Mapear produtos semelhantes (tutoriais, vídeos, guias, simulações e recursos do SUS) e demonstrar a lacuna específica do simulador.
+- [ ] Definir o cenário de avaliação e as tarefas simuladas; manter alternativa sem participantes caso as aprovações não sejam possíveis no prazo.
+- [ ] Escolher instrumentos, critérios de êxito e plano de análise antes da coleta.
+- [ ] Confirmar com orientação, instituição e instâncias pertinentes quais autorizações éticas e administrativas se aplicam.
+- [ ] Atualizar e conferir o anteprojeto conforme o edital e o modelo oficial vigentes.
 
 ## Histórico de alterações
 
