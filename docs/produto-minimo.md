@@ -69,12 +69,11 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 
 As tarefas candidatas incluem:
 1. Identificar itens básicos de preparação do dispositivo e ambiente.
-2. Seguir as instruções para entrar numa sala virtual fictícia.
-3. Responder ao cenário de acesso: conferir conexão/link oficial e escolher um canal de suporte conhecido sem compartilhar senha.
-4. Diante de um cenário sem áudio, escolher uma ação apropriada (conferir o controle visível ou avisar que não consegue ouvir).
-5. Diante de uma informação pouco clara, ensaiar pedido de repetição/esclarecimento.
-6. Localizar e confirmar os próximos passos que o cenário apresentou.
-7. Reiniciar a experiência e verificar que as escolhas foram limpas.
+2. Responder à situação em que o link não abre, escolhendo conferir conexão/link oficial e contatar um canal oficial conhecido sem compartilhar senha.
+3. Diante de um cenário sem áudio, escolher uma ação apropriada (conferir o controle visível ou avisar que não consegue ouvir).
+4. Diante de uma informação pouco clara, ensaiar pedido de repetição/esclarecimento.
+5. Localizar e confirmar os próximos passos que o cenário apresentou.
+6. Reiniciar a experiência e verificar que as escolhas, feedbacks e seleção de cenário foram limpos.
 
 Indicadores candidatos: conclusão de tarefa, erro/ação inesperada, necessidade de ajuda, compreensão da instrução, facilidade percebida e sugestões de melhoria. Tarefas, rubrica, instrumentos e plano de análise precisam ser definidos previamente no protocolo.
 
