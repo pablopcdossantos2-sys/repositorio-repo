@@ -5,7 +5,7 @@
 **Tipo de projeto selecionado:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.  
 **Formação informada pelo candidato:** graduação em Comunicação Social — Jornalismo e graduação em Medicina.
 
-> **Importante:** os cinco temas abaixo são opções para comparação, não uma decisão definitiva. A linha e o tipo de projeto foram selecionados; o tema, a pergunta de pesquisa e o produto devem ser escolhidos após comparação com os critérios do edital e validação com a orientação. A pontuação desta matriz é uma avaliação interna de triagem (1–5), não uma nota oficial nem uma previsão de aprovação.
+> **Importante:** os seis temas abaixo são opções para comparação, não uma decisão definitiva. A linha e o tipo de projeto foram selecionados; o tema, a pergunta de pesquisa e o produto devem ser escolhidos após comparação com os critérios do edital e validação com a orientação. A pontuação desta matriz é uma avaliação interna de triagem (1–5), não uma nota oficial nem uma previsão de aprovação.
 
 ## 1. Como usaremos os critérios do edital
 
@@ -208,11 +208,13 @@ Notas de 1 a 5, usadas somente para comparar ideias nesta fase. São hipóteses 
 | 2. Risco sem Confusão | 5 | 4 | 5 | 4 | 5 | 5 | 4 | 32 | Baixa |
 | 3. Da linguagem médica à linguagem clara | 5 | 4 | 4 | 5 | 5 | 5 | 5 | 33 | Média |
 | 4. IA em saúde com senso crítico | 5 | 5 | 4 | 4 | 4 | 4 | 5 | 31 | Baixa para desenvolver; média para atualização |
-| 5. SUS Digital sem barreiras | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 34 | Baixa a média |\n| 6. Radar da Desinformação em Saúde | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 33 | Baixa a média |
+| 5. SUS Digital sem barreiras | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 34 | Baixa a média |
+| 6. Radar da Desinformação em Saúde | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 33 | Baixa a média |
 
 ### Interpretação da matriz
 
-- **Melhor equilíbrio geral na triagem interna:** Tema 1. Combina de modo direto as formações em Jornalismo e Medicina, permite um produto próprio e interativo, usa fontes públicas e evita depender de uma unidade de saúde específica.\n- **Mais diretamente alinhado a combater desinformação em saúde:** Tema 6. Seu diferencial é praticar tanto o reconhecimento preventivo de táticas enganosas quanto decisões de não compartilhar e responder com fontes confiáveis; deve ser comparado de perto com o Tema 1 para evitar duplicação.
+- **Melhor equilíbrio geral na triagem interna:** Tema 1. Combina de modo direto as formações em Jornalismo e Medicina, permite um produto próprio e interativo, usa fontes públicas e evita depender de uma unidade de saúde específica.
+- **Mais diretamente alinhado a combater desinformação em saúde:** Tema 6. Seu diferencial é praticar tanto o reconhecimento preventivo de táticas enganosas quanto decisões de não compartilhar e responder com fontes confiáveis; deve ser comparado de perto com o Tema 1 para evitar duplicação.
 - **Mais alinhado diretamente a letramento digital e transformação do SUS:** Tema 5. Tem justificativa institucional forte, desde que se evite construir um tutorial frágil baseado em telas que mudam frequentemente.
 - **Mais centrado em educação de profissionais:** Tema 3. Pode ser adequado caso haja preferência por formar profissionais e comunicadores, mas sua avaliação pode depender de acesso a esse público.
 - **Mais delimitável para avaliação imediata de uma habilidade:** Tema 2. Tem objetivos de aprendizagem relativamente claros, mas exige cuidado para não transformar o produto em um curso extenso de estatística.
