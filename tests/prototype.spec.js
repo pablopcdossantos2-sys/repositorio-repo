@@ -25,7 +25,7 @@ test("checklist atualiza o status e Desmarcar tudo limpa as escolhas", async ({ 
   await checks.nth(1).check();
   await expect(page.locator("#check-status")).toHaveText("2 itens marcados nesta demonstração.");
   await page.getByRole("button", { name: "Desmarcar tudo" }).click();
-  await expect(checks).not.toBeChecked();
+  for (const checkbox of await checks.all()) await expect(checkbox).not.toBeChecked();
   await expect(page.locator("#check-status")).toHaveText("Nenhum item marcado.");
 });
 
@@ -71,8 +71,8 @@ test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async
 
   await expect(page.locator("#view-prepare")).toBeVisible();
   await expect(page.locator("#prepare-title")).toBeFocused();
-  await expect(page.locator(".check-row input")).not.toBeChecked();
-  await expect(page.locator('input[name="understanding"]')).not.toBeChecked();
+  for (const checkbox of await page.locator(".check-row input").all()) await expect(checkbox).not.toBeChecked();
+  for (const option of await page.locator('input[name="understanding"]').all()) await expect(option).not.toBeChecked();
   await expect(page.locator("#understanding-feedback")).toBeEmpty();
   await expect(page.locator("#rating-feedback")).toBeEmpty();
   await expect(page.locator('[data-rating][aria-pressed="true"]')).toHaveCount(0);
