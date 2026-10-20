@@ -8,6 +8,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - "package.json"
+      - ".nvmrc"
       - ".htmlvalidate.json"
       - ".github/workflows/prototype-quality.yml"
   pull_request:
@@ -34,7 +35,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v7
         with:
-          node-version: "24"
+          node-version-file: ".nvmrc"
       - name: Install pinned development dependencies
         run: npm install --no-audit --no-fund
       - name: Run syntax, structural and HTML validation
