@@ -163,7 +163,7 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 ## Atualização de continuidade — apresentação oral (20/10/2026)
 
-Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e deve ser sincronizada para `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`.
+Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e já foi adicionada ao repositório: [apresentação ODP](../apresentacao/defesa-oral-atualizada.odp) e [guia Markdown](../apresentacao/guia-defesa-oral-atualizado.md). O pacote ODP foi verificado estruturalmente; a revisão visual no LibreOffice Impress ainda precisa ser feita.
 
 ### Conteúdo alinhado ao estado atual
 
@@ -183,3 +183,14 @@ Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complem
 5. Manter ROADMAP e este documento atualizados a cada avanço verificável.
 
 A apresentação e o guia são materiais de preparação; não representam validação da proposta pela orientação nem conclusão das pendências bibliográficas/técnicas.
+
+
+### Resultado da sincronização no GitHub
+
+Em 20/10/2026, os dois arquivos foram adicionados à branch `main`:
+- `apresentacao/defesa-oral-atualizada.odp`
+- `apresentacao/guia-defesa-oral-atualizado.md`
+
+Commit de inclusão do ODP: [0d1043be09643ba5e971a6cd034362daee9aac4b](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/0d1043be09643ba5e971a6cd034362daee9aac4b). O guia foi incluído em commit anterior. O conteúdo do arquivo ODP foi enviado como blob binário e a estrutura do pacote ZIP/ODP foi validada localmente; a renderização final de todos os slides no LibreOffice Impress não foi confirmada nesta rodada.
+
+Próximas pendências prioritárias permanecem: executar a busca bibliográfica formal nas bases oficiais e registrar contagens reais; concluir a auditoria manual de acessibilidade e avaliar visualmente as bordas de estado; revisar a apresentação no LibreOffice e preencher os dados pessoais que faltam. Não iniciar atividades com participantes sem indicação explícita da orientação acadêmica.
