@@ -91,6 +91,7 @@ Copiar e preencher para cada rodada:
 
 - [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md).
 - [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md).
+- [Mapa preliminar de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md).
 - [Relatório de revisão técnica](relatorio-revisao-tecnica.md).
 - [Como executar os testes localmente](como-executar-testes.md).
 - [WHO/ITU — Implementation toolkit for accessible telehealth services (2024)](https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities).
