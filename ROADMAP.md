@@ -1,5 +1,7 @@
 # ROADMAP — Treino de Teleconsulta
 
+> **Leitura obrigatória para continuidade entre IAs:** [Estado atual do projeto e diretrizes para IAs](docs/estado-atual-e-diretrizes-para-ias.md). Em caso de conflito com listas de tarefas ou propostas antigas, confira a diretriz metodológica vigente antes de agir.
+
 **Atualizado em:** 20/10/2026  
 **Branch de referência:** `main`  
 **Status geral:** tema escolhido; protótipo web inicial existente; alinhamento funcional, revisão bibliográfica, método e etapas institucionais continuam em andamento.
