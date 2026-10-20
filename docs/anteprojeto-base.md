@@ -67,9 +67,15 @@ O plano inicial é avaliação documental, técnica e pedagógica sem participan
 Simulador web responsivo com três módulos:
 - **Antes da teleconsulta:** preparação do dispositivo, conexão, ambiente e dúvidas, sem solicitar dados pessoais ou clínicos.
 - **Durante — três cenários fictícios:** (a) o link não abre; (b) a pessoa não consegue ouvir; (c) uma informação não ficou clara. Cada cenário apresenta escolhas e feedback específico para praticar ações seguras sem conexão real.
-- **Ao encerrar:** prática de pedir esclarecimentos, confirmar próximos passos e procurar canal oficial quando necessário.
+- **Ao encerrar:** exemplos educativos estáticos de como pedir esclarecimentos, confirmar os próximos passos apresentados no cenário e procurar um canal oficial conhecido quando necessário. Esta etapa ainda não oferece uma tarefa de escolha e feedback para OE-05; a escala de facilidade de 1 a 5 é apenas um controle local de interface e não mede aprendizagem.
 
 Todos os nomes, links, mensagens e cenários serão fictícios. O protótipo não terá login, integração com prontuários, IA, transmissão ou armazenamento de respostas, áudio/vídeo real, diagnóstico ou prescrição.
+
+### Critérios de conteúdo e feedback
+
+Os três cenários interativos serão revisados com critérios explícitos: (a) apresentar uma ação concreta por vez; (b) explicar por que a escolha é segura; (c) oferecer nova tentativa sem culpa ou julgamento; (d) evitar solicitar senhas ou dados pessoais; (e) manter personagens e serviços fictícios; e (f) não formular nem alterar orientações clínicas. Para o link indisponível, o feedback orienta a conferir conexão e link/canal oficial conhecido; para falha de áudio, conferir volume e controles disponíveis e comunicar a dificuldade; para informação não compreendida, pedir repetição ou explicação alternativa e confirmar o próximo passo.
+
+Esses critérios são decisões de design informadas pela literatura e pelas orientações de acessibilidade e preparação para telessaúde registradas no repositório. Não comprovam que os textos serão compreendidos pelo público-alvo. A revisão editorial de 20/10/2026 está documentada em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md); a busca bibliográfica formal permanece pendente.
 
 ## Aspectos éticos e proteção de dados
 
