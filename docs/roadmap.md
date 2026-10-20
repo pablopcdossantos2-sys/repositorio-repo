@@ -1,5 +1,7 @@
 # Roadmap de desenvolvimento — Treino de Teleconsulta
 
+> Antes de alterar código, método ou escopo, leia [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md), que reúne as decisões atuais e os limites das propostas condicionais.
+
 Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. A escolha de tema foi registrada em 20/10/2026; o anteprojeto e o protótipo continuam em refinamento.
 
 ## Enquadramento acadêmico
