@@ -42,6 +42,7 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 ## Estrutura do repositório
 
 - [ROADMAP — prioridades, critérios de conclusão e pendências](ROADMAP.md)
+- [Guia operacional das tarefas que dependem do responsável pelo projeto](docs/tarefas-pessoais-e-proximos-passos.md)
 - [Anteprojeto — base de trabalho](docs/anteprojeto-base.md)
 - [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
 - [Referências iniciais e plano de busca bibliográfica](docs/referencias-e-busca-bibliografica.md)
