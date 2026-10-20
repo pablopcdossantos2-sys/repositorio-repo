@@ -313,3 +313,10 @@ Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos
 - [ ] Confirmar com a orientação se o plano sem participantes atende aos requisitos do curso.
 
 **Limite desta rodada:** foram realizadas alterações documentais; não houve alteração no HTML/CSS/JavaScript, execução de testes, auditoria manual ou avaliação com participantes. A matriz documenta consistência do design, não validação do público-alvo.
+
+
+### Complemento de rastreabilidade — especificação do produto (20/10/2026)
+
+- [x] Vincular a especificação do produto mínimo à matriz de critérios editoriais, para que a implementação e a auditoria consultem os mesmos critérios.
+- [x] Manter as pendências técnicas como abertas: testes de regressão após as mudanças de código, auditoria manual e buscas bibliográficas formais.
+- [ ] Não marcar os critérios técnicos como aprovados até registrar execução no commit atual.
