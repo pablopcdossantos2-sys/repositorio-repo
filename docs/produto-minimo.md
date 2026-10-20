@@ -36,13 +36,14 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 - **RF-01:** apresentar finalidade, natureza simulada e limites antes das atividades.
 - **RF-02:** permitir navegar entre as etapas por teclado, mouse e toque.
 - **RF-03:** oferecer checklist simples de preparação, sem solicitar informações identificáveis.
-- **RF-04:** simular a entrada em uma sala virtual fictícia por instruções visíveis; nenhum link real será aberto.
-- **RF-05:** propor ao menos uma decisão educativa diante de uma dificuldade técnica simulada.
-- **RF-06:** oferecer uma prática de comunicação, como pedir que uma informação seja repetida ou confirmar um próximo passo.
-- **RF-07:** fornecer feedback simples, respeitoso e explicativo para cada escolha relevante.
-- **RF-08:** permitir reiniciar a sessão local e limpar todas as escolhas/feedbacks.
-- **RF-09:** não coletar, armazenar ou transmitir respostas ou dados pessoais/clínicos.
-- **RF-10:** manter todo conteúdo demonstrativo explicitamente fictício e sem instrução clínica individual.
+- **RF-04:** oferecer o botão “Entrar na sala de treino” para praticar a entrada numa sala virtual fictícia; o feedback deve deixar claro que nenhuma conexão real é aberta.
+- **RF-05:** disponibilizar controles fictícios e interativos para praticar entrada, conferência de áudio e comunicação da dificuldade, sem ativar microfone/câmera ou enviar mensagens.
+- **RF-06:** propor ao menos uma decisão educativa diante de uma dificuldade técnica simulada.
+- **RF-07:** oferecer uma prática de comunicação, como pedir que uma informação seja repetida ou confirmar um próximo passo.
+- **RF-08:** fornecer feedback simples, respeitoso e explicativo para cada escolha relevante.
+- **RF-09:** permitir reiniciar a sessão local e limpar todas as escolhas/feedbacks.
+- **RF-10:** não coletar, armazenar ou transmitir respostas ou dados pessoais/clínicos.
+- **RF-11:** manter todo conteúdo demonstrativo explicitamente fictício e sem instrução clínica individual.
 
 ## Requisitos de qualidade e acessibilidade
 
