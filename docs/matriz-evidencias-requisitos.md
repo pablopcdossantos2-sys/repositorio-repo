@@ -118,3 +118,12 @@ A revisão rápida em `docs/revisao-rapida-evidencias-e-recomendacoes.md` comple
 | Duplaga (2025), usabilidade de consultas médicas remotas por telefone. DOI: 10.3233/SHTI251307. | Literacia digital, ansiedade tecnológica, idade e escolaridade associaram-se a escores autorreferidos de usabilidade em uma amostra de 1.661 adultos usuários de internet. | Considerar heterogeneidade de experiência e barreiras digitais ao definir as características a descrever no protocolo. | Estudo observacional da Polônia; não é diretamente generalizável ao contexto de Guaraí. |
 
 A seleção e os limites da busca desta rodada estão registrados em [registro de busca exploratória complementar](registro-busca-exploratoria-2026-10-19.md); ela não substitui busca reprodutível nas interfaces oficiais.
+
+## 10. Evidências metodológicas adicionais — busca exploratória de 20/10/2026
+
+| Tema | Fonte | Consequência para requisito ou avaliação | Limite |
+|---|---|---|---|
+| Usabilidade pré-piloto de simulação educativa | Lesselroth et al. (2025), DOI 10.3233/SHTI250327; Lesselroth et al. (2026), DOI 10.3233/SHTI250237 e 10.3233/SHTI260636 | Incluir uma rubrica por tarefa, critérios prévios de sucesso parcial/total, tipo de ajuda e registro de problemas de fluxo/fidelidade; combinar conclusão de tarefa e comentário qualitativo na avaliação planejada. | Os estudos encontrados avaliam sobretudo simulações de telemedicina dirigidas a residentes/profissionais. Servem como referência metodológica adjacente, não como evidência direta de benefício a pacientes/usuários com baixa familiaridade digital. |
+| Acessibilidade de telessaúde | WHO; ITU (2024), *Implementation toolkit for accessible telehealth services*. https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities | Ampliar a auditoria de acessibilidade para além do contraste: verificar conteúdo compreensível, ordem e visibilidade do foco, navegação por teclado e, onde pertinente, compatibilidade com tecnologia assistiva e alternativas a conteúdos audiovisuais. | Trata-se de orientação para acessibilidade de serviços de telessaúde. A referência ajuda a planejar a auditoria, mas não prova conformidade automática do protótipo. |
+
+**Registro de procedência:** a rodada de 20/10/2026 foi exploratória na web; buscas oficiais reproduzíveis nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO, com exportação e contagens, continuam pendentes. Consulte [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
