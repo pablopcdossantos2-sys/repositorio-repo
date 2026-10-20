@@ -19,11 +19,11 @@ test("apresenta o tema escolhido e as três etapas de treino de teleconsulta", a
   await page.locator('.tab[data-view="guidance"]').click();
   await expect(page.getByRole("heading", { name: "Pratique três situações comuns numa teleconsulta" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "O link não abre" })).toBeVisible();
+  await expect(page.getByText(/sala virtual fictícia/)).toBeVisible();
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await expect(page.getByRole("heading", { name: "Não consigo ouvir" })).toBeVisible();
   await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
   await expect(page.getByRole("heading", { name: "Não entendi uma informação" })).toBeVisible();
-  await expect(page.getByText(/sala virtual fictícia/)).toBeVisible();
   await page.locator('.tab[data-view="next"]').click();
   await expect(page.getByRole("heading", { name: "Confirme o que ficou combinado" })).toBeVisible();
 });
@@ -58,6 +58,7 @@ test("checklist atualiza o status e Desmarcar tudo limpa as escolhas", async ({ 
   await page.getByRole("button", { name: "Desmarcar tudo" }).click();
   for (const checkbox of await checks.all()) await expect(checkbox).not.toBeChecked();
   await expect(page.locator("#check-status")).toHaveText("Nenhum item marcado.");
+  await expect(page.locator('[data-scenario-target="entry"]')).toHaveAttribute("aria-pressed", "true");
 });
 
 test("navegação move o foco para o título da etapa ativa", async ({ page }) => {
@@ -82,8 +83,8 @@ test("os controles fictícios permitem praticar ações sem ativar áudio nem en
 
 test("avaliação de compreensão exige escolha e apresenta feedback coerente", async ({ page }) => {
   await page.locator('.tab[data-view="guidance"]').click();
-  await page.locator("#check-understanding").click();
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
+  await page.locator("#check-understanding").click();
   await expect(page.locator("#understanding-feedback")).toContainText("Escolha uma resposta");
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
@@ -195,6 +196,29 @@ for (const view of [
     ).toEqual([]);
   });
 }
+
+test("axe-core: verifica acessibilidade nos três cenários de prática", async ({ page }) => {
+  await page.locator('.tab[data-view="guidance"]').click();
+  const cases = [
+    { name: "1. Entrar na sala", target: "#entry-title" },
+    { name: "2. Resolver o áudio", target: "#audio-title" },
+    { name: "3. Pedir esclarecimento", target: "#clarify-title" }
+  ];
+  for (const item of cases) {
+    await page.getByRole("button", { name: item.name }).click();
+    await expect(page.locator(item.target)).toBeVisible();
+    const results = await new AxeBuilder({ page })
+      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"])
+      .analyze();
+    expect(
+      results.violations.map(violation => ({
+        id: violation.id,
+        impact: violation.impact,
+        nodes: violation.nodes.map(node => ({ target: node.target, summary: node.failureSummary }))
+      }))
+    ).toEqual([]);
+  }
+});
 
 test("navegação completa não gera exceções JavaScript nem solicita recursos externos", async ({ page }) => {
   const pageErrors = [];
