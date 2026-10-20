@@ -162,3 +162,17 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 - [x] Relidos os seletores CSS e os elementos HTML relacionados às três bordas de baixo contraste.
 - [x] Registrado que a etapa ativa também usa fundo, texto, círculo preenchido e `aria-current`; o checklist usa checkbox nativo e fundo; o aviso contém símbolo, fundo e texto explícito.
 - [ ] Confirmar esses indicadores no estado renderizado, teclado e tecnologia assistiva. AUD-15 permanece parcial; nenhuma mudança de CSS foi feita.
+
+
+## Atualização — segunda revisão estática do protótipo (20/10/2026)
+
+- [x] Inspecionar estaticamente os arquivos atuais de HTML, JavaScript e CSS, registrando hashes e limites em [segunda revisão estática](docs/segunda-revisao-estatica-2026-10-20.md).
+- [x] Conferir por busca textual 24 IDs sem duplicações, os três destinos de `aria-controls`, nove referências únicas de `getElementById` e referências `href`/`src` apenas locais.
+- [x] Repetir a busca lexical por APIs comuns de rede/persistência; nenhuma das APIs listadas foi encontrada no JavaScript inspecionado. Isso não prova ausência universal de rede/armazenamento.
+- [x] Corrigir a documentação pedagógica: o conteúdo educativo de encerramento é estático, embora exista uma escala interativa de facilidade de 1 a 5. A escala não é tarefa de aprendizagem nem validação com usuários.
+- [x] Atualizar o mapa de objetivos, o guia da defesa e o relatório de revisão técnica com essa distinção.
+- [ ] Executar auditoria manual no navegador, incluindo teclado/foco, zoom/reflow, leitor de tela, estados visuais e painel Network/Application.
+- [ ] Executar a suíte automatizada em CI após qualquer alteração de código; esta rodada foi documental/estática e não gerou nova execução de testes.
+- [ ] Concluir buscas bibliográficas formais nas interfaces oficiais e registrar contagens/exportações reais.
+
+**Limite desta rodada:** não houve alteração no código do produto, execução do navegador, nova CI ou avaliação com participantes. A inspeção estática não equivale a auditoria integral WCAG nem demonstra aprendizagem.
