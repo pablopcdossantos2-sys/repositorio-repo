@@ -18,7 +18,8 @@ Esses SHAs identificam o conteúdo dos arquivos consultados; não são, por si, 
 ## 2. Procedimentos realizados
 
 - Leitura dos arquivos HTML, JavaScript e CSS atuais na branch `main`.
-- Busca estática de referências `src`/`href` externas no HTML.\n- Busca por IDs duplicados e conferência da estrutura dos controles de escolha.
+- Busca estática de referências `src`/`href` externas no HTML.
+- Busca por IDs duplicados e conferência da estrutura dos controles de escolha.
 - Inventário de campos `input`, formulários e `iframe`.
 - Busca no JavaScript por APIs comuns de rede e persistência: `fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`, cookies, `WebSocket`, `sendBeacon` e `indexedDB`.
 - Revisão da lógica que mostra/oculta painéis, seleciona cenários, fornece feedback e reinicia a demonstração.
