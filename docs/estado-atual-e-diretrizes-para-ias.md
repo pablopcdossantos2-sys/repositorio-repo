@@ -163,7 +163,7 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 ## Atualização de continuidade — apresentação oral (20/10/2026)
 
-Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e já foi adicionada ao repositório: [apresentação ODP](../apresentacao/defesa-oral-atualizada.odp) e [guia Markdown](../apresentacao/guia-defesa-oral-atualizado.md). O pacote ODP foi verificado estruturalmente; a revisão visual no LibreOffice Impress ainda precisa ser feita.
+Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e já foi adicionada ao repositório: [apresentação ODP](../apresentacao/defesa-oral-atualizada.odp) e [guia Markdown](../apresentacao/guia-defesa-oral-atualizado.md). O pacote ODP foi verificado estruturalmente e convertido em PDF pelo LibreOffice Impress, gerando 15 páginas. Uma inspeção de miniaturas confirmou que as 15 páginas estão presentes; ainda é necessário revisar a legibilidade em tamanho real e personalizar os campos do candidato.
 
 ### Conteúdo alinhado ao estado atual
 
@@ -191,6 +191,11 @@ Em 20/10/2026, os dois arquivos foram adicionados à branch `main`:
 - `apresentacao/defesa-oral-atualizada.odp`
 - `apresentacao/guia-defesa-oral-atualizado.md`
 
-Commit de inclusão do ODP: [0d1043be09643ba5e971a6cd034362daee9aac4b](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/0d1043be09643ba5e971a6cd034362daee9aac4b). O guia foi incluído em commit anterior. O conteúdo do arquivo ODP foi enviado como blob binário e a estrutura do pacote ZIP/ODP foi validada localmente; a renderização final de todos os slides no LibreOffice Impress não foi confirmada nesta rodada.
+Commit de inclusão do ODP: [e9c32c88c61cca79f0c93b0ee853a01eb0d2b014](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/e9c32c88c61cca79f0c93b0ee853a01eb0d2b014). O guia foi incluído em commit anterior. O conteúdo do arquivo ODP foi enviado como blob binário e a estrutura do pacote ZIP/ODP foi validada localmente; a renderização final de todos os slides no LibreOffice Impress não foi confirmada nesta rodada.
 
 Próximas pendências prioritárias permanecem: executar a busca bibliográfica formal nas bases oficiais e registrar contagens reais; concluir a auditoria manual de acessibilidade e avaliar visualmente as bordas de estado; revisar a apresentação no LibreOffice e preencher os dados pessoais que faltam. Não iniciar atividades com participantes sem indicação explícita da orientação acadêmica.
+
+
+### Verificação de renderização — 20/10/2026
+
+O arquivo `apresentacao/defesa-oral-atualizada.odp` foi convertido com sucesso para PDF usando o LibreOffice Impress em modo headless. O PDF resultante contém **15 páginas**, correspondentes aos 15 slides. Foi gerada uma folha de miniaturas para inspeção geral; não foram identificadas páginas ausentes. Esta verificação não substitui uma revisão de legibilidade em tela cheia, ensaio com tempo cronometrado ou personalização do slide de motivação.
