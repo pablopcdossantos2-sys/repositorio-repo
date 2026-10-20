@@ -15,6 +15,10 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 - **Objetivo educativo preliminar:** permitir a prática guiada de tarefas digitais associadas ao antes, durante e encerramento de uma teleconsulta.
 - **Limite de inferência:** concluir uma tarefa simulada ou acertar uma pergunta não comprova aprendizagem duradoura nem competência para todas as situações reais.
 
+## Critérios de revisão de textos e feedbacks
+
+A revisão editorial dos cenários e os critérios observáveis por objetivo, feedback e teste estão documentados em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md) e na [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md). Esses documentos orientam a inspeção sem participantes; não demonstram compreensão pelo público-alvo.
+
 ## Princípios de design
 
 - Uma instrução principal por tela, frases curtas, termos concretos e explicação de palavras técnicas.
