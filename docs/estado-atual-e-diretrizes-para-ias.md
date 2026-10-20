@@ -379,3 +379,10 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 4. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
 
 **Integridade:** revisão editorial não equivale a teste de compreensão, usabilidade com o público-alvo, aprendizagem demonstrada ou eficácia clínica. Atualizar este documento e o ROADMAP após cada avanço verificável.
+
+
+### Ajuste de continuidade — asserções dos feedbacks
+
+Após a revisão do texto atual no `main`, as novas asserções de `tests/prototype.spec.js` foram alinhadas às frases reais do JavaScript: conferir a conexão e confirmar o link por canal oficial conhecido; conferir volume/saída de som quando disponível e avisar a pessoa profissional; pedir esclarecimento e confirmar o próximo passo mencionado. O ajuste de teste está no commit [b911436](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/b911436ee49e2678ad4f69c8ededf63be98d4467).
+
+A consulta de status para esse commit retornou uma lista vazia de checks; portanto, **o resultado da CI ainda não está confirmado**. A suíte deve ser conferida no GitHub Actions antes de registrar aprovação. Não afirmar que os testes passaram com base apenas na existência das asserções.
