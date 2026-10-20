@@ -62,6 +62,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](docs/roteiro-auditoria-tecnica-sem-participantes.md)).
 - [x] Realizar e registrar inspeção estática parcial do HTML/JS/CSS, incluindo busca por campos pessoais e APIs comuns de rede/persistência ([registro](docs/registro-auditoria-estatica-2026-10-20.md)).
 - [x] Calcular contraste de combinações selecionadas de texto, foco e estados e registrar possíveis pendências ([verificação preliminar](docs/verificacao-preliminar-contraste-2026-10-20.md)).
+- [x] Conferir a última CI para o código do protótipo inspecionado: 22 testes Playwright + axe-core passaram no commit de código registrado ([execução](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)); os testes manuais continuam pendentes.
 - [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
 - [x] Criar mapa preliminar de objetivos educativos e tarefas, distinguindo conteúdo estático de prática interativa ([mapa](docs/mapa-objetivos-educativos-e-tarefas.md)).
 - [ ] Revisar os objetivos com base na literatura e definir critérios de verificação.
