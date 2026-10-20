@@ -10,20 +10,20 @@
     entry: {
       inputName: "entry-choice",
       feedbackId: "entry-choice-feedback",
-      success: "Boa escolha. Confira a conexão e confirme o link usando um canal oficial que você já conhece. Se não conseguir entrar, procure esse contato para pedir ajuda. Não compartilhe senha ou código de acesso em links inesperados.",
-      retry: "Tente novamente. Se o link não abrir, confira a conexão e confirme o link por um canal oficial que você já conhece. Se continuar sem acesso, procure esse contato. Não compartilhe senha ou código de acesso."
+      success: "Boa escolha. Confira se a internet está funcionando. Confirme o link pelo contato que o serviço de saúde informou antes. Se ainda não conseguir entrar, peça ajuda por esse contato. Não digite senha ou código em links inesperados.",
+      retry: "Tente novamente. Confira se a internet está funcionando e confirme o link pelo contato que o serviço de saúde informou antes. Se ainda não conseguir entrar, peça ajuda por esse contato. Não digite senha ou código em links inesperados."
     },
     audio: {
       inputName: "understanding",
       feedbackId: "understanding-feedback",
-      success: "Isso! Confira se o volume do aparelho está ligado e, se houver essa opção, se a saída de som está correta. Se ainda não ouvir, avise a pessoa profissional e peça ajuda. Esta situação é fictícia: não há chamada nem áudio real.",
-      retry: "Tente novamente. Confira o volume e, se houver essa opção, a saída de som. Se continuar sem ouvir, avise a pessoa profissional em vez de sair sem explicar o problema. Não é necessário compartilhar dados pessoais."
+      success: "Isso. Confira se o volume está ligado e se o som está saindo pelo alto-falante ou fone que você está usando. Se ainda não ouvir, avise o profissional de saúde e peça ajuda. Esta situação é fictícia: não há chamada nem áudio real.",
+      retry: "Tente novamente. Confira o volume e o alto-falante ou fone que está usando. Se continuar sem ouvir, avise o profissional de saúde e peça ajuda. Não compartilhe dados pessoais por links inesperados."
     },
     clarify: {
       inputName: "clarify-choice",
       feedbackId: "clarify-feedback",
-      success: "Boa prática. Peça que a pessoa repita ou explique de outro jeito e, em seguida, confirme o próximo passo mencionado. Isso ajuda a evitar mal-entendidos; não é preciso adivinhar nem alterar orientações por conta própria. Este exemplo não fornece orientação clínica.",
-      retry: "Tente novamente. Diga que a informação não ficou clara, peça para repetir ou explicar de outro jeito e confirme o próximo passo mencionado. Não precisa fingir que entendeu nem adivinhar."
+      success: "Boa prática. Peça ao profissional de saúde que repita ou explique de outro jeito. Depois, confirme qual é o próximo passo mencionado. Isso ajuda a evitar mal-entendidos; não precisa adivinhar nem mudar orientações por conta própria. Este exemplo não fornece orientação clínica.",
+      retry: "Tente novamente. Diga que a informação não ficou clara e peça ao profissional de saúde que repita ou explique de outro jeito. Depois, confirme o próximo passo mencionado. Não precisa fingir que entendeu nem adivinhar."
     }
   };
 
@@ -88,13 +88,13 @@
   });
 
   document.getElementById("simulate-enter").addEventListener("click", () => {
-    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o link continua sem abrir. Confira a conexão e confirme o link por um canal oficial que você já conhece. Se não conseguir entrar, procure esse contato para pedir ajuda. Não compartilhe senhas ou códigos em links inesperados. Nenhuma conexão real foi aberta.";
+    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o link continua sem abrir. Confira se a internet está funcionando e confirme o link pelo contato que o serviço de saúde informou antes. Se ainda não conseguir entrar, peça ajuda por esse contato. Não digite senha ou código em links inesperados. Nenhuma conexão real foi aberta.";
   });
   document.getElementById("simulate-audio").addEventListener("click", () => {
-    document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Na prática real, veja se o volume do aparelho está ligado e, se houver essa opção, confira a saída de som. Se ainda não ouvir, avise a pessoa profissional e peça ajuda.";
+    document.getElementById("room-feedback").textContent = "Você praticou uma primeira verificação. Confira se o volume está ligado e se o som sai pelo alto-falante ou fone que está usando. Se ainda não ouvir, avise o profissional de saúde e peça ajuda.";
   });
   document.getElementById("simulate-help").addEventListener("click", () => {
-    document.getElementById("room-feedback").textContent = "Você pode dizer: “Não estou conseguindo ouvir. Pode me ajudar a conferir o áudio, por favor?” Este botão só mostra um exemplo e não envia uma mensagem real.";
+    document.getElementById("room-feedback").textContent = "Você pode dizer: “Não estou conseguindo ouvir. Pode me ajudar, por favor?” Este botão só mostra um exemplo; não envia uma mensagem real.";
   });
 
   document.querySelectorAll("[data-scenario-check]").forEach(button => {

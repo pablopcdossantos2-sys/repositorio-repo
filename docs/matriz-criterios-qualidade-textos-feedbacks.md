@@ -18,26 +18,26 @@ A revisão de Galvin et al. (2024) descreve intervenções de preparação para 
 | C-01 | Ação concreta | A instrução indica uma ação possível, não apenas “tente novamente”. | Identificar verbo/ação e próximo passo em cada situação e feedback. | A presença da instrução não prova compreensão. |
 | C-02 | Feedback explicativo | O feedback de acerto reforça a ação segura e/ou sua razão; o de tentativa informa como corrigir. | Comparar opção selecionada com o texto exibido e com o objetivo. | Não prova aprendizagem nem transferência para uma teleconsulta real. |
 | C-03 | Tom não punitivo | Evita culpa, vergonha, rótulos e linguagem que responsabiliza a pessoa por falhas técnicas. | Revisão textual por busca de formulações acusatórias e leitura contextual. | A adequação percebida pelo público não foi avaliada. |
-| C-04 | Privacidade e segurança | Não pede senha/código, não recomenda links inesperados e privilegia canal oficial já conhecido. | Revisar todas as opções, feedbacks e mensagens dos botões. | Não é aconselhamento completo de cibersegurança. |
+| C-04 | Privacidade e segurança | Não pede senha/código, não recomenda links inesperados e orienta usar o contato informado anteriormente pelo serviço de saúde. | Revisar todas as opções, feedbacks e mensagens dos botões. | Não é aconselhamento completo de cibersegurança. |
 | C-05 | Limite não clínico | Não interpreta sintomas, não recomenda tratamento e não altera uma orientação profissional. | Conferir se os textos se restringem a acesso, áudio e comunicação. | Não substitui revisão clínica caso o escopo venha a mudar. |
 | C-06 | Simulação explícita | Informa que botões e situações são fictícios e não iniciam chamada, conexão ou envio. | Ativar cada botão e confirmar a mensagem; inspecionar comportamento técnico. | Texto declarativo sozinho não prova ausência de tráfego; verificar Network/Application. |
 | C-07 | Variação de dispositivos | Não pressupõe que todo aparelho tenha os mesmos controles ou opções. | Procurar qualificadores como “se houver essa opção” quando aplicável. | A compatibilidade real exige testes em dispositivos. |
-| C-08 | Linguagem e acessibilidade | Frases diretas, rótulos claros, foco/estados acessíveis e feedback anunciado. | Revisão textual e testes automatizados/manuais de teclado, foco e leitor de tela. | Leiturabilidade calculada ou automação isolada não demonstram acessibilidade integral. |
+| C-08 | Linguagem e acessibilidade | Frases diretas e concretas; evitar jargões como “canal oficial” sem explicação; nomear alto-falante/fone quando isso tornar a ação mais clara; rótulos, foco, estados e feedbacks anunciados acessivelmente. | Revisão textual e testes automatizados/manuais de teclado, foco e leitor de tela. | Leiturabilidade calculada ou automação isolada não demonstram acessibilidade integral. |
 | C-09 | Rastreabilidade | Objetivo, situação, opção segura, feedback e teste correspondem entre si. | Conferir a tabela da seção 3 e a suíte de testes. | Testes escritos não são testes aprovados até haver execução registrada. |
 
 ## 3. Matriz de rastreabilidade por cenário
 
 | Objetivo | Situação e ação segura esperada | Elementos do feedback atual | Verificação de regressão |
 |---|---|---|---|
-| OE-02 — link indisponível | Conferir conexão; confirmar o link por canal oficial já conhecido; se persistir, procurar esse contato; não partilhar senha/código em link inesperado. | Feedback de acerto reforça a sequência segura; feedback de tentativa oferece os próximos passos sem culpar; botão fictício declara que nenhuma conexão foi aberta. | Selecionar cada opção; confirmar feedback correspondente; ativar “Tentar entrar na sala de treino”; verificar que não abre URL real. |
-| OE-03 — falha de áudio | Conferir volume e, se disponível, saída de som; se continuar sem áudio, avisar a pessoa profissional e pedir ajuda. | Feedback de acerto e tentativa incluem verificação e comunicação; botões ilustram conferir o áudio e uma frase para pedir ajuda, sem ativar mídia real. | Selecionar cada opção; ativar os dois controles; verificar texto, foco e ausência de solicitação de microfone/áudio real. |
-| OE-04 — informação não compreendida | Pedir repetição ou explicação alternativa e confirmar o próximo passo mencionado; não fingir que entendeu nem adivinhar. | Feedback explica a ação e evita criar/modificar orientação clínica. | Selecionar cada opção; confirmar feedback coerente, respeitoso e não clínico. |
+| OE-02 — link indisponível | Conferir se a internet funciona; confirmar o link pelo contato que o serviço de saúde informou anteriormente; se persistir, pedir ajuda por esse contato; não digitar senha/código em links inesperados. | Feedback de acerto reforça a sequência; feedback de tentativa dá o próximo passo sem culpa; botão fictício declara que nenhuma conexão real foi aberta. | Selecionar cada opção; conferir os dois feedbacks; ativar “Tentar entrar na sala de treino”; verificar que não abre URL real. |
+| OE-03 — falha de áudio | Conferir o volume e se o som sai pelo alto-falante ou fone em uso; se continuar sem áudio, avisar o profissional de saúde e pedir ajuda. | Feedback de acerto e tentativa explicam a primeira verificação e a comunicação; botões mostram uma ação e uma frase de ajuda, sem ativar mídia real. | Selecionar cada opção; ativar os dois controles; verificar texto, foco e ausência de solicitação de microfone/áudio real. |
+| OE-04 — informação não compreendida | Dizer que a informação não ficou clara, pedir repetição ou explicação em outras palavras e confirmar o próximo passo mencionado; não fingir que entendeu nem adivinhar. | Feedback explica a ação em palavras diretas e evita criar ou modificar orientação clínica. | Testar cada resposta e verificar que o feedback é coerente, respeitoso e não clínico. |
 | OE-01 — preparação | Conferir bateria/carregador, conexão disponível, privacidade e dúvidas a levar ao atendimento. | Checklist com estado local e opção de limpar. | Conferir rótulos, contagem e reinicialização; não interpretar itens marcados como prova de capacidade real. |
 | OE-05 — encerramento | Confirmar o que ficou combinado, próximo passo e canal oficial para dúvidas. | Conteúdo educativo estático; a escala de facilidade 1–5 não é tarefa de aprendizagem. | Revisar clareza/segurança dos exemplos; não marcar OE-05 como prática interativa concluída. Qualquer ampliação precisa de justificativa, opções, feedback e testes próprios. |
 
 ## 4. Regras de aceitação documental
 
-A revisão editorial pode ser considerada concluída quando, para cada cenário interativo:
+A revisão editorial documental pode ser considerada concluída quando, para cada cenário interativo:
 1. a situação está descrita em termos concretos;
 2. há uma ação segura esperada identificada;
 3. feedback de acerto e de tentativa são coerentes com o objetivo;
@@ -66,4 +66,4 @@ Referências e URLs já registradas em [Revisão editorial dos cenários e feedb
 - [ ] Executar buscas bibliográficas formais e completar a comparação dos recursos.
 - [ ] Discutir com a orientação se o plano sem participantes atende ao mestrado.
 
-**Conclusão:** os textos atuais estão alinhados documentalmente aos objetivos preliminares OE-02 a OE-04 e às regras de segurança descritas. Sua adequação ao público continua sendo hipótese de design; nenhuma compreensão, usabilidade com usuários ou eficácia foi demonstrada.
+**Conclusão:** a segunda passagem editorial torna as instruções mais concretas e aproxima as palavras da ação esperada em OE-02 a OE-04. O alinhamento documental não demonstra que adultos com baixa familiaridade digital compreenderão ou considerarão adequados os textos; não houve teste com pessoas e a execução da regressão deve ser conferida no commit atual.

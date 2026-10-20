@@ -1,103 +1,117 @@
-# Revisão editorial dos cenários e feedbacks
+# Revisão editorial e simplificação dos cenários e feedbacks
 
 **Data:** 20/10/2026  
-**Escopo:** revisão documental e atualização de microtextos em `produto/index.html` e `produto/app.js`.  
-**Método atual:** análise sem participantes. Esta revisão não é teste de compreensão com o público-alvo e não demonstra eficácia educativa.
+**Escopo:** segunda passagem editorial nos textos de situação, opções e feedbacks em `produto/index.html` e `produto/app.js`, com alinhamento do anteprojeto, mapa de objetivos, matriz de critérios e testes.  
+**Método:** inspeção documental e textual sem participantes. Esta revisão não é teste de compreensão com o público-alvo e não demonstra eficácia educativa.
 
 ## 1. Critérios editoriais aplicados
 
-1. **Ação concreta:** orientar um próximo passo possível, evitando “tente de novo” sem dizer o que fazer.
-2. **Feedback explicativo:** indicar por que a escolha é segura e o que fazer em seguida.
-3. **Tom respeitoso:** não atribuir culpa, incapacidade ou desatenção à pessoa.
-4. **Limite da simulação:** deixar claro que a sala é fictícia e que não há conexão, áudio ou mensagem real.
-5. **Segurança e privacidade:** recomendar canais oficiais já conhecidos; não incentivar links inesperados nem o compartilhamento de senhas/códigos.
-6. **Não clínico:** praticar navegação e comunicação, sem interpretar, modificar ou criar orientação clínica.
-7. **Rastreabilidade:** ligar cada texto a um objetivo educativo e a uma verificação técnica correspondente.
+1. **Ação concreta:** instruir um próximo passo possível, não apenas dizer “tente novamente”.
+2. **Palavras concretas:** preferir uma descrição simples da ação a termos abstratos ou técnicos quando o sentido puder ser mantido.
+3. **Sequência curta:** apresentar a primeira verificação e o que fazer se ela não resolver o problema.
+4. **Feedback explicativo:** relacionar a escolha com a ação segura esperada.
+5. **Tom respeitoso:** orientar sem culpa, vergonha ou julgamento.
+6. **Privacidade e segurança:** indicar o uso de contato informado anteriormente pelo serviço; não incentivar links inesperados nem compartilhamento de senhas/códigos.
+7. **Limite não clínico:** praticar acesso e comunicação, sem interpretar sintomas, recomendar tratamento ou alterar orientações profissionais.
+8. **Simulação explícita:** deixar claro que os botões não abrem conexão, não ativam mídia e não enviam mensagens reais.
+9. **Variação de dispositivos e acessibilidade:** não presumir que todos os aparelhos tenham as mesmas opções; manter rótulos, feedbacks e fluxo verificáveis.
+10. **Rastreabilidade:** ligar situação, objetivo educativo, ação esperada, feedback e teste de regressão.
 
-Esses critérios são decisões de design fundamentadas na revisão documental disponível. Galvin et al. (2024) descrevem estratégias de preparação de usuários para telessaúde e relatam evidência limitada e mista de melhoria da competência. Portanto, a existência de feedback no protótipo não pode ser tratada como prova de aprendizagem. O toolkit WHO/ITU (2024) apoia considerar acessibilidade desde o planejamento, mas não valida especificamente os textos deste protótipo.
+Estes critérios são decisões de design apoiadas pela revisão documental disponível. Galvin et al. (2024) descrevem diferentes estratégias de preparação para telessaúde e relatam evidência limitada e mista de melhoria da competência. O toolkit WHO/ITU (2024) apoia considerar acessibilidade desde o planejamento, e os guias do HHS oferecem contexto prático para preparação. Nenhuma dessas fontes validou os microtextos deste protótipo.
 
 ## 2. Cenário OE-02 — “O link não abre”
 
-**Objetivo:** escolher uma resposta segura quando o link de acesso não abre.
+**Objetivo preliminar:** escolher uma resposta segura quando o link de acesso não abre.
 
-**Texto de situação na interface:**  
-“Chegou o horário marcado, mas você não consegue abrir o link da sala virtual fictícia.”
+**Situação revisada:**  
+“Chegou o horário do atendimento fictício, mas o link da sala não abre. Esta simulação ajuda a pensar no que fazer, mas não corrige problemas reais de conexão.”
 
 **Ação segura esperada:**  
-Conferir a conexão e confirmar o link usando um canal oficial que a pessoa já conhece. Se não conseguir entrar, procurar esse contato para pedir ajuda.
+Conferir se a internet está funcionando e confirmar o link pelo contato que o serviço de saúde informou anteriormente. Se ainda não conseguir entrar, pedir ajuda por esse contato. Não digitar senha ou código em links inesperados.
 
-**Feedback de acerto atualizado:**  
-“Boa escolha. Confira a conexão e confirme o link usando um canal oficial que você já conhece. Se não conseguir entrar, procure esse contato para pedir ajuda. Não compartilhe senha ou código de acesso em links inesperados.”
+**Feedback de acerto:**  
+“Boa escolha. Confira se a internet está funcionando. Confirme o link pelo contato que o serviço de saúde informou antes. Se ainda não conseguir entrar, peça ajuda por esse contato. Não digite senha ou código em links inesperados.”
 
-**Feedback para tentar novamente atualizado:**  
-“Tente novamente. Se o link não abrir, confira a conexão e confirme o link por um canal oficial que você já conhece. Se continuar sem acesso, procure esse contato. Não compartilhe senha ou código de acesso.”
+**Feedback de nova tentativa:**  
+“Tente novamente. Confira se a internet está funcionando e confirme o link pelo contato que o serviço de saúde informou antes. Se ainda não conseguir entrar, peça ajuda por esse contato. Não digite senha ou código em links inesperados.”
 
-**Racional:** a expressão “canal oficial que você já conhece” é mais cautelosa do que simplesmente confiar em uma mensagem que parece oficial. O feedback inclui um caminho se o problema persistir, sem prometer resolver a conexão. O botão de simulação continua sem abrir conexão real.
+**Feedback do botão de entrada fictícia:**  
+“Nesta situação fictícia, o link continua sem abrir. Confira se a internet está funcionando e confirme o link pelo contato que o serviço de saúde informou antes. Se ainda não conseguir entrar, peça ajuda por esse contato. Não digite senha ou código em links inesperados. Nenhuma conexão real foi aberta.”
 
-**Verificação técnica:** selecionar cada opção e conferir o feedback; ativar “Tentar entrar na sala de treino” e confirmar que a mensagem informa que nenhuma conexão real foi aberta.
+**Racional:**  
+A formulação substitui “canal oficial” por uma instrução mais concreta: usar o contato que o serviço informou anteriormente. Não pressupõe que qualquer mensagem recebida seja confiável nem promete resolver um problema de conexão. A simulação não abre links.
+
+**Verificação de regressão:**  
+Selecionar as opções segura e não segura e confirmar os feedbacks correspondentes; acionar o botão de entrada e confirmar que nenhuma URL ou conexão real é aberta.
 
 ## 3. Cenário OE-03 — “Não consigo ouvir”
 
-**Objetivo:** identificar uma primeira ação segura diante de falha de áudio.
+**Objetivo preliminar:** identificar uma primeira ação segura diante de falha de áudio.
 
-**Texto de situação na interface:**  
-“Você abriu a sala virtual fictícia, mas não consegue ouvir a pessoa profissional.”
+**Situação revisada:**  
+“Você entrou na sala virtual fictícia, mas não consegue ouvir o profissional de saúde.”
 
 **Ação segura esperada:**  
-Conferir se o volume do aparelho está ligado e, se houver essa opção, se a saída de som está correta. Se continuar sem ouvir, avisar a pessoa profissional e pedir ajuda.
+Conferir se o volume está ligado e se o som está saindo pelo alto-falante ou fone em uso. Se ainda não ouvir, avisar o profissional de saúde e pedir ajuda.
 
-**Feedback de acerto atualizado:**  
-“Isso! Confira se o volume do aparelho está ligado e, se houver essa opção, se a saída de som está correta. Se ainda não ouvir, avise a pessoa profissional e peça ajuda. Esta situação é fictícia: não há chamada nem áudio real.”
+**Feedback de acerto:**  
+“Isso. Confira se o volume está ligado e se o som está saindo pelo alto-falante ou fone que você está usando. Se ainda não ouvir, avise o profissional de saúde e peça ajuda. Esta situação é fictícia: não há chamada nem áudio real.”
 
-**Feedback para tentar novamente atualizado:**  
-“Tente novamente. Confira o volume e, se houver essa opção, a saída de som. Se continuar sem ouvir, avise a pessoa profissional em vez de sair sem explicar o problema. Não é necessário compartilhar dados pessoais.”
+**Feedback de nova tentativa:**  
+“Tente novamente. Confira o volume e o alto-falante ou fone que está usando. Se continuar sem ouvir, avise o profissional de saúde e peça ajuda. Não compartilhe dados pessoais por links inesperados.”
 
-**Feedback do botão de simulação de áudio:**  
-“Você praticou conferir o controle de áudio. Na prática real, veja se o volume do aparelho está ligado e, se houver essa opção, confira a saída de som. Se ainda não ouvir, avise a pessoa profissional e peça ajuda.”
+**Feedback do botão de conferência de áudio:**  
+“Você praticou uma primeira verificação. Confira se o volume está ligado e se o som sai pelo alto-falante ou fone que está usando. Se ainda não ouvir, avise o profissional de saúde e peça ajuda.”
 
-**Feedback do botão para avisar:**  
-“Você pode dizer: ‘Não estou conseguindo ouvir. Pode me ajudar a conferir o áudio, por favor?’ Este botão só mostra um exemplo e não envia uma mensagem real.”
+**Feedback do botão de pedido de ajuda:**  
+“Você pode dizer: ‘Não estou conseguindo ouvir. Pode me ajudar, por favor?’ Este botão só mostra um exemplo; não envia uma mensagem real.”
 
-**Racional:** o texto evita presumir que todos os aparelhos apresentam as mesmas opções; inclui comunicação e pedido de ajuda se a primeira verificação não resolver. O texto não sugere que a pessoa deva resolver tudo sozinha e não ativa áudio real.
+**Racional:**  
+A formulação nomeia ações que a pessoa pode reconhecer, sem depender da expressão abstrata “saída de som”. A alternativa “alto-falante ou fone” não cobre todas as configurações possíveis; o texto continua sendo um exemplo geral e não substitui ajuda técnica do serviço. Não é ativado áudio real.
 
-**Verificação técnica:** acionar os dois controles fictícios e confirmar feedback local, sem solicitação de permissão de microfone/áudio nem envio de mensagem real.
+**Verificação de regressão:**  
+Escolher cada opção e confirmar feedback; ativar ambos os controles fictícios; conferir que não surge pedido de permissão para microfone/áudio nem envio de mensagem.
 
 ## 4. Cenário OE-04 — “Não entendi uma informação”
 
-**Objetivo:** responder de forma segura quando uma informação não foi compreendida.
+**Objetivo preliminar:** responder de forma segura quando uma informação não foi compreendida.
+
+**Situação revisada:**  
+“Durante a teleconsulta fictícia, uma explicação não ficou clara. Você pode pedir que o profissional de saúde repita ou explique de outro jeito.”
 
 **Ação segura esperada:**  
-Pedir que a pessoa repita ou explique de outro jeito e confirmar o próximo passo mencionado.
+Dizer que a informação não ficou clara, pedir repetição ou explicação em outras palavras e confirmar o próximo passo mencionado.
 
-**Feedback de acerto atualizado:**  
-“Boa prática. Peça que a pessoa repita ou explique de outro jeito e, em seguida, confirme o próximo passo mencionado. Isso ajuda a evitar mal-entendidos; não é preciso adivinhar nem alterar orientações por conta própria. Este exemplo não fornece orientação clínica.”
+**Feedback de acerto:**  
+“Boa prática. Peça ao profissional de saúde que repita ou explique de outro jeito. Depois, confirme qual é o próximo passo mencionado. Isso ajuda a evitar mal-entendidos; não precisa adivinhar nem mudar orientações por conta própria. Este exemplo não fornece orientação clínica.”
 
-**Feedback para tentar novamente atualizado:**  
-“Tente novamente. Diga que a informação não ficou clara, peça para repetir ou explicar de outro jeito e confirme o próximo passo mencionado. Não precisa fingir que entendeu nem adivinhar.”
+**Feedback de nova tentativa:**  
+“Tente novamente. Diga que a informação não ficou clara e peça ao profissional de saúde que repita ou explique de outro jeito. Depois, confirme o próximo passo mencionado. Não precisa fingir que entendeu nem adivinhar.”
 
-**Racional:** reforça comunicação ativa e confirmação do próximo passo sem sugerir qual decisão clínica tomar. O feedback explica a razão da ação em linguagem simples e sem censurar a resposta incorreta.
+**Racional:**  
+O texto oferece uma ação direta e pede confirmação do próximo passo sem fornecer nem modificar orientação clínica. O feedback de nova tentativa não rotula a pessoa nem presume que a dificuldade seja culpa dela.
 
-**Verificação técnica:** selecionar as opções do cenário e conferir que cada escolha produz o feedback esperado e nenhuma mensagem acrescenta instrução clínica.
+**Verificação de regressão:**  
+Selecionar cada opção e verificar que o feedback corresponde à ação esperada, mantém tom respeitoso e não introduz recomendação clínica.
 
-## 5. OE-01 — Checklist “Antes”
+## 5. OE-01 — checklist “Antes”
 
-O checklist continua sendo uma lista de preparação, não uma tarefa de demonstração de competência. Os itens de bateria, conexão, privacidade e dúvidas são coerentes com o objetivo preliminar. O estado marcado é temporário e não prova que a pessoa dispõe de equipamento, conexão ou privacidade adequados.
+O checklist continua sendo uma lista de preparação, não uma tarefa que demonstre competência. Os itens de bateria, conexão, privacidade e dúvidas são decisões de design coerentes com o propósito preliminar. O estado marcado é temporário e não comprova que a pessoa dispõe de aparelho, conexão ou privacidade adequados.
 
-## 6. OE-05 — Encerrar
+## 6. OE-05 — etapa “Encerrar”
 
-O conteúdo educativo da etapa “Encerrar” permanece estático: exemplos para pedir esclarecimento, confirmar o próximo passo e localizar um canal oficial. A revisão desta rodada **não implementa** uma nova tarefa interativa para OE-05. A escala local de facilidade de 1 a 5 continua separada: o feedback é local e não mede compreensão, aprendizagem ou validação com usuários.
+O conteúdo educativo da etapa “Encerrar” continua estático: exemplos para pedir esclarecimento, confirmar o próximo passo e identificar o contato informado pelo serviço para dúvidas. A escala local de facilidade de 1 a 5 continua separada; não mede compreensão, aprendizagem ou validação com usuários. Esta revisão não implementa uma nova tarefa interativa para OE-05.
 
-Antes de decidir sobre uma interação para OE-05, é necessário avaliar se ela acrescenta valor pedagógico suficiente para justificar o escopo e os testes adicionais. Se aprovada como decisão de produto, a tarefa deverá ter objetivo, opções, feedback, critério de verificação e teste automatizado explícitos.
+Antes de ampliar a etapa, deve-se avaliar se uma interação acrescenta valor pedagógico suficiente para justificar o escopo e os testes adicionais. Se aprovada como decisão de produto, deverá ter objetivo, opções, feedback, critério de verificação e teste automatizado explícitos.
 
-## 7. Relação com fontes já documentadas
+## 7. Relação com as fontes e limite da evidência
 
-| Objetivo/critério | Base documental e limite |
-|---|---|
-| OE-02 — acesso | Os guias de preparação para telessaúde do HHS e o benchmark registrado informam recomendações gerais de preparação e apoio; não são protocolo universal para uma plataforma. |
-| OE-03 — áudio | A sequência de conferir volume/saída de som e comunicar a dificuldade é uma decisão de design para a tarefa do protótipo; requer inspeção manual e não foi validada com usuários. |
-| OE-04 — esclarecimento | A formulação é uma decisão de design coerente com comunicação clara; as fontes registradas não demonstram que esta frase específica seja compreendida pelo público-alvo. |
-| Todos | WHO/ITU (2024) orienta a considerar acessibilidade na telessaúde; Galvin et al. (2024) documenta estratégias de preparação e limitações da evidência sobre competência. Nenhuma das fontes testou estes microtextos específicos. |
-| Diferenciação | Digital House Calls já foi identificado como curso autoguiado com estrutura antes/durante/depois; essa estrutura não deve ser alegada como inovação exclusiva. |
+| Base documental | Uso no projeto | Limite |
+|---|---|---|
+| Galvin et al. (2024), DOI 10.2196/57586 | Contextualiza estratégias de preparação para telessaúde e a evidência limitada/mista sobre competência. | Não demonstra eficácia deste protótipo nem valida estas formulações. |
+| WHO/ITU (2024), *Implementation toolkit for accessible telehealth services* | Fundamenta considerar acessibilidade ao definir conteúdo e fluxo. | Não certifica acessibilidade integral nem valida estes textos. |
+| U.S. Department of Health and Human Services, *Preparing patients for telehealth* e *Helping patients prepare for their telehealth appointment* | Oferece recomendações práticas gerais de preparação. | Não é protocolo universal para cada serviço, aparelho ou plataforma. |
+| BridgingApps, *Digital House Calls* | Informa que já há recurso autoguiado com estrutura antes/durante/depois. | Impede alegar que a estrutura temporal, isoladamente, é inovação exclusiva. |
 
 Referências:
 - Galvin E, Desselle S, Gavin B, McNicholas F, Cullinan S, Hayden J. *Training Service Users in the Use of Telehealth: Scoping Review*. JMIR. 2024;26:e57586. https://doi.org/10.2196/57586.
@@ -108,11 +122,11 @@ Referências:
 
 ## 8. Pendências e limites
 
-- [x] Revisar editorialmente os três cenários interativos e seus feedbacks.
-- [x] Atualizar os textos de situação/opções no HTML e os feedbacks/controles fictícios no JavaScript.
-- [ ] Executar Playwright/axe-core e conferir a CI correspondente aos commits de código.
-- [ ] Inspecionar manualmente o fluxo, o foco, a leitura das mensagens e os estados no navegador.
-- [ ] Confirmar a legibilidade e a compreensão com o público-alvo somente se a orientação indicar que uma etapa com participantes é necessária e após as autorizações aplicáveis.
+- [x] Fazer segunda passagem documental para substituir termos abstratos por ações e objetos mais concretos.
+- [x] Atualizar textos de situação/opções e feedbacks em HTML/JavaScript e ajustar as asserções automatizadas correspondentes.
+- [ ] Executar Playwright/axe-core e conferir a CI do commit com as mudanças atuais.
+- [ ] Inspecionar manualmente o fluxo, a visibilidade e movimentação do foco, a leitura das mensagens e os estados no navegador.
+- [ ] Avaliar a adequação da linguagem com o público-alvo somente se a orientação indicar que uma etapa com participantes é necessária e após as autorizações aplicáveis.
 - [ ] Executar a busca bibliográfica formal nas bases oficiais; a busca estruturada continua pendente.
 
-**Conclusão:** os textos foram revisados e atualizados para maior concretude e coerência com os objetivos preliminares. A adequação para adultos com baixa familiaridade digital continua sendo uma hipótese de design. A revisão editorial não substitui teste de regressão, auditoria manual nem validação com participantes.
+**Conclusão:** esta rodada melhora a concretude dos textos e a coerência documental entre objetivos, opções, feedbacks e testes planejados. Não prova compreensão pelo público-alvo, usabilidade real ou eficácia educativa.

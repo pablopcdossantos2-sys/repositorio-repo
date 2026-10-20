@@ -76,7 +76,7 @@ test("os controles fictícios permitem praticar ações sem ativar áudio nem en
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.getByRole("button", { name: "Conferir áudio (simulação)" }).click();
   await expect(page.locator("#room-feedback")).toContainText("conferir o controle de áudio");
-  await expect(page.locator("#room-feedback")).toContainText("saída de som");
+  await expect(page.locator("#room-feedback")).toContainText("alto-falante ou fone");
   await page.getByRole("button", { name: "Avisar que não estou ouvindo" }).click();
   await expect(page.locator("#room-feedback")).toContainText("Não estou conseguindo ouvir");
   await expect(page.locator("#room-feedback")).toContainText("não envia uma mensagem real");
@@ -104,7 +104,7 @@ test("cenário de entrada recomenda usar link/canal oficial sem compartilhar sen
   await page.locator('[name="entry-choice"][value="safe"]').check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#entry-choice-feedback")).toContainText("Boa escolha");
-  await expect(page.locator("#entry-choice-feedback")).toContainText("canal oficial que você já conhece");
+  await expect(page.locator("#entry-choice-feedback")).toContainText("contato que o serviço de saúde informou antes");
   await expect(page.locator("#entry-choice-feedback")).toContainText("senha ou código de acesso");
 });
 
