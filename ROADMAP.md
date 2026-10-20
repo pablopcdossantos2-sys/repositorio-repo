@@ -53,7 +53,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Alinhar a interface a três situações fictícias: link indisponível, falha de áudio e pedido de esclarecimento.
 - [x] Adicionar escolhas com feedback específico em cada situação e manter todas as interações locais.
 - [x] Escurecer a variável de borda e acrescentar verificação estática do contraste de bordas significativas.
-- [ ] Confirmar a suíte automatizada após as últimas mudanças e concluir testes manuais em dispositivos/tecnologias assistivas.
+- [x] Confirmar a suíte automatizada após as mudanças: 15 verificações estáticas e 22 testes de navegador/axe-core passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
+- [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
 - [ ] Definir objetivos de aprendizagem observáveis e critérios iniciais de sucesso.
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
