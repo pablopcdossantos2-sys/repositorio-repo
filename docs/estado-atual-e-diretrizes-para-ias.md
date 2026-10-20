@@ -244,3 +244,15 @@ A apresentação ODP foi corrigida para distinguir o conteúdo educativo estáti
 - Não houve alteração do HTML/CSS/JS, execução de navegador, nova CI ou atividade com participantes nesta rodada.
 
 Manter essa distinção em respostas futuras: **a escala de facilidade não é uma tarefa de aprendizagem**. As próximas pendências permanecem a auditoria manual e a busca bibliográfica formal com contagens/exportações reais.
+
+
+### Verificação do ODP após ajuste textual — 20/10/2026
+
+Depois de atualizar o slide sobre o conteúdo de encerramento, o arquivo `apresentacao/defesa-oral-atualizada.odp` foi novamente aberto/exportado com LibreOffice Impress em modo headless. O PDF de conferência contém 15 páginas; a renderização do slide 5 foi inspecionada e mostra a nova frase sem corte aparente. A inspeção foi focada no slide alterado e não equivale à revisão completa de legibilidade de todos os slides.
+
+- Arquivo versionado: `apresentacao/defesa-oral-atualizada.odp`.
+- Commit da correção do ODP: [50bd1e648bf871afea0d90266fd95153da40fa36](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36).
+- A versão local conferida tem 15 páginas; a branch `main` foi conferida quanto ao SHA do blob do ODP.
+- Pendência: revisão em tela cheia de todos os slides, personalização do candidato e conferência do edital.
+
+Nenhum arquivo do produto foi alterado e não houve nova execução da CI.
