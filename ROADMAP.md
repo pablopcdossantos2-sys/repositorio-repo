@@ -320,3 +320,6 @@ Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos
 - [x] Vincular a especificação do produto mínimo à matriz de critérios editoriais, para que a implementação e a auditoria consultem os mesmos critérios.
 - [x] Manter as pendências técnicas como abertas: testes de regressão após as mudanças de código, auditoria manual e buscas bibliográficas formais.
 - [ ] Não marcar os critérios técnicos como aprovados até registrar execução no commit atual.
+
+
+- [x] Conferir o encadeamento documental: o roadmap técnico também aponta diretamente para a [matriz de critérios de qualidade dos textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md).
