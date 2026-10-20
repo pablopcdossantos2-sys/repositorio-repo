@@ -1,8 +1,10 @@
 # Revisão rápida de evidências e recomendações para o produto
 
 **Data da revisão:** 19/10/2026  
-**Projeto:** Conversa Clara — solução tecnológica de educação em saúde no contexto de telessaúde  
+**Projeto:** Treino de Teleconsulta — solução tecnológica de educação em saúde no contexto de telessaúde  
 **Finalidade:** atualizar decisões de desenho e avaliação com base em evidências científicas e diretrizes técnicas relevantes.
+
+**Decisão de escopo:** a partir de 20/10/2026, o único tema ativo é o Treino de Teleconsulta. Esta revisão contém evidências gerais sobre experiência digital, acessibilidade, linguagem clara e usabilidade em telessaúde; elas orientam a concepção, mas não devem ser interpretadas como prova de eficácia do simulador educativo proposto. É necessário completar a busca reproduzível e comparar produtos existentes específicos de preparação/treinamento para teleconsulta.
 
 > **Limite metodológico importante.** Este documento é uma revisão rápida e focalizada de fontes selecionadas, não uma revisão sistemática concluída. A seleção foi dirigida à pergunta do projeto e incluiu revisões sistemáticas/umbrella reviews, um estudo brasileiro de validação de instrumento, um estudo de usabilidade em serviço brasileiro e documentos normativos oficiais. Não foram executadas aqui as buscas reproduzíveis nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO, nem um processo completo de deduplicação, triagem e avaliação formal de risco de viés. Portanto, esta síntese orienta decisões, mas **não substitui** a etapa bibliográfica formal já prevista no projeto.
 
@@ -50,7 +52,7 @@ O estudo de adaptação transcultural do Telehealth Usability Questionnaire para
 
 Esses resultados tornam o TUQ-Brasil um candidato relevante, mas não demonstram que ele seja automaticamente adequado a um protótipo breve que não realiza uma teleconsulta e que usa cenários fictícios. A amostra de validação tinha experiência prévia com sistemas de telessaúde; além disso, a modalidade avaliada não foi uniforme. A SUS é mais genérica e contém 10 itens, mas mede usabilidade percebida e não substitui uma avaliação direta de compreensão ou utilidade clínica.
 
-Um estudo brasileiro de 2025 avaliou o aplicativo e-SUS Território com Agentes Comunitários de Saúde por método misto, utilizando SUS e análise qualitativa. O escore médio SUS foi 55,3, descrito pelos autores como aceitação marginal; problemas de sincronização e registro também foram identificados. Trata-se de um aplicativo profissional de trabalho, e não de um protótipo para pacientes, portanto esse resultado **não deve ser usado como benchmark numérico direto** para o Conversa Clara. Sua contribuição relevante é metodológica: combinar medida de usabilidade com investigação qualitativa das dificuldades de uso e do contexto.
+Um estudo brasileiro de 2025 avaliou o aplicativo e-SUS Território com Agentes Comunitários de Saúde por método misto, utilizando SUS e análise qualitativa. O escore médio SUS foi 55,3, descrito pelos autores como aceitação marginal; problemas de sincronização e registro também foram identificados. Trata-se de um aplicativo profissional de trabalho, e não de um protótipo para pacientes, portanto esse resultado **não deve ser usado como benchmark numérico direto** para o Treino de Teleconsulta. Sua contribuição relevante é metodológica: combinar medida de usabilidade com investigação qualitativa das dificuldades de uso e do contexto.
 
 **Recomendação de decisão:** discutir com a orientação e escolher um instrumento, com justificativa explícita:
 - **TUQ-Brasil:** considerar se o objeto e as tarefas forem suficientemente próximos de um sistema/serviço de telessaúde para que os 21 itens façam sentido.
@@ -93,7 +95,7 @@ Fontes: [Padrão global WHO-ITU, 2022](https://www.who.int/publications/i/item/9
 
 ### 2.6 Contexto do serviço e limites da telessaúde digital
 
-A OMS recomenda avaliar intervenções digitais considerando benefícios, danos, aceitabilidade, viabilidade, recursos e equidade, além de alertar que a tecnologia não substitui sistemas de saúde funcionais. Para o Conversa Clara, isso significa que a avaliação em tarefas simuladas pode produzir evidências sobre usabilidade e compreensão naquele contexto, mas não comprova melhora na continuidade real do cuidado, adesão ou desfechos clínicos.
+A OMS recomenda avaliar intervenções digitais considerando benefícios, danos, aceitabilidade, viabilidade, recursos e equidade, além de alertar que a tecnologia não substitui sistemas de saúde funcionais. Para o Treino de Teleconsulta, isso significa que a avaliação em tarefas simuladas pode produzir evidências sobre usabilidade e compreensão naquele contexto, mas não comprova melhora na continuidade real do cuidado, adesão ou desfechos clínicos.
 
 Se houver acesso ao serviço real, é importante mapear antes o fluxo de preparação e de comunicação pós-atendimento, as responsabilidades da equipe e as limitações de conectividade. Se isso não for viável, a alternativa simulada precisa estar explícita na pergunta e nos objetivos e ser aprovada nos trâmites aplicáveis.
 
@@ -101,7 +103,7 @@ Fonte: [OMS, Recommendations on digital interventions for health system strength
 
 ### 2.7 Evidência recente (2025–2026): apoio digital, barreiras de acesso e usabilidade
 
-Um estudo qualitativo de 2026 avaliou um portal do paciente com participantes que precisavam de apoio digital. Nas sessões de think-aloud, uma dificuldade relevante foi perceber o estado do sistema; os participantes que receberam instruções orais apresentaram menos problemas de usabilidade do que aqueles que receberam instruções por escrito ou nenhuma instrução. O estudo é pequeno e feito em outro país e outro tipo de sistema, mas reforça dois princípios úteis para o Conversa Clara: o sistema deve tornar o estado e o resultado das ações perceptíveis; instruções claras podem ser parte do contexto de uso, embora não devam substituir uma interface compreensível por si só.
+Um estudo qualitativo de 2026 avaliou um portal do paciente com participantes que precisavam de apoio digital. Nas sessões de think-aloud, uma dificuldade relevante foi perceber o estado do sistema; os participantes que receberam instruções orais apresentaram menos problemas de usabilidade do que aqueles que receberam instruções por escrito ou nenhuma instrução. O estudo é pequeno e feito em outro país e outro tipo de sistema, mas reforça dois princípios úteis para o Treino de Teleconsulta: o sistema deve tornar o estado e o resultado das ações perceptíveis; instruções claras podem ser parte do contexto de uso, embora não devam substituir uma interface compreensível por si só.
 
 Outro estudo qualitativo multicêntrico dos EUA, publicado em setembro de 2026, reuniu 62 participantes (40 pacientes, 15 profissionais e 7 gestores/políticos) para discutir acesso e sustentabilidade da telessaúde. Os entrevistados identificaram benefícios de acesso, mas também barreiras persistentes; entre as medidas propostas estavam conectividade de banda larga, acesso a dispositivos e pontos comunitários, apoio à literacia digital, plataformas simples e integração adequada ao fluxo de trabalho. Esses resultados não podem ser transferidos diretamente ao contexto brasileiro, mas sustentam incluir perguntas sobre conectividade, dispositivos e suporte disponível na conversa exploratória com o serviço local. Um protótipo de interface não resolverá, isoladamente, essas barreiras estruturais.
 
@@ -111,7 +113,7 @@ Em 2025, uma análise de 1.661 adultos usuários de internet na Polônia examino
 
 Fontes: [Raanhuis et al., 2026](https://doi.org/10.3233/SHTI260651); [Khairat et al., 2026](https://doi.org/10.7812/TPP/26.102); [Duplaga, 2025](https://doi.org/10.3233/SHTI251307).
 
-## 3. Recomendações priorizadas para o Conversa Clara
+## 3. Recomendações priorizadas para o Treino de Teleconsulta
 
 | Prioridade | Recomendação | Critério verificável de conclusão |
 |---|---|---|
@@ -157,7 +159,7 @@ Fontes: [Raanhuis et al., 2026](https://doi.org/10.3233/SHTI260651); [Khairat et
 12. **World Health Organization.** Recommendations on digital interventions for health system strengthening. 2019. [Diretriz](https://www.who.int/publications/i/item/9789241550505).
 13. **PRISMA.** PRISMA 2020 statement and reporting resources. [Checklist e fluxogramas](https://www.prisma-statement.org/prisma-2020).
 
-14. **RAANHUIS, A. F. A. et al. (2026).** Usability of a Patient Portal in Patients with Digital Support Needs: A Think Aloud Study. *Studies in Health Technology and Informatics*, 336, 2200–2204. DOI: https://doi.org/10.3233/SHTI260651. Estudo de think-aloud que identifica problemas de visibilidade do estado do sistema e sugere que o apoio oral pode reduzir dificuldades em um contexto específico. A fonte é um estudo pequeno, não um teste do Conversa Clara.
+14. **RAANHUIS, A. F. A. et al. (2026).** Usability of a Patient Portal in Patients with Digital Support Needs: A Think Aloud Study. *Studies in Health Technology and Informatics*, 336, 2200–2204. DOI: https://doi.org/10.3233/SHTI260651. Estudo de think-aloud que identifica problemas de visibilidade do estado do sistema e sugere que o apoio oral pode reduzir dificuldades em um contexto específico. A fonte é um estudo pequeno, não um teste do Treino de Teleconsulta.
 15. **KHAIRAT, S. et al. (2026).** What Telehealth Gets Right and What's Missing: A National Multistakeholder Study of Access and Sustainability. *The Permanente Journal*. Publicado em 8 set. 2026. DOI: https://doi.org/10.7812/TPP/26.102. Entrevistas qualitativas com 62 pacientes, profissionais e gestores nos EUA; destaca benefícios de acesso e barreiras de conectividade, dispositivos, literacia digital e fluxo de trabalho.
 16. **DUPLAGA, M. (2025).** The Determinants of the Usability of Telephone-Based Remote Physician Visits. *Studies in Health Technology and Informatics*, 329, 1976–1977. DOI: https://doi.org/10.3233/SHTI251307. Estudo observacional de 1.661 adultos usuários de internet na Polônia; associações entre usabilidade autorreferida, literacia digital, ansiedade tecnológica, idade e escolaridade. Não é diretamente generalizável ao contexto de Guaraí.
 
