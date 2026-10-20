@@ -113,8 +113,8 @@ O arquivo [`docs/tarefas-pessoais-e-proximos-passos.md`](docs/tarefas-pessoais-e
 - [x] Adicionar verificações estáticas reproduzíveis em `scripts/check-prototype.mjs` (14 verificações passaram no GitHub Actions, run 39355380708).
 - [x] Adicionar testes automatizados em navegador com Playwright e varreduras axe-core nos três estados principais; 17 testes passaram no run [39356918569](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39356918569).
 - [x] Adicionar `html-validate` com regras recomendadas ao pipeline; o validador encontrou cinco erros de marcação, corrigidos em `produto/index.html`.
-- [x] Fixar versões diretas das dependências de desenvolvimento em `package.json`, declarar Node.js 24 em `.nvmrc` e adicionar `.gitignore` para artefatos locais; a ausência de `package-lock.json` ainda permite variação de dependências transitivas.
-- [ ] Gerar e versionar `package-lock.json` para fixar toda a árvore de dependências antes de tratar a instalação como plenamente reprodutível.
+- [x] Fixar versões diretas das dependências de desenvolvimento em `package.json`, declarar Node.js 24 em `.nvmrc` e adicionar `.gitignore` para artefatos locais.
+- [x] Gerar e versionar `package-lock.json` (lockfile v3; 19 entradas na árvore atual, incluindo dependências transitivas e integridades) e migrar a CI para `npm ci`; a execução da suíte com esse fluxo está sendo verificada em [GitHub Actions](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39358531889).
 - [ ] Executar testes manuais com leitores de tela e dispositivos físicos; essas verificações não são substituídas pelo CI.
 - [x] Criar workflow de GitHub Actions para executar verificações estáticas no push/PR; a primeira execução terminou com sucesso.
 - [ ] Registrar como abrir o protótipo localmente e como reproduzir os testes.
