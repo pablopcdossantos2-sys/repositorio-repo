@@ -192,3 +192,17 @@ Foi inspecionada novamente a versão corrente dos arquivos HTML/JS/CSS e a suít
 A leitura dos arquivos de teste indica cobertura escrita para navegação, foco, cenários, feedback, reinicialização, escala de facilidade, larguras de viewport, axe-core e solicitações externas durante um fluxo automatizado. Isso não significa que os testes tenham sido executados nesta rodada. Não houve execução em navegador, alteração do produto ou nova CI.
 
 A escala interativa de facilidade (1–5) no encerramento foi distinguida do objetivo OE-05: o conteúdo educativo de encerramento permanece estático e a escala não é medida de aprendizagem, coleta de pesquisa ou validação com usuários.
+
+
+## 10. Revisão editorial de feedbacks — 20/10/2026
+
+Os textos de situação, opções e feedback dos três cenários foram revisados para tornar a próxima ação mais concreta, reduzir ambiguidade e manter tom respeitoso e não clínico. O registro de decisões e a relação com as fontes estão em [revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+
+- **OE-02 — link:** orientar a conferir conexão e link/canal oficial conhecido e pedir ajuda por contato oficial conhecido; alertar contra compartilhar senhas ou dados pessoais em links inesperados.
+- **OE-03 — áudio:** conferir volume e, quando disponível, a saída de som; comunicar a dificuldade se persistir.
+- **OE-04 — esclarecimento:** pedir repetição/explicação alternativa e confirmar o próximo passo, sem adivinhar.
+- **Teste acrescentado:** `tests/prototype.spec.js` verifica que os feedbacks contêm orientações concretas nos três cenários.
+
+**Commits de código/teste:** [ee4f89f](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/ee4f89fc94ccbe2f91839e3a56b23b67092c656b), [e97887c](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/e97887ce65bd4225d01b6d40e3ffb07d6db2c70d) e [63a267b](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/63a267bd7ecd61f9effd22db79a3e36388b22455).
+
+A configuração do workflow inclui `produto/**` e `tests/**` nos gatilhos de push para `main`, mas não foi possível confirmar um resultado de CI associado ao commit de teste nesta atualização. Portanto, a execução e o resultado permanecem pendentes de conferência. A revisão é editorial e não demonstra compreensão pelo público-alvo; também não substitui a inspeção manual no navegador.
