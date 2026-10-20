@@ -26,11 +26,11 @@ A oferta de teleconsultas pressupõe que os usuários consigam realizar ações 
 
 ## Pergunta de pesquisa
 
-Como um simulador educativo web, acessível e orientado por instruções em linguagem simples, pode apoiar adultos com baixa familiaridade digital a praticar etapas básicas de uma teleconsulta em tarefas simuladas?
+Como desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador web que ofereça prática fictícia de etapas básicas de uma teleconsulta para adultos com baixa familiaridade digital?
 
 ## Hipótese de trabalho
 
-Um simulador organizado em passos curtos, com instruções claras, oportunidades de prática e feedback não punitivo poderá ser considerado utilizável e apoiar a execução de tarefas específicas no ambiente simulado. Essa hipótese é exploratória. O projeto não presumirá aprendizagem duradoura, maior adesão a teleconsultas, melhora no acesso ao SUS ou benefício clínico sem evidências e desenho adequados.
+A proposição de design é que passos curtos, instruções claras, oportunidades de prática e feedback não punitivo podem ser traduzidos em requisitos verificáveis e incorporados ao protótipo. Nesta etapa, serão examinadas a rastreabilidade desses requisitos, a coerência dos cenários e o funcionamento técnico; sem participantes, não será possível concluir que o produto é utilizável pelo público-alvo ou que melhora a execução de tarefas reais. Não se presumirão aprendizagem duradoura, maior adesão a teleconsultas, melhora no acesso ao SUS ou benefício clínico.
 
 ## Justificativa e relevância
 
@@ -40,7 +40,7 @@ A solução deverá tratar acessibilidade, linguagem clara, baixo consumo de rec
 
 ## Objetivo geral
 
-Desenvolver um simulador educativo web, acessível e baseado em cenários fictícios, fundamentado em literatura e análise de soluções existentes, para praticar etapas básicas de uma teleconsulta.
+Desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador educativo web acessível e baseado em cenários fictícios para a prática simulada de etapas básicas de uma teleconsulta.
 
 ## Objetivos específicos
 
