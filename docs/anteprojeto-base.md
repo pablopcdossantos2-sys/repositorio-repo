@@ -1,6 +1,6 @@
 # Anteprojeto — versão de trabalho
 
-> **Status:** rascunho inicial. Deve ser revisado e transferido para o modelo oficial da UERJ antes da submissão. A parceria institucional ainda não está formalizada.
+> **Status:** rascunho inicial e temático provisório. Deve ser revisado e transferido para o modelo oficial da UERJ antes da submissão. A escolha definitiva do tema está em aberto; consultar [a matriz dos critérios do edital e os cinco temas candidatos](criterios-edital-e-cinco-temas.md). A parceria institucional com Guaraí não está formalizada e pode não ser necessária para o tema que vier a ser escolhido.
 
 ## Título provisório
 
