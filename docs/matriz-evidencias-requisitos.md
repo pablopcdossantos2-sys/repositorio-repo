@@ -96,3 +96,14 @@ A revisão rápida em `docs/revisao-rapida-evidencias-e-recomendacoes.md` comple
 | Limites de resultado | OMS (2019), diretriz sobre intervenções digitais. | Limitar resultados esperados a usabilidade, compreensão em cenários definidos e utilidade percebida. | Não inferir melhora na continuidade real do cuidado, adesão ou desfechos clínicos a partir de teste simulado. |
 
 **Decisões de seguimento:** (1) discutir com a orientação a escolha entre TUQ-Brasil e SUS, sem aplicar automaticamente ambos; (2) prever uma medida direta de compreensão além de uma pergunta de múltipla escolha; (3) concluir buscas reproduzíveis e avaliação crítica; (4) executar e documentar a bateria manual de acessibilidade. As quatro decisões permanecem pendentes até haver evidência de execução.
+
+
+## 10. Evidências complementares localizadas em 19/10/2026
+
+| Fonte | Achado relevante | Aplicação ao Conversa Clara | Limite e verificação necessária |
+|---|---|---|---|
+| Raanhuis et al. (2026), think-aloud em portal de pacientes com necessidades de apoio digital. DOI: 10.3233/SHTI260651. | Dificuldades para perceber o estado do sistema; menos problemas relatados entre quem recebeu instruções orais naquele contexto. | Garantir mensagens e estados perceptíveis após ações; observar se usuários compreendem feedback sem auxílio. | Estudo pequeno, internacional e sobre portal do paciente, não sobre este protótipo; verificar a hipótese em tarefas próprias, sem presumir que instrução oral será necessária. |
+| Khairat et al. (2026), entrevistas multistakeholder sobre acesso e sustentabilidade da telessaúde. DOI: 10.7812/TPP/26.102. | As entrevistas destacam benefícios de acesso, mas também barreiras de conectividade, dispositivos, literacia digital, onboarding e fluxo de trabalho. | Incluir essas dimensões no roteiro exploratório de conversa institucional e não presumir que a interface resolva barreiras estruturais. | Estudo realizado nos EUA; usar como pauta de perguntas e não como estimativa do cenário brasileiro. |
+| Duplaga (2025), usabilidade de consultas médicas remotas por telefone. DOI: 10.3233/SHTI251307. | Literacia digital, ansiedade tecnológica, idade e escolaridade associaram-se a escores autorreferidos de usabilidade em uma amostra de 1.661 adultos usuários de internet. | Considerar heterogeneidade de experiência e barreiras digitais ao definir as características a descrever no protocolo. | Estudo observacional da Polônia; não é diretamente generalizável ao contexto de Guaraí. |
+
+A seleção e os limites da busca desta rodada estão registrados em [registro de busca exploratória complementar](registro-busca-exploratoria-2026-10-19.md); ela não substitui busca reprodutível nas interfaces oficiais.
