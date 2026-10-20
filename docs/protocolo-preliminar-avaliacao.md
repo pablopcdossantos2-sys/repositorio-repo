@@ -119,3 +119,26 @@ A avaliação do protótipo pode indicar problemas de interface, acessibilidade,
 3. Definir objetivo de aprendizagem e rubrica por tarefa.
 4. Realizar auditoria técnica/pedagógica sem participantes.
 5. Verificar campo, autorizações e necessidade de apreciação ética antes de qualquer avaliação com pessoas.
+
+## 14. Rubrica candidata para auditoria técnica/pedagógica (Camada 0)
+
+Esta rubrica foi elaborada a partir da expansão dos cenários e de referências metodológicas sobre teste de usabilidade pré-piloto. É uma proposta de trabalho para a orientação revisar; **não está aprovada para coleta com participantes**.
+
+| Tarefa | Ação adequada esperada | Sucesso total (candidato) | Sucesso parcial (candidato) | Falha/risco a registrar |
+|---|---|---|---|---|
+| T1 — Preparação | Localizar e seguir a lista de preparação | Identifica os passos essenciais da preparação mostrados pelo protótipo | Localiza os passos, mas requer ajuda ou deixa um item de fora | Não localiza os passos ou interpreta a lista de modo que impeça a preparação |
+| T2 — Link não abre | Evitar ações inseguras e procurar o acesso/canal oficial | Escolhe conferir conexão/link oficial ou buscar o contato oficial previamente conhecido | Escolhe uma ação segura apenas após ler feedback ou receber ajuda | Compartilha senha/dados, tenta link suspeito ou não identifica ação segura |
+| T3 — Sem áudio | Verificar controle de áudio e comunicar dificuldade | Escolhe verificar o controle e/ou informar a pessoa profissional fictícia que não consegue ouvir | Chega à ação segura após feedback/ajuda | Escolhe abandonar sem tentar uma via segura, ou não compreende o controle demonstrado |
+| T4 — Informação não clara | Pedir repetição/explicação e confirmar o próximo passo | Seleciona pedido de repetição/explicação em vez de adivinhar | Seleciona a alternativa segura após feedback/ajuda | Opta por fingir entendimento/adivinhar ou não encontra estratégia de esclarecimento |
+| T5 — Encerramento | Confirmar próximos passos no contexto fictício | Localiza e indica o resumo/próximos passos apresentados | Localiza com ajuda ou interpreta apenas parte do resumo | Não encontra ou interpreta incorretamente a informação apresentada |
+| T6 — Reinício/troca | Reiniciar e selecionar outro cenário sem dados persistentes | Consegue reiniciar e mudar de cenário, com estado da tarefa limpo | Consegue após ajuda ou com pequeno problema não crítico | Respostas/estado anterior persistem indevidamente ou a pessoa fica bloqueada |
+
+### Campos mínimos do registro técnico
+
+- código da tarefa, versão/commit do protótipo, navegador/dispositivo e condições relevantes;
+- ação observada e resultado segundo critério pré-definido;
+- necessidade de ajuda (nenhuma, instrução neutra, pista, intervenção direta);
+- feedback/mensagem que gerou dúvida e defeito de interface observado;
+- gravidade, proposta de correção e reteste.
+
+Nesta Camada 0, executar a rubrica por inspeção estruturada por avaliadores, sem atribuir resultados a “usuários”. Se a Camada 1 vier a ser considerada, a rubrica deverá ser revisada, testada quanto à clareza e incluída no protocolo submetido às instâncias aplicáveis. O êxito em tarefa simulada não equivale a aprendizagem duradoura ou capacidade de conduzir uma teleconsulta real.
