@@ -2,7 +2,7 @@
 
 **Projeto:** Treino de Teleconsulta  
 **Data:** 20/10/2026  
-**Status:** especificação de design preliminar, derivada da revisão documental e do protótipo atual. Não é instrumento validado nem evidência de aprendizagem.  
+**Status:** especificação de design preliminar, derivada da revisão documental e do protótipo atual. Os textos dos três cenários interativos foram revisados editorialmente em 20/10/2026; não são instrumentos validados nem evidência de aprendizagem. Ver [revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md).  
 **Método atual:** desenvolvimento e inspeção documental/técnica/pedagógica sem participantes.
 
 ## 1. Finalidade
@@ -68,8 +68,8 @@ Esta melhoria é uma proposta de design, não uma decisão aprovada nem uma tare
 
 **Complemento estático de 20/10/2026:** a segunda revisão confirmou, por inspeção textual, 24 IDs sem duplicações, três destinos de `aria-controls` existentes, nove referências únicas de `getElementById` sem destino ausente e nenhuma URL HTTP(S) em `href`/`src`. A escala de facilidade do encerramento é interativa, mas não constitui tarefa de OE-05. Detalhes e hashes em [segunda revisão estática](segunda-revisao-estatica-2026-10-20.md). A inspeção não executou navegador nem testes nesta rodada.
 
-1. Fazer revisão editorial dos textos existentes com base nos critérios da seção 5.
+1. [x] Fazer revisão editorial dos textos e feedbacks dos três cenários interativos com base nos critérios da seção 5; ver [registro da revisão](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
 2. Atualizar a matriz de rastreabilidade para cada objetivo.
-3. Executar os testes automatizados correspondentes após qualquer alteração de interface.
+3. [ ] Executar os testes automatizados correspondentes após as alterações de interface/texto e verificar a CI correspondente.
 4. Decidir se a etapa “Encerrar” precisa de uma interação simples ou se o conteúdo estático é suficiente para o escopo do mestrado.
 5. Registrar resultados de auditoria técnica sem participantes, sem afirmar que o produto foi validado com usuários.
