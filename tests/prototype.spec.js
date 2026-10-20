@@ -265,12 +265,12 @@ test("feedbacks dos três cenários explicam uma próxima ação concreta", asyn
   await expect(page.locator("#entry-choice-feedback")).toContainText("Confira a conexão e confirme o link");
   await page.locator('[name="entry-choice"][value="unsafe"]').first().check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
-  await expect(page.locator("#entry-choice-feedback")).toContainText("confirme o link por um canal oficial que você já conhece");
+  await expect(page.locator("#entry-choice-feedback")).toContainText("confirme o link pelo contato que o serviço de saúde informou antes");
 
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.locator('[name="understanding"][value="correct"]').check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
-  await expect(page.locator("#understanding-feedback")).toContainText("saída de som está correta");
+  await expect(page.locator("#understanding-feedback")).toContainText("alto-falante ou fone");
   await page.locator('[name="understanding"][value="wrong"]').first().check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#understanding-feedback")).toContainText("avise a pessoa profissional");
