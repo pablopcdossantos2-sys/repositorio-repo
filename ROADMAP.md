@@ -185,3 +185,13 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 - [x] Harmonizar a descrição com o mapa de objetivos e o guia da defesa: a escala de facilidade não é tarefa de aprendizagem, métrica de compreensão nem validação com usuários.
 
 Commit da atualização do ODP: [50bd1e648bf871afea0d90266fd95153da40fa36](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36). A alteração é documental; não houve mudança de código do protótipo nem nova execução de CI.
+
+
+### Conferência de renderização após a correção do slide — 20/10/2026
+
+- [x] Reabrir o ODP atualizado com LibreOffice Impress em modo headless e exportar para PDF.
+- [x] Confirmar que a apresentação continua com 15 páginas.
+- [x] Inspecionar a renderização do slide 5: a frase sobre conteúdo educativo estático e escala local de facilidade aparece legível na página renderizada.
+- [ ] Revisar todos os slides em tamanho de apresentação e personalizar os campos do candidato; a inspeção desta rodada foi focada no slide alterado.
+
+A exportação PDF foi usada apenas para verificação; o artefato principal continua sendo `apresentacao/defesa-oral-atualizada.odp`. Não houve mudança no código do produto nem nova CI.
