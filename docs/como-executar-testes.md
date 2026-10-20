@@ -1,6 +1,6 @@
 # Como executar as verificações técnicas
 
-Este documento descreve as verificações automatizadas do protótipo Conversa Clara. Elas são auxiliares de qualidade e não substituem testes manuais de acessibilidade, avaliação metodológica ou pesquisa com participantes.
+Este documento descreve as verificações automatizadas do simulador educativo **Treino de Teleconsulta**. Elas são auxiliares de qualidade e não substituem testes manuais de acessibilidade, avaliação metodológica ou pesquisa com participantes.
 
 ## Pré-requisitos
 
@@ -17,7 +17,7 @@ npm ci
 npx playwright install chromium
 ```
 
-As dependências diretas estão declaradas com versões exatas em `package.json`, e `package-lock.json` fixa as versões transitivas e suas integridades. Use `npm ci` para instalar exatamente a árvore registrada; ao alterar dependências, gere e revise o lockfile com `npm install` e versione ambos os arquivos na mesma alteração. A primeira instalação precisa de conexão à internet para baixar os pacotes e o Chromium do Playwright.
+As dependências diretas estão declaradas com versões exatas em `package.json`, e `package-lock.json` fixa as versões transitivas e suas integridades. Use `npm ci` para instalar exatamente a árvore registrada; ao alterar dependências, gere e revise o lockfile com `npm install` e versione ambos os arquivos na mesma alteração.
 
 ## Rodar a suíte completa
 
@@ -27,28 +27,18 @@ npm test
 
 O comando executa, em sequência:
 
-1. `check:syntax` — verifica a sintaxe do JavaScript.
-2. `check:static` — checa estrutura HTML, IDs, referências locais, alvos ARIA, regras de movimento reduzido, contraste do foco, estado de reinicialização e indicadores estáticos de privacidade.
-3. `check:html` — executa o validador HTML5 com as regras `html-validate:recommended`.
-4. `test:e2e` — executa os testes de navegador com Playwright e varreduras automatizadas axe-core.
-
-Para executar apenas uma parte:
-
-```sh
-npm run check:syntax
-npm run check:static
-npm run check:html
-npm run test:e2e
-```
-
-## Integração contínua
-
-O workflow [Prototype quality checks](../.github/workflows/prototype-quality.yml) executa as verificações no `push` e em pull requests que alterem o protótipo, testes, configuração do validador ou dependências de desenvolvimento. A execução do workflow pode ser consultada na aba Actions do GitHub.
+1. `check:syntax` — valida a sintaxe do JavaScript.
+2. `check:static` — confere estrutura, referências locais, foco, limites de privacidade e coerência do tema Treino de Teleconsulta.
+3. `check:html` — valida o HTML.
+4. `test:e2e` — percorre o simulador em navegador, testa estados principais, foco, reinicialização, larguras de tela, movimento reduzido e regras de acessibilidade automatizada do axe-core.
 
 ## Limites das verificações
 
-- Uma varredura axe-core sem violações detectadas não certifica conformidade integral com WCAG.
-- Os testes de viewports verificam a ausência de rolagem horizontal nas três etapas nos cinco tamanhos codificados; não cobrem todas as combinações de conteúdo/dispositivo nem substituem o teste de zoom real a 200%.
-- O teste automatizado não substitui o uso manual de teclado, leitor de tela, zoom real e aparelhos físicos.
-- Nenhum teste automatizado desta suíte envolve participantes ou avalia eficácia clínica.
-- A inspeção estática de ausência de chamadas de rede/armazenamento deve ser complementada por uma verificação manual nas ferramentas de desenvolvedor do navegador.
+- Passar nos testes automatizados não comprova conformidade integral com WCAG.
+- Testes locais do protótipo não são avaliação com usuários e não comprovam eficácia educativa.
+- Testes com participantes só podem ocorrer depois da definição do protocolo e da confirmação das aprovações aplicáveis.
+- O simulador usa cenários fictícios: não abrir links reais, não inserir dados pessoais/de saúde e não apresentar o produto como serviço oficial.
+
+## Registros
+
+Após rodar os testes, documente a data, ambiente, resultado, falhas e correções em [Relatório de revisão técnica](relatorio-revisao-tecnica.md). Não marcar itens manuais como concluídos sem executá-los.
