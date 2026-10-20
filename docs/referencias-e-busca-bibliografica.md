@@ -127,3 +127,13 @@ A síntese de evidências e as implicações para o produto estão documentadas 
 25. **DUPLAGA, M. (2025).** The Determinants of the Usability of Telephone-Based Remote Physician Visits. *Studies in Health Technology and Informatics*, 329, 1976–1977. DOI: https://doi.org/10.3233/SHTI251307. Estudo observacional de 1.661 adultos usuários de internet na Polônia; associa fatores demográficos, literacia eletrônica e ansiedade tecnológica à usabilidade autorreferida. Não generalizar seus resultados para a população de Guaraí.
 
 A busca, os critérios de seleção desta rodada exploratória e seus limites estão documentados em [Registro da busca exploratória complementar de 19/10/2026](registro-busca-exploratoria-2026-10-19.md). As buscas reprodutíveis e contagens diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continuam pendentes.
+
+
+## Evidências iniciais específicas de treinamento de usuários — 20/10/2026
+
+- **GALVIN, E. et al. (2024).** Training Service Users in the Use of Telehealth: Scoping Review. *Journal of Medical Internet Research*, 26, e57586. DOI: https://doi.org/10.2196/57586. Revisão de escopo sobre preparação de usuários para teleconsultas síncronas; descreve telefonemas preparatórios, instruções escritas e treinamento técnico, mas relata evidência limitada e mista de melhoria de competência. A revisão é uma referência de contexto; a busca formal do nosso projeto continua pendente.
+- **BridgingApps.** Digital House Calls. https://bridgingapps.org/courses-landing/. Curso autoguiado com vídeos e roteiro antes/durante/depois, em inglês e espanhol segundo a página do mantenedor. Recurso comparador a examinar, não prova de que nosso produto é ou não inovador.
+- **National Center for Farmworker Health.** Patient Telehealth Readiness Assessment Tool. https://www.ncfh.org/digital-library/patient-telehealth-readiness-assessment-tool/. A biblioteca oficial lista a ferramenta; conferir o material integral antes de decidir se informa a operacionalização do público ou a avaliação.
+- **RAYMUNDO, T. M. et al. (2024).** Adaptação transcultural do Mobile Proficiency Questionnaire e validade de conteúdo para o português brasileiro. *Revista Brasileira de Geriatria e Gerontologia*, 27, e230200. DOI: https://doi.org/10.1590/1981-22562024027.230200.pt. Referência para discutir tarefas de proficiência móvel; não assumir validade automática para todos os adultos ou para prontidão em teleconsulta.
+
+A análise crítica e as decisões de desenvolvimento estão em [Nota de evidências e decisões para o Treino de Teleconsulta — 20/10/2026](nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md). Estes apontamentos vieram de páginas públicas e não substituem a execução documentada das buscas nas bases oficiais.
