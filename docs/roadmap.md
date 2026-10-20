@@ -27,7 +27,9 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
 - [ ] Fazer benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
 - [ ] Definir a lacuna do projeto com base no que foi encontrado, sem presumir originalidade antes da comparação.
-- [ ] Atualizar a matriz de evidências e requisitos com referências conferidas.
+- [x] Fazer rodada exploratória complementar na web em 20/10/2026 e registrar publicações recentes sobre simulação/avaliação e diretriz WHO/ITU.
+- [x] Registrar explicitamente que trabalhos de simulação para profissionais são evidência metodológica adjacente, não evidência direta para usuários finais.
+- [ ] Atualizar a matriz de evidências e requisitos após conferência integral das referências e leitura crítica.
 
 ## Fase 2 — Cenário, público e ética (P0)
 
@@ -47,7 +49,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 4 — Avaliação e aperfeiçoamento (P1)
 
-- [ ] Definir tarefas padronizadas, critérios de conclusão, erros, necessidade de ajuda e rubrica de compreensão.
+- [x] Redigir uma rubrica candidata por tarefa para auditoria sem participantes; critérios e uso ainda exigem revisão da orientação.
+- [ ] Aprovar tarefas padronizadas, critérios de conclusão, erros, necessidade de ajuda e rubrica de compreensão com a orientação.
 - [ ] Escolher instrumento de usabilidade de acordo com o que o simulador realmente testa; não presumir que uma escala de consulta real seja automaticamente adequada.
 - [ ] Planejar análise antes da coleta.
 - [ ] Caso haja aprovação e viabilidade, conduzir a avaliação prevista no protocolo; caso contrário, limitar a avaliação a evidências documentais, técnicas e pedagógicas.
