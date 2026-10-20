@@ -87,3 +87,18 @@ A busca exploratória complementar de 20/10/2026 identificou três publicações
 **Consequência para o método:** a Camada 0 deve verificar, antes de qualquer piloto, se cada tarefa tem uma ação observável, critérios explícitos de sucesso parcial/total, registro de ajuda necessária e feedback alinhado ao objetivo. O protocolo preliminar recebeu uma rubrica candidata por tarefa. Ela não está aprovada e não substitui revisão da orientação. A distinção entre usuários finais e aprendizes profissionais foi adicionada à síntese para evitar extrapolação.
 
 O registro de consultas, fontes e limites desta rodada está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md). Como na nota anterior, a busca oficial reproduzível nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continua pendente; não foram obtidas contagens completas nem exportações dessas bases nesta rodada.
+
+
+## 9. Benchmark exploratório de recursos existentes — 20/10/2026
+
+A busca complementar identificou recursos que precisam ser considerados antes de definir a contribuição específica do produto:
+
+- **Digital House Calls (BridgingApps):** curso autoguiado com vídeos, texto e etapas antes/durante/depois para pessoas idosas e cuidadores.
+- **TelessaúdeBA:** tutorial público de acesso a uma plataforma específica de teleconsulta, com etapas de agendamento, identificação, consentimento e entrada.
+- **Telehealth.HHS.gov:** guias de preparação que abordam conectividade, dispositivo, privacidade e ambiente.
+- **Patient Telehealth Readiness Assessment Tool (NCFH):** ferramenta mediada por equipe para identificar recursos e necessidade de apoio.
+- **WHO/ITU (2024):** toolkit para integrar acessibilidade ao planejamento de serviços de telessaúde.
+
+A análise descritiva, os limites de inspeção e os requisitos provisórios estão em [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md). A existência do Digital House Calls impede tratar a estrutura antes/durante/depois ou o caráter autoguiado como diferencial suficiente por si só. A prática de escolhas com feedback imediato em situações fictícias pode ser uma hipótese de contribuição, mas precisa ser comparada mais profundamente e não prova originalidade.
+
+O plano permanece sem participantes: o benchmark informa requisitos e decisões de design, mas não é validação com usuários. As buscas reproduzíveis em PubMed/MEDLINE, BVS/LILACS e SciELO e a inspeção integral dos comparadores continuam pendentes.
