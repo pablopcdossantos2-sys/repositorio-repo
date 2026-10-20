@@ -42,7 +42,7 @@ A expressão “baixa familiaridade digital” será operacionalizada com a orie
 
 A proposta se situa na interseção entre telessaúde e tecnologias para educação em saúde porque busca ensinar e permitir a prática de habilidades digitais aplicadas à participação em teleconsultas. O foco não é oferecer apenas instruções textuais ou criar uma plataforma clínica; é desenvolver uma simulação interativa com tarefas, escolhas e feedback que possa ser examinada quanto à clareza, acessibilidade e usabilidade.
 
-A relevância e a lacuna de inovação ainda precisam ser sustentadas por busca bibliográfica reproduzível e benchmarking de tutoriais, vídeos, guias e simuladores existentes. O diferencial não poderá ser afirmado apenas por tratar do tema da teleconsulta. Deverá ser demonstrado pela forma de praticar as tarefas, pela atenção explícita à baixa familiaridade digital e pela correspondência entre objetivos educativos, conteúdo e avaliação.
+A revisão de escopo de Galvin et al. (2024) identificou estratégias de preparação de usuários para telessaúde e descreveu evidência limitada e mista de melhoria da competência; isso reforça que a eficácia de um recurso não deve ser presumida. O benchmark exploratório já identificou o curso autoguiado Digital House Calls, além de tutoriais e guias de preparação. Assim, a organização antes/durante/depois e o caráter autoguiado não serão apresentados como novidade por si sós. A lacuna de inovação ainda precisa ser sustentada por busca bibliográfica reproduzível e comparação de tutoriais, vídeos, guias e simuladores existentes. A prática de escolhas em cenários fictícios com feedback imediato e foco em ações seguras é uma hipótese de contribuição de design a examinar, não uma alegação de originalidade comprovada.
 
 A solução será inicialmente independente de sistemas de saúde e de parceria institucional para desenvolvimento. Um possível diálogo com a rede pública de Guaraí-TO poderá ajudar a entender contexto e viabilidade, mas não está formalizado e não será apresentado como parceria existente. O benefício social potencial é ampliar oportunidades de prática em um ambiente seguro; o estudo deverá medir somente resultados compatíveis com seu desenho.
 
@@ -92,13 +92,13 @@ Transformar as evidências em objetivos de aprendizagem, tarefas e critérios ob
 
 ### Critérios editoriais e relação entre objetivos e feedback
 
-Os cenários interativos serão examinados quanto à clareza da situação, concretude da ação segura, explicação do feedback, tom não punitivo, privacidade e ausência de aconselhamento clínico. O cenário de acesso orienta a conferir conexão e link/canal oficial conhecido; o de áudio, verificar o volume e os controles disponíveis e comunicar a dificuldade; o de informação pouco clara, pedir repetição/explicação alternativa e confirmar o próximo passo. A revisão editorial destes textos foi registrada em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+Os cenários interativos serão examinados quanto à clareza da situação, concretude da ação segura, explicação do feedback, tom não punitivo, privacidade e ausência de aconselhamento clínico. O cenário de acesso orienta a conferir a conexão e confirmar o link por um canal oficial já conhecido; se persistir a falha, recomenda procurar esse contato sem compartilhar senha ou código em links inesperados. O cenário de áudio orienta a conferir o volume e, se disponível, a saída de som, e a comunicar a dificuldade se ela persistir. O cenário de informação pouco clara orienta pedir repetição ou explicação alternativa e confirmar o próximo passo mencionado, sem adivinhar nem alterar orientações clínicas. A revisão editorial destes textos está registrada em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
 
 As recomendações de fontes sobre preparação para telessaúde, acessibilidade e treinamento de usuários fundamentam esses critérios gerais, mas não validam as formulações específicas. A adequação linguística e pedagógica ao público-alvo permanece hipótese de design sob avaliação documental e técnica; não se afirmará compreensão ou eficácia sem evidência apropriada.
 
 ### Fase 3 — Auditoria técnica e pedagógica
 
-Sem participantes, testar funcionamento, navegação por teclado, foco, leitura das mensagens, responsividade, zoom, movimento reduzido, contraste, reinicialização e ausência de chamadas de rede/armazenamento. Revisar se cada instrução ensina uma ação observável, se o feedback é respeitoso e se a interface evita solicitar dados pessoais ou clínicos. Uma verificação automatizada de acessibilidade será tratada como apoio, não como prova de conformidade integral.
+Sem participantes, testar funcionamento, navegação por teclado, foco, leitura das mensagens dinâmicas, responsividade, zoom, movimento reduzido, contraste, reinicialização e ausência de chamadas de rede/armazenamento. Revisar se cada instrução ensina uma ação observável, se o feedback explica a razão da resposta segura e se a tentativa de correção é respeitosa, não punitiva e não clínica. A revisão editorial dos textos não substitui a execução de testes automatizados e manuais. Uma verificação automatizada de acessibilidade será tratada como apoio, não como prova de conformidade integral.
 
 ### Fase 4 — Atividade com pessoas, somente se solicitada pela orientação
 
@@ -112,6 +112,7 @@ O público de interesse são adultos com baixa familiaridade digital, a ser oper
 
 - Simulador web responsivo e acessível, com cenários totalmente fictícios.
 - Matriz de objetivos de aprendizagem e requisitos.
+- Registro da revisão editorial dos textos e feedbacks dos cenários.
 - Relatório de auditoria e testes técnicos/pedagógicos.
 - Se houver avaliação autorizada, relatório de tarefas, problemas e compreensão observada.
 - Documentação de limites, manutenção e possibilidades de reutilização.
