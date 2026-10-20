@@ -1,133 +1,121 @@
-# Protocolo preliminar de avaliação da solução digital de educação em saúde
+# Protocolo preliminar de avaliação — Treino de Teleconsulta
 
-> **Documento de trabalho — não é protocolo aprovado para pesquisa com participantes.** Enquadramento selecionado: **linha de pesquisa:** 2) Tecnologias para Educação em Saúde; **tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde. O protocolo deve ser discutido com a orientação acadêmica, ajustado ao edital e submetido às instâncias institucionais e éticas aplicáveis antes de entrevistas, recrutamento, testes com participantes ou coleta de dados de pesquisa.
+> **Documento de trabalho; não é protocolo aprovado.** O estudo se concentra no Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital. A proposta precisa ser discutida com a orientação e ajustada ao edital e às instâncias institucionais/éticas aplicáveis. Não iniciar recrutamento, entrevistas, testes de pesquisa ou coleta com participantes antes de verificar e obter as aprovações necessárias.
 
 ## 1. Finalidade
 
-Transformar a avaliação de uma solução tecnológica de educação em saúde em um plano executável, mantendo o escopo pequeno. A avaliação inicial deve verificar usabilidade, clareza e compreensão das mensagens educativas fictícias em tarefas controladas, sem alegar aprendizagem duradoura, mudança comportamental, benefício clínico ou melhoria efetiva da continuidade do cuidado.
+Planejar uma avaliação proporcional de um simulador web que permita praticar etapas básicas de uma teleconsulta num ambiente fictício. O foco é a usabilidade da interface, a execução e compreensão de tarefas simuladas e a clareza das instruções — não a eficácia de uma consulta real.
 
-## 2. Pergunta de pesquisa provisória
+## 2. Pergunta de pesquisa de trabalho
 
-Como adultos e/ou profissionais de saúde avaliam a usabilidade, a clareza, a compreensão e a utilidade percebida de um protótipo web de educação em saúde que apresenta recursos demonstrativos para preparação para atendimentos de telessaúde e entendimento de próximos passos?
+Como adultos com baixa familiaridade digital conseguem navegar e executar tarefas definidas num simulador educativo de teleconsulta, e quais barreiras de usabilidade, compreensão e acessibilidade são observadas?
 
-A redação final deve ser alinhada à linha de pesquisa e à orientação acadêmica. Se o estudo não tiver acesso ao fluxo real de telessaúde, a pergunta e os objetivos deverão explicitar o contexto simulado.
+A pergunta definitiva, a operacionalização do público e a inclusão de participantes ainda precisam ser discutidas com a orientação. A pesquisa não deve presumir que todos os usuários com baixa familiaridade digital tenham as mesmas dificuldades.
 
-## 3. Objetivo geral provisório
+## 3. Objetivo geral de avaliação
 
-Desenvolver e avaliar, em contexto definido no protocolo, um protótipo web de educação em saúde, verificando sua usabilidade, a compreensão de mensagens educativas e sua utilidade percebida no cenário de preparação e orientação em telessaúde.
+Examinar a usabilidade, a clareza das instruções e o desempenho em tarefas simuladas do protótipo Treino de Teleconsulta, identificando barreiras e oportunidades de aperfeiçoamento.
 
-## 4. Objetivos específicos de trabalho
+## 4. Objetivos específicos de avaliação
 
-1. Identificar, por revisão da literatura e levantamento autorizado de necessidades, requisitos para uma solução educativa digital acessível, clara e adequada ao contexto de telessaúde.
-2. Desenvolver iterativamente um protótipo responsivo com checklist preparatório, exemplo educativo fictício em linguagem clara, atividade demonstrativa de compreensão e organização de próximos passos.
-3. Avaliar usabilidade, compreensão das mensagens educativas, dificuldades de navegação e utilidade percebida, produzindo recomendações para aperfeiçoamento.
+1. Inspecionar a correspondência entre objetivos de aprendizagem, instruções, ações simuladas e feedbacks.
+2. Avaliar tecnicamente responsividade, acessibilidade, comportamento e privacidade da versão local.
+3. Se autorizado, observar a conclusão de tarefas definidas, a necessidade de ajuda, os erros e a compreensão das instruções.
+4. Produzir recomendações e registrar os limites do que foi observado.
 
-## 5. Desenho em etapas
+## 5. Desenho em camadas
 
-### Etapa A — revisão e preparação (pode avançar agora)
+### Camada 0 — sem participantes
 
-- Executar e registrar a busca bibliográfica conforme o documento de referências e busca bibliográfica.
-- Conferir cada referência e identificar estudos sobre educação em saúde digital, design de tecnologias educativas, linguagem simples, compreensão de informação e acessibilidade em contextos de telessaúde.
-- Revisar o protótipo com uma lista interna de verificação de conteúdo, navegação, teclado, celular e reinicialização.
-- Elaborar uma matriz que conecte cada requisito à literatura ou a uma decisão explícita de projeto.
-- Não registrar dados de pessoas nem tratar a revisão informal como revisão sistemática.
+Pode ser preparada antes de qualquer coleta:
+- revisão bibliográfica reproduzível e comparação com tutoriais, guias e simuladores existentes;
+- matriz de objetivos de aprendizagem e requisitos;
+- auditoria manual e automatizada de acessibilidade;
+- testes de navegação, reinicialização, larguras, zoom, movimento reduzido e ausência de chamadas de rede/armazenamento;
+- revisão interna de conteúdo e rubrica de coerência pedagógica;
+- registro de problemas e correções.
 
-### Etapa B — diagnóstico de necessidades (condicionada)
+A Camada 0 pode documentar a qualidade técnica e a consistência do design, mas não permite afirmar que pessoas com baixa familiaridade digital compreenderão ou conseguirão usar o simulador.
 
-- Confirmar parceria e unidades elegíveis com a Secretaria Municipal de Saúde de Guaraí, se viável.
-- Definir com a orientação se entrevistas são necessárias e quais grupos devem ser incluídos.
-- Elaborar roteiro, critérios de elegibilidade, convite, consentimento, plano de dados e análise.
-- Verificar as autorizações administrativas e éticas aplicáveis antes de recrutar ou coletar dados.
+### Camada 1 — com participantes, condicionada a aprovações
 
-### Etapa C — teste do protótipo (condicionado)
+Se viável e aprovado:
+- definir com a orientação elegibilidade, recrutamento, amostra, consentimento e salvaguardas;
+- usar somente cenários fictícios, tarefas padronizadas e dispositivo preparado para o teste;
+- não pedir informação clínica ou pessoal;
+- registrar apenas dados necessários e previstos no protocolo;
+- interromper ou adaptar uma sessão se a pessoa demonstrar desconforto, sem consequências sobre o atendimento que recebe.
 
-- Usar apenas cenários fictícios ou conteúdo formalmente autorizado/validado.
-- Definir tarefas, instruções padronizadas, critérios de conclusão e como registrar dificuldades.
-- Pilotar o procedimento somente quando isso estiver autorizado pelo protocolo aplicável.
-- Se a avaliação for simulada, descrever os resultados como evidência de uso e compreensão em tarefas controladas, não como prova de impacto assistencial.
+Se essa camada não for possível no prazo, ampliar a auditoria e o benchmark da Camada 0 e explicitar que não houve avaliação empírica com usuários.
 
 ## 6. Tarefas candidatas
 
-As tarefas abaixo são propostas para discussão, não instruções para iniciar testes com participantes neste momento.
-
-| Código | Tarefa | Evidência observável |
+| Código | Tarefa | Evidência possível |
 |---|---|---|
-| T1 | Encontrar o módulo de preparação e marcar dois itens | Conclusão, tempo aproximado e necessidade de ajuda |
-| T2 | Localizar o exemplo educativo fictício e identificar a mensagem principal | Capacidade de encontrar e explicar a informação solicitada |
-| T3 | Responder à atividade demonstrativa sobre o exemplo educativo | Resposta e eventual dúvida ou erro; não equivale a medida de aprendizagem duradoura |
-| T4 | Encontrar os próximos passos demonstrativos | Conclusão e dificuldade de navegação |
-| T5 | Reiniciar a demonstração | Se o conteúdo da sessão é limpo corretamente |
-| T6 | Relatar o que foi confuso ou faltou | Comentários qualitativos, sem solicitar dados clínicos pessoais |
-| T7 | Explicar com palavras próprias a ideia principal e o próximo passo do cenário fictício | Resposta classificada por uma rubrica definida antes da avaliação: compreensão adequada, parcial ou interpretação incorreta |
+| T1 | Encontrar os passos de preparação do aparelho/ambiente | conclusão, dúvida e necessidade de ajuda |
+| T2 | Seguir a instrução para entrar na sala virtual fictícia | conclusão e erro de navegação |
+| T3 | Responder a um cenário em que o áudio não é ouvido | escolha, interpretação e necessidade de ajuda |
+| T4 | Praticar como pedir repetição ou esclarecimento | adequação à tarefa simulada, segundo rubrica a definir |
+| T5 | Localizar os próximos passos apresentados no cenário | localização e compreensão da informação |
+| T6 | Reiniciar a experiência | se escolhas, mensagens e estado foram limpos |
 
-Não se deve usar somente o tempo de execução para julgar sucesso. Uma pessoa pode precisar de mais tempo e ainda compreender corretamente a informação. A resposta imediata a um exemplo fictício mede apenas compreensão naquela tarefa, não retenção, aprendizagem duradoura ou mudança de comportamento.
+Estas tarefas são candidatas para discussão, não um roteiro aprovado para executar com participantes. Os textos e critérios serão fechados antes de qualquer coleta.
 
 ## 7. Indicadores candidatos
 
 ### Quantitativos descritivos
-- número e proporção de tarefas concluídas sem ajuda;
-- tipos de erro ou caminho incorreto;
-- tarefas que exigiram ajuda;
-- respostas às questões de compreensão;
-- classificação das explicações em palavras próprias, quando a tarefa T7 for adotada, usando critérios definidos previamente;
-- avaliação de clareza/facilidade, se houver escala simples previamente definida.
+- número e proporção de tarefas concluídas segundo critérios pré-definidos;
+- tipos de erro ou ponto de bloqueio;
+- necessidade e tipo de ajuda;
+- resposta à tarefa de compreensão;
+- facilidade percebida, se for definido instrumento simples e apropriado.
 
 ### Qualitativos
-- trechos da interface que geraram dúvida;
-- palavras ou instruções consideradas difíceis;
-- barreiras em celular, navegação ou acessibilidade;
-- sugestões recorrentes de melhoria.
+- instruções ou termos que causaram dúvida;
+- expectativas equivocadas sobre controles digitais;
+- pontos em que a pessoa pediu ajuda ou perdeu o fio da atividade;
+- sugestões de melhoria no ritmo, texto, estrutura e feedback.
 
-A escolha final dos indicadores e dos instrumentos deverá ser justificada. Não adotar automaticamente a escala eHEALS: ela mede literacia em saúde digital percebida, não substitui uma medida de usabilidade nem uma tarefa direta de compreensão.
+Tempo de execução não deve ser usado isoladamente como indicador de sucesso. Uma resposta imediata ou o acerto numa pergunta não comprova aprendizagem duradoura nem transferência para teleconsultas reais.
 
-### Instrumento de usabilidade — decisão pendente
+## 8. Instrumentos e análise — decisões pendentes
 
-O instrumento deve ser selecionado em conjunto com a orientação, conforme o objeto e a carga aceitável para os participantes:
+A seleção de instrumento de usabilidade deve corresponder ao objeto. A TUQ-Brasil foi desenvolvida para usabilidade de telessaúde, mas sua adequação a um simulador educativo curto, que não realiza consulta real, precisa ser justificada. A SUS é genérica, mas não mede aprendizagem. Não aplicar automaticamente várias escalas sem necessidade. Discutir com a orientação se tarefas observadas, rubrica de compreensão e perguntas de facilidade são suficientes.
 
-- **TUQ-Brasil:** questionário específico de usabilidade de telessaúde, com 21 itens; o estudo de adaptação brasileira avaliou 54 pessoas com experiência recente em telessaúde. Sua adequação a uma aplicação curta e simulada que não realiza uma teleconsulta precisa ser justificada ([Santos et al., 2023](https://doi.org/10.1590/1806-9282.20230228)).
-- **SUS:** escala genérica de usabilidade percebida, com 10 itens; pode ser considerada se o objeto for principalmente a interface do protótipo, desde que seu uso esteja justificado no protocolo.
-- **Tarefas observadas:** conclusão sem ajuda, erros, necessidade de ajuda e pontos de bloqueio devem ser analisados à parte de qualquer escore global. A escala de usabilidade não substitui a avaliação direta de compreensão.
+O plano de análise deve ser definido previamente. Resultados quantitativos podem ser apresentados de modo descritivo, com denominadores explícitos; comentários podem ser organizados por categorias ou método qualitativo justificado. Se houver grupos distintos, não presumir experiências equivalentes.
 
-Não aplicar automaticamente TUQ-Brasil e SUS em conjunto. A escolha, o modo de pontuação, eventuais condições de uso e a interpretação devem ser definidos antes da coleta.
+## 9. Público e elegibilidade
 
-## 8. Amostra e análise
+O público de interesse são adultos com baixa familiaridade digital. A definição operacional ainda está pendente. Deve ser construída com a orientação, com critério explícito, pertinente à pergunta e não estigmatizante. Não usar idade, escolaridade ou deficiência isoladamente como proxy automática. A forma de identificar a necessidade de apoio digital deverá evitar perguntas invasivas e estar descrita no protocolo.
 
-O número de participantes, os critérios de inclusão/exclusão e a estratégia de recrutamento **permanecem em aberto**. Devem ser definidos com a orientação conforme o objetivo, o desenho, a viabilidade e as exigências éticas; não fixar uma amostra arbitrária nesta fase.
+Tamanho da amostra, recrutamento e inclusão/exclusão permanecem em aberto até a definição do desenho e da viabilidade. Não fixar uma amostra arbitrária.
 
-- Resultados quantitativos: estatística descritiva adequada ao tamanho e ao tipo de dado, com denominadores claros.
-- Resultados qualitativos: análise temática ou de conteúdo, escolhida e descrita antes da análise final.
-- Se houver grupos diferentes (usuários adultos e profissionais), apresentar suas experiências separadamente quando necessário, sem pressupor que sejam equivalentes.
-- Evitar afirmações causais, generalização ampla ou inferência de eficácia clínica a partir de um teste exploratório.
+## 10. Dados, privacidade e segurança
 
-## 9. Dados, privacidade e segurança
+- não inserir no repositório dados de pesquisa, nomes, contatos, consentimentos preenchidos ou qualquer dado identificável;
+- não pedir sintomas, diagnósticos, medicamentos ou dados de prontuário;
+- minimizar registros e definir responsável, local de armazenamento, controle de acesso, retenção e descarte seguro;
+- não gravar áudio/vídeo sem justificativa específica e previsão aprovada;
+- verificar com a instituição e a orientação as autorizações administrativas e a necessidade de apreciação pelo sistema CEP/CONEP;
+- não presumir dispensa ética por se tratar de protótipo ou estudo de usabilidade.
 
-- Não inserir dados reais, identificáveis, prontuários, contatos ou consentimentos preenchidos no repositório.
-- Minimizar dados coletados; preferir códigos de estudo em vez de nomes nos registros de pesquisa.
-- Definir responsável, local de armazenamento, pessoas com acesso, prazo de retenção e descarte seguro no protocolo.
-- Não gravar áudio/vídeo nem coletar informações adicionais sem justificativa e previsão explícita no protocolo.
-- O protótipo atual é demonstrativo: não deve ser apresentado como sistema assistencial, e suas respostas não são enviadas nem armazenadas.
-- Verificar com a instituição e a orientação as normas e os trâmites aplicáveis, incluindo a necessidade de apreciação pelo sistema CEP/CONEP. A autorização institucional não substitui eventual aprovação ética.
+## 11. Limites de interpretação
 
-## 10. Alternativa se não houver acesso ao serviço
+A avaliação do protótipo pode indicar problemas de interface, acessibilidade, clareza e desempenho em tarefas específicas. Não prova, sem estudos adicionais, aprendizagem duradoura, autonomia generalizada, aumento de participação em teleconsultas, melhora de continuidade do cuidado, desfechos clínicos ou eficiência do serviço.
 
-Propor, discutir e obter as aprovações aplicáveis para avaliação da solução de educação em saúde, com tarefas simuladas e conteúdo fictício. Nesse cenário, a conclusão possível limita-se à usabilidade, clareza e compreensão observada durante as tarefas. Não concluir que o produto gera aprendizagem duradoura, melhora adesão, continuidade real do cuidado, desfechos clínicos ou eficiência do serviço.
+## 12. Critérios para considerar o protótipo pronto para avaliação técnica
 
-## 11. Critérios para considerar o protótipo pronto para avaliação
+- [ ] Cada etapa tem objetivo educativo e instrução concreta.
+- [ ] Todos os cenários estão marcados como fictícios.
+- [ ] Não há pedidos de dados pessoais/clínicos ou armazenamento/transmissão de respostas.
+- [ ] A navegação, foco, responsividade e reinicialização foram testados.
+- [ ] As tarefas e os critérios de análise correspondem ao que está implementado.
+- [ ] As limitações e os passos de autorização estão documentados.
 
-- [ ] As três etapas funcionam por mouse, toque e teclado.
-- [ ] O foco de teclado é visível e os controles têm nomes compreensíveis.
-- [ ] A interface é legível em telas pequenas e grandes.
-- [ ] Os estados e mensagens não dependem apenas de cor.
-- [ ] Todos os exemplos estão identificados como fictícios.
-- [ ] A reinicialização limpa as escolhas e mensagens da sessão.
-- [ ] As tarefas e os critérios de sucesso estão definidos no protocolo.
-- [ ] O fluxo de dados foi inspecionado e não transmite respostas.
-- [ ] Orientação, autorização institucional e apreciação ética aplicável foram verificadas antes de qualquer pesquisa com participantes.
+## 13. Próximas decisões
 
-## 12. Próximas decisões
-
-1. Confirmar com a orientação a pergunta e os objetivos.
-2. Completar a busca bibliográfica e a matriz de evidências.
-3. Realizar revisão técnica interna do protótipo sem participantes.
-4. Fazer contato exploratório com a Secretaria, sem recrutamento nem coleta.
-5. Definir desenho, instrumentos, amostra e plano de dados antes de qualquer etapa com participantes.
+1. Discutir pergunta, objetivo principal, público e método com a orientação.
+2. Completar busca bibliográfica e comparação com soluções existentes.
+3. Definir objetivo de aprendizagem e rubrica por tarefa.
+4. Realizar auditoria técnica/pedagógica sem participantes.
+5. Verificar campo, autorizações e necessidade de apreciação ética antes de qualquer avaliação com pessoas.
