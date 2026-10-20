@@ -1,18 +1,18 @@
 # Revisão rápida de evidências e recomendações para o produto
 
 **Data da revisão:** 19/10/2026  
-**Projeto:** Telessaúde Guaraí — protótipo Conversa Clara  
+**Projeto:** Conversa Clara — solução tecnológica de educação em saúde no contexto de telessaúde  
 **Finalidade:** atualizar decisões de desenho e avaliação com base em evidências científicas e diretrizes técnicas relevantes.
 
 > **Limite metodológico importante.** Este documento é uma revisão rápida e focalizada de fontes selecionadas, não uma revisão sistemática concluída. A seleção foi dirigida à pergunta do projeto e incluiu revisões sistemáticas/umbrella reviews, um estudo brasileiro de validação de instrumento, um estudo de usabilidade em serviço brasileiro e documentos normativos oficiais. Não foram executadas aqui as buscas reproduzíveis nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO, nem um processo completo de deduplicação, triagem e avaliação formal de risco de viés. Portanto, esta síntese orienta decisões, mas **não substitui** a etapa bibliográfica formal já prevista no projeto.
 
 ## 1. Síntese executiva
 
-A evidência disponível sustenta priorizar linguagem compreensível, navegação simples, acessibilidade desde o início e avaliação baseada em tarefas reais de uso. Ela **não sustenta presumir** que uma interface com linguagem simplificada, isoladamente, melhore adesão, continuidade do cuidado ou desfechos clínicos. A avaliação deste protótipo deve limitar suas conclusões à usabilidade, à compreensão de informações fictícias/validadas e à utilidade percebida no contexto definido.
+A evidência disponível sustenta priorizar linguagem compreensível, organização clara da informação, acessibilidade desde o início e avaliação baseada em tarefas. Isso é pertinente ao enquadramento como pesquisa tecnológica de uma solução inovadora para educação em saúde: o produto deve ser tratado como recurso educativo e a avaliação deve medir usabilidade, clareza e compreensão imediata de conteúdo fictício/validado. A evidência **não sustenta presumir** que uma interface com linguagem simplificada, isoladamente, gere aprendizagem duradoura, mude comportamentos ou melhore adesão, continuidade do cuidado ou desfechos clínicos.
 
 As decisões mais importantes são:
 
-1. Medir se as pessoas conseguem completar tarefas e explicar a mensagem em suas próprias palavras; não depender apenas de uma nota geral ou de uma pergunta de múltipla escolha.
+1. Medir se as pessoas conseguem completar tarefas e explicar a mensagem educativa em suas próprias palavras; não depender apenas de uma nota geral ou de uma pergunta de múltipla escolha.
 2. Escolher com a orientação **um** instrumento de usabilidade que corresponda ao objeto avaliado. TUQ-Brasil é específico para sistemas de telessaúde; SUS é mais genérico. Nenhum deles mede, por si só, compreensão das orientações.
 3. Incluir teste com usuários e tecnologias assistivas no plano de acessibilidade. Inspeção estática e ferramentas automáticas são úteis, mas não provam conformidade integral.
 4. Manter usuários adultos e profissionais de saúde como grupos analíticos distintos quando necessário, pois suas tarefas e contextos não são iguais.
