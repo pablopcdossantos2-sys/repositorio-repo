@@ -1,0 +1,13 @@
+# Node.js development dependencies
+node_modules/
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+playwright/.cache/
+blob-report/
+playwright/.last-run.json
+
+# Local editor/OS files
+.DS_Store
+Thumbs.db
