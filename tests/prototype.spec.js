@@ -19,7 +19,7 @@ test("apresenta o tema escolhido e as três etapas de treino de teleconsulta", a
   await page.locator('.tab[data-view="guidance"]').click();
   await expect(page.getByRole("heading", { name: "Pratique três situações comuns numa teleconsulta" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "O link não abre" })).toBeVisible();
-  await expect(page.getByText(/sala virtual fictícia/)).toBeVisible();
+  await expect(page.locator('[data-scenario-card="entry"]').getByText(/sala virtual fictícia/)).toBeVisible();
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await expect(page.getByRole("heading", { name: "Não consigo ouvir" })).toBeVisible();
   await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
