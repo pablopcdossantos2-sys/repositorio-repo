@@ -1,6 +1,6 @@
 # Carta de exposição de motivos — minuta editável
 
-> **Antes de usar:** este texto é uma minuta para personalização. Substitua os campos entre colchetes, inclua somente informações verdadeiras sobre sua trajetória e revise a versão final. A página oficial de perguntas frequentes do Programa informa que a carta tem formato livre, deve conter assinatura digital e ser enviada ao Sistema de Inscrição em PDF. Consulte o edital específico da turma para confirmar eventuais exigências atualizadas.
+> **Antes de usar:** este texto é uma minuta para personalização. Substitua os campos entre colchetes, inclua somente informações verdadeiras sobre sua trajetória e revise a versão final. A página oficial de perguntas frequentes do Programa informa que a carta tem formato livre, deve conter assinatura digital e ser enviada ao Sistema de Inscrição em PDF. Consulte o edital específico da turma para confirmar eventuais exigências atualizadas. O tema do anteprojeto ainda está em comparação: se a decisão final for diferente do tema “Conversa Clara” descrito abaixo, atualize o parágrafo do projeto para refletir o tema escolhido antes de assinar e converter a carta em PDF.
 
 **À Comissão de Seleção do Mestrado Profissional em Telessaúde e Saúde Digital**  
 **Universidade do Estado do Rio de Janeiro — UERJ**
