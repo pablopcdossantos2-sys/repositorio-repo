@@ -143,3 +143,8 @@ O [benchmark de recursos existentes](benchmark-recursos-existentes.md) identific
 | WHO/ITU (2024) | Recomenda integrar acessibilidade ao planejamento da telessaúde. | Traduzir recomendações aplicáveis em itens verificáveis na auditoria técnica/manual. | Diretriz de serviços, não avaliação direta do protótipo. |
 
 **Próxima ação:** verificar o conteúdo completo dos recursos comparadores mais próximos, executar buscas oficiais reproduzíveis e mapear cada requisito ao protótipo e a um teste interno. Não inferir validação por usuários nem eficácia educativa.
+
+
+## 12. Verificação operacional dos requisitos
+
+Para transformar os requisitos derivados da literatura e do benchmark em inspeção verificável, foi criado o [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md). Ele relaciona cada requisito B-01–B-08 a áreas da interface, testes propostos e estado de verificação. Os itens manuais continuam pendentes; a existência do roteiro não deve ser descrita como execução da auditoria.
