@@ -395,3 +395,42 @@ A suíte `tests/prototype.spec.js` foi atualizada no commit [492d562](https://gi
 **Estado:** os testes foram escritos/atualizados, mas a execução posterior às mudanças não está confirmada. A consulta ao status combinado do commit `492d562` não retornou status checks. O desenvolvedor deve seguir o tutorial e executar `npm test`; registrar a saída, ambiente e commit testado antes de afirmar sucesso. Não presumir que a CI rodou ou passou.
 
 Esta atualização também precisa ser mantida no `ROADMAP.md`. As próximas prioridades continuam sendo: executar os testes, fazer auditoria manual sem participantes e concluir a busca bibliográfica formal.
+
+
+## Atualização de continuidade — matriz de critérios para textos e feedbacks (20/10/2026)
+
+### Avanço documental confirmado
+
+Foi criada a [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md). O documento traduz a revisão editorial dos cenários em critérios observáveis para:
+- ação concreta e próximo passo;
+- feedback explicativo para acerto e tentativa;
+- tom respeitoso e não punitivo;
+- segurança e privacidade, com preferência por canal oficial já conhecido;
+- ausência de aconselhamento clínico;
+- explicitação de que controles e situações são fictícios;
+- consideração de diferenças entre dispositivos;
+- acessibilidade e rastreabilidade entre objetivo, texto e teste.
+
+A matriz relaciona OE-02 (link), OE-03 (áudio), OE-04 (esclarecimento), OE-01 (checklist) e OE-05 (encerramento) às ações esperadas e verificações internas. Ela foi ligada ao README, ao mapa de objetivos e aos dois rascunhos de anteprojeto; os roadmaps também registram o avanço.
+
+### Uso correto da evidência
+
+Galvin et al. (2024), WHO/ITU (2024) e os guias de preparação do HHS informam critérios gerais e contexto, mas não validam os microtextos específicos do protótipo. O recurso Digital House Calls já identificado impede apresentar a estrutura antes/durante/depois ou o caráter autoguiado como inovação exclusiva. A contribuição específica continua sendo hipótese a investigar.
+
+### Estado técnico e pendências
+
+- Não foram alterados HTML, CSS ou JavaScript nesta rodada.
+- Não foi executada nova suíte Playwright/axe-core nem nova CI; o estado dos testes após alterações anteriores de código continua a exigir confirmação.
+- Não foi feita auditoria manual em navegador ou tecnologia assistiva.
+- As buscas formais em PubMed/MEDLINE, BVS/LILACS e SciELO continuam pendentes, sem contagens/exportações completas.
+- Não houve validação com participantes; não iniciar atividade com pessoas sem indicação explícita da orientação e autorizações aplicáveis.
+- OE-05 permanece conteúdo educativo estático. A escala de facilidade de 1 a 5 não é tarefa de aprendizagem nem medida de compreensão.
+
+### Próximos passos
+
+1. Executar `npm test` conforme o tutorial, registrar ambiente, saída e commit exato; conferir a CI correspondente.
+2. Fazer auditoria manual de navegação, foco, feedbacks anunciados, zoom/reflow, leitor de tela, estados visuais e comportamento de rede.
+3. Executar e registrar as buscas bibliográficas oficiais com datas, estratégias efetivas, totais e exportações.
+4. Confirmar com a orientação se a avaliação sem participantes atende aos requisitos do mestrado.
+
+**Regra de integridade:** a matriz demonstra rastreabilidade e consistência documental, não compreensão pelo público-alvo, usabilidade validada ou eficácia educativa. Atualizar este documento e `ROADMAP.md` após cada avanço verificável.
