@@ -1,14 +1,20 @@
-# Telessaúde Guaraí — apoio à preparação e continuidade do cuidado
+# Conversa Clara — tecnologia para educação em saúde
 
-Projeto de pesquisa aplicada em desenvolvimento para o **Mestrado Profissional em Telessaúde e Saúde Digital da UERJ (Turma 2027)**.
+Projeto de pesquisa tecnológica em desenvolvimento para o **Mestrado Profissional em Telessaúde e Saúde Digital da UERJ**. O enquadramento selecionado é a linha **“2) Tecnologias para Educação em Saúde”** e o tipo **“Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”**. Confirme a nomenclatura e os requisitos específicos no edital da turma à qual será feita a candidatura.
 
 ## Objetivo do projeto
 
-Desenvolver e avaliar um protótipo web responsivo, simples e acessível, que ajude adultos a se prepararem para atendimentos de telessaúde, compreenderem as orientações recebidas e organizarem os próximos passos do cuidado.
+Desenvolver e avaliar um protótipo web responsivo de **educação em saúde**, simples e acessível, com recursos demonstrativos para ajudar adultos a se prepararem para atendimentos de telessaúde, compreenderem orientações apresentadas em linguagem clara e identificarem próximos passos. O foco de pesquisa está no desenho e na avaliação de uma solução educativa digital — não na prestação de assistência clínica nem na comprovação de resultados clínicos.
 
 O cenário preferencial de pesquisa é a rede pública de saúde de Guaraí, Tocantins, condicionado à viabilidade e às autorizações institucionais e éticas aplicáveis.
 
 O protótipo demonstrativo usa o nome provisório **Conversa Clara**; ele não representa um sistema oficial da Secretaria Municipal de Saúde.
+
+## Enquadramento acadêmico selecionado
+
+- **Linha de pesquisa:** 2) Tecnologias para Educação em Saúde
+- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Título de trabalho:** “Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações”.
 
 ## Princípios de escopo
 
@@ -30,10 +36,13 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 
 ## Estratégia de pesquisa
 
-1. Revisão da literatura e diagnóstico de necessidades.
-2. Desenvolvimento iterativo do protótipo.
-3. Avaliação de usabilidade, compreensão de orientações e percepção de utilidade com adultos e profissionais de saúde.
-4. Aperfeiçoamento e documentação do produto.
+1. Revisão de literatura sobre educação em saúde digital, linguagem clara, compreensão de informação, acessibilidade e tecnologias educativas.
+2. Diagnóstico de necessidades e requisitos educativos, conforme viabilidade e autorizações.
+3. Desenvolvimento iterativo do protótipo e do conteúdo demonstrativo.
+4. Avaliação de usabilidade, compreensão das mensagens educativas e utilidade percebida, em tarefas definidas no protocolo.
+5. Aperfeiçoamento e documentação do produto.
+
+A aderência principal é com **educação em saúde**. O contexto de telessaúde é o cenário de aplicação dos recursos educativos, não uma proposta de desenvolver ferramenta de teleconsulta.
 
 **Plano preferencial:** tentar formalizar parceria com a Secretaria Municipal de Saúde de Guaraí e buscar acesso ao fluxo real de telessaúde.
 
@@ -44,6 +53,8 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [ROADMAP — prioridades, critérios de conclusão e pendências](ROADMAP.md)
 - [Guia operacional das tarefas que dependem do responsável pelo projeto](docs/tarefas-pessoais-e-proximos-passos.md)
 - [Anteprojeto — base de trabalho](docs/anteprojeto-base.md)
+- [Carta de exposição de motivos — minuta editável](docs/carta-exposicao-de-motivos.md)
+- [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](docs/declaracao-conhecimento-deliberacao-13-2023.md)
 - [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
 - [Referências iniciais e plano de busca bibliográfica](docs/referencias-e-busca-bibliografica.md)
 - [Busca bibliográfica estruturada — protocolo e síntese crítica](docs/busca-bibliografica-estruturada.md)
