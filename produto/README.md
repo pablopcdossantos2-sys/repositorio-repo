@@ -8,6 +8,12 @@
 
 O protótipo usa HTML, CSS e JavaScript puros; não precisa de Node.js, npm, Git ou instalação de dependências.
 
+## Para executar os testes automatizados
+
+O simulador **não precisa ser instalado**. Para executar a suíte automatizada, porém, é necessário instalar Node.js 24.8.0 ou posterior, npm, as dependências do projeto e o Chromium do Playwright. Siga o [tutorial didático para abrir e testar o protótipo](../docs/tutorial-instalar-e-testar-prototipo.md), que apresenta os dois caminhos passo a passo.
+
+A documentação de referência dos comandos está em [Como executar as verificações técnicas](../docs/como-executar-testes.md).
+
 ## Opção 2 — publicar uma demonstração pelo GitHub Pages
 
 A publicação depende de habilitar o GitHub Pages nas configurações do repositório. Como não foi possível ativar essa configuração por esta integração, é necessário fazer esta etapa manualmente:
