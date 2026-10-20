@@ -22,6 +22,10 @@
 6. **Conselho Nacional de Saúde (2016).** Resolução nº 510, de 7 de abril de 2016.  
    Relevância: normas aplicáveis a pesquisas em Ciências Humanas e Sociais, conforme o campo de aplicação e o desenho final.
 
+## Atualização de 20/10/2026 — estado de execução
+
+O protocolo de strings foi organizado no [Registro de execução das buscas bibliográficas — 20/10/2026](registro-busca-estruturada-2026-10-20.md). A tentativa de abrir as interfaces oficiais pelo ambiente de pesquisa não recuperou as páginas de resultados; portanto, **as buscas nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO seguem pendentes**. Não há contagens, exportações ou deduplicação documentadas nesta rodada. A pesquisa web exploratória e os artigos localizados individualmente continuam sendo evidência complementar, não substitutos das buscas formais.
+
 ## Plano de busca bibliográfica a executar
 
 Bases sugeridas: PubMed/MEDLINE, BVS/LILACS, SciELO e Google Scholar para rastreamento complementar. Registrar data da busca, termos, filtros e critérios de seleção.
