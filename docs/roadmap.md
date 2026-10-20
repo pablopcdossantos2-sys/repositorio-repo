@@ -42,8 +42,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Implementar navegação entre três painéis, checklist local, feedback e reinicialização.
 - [ ] Atualizar conteúdo: instruções passo a passo, entrada simulada, controle de áudio/vídeo fictício, pedido de esclarecimento e próximos passos.
 - [ ] Garantir que a interface não solicite dados pessoais/clínicos e não transmita ou armazene respostas.
-- [ ] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional.
-- [ ] Completar testes manuais de teclado, leitor de tela, contraste, zoom, telas pequenas e movimento reduzido.
+- [x] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional: 15 checagens estáticas e 22 testes de navegador passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
+- [ ] Completar testes manuais de teclado, leitor de tela, contraste em componentes reais, zoom, telas pequenas e movimento reduzido.
 
 ## Fase 4 — Avaliação e aperfeiçoamento (P1)
 
