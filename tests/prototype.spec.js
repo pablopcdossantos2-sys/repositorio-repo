@@ -17,7 +17,12 @@ test("apresenta o tema escolhido e as três etapas de treino de teleconsulta", a
   await expect(page.locator(".tabs")).toContainText("Durante");
   await expect(page.locator(".tabs")).toContainText("Encerrar");
   await page.locator('.tab[data-view="guidance"]').click();
-  await expect(page.getByRole("heading", { name: "O que fazer se você não consegue ouvir?" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Pratique três situações comuns numa teleconsulta" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "O link não abre" })).toBeVisible();
+  await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
+  await expect(page.getByRole("heading", { name: "Não consigo ouvir" })).toBeVisible();
+  await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
+  await expect(page.getByRole("heading", { name: "Não entendi uma informação" })).toBeVisible();
   await expect(page.getByText(/sala virtual fictícia/)).toBeVisible();
   await page.locator('.tab[data-view="next"]').click();
   await expect(page.getByRole("heading", { name: "Confirme o que ficou combinado" })).toBeVisible();
@@ -66,7 +71,8 @@ test("navegação move o foco para o título da etapa ativa", async ({ page }) =
 test("os controles fictícios permitem praticar ações sem ativar áudio nem enviar mensagens reais", async ({ page }) => {
   await page.locator('.tab[data-view="guidance"]').click();
   await page.getByRole("button", { name: "Entrar na sala de treino" }).click();
-  await expect(page.locator("#room-feedback")).toContainText("Nenhuma conexão real foi iniciada");
+  await expect(page.locator("#entry-room-feedback")).toContainText("Nenhuma conexão real foi iniciada");
+  await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.getByRole("button", { name: "Conferir áudio (simulação)" }).click();
   await expect(page.locator("#room-feedback")).toContainText("conferir o controle de áudio");
   await page.getByRole("button", { name: "Avisar que não estou ouvindo" }).click();
@@ -77,6 +83,7 @@ test("os controles fictícios permitem praticar ações sem ativar áudio nem en
 test("avaliação de compreensão exige escolha e apresenta feedback coerente", async ({ page }) => {
   await page.locator('.tab[data-view="guidance"]').click();
   await page.locator("#check-understanding").click();
+  await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await expect(page.locator("#understanding-feedback")).toContainText("Escolha uma resposta");
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
@@ -84,6 +91,27 @@ test("avaliação de compreensão exige escolha e apresenta feedback coerente", 
   await page.locator('input[name="understanding"][value="wrong"]').first().check();
   await page.locator("#check-understanding").click();
   await expect(page.locator("#understanding-feedback")).toContainText("Tente novamente");
+});
+
+test("cenário de entrada recomenda usar link/canal oficial sem compartilhar senhas", async ({ page }) => {
+  await page.locator('.tab[data-view="guidance"]').click();
+  await page.locator('[name="entry-choice"][value="unsafe"]').first().check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#entry-choice-feedback")).toContainText("Tente novamente");
+  await page.locator('[name="entry-choice"][value="safe"]').check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#entry-choice-feedback")).toContainText("Boa escolha");
+});
+
+test("cenário de esclarecimento orienta a pedir repetição em vez de adivinhar", async ({ page }) => {
+  await page.locator('.tab[data-view="guidance"]').click();
+  await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
+  await page.locator('[name="clarify-choice"][value="unsafe"]').first().check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#clarify-feedback")).toContainText("Tente novamente");
+  await page.locator('[name="clarify-choice"][value="safe"]').check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#clarify-feedback")).toContainText("Boa prática");
 });
 
 test("nota de facilidade mantém somente uma opção selecionada", async ({ page }) => {
@@ -100,6 +128,7 @@ test("nota de facilidade mantém somente uma opção selecionada", async ({ page
 test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async ({ page }) => {
   await page.locator(".check-row input").first().check();
   await page.locator('.tab[data-view="guidance"]').click();
+  await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
   await page.locator('.tab[data-view="next"]').click();
@@ -112,6 +141,9 @@ test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async
   for (const option of await page.locator('input[name="understanding"]').all()) await expect(option).not.toBeChecked();
   await expect(page.locator("#understanding-feedback")).toBeEmpty();
   await expect(page.locator("#room-feedback")).toBeEmpty();
+  await expect(page.locator("#entry-room-feedback")).toBeEmpty();
+  await expect(page.locator("#entry-choice-feedback")).toBeEmpty();
+  await expect(page.locator("#clarify-feedback")).toBeEmpty();
   await expect(page.locator("#rating-feedback")).toBeEmpty();
   await expect(page.locator('[data-rating][aria-pressed="true"]')).toHaveCount(0);
   await expect(page.locator("#check-status")).toHaveText("Nenhum item marcado.");
@@ -176,6 +208,7 @@ test("navegação completa não gera exceções JavaScript nem solicita recursos
   await page.locator(".check-row input").first().check();
   await page.locator("#reset-checks").click();
   await page.locator('.tab[data-view="guidance"]').click();
+  await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
   await page.locator('.tab[data-view="next"]').click();
