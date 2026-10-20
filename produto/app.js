@@ -10,20 +10,20 @@
     entry: {
       inputName: "entry-choice",
       feedbackId: "entry-choice-feedback",
-      success: "Boa escolha. Confira a conexão e use o link/canal oficial. Se continuar sem acesso, peça ajuda pelo contato oficial já conhecido; não envie senhas ou dados por links suspeitos.",
-      retry: "Tente novamente. Evite compartilhar dados pessoais em links inesperados e, se não conseguir entrar, avise o serviço pelo contato oficial conhecido."
+      success: "Boa escolha. Confira se o aparelho está conectado e se você abriu o link recebido pelo canal oficial. Se não conseguir entrar, peça ajuda pelo contato oficial que já conhece. Não informe senhas nem dados pessoais em links inesperados.",
+      retry: "Tente novamente. Se o link não abrir, confira a conexão e use apenas o link ou contato oficial que você já conhece. Não precisa compartilhar senhas nem dados pessoais para pedir ajuda."
     },
     audio: {
       inputName: "understanding",
       feedbackId: "understanding-feedback",
-      success: "Isso! Confira o controle de áudio e avise que não está ouvindo. Esta é uma situação fictícia; o simulador não se conecta a uma consulta real.",
-      retry: "Tente novamente: não precisa encerrar sem avisar nem compartilhar dados pessoais. Procure o controle de áudio visível e comunique a dificuldade."
+      success: "Isso! Confira se o volume está ligado e, se houver essa opção, se a saída de som está correta. Se ainda não ouvir, avise o profissional. Esta situação é fictícia: não há chamada nem áudio real.",
+      retry: "Tente novamente. Você pode conferir o volume e os controles de som disponíveis; se continuar sem ouvir, avise o profissional em vez de sair sem explicar o problema. Não é necessário compartilhar dados pessoais."
     },
     clarify: {
       inputName: "clarify-choice",
       feedbackId: "clarify-feedback",
-      success: "Boa prática. Peça que a informação seja repetida ou explicada de outro jeito e confirme o próximo passo. O simulador não fornece nem modifica orientações clínicas.",
-      retry: "Tente novamente. É melhor pedir esclarecimento do que fingir que entendeu ou adivinhar uma orientação."
+      success: "Boa prática. Peça que a pessoa repita ou explique de outro jeito e, em seguida, confirme qual é o próximo passo. Assim, você não precisa adivinhar. Este exemplo não fornece nem altera orientações clínicas.",
+      retry: "Tente novamente. Se uma informação não ficou clara, peça para repetir ou explicar de outro jeito e confirme o próximo passo. Não precisa fingir que entendeu nem adivinhar."
     }
   };
 
@@ -88,13 +88,13 @@
   });
 
   document.getElementById("simulate-enter").addEventListener("click", () => {
-    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o acesso continua indisponível. Confira a conexão e o link oficial; se o problema persistir, use o contato oficial já conhecido. Nenhuma conexão real foi aberta.";
+    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o link continua sem abrir. Confira a conexão e se está usando o link recebido pelo canal oficial. Se não conseguir entrar, peça ajuda pelo contato oficial que já conhece. Nenhuma conexão real foi aberta.";
   });
   document.getElementById("simulate-audio").addEventListener("click", () => {
-    document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Se ainda não ouvir, avise a pessoa profissional.";
+    document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Veja se o volume está ligado e, se houver essa opção, confira a saída de som. Se ainda não ouvir, avise o profissional.";
   });
   document.getElementById("simulate-help").addEventListener("click", () => {
-    document.getElementById("room-feedback").textContent = "Boa prática: informe com clareza que não está ouvindo e peça ajuda. Este botão não envia uma mensagem real.";
+    document.getElementById("room-feedback").textContent = "Boa prática: diga que não está ouvindo e peça ajuda. Este botão não envia uma mensagem real.";
   });
 
   document.querySelectorAll("[data-scenario-check]").forEach(button => {
