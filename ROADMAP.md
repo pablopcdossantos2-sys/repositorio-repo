@@ -285,3 +285,12 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 
 - [x] Alinhar as novas asserções Playwright às formulações efetivamente presentes na versão atual de `produto/app.js` (link/canal oficial conhecido; controles de som disponíveis; confirmação do próximo passo).
 - [ ] Confirmar a execução da CI para o commit de teste [b911436](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/b911436ee49e2678ad4f69c8ededf63be98d4467). A consulta de status disponível não retornou checks; não interpretar isso como aprovação nem falha.
+
+
+### Complemento — cobertura automatizada dos feedbacks (20/10/2026)
+
+- [x] Ampliar `tests/prototype.spec.js` para conferir partes específicas dos feedbacks de link, áudio e esclarecimento, incluindo canal oficial conhecido, proteção de senha/código, saída de som e confirmação do próximo passo.
+- [ ] Executar `npm test` depois das alterações de HTML/JavaScript/testes. O status combinado consultado para o commit de teste não retornou checks; portanto, não há resultado aprovado confirmado.
+- [ ] Registrar no relatório o resultado real da execução local ou da CI, associando-o ao commit testado.
+
+Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/492d562b2a674e8c42eb4e48a320a290a2af0a43). Não marcar a suíte como aprovada até obter o resultado.
