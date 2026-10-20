@@ -23,6 +23,10 @@ Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os
 | P1 | Requisitos e avaliação | Requisitos rastreáveis e coerência entre escopo, funcionalidades e método de avaliação. |
 | P2 | Engenharia e entrega | Testes automatizados proporcionais ao projeto, documentação final e estratégia de publicação decidida. |
 
+## Guia operacional para execução pessoal
+
+O arquivo [`docs/tarefas-pessoais-e-proximos-passos.md`](docs/tarefas-pessoais-e-proximos-passos.md) reúne, em ordem de execução, os passos para orientação acadêmica, edital, busca bibliográfica formal, contato institucional, ética, protocolo, testes manuais, avaliação e entrega. Use-o para executar cada pendência e registrar evidências; as etapas com participantes continuam bloqueadas até que as aprovações aplicáveis sejam confirmadas.
+
 ## Acompanhamento das pendências no GitHub
 
 - [#1 — Busca bibliográfica reproduzível nas bases oficiais](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/1)
