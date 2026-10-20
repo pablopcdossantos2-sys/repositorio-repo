@@ -68,6 +68,52 @@ Busca complementar em inglês:
 
 [SciELO Search](https://search.scielo.org/) — registrar coleções/idiomas e filtros aplicados. Não limitar somente ao título se a interface permitir pesquisa por todos os índices.
 
+### 3.4 Estratégias complementares específicas para treinamento, simulação e prontidão digital
+
+As estratégias abaixo foram transcritas/adaptadas do pacote de pendências analisado em 20/10/2026. São **propostas a testar**, ainda não executadas nesta pesquisa. Devem complementar as buscas A–C acima, e não ser confundidas com os resultados da revisão exploratória já registrada. Antes de contar os resultados, testar a sintaxe na interface, registrar a expressão final e exportar os registros.
+
+**PubMed A1 — preparação/treinamento de usuários para teleconsulta**
+
+```text
+(telehealth[tiab] OR telemedicine[tiab] OR "Telemedicine"[Mesh] OR teleconsult*[tiab] OR "video visit*"[tiab] OR "video consultation*"[tiab] OR "remote consultation*"[tiab] OR "Remote Consultation"[Mesh])
+AND (train*[tiab] OR "patient education"[tiab] OR "Patient Education as Topic"[Mesh] OR coaching[tiab] OR tutorial*[tiab] OR "digital navigator*"[tiab] OR preparation[tiab] OR readiness[tiab])
+AND (patient*[tiab] OR "service user*"[tiab] OR consumer*[tiab] OR "older adult*"[tiab] OR "Aged"[Mesh])
+```
+
+**PubMed A2 — simulação e prática interativa**
+
+```text
+(telehealth[tiab] OR telemedicine[tiab] OR teleconsult*[tiab] OR "video visit*"[tiab])
+AND (simulat*[tiab] OR "serious game*"[tiab] OR gamif*[tiab] OR "virtual patient*"[tiab] OR "role play*"[tiab] OR "Simulation Training"[Mesh] OR interactive[tiab])
+AND (patient*[tiab] OR "older adult*"[tiab] OR "digital literacy"[tiab] OR "digital skills"[tiab])
+```
+
+**PubMed A3 — medida de proficiência digital**
+
+```text
+("digital literacy"[tiab] OR "digital skills"[tiab] OR "digital competenc*"[tiab] OR "mobile device proficiency"[tiab] OR "technology proficiency"[tiab] OR "digital proficiency"[tiab] OR "eHealth literacy"[tiab])
+AND (measur*[tiab] OR questionnaire*[tiab] OR scale*[tiab] OR instrument*[tiab] OR "Surveys and Questionnaires"[Mesh] OR validation[tiab])
+AND (telehealth[tiab] OR telemedicine[tiab] OR "digital health"[tiab] OR "older adult*"[tiab])
+```
+
+**BVS/LILACS — português, inglês e espanhol**
+
+```text
+(tw:(teleconsulta OR telessaúde OR telemedicina OR "consulta por vídeo" OR "consulta remota" OR telehealth OR telemedicine OR "remote consultation"))
+AND (tw:(treinamento OR capacitação OR "educação do paciente" OR tutorial OR simulação OR "letramento digital" OR "alfabetização digital" OR "competência digital" OR "habilidades digitais" OR "inclusão digital" OR training OR simulation OR "digital literacy" OR "digital skills"))
+```
+
+**SciELO**
+
+```text
+(teleconsulta OR telessaúde OR telemedicina OR "consulta por vídeo")
+AND ("letramento digital" OR "alfabetização digital" OR "inclusão digital" OR "competência digital" OR "habilidades digitais" OR treinamento OR capacitação OR simulação OR "educação do paciente")
+```
+
+**Literatura cinzenta e materiais existentes:** executar e registrar buscas como “como participar de uma teleconsulta passo a passo”, “treino teleconsulta”, “simulador de teleconsulta”, “teleconsulta SUS orientações ao paciente”, “telehealth patient training”, “video visit practice” e “digital navigator telehealth”. Acrescentar `site:gov.br` como variação, sem restringir toda a busca a esse domínio.
+
+Na triagem, registar para cada recurso: público; país/idioma; formato autoguiado ou mediado; se há prática interativa e feedback; tarefas ensinadas; recursos de acessibilidade; desfechos/instrumentos; necessidades de dispositivo/conexão; e limitações. Não concluir que inexiste um simulador em português com base apenas em um conjunto parcial de resultados.
+
 ## 4. Critérios de elegibilidade
 
 ### Incluir
