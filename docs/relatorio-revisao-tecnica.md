@@ -183,3 +183,12 @@ Foi realizada uma nova inspeção estática dos arquivos correntes de produto, s
 Principais resultados: o HTML contém apenas checkboxes e rádios para checklist/escolhas; não foram encontradas referências externas em `src`/`href`; o JavaScript inspecionado não contém chamadas comuns de rede ou persistência (`fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`, cookies, `WebSocket`, `sendBeacon`, `indexedDB`). A lógica de navegação, feedback e reinicialização foi lida estaticamente. Isso **não comprova** ausência universal de tráfego/armazenamento nem conformidade integral com WCAG.
 
 Continuam pendentes a execução manual de teclado/foco, teste de rede/armazenamento no navegador, leitor de tela, zoom/reflow, contraste integral, movimento reduzido e verificação da distribuição. Não houve alteração de código nem nova execução de CI nesta rodada; não atribuir aos arquivos inspecionados um resultado de CI sem conferir o workflow correspondente ao commit atual.
+
+
+## 9. Segunda revisão estática complementar — 20/10/2026
+
+Foi inspecionada novamente a versão corrente dos arquivos HTML/JS/CSS e a suíte escrita em `tests/prototype.spec.js`. O relatório específico [segunda revisão estática do protótipo](segunda-revisao-estatica-2026-10-20.md) registra hashes e resultados: 24 IDs sem duplicação na varredura, três destinos de `aria-controls` existentes, nove referências `getElementById` sem destino ausente, nenhuma URL HTTP(S) em `href`/`src` e nenhuma ocorrência das APIs comuns de rede/persistência pesquisadas no JS.
+
+A leitura dos arquivos de teste indica cobertura escrita para navegação, foco, cenários, feedback, reinicialização, escala de facilidade, larguras de viewport, axe-core e solicitações externas durante um fluxo automatizado. Isso não significa que os testes tenham sido executados nesta rodada. Não houve execução em navegador, alteração do produto ou nova CI.
+
+A escala interativa de facilidade (1–5) no encerramento foi distinguida do objetivo OE-05: o conteúdo educativo de encerramento permanece estático e a escala não é medida de aprendizagem, coleta de pesquisa ou validação com usuários.
