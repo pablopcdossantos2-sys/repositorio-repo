@@ -26,7 +26,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 1 — Evidências e diferenciação (P0)
 
-- [x] Consolidar strings e formulário de registro de execução ([registro](registro-busca-estruturada-2026-10-20.md)).\n- [ ] Executar buscas reprodutíveis em PubMed/MEDLINE, BVS/LILACS e SciELO; as interfaces oficiais não retornaram páginas de resultados pelo ambiente usado nesta rodada, sem contagens/exportações confirmadas.
+- [x] Consolidar strings e formulário de registro de execução ([registro](registro-busca-estruturada-2026-10-20.md)).
+- [ ] Executar buscas reprodutíveis em PubMed/MEDLINE, BVS/LILACS e SciELO; as interfaces oficiais não retornaram páginas de resultados pelo ambiente usado nesta rodada, sem contagens/exportações confirmadas.
 - [ ] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital.
 - [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
 - [x] Registrar um primeiro benchmark exploratório de recursos públicos e suas limitações ([benchmark](benchmark-recursos-existentes.md)).
@@ -52,7 +53,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [ ] Atualizar conteúdo: instruções passo a passo, entrada simulada, controle de áudio/vídeo fictício, pedido de esclarecimento e próximos passos.
 - [ ] Garantir que a interface não solicite dados pessoais/clínicos e não transmita ou armazene respostas.
 - [x] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional: 15 checagens estáticas e 22 testes de navegador passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
-- [x] Criar roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes ([roteiro](roteiro-auditoria-tecnica-sem-participantes.md)).\n- [x] Registrar inspeção estática parcial do HTML/JS/CSS, incluindo controles e busca por APIs comuns de rede/persistência ([registro](registro-auditoria-estatica-2026-10-20.md)).
+- [x] Criar roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes ([roteiro](roteiro-auditoria-tecnica-sem-participantes.md)).
+- [x] Registrar inspeção estática parcial do HTML/JS/CSS, incluindo controles e busca por APIs comuns de rede/persistência ([registro](registro-auditoria-estatica-2026-10-20.md)).
 - [ ] Completar testes manuais de teclado, leitor de tela, contraste em componentes reais, zoom, telas pequenas, rede/armazenamento e movimento reduzido; inspeção estática não equivale à auditoria completa.
 
 ## Fase 4 — Avaliação e aperfeiçoamento (P1)
