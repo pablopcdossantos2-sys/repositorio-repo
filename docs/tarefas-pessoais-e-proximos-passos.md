@@ -132,11 +132,13 @@ Outra pessoa consegue refazer as buscas com a string e os filtros registrados; c
 
 **Evidência:** matriz de evidências atualizada, DOI/URL verificável e bibliografia consistente.
 
-## Tarefa 5 — Avaliar possível campo com a Secretaria Municipal de Saúde de Guaraí
+## Tarefa 5 — Avaliar possível campo com a Secretaria Municipal de Saúde de Guaraí (condicional)
 
-**Objetivo:** saber se o cenário é viável, sem presumir parceria e sem iniciar pesquisa.
+**Esta tarefa não é uma prioridade imediata.** Só executá-la se a orientação acadêmica indicar que a articulação com um serviço/campo é necessária para o desenho aprovado. O projeto pode avançar inicialmente com protótipo fictício e avaliação documental/técnica sem participantes.
 
-Use docs/roteiro-reuniao-secretaria.md, cujo texto de contato já está preparado para adaptação.
+**Objetivo, caso seja solicitada:** compreender viabilidade institucional sem presumir parceria e sem iniciar pesquisa.
+
+Use docs/roteiro-reuniao-secretaria.md apenas depois dessa decisão.
 
 1. Identifique em canais oficiais o setor responsável por telessaúde/telemedicina ou pela coordenação pertinente.
 2. Envie mensagem breve pedindo conversa exploratória para apresentar o anteprojeto e conhecer o fluxo. Não peça prontuários nem listas de pacientes.
