@@ -10,20 +10,20 @@
     entry: {
       inputName: "entry-choice",
       feedbackId: "entry-choice-feedback",
-      success: "Boa escolha. Confira se o aparelho está conectado e se você abriu o link recebido pelo canal oficial. Se não conseguir entrar, peça ajuda pelo contato oficial que já conhece. Não informe senhas nem dados pessoais em links inesperados.",
-      retry: "Tente novamente. Se o link não abrir, confira a conexão e use apenas o link ou contato oficial que você já conhece. Não precisa compartilhar senhas nem dados pessoais para pedir ajuda."
+      success: "Boa escolha. Confira a conexão e confirme o link usando um canal oficial que você já conhece. Se não conseguir entrar, procure esse contato para pedir ajuda. Não compartilhe senha ou código de acesso em links inesperados.",
+      retry: "Tente novamente. Se o link não abrir, confira a conexão e confirme o link por um canal oficial que você já conhece. Se continuar sem acesso, procure esse contato. Não compartilhe senha ou código de acesso."
     },
     audio: {
       inputName: "understanding",
       feedbackId: "understanding-feedback",
-      success: "Isso! Confira se o volume está ligado e, se houver essa opção, se a saída de som está correta. Se ainda não ouvir, avise o profissional. Esta situação é fictícia: não há chamada nem áudio real.",
-      retry: "Tente novamente. Você pode conferir o volume e os controles de som disponíveis; se continuar sem ouvir, avise o profissional em vez de sair sem explicar o problema. Não é necessário compartilhar dados pessoais."
+      success: "Isso! Confira se o volume do aparelho está ligado e, se houver essa opção, se a saída de som está correta. Se ainda não ouvir, avise a pessoa profissional e peça ajuda. Esta situação é fictícia: não há chamada nem áudio real.",
+      retry: "Tente novamente. Confira o volume e, se houver essa opção, a saída de som. Se continuar sem ouvir, avise a pessoa profissional em vez de sair sem explicar o problema. Não é necessário compartilhar dados pessoais."
     },
     clarify: {
       inputName: "clarify-choice",
       feedbackId: "clarify-feedback",
-      success: "Boa prática. Peça que a pessoa repita ou explique de outro jeito e, em seguida, confirme qual é o próximo passo. Assim, você não precisa adivinhar. Este exemplo não fornece nem altera orientações clínicas.",
-      retry: "Tente novamente. Se uma informação não ficou clara, peça para repetir ou explicar de outro jeito e confirme o próximo passo. Não precisa fingir que entendeu nem adivinhar."
+      success: "Boa prática. Peça que a pessoa repita ou explique de outro jeito e, em seguida, confirme o próximo passo mencionado. Isso ajuda a evitar mal-entendidos; não é preciso adivinhar nem alterar orientações por conta própria. Este exemplo não fornece orientação clínica.",
+      retry: "Tente novamente. Diga que a informação não ficou clara, peça para repetir ou explicar de outro jeito e confirme o próximo passo mencionado. Não precisa fingir que entendeu nem adivinhar."
     }
   };
 
@@ -88,13 +88,13 @@
   });
 
   document.getElementById("simulate-enter").addEventListener("click", () => {
-    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o link continua sem abrir. Confira a conexão e se está usando o link recebido pelo canal oficial. Se não conseguir entrar, peça ajuda pelo contato oficial que já conhece. Nenhuma conexão real foi aberta.";
+    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o link continua sem abrir. Confira a conexão e confirme o link por um canal oficial que você já conhece. Se não conseguir entrar, procure esse contato para pedir ajuda. Não compartilhe senhas ou códigos em links inesperados. Nenhuma conexão real foi aberta.";
   });
   document.getElementById("simulate-audio").addEventListener("click", () => {
-    document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Veja se o volume está ligado e, se houver essa opção, confira a saída de som. Se ainda não ouvir, avise o profissional.";
+    document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Na prática real, veja se o volume do aparelho está ligado e, se houver essa opção, confira a saída de som. Se ainda não ouvir, avise a pessoa profissional e peça ajuda.";
   });
   document.getElementById("simulate-help").addEventListener("click", () => {
-    document.getElementById("room-feedback").textContent = "Boa prática: diga que não está ouvindo e peça ajuda. Este botão não envia uma mensagem real.";
+    document.getElementById("room-feedback").textContent = "Você pode dizer: “Não estou conseguindo ouvir. Pode me ajudar a conferir o áudio, por favor?” Este botão só mostra um exemplo e não envia uma mensagem real.";
   });
 
   document.querySelectorAll("[data-scenario-check]").forEach(button => {
