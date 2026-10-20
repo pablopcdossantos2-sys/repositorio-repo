@@ -6,6 +6,7 @@ on:
     paths:
       - "produto/**"
       - "scripts/**"
+      - "tests/**"
       - ".github/workflows/prototype-quality.yml"
   pull_request:
     branches: [main]
@@ -33,3 +34,9 @@ jobs:
         run: node --check produto/app.js
       - name: Check prototype structure, accessibility safeguards and local behavior
         run: node scripts/check-prototype.mjs
+      - name: Install browser test dependencies
+        run: npm install --no-save --no-package-lock --no-audit --no-fund @playwright/test@1.64.1 @axe-core/playwright@4.14.0
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run browser and axe-core tests
+        run: npx playwright test tests/prototype.spec.js --workers=2
