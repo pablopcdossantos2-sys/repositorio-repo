@@ -8,6 +8,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - "package.json"
+      - "package-lock.json"
       - ".nvmrc"
       - ".htmlvalidate.json"
       - ".github/workflows/prototype-quality.yml"
@@ -18,6 +19,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - "package.json"
+      - "package-lock.json"
       - ".nvmrc"
       - ".htmlvalidate.json"
       - ".github/workflows/prototype-quality.yml"
@@ -37,8 +39,8 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version-file: ".nvmrc"
-      - name: Install pinned development dependencies
-        run: npm install --no-audit --no-fund
+      - name: Install locked development dependencies
+        run: npm ci --no-audit --no-fund
       - name: Run syntax, structural and HTML validation
         run: |
           npm run check:syntax
