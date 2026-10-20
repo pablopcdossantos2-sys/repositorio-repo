@@ -14,32 +14,32 @@ Enquadramento de trabalho: pesquisa tecnológica de solução inovadora para ens
 
 ### Preferências iniciais registradas
 
-- **Objetivo principal:** identificar necessidades e produzir um protótipo fundamentado, combinando identificação de necessidades e revisão de uma representação simples da solução.
-- **Viabilidade de participantes:** incerta; alternativas de acesso precisam ser investigadas. Nenhuma parceria ou autorização está confirmada.
-- **Modo de uso do protótipo na avaliação, se realizada:** autônomo durante as tentativas de tarefa, sem orientação passo a passo. O codesenho pode ser facilitado; a preferência por autonomia refere-se ao uso do protótipo, não à interação participativa.
+- **Objetivo principal nesta etapa:** desenvolver um protótipo simples e fundamentado em literatura, análise de soluções existentes e revisão técnica, pedagógica e de acessibilidade.
+- **Interação com pessoas:** evitar como padrão inicial; considerar participação ou teste com pessoas reais somente se a orientação acadêmica indicar que é necessário e houver viabilidade e autorizações aplicáveis.
+- **Viabilidade de participantes:** incerta; nenhuma parceria, campo, autorização ou amostra está confirmada.
 - **Amostra, local, recrutamento, instrumentos e calendário:** não definidos e não presumidos.
 
 ## 3. Comparação dos desenhos metodológicos
 
 | Desenho | Pergunta que responde melhor | Vantagens | Limitações e riscos | Adequação neste momento |
 |---|---|---|---|---|
-| **A. Desenvolvimento tecnológico e avaliação técnica sem participantes** | O protótipo funciona conforme especificado e é coerente com os objetivos educativos e requisitos de acessibilidade? | Pode avançar sem acesso ao campo; gera documentação e correções verificáveis | Não revela diretamente necessidades vividas pelo público nem comprova usabilidade com usuários | **Necessário como etapa inicial e plano alternativo**, mas insuficiente sozinho para afirmar que houve codesenho com usuários |
-| **B. Avaliação formativa de usabilidade com participantes** | Como as pessoas executam tarefas no protótipo, onde encontram barreiras e de que ajuda precisam? | Produz achados acionáveis para iterar a interface; pode usar tarefas e critérios observáveis | Depende de acesso e aprovações; responde à usabilidade mais diretamente do que à identificação ampla de necessidades | **Etapa complementar recomendada**, se viável e aprovada |
-| **C. Identificação de necessidades e codesenho** | Quais são as dificuldades, prioridades, linguagem, expectativas e soluções desejadas pelo público de interesse? | Alinha o produto ao problema; permite que a perspectiva do público influencie requisitos e decisões de design | Exige definir quem participa, como as contribuições serão analisadas e como se demonstrará que influenciaram o produto; depende de acesso se envolver pessoas | **Melhor correspondência com o objetivo principal escolhido** |
+| **A. Desenvolvimento tecnológico e avaliação técnica sem participantes** | Como desenvolver um protótipo educativo coerente com a literatura, os objetivos pedagógicos e requisitos de acessibilidade? | Pode avançar sem acesso ao campo; reduz logística, tempo e dependências; gera documentação e correções verificáveis | Não revela diretamente necessidades vividas pelo público nem comprova usabilidade com usuários | **Opção principal recomendada nesta etapa** |
+| **B. Avaliação formativa de usabilidade com participantes** | Como as pessoas executam tarefas no protótipo, onde encontram barreiras e de que ajuda precisam? | Produz achados acionáveis para iterar a interface; pode usar tarefas e critérios observáveis | Depende de acesso, tempo e aprovações; exige preparação de protocolo e manejo de dados | **Não incluir inicialmente; acrescentar se a orientação julgar necessário e for viável/aprovado** |
+| **C. Identificação de necessidades e codesenho** | Quais são as dificuldades, prioridades, linguagem, expectativas e soluções desejadas pelo público de interesse? | Pode aproximar o produto das necessidades vividas | Exige acesso, método, análise e autorizações; amplia o escopo | **Etapa condicional; não é requisito inicial, salvo orientação acadêmica** |
 | **D. Avaliação preliminar de aprendizagem** | Há mudança imediata em desempenho ou compreensão após usar o simulador? | Pode gerar indícios preliminares sobre objetivos educativos | Exige definir medidas válidas e momento de avaliação; um pré/pós simples não comprova causalidade, retenção ou transferência para consultas reais | Não priorizar nesta fase; considerar apenas se a orientação julgar necessário e houver tempo e condições |
 | **E. Comparação de versões ou estratégias** | Uma versão ou estratégia funciona melhor do que outra? | Pode responder a uma pergunta comparativa explícita | Aumenta exigências de desenho, alocação, amostra e análise; pode desviar o foco do codesenho inicial | Não recomendado como desenho principal agora |
 
 ### Síntese da comparação
 
-A opção mais coerente com as preferências atualizadas é **identificação de necessidades + revisão participativa de um protótipo simples + avaliação técnica sem participantes**. Uma avaliação formativa de usabilidade autônoma pode ser acrescentada apenas se houver acesso, aprovação e tempo, mas não é requisito central do estudo. A avaliação de aprendizagem e a comparação entre versões ficam fora do escopo principal.
+A opção mais viável para começar é **análise documental e de soluções existentes + desenvolvimento de protótipo simples + avaliação técnica, pedagógica e de acessibilidade sem participantes**. A interação com pessoas não será presumida como parte obrigatória do desenho. Se a orientação considerar indispensável levantar necessidades diretamente com o público ou testar o protótipo, o projeto será revisto para incluir a etapa mínima necessária, condicionada à viabilidade e às autorizações aplicáveis. Avaliação de aprendizagem e comparação entre versões ficam fora do escopo inicial.
 
 ## 4. Desenho recomendado
 
 ### Tipo de estudo
 
-Pesquisa tecnológica aplicada, com processo iterativo de desenvolvimento do produto educativo e abordagem participativa para identificar necessidades e codesenhar requisitos. A avaliação deve ser formativa e proporcional ao estágio do produto.
+Pesquisa tecnológica aplicada, exploratória, com foco inicial no desenvolvimento de um produto educativo fundamentado em literatura e análise de soluções existentes. A avaliação será proporcional ao estágio do produto e poderá ser inteiramente técnica, documental e pedagógica nesta etapa.
 
-A expressão “abordagem participativa” descreve a intenção de incluir a perspectiva do público nas decisões de design. A modalidade preferida é uma **combinação enxuta em duas etapas**: (1) identificar necessidades por uma técnica a selecionar com a orientação; (2) revisar uma representação simples ou protótipo de baixa fidelidade para discutir linguagem, sequência e feedback. Não se pressupõe oficina em grupo. Não denominar o trabalho “codesenho com usuários” se, por falta de acesso ou aprovação, as decisões forem baseadas somente em literatura e avaliação interna.
+**Princípio de parcimônia metodológica:** não planejar entrevistas, oficinas, observações ou testes com pessoas como requisito de partida. Primeiro, completar a fundamentação, definir requisitos rastreáveis e desenvolver/revisar o protótipo simples. Levar o desenho à orientação acadêmica. Se ela indicar que dados diretos de pessoas são necessários, incorporar apenas a etapa pertinente — por exemplo, identificação enxuta de necessidades, revisão de protótipo ou teste de usabilidade — após avaliar acesso, tempo, protocolo e autorizações. Não denominar o trabalho “codesenho com usuários” se as decisões forem baseadas somente em literatura e avaliação interna.
 
 ### Fases propostas
 
@@ -52,14 +52,11 @@ A expressão “abordagem participativa” descreve a intenção de incluir a pe
 - fazer revisão técnica, pedagógica, de linguagem simples, privacidade e acessibilidade do protótipo;
 - preparar, sem executar, possíveis roteiros, materiais e instrumentos para discussão com a orientação.
 
-**Fase 2 — Identificação de necessidades e codesenho, condicionada**
+**Fase 2 — Revisão com pessoas, somente se indicada pela orientação**
 
-Se houver acesso ao público de interesse e forem obtidas as aprovações aplicáveis, escolher um procedimento compatível com o tempo e os recursos do mestrado. A combinação enxuta é a opção preferida para discussão com a orientação:
+Esta fase não integra o plano mínimo inicial. Se a orientação acadêmica indicar que é necessária, discutir qual pergunta não pode ser respondida por fontes documentais e avaliação técnica e selecionar a menor atividade adequada: identificação de necessidades, revisão de esboço/protótipo ou teste de usabilidade. Não presumir que todas sejam necessárias nem planejar uma oficina por padrão.
 
-1. **Identificação de necessidades:** selecionar uma técnica principal de baixo ônus (por exemplo, conversas semiestruturadas), conforme acesso e recursos, para explorar dificuldades, estratégias de apoio, expectativas e linguagem.
-2. **Revisão de representação simples:** usar um esboço, fluxo ou protótipo de baixa fidelidade para verificar se os requisitos propostos fazem sentido e recolher prioridades de melhoria.
-
-A oficina em grupo ou observação de tarefas não será presumida; pode substituir ou complementar uma das etapas se for mais viável e metodologicamente justificada. A técnica, os participantes, o recrutamento, o consentimento, a proteção de dados e a análise devem constar no protocolo antes da execução.
+Antes da execução, definir a técnica, participantes, recrutamento, consentimento, proteção de dados e análise; verificar autorizações institucionais e apreciação ética aplicáveis. A viabilidade de acesso permanece incerta.
 
 **Fase 3 — Tradução dos achados em requisitos e iteração do produto**
 
@@ -76,13 +73,11 @@ A oficina em grupo ou observação de tarefas não será presumida; pode substit
 - revisar o alinhamento entre objetivo educativo, tarefa, feedback e critério de conclusão;
 - documentar defeitos, correções e limitações.
 
-**Fase 5 — Avaliação formativa de usabilidade autônoma, condicionada**
+**Fase 5 — Teste com pessoas, somente se a orientação considerar necessário**
 
-Se houver viabilidade, autorização e tempo, convidar participantes elegíveis para executar tarefas padronizadas sem orientação passo a passo durante cada tentativa. O pesquisador pode apresentar a tarefa e observar; a regra sobre ajuda, pistas, perguntas e interrupção deve ser padronizada e definida previamente no protocolo. Não confundir “autônomo” com abandono da pessoa sem salvaguardas: deve haver procedimento de apoio e interrupção se houver desconforto.
+O teste de usabilidade não integra o plano mínimo inicial. Caso seja solicitado pela orientação e seja viável e autorizado, definir tarefas e regras padronizadas de ajuda, interrupção e registro antes de qualquer sessão. As tarefas e rubricas já descritas no [protocolo preliminar de avaliação](protocolo-preliminar-avaliacao.md) são apenas materiais candidatos para revisão, não um protocolo aprovado.
 
-As tarefas candidatas já registradas no [protocolo preliminar de avaliação](protocolo-preliminar-avaliacao.md) podem ser revisadas para esta finalidade. Indicadores possíveis: conclusão conforme critérios definidos, erros ou bloqueios, ajuda necessária, compreensão das instruções e comentários sobre a experiência. Tempo de execução, se registrado, não deve ser usado isoladamente como medida de sucesso.
-
-Se essa fase não puder ocorrer, relatar claramente que a avaliação com usuários não foi realizada. Não atribuir à inspeção técnica resultados sobre experiência real, necessidades efetivamente relatadas ou usabilidade com o público-alvo.
+Se essa fase não ocorrer, relatar claramente que não houve avaliação empírica com usuários. Não atribuir à inspeção técnica resultados sobre experiência real, necessidades relatadas ou usabilidade com o público-alvo.
 
 ## 5. Público de interesse e definição operacional
 
@@ -111,15 +106,15 @@ O codesenho pode ser facilitado e colaborativo; a preferência por uso autônomo
 
 ## 7. Questões de pesquisa candidatas
 
-**Pergunta principal recomendada, provisória:**
+**Pergunta principal provisória, compatível com o plano inicial sem participantes:**
 
-> Quais necessidades, barreiras e preferências de adultos com baixa familiaridade digital devem orientar o desenvolvimento de um simulador educativo para praticar etapas básicas de uma teleconsulta?
+> Como desenvolver um protótipo educativo simples para praticar etapas básicas de uma teleconsulta, fundamentado em literatura, análise de soluções existentes e avaliação técnica, pedagógica e de acessibilidade?
 
-Esta pergunta precisa ser refinada com a orientação. Se não houver acesso a participantes, deve ser reformulada para corresponder ao que de fato será estudado, por exemplo, necessidades e requisitos identificados na literatura e em materiais existentes — sem alegar que representam diretamente a experiência do público.
+A pergunta deverá ser confirmada com a orientação e ajustada à exigência acadêmica. Se a orientação solicitar dados diretos do público, a pergunta poderá ser ampliada para incluir necessidades ou barreiras relatadas, sem presumir que essa etapa já ocorreu.
 
-**Pergunta complementar, apenas se a fase de usabilidade for viável:**
+**Pergunta complementar, somente se for solicitada avaliação com participantes:**
 
-> Como os participantes elegíveis realizam tarefas autônomas no protótipo e quais barreiras de compreensão, navegação ou acessibilidade precisam ser corrigidas?
+> Quais barreiras de compreensão, navegação ou acessibilidade são observadas quando participantes realizam tarefas no protótipo?
 
 ## 8. Dados e plano de análise — opções a definir
 
@@ -167,21 +162,19 @@ Mesmo que a avaliação formativa seja realizada, os achados se referem às tare
 
 ### Preferências iniciais registradas
 
-- [x] Objetivo principal: identificar necessidades e codesenhar a solução.
-- [x] Viabilidade de participantes: incerta; alternativas de acesso a investigar, sem parceria, aprovação ou amostra confirmadas.
-- [x] Modo de uso do protótipo na avaliação: autônomo durante as tentativas de tarefa.
+- [x] Prioridade inicial: desenvolver protótipo simples fundamentado em fontes documentais e avaliação técnica/pedagógica sem participantes.
+- [x] Interação com pessoas: evitar como padrão inicial; reconsiderar se a orientação indicar que é necessária e após verificar viabilidade e autorizações.
+- [x] Viabilidade de participantes: incerta; nenhuma parceria, aprovação ou amostra confirmada.
 
 ### Pendências para discussão com a orientação
 
 - [ ] Confirmar a pergunta de pesquisa e a compatibilidade com o programa/edital.
 - [x] Preferência metodológica inicial: combinação enxuta de identificação de necessidades e revisão de protótipo simples; técnica específica ainda pendente.
-- [ ] Definir como operacionalizar baixa familiaridade digital e os critérios de elegibilidade.
-- [ ] Avaliar a possibilidade real de acesso ao público e ao campo, sem pressupor parceria.
-- [ ] Verificar autorizações institucionais e apreciação ética aplicáveis antes de qualquer atividade com participantes.
-- [ ] Definir recrutamento, tamanho e justificativa da amostra somente após a escolha do método e a avaliação de viabilidade.
-- [ ] Definir roteiro, instrumentos, registro e método de análise.
-- [ ] Especificar as regras de ajuda/intervenção durante tarefas autônomas.
-- [ ] Decidir se a avaliação formativa de usabilidade cabe no prazo; não priorizar estudo comparativo ou de eficácia nesta fase.
+- [ ] Confirmar com a orientação se o plano documental/técnico sem participantes atende aos requisitos do mestrado.
+- [ ] Definir pergunta, objetivos de aprendizagem, requisitos e critérios de revisão técnica/pedagógica.
+- [ ] Completar busca bibliográfica reproduzível e benchmarking de soluções existentes.
+- [ ] Somente se a orientação exigir participação de pessoas: escolher a menor etapa necessária, verificar acesso e aprovações, e então definir elegibilidade, recrutamento, instrumentos, análise e manejo de dados.
+- [ ] Não planejar avaliação de usabilidade, aprendizagem ou comparação de versões como requisito inicial.
 - [ ] Definir governança, armazenamento, acesso, retenção e descarte dos dados, se houver coleta.
 - [ ] Atualizar o protocolo preliminar e o anteprojeto depois da discussão metodológica.
 
