@@ -1,5 +1,7 @@
 # Especificação do produto mínimo — Treino de Teleconsulta
 
+> Para manter a continuidade, leia [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). O plano inicial é desenvolvimento e avaliação técnica/pedagógica sem participantes; as tarefas abaixo são candidatas para inspeção interna. Testes com pessoas só serão incluídos se a orientação acadêmica indicar que são necessários e após confirmar viabilidade e autorizações.
+
 ## Propósito
 
 Criar um **simulador educativo digital** em que adultos com baixa familiaridade digital possam praticar ações básicas de participação em uma teleconsulta, sem ingressar em um atendimento real. O produto precisa ensinar por meio de passos práticos, não apenas apresentar um texto informativo.
@@ -65,9 +67,9 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 - Alertas clínicos, lembretes de atendimento real ou acompanhamento de pacientes.
 - Publicação como produto validado ou oficial do SUS.
 
-## Avaliação proposta
+## Tarefas candidatas para inspeção do fluxo
 
-As tarefas candidatas incluem:
+As tarefas abaixo servem primeiro para conferir se o protótipo e seus feedbacks funcionam conforme os requisitos; não constituem evidência de usabilidade com pessoas. Se a orientação solicitar avaliação empírica, o protocolo deverá ser revisado e aprovado antes da realização. As tarefas candidatas incluem:
 1. Identificar itens básicos de preparação do dispositivo e ambiente.
 2. Responder à situação em que o link não abre, escolhendo conferir conexão/link oficial e contatar um canal oficial conhecido sem compartilhar senha.
 3. Diante de um cenário sem áudio, escolher uma ação apropriada (conferir o controle visível ou avisar que não consegue ouvir).
@@ -75,7 +77,7 @@ As tarefas candidatas incluem:
 5. Localizar e confirmar os próximos passos que o cenário apresentou.
 6. Reiniciar a experiência e verificar que as escolhas, feedbacks e seleção de cenário foram limpos.
 
-Indicadores candidatos: conclusão de tarefa, erro/ação inesperada, necessidade de ajuda, compreensão da instrução, facilidade percebida e sugestões de melhoria. Tarefas, rubrica, instrumentos e plano de análise precisam ser definidos previamente no protocolo.
+Para auditoria sem participantes, registrar resultado esperado/observado, defeitos, passos para reproduzir e retestes. Indicadores como necessidade de ajuda, facilidade percebida e compreensão relatada só se aplicam caso seja aprovada e realizada uma avaliação com pessoas. Tarefas, rubrica, instrumentos e plano de análise para uma eventual avaliação empírica precisam ser definidos previamente no protocolo.
 
 ## Critério de pronto para avaliação técnica
 
