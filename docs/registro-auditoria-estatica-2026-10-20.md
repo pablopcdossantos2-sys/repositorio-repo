@@ -48,7 +48,7 @@ Esses SHAs identificam o conteúdo dos arquivos consultados; não são, por si, 
 | AUD-17 — coerência pedagógica | O código tem três cenários com escolhas e feedback e uma etapa final com exemplos textuais. | **Parcial** | Revisão completa objetivo–tarefa–feedback–critério segue pendente; o texto estático final não equivale a uma tarefa de desempenho. |
 | AUD-18 — benchmark | O benchmark exploratório existe e descreve recursos comparáveis. | **Não reavaliado integralmente nesta rodada** | A comparação não é exaustiva; não sustenta alegação de originalidade comprovada. |
 | AUD-19 — distribuição | O HTML referencia `app.js` localmente e não foram encontradas referências externas em `src`/`href`. | **Parcial — inspeção estática** | Não foi aberto o pacote distribuído nem verificado o carregamento na forma final de hospedagem. |
-| AUD-20 — integridade dos testes | Há registro histórico de CI em documentação do projeto. | **Pendente de conferência da execução mais recente** | Não foi consultado nesta rodada o estado atual do workflow para o commit exato inspecionado. |
+| AUD-20 — integridade dos testes | A execução [GitHub Actions #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486), no commit de código `11d5bee68f5f8de4234ab9f5388f7f1067545b69`, terminou com sucesso: validação de sintaxe/estrutura/HTML e 22 testes Playwright + axe-core aprovados. Os arquivos `produto/index.html`, `produto/app.js` e `produto/styles.css` inspecionados nesta rodada mantêm os mesmos hashes de conteúdo daquela versão. | **Passou para a versão de código identificada; documentação não reexecutou CI** | O workflow é acionado por mudanças em `produto/**`, `scripts/**`, `tests/**` e configuração de teste; commits somente documentais não o acionam. Ao alterar código ou testes, exigir nova execução. Testes automatizados não substituem verificação manual. |
 
 ## 3.1 Verificação preliminar de contraste
 
@@ -72,6 +72,6 @@ Executar os casos AUD-03 a AUD-20 conforme [roteiro de auditoria técnica, pedag
 3. testar todas as opções, mensagens, navegação, reinício e foco por teclado;
 4. verificar zoom de 200%, larguras de 320/360/390/768/1280 CSS px, preferência de movimento reduzido e tecnologia assistiva disponível;
 5. medir combinações de contraste aplicáveis e registrar problemas/retestes;
-6. conferir a execução de CI correspondente ao commit exato antes de declarar testes automatizados aprovados.
+6. a execução automatizada identificada está aprovada para o commit de código citado; repetir a CI após qualquer alteração no código/testes e manter a auditoria manual separada.
 
 **Conclusão:** a leitura estática não encontrou solicitações de dados pessoais/clínicos nem chamadas comuns de rede/persistência no JavaScript atual. É um resultado preliminar útil, mas não substitui os testes dinâmicos e manuais ainda pendentes. Nenhuma avaliação com participantes foi realizada ou planejada nesta rodada.
