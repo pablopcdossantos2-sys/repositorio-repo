@@ -131,7 +131,7 @@ A seleção e os limites da busca desta rodada estão registrados em [registro d
 
 ## 11. Benchmark exploratório de recursos existentes — 20/10/2026
 
-O [benchmark de recursos existentes](benchmark-recursos-existentes.md) identifica materiais públicos que ajudam a preparar usuários para teleconsulta. O levantamento é exploratório, não exaustivo e não constitui teste comparativo de eficácia.
+O [mapa preliminar de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md) explicita a relação entre objetivos, cenários, feedback e verificações internas. O [benchmark de recursos existentes](benchmark-recursos-existentes.md) identifica materiais públicos que ajudam a preparar usuários para teleconsulta. O levantamento é exploratório, não exaustivo e não constitui teste comparativo de eficácia.
 
 | Fonte/recurso | O que acrescenta à matriz | Requisito ou decisão provisória | Limite |
 |---|---|---|---|
