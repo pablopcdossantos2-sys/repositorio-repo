@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f8fc">
-  <meta name="description" content="Protótipo demonstrativo de educação em saúde para preparar atendimentos de telessaúde e compreender informações em linguagem clara.">
-  <title>Conversa Clara — educação em saúde</title>
+  <meta name="description" content="Simulador educativo fictício para praticar etapas básicas de uma teleconsulta com instruções claras e acessíveis.">
+  <title>Treino de Teleconsulta — simulador educativo</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,36 +13,36 @@
   <header class="topbar">
     <div class="brand">
       <span class="brand-mark" aria-hidden="true">+</span>
-      <span><strong>Conversa Clara</strong><small>Protótipo de pesquisa</small></span>
+      <span><strong>Treino de Teleconsulta</strong><small>Simulador educativo de pesquisa</small></span>
     </div>
     <span class="demo-label">Demonstração com dados fictícios</span>
   </header>
 
   <main id="main" class="layout">
     <section class="intro">
-      <p class="eyebrow">TELESSAÚDE · EDUCAÇÃO EM SAÚDE</p>
-      <h1>Prepare-se para o atendimento. Entenda as informações.</h1>
-      <p>Um recurso educativo demonstrativo para organizar perguntas, praticar a compreensão de um exemplo fictício e visualizar próximos passos.</p>
+      <p class="eyebrow">TELESSAÚDE · SIMULAÇÃO EDUCATIVA</p>
+      <h1>Vamos praticar uma teleconsulta, passo a passo.</h1>
+      <p>Treine etapas comuns sem entrar em uma consulta real. Tudo aqui é fictício e você pode praticar no seu ritmo.</p>
       <div class="notice" role="note"><strong>Importante:</strong> esta é uma demonstração acadêmica. Não substitui profissionais de saúde e não deve ser usada para registrar informações reais de saúde.</div>
     </section>
 
-    <nav class="tabs" aria-label="Etapas da demonstração">
-      <button type="button" class="tab active" data-view="prepare" aria-current="step" aria-controls="view-prepare"><span>1</span> Preparar</button>
-      <button type="button" class="tab" data-view="guidance" aria-controls="view-guidance"><span>2</span> Entender</button>
-      <button type="button" class="tab" data-view="next" aria-controls="view-next"><span>3</span> Próximos passos</button>
+    <nav class="tabs" aria-label="Etapas do treino simulado">
+      <button type="button" class="tab active" data-view="prepare" aria-current="step" aria-controls="view-prepare"><span>1</span> Antes</button>
+      <button type="button" class="tab" data-view="guidance" aria-controls="view-guidance"><span>2</span> Durante</button>
+      <button type="button" class="tab" data-view="next" aria-controls="view-next"><span>3</span> Encerrar</button>
     </nav>
 
     <section class="panel" id="view-prepare" aria-labelledby="prepare-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">ANTES DO ATENDIMENTO</p><h2 id="prepare-title">O que você quer conversar?</h2></div>
+        <div><p class="eyebrow">ANTES DA TELECONSULTA</p><h2 id="prepare-title">Prepare o aparelho e o ambiente</h2></div>
         <span class="step-count">Etapa 1 de 3</span>
       </div>
-      <p>Marque os itens que gostaria de lembrar durante uma consulta. Você não precisa marcar todos.</p>
+      <p>Marque os passos que você já conferiu. Não informe dados pessoais nem dados de saúde.</p>
       <div class="checklist">
-        <label class="check-row"><input type="checkbox"><span><strong>Explicar o que estou sentindo</strong><small>Quando começou e o que percebi.</small></span></label>
-        <label class="check-row"><input type="checkbox"><span><strong>Fazer perguntas sobre meu cuidado</strong><small>O que gostaria de entender melhor.</small></span></label>
-        <label class="check-row"><input type="checkbox"><span><strong>Contar o que preciso esclarecer</strong><small>Algo que não ficou claro anteriormente.</small></span></label>
-        <label class="check-row"><input type="checkbox"><span><strong>Confirmar os próximos passos</strong><small>Retorno, exame ou encaminhamento, se indicado.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Conferir bateria e carregador</strong><small>Deixe o aparelho pronto para a duração prevista.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Buscar uma conexão disponível</strong><small>Escolha o local em que costuma conseguir se conectar.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Escolher um lugar com privacidade</strong><small>Procure um local tranquilo em que consiga conversar.</small></span></label>
+        <label class="check-row"><input type="checkbox"><span><strong>Separar dúvidas para perguntar</strong><small>Você pode anotá-las fora deste simulador, sem inserir dados aqui.</small></span></label>
       </div>
       <div class="actions"><button class="button secondary" id="reset-checks" type="button">Desmarcar tudo</button><button class="button primary" data-go="guidance" type="button">Continuar <span aria-hidden="true">→</span></button></div>
       <p class="helper" id="check-status" aria-live="polite">Nenhum item marcado.</p>
@@ -50,18 +50,18 @@
 
     <section class="panel hidden" id="view-guidance" aria-labelledby="guidance-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">EXEMPLO EDUCATIVO</p><h2 id="guidance-title">Entenda a mensagem principal</h2></div>
+        <div><p class="eyebrow">DURANTE · SALA VIRTUAL FICTÍCIA</p><h2 id="guidance-title">O que fazer se você não consegue ouvir?</h2></div>
         <span class="step-count">Etapa 2 de 3</span>
       </div>
       <div class="fictional-banner"><span aria-hidden="true">ⓘ</span> Exemplo inteiramente fictício — não representa uma recomendação médica.</div>
       <article class="guidance-card">
-        <h3>Exemplo de resumo</h3>
-        <p>“A equipe combinou que você fará um retorno em uma data definida pelo serviço. Se alguma orientação não ficou clara, entre em contato com a unidade para confirmar.”</p>
+        <h3>Situação simulada</h3>
+        <p>Você entrou na sala virtual fictícia, mas não consegue ouvir a pessoa profissional. Qual seria uma ação segura para tentar resolver a dificuldade?</p>
         <fieldset class="understand-check">
-          <legend>Em suas palavras, qual é a ideia principal deste exemplo?</legend>
-          <label class="choice"><input type="radio" name="understanding" value="correct"> Confirmar com o serviço a data do retorno e esclarecer dúvidas.</label>
-          <label class="choice"><input type="radio" name="understanding" value="wrong"> Alterar por conta própria as orientações recebidas.</label>
-          <label class="choice"><input type="radio" name="understanding" value="wrong"> O sistema está indicando um tratamento específico.</label>
+          <legend>O que você pode fazer primeiro?</legend>
+          <label class="choice"><input type="radio" name="understanding" value="correct"> Conferir o volume ou o controle de áudio disponível e avisar que não está ouvindo.</label>
+          <label class="choice"><input type="radio" name="understanding" value="wrong"> Encerrar sem avisar que ocorreu um problema.</label>
+          <label class="choice"><input type="radio" name="understanding" value="wrong"> Compartilhar dados pessoais por outro link enviado por alguém desconhecido.</label>
           <button class="button secondary" id="check-understanding" type="button">Verificar resposta</button>
           <p class="feedback" id="understanding-feedback" aria-live="polite"></p>
         </fieldset>
@@ -71,24 +71,24 @@
 
     <section class="panel hidden" id="view-next" aria-labelledby="next-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">ORGANIZAÇÃO</p><h2 id="next-title">Próximos passos</h2></div>
+        <div><p class="eyebrow">AO ENCERRAR</p><h2 id="next-title">Confirme o que ficou combinado</h2></div>
         <span class="step-count">Etapa 3 de 3</span>
       </div>
-      <p>Este exemplo mostra como ações combinadas com o serviço poderiam ser organizadas. Os itens abaixo são fictícios.</p>
+      <p>Antes de sair, pratique como esclarecer dúvidas e confirmar os próximos passos mencionados pela pessoa profissional. Os exemplos são fictícios.</p>
       <div class="next-list">
-        <div class="next-item"><span class="next-icon" aria-hidden="true">✓</span><div><strong>Confirmar a data de retorno</strong><p>Consulte a unidade ou o canal oficial do serviço.</p></div><span class="tag">Exemplo</span></div>
-        <div class="next-item"><span class="next-icon" aria-hidden="true">?</span><div><strong>Anotar dúvidas que permaneceram</strong><p>Leve as perguntas ao profissional responsável.</p></div><span class="tag">Exemplo</span></div>
-        <div class="next-item"><span class="next-icon" aria-hidden="true">↗</span><div><strong>Confirmar orientações pouco claras</strong><p>Não altere medicamentos ou condutas com base nesta demonstração.</p></div><span class="tag">Exemplo</span></div>
+        <div class="next-item"><span class="next-icon" aria-hidden="true">✓</span><div><strong>Pedir que repitam uma informação</strong><p>Você pode dizer: “Não entendi bem. Pode explicar novamente, por favor?”</p></div><span class="tag">Exemplo</span></div>
+        <div class="next-item"><span class="next-icon" aria-hidden="true">?</span><div><strong>Confirmar o próximo passo</strong><p>Você pode perguntar o que foi combinado e qual canal oficial usar se tiver dúvidas.</p></div><span class="tag">Exemplo</span></div>
+        <div class="next-item"><span class="next-icon" aria-hidden="true">↗</span><div><strong>Procurar o canal oficial, se precisar</strong><p>Se a conexão falhar ou restar dúvida, use o contato oficial informado pelo serviço. Não compartilhe dados por links desconhecidos.</p></div><span class="tag">Exemplo</span></div>
       </div>
-      <div class="feedback-box"><h3>Como foi a experiência?</h3><p>Esta pergunta serve apenas para explorar a interface. A resposta não é enviada nem armazenada.</p><p class="rating-hint">Escolha uma nota de 1 (difícil) a 5 (fácil).</p><div class="rating" role="group" aria-label="Facilidade de uso, de 1 difícil a 5 fácil"><button type="button" data-rating="1" aria-label="1 Difícil" aria-pressed="false">1<br><small>Difícil</small></button><button type="button" data-rating="2" aria-label="2 de 5" aria-pressed="false">2</button><button type="button" data-rating="3" aria-label="3 de 5" aria-pressed="false">3</button><button type="button" data-rating="4" aria-label="4 de 5" aria-pressed="false">4</button><button type="button" data-rating="5" aria-label="5 Fácil" aria-pressed="false">5<br><small>Fácil</small></button></div><p class="feedback" id="rating-feedback" aria-live="polite"></p></div>
+      <div class="feedback-box"><h3>Como foi este treino?</h3><p>Esta pergunta serve apenas para explorar a interface. A resposta não é enviada nem armazenada.</p><p class="rating-hint">Escolha uma nota de 1 (difícil) a 5 (fácil).</p><div class="rating" role="group" aria-label="Facilidade de uso, de 1 difícil a 5 fácil"><button type="button" data-rating="1" aria-label="1 Difícil" aria-pressed="false">1<br><small>Difícil</small></button><button type="button" data-rating="2" aria-label="2 de 5" aria-pressed="false">2</button><button type="button" data-rating="3" aria-label="3 de 5" aria-pressed="false">3</button><button type="button" data-rating="4" aria-label="4 de 5" aria-pressed="false">4</button><button type="button" data-rating="5" aria-label="5 Fácil" aria-pressed="false">5<br><small>Fácil</small></button></div><p class="feedback" id="rating-feedback" aria-live="polite"></p></div>
       <div class="actions"><button class="button secondary" data-go="guidance" type="button">← Voltar</button><button class="button primary" id="restart" type="button">Reiniciar demonstração</button></div>
     </section>
 
     <section class="limits" aria-labelledby="limits-title">
       <h2 id="limits-title">Limites desta versão</h2>
-      <ul><li>Não faz diagnóstico, prescrição nem recomenda tratamento.</li><li>Não se conecta a prontuários ou serviços de saúde.</li><li>Não envia nem armazena as respostas desta demonstração.</li><li>Todo conteúdo clínico é fictício e serve somente para demonstrar a interface.</li></ul>
+      <ul><li>Não realiza uma teleconsulta real nem usa áudio ou vídeo ao vivo.</li><li>Não se conecta a plataformas, prontuários ou serviços de saúde.</li><li>Não envia nem armazena as escolhas feitas neste treino.</li><li>Todos os nomes, links e cenários são fictícios; não há diagnóstico, prescrição ou orientação clínica individual.</li></ul>
     </section>
-    <footer>Protótipo acadêmico inicial · Conversa Clara · Não destinado ao uso assistencial.</footer>
+    <footer>Protótipo acadêmico inicial · Treino de Teleconsulta · Simulação educativa, não destinada ao uso assistencial.</footer>
   </main>
   <script src="app.js"></script>
 </body>
