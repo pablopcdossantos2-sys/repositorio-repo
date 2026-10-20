@@ -278,7 +278,7 @@ test("feedbacks dos três cenários explicam uma próxima ação concreta", asyn
   await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
   await page.locator('[name="clarify-choice"][value="safe"]').check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
-  await expect(page.locator("#clarify-feedback")).toContainText("confirmar qual é o próximo passo");
+  await expect(page.locator("#clarify-feedback")).toContainText("qual é o próximo passo mencionado");
   await page.locator('[name="clarify-choice"][value="unsafe"]').first().check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#clarify-feedback")).toContainText("Não precisa fingir que entendeu");
