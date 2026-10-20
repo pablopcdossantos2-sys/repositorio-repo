@@ -87,6 +87,8 @@ Copiar e preencher para cada rodada:
 - **Limitações:**
 - **Próxima ação:**
 
+**Complemento de 20/10/2026:** a verificação preliminar de contraste foi documentada em [verificacao-preliminar-contraste-2026-10-20.md](verificacao-preliminar-contraste-2026-10-20.md). As combinações de texto selecionadas atingiram os limiares calculados, mas algumas bordas que indicam estados têm contraste abaixo de 3:1 contra o fundo adjacente. A necessidade dessas bordas como informação visual deve ser avaliada no contexto do componente; os estados reais ainda precisam de teste manual.
+
 ## Registro de inspeção estática inicial — 20/10/2026
 
 Foi feita uma inspeção estática parcial dos arquivos atuais de HTML, JavaScript e CSS, sem executar o protótipo no navegador e sem participantes. Resultados, hashes dos arquivos e limites estão no [Registro da auditoria estática do protótipo — 20/10/2026](registro-auditoria-estatica-2026-10-20.md). A inspeção não conclui a auditoria manual: testes de rede/armazenamento no navegador, teclado/foco, zoom, contraste integral, leitor de tela e distribuição continuam pendentes.
