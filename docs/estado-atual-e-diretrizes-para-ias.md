@@ -256,3 +256,35 @@ Depois de atualizar o slide sobre o conteúdo de encerramento, o arquivo `aprese
 - Pendência: revisão em tela cheia de todos os slides, personalização do candidato e conferência do edital.
 
 Nenhum arquivo do produto foi alterado e não houve nova execução da CI.
+
+
+## Atualização de continuidade — tutorial do protótipo e alinhamento do anteprojeto (20/10/2026)
+
+### Alterações documentais confirmadas
+
+- O `README.md` teve removidas as seções “Situação atual”, “Aviso” e “Preparação para defesa oral”, conforme solicitado. O tutorial foi referenciado na estrutura do repositório, sem restaurar essas seções.
+- Foi criado [Tutorial didático: abrir e testar o protótipo](tutorial-instalar-e-testar-prototipo.md). Ele explica que a aplicação web não exige instalação, mas que os testes automatizados requerem Node.js 24.8.0 ou posterior, `npm ci`, instalação do Chromium do Playwright e execução de `npm test`.
+- O tutorial foi vinculado a `produto/README.md` e `docs/como-executar-testes.md).
+- A pergunta de pesquisa e o objetivo foram harmonizados em `README.md`, `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md) para focar no desenvolvimento e na avaliação documental, técnica, pedagógica e de acessibilidade sem participantes.
+- A hipótese do anteprojeto-base foi reescrita como proposição de design verificável. Não afirmar que o simulador já é utilizável pelo público-alvo, melhora a aprendizagem ou altera resultados de teleconsulta.
+
+### Formulação de trabalho atual
+
+**Pergunta:** “Como desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador web que ofereça prática fictícia de etapas básicas de uma teleconsulta para adultos com baixa familiaridade digital?”
+
+Essa formulação reduz o risco de prometer uma avaliação de resultados que o plano inicial não medirá. É uma proposta coerente com a preferência atual do responsável pelo projeto, mas ainda deve ser discutida com a orientação acadêmica e conferida com o edital/modelo institucional vigente.
+
+### Verificação e limites desta rodada
+
+- Nenhum arquivo de HTML, CSS ou JavaScript do produto foi alterado.
+- Não houve execução nova de Playwright/axe-core. Tentou-se clonar o repositório para executar verificações locais, mas o ambiente não conseguiu resolver o domínio `github.com`; por isso não existe novo resultado de teste nesta rodada.
+- O tutorial é documentação de procedimento, não prova de que o desenvolvedor já instalou ferramentas ou executou a suíte.
+- As buscas bibliográficas oficiais e a auditoria manual continuam pendentes; nenhuma contagem foi inventada e nenhuma atividade com participantes foi realizada ou agendada.
+
+### Instruções para a próxima IA
+
+1. Ler esta diretriz, `README.md` e `ROADMAP.md` antes de alterar arquivos.
+2. Priorizar as buscas formais com resultados verificáveis e a revisão documental dos textos/feedbacks do protótipo.
+3. Se alterar código, orientar o desenvolvedor a executar o tutorial, associar os resultados ao commit exato e atualizar o relatório técnico.
+4. Não ampliar o encerramento para uma nova tarefa interativa antes de revisar sua necessidade pedagógica e a rastreabilidade de OE-05.
+5. Atualizar `ROADMAP.md` e este documento após cada avanço verificável, mantendo pendências como pendências até haver evidência de execução.
