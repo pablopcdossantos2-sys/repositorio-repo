@@ -34,6 +34,7 @@ Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os
 - [x] Registrar uma revisão estática do HTML, CSS e JavaScript.
 - [x] Documentar a estratégia de parceria, o protocolo preliminar, a matriz de evidências e as limitações.
 - [x] Consolidar as tarefas remanescentes neste roadmap.
+- [x] Registrar a busca web exploratória complementar e seus limites em `docs/registro-busca-exploratoria-2026-10-19.md`; buscas diretas nas interfaces oficiais ainda pendentes.
 - [x] Elaborar revisão rápida focalizada de evidências e recomendações para o produto em `docs/revisao-rapida-evidencias-e-recomendacoes.md` (19/10/2026); a busca bibliográfica formal nas bases planejadas continua pendente.
 - [x] Corrigir a cor do indicador de foco no CSS para uma opção de maior contraste; contraste calculado para `#005fcc`: 5,98:1 sobre branco e 5,57:1 sobre o fundo `#f4f7fb`. A medição sistemática dos demais elementos e a validação prática continuam pendentes.
 
@@ -95,8 +96,9 @@ Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os
 
 ## Fase 5 — Automação e fluxo de desenvolvimento (P2)
 
-- [ ] Adicionar validação automatizada de HTML e testes dos comportamentos críticos do JavaScript.
-- [ ] Considerar um workflow simples de GitHub Actions para executar verificações a cada pull request/commit, sem introduzir stack desnecessária.
+- [x] Adicionar verificações estáticas reproduzíveis em `scripts/check-prototype.mjs` (14 verificações passaram no GitHub Actions, run 39355380708).
+- [ ] Adicionar validador formal de HTML e testes automatizados em navegador; a suíte atual é estática e não comprova comportamento real em navegador.
+- [x] Criar workflow de GitHub Actions para executar verificações estáticas no push/PR; a primeira execução terminou com sucesso.
 - [ ] Registrar como abrir o protótipo localmente e como reproduzir os testes.
 - [ ] Avaliar proteção de branch/revisão por pull request se houver colaboração ou risco de regressões.
 - [ ] Escolher a estratégia de publicação da demonstração. GitHub Pages é opcional; não é pré-requisito para a avaliação local.
