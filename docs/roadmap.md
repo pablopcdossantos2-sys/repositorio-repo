@@ -38,9 +38,9 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 - [ ] Confirmar com a orientação se o plano documental/técnico sem participantes atende aos requisitos do curso.
 - [ ] Investigar acesso ao público somente se a orientação indicar que alguma atividade com pessoas é necessária.
-- [ ] Avaliar se a Secretaria Municipal de Saúde de Guaraí é um campo viável; a parceria é apenas potencial, não confirmada.
+- [ ] **Condicional:** investigar a Secretaria Municipal de Saúde de Guaraí como possível campo somente se a orientação indicar que uma articulação institucional é necessária; parceria não confirmada.
 - [ ] Definir elegibilidade, amostra, recrutamento e proteção de dados apenas se a orientação solicitar participação de pessoas e após confirmar viabilidade.
-- [ ] Confirmar autorizações administrativas e apreciação ética aplicáveis.
+- [ ] Confirmar autorizações administrativas e apreciação ética aplicáveis antes de qualquer eventual atividade de pesquisa com pessoas; não presumir que essa etapa fará parte do estudo.
 - [ ] Não recrutar, entrevistar ou testar com participantes antes da confirmação das aprovações pertinentes.
 
 ## Fase 3 — Protótipo e acessibilidade (P1)
