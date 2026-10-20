@@ -317,7 +317,7 @@ O tema está escolhido; sua sustentação deve ser demonstrada por aderência, e
 
 **Correspondência de numeração:** antigo Tema 5 → Tema 1; antigo Tema 4 → Tema 2; antigo Tema 6 → Tema 3; Temas 4, 5 e 6 são novos.
 
-**Outras alterações:** inclusão do critério transversal de dependência de terceiros e da avaliação em camadas; revisão das notas da matriz (menos concentradas em 5); revisão da recomendação, que agora tem o Tema 1 como candidato principal; inclusão da etapa de análise ética no cronograma; inclusão de pendências sobre a unificação do repositório e a confirmação ética.
+**Outras alterações:** inclusão do critério transversal de dependência de terceiros e da avaliação em camadas; revisão das notas da matriz (menos concentradas em 5); registro da recomendação provisória da etapa comparativa (Tema 1), posteriormente superada pela decisão final de 20/10/2026; inclusão da etapa de análise ética no cronograma; inclusão de pendências sobre a unificação do repositório e a confirmação ética.
 
 ## Atualização final da decisão — 20/10/2026
 
