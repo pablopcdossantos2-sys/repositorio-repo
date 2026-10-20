@@ -24,16 +24,16 @@
 
 | ID | Requisito / objetivo de aprendizagem | Justificativa | Como verificar sem participantes | Estado |
 |---|---|---|---|---|
-| OA-01 | Reconhecer passos básicos de preparação do aparelho e do ambiente | Reduzir a complexidade percebida por meio de sequência clara | Conferir instruções e testar checklist local | Implementado; retestar na CI mais recente |
-| OA-02 | Responder à indisponibilidade de uma sala virtual fictícia | Praticar conferir conexão/link oficial e pedir ajuda por canal conhecido | Selecionar resposta segura/insegura e conferir feedback; verificar ausência de requisição real | Implementado; reteste automatizado pendente após a última alteração |
-| OA-03 | Escolher uma resposta segura diante de falha de áudio simulada | Prática contextual de controle e comunicação de dificuldade | Testar respostas corretas/incorretas, os controles locais e o feedback | Implementado; reteste automatizado pendente |
-| OA-04 | Pedir repetição/esclarecimento em vez de fingir que entendeu | Praticar comunicação clara sem orientação clínica individual | Testar respostas corretas/incorretas e feedback contextual | Implementado no cenário 3; reteste automatizado e revisão pedagógica pendentes |
+| OA-01 | Reconhecer passos básicos de preparação do aparelho e do ambiente | Reduzir a complexidade percebida por meio de sequência clara | Conferir instruções e testar checklist local | Fluxo automatizado aprovado; revisão pedagógica e teste manual pendentes |
+| OA-02 | Responder à indisponibilidade de uma sala virtual fictícia | Praticar conferir conexão/link oficial e pedir ajuda por canal conhecido | Selecionar resposta segura/insegura e conferir feedback; verificar ausência de requisição real | Testado pela CI de 20/10/2026; teste manual e revisão pedagógica pendentes |
+| OA-03 | Escolher uma resposta segura diante de falha de áudio simulada | Prática contextual de controle e comunicação de dificuldade | Testar respostas corretas/incorretas, os controles locais e o feedback | Testado pela CI de 20/10/2026; teste manual e revisão pedagógica pendentes |
+| OA-04 | Pedir repetição/esclarecimento em vez de fingir que entendeu | Praticar comunicação clara sem orientação clínica individual | Testar respostas corretas/incorretas e feedback contextual | Fluxo automatizado aprovado; revisão pedagógica e teste manual pendentes |
 | OA-05 | Localizar e confirmar os próximos passos apresentados no cenário | Praticar confirmação de informação sem gerar recomendação clínica | Verificar hierarquia visual e conteúdo fictício | Incluído; revisão pedagógica e responsividade pendentes |
 | RF-01 | Explicar finalidade e limites do simulador | Evitar confusão com serviço clínico ou plataforma oficial | Revisão textual da tela inicial e dos avisos | Implementado; retestar |
 | RF-02 | Navegar entre três etapas sem conta | Simplicidade e baixo atrito | Percorrer todas as rotas em desktop e celular | Implementado; retestar |
 | RF-03 | Manter todas as escolhas somente na sessão local | Privacidade por padrão | Inspecionar armazenamento, código e rede | Declarado; revalidar tecnicamente |
 | RF-04 | Reiniciar e limpar a sessão | Permitir nova prática sem carregar escolhas anteriores | Preencher opções, reiniciar e conferir estado inicial/foco | Implementado; retestar |
-| AQ-01 | Oferecer navegação por teclado e foco visível | Acessibilidade e orientação | Percorrer controles sem mouse e registrar falhas | Testes automatizados existentes; inspeção manual pendente |
+| AQ-01 | Oferecer navegação por teclado e foco visível | Acessibilidade e orientação | Percorrer controles sem mouse e registrar falhas | Navegação básica automatizada aprovada; inspeção manual com tecnologias assistivas pendente |
 | AQ-02 | Não depender apenas de cor para indicar estado | Acessibilidade e compreensão | Conferir rótulos, mensagens e estados | Testar após alteração do texto |
 | AQ-03 | Legibilidade em celular, zoom e diferentes navegadores | Uso em contextos variados | Testes Playwright e testes manuais em tamanhos/dispositivos definidos | Automatização existente; repetição pendente |
 | AQ-04 | Dar feedback simples e não punitivo | Apoiar a prática sem aumentar a carga cognitiva | Acionar estados vazios, respostas corretas/incorretas e reinicialização | Implementado; retestar |
