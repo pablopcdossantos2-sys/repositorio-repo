@@ -1,4 +1,4 @@
-# Critérios do edital e cinco opções de tema para o anteprojeto
+# Critérios do edital e seis opções de tema para o anteprojeto
 
 **Status:** documento de decisão preliminar.  
 **Linha de pesquisa selecionada:** 2) Tecnologias para Educação em Saúde.  
@@ -39,7 +39,7 @@ A combinação de **Jornalismo e Medicina** permite trabalhar dois aspectos comp
 
 O ponto forte é transformar esse conhecimento combinado em um **produto educacional digital que ensine uma habilidade**, em vez de construir apenas uma página informativa. O produto deve permitir que a pessoa pratique, receba feedback e demonstre o que conseguiu compreender. Resultados em um questionário imediato, porém, não provam aprendizagem duradoura nem mudança de comportamento.
 
-## 3. Cinco temas candidatos
+## 3. Seis temas candidatos
 
 ## Tema 1 — Saúde em Checagem: simulador interativo para avaliar informações de saúde na internet
 
@@ -166,6 +166,38 @@ O ponto forte é transformar esse conhecimento combinado em um **produto educaci
 
 **Risco principal:** tornar-se apenas um tutorial que fica desatualizado quando sistemas mudam. Para reduzir esse risco, ensine princípios transferíveis e use referências oficiais como exemplos opcionais, não como única parte do produto.
 
+## Tema 6 — Radar da Desinformação em Saúde: laboratório digital para reconhecer, verificar e responder a boatos
+
+**Título possível:** *Desenvolvimento e avaliação de um laboratório digital de educação em saúde para reconhecer táticas de desinformação e apoiar respostas responsáveis a conteúdos falsos ou enganosos.*
+
+**Problema:** informações falsas ou enganosas sobre saúde podem explorar medo, urgência, falsa autoridade, testemunhos sem evidência, dados fora de contexto e outras estratégias persuasivas. Apenas apresentar a correção de um boato específico pode não preparar a pessoa para avaliar alegações novas ou decidir como agir diante delas.
+
+**Ideia do produto:** um laboratório web educativo em duas etapas. Primeiro, uma atividade preventiva (*prebunking*) apresenta, com exemplos simples, táticas frequentes usadas para tornar uma alegação enganosa convincente. Depois, a pessoa analisa publicações simuladas e fictícias, identifica a alegação central, avalia autoria e fontes, procura evidências, decide se deve compartilhar, não compartilhar ou sinalizar o conteúdo e pratica uma resposta curta que encaminhe a fontes confiáveis. Cada decisão recebe feedback explicativo e referências públicas. A primeira versão não depende de IA, login, integração com redes sociais nem coleta de dados pessoais.
+
+**Pergunta de pesquisa possível:** Como um laboratório digital com cenários simulados pode apoiar a compreensão imediata e o desempenho de adultos em tarefas de reconhecimento de táticas de desinformação em saúde, verificação de alegações e decisão responsável de compartilhamento?
+
+**Método enxuto:** realizar uma busca bibliográfica estruturada sobre intervenções educativas contra desinformação em saúde; delimitar um conjunto pequeno de táticas e objetivos de aprendizagem; produzir exemplos originais fictícios, sempre identificados como simulações e acompanhados de contexto corretivo; desenvolver o protótipo; revisar o conteúdo com critérios científicos e editoriais; testar acessibilidade e usabilidade; e avaliar tarefas/compreensão imediata conforme o protocolo e as autorizações aplicáveis.
+
+**Aderência aos critérios**
+- **Justificativa e linha:** relação direta com educação em saúde, alfabetização midiática e informacional e competências para avaliar alegações de saúde no ambiente digital.
+- **Inovação e escala:** combina prevenção educativa, prática simulada e decisão de resposta num recurso leve que pode ser distribuído como material aberto. A inovação deverá ser sustentada por comparação com simuladores, cursos e iniciativas de checagem já existentes.
+- **Dois anos:** viabilidade alta a moderada se forem escolhidas poucas táticas e um público bem delimitado; monitoramento contínuo de redes sociais ou checagem automatizada em tempo real ficariam fora do escopo.
+- **Impacto social:** pode desenvolver competências para reconhecer conteúdo suspeito e evitar compartilhamento irrefletido; o estudo não poderá concluir que houve redução da circulação de desinformação fora do teste sem medir esse resultado.
+- **Equidade/diversidade:** linguagem clara, exemplos culturalmente pertinentes, uso em celular, baixa demanda de dados, acessibilidade e cuidado para não culpar pessoas ou grupos por suas crenças e condições de acesso à informação.
+- **ODS:** ODS 3 e 4 como principais; ODS 10 e 16 como relações complementares quando justificadas pelo foco em desigualdade de acesso à informação e confiança em fontes verificáveis.
+- **Transformação digital do SUS:** contribuição para letramento digital em saúde, uso crítico de tecnologias e capacidade de reconhecer e procurar informação confiável, sem pressupor integração com sistemas do SUS.
+
+**Dependência de terceiros:** **baixa para o desenvolvimento técnico; baixa a média para a avaliação**. O protótipo pode usar cenários fictícios e fontes públicas. Uma revisão independente de conteúdo e a avaliação com participantes podem exigir disponibilidade de especialistas/pessoas e as aprovações aplicáveis.
+
+**Risco principal:** amplificar involuntariamente um boato ao repeti-lo, apresentar uma correção como definitiva quando a evidência é incerta ou prometer mudança real de comportamento sem evidência. Mitigações: usar simulações originais, não reproduzir desinformação viral como chamariz, colocar a explicação corretiva no mesmo contexto, distinguir falsidade de incerteza legítima e avaliar apenas os resultados realmente medidos.
+
+**Fontes de partida para a revisão (não substituem busca bibliográfica formal):**
+- [OMS — Infodemic](https://www.who.int/health-topics/infodemic/1?lv=true), visão geral sobre informação falsa/enganosa e gestão da infodemia.
+- [Grover et al. (2025) — *Online Interventions Addressing Health Misinformation: Scoping Review*](https://pmc.ncbi.nlm.nih.gov/articles/PMC12447009/), revisão de escopo de intervenções on-line, útil para mapear formatos educativos e lacunas de pesquisa.
+- [PubMed — *Mitigating Health and Science Misinformation: A Scoping Review of Literature from 2017 to 2022*](https://pubmed.ncbi.nlm.nih.gov/38534199/), revisão sobre estratégias de correção, educação e inoculação/prevenção.
+
+A busca bibliográfica deverá verificar o que já foi desenvolvido e testado, incluindo estudos brasileiros e públicos pouco representados, antes de afirmar originalidade ou escolher os indicadores finais.
+
 ## 4. Comparação preliminar com os critérios do edital
 
 Notas de 1 a 5, usadas somente para comparar ideias nesta fase. São hipóteses de planejamento, não notas oficiais.
@@ -176,11 +208,11 @@ Notas de 1 a 5, usadas somente para comparar ideias nesta fase. São hipóteses 
 | 2. Risco sem Confusão | 5 | 4 | 5 | 4 | 5 | 5 | 4 | 32 | Baixa |
 | 3. Da linguagem médica à linguagem clara | 5 | 4 | 4 | 5 | 5 | 5 | 5 | 33 | Média |
 | 4. IA em saúde com senso crítico | 5 | 5 | 4 | 4 | 4 | 4 | 5 | 31 | Baixa para desenvolver; média para atualização |
-| 5. SUS Digital sem barreiras | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 34 | Baixa a média |
+| 5. SUS Digital sem barreiras | 5 | 4 | 5 | 5 | 5 | 5 | 5 | 34 | Baixa a média |\n| 6. Radar da Desinformação em Saúde | 5 | 5 | 4 | 5 | 5 | 5 | 4 | 33 | Baixa a média |
 
 ### Interpretação da matriz
 
-- **Melhor equilíbrio geral:** Tema 1. Combina de modo direto as formações em Jornalismo e Medicina, permite um produto próprio e interativo, usa fontes públicas e evita depender de uma unidade de saúde específica.
+- **Melhor equilíbrio geral na triagem interna:** Tema 1. Combina de modo direto as formações em Jornalismo e Medicina, permite um produto próprio e interativo, usa fontes públicas e evita depender de uma unidade de saúde específica.\n- **Mais diretamente alinhado a combater desinformação em saúde:** Tema 6. Seu diferencial é praticar tanto o reconhecimento preventivo de táticas enganosas quanto decisões de não compartilhar e responder com fontes confiáveis; deve ser comparado de perto com o Tema 1 para evitar duplicação.
 - **Mais alinhado diretamente a letramento digital e transformação do SUS:** Tema 5. Tem justificativa institucional forte, desde que se evite construir um tutorial frágil baseado em telas que mudam frequentemente.
 - **Mais centrado em educação de profissionais:** Tema 3. Pode ser adequado caso haja preferência por formar profissionais e comunicadores, mas sua avaliação pode depender de acesso a esse público.
 - **Mais delimitável para avaliação imediata de uma habilidade:** Tema 2. Tem objetivos de aprendizagem relativamente claros, mas exige cuidado para não transformar o produto em um curso extenso de estatística.
@@ -188,10 +220,10 @@ Notas de 1 a 5, usadas somente para comparar ideias nesta fase. São hipóteses 
 
 ## 5. Recomendação inicial
 
-**Recomendo desenvolver primeiro o Tema 1 — Saúde em Checagem — como hipótese principal, mantendo o Tema 5 como alternativa próxima.** A recomendação não significa que a escolha final já esteja feita.
+**Para um tema amplo de avaliação crítica de informação, o Tema 1 — Saúde em Checagem — continua sendo a hipótese com melhor equilíbrio na triagem. Se o objetivo central for explicitamente combater notícias e informações falsas, o Tema 6 — Radar da Desinformação em Saúde — passa a ser um finalista prioritário, com o Tema 1 como alternativa próxima e o Tema 5 como outra opção forte.** A recomendação não significa que a escolha final já esteja feita.
 
 Razões:
-1. Aproveita diretamente a combinação de Jornalismo (avaliação de fontes e comunicação) e Medicina (avaliação crítica de evidência em saúde).
+1. Aproveita diretamente a combinação de Jornalismo (avaliação de fontes e comunicação) e Medicina (avaliação crítica de evidência em saúde); para um foco explícito em desinformação, o Tema 6 também mobiliza essas duas formações.
 2. Pode ser construído sem parceria com Secretaria, acesso a prontuários, integração técnica ou compra de serviços.
 3. Gera um produto tecnológico claro: simulador de aprendizagem com casos, decisões e feedback.
 4. Permite demonstrar inovação e escalabilidade por meio de um recurso web leve e potencialmente aberto.
@@ -232,7 +264,7 @@ A escolha deverá ser feita com base na aderência e na exequibilidade demonstr�
 
 ## 8. Pendências de decisão
 
-- [ ] Discutir os temas 1 e 5 com a orientação, sem assumir que a escolha atual é definitiva.
+- [ ] Discutir os temas 1, 5 e 6 com a orientação, sem assumir que a escolha atual é definitiva.
 - [ ] Confirmar a aderência do tema final à linha e ao tipo de projeto no edital vigente.
 - [ ] Fazer uma busca dirigida para identificar produtos semelhantes e tornar a lacuna de inovação defensável.
 - [ ] Definir público-alvo, objetivos de aprendizagem, conteúdo mínimo e indicador principal.
