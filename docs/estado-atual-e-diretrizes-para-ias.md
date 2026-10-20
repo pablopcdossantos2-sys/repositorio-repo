@@ -55,13 +55,13 @@ Todos os nomes, mensagens e situações devem permanecer fictícios e não devem
 
 ## 4. Evidências e pesquisa bibliográfica: estado real
 
-Já existe uma rodada de busca exploratória complementar na web e documentação inicial de estudos, recursos relacionados e recomendações de acessibilidade. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
+Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`) e documentação de estudos e recomendações de acessibilidade. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
 
 Continuam pendentes:
 - executar e documentar buscas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO;
 - registrar strings exatas, datas, filtros, contagens, exportações, deduplicação e critérios de seleção;
 - conferir referências e ler criticamente as fontes relevantes;
-- completar o benchmarking de guias, vídeos, tutoriais, recursos educativos e simuladores existentes;
+- aprofundar o benchmark exploratório de guias, vídeos, tutoriais, recursos educativos e simuladores existentes;
 - sustentar a lacuna e a contribuição específica do produto sem presumir originalidade.
 
 Não afirmar “revisão sistemática”, “revisão de escopo”, novidade comprovada, validação com usuários ou eficácia sem que o método e as evidências realizadas sustentem essas afirmações. Estudos de simulação para profissionais podem ser evidência metodológica adjacente, mas não devem ser descritos como evidência direta de eficácia para usuários finais.
