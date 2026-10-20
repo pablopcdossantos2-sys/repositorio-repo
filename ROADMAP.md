@@ -142,3 +142,15 @@ O projeto só poderá ser considerado coerente quando:
 ## Histórico de decisão
 
 Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. Os outros temas permanecem apenas no documento histórico de comparação e não devem orientar novas funcionalidades, busca de produto ou escrita do anteprojeto.
+
+
+## Atualização — apresentação para defesa oral (20/10/2026)
+
+- [x] Preparar uma nova apresentação em formato **OpenDocument Presentation (.odp)**, alinhada ao escopo e às evidências atuais do projeto.
+- [x] Preparar guia complementar em Markdown com roteiro de fala, perguntas prováveis e checklist de preparação.
+- [x] Atualizar a apresentação para não pressupor entrevistas, amostra, parceria institucional, testes com participantes ou eficácia clínica.
+- [x] Corrigir a descrição das evidências técnicas: o último CI documentado contém 22 testes Playwright + axe-core aprovados no commit de código registrado; auditoria manual e busca bibliográfica formal seguem pendentes.
+- [ ] Adicionar os arquivos finais à pasta `apresentacao/` neste repositório e conferir a renderização no LibreOffice Impress.
+- [ ] Personalizar nome e motivação do candidato e confirmar no edital vigente duração e permissão de slides.
+
+**Arquivos planejados:** `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`. A apresentação é material de preparação, não substitui a conferência do edital vigente nem validação acadêmica do método.
