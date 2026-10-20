@@ -35,11 +35,11 @@ Construir o menor protótipo útil para investigar uma solução digital de educ
 - RF-02: permitir navegar entre os três módulos sem criar conta.
 - RF-03: permitir interagir com um checklist de preparação.
 - RF-04: apresentar conteúdo educativo fictício em linguagem simples no cenário demonstrativo.
-- RF-09: oferecer uma atividade demonstrativa de compreensão, com feedback claro e sem sugerir diagnóstico ou prescrição.
 - RF-05: organizar próximos passos de forma legível.
 - RF-06: permitir reiniciar a demonstração e limpar o conteúdo inserido na sessão.
 - RF-07: oferecer um modo de demonstração com dados fictícios para testes.
 - RF-08: não coletar nem transmitir dados clínicos identificáveis na versão inicial.
+- RF-09: oferecer uma atividade demonstrativa de compreensão, com feedback claro e sem sugerir diagnóstico ou prescrição.
 
 ## Requisitos de qualidade e acessibilidade
 
