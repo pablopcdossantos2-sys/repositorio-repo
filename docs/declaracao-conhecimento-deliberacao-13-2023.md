@@ -1,6 +1,6 @@
 # Declaração de conhecimento da Deliberação que regulamenta o funcionamento do curso — minuta editável
 
-> **Importante:** leia a íntegra da Deliberação nº 13, de 29 de junho de 2023, antes de assinar. Esta minuta não substitui a leitura do ato oficial nem a confirmação das instruções específicas do edital da turma à qual você pretende concorrer. A página oficial de perguntas frequentes consultada informa que a ciência/anuência à Deliberação é registrada no sistema de inscrição; confirme no edital vigente se também é necessário anexar esta declaração como PDF assinado.
+> **Importante:** leia a íntegra da Deliberação nº 13, de 29 de junho de 2023, antes de assinar. Esta minuta não substitui a leitura do ato oficial nem a confirmação das instruções específicas da Turma 2027. A página oficial de perguntas frequentes informa que a ciência/anuência à Deliberação é registrada no sistema de inscrição; como o Programa também mantém uma página específica para o processo seletivo da Turma 2027, confira o texto integral do edital e o sistema para confirmar se esta declaração deve ser anexada como PDF assinado ou se a anuência no sistema é suficiente.
 
 ## DECLARAÇÃO
 
@@ -35,5 +35,6 @@ Declaro, por fim, que as informações acima foram incluídas para registrar min
 ## Fontes oficiais consultadas
 
 - [Deliberação nº 13, de 29/06/2023 (PDF oficial da UERJ)](https://www.telessaude.uerj.br/wp-content/uploads/sites/3/2023/07/PGTSD-_-Deliberacao-13-de-29-06-2023-_-PG-em-Telessaude-e-Saude-Digital.pdf)
+- [Edital — Processo seletivo da Turma 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/)
 - [Perguntas frequentes — como dar anuência à Deliberação no sistema de inscrição](https://www.telessaude.uerj.br/mestrado/faq/)
 - [Apresentação e regulamentação do Programa](https://www.telessaude.uerj.br/mestrado/apresentacao/)
