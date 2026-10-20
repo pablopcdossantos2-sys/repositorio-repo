@@ -73,7 +73,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
 - [Especificação do produto mínimo](docs/produto-minimo.md)
 - [Mapa preliminar de objetivos educativos e tarefas](docs/mapa-objetivos-educativos-e-tarefas.md)
-- [Revisão editorial dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — mudanças de linguagem, racional pedagógico, fontes de contexto e verificações pendentes.
+- [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — mudanças de linguagem, racional pedagógico, fontes de contexto e verificações pendentes.
 - [Decisões metodológicas — opções, desenho recomendado e pendências](docs/decisoes-metodologicas.md)
 - [Protocolo preliminar de avaliação](docs/protocolo-preliminar-avaliacao.md)
 - [Matriz de evidências e requisitos](docs/matriz-evidencias-requisitos.md)
