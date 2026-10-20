@@ -150,6 +150,8 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 ## 10. Histórico desta consolidação
 
+- **20/10/2026 — conferência da CI:** consultada a execução [GitHub Actions #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486), que passou com validações de sintaxe/estrutura/HTML e 22 testes Playwright + axe-core no commit de código `11d5bee68f5f8de4234ab9f5388f7f1067545b69`. Os três arquivos do produto inspecionados mantêm os mesmos hashes de conteúdo dessa versão. A CI não foi reexecutada após commits documentais porque o workflow não é acionado por documentação; repetir após qualquer alteração em código/testes. Os testes manuais seguem pendentes.
+
 - **20/10/2026 — complemento da auditoria:** calculadas razões de contraste para combinações selecionadas de texto, botões, foco e bordas. As combinações de texto examinadas atingiram os limiares calculados; algumas bordas que podem indicar estados têm contraste inferior a 3:1 e foram registradas para avaliação contextual, sem declarar falha definitiva. Ver `docs/verificacao-preliminar-contraste-2026-10-20.md`. Não houve alteração de CSS nem nova execução de testes nesta etapa.
 
 - **20/10/2026 — continuação:** consolidadas estratégias e um formulário de registro para buscas em PubMed/MEDLINE, BVS/LILACS e SciELO. A tentativa de abrir páginas de resultados pelo ambiente de navegação não permitiu obter contagens; as consultas oficiais e exportações continuam pendentes. Foi realizada e documentada inspeção estática parcial do HTML/JS/CSS, sem execução no navegador, sem alteração do produto e sem nova rodada de testes automatizados. Os registros correspondentes foram ligados ao README e aos dois roadmaps.
