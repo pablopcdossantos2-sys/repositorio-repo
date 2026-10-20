@@ -75,7 +75,7 @@ Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os
 ## Fase 3 — Correções técnicas e acessibilidade (P1)
 
 - [x] Corrigir a cor de foco padrão de âmbar claro para azul mais escuro em `produto/styles.css`.
-- [x] Executar a suíte Playwright e axe-core no GitHub Actions: 15 testes passaram no run [39355695848](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355695848), incluindo os três estados da interface, fluxos principais, movimento reduzido e cinco larguras de viewport.
+- [x] Executar a suíte Playwright e axe-core no GitHub Actions: 16 testes passaram no run [39355833032](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355833032), incluindo navegação por teclado, os três estados da interface, fluxos principais, movimento reduzido e cinco larguras de viewport.
 - [x] Corrigir rótulos acessíveis da escala após o axe-core detectar divergência entre o nome dos botões 1/5 e seu texto visível; resultado registrado em `docs/relatorio-revisao-tecnica.md`.
 - [ ] Medir e registrar contraste dos textos, controles, bordas relevantes, feedbacks e foco com ferramenta apropriada.
 - [ ] Percorrer todos os controles com Tab e Shift+Tab; ativar botões com Enter e Espaço; registrar ordem e visibilidade do foco.
@@ -107,7 +107,7 @@ Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os
 ## Fase 5 — Automação e fluxo de desenvolvimento (P2)
 
 - [x] Adicionar verificações estáticas reproduzíveis em `scripts/check-prototype.mjs` (14 verificações passaram no GitHub Actions, run 39355380708).
-- [x] Adicionar testes automatizados em navegador com Playwright e varreduras axe-core nos três estados principais; 15 testes passaram no run [39355695848](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355695848).
+- [x] Adicionar testes automatizados em navegador com Playwright e varreduras axe-core nos três estados principais; 16 testes passaram no run [39355833032](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355833032).
 - [ ] Adicionar validador formal de HTML e manter testes manuais com leitores de tela/dispositivos, que não são substituídos pelo CI.
 - [x] Criar workflow de GitHub Actions para executar verificações estáticas no push/PR; a primeira execução terminou com sucesso.
 - [ ] Registrar como abrir o protótipo localmente e como reproduzir os testes.
