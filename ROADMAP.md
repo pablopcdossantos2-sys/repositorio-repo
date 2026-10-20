@@ -62,10 +62,13 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [ ] Executar as estratégias nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO.
 - [x] Acrescentar estratégias focadas em preparação, simulação educativa, habilidades digitais e necessidades de apoio.
 - [x] Adicionar nota exploratória com evidências sobre treinamento de usuários, recursos comparáveis e suas limitações.
+- [x] Registrar rodada exploratória da web em 20/10/2026 sobre métodos de usabilidade de simulações educativas e diretriz de acessibilidade WHO/ITU ([registro](docs/registro-busca-exploratoria-2026-10-20.md)).
+- [x] Acrescentar ao protocolo uma rubrica candidata para sucesso total/parcial e falha por tarefa, para revisão da orientação.
 - [ ] Executar as estratégias nas bases oficiais e registrar as contagens/exportações; a busca formal permanece pendente.
 - [ ] Registrar data, estratégia efetiva, filtros, resultados, exportações, deduplicação e critérios de inclusão/exclusão.
 - [ ] Completar o benchmarking de recursos existentes (portais, guias, vídeos, tutoriais, cursos autoguiados e simuladores) e demonstrar o diferencial específico; o levantamento atual é exploratório.
-- [ ] Atualizar `docs/busca-bibliografica-estruturada.md`, `docs/referencias-e-busca-bibliografica.md` e `docs/matriz-evidencias-requisitos.md` com evidências reproduzíveis.
+- [x] Atualizar a síntese exploratória, as referências e a matriz com estudos metodológicos adjacentes e limites de transferência.
+- [ ] Executar a busca oficial reproduzível nas interfaces e atualizar a matriz com contagens/exportações e triagem documentada.
 - [ ] Discutir pergunta, objetivos, público-alvo, produto e adequação à linha com a orientação.
 - [ ] Conferir o edital e o modelo oficial vigentes da UERJ, incluindo extensão, formato, critérios e documentos obrigatórios.
 
