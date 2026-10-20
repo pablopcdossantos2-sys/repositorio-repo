@@ -9,6 +9,20 @@ test.beforeEach(async ({ page }) => {
   await page.goto(localPrototype);
 });
 
+test("apresenta o tema escolhido e as três etapas de treino de teleconsulta", async ({ page }) => {
+  await expect(page).toHaveTitle(/Treino de Teleconsulta/);
+  await expect(page.getByRole("heading", { name: "Vamos praticar uma teleconsulta, passo a passo." })).toBeVisible();
+  await expect(page.locator(".brand")).toContainText("Treino de Teleconsulta");
+  await expect(page.locator(".tabs")).toContainText("Antes");
+  await expect(page.locator(".tabs")).toContainText("Durante");
+  await expect(page.locator(".tabs")).toContainText("Encerrar");
+  await page.locator('.tab[data-view="guidance"]').click();
+  await expect(page.getByRole("heading", { name: "O que fazer se você não consegue ouvir?" })).toBeVisible();
+  await expect(page.getByText(/sala virtual fictícia/)).toBeVisible();
+  await page.locator('.tab[data-view="next"]').click();
+  await expect(page.getByRole("heading", { name: "Confirme o que ficou combinado" })).toBeVisible();
+});
+
 test("começa na etapa Preparar e mantém os outros painéis ocultos", async ({ page }) => {
   await expect(page.locator("#view-prepare")).toBeVisible();
   await expect(page.locator("#view-guidance")).toBeHidden();
@@ -58,7 +72,7 @@ test("avaliação de compreensão exige escolha e apresenta feedback coerente", 
   await expect(page.locator("#understanding-feedback")).toContainText("Isso!");
   await page.locator('input[name="understanding"][value="wrong"]').first().check();
   await page.locator("#check-understanding").click();
-  await expect(page.locator("#understanding-feedback")).toContainText("Essa não é a ideia");
+  await expect(page.locator("#understanding-feedback")).toContainText("Tente novamente");
 });
 
 test("nota de facilidade mantém somente uma opção selecionada", async ({ page }) => {
