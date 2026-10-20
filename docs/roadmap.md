@@ -1,6 +1,13 @@
-# Roadmap de desenvolvimento
+# Roadmap de desenvolvimento — Conversa Clara / educação em saúde
 
 O objetivo é entregar um produto de escopo controlado e avaliável no prazo do mestrado. Evitar funcionalidades que aumentem desnecessariamente a complexidade.
+
+## Enquadramento acadêmico selecionado
+
+- **Linha de pesquisa:** 2) Tecnologias para Educação em Saúde.
+- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Foco do produto:** recurso educativo digital com linguagem clara e atividade demonstrativa de compreensão no contexto de preparação para atendimentos de telessaúde.
+- **Limite de inferência:** tarefas de compreensão imediata não serão tratadas como prova de aprendizagem duradoura ou de eficácia clínica.
 
 ## Fase 0 — Projeto de pesquisa
 - [x] Definir aplicação web responsiva como formato inicial.
@@ -17,7 +24,7 @@ O objetivo é entregar um produto de escopo controlado e avaliável no prazo do 
 - [x] Criar protocolo preliminar de avaliação com tarefas, indicadores candidatos, plano de dados e alternativa simulada (ainda sujeito à orientação e às aprovações aplicáveis).
 - [x] Criar matriz inicial de evidências que conecta referências, requisitos e decisões de produto; ampliar após a revisão bibliográfica.
 - [ ] Conferir formatação, extensão e todos os requisitos do edital vigente.
-- [ ] Discutir pergunta, método e produto com a orientação acadêmica.
+- [ ] Confirmar com a orientação a aderência da pergunta, do método e do produto à linha “Tecnologias para Educação em Saúde” e ao tipo de projeto selecionado.
 
 ## Fase 1 — Articulação e diagnóstico
 - [ ] Contatar a Secretaria Municipal de Saúde.
