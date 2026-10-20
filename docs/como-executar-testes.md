@@ -17,7 +17,7 @@ npm install
 npx playwright install chromium
 ```
 
-As dependências diretas de desenvolvimento estão declaradas com versões exatas em `package.json`. Como ainda não há `package-lock.json) versionado, as dependências transitivas não estão completamente fixadas; para reproduções de longa duração, a próxima melhoria de engenharia é gerar e versionar o lockfile após validar o ambiente de desenvolvimento.
+As dependências diretas de desenvolvimento estão declaradas com versões exatas em `package.json`. Como ainda não há `package-lock.json` versionado, as dependências transitivas não estão completamente fixadas; para reproduções de longa duração, a próxima melhoria de engenharia é gerar e versionar o lockfile após validar o ambiente de desenvolvimento.
 
 ## Rodar a suíte completa
 
@@ -48,7 +48,7 @@ O workflow [Prototype quality checks](../.github/workflows/prototype-quality.yml
 ## Limites das verificações
 
 - Uma varredura axe-core sem violações detectadas não certifica conformidade integral com WCAG.
-- Os testes de viewports verificam a ausência de rolagem horizontal no estado inicial nos tamanhos codificados, não em todas as combinações de conteúdo/dispositivo.
+- Os testes de viewports verificam a ausência de rolagem horizontal nas três etapas nos cinco tamanhos codificados; não cobrem todas as combinações de conteúdo/dispositivo nem substituem o teste de zoom real a 200%.
 - O teste automatizado não substitui o uso manual de teclado, leitor de tela, zoom real e aparelhos físicos.
 - Nenhum teste automatizado desta suíte envolve participantes ou avalia eficácia clínica.
 - A inspeção estática de ausência de chamadas de rede/armazenamento deve ser complementada por uma verificação manual nas ferramentas de desenvolvedor do navegador.
