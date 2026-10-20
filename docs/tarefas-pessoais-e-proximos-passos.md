@@ -13,7 +13,7 @@ Este guia reúne as ações que exigem decisão, contato, julgamento ou presenç
 - **Tipo de projeto selecionado:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
 - **Título de trabalho:** “Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações”.
 
-A escolha foi registrada nos documentos de trabalho; ainda deve ser discutida com a orientação para confirmar aderência metodológica e ao edital da turma. A atividade educativa é demonstrativa, e a avaliação de compreensão imediata não será apresentada como prova de aprendizagem duradoura nem de eficácia clínica.
+A linha e o tipo de projeto foram selecionados, mas o tema final está em aberto. Compare as cinco opções em [docs/criterios-edital-e-cinco-temas.md](criterios-edital-e-cinco-temas.md) e confirme com a orientação a aderência do tema escolhido ao edital e ao prazo. A atividade educativa do tema atual é demonstrativa; a avaliação de compreensão imediata não será apresentada como prova de aprendizagem duradoura nem de eficácia clínica.
 
 ## Antes de começar: regras que valem para todas as etapas
 
@@ -280,6 +280,7 @@ Use “Bloqueada” quando a próxima ação depender de decisão, aprovação o
 
 ## Documentos de apoio
 
+- [Critérios do edital e cinco temas candidatos](criterios-edital-e-cinco-temas.md)
 - [Anteprojeto organizado conforme o modelo da UERJ](anteprojeto-modelo-uerj.md)
 - [Carta de exposição de motivos](carta-exposicao-de-motivos.md)
 - [Declaração de conhecimento da Deliberação nº 13/2023](declaracao-conhecimento-deliberacao-13-2023.md)
