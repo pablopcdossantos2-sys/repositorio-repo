@@ -176,3 +176,12 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 - [ ] Concluir buscas bibliográficas formais nas interfaces oficiais e registrar contagens/exportações reais.
 
 **Limite desta rodada:** não houve alteração no código do produto, execução do navegador, nova CI ou avaliação com participantes. A inspeção estática não equivale a auditoria integral WCAG nem demonstra aprendizagem.
+
+
+### Ajuste de precisão da apresentação — 20/10/2026
+
+- [x] Corrigir o slide do protótipo para dizer que o **conteúdo educativo** da etapa “Encerrar” é estático, embora a tela inclua uma escala local de facilidade de 1 a 5.
+- [x] Substituir o ODP no repositório e conferir que o arquivo em `main` corresponde ao novo blob `c0270a9cf1c7d8a25c2e42d5e73280ddbb8ed7fd`.
+- [x] Harmonizar a descrição com o mapa de objetivos e o guia da defesa: a escala de facilidade não é tarefa de aprendizagem, métrica de compreensão nem validação com usuários.
+
+Commit da atualização do ODP: [50bd1e648bf871afea0d90266fd95153da40fa36](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36). A alteração é documental; não houve mudança de código do protótipo nem nova execução de CI.
