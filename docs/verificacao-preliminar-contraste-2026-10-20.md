@@ -38,3 +38,14 @@ Calculou-se a razão de contraste relativa entre as cores sRGB hexadecimais conf
 ## Próximo passo
 
 Registrar as combinações a corrigir/validar no roteiro de auditoria; aplicar mudanças de CSS apenas depois de verificar a necessidade do indicador visual e repetir os cálculos. Após qualquer mudança no produto, executar novamente a suíte automatizada e os testes manuais aplicáveis.
+
+
+## Revisão contextual estática dos três estados — 20/10/2026
+
+Foi relido o CSS e o HTML correntes, sem executar a interface em navegador, para verificar se as bordas de baixo contraste parecem ser o único meio de comunicar o estado:
+
+- **Etapa ativa** (`.tab.active`): além da borda `#9ab9ff`, o estado usa fundo diferente (`#e6eeff`), texto azul escuro, círculo numerado preenchido em azul e atributo `aria-current="step"`. A borda não parece ser o único indicador, mas o estado renderizado e o anúncio em tecnologia assistiva ainda precisam ser testados.
+- **Checklist marcado** (`.check-row:has(input:checked)`): além da borda `#8db1ff`, há fundo diferente e um checkbox nativo marcado. A borda não parece ser o único indicador visual.
+- **Aviso amarelo** (`.fictional-banner`): além da borda amarela, há fundo amarelo-claro, símbolo de informação e texto explícito “Exemplo inteiramente fictício”. A borda parece redundante em relação ao conteúdo e ao símbolo.
+
+**Conclusão limitada:** a leitura do código sugere que essas bordas podem não ser necessárias como indicadores únicos. Isso reduz a justificativa para alterar as cores apenas com base na razão isolada, mas não determina conformidade WCAG. A auditoria AUD-15 permanece parcial até verificar estados reais, uso com teclado/tecnologia assistiva, contrastes aplicáveis do componente completo e critérios WCAG pertinentes. Não houve alteração de CSS nesta revisão.
