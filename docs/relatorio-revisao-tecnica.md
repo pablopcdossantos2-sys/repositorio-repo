@@ -106,3 +106,18 @@ A primeira execução da suíte identificou uma violação `label-content-name-m
 5. Os testes não envolvem participantes e não constituem validação de usabilidade ou compreensão clínica.
 
 Os itens do checklist manual da seção 4 continuam pendentes até serem executados e documentados.
+
+
+## 9. Validação formal de HTML e configuração de desenvolvimento — 20/10/2026
+
+Foi adicionado o `html-validate` com regras recomendadas, executado no CI. A primeira execução identificou cinco erros de marcação em `produto/index.html):
+
+1. Doctype fora do estilo recomendado (`<!doctype html>`), corrigido para `<!DOCTYPE html>`.
+2. `aria-label` usado em um `div` sem papel semântico apropriado, removido para evitar rótulo redundante/inválido.
+3. Os três botões de navegação por etapas não tinham atributo `type`, agora explicitamente `type="button"`.
+
+Após as correções, a validação de HTML, os testes estáticos e os 16 testes Playwright/axe-core passaram na execução [39356779809](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39356779809).
+
+Também foi adicionado `package.json` com versões diretas de ferramentas de desenvolvimento fixadas, `.nvmrc` com Node.js 24 e [instruções para executar as verificações localmente](como-executar-testes.md). **Ainda não há `package-lock.json` versionado**, portanto as dependências transitivas não estão completamente travadas. O roadmap mantém essa limitação aberta em vez de declarar a instalação plenamente reproduzível.
+
+As ações `actions/checkout` e `actions/setup-node` foram atualizadas para a série v7, baseada em runtime Node 24, removendo a dependência das versões antigas que geravam alerta sobre Node 20.
