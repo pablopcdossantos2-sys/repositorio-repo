@@ -8,6 +8,11 @@ Projeto de pesquisa tecnológica em desenvolvimento para o **Mestrado Profission
 
 O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúde”** e no tipo **“Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”**. A nomenclatura, os requisitos e a adequação final precisam ser conferidos com o edital vigente e com a orientação acadêmica.
 
+### Registros de execução recentes
+
+- [Registro de execução das buscas bibliográficas (20/10/2026)](docs/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
+- [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
+
 ## Objetivo do projeto
 
 Desenvolver e avaliar um protótipo web responsivo que **permita a adultos com baixa familiaridade digital praticar, em ambiente simulado e sem conexão com serviços reais, as etapas básicas de uma teleconsulta**: preparar dispositivo e ambiente, acessar uma sala virtual fictícia, lidar com dificuldades simples de áudio/vídeo, comunicar dúvidas e confirmar os próximos passos antes de encerrar.
