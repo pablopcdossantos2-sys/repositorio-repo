@@ -34,6 +34,7 @@ Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os
 - [x] Registrar uma revisão estática do HTML, CSS e JavaScript.
 - [x] Documentar a estratégia de parceria, o protocolo preliminar, a matriz de evidências e as limitações.
 - [x] Consolidar as tarefas remanescentes neste roadmap.
+- [x] Elaborar revisão rápida focalizada de evidências e recomendações para o produto em `docs/revisao-rapida-evidencias-e-recomendacoes.md` (19/10/2026); a busca bibliográfica formal nas bases planejadas continua pendente.
 - [x] Corrigir a cor do indicador de foco no CSS para uma opção de maior contraste; contraste calculado para `#005fcc`: 5,98:1 sobre branco e 5,57:1 sobre o fundo `#f4f7fb`. A medição sistemática dos demais elementos e a validação prática continuam pendentes.
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
