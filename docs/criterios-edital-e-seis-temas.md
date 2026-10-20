@@ -318,3 +318,7 @@ O tema está escolhido; sua sustentação deve ser demonstrada por aderência, e
 **Correspondência de numeração:** antigo Tema 5 → Tema 1; antigo Tema 4 → Tema 2; antigo Tema 6 → Tema 3; Temas 4, 5 e 6 são novos.
 
 **Outras alterações:** inclusão do critério transversal de dependência de terceiros e da avaliação em camadas; revisão das notas da matriz (menos concentradas em 5); revisão da recomendação, que agora tem o Tema 1 como candidato principal; inclusão da etapa de análise ética no cronograma; inclusão de pendências sobre a unificação do repositório e a confirmação ética.
+
+## Atualização final da decisão — 20/10/2026
+
+A recomendação anterior de Tema 1, registrada no histórico de comparação, foi **superada pela decisão final**. O tema ativo é exclusivamente **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. Os demais temas permanecem neste documento apenas como histórico de comparação. O README, os anteprojetos, os roadmaps, a especificação do produto, o protocolo, as tarefas operacionais e o protótipo foram atualizados para usar esse recorte. Permanecem pendentes de execução a busca bibliográfica específica e reproduzível, o benchmarking, a validação metodológica e os testes manuais.
