@@ -4,6 +4,8 @@
 **Data deste levantamento:** 17 de outubro de 2026  
 **Status:** busca estruturada preliminar; síntese crítica inicial, ainda não uma revisão sistemática concluída.
 
+**Atualização de 20/10/2026:** as strings e o estado de execução estão organizados em [Registro de execução das buscas bibliográficas — 20/10/2026](registro-busca-estruturada-2026-10-20.md). As consultas oficiais ainda não foram executadas com contagens/exportações reproduzíveis; o protocolo abaixo não deve ser interpretado como busca formal concluída.
+
 ## 1. Pergunta e escopo
 
 **Recorte ativo desde 20/10/2026:** apenas o Tema 4 — Treino de Teleconsulta. A comparação de outras ideias terminou; a busca deve priorizar preparação e treinamento para teleconsulta, simulação educativa, necessidades de apoio digital, desenho inclusivo e soluções já existentes. Esta é uma pergunta de busca, não um resultado já demonstrado.
