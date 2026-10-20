@@ -92,14 +92,28 @@ test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async
 });
 
 for (const width of [320, 360, 390, 768, 1280]) {
-  test(`não cria rolagem horizontal no estado inicial com viewport de ${width}px`, async ({ page }) => {
+  test(`não cria rolagem horizontal nas três etapas com viewport de ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });
     await page.goto(localPrototype);
-    const dimensions = await page.evaluate(() => ({
-      viewport: document.documentElement.clientWidth,
-      page: document.documentElement.scrollWidth
-    }));
-    expect(dimensions.page, `largura da página (${dimensions.page}px) excedeu viewport (${dimensions.viewport}px)`).toBeLessThanOrEqual(dimensions.viewport);
+
+    const checkOverflow = async (state) => {
+      const dimensions = await page.evaluate(() => ({
+        viewport: document.documentElement.clientWidth,
+        page: document.documentElement.scrollWidth
+      }));
+      expect(
+        dimensions.page,
+        `etapa ${state}: largura da página (${dimensions.page}px) excedeu viewport (${dimensions.viewport}px)`
+      ).toBeLessThanOrEqual(dimensions.viewport);
+    };
+
+    await checkOverflow("Preparar");
+    await page.locator('.tab[data-view="guidance"]').click();
+    await expect(page.locator("#guidance-title")).toBeFocused();
+    await checkOverflow("Entender");
+    await page.locator('.tab[data-view="next"]').click();
+    await expect(page.locator("#next-title")).toBeFocused();
+    await checkOverflow("Próximos passos");
   });
 }
 
@@ -123,6 +137,28 @@ for (const view of [
     ).toEqual([]);
   });
 }
+
+test("navegação completa não gera exceções JavaScript nem solicita recursos externos", async ({ page }) => {
+  const pageErrors = [];
+  const externalRequests = [];
+  page.on("pageerror", error => pageErrors.push(error.message));
+  page.on("request", request => {
+    if (/^https?:/i.test(request.url())) externalRequests.push(request.url());
+  });
+
+  await page.reload();
+  await page.locator(".check-row input").first().check();
+  await page.locator("#reset-checks").click();
+  await page.locator('.tab[data-view="guidance"]').click();
+  await page.locator('input[name="understanding"][value="correct"]').check();
+  await page.locator("#check-understanding").click();
+  await page.locator('.tab[data-view="next"]').click();
+  await page.locator('[data-rating="4"]').click();
+  await page.locator("#restart").click();
+
+  expect(pageErrors, "erros JavaScript inesperados").toEqual([]);
+  expect(externalRequests, "solicitações externas inesperadas").toEqual([]);
+});
 
 test("com movimento reduzido ativo, a interface continua navegável", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
