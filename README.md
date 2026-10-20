@@ -53,6 +53,7 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [Testes de navegador e acessibilidade automatizada](tests/prototype.spec.js)
 - [Como executar os testes localmente](docs/como-executar-testes.md)
 - [Dependências e comandos npm](package.json)
+- [Lockfile das dependências](package-lock.json)
 - [Workflow de qualidade contínua](.github/workflows/prototype-quality.yml)
 - [Plano de desenvolvimento e roadmap](docs/roadmap.md)
 - [Especificação do produto mínimo](docs/produto-minimo.md)
