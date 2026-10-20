@@ -174,3 +174,12 @@ A execução automatizada confirma a qualidade técnica coberta pelos testes, n�
 ## Roteiro de execução da próxima auditoria
 
 O checklist operacional e a matriz de rastreabilidade produto–requisito estão em [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md). O roteiro foi criado como documento de trabalho, mas seus itens manuais não foram executados nesta atualização.
+
+
+## 8. Inspeção estática complementar — 20/10/2026
+
+Foi realizada uma nova inspeção estática dos arquivos correntes de produto, sem execução em navegador. O registro detalhado, com hashes dos arquivos e estado por caso de auditoria, está em [Registro da auditoria estática do protótipo — 20/10/2026](registro-auditoria-estatica-2026-10-20.md).
+
+Principais resultados: o HTML contém apenas checkboxes e rádios para checklist/escolhas; não foram encontradas referências externas em `src`/`href`; o JavaScript inspecionado não contém chamadas comuns de rede ou persistência (`fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`, cookies, `WebSocket`, `sendBeacon`, `indexedDB`). A lógica de navegação, feedback e reinicialização foi lida estaticamente. Isso **não comprova** ausência universal de tráfego/armazenamento nem conformidade integral com WCAG.
+
+Continuam pendentes a execução manual de teclado/foco, teste de rede/armazenamento no navegador, leitor de tela, zoom/reflow, contraste integral, movimento reduzido e verificação da distribuição. Não houve alteração de código nem nova execução de CI nesta rodada; não atribuir aos arquivos inspecionados um resultado de CI sem conferir o workflow correspondente ao commit atual.
