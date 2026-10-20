@@ -57,6 +57,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Adicionar escolhas com feedback específico em cada situação e manter todas as interações locais.
 - [x] Escurecer a variável de borda e acrescentar verificação estática do contraste de bordas significativas.
 - [x] Confirmar a suíte automatizada após as mudanças: 15 verificações estáticas e 22 testes de navegador/axe-core passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
+- [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](docs/roteiro-auditoria-tecnica-sem-participantes.md)).
 - [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
 - [ ] Definir objetivos de aprendizagem observáveis e critérios iniciais de sucesso.
 
