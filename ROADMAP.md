@@ -14,7 +14,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - **Pergunta de trabalho:** como um simulador educativo web, acessível e desenvolvido em linguagem simples, pode apoiar adultos com baixa familiaridade digital a praticar etapas básicas de uma teleconsulta em tarefas simuladas?
 - **Público de interesse:** adultos com baixa familiaridade digital. Definição operacional, elegibilidade e forma de identificar essa característica precisam ser discutidas com a orientação; não presumir idade, escolaridade, deficiência ou incapacidade a partir do rótulo.
 - **Cenário:** Guaraí-TO é uma possibilidade de articulação e campo, não uma parceria confirmada nem uma condição para desenvolver o protótipo.
-- **Preferência metodológica inicial:** identificar necessidades e produzir um protótipo fundamentado, combinando uma técnica enxuta de identificação de necessidades com revisão de uma representação simples. O acesso ao público é incerto; amostra, parceria e aprovações não estão confirmadas. A usabilidade autônoma é complementar e condicionada.
+- **Preferência metodológica inicial:** desenvolver um protótipo simples fundamentado em literatura e análise de soluções existentes, com avaliação técnica/pedagógica sem participantes. Interação com pessoas só será incluída se a orientação acadêmica indicar que é necessária; acesso, campo, parceria, aprovação e amostra não estão confirmados.
 - **Produto:** experiência guiada de três momentos — preparação do dispositivo/ambiente, entrada e participação numa sala virtual fictícia, e encerramento/confirmar próximos passos.
 - **Limites:** sem teleconsulta real, áudio/vídeo ao vivo, contas, prontuários, IA, diagnóstico ou prescrição; sem recolha ou transmissão de dados pessoais ou clínicos.
 - **Inferência permitida:** auditorias técnicas e pedagógicas, usabilidade e conclusão/compreensão em tarefas simuladas; não concluir aprendizagem duradoura, mudança de comportamento, acesso efetivo ou eficácia clínica sem desenho e evidência próprios.
@@ -78,7 +78,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 ## Fase 2 — Público, cenário e ética (P0)
 
 - [ ] Definir “baixa familiaridade digital” operacionalmente, sem associá-la automaticamente a idade, escolaridade ou diagnóstico.
-- [ ] Investigar alternativas de acesso ao público e discutir a combinação enxuta de identificação de necessidades e revisão de protótipo simples; não presumir campo, parceria ou amostra.
+- [ ] Confirmar com a orientação se o plano sem participantes atende aos requisitos; somente se necessário, investigar acesso e definir a menor atividade com pessoas que responda à exigência.
 - [ ] Fazer contato exploratório com a Secretaria Municipal de Saúde de Guaraí para avaliar contexto e possibilidade de parceria; não pressupor aceite.
 - [ ] Definir tarefas simuladas, elegibilidade, convite, consentimento, dados necessários e plano de análise, caso haja pesquisa com pessoas.
 - [ ] Verificar formalmente autorizações institucionais e apreciação ética aplicável.
@@ -101,12 +101,12 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 4 — Protocolo e avaliação (P1)
 
-- [ ] Definir primeiro a técnica principal de identificação de necessidades e o modo de revisar uma representação simples do produto.
-- [ ] Definir tarefas padronizadas relacionadas aos passos simulados (por exemplo, preparar o dispositivo; entrar na sala fictícia; reagir à ausência de áudio; pedir repetição; confirmar os próximos passos) apenas se a avaliação de usabilidade autônoma for mantida.
+- [ ] Priorizar requisitos derivados da literatura e de soluções existentes; só definir técnica com participantes se a orientação indicar necessidade.
+- [ ] Manter tarefas de usabilidade com pessoas fora do plano inicial; prepará-las apenas se a orientação solicitar essa avaliação.
 - [ ] Definir previamente critérios de conclusão, erros relevantes, necessidade de ajuda e compreensão da instrução.
 - [ ] Escolher instrumentos de usabilidade com justificativa; não assumir que questionários de uma plataforma real são automaticamente válidos para um simulador breve.
 - [ ] Planejar análise descritiva e registro qualitativo proporcional ao escopo.
-- [ ] Caso participantes sejam incluídos, realizar as etapas somente após aprovação. Caso contrário, manter a avaliação técnica/pedagógica e explicitar a limitação.
+- [ ] Executar avaliação documental, técnica, pedagógica e de acessibilidade sem participantes; se a orientação exigir pessoas, revisar protocolo e autorizações antes de iniciar.
 - [ ] Preservar rastreabilidade requisito → evidência → implementação → teste → resultado.
 
 ## Fase 5 — Engenharia e entrega (P2)
