@@ -101,7 +101,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 ## Fase 3 — Produto, conteúdo e acessibilidade (P1)
 
 - [x] Reestruturar o protótipo em três etapas: antes; durante, com três cenários selecionáveis; encerrar/confirmar próximos passos.
-- [x] Acrescentar em cada cenário uma tarefa de escolha e feedback acolhedor; a revisão pedagógica com a orientação ainda está pendente.
+- [x] Acrescentar em cada cenário uma tarefa de escolha e feedback acolhedor; revisão editorial documental registrada, com revisão pela orientação e teste manual ainda pendentes.
 - [ ] Garantir que exemplos, nome de serviço, link, data e profissionais sejam fictícios; não imitar portal oficial real de modo enganoso.
 - [ ] Evitar pedir informações pessoais ou clínicas; nenhuma resposta deve ser enviada ou armazenada.
 - [ ] Testar navegação por teclado, foco, mensagens dinâmicas, movimento reduzido, contraste, larguras de tela e ampliação; registrar resultados no roteiro de auditoria.
@@ -219,7 +219,8 @@ A exportação PDF foi usada apenas para verificação; o artefato principal con
 1. [ ] Executar as buscas bibliográficas nas bases oficiais e registrar estratégias realmente submetidas, contagens, exportações e triagem.
 2. [ ] O desenvolvedor seguir o tutorial e registrar os resultados locais de `npm test`, versão de Node.js, sistema operacional e commit.
 3. [ ] Executar a auditoria manual de teclado/foco, zoom/reflow, leitores de tela, estados visuais e Network/Application, registrando cada caso sem presumir sucesso.
-4. [ ] Revisar editorialmente as instruções e feedbacks de cada cenário à luz da literatura e dos critérios do mapa de objetivos.
+4. [x] Revisar editorialmente as instruções e feedbacks dos três cenários à luz dos objetivos e das fontes já documentadas; ver [registro](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+5. [ ] Executar testes de regressão automatizados e auditoria manual do fluxo após as mudanças de texto no HTML/JavaScript.
 5. [ ] Decidir, após revisão pedagógica, se o encerramento precisa de uma tarefa interativa mínima para OE-05; não implementar automaticamente sem justificativa.
 6. [ ] Confirmar com a orientação se o desenho inicial sem participantes atende aos requisitos do curso.
 
@@ -261,3 +262,20 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 - [ ] Confirmar com a orientação se o desenho sem participantes atende aos requisitos do mestrado.
 
 **Limite:** esta rodada é uma revisão editorial e técnica; não prova compreensão pelo público-alvo nem eficácia educativa. A etapa “Encerrar” permanece estática e não foi ampliada.
+
+
+## Atualização — revisão editorial dos cenários e fortalecimento do anteprojeto (20/10/2026)
+
+- [x] Revisar os textos e feedbacks de OE-02 (link), OE-03 (áudio) e OE-04 (informação não compreendida), reforçando ações concretas, tom não punitivo, canais oficiais conhecidos e limites não clínicos.
+- [x] Atualizar os textos da interface em `produto/index.html` e os feedbacks dos cenários/controles fictícios em `produto/app.js`.
+- [x] Atualizar o mapa de objetivos e o registro editorial, mantendo OE-05 como conteúdo estático e decisão de escopo em aberto.
+- [x] Fortalecer a justificativa do anteprojeto-base e do anteprojeto-modelo: a revisão de Galvin et al. (2024) não comprova eficácia do protótipo; Digital House Calls já é um recurso autoguiado, portanto antes/durante/depois não será alegado como diferencial exclusivo.
+- [x] Atualizar o README e este roadmap para apontar ao registro editorial.
+
+**Pendências após a alteração do código:**
+- [ ] Executar `npm test` conforme o [tutorial](docs/tutorial-instalar-e-testar-prototipo.md) e registrar o commit efetivamente testado; não há resultado novo de teste confirmado nesta rodada.
+- [ ] Conferir o fluxo manualmente, inclusive foco e mensagens anunciadas por leitor de tela.
+- [ ] Executar a busca bibliográfica formal nas bases oficiais; contagens/exportações permanecem pendentes.
+- [ ] Discutir com a orientação se a avaliação sem participantes atende aos requisitos do curso.
+
+**Limite:** revisão editorial e atualização de texto não são validação com usuários, não demonstram compreensão do público-alvo e não comprovam eficácia educativa.
