@@ -88,7 +88,7 @@
   });
 
   document.getElementById("simulate-enter").addEventListener("click", () => {
-    document.getElementById("entry-room-feedback").textContent = "Você entrou na sala de treino fictícia. Nenhuma conexão real foi iniciada e nenhum microfone ou câmera está ativo.";
+    document.getElementById("entry-room-feedback").textContent = "Nesta situação fictícia, o acesso continua indisponível. Confira a conexão e o link oficial; se o problema persistir, use o contato oficial já conhecido. Nenhuma conexão real foi aberta.";
   });
   document.getElementById("simulate-audio").addEventListener("click", () => {
     document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Se ainda não ouvir, avise a pessoa profissional.";
