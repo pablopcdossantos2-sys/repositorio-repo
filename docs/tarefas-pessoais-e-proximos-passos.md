@@ -1,6 +1,6 @@
 # Guia operacional das tarefas pessoais do projeto
 
-**Projeto:** Telessaúde Guaraí / Conversa Clara  
+**Projeto:** Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital  
 **Versão:** 1.0 — 19/10/2026  
 **Público:** pessoa responsável por conceber, executar e documentar o projeto  
 **Status:** roteiro de execução; não representa autorização acadêmica, institucional ou ética.
@@ -9,18 +9,23 @@ Este guia reúne as ações que exigem decisão, contato, julgamento ou presenç
 
 ## Enquadramento atual do projeto
 
-- **Linha de pesquisa selecionada:** 2) Tecnologias para Educação em Saúde.
-- **Tipo de projeto selecionado:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
-- **Título de trabalho:** “Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações”.
+- **Tema escolhido:** Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital.
+- **Linha de pesquisa:** 2) Tecnologias para Educação em Saúde.
+- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Título de trabalho:** “Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo para adultos com baixa familiaridade digital”.
+- **Objetivo:** apoiar a prática guiada de etapas digitais básicas de uma teleconsulta por meio de uma interface acessível e fictícia.
+- **Escopo:** preparar aparelho/ambiente, praticar a entrada e participação numa sala virtual fictícia e ensaiar o encerramento/confirmar próximos passos.
+- **Status do cenário:** Guaraí-TO é apenas uma possibilidade de articulação; parceria e acesso ao campo não estão confirmados.
+- **Decisões metodológicas pendentes:** operacionalização não estigmatizante de “baixa familiaridade digital”, objetivos de aprendizagem, tarefas, critérios de êxito, instrumentos e análise.
 
-A linha e o tipo de projeto foram selecionados, mas o tema final está em aberto. Compare as cinco opções em [docs/criterios-edital-e-cinco-temas.md](criterios-edital-e-cinco-temas.md) e confirme com a orientação a aderência do tema escolhido ao edital e ao prazo. A atividade educativa do tema atual é demonstrativa; a avaliação de compreensão imediata não será apresentada como prova de aprendizagem duradoura nem de eficácia clínica.
+As outras opções de tema permanecem no documento comparativo apenas como histórico. Não desenvolver funcionalidades nem redigir partes do anteprojeto para os temas descartados. A avaliação em tarefas simuladas não será apresentada como prova de aprendizagem duradoura, maior adesão, acesso efetivo ou eficácia clínica.
 
 ## Antes de começar: regras que valem para todas as etapas
 
 1. **Não marque uma tarefa como concluída apenas porque existe um plano.** Guarde uma evidência verificável: estratégia de busca executada, e-mail enviado, ata, parecer, relatório de teste ou decisão escrita.
 2. **Não recrute pessoas, entreviste, pilote instrumentos ou colete dados para pesquisa antes de confirmar com a orientação e as instâncias competentes quais aprovações são exigidas e de obtê-las.** Uma conversa exploratória com a gestão do serviço deve ficar restrita à viabilidade e aos procedimentos, sem coleta de dados de pacientes.
 3. **Não publique dados pessoais, dados de saúde, consentimentos preenchidos, gravações, transcrições identificáveis, credenciais ou documentos internos no GitHub.** O repositório é voltado a código, documentos científicos e resultados que possam ser divulgados.
-4. **Não apresente o protótipo como sistema oficial, ferramenta clínica validada ou solução que melhora desfechos de saúde.** O cenário atual é demonstrativo; o nome “Conversa Clara” é provisório.
+4. **Não apresente o protótipo como sistema oficial, ferramenta clínica validada ou solução que melhora desfechos de saúde.** O simulador é demonstrativo e fictício; não é um serviço real nem uma ferramenta clínica validada.
 5. **Registre decisões e mudanças de método.** Se uma escolha for alterada — cenário real para simulado, população, instrumento, recrutamento ou análise — explique a razão e confirme se o protocolo e as aprovações precisam ser atualizados.
 
 ## Visão geral da ordem de execução
@@ -123,7 +128,7 @@ Outra pessoa consegue refazer as buscas com a string e os filtros registrados; c
 
 **Evidência:** matriz de evidências atualizada, DOI/URL verificável e bibliografia consistente.
 
-## Tarefa 5 — Consultar a Secretaria Municipal de Saúde de Guaraí
+## Tarefa 5 — Avaliar possível campo com a Secretaria Municipal de Saúde de Guaraí
 
 **Objetivo:** saber se o cenário é viável, sem presumir parceria e sem iniciar pesquisa.
 
@@ -167,7 +172,7 @@ Trabalhe em docs/protocolo-preliminar-avaliacao.md até que cada item provisóri
 - **Interrupção e suporte:** estabelecer o que fazer se a pessoa cansar, se incomodar ou pedir para parar, de acordo com o protocolo aprovado.
 - **Limites:** não inferir eficácia clínica, melhora causal da continuidade do cuidado ou representatividade populacional a partir de teste breve de usabilidade.
 
-## Tarefa 8 — Revisar linguagem e conteúdo do protótipo
+## Tarefa 8 — Revisar o treino simulado e seus objetivos de aprendizagem
 
 1. Percorra as três etapas e marque frases ambíguas, termos técnicos, instruções longas e botões cujo efeito não esteja claro.
 2. Confirme que o conteúdo é fictício e está identificado como demonstração. Não insira orientação médica real improvisada como se fosse clinicamente correta.
@@ -176,7 +181,7 @@ Trabalhe em docs/protocolo-preliminar-avaliacao.md até que cada item provisóri
 5. Confira no celular se a informação essencial não depende apenas de cor, áudio ou ícones.
 6. Registre mudanças propostas e solicite confirmação de que refletem o escopo autorizado.
 
-## Tarefa 9 — Fazer testes manuais de acessibilidade e usabilidade
+## Tarefa 9 — Fazer testes manuais de acessibilidade e usabilidade do simulador de teleconsulta
 
 Os 17 testes automatizados registrados no GitHub não substituem experiência manual com navegador, dispositivos ou tecnologia assistiva. Use também docs/como-executar-testes.md e docs/relatorio-revisao-tecnica.md.
 
@@ -280,7 +285,7 @@ Use “Bloqueada” quando a próxima ação depender de decisão, aprovação o
 
 ## Documentos de apoio
 
-- [Critérios do edital e cinco temas candidatos](criterios-edital-e-cinco-temas.md)
+- [Critérios do edital e decisão de tema](criterios-edital-e-seis-temas.md)
 - [Anteprojeto organizado conforme o modelo da UERJ](anteprojeto-modelo-uerj.md)
 - [Carta de exposição de motivos](carta-exposicao-de-motivos.md)
 - [Declaração de conhecimento da Deliberação nº 13/2023](declaracao-conhecimento-deliberacao-13-2023.md)
