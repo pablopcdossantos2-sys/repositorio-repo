@@ -43,5 +43,7 @@ jobs:
             echo "Lockfile is already up to date."
           else
             git commit -m "build: regenerate npm lockfile"
+            git fetch origin main
+            git rebase origin/main
             git push origin HEAD:main
           fi
