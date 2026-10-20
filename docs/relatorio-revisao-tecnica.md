@@ -121,3 +121,23 @@ Após as correções, a validação de HTML, os testes estáticos e os 16 testes
 Também foi adicionado `package.json` com versões diretas de ferramentas de desenvolvimento fixadas, `.nvmrc` com Node.js 24, `package-lock.json` v3 com a árvore de dependências transitivas e [instruções para executar as verificações localmente](como-executar-testes.md). A CI foi alterada para `npm ci`, usando o lockfile versionado. O [run 39358531889](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39358531889) concluiu com sucesso, incluindo validação de sintaxe, checagens estáticas, validação HTML e **17 testes Playwright/axe-core aprovados**.
 
 As ações `actions/checkout` e `actions/setup-node` foram atualizadas para a série v7, baseada em runtime Node 24, removendo a dependência das versões antigas que geravam alerta sobre Node 20.
+
+
+## Atualização de alinhamento ao tema escolhido — 20/10/2026
+
+Após a escolha exclusiva de **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**, a interface foi reorientada para três momentos de treino: preparação do aparelho e ambiente; situação fictícia de sala virtual, com ações interativas de entrada, conferência de áudio e comunicação da dificuldade; e encerramento, com pedido de esclarecimento e confirmação dos próximos passos.
+
+Os controles da sala são apenas demonstrativos: não abrem conexão real, não ativam microfone/câmera e não enviam mensagens. A página declara os limites de uso assistencial e não solicita dados pessoais ou clínicos. Foram adicionados testes que verificam a identidade visual do tema, as três etapas, o cenário de áudio simulado e a resposta dos controles fictícios.
+
+### Verificação automatizada após as mudanças
+
+- **Data:** 20/10/2026.
+- **Commit testado:** `21ee2dedef487c8f3f34fe571c467fc574643a01`.
+- **Resultado da CI:** sucesso, [execução GitHub Actions nº 39366925143](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39366925143).
+- **Verificações estáticas:** 15 concluídas.
+- **Testes de navegador e axe-core:** 19 passaram; nenhum falhou nessa execução.
+- **Validação do HTML, sintaxe JavaScript, instalação limpa e instalação do Chromium:** concluídas com sucesso nessa execução.
+
+### Limites ainda pendentes
+
+Essa CI valida o código e os fluxos automatizados do commit indicado; não substitui teste manual com teclado, leitor de tela, zoom, celulares e navegadores reais. Não é validação pedagógica com participantes e não comprova eficácia educativa, aprendizagem duradoura nem melhoria de participação em teleconsultas reais. A inspeção manual permanece pendente no [issue #2 — Testes manuais de acessibilidade do Treino de Teleconsulta](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/2). A avaliação com pessoas segue condicionada à definição do protocolo e às aprovações aplicáveis.
