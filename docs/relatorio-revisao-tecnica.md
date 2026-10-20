@@ -89,8 +89,8 @@ Foi adicionada uma suíte Playwright com axe-core em `tests/prototype.spec.js`, 
 ### Resultados
 
 - **Verificações estáticas:** 14 verificações passaram no workflow [39355380708](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355380708), incluindo sintaxe JavaScript, referências locais, IDs, alvos ARIA, movimento reduzido e cálculo de contraste do foco.
-- **Testes de navegador e axe-core:** 15 testes passaram no workflow [39355695848](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355695848).
-- Os cenários incluem estado inicial e painéis ocultos, atualização/limpeza do checklist, foco depois da navegação, feedback de compreensão, seleção única de nota, reinicialização completa, ausência de rolagem horizontal no estado inicial em viewports de 320, 360, 390, 768 e 1280 pixels CSS e navegação com movimento reduzido.
+- **Testes de navegador e axe-core:** 16 testes passaram no workflow [39355833032](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355833032), incluindo o novo teste de navegação por teclado. A execução anterior, com 15 testes, também passou no workflow [39355695848](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355695848).
+- Os cenários incluem estado inicial e painéis ocultos, navegação por Tab e ativação por Enter, atualização/limpeza do checklist, foco depois da navegação, feedback de compreensão, seleção única de nota, reinicialização completa, ausência de rolagem horizontal no estado inicial em viewports de 320, 360, 390, 768 e 1280 pixels CSS e navegação com movimento reduzido.
 - axe-core foi executado nos três estados da interface com tags WCAG 2.1/2.2 A/AA. As três varreduras terminaram sem violações reportadas por essas regras automatizadas.
 
 ### Achado e correção aplicados
