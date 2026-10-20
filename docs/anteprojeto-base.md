@@ -66,7 +66,7 @@ Se a avaliação com participantes não for viável ou autorizada no prazo, a di
 
 Simulador web responsivo com três módulos:
 - **Antes da teleconsulta:** preparação do dispositivo, conexão, ambiente e dúvidas, sem solicitar dados pessoais ou clínicos.
-- **Durante — sala virtual fictícia:** prática guiada de entrada e reconhecimento de controles, com cenário de problema técnico simples e escolha de uma ação segura.
+- **Durante — três cenários fictícios:** (a) o link não abre; (b) a pessoa não consegue ouvir; (c) uma informação não ficou clara. Cada cenário apresenta escolhas e feedback específico para praticar ações seguras sem conexão real.
 - **Ao encerrar:** prática de pedir esclarecimentos, confirmar próximos passos e procurar canal oficial quando necessário.
 
 Todos os nomes, links, mensagens e cenários serão fictícios. O protótipo não terá login, integração com prontuários, IA, transmissão ou armazenamento de respostas, áudio/vídeo real, diagnóstico ou prescrição.
