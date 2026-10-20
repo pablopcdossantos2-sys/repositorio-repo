@@ -1,90 +1,87 @@
-# Especificação do produto mínimo — solução de educação em saúde
+# Especificação do produto mínimo — Treino de Teleconsulta
 
 ## Propósito
 
-Construir o menor protótipo útil para investigar uma solução digital de educação em saúde: apoiar adultos na preparação para atendimentos de telessaúde, na compreensão de mensagens educativas fictícias apresentadas em linguagem clara e na identificação de próximos passos descritos no cenário.
+Criar um **simulador educativo digital** em que adultos com baixa familiaridade digital possam praticar ações básicas de participação em uma teleconsulta, sem ingressar em um atendimento real. O produto precisa ensinar por meio de passos práticos, não apenas apresentar um texto informativo.
 
 ## Enquadramento acadêmico
 
-- **Linha de pesquisa:** Tecnologias para Educação em Saúde.
-- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
-- **Objetivo educativo inicial:** tornar mais fácil localizar e compreender informação demonstrativa em saúde; a avaliação de uma resposta imediata não será tratada como evidência de aprendizagem duradoura.
+- **Tema escolhido:** Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital.
+- **Linha:** 2) Tecnologias para Educação em Saúde.
+- **Tipo:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Público de interesse:** adultos com baixa familiaridade digital; a definição operacional e a elegibilidade ainda precisam ser estabelecidas com a orientação.
+- **Objetivo educativo preliminar:** permitir a prática guiada de tarefas digitais associadas ao antes, durante e encerramento de uma teleconsulta.
+- **Limite de inferência:** concluir uma tarefa simulada ou acertar uma pergunta não comprova aprendizagem duradoura nem competência para todas as situações reais.
 
-## Decisões de escopo
+## Princípios de design
 
-- Aplicação web responsiva, utilizável em celular e computador.
-- Sem integração com prontuários ou outros sistemas clínicos.
-- Sem inteligência artificial.
-- Sem contas de usuário na primeira versão, salvo se a avaliação demonstrar necessidade e houver justificativa de privacidade.
-- Sem armazenamento de dados clínicos identificáveis.
-- Sem diagnóstico, prescrição, recomendação clínica autônoma ou alteração de tratamento.
-- Conteúdo de orientação deve ser fictício para testes ou fornecido/validado por profissional responsável.
-- O produto é um protótipo de pesquisa, não um sistema pronto para uso assistencial.
+- Uma instrução principal por tela, frases curtas, termos concretos e explicação de palavras técnicas.
+- Passos visíveis, progressão previsível, opções claras de voltar e reiniciar.
+- Feedback respeitoso e orientado para a ação, sem culpar a pessoa por erros.
+- Leitura fácil em celular, alvos de toque generosos, foco de teclado visível, suporte a tecnologia assistiva e movimento reduzido.
+- Não inferir incapacidade de uma pessoa por idade, escolaridade ou diagnóstico.
+- Não pedir dados pessoais, contato, sintomas, medicamentos, documentos ou identificadores.
+- Todos os serviços, links, pessoas, avisos e problemas simulados são fictícios e não devem imitar uma plataforma oficial real.
 
 ## Fluxo principal
 
-1. Tela inicial com explicação breve sobre a finalidade e os limites do protótipo.
-2. Módulo “Preparar minha consulta”: checklist local de dúvidas e perguntas; permitir marcar itens concluídos.
-3. Módulo “Entender as orientações”: apresentar um exemplo educativo fictício em linguagem clara e uma atividade demonstrativa para que o usuário identifique a mensagem principal.
-4. Módulo “Meus próximos passos”: organizar os passos descritos no cenário fictício, sem prescrever condutas nem emitir alertas clínicos.
-5. Tela final de avaliação com perguntas sobre clareza, facilidade de uso e pontos de dificuldade.
+1. **Tela inicial:** explica que é treino simulado, sem conexão com serviço real, sem coleta de dados, e permite iniciar ou rever as instruções.
+2. **Antes da teleconsulta:** oferece checklist de preparação do aparelho, conexão, ambiente com privacidade e perguntas que a pessoa quer lembrar.
+3. **Durante — sala virtual fictícia:** apresenta passos de acesso e de reconhecimento dos controles; uma situação simulada (por exemplo, “não consigo ouvir”) pede que a pessoa escolha como proceder com segurança.
+4. **Ao encerrar:** a pessoa pratica como pedir repetição/esclarecimento, confirmar os próximos passos que foram apresentados no cenário e procurar canal oficial se a dúvida permanecer.
+5. **Reiniciar:** limpa escolhas e feedbacks locais e devolve o foco ao título inicial.
 
 ## Requisitos funcionais mínimos
 
-- RF-01: apresentar claramente a finalidade e os limites do protótipo.
-- RF-02: permitir navegar entre os três módulos sem criar conta.
-- RF-03: permitir interagir com um checklist de preparação.
-- RF-04: apresentar conteúdo educativo fictício em linguagem simples no cenário demonstrativo.
-- RF-05: organizar próximos passos de forma legível.
-- RF-06: permitir reiniciar a demonstração e limpar o conteúdo inserido na sessão.
-- RF-07: oferecer um modo de demonstração com dados fictícios para testes.
-- RF-08: não coletar nem transmitir dados clínicos identificáveis na versão inicial.
-- RF-09: oferecer uma atividade demonstrativa de compreensão, com feedback claro e sem sugerir diagnóstico ou prescrição.
+- **RF-01:** apresentar finalidade, natureza simulada e limites antes das atividades.
+- **RF-02:** permitir navegar entre as etapas por teclado, mouse e toque.
+- **RF-03:** oferecer checklist simples de preparação, sem solicitar informações identificáveis.
+- **RF-04:** simular a entrada em uma sala virtual fictícia por instruções visíveis; nenhum link real será aberto.
+- **RF-05:** propor ao menos uma decisão educativa diante de uma dificuldade técnica simulada.
+- **RF-06:** oferecer uma prática de comunicação, como pedir que uma informação seja repetida ou confirmar um próximo passo.
+- **RF-07:** fornecer feedback simples, respeitoso e explicativo para cada escolha relevante.
+- **RF-08:** permitir reiniciar a sessão local e limpar todas as escolhas/feedbacks.
+- **RF-09:** não coletar, armazenar ou transmitir respostas ou dados pessoais/clínicos.
+- **RF-10:** manter todo conteúdo demonstrativo explicitamente fictício e sem instrução clínica individual.
 
 ## Requisitos de qualidade e acessibilidade
 
-- Interface responsiva, com navegação consistente.
-- Linguagem simples, frases curtas e instruções explícitas.
-- Contraste adequado, foco de teclado visível e rótulos claros.
-- Alvos de interação confortáveis em telas pequenas.
-- Não depender apenas de cor para comunicar estado.
-- Informar limitações e não usar mensagens que pareçam diagnóstico ou prescrição.
-- Testar com usuários de diferentes níveis de familiaridade digital.
+- Interface responsiva e utilizável em telas pequenas.
+- Linguagem clara, instruções diretas e uma tarefa principal por etapa.
+- Contraste adequado, foco visível, títulos estruturados, controles identificáveis e mensagens de estado acessíveis.
+- Estado não indicado apenas por cor; navegação e mensagens consistentes.
+- Funcionamento sem dependências externas em tempo de uso.
+- Consideração de baixo consumo de dados e tolerância a pausas/interrupções.
+- Inspeção técnica e revisão pedagógica; nenhuma alegação de conformidade integral sem testes adequados.
 
 ## Fora do escopo da primeira versão
 
-- Integração com prontuário eletrônico ou sistemas de telemedicina.
-- Login, cadastro de paciente ou armazenamento em nuvem.
-- Inteligência artificial, chatbot clínico ou sumarização automática de consultas.
-- Envio de lembretes por SMS, WhatsApp ou e-mail.
-- Prescrição, triagem clínica, diagnóstico ou recomendação de conduta.
-- Painel administrativo complexo.
-- Publicação como aplicativo nativo nas lojas.
+- Teleconsulta ao vivo, áudio/vídeo, chat com profissional ou agendamento real.
+- Integração com prontuário, portal, login ou sistema oficial.
+- Uso de IA, chatbot clínico ou análise automática de dados.
+- Coleta de nome, CPF, contato, sintomas, diagnóstico, medicamentos ou prontuário.
+- Diagnóstico, triagem, prescrição, recomendação de tratamento ou alteração de conduta.
+- Alertas clínicos, lembretes de atendimento real ou acompanhamento de pacientes.
+- Publicação como produto validado ou oficial do SUS.
 
 ## Avaliação proposta
 
-Tarefas exemplificativas:
-1. Encontrar e marcar perguntas para levar ao atendimento.
-2. Localizar o exemplo educativo e explicar com suas próprias palavras a mensagem principal.
-3. Identificar o próximo passo descrito no cenário fictício.
-4. Informar qual parte do conteúdo ou da interface foi confusa ou difícil.
+As tarefas candidatas incluem:
+1. Identificar itens básicos de preparação do dispositivo e ambiente.
+2. Seguir as instruções para entrar numa sala virtual fictícia.
+3. Diante de um cenário sem áudio, escolher uma ação apropriada (por exemplo, conferir o controle visível ou avisar que não consegue ouvir, em vez de abandonar a sessão sem comunicar).
+4. Praticar um pedido para repetir ou esclarecer uma informação.
+5. Localizar e confirmar os próximos passos que o cenário apresentou.
+6. Reiniciar a experiência e verificar que as escolhas foram limpas.
 
-A resposta imediata serve como indicador de compreensão daquela tarefa, não como medida suficiente de aprendizagem duradoura.
+Indicadores candidatos: conclusão de tarefa, erro/ação inesperada, necessidade de ajuda, compreensão da instrução, facilidade percebida e sugestões de melhoria. Tarefas, rubrica, instrumentos e plano de análise precisam ser definidos previamente no protocolo.
 
-Indicadores candidatos:
-- tarefa concluída sem ajuda;
-- erro ou interpretação incorreta;
-- necessidade de assistência;
-- clareza percebida;
-- sugestões qualitativas de melhoria.
+## Critério de pronto para avaliação técnica
 
-Os instrumentos, tarefas, critérios de êxito e procedimento de coleta deverão ser definidos no protocolo acadêmico e submetidos às aprovações aplicáveis antes da pesquisa com participantes.
-
-## Critério de pronto para avaliação
-
-O protótipo pode avançar para testes quando:
-- os três módulos funcionarem em celular e computador;
-- todos os exemplos forem fictícios ou formalmente validados para o estudo;
-- não houver coleta de dados identificáveis desnecessários;
-- a linguagem e os limites clínicos estiverem claros;
-- as tarefas de avaliação e o procedimento de reinicialização estiverem documentados.
+- As etapas têm objetivo educativo e instrução clara.
+- Os cenários não parecem serviço oficial nem convidam à inserção de dados reais.
+- Os fluxos funcionam por mouse, toque e teclado.
+- Foco, mensagens de estado, contraste, zoom e larguras pequenas foram inspecionados.
+- A reinicialização limpa estados locais e retorna o foco corretamente.
+- Os critérios de êxito e os instrumentos propostos são coerentes com o protocolo.
+- Qualquer atividade com participantes está bloqueada até a confirmação das aprovações aplicáveis.
