@@ -4,17 +4,17 @@
 
 ## 1. Finalidade
 
-Planejar, de forma preliminar, o desenvolvimento e a avaliação proporcional de um simulador web em ambiente fictício. À luz das preferências metodológicas mais recentes, a prioridade passa a ser identificar necessidades e revisar uma representação simples da solução; a avaliação técnica ocorre sem participantes, e eventual teste autônomo de usabilidade é complementar e condicionado. O estudo não avalia a eficácia de uma consulta real.
+Planejar o desenvolvimento de um simulador web fictício e sua avaliação documental, técnica, pedagógica e de acessibilidade sem participantes como plano inicial. A inclusão de entrevistas, codesenho ou teste com pessoas será considerada somente se a orientação acadêmica indicar que é necessária, após verificar viabilidade e autorizações aplicáveis. O estudo não avalia a eficácia de uma consulta real.
 
 ## 2. Pergunta de pesquisa de trabalho
 
-Quais necessidades, barreiras e preferências de adultos com baixa familiaridade digital devem orientar um simulador educativo para praticar etapas básicas de uma teleconsulta? Se houver acesso e aprovações aplicáveis, uma etapa complementar poderá examinar a revisão de uma representação simples do produto e, posteriormente, tarefas autônomas no protótipo.
+Como desenvolver e revisar tecnicamente um protótipo educativo simples para praticar etapas básicas de uma teleconsulta, com base em literatura, soluções existentes e critérios pedagógicos e de acessibilidade? Se a orientação solicitar dados diretos de pessoas, a pergunta e o protocolo serão revistos antes de qualquer atividade.
 
 A pergunta definitiva, a operacionalização do público e a inclusão de participantes ainda precisam ser discutidas com a orientação. A pesquisa não deve presumir que todos os usuários com baixa familiaridade digital tenham as mesmas dificuldades.
 
 ## 3. Objetivo geral de avaliação
 
-Identificar necessidades relevantes para o produto e traduzi-las em requisitos e decisões de design para o protótipo Treino de Teleconsulta. A usabilidade e o desempenho em tarefas ficam como avaliação complementar, condicionada à viabilidade e às aprovações aplicáveis.
+Desenvolver um protótipo simples fundamentado em evidências documentais e verificar sua coerência técnica, pedagógica, de linguagem e acessibilidade sem participantes. Atividades com pessoas são condicionais e não integram o plano inicial.
 
 ## 4. Objetivos específicos de avaliação
 
@@ -27,7 +27,7 @@ Identificar necessidades relevantes para o produto e traduzi-las em requisitos e
 
 ### Prioridade metodológica revisada
 
-A preferência de trabalho é uma combinação enxuta: (1) identificar necessidades por uma técnica principal a definir com a orientação; (2) revisar com o público uma representação simples ou protótipo de baixa fidelidade, se houver acesso e aprovações. A auditoria técnica/pedagógica sem participantes pode avançar de modo independente. A avaliação de usabilidade autônoma do protótipo funcional é complementar, não requisito central neste momento. A viabilidade de acesso permanece incerta; não há campo, parceria, aprovação ou amostra confirmados.
+**Plano mínimo inicial sem participantes:** (1) revisão bibliográfica e análise de soluções existentes; (2) definição de objetivos educativos e requisitos rastreáveis; (3) desenvolvimento/revisão de protótipo simples; (4) auditoria técnica, pedagógica, de linguagem e acessibilidade. Acesso ao público, campo, parceria, aprovação e amostra não estão confirmados. Só acrescentar identificação de necessidades ou teste com pessoas se a orientação acadêmica indicar que é necessário e após verificar viabilidade e autorizações.
 
 
 
@@ -43,7 +43,7 @@ Pode ser preparada antes de qualquer coleta:
 
 A Camada 0 pode documentar a qualidade técnica e a consistência do design, mas não permite afirmar que pessoas com baixa familiaridade digital compreenderão ou conseguirão usar o simulador.
 
-### Camada 1 — com participantes, condicionada a aprovações
+### Camada 1 — com participantes, somente se solicitada pela orientação e condicionada a aprovações
 
 Se viável e aprovado:
 - definir com a orientação elegibilidade, recrutamento, amostra, consentimento e salvaguardas;
@@ -52,7 +52,7 @@ Se viável e aprovado:
 - registrar apenas dados necessários e previstos no protocolo;
 - interromper ou adaptar uma sessão se a pessoa demonstrar desconforto, sem consequências sobre o atendimento que recebe.
 
-Se essa camada não for possível no prazo, ampliar a auditoria e o benchmark da Camada 0 e explicitar que não houve avaliação empírica com usuários.
+A Camada 0 é o plano inicial. Se a orientação não exigir participantes, concluir a auditoria e o benchmarking e declarar que não houve avaliação empírica com usuários. Se exigir, definir a atividade mínima necessária antes de revisar o protocolo.
 
 ## 6. Tarefas candidatas
 
@@ -122,10 +122,10 @@ A avaliação do protótipo pode indicar problemas de interface, acessibilidade,
 
 1. Discutir a pergunta principal: necessidades e requisitos para orientar o desenvolvimento do produto.
 2. Completar busca bibliográfica e comparação com soluções existentes.
-3. Investigar acesso ao público e escolher a técnica principal de identificação de necessidades e o formato de revisão de protótipo simples.
+3. Confirmar com a orientação se o plano inicial sem participantes atende aos requisitos; somente se necessário, investigar acesso ao público e definir a atividade mínima necessária.
 4. Realizar auditoria técnica/pedagógica sem participantes.
 5. Verificar campo, autorizações e necessidade de apreciação ética antes de qualquer atividade com pessoas.
-6. Manter o teste de usabilidade autônoma como etapa complementar, a decidir após avaliação de prazo e viabilidade.
+6. Não incluir teste com participantes no plano inicial; reavaliar apenas se a orientação indicar necessidade.
 
 ## 14. Rubrica candidata para auditoria técnica/pedagógica (Camada 0)
 
