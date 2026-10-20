@@ -55,7 +55,7 @@ Todos os nomes, mensagens e situações devem permanecer fictícios e não devem
 
 ## 4. Evidências e pesquisa bibliográfica: estado real
 
-Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`docs/roteiro-auditoria-tecnica-sem-participantes.md`) e documentação de estudos e recomendações de acessibilidade. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
+Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`docs/roteiro-auditoria-tecnica-sem-participantes.md`), um mapa preliminar de objetivos educativos/tarefas (`docs/mapa-objetivos-educativos-e-tarefas.md`) e documentação de estudos e recomendações de acessibilidade. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
 
 Continuam pendentes:
 - executar e documentar buscas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO;
@@ -85,7 +85,7 @@ Quando o código ou os fluxos mudarem:
 2. Executar a busca bibliográfica reproduzível e concluir o benchmarking.
 3. Conferir o edital e o modelo institucional vigentes.
 4. Harmonizar pergunta, objetivos, método, produto, título e expectativa de resultado nos documentos do anteprojeto.
-5. Definir objetivos educativos observáveis e ligar cada objetivo a uma tarefa e a um critério de verificação.
+5. Revisar os objetivos educativos preliminares e ligar cada objetivo a uma tarefa e a um critério de verificação.
 
 ### P1 — Produto e avaliação técnica sem participantes
 6. Revisar conteúdo e fluxo, preservando o escopo enxuto e fictício.
@@ -150,6 +150,6 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 ## 10. Histórico desta consolidação
 
-- **20/10/2026:** registrada a diretriz de começar com um projeto simples, sem ou com pouca interação com pessoas; a inclusão de teste com pessoas fica condicionada à orientação acadêmica. O guia foi criado e vinculado no README, nos roadmaps e nos documentos metodológicos; anteprojeto-modelo, guia de tarefas pessoais, especificação do produto e protocolo preliminar foram harmonizados para não tratar participação de pessoas como etapa inicial. Também foram acrescentados um benchmark exploratório de recursos públicos (Digital House Calls, TelessaúdeBA, HHS, NCFH e WHO/ITU) e um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes. As buscas oficiais, a execução da auditoria e o aprofundamento do benchmark continuam pendentes.
+- **20/10/2026:** registrada a diretriz de começar com um projeto simples, sem ou com pouca interação com pessoas; a inclusão de teste com pessoas fica condicionada à orientação acadêmica. O guia foi criado e vinculado no README, nos roadmaps e nos documentos metodológicos; anteprojeto-modelo, guia de tarefas pessoais, especificação do produto e protocolo preliminar foram harmonizados para não tratar participação de pessoas como etapa inicial. Também foram acrescentados um benchmark exploratório de recursos públicos (Digital House Calls, TelessaúdeBA, HHS, NCFH e WHO/ITU) um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes e um mapa preliminar de objetivos educativos/tarefas. As buscas oficiais, a execução da auditoria e o aprofundamento do benchmark continuam pendentes.
 
 **Ao alterar esta diretriz no futuro:** editar a data e o histórico acima, resumir o que mudou e atualizar os documentos dependentes. Não apagar decisões anteriores necessárias para entender por que o escopo foi alterado.
