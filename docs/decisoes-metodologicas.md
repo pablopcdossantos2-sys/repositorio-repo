@@ -90,11 +90,11 @@ Princípios a considerar:
 - decidir se o estudo precisa incluir pessoas com diferentes níveis de experiência ou se deve se concentrar num perfil mais específico;
 - utilizar perguntas ou tarefas de triagem apenas se justificadas, proporcionais e previstas no protocolo.
 
-Não definir agora critérios finais de inclusão/exclusão, número de participantes ou local. Essas decisões dependem da pergunta final, do método de codesenho escolhido, da viabilidade de campo e da orientação.
+Como não há participantes no plano inicial, não definir agora critérios de inclusão/exclusão, número de participantes ou local. Essas decisões só serão elaboradas se a orientação solicitar uma etapa com pessoas; dependerão da pergunta, do método escolhido, da viabilidade e das autorizações.
 
-## 6. Modo autônomo: significado operacional
+## 6. Uso autônomo do protótipo — orientação condicional
 
-A preferência inicial é que a utilização do protótipo seja autônoma durante as tentativas de tarefa. Recomenda-se distinguir três momentos:
+O uso autônomo não é uma etapa prevista no plano inicial sem participantes. Se a orientação solicitar teste de usabilidade, poderá ser adotado para observar a tentativa sem instrução passo a passo. Nesse caso, recomenda-se distinguir três momentos:
 
 1. **Instrução padronizada:** a pessoa recebe o enunciado da tarefa, sem demonstração da solução.
 2. **Tentativa autônoma:** não recebe orientação passo a passo. O observador registra ações, resultado, dúvidas espontâneas e bloqueios segundo um roteiro previamente definido.
@@ -102,7 +102,7 @@ A preferência inicial é que a utilização do protótipo seja autônoma durant
 
 O protocolo deverá especificar se o facilitador pode repetir o enunciado, responder a perguntas, dar pistas ou intervir por segurança. A resposta a essas situações não deve ser improvisada de maneira diferente entre participantes.
 
-O codesenho pode ser facilitado e colaborativo; a preferência por uso autônomo refere-se principalmente à avaliação do protótipo e não impede a realização de oficinas participativas.
+Esta descrição só será aplicada se houver uma etapa com pessoas aprovada e viável. Não implica que o projeto inicial incluirá codesenho ou oficinas.
 
 ## 7. Questões de pesquisa candidatas
 
@@ -118,11 +118,17 @@ A pergunta deverá ser confirmada com a orientação e ajustada à exigência ac
 
 ## 8. Dados e plano de análise — opções a definir
 
-### Para identificação de necessidades/codesenho
+### Para análise documental e desenvolvimento sem participantes
 
-- **Dados possíveis:** relatos, propostas, prioridades, comentários sobre linguagem e sequência, ou registros estruturados de atividade de codesenho, conforme o método escolhido.
-- **Análise possível:** análise temática ou análise qualitativa de conteúdo, desde que o método seja escolhido, descrito e justificado previamente; para uma oficina, pode ser apropriada uma matriz de problemas, prioridades e requisitos, sem alegar uma análise qualitativa mais ampla do que a realizada.
-- **Produto analítico:** matriz rastreável entre evidência/necessidade, requisito, decisão de design e alteração implementada.
+- **Dados possíveis:** recomendações de diretrizes, resultados de estudos, características de soluções existentes e achados de auditoria técnica/pedagógica/acessibilidade.
+- **Análise possível:** síntese narrativa estruturada e matriz de rastreabilidade entre fonte, necessidade ou requisito, decisão de design e teste/verificação.
+- **Produto analítico:** protótipo e documentação fundamentados, com distinção explícita entre evidência publicada, inferência de design e decisão técnica.
+
+### Para identificação de necessidades/codesenho, somente se solicitados
+
+- **Dados possíveis:** relatos, propostas, prioridades, comentários sobre linguagem e sequência, ou registros estruturados de atividade, conforme o método escolhido.
+- **Análise possível:** método qualitativo escolhido e justificado previamente, ou matriz de problemas, prioridades e requisitos proporcional à atividade realizada.
+- **Produto analítico:** matriz rastreável entre contribuição, requisito, decisão de design e alteração implementada.
 
 ### Para avaliação de usabilidade, se aprovada
 
@@ -169,7 +175,8 @@ Mesmo que a avaliação formativa seja realizada, os achados se referem às tare
 ### Pendências para discussão com a orientação
 
 - [ ] Confirmar a pergunta de pesquisa e a compatibilidade com o programa/edital.
-- [x] Preferência metodológica inicial: combinação enxuta de identificação de necessidades e revisão de protótipo simples; técnica específica ainda pendente.
+- [x] Preferência metodológica inicial: protótipo simples fundamentado em literatura e soluções existentes, com avaliação técnica/pedagógica sem participantes.
+- [x] Participação de pessoas: não prevista no plano inicial; reconsiderar somente se a orientação indicar necessidade.
 - [ ] Confirmar com a orientação se o plano documental/técnico sem participantes atende aos requisitos do mestrado.
 - [ ] Definir pergunta, objetivos de aprendizagem, requisitos e critérios de revisão técnica/pedagógica.
 - [ ] Completar busca bibliográfica reproduzível e benchmarking de soluções existentes.
@@ -180,9 +187,9 @@ Mesmo que a avaliação formativa seja realizada, os achados se referem às tare
 
 ## 13. Próximos passos recomendados
 
-1. Levar à orientação a proposta de **identificação de necessidades + revisão de protótipo simples + avaliação técnica**, com usabilidade autônoma apenas como etapa complementar condicionada.
-2. Investigar alternativas realistas de acesso ao público, sem presumir campo, parceria, aprovação ou amostra.
-3. Selecionar a técnica principal para identificar necessidades e definir como a revisão do protótipo será conduzida.
-4. Elaborar um mapa de fases com produtos verificáveis, sem inserir datas ou amostras não confirmadas.
-5. Atualizar o protocolo preliminar e o anteprojeto após a discussão metodológica.
-6. Manter o plano sem participantes como alternativa documentada, não como prova de codesenho com o público.
+1. Levar à orientação a proposta de **desenvolvimento de protótipo simples com base documental e avaliação técnica, pedagógica e de acessibilidade sem participantes**.
+2. Confirmar se esse plano mínimo atende aos requisitos acadêmicos e ao escopo esperado do mestrado.
+3. Completar busca bibliográfica reproduzível e análise comparativa de soluções existentes.
+4. Refinar objetivos educativos, requisitos rastreáveis e critérios de revisão técnica/pedagógica.
+5. Somente se a orientação exigir participação de pessoas, escolher a etapa mínima necessária e então verificar acesso, protocolo e autorizações aplicáveis.
+6. Manter explícitos os limites do que pode ser concluído sem avaliação empírica com usuários.
