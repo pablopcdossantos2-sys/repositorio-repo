@@ -192,4 +192,4 @@ Mesmo que a avaliação formativa seja realizada, os achados se referem às tare
 3. Selecionar a técnica principal para identificar necessidades e definir como a revisão do protótipo será conduzida.
 4. Elaborar um mapa de fases com produtos verificáveis, sem inserir datas ou amostras não confirmadas.
 5. Atualizar o protocolo preliminar e o anteprojeto após a discussão metodológica.
-5. Manter o plano sem participantes como alternativa documentada, não como prova de codesenho com o público.
+6. Manter o plano sem participantes como alternativa documentada, não como prova de codesenho com o público.
