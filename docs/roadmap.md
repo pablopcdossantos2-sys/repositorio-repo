@@ -55,6 +55,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional: 15 checagens estáticas e 22 testes de navegador passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
 - [x] Criar roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes ([roteiro](roteiro-auditoria-tecnica-sem-participantes.md)).
 - [x] Registrar inspeção estática parcial do HTML/JS/CSS, incluindo controles e busca por APIs comuns de rede/persistência ([registro](registro-auditoria-estatica-2026-10-20.md)).
+- [x] Calcular contraste de combinações selecionadas e registrar pendências a confirmar no navegador ([verificação preliminar](verificacao-preliminar-contraste-2026-10-20.md)).
 - [ ] Completar testes manuais de teclado, leitor de tela, contraste em componentes reais, zoom, telas pequenas, rede/armazenamento e movimento reduzido; inspeção estática não equivale à auditoria completa.
 
 ## Fase 4 — Avaliação e aperfeiçoamento (P1)
