@@ -57,6 +57,7 @@ check("o produto está centrado no tema Treino de Teleconsulta", () => {
   assert.match(html, /Treino de Teleconsulta/i);
   assert.match(html, /sala virtual fictícia/i);
   assert.match(html, /O que fazer se você não consegue ouvir/i);
+  assert.match(html, /id="simulate-enter"/);
   assert.match(html, /id="simulate-audio"/);
   assert.match(html, /id="simulate-help"/);
   assert.match(html, /não ativam microfone nem áudio real/i);
