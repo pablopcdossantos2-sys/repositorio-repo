@@ -137,3 +137,17 @@ A busca, os critérios de seleção desta rodada exploratória e seus limites es
 - **RAYMUNDO, T. M. et al. (2024).** Adaptação transcultural do Mobile Proficiency Questionnaire e validade de conteúdo para o português brasileiro. *Revista Brasileira de Geriatria e Gerontologia*, 27, e230200. DOI: https://doi.org/10.1590/1981-22562024027.230200.pt. Referência para discutir tarefas de proficiência móvel; não assumir validade automática para todos os adultos ou para prontidão em teleconsulta.
 
 A análise crítica e as decisões de desenvolvimento estão em [Nota de evidências e decisões para o Treino de Teleconsulta — 20/10/2026](nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md). Estes apontamentos vieram de páginas públicas e não substituem a execução documentada das buscas nas bases oficiais.
+
+## Referências acrescentadas à rodada exploratória de 20/10/2026
+
+26. **LESSELROTH, B. et al. (2025).** Usability Testing an Educational Telemedicine Simulation: Description of Methods and Preliminary Findings. *Studies in Health Technology and Informatics*, 327, 273–277. DOI: https://doi.org/10.3233/SHTI250327. Estudo metodológico de teste de usabilidade antes do piloto de simulação educativa dirigida a residentes; evidência adjacente ao público-alvo do projeto.
+
+27. **LESSELROTH, B. et al. (2026).** Hybrid Usability Analysis to Improve an Educational Telemedicine Simulation: Task Analysis and Survey Results. DOI: https://doi.org/10.3233/SHTI250237. Estudo misto de tarefas e pesquisa de percepção em simulação destinada à educação clínica; útil para métodos de avaliação, não comparador direto para pacientes/usuários.
+
+28. **LESSELROTH, B. et al. (2026).** Methods for Usability Testing an Educational Simulation: A Case-Study Using a Maternal Telehealth Scenario. *Studies in Health Technology and Informatics*, 336, 2125–2129. DOI: https://doi.org/10.3233/SHTI260636. Relata avaliação de usabilidade e dificuldades de fidelidade/fluxo antes do piloto de uma simulação para residentes.
+
+29. **KOBEISSI, M. M. et al. (2025).** Best Practice Guidelines for Preparing Simulated Patients for Telehealth Simulation. *Simulation in Healthcare*, 20(6), 388–398. DOI: https://doi.org/10.1097/SIH.0000000000000863. Referência de educação de pacientes simulados e de profissionais, não treinamento autoguiado de usuários finais.
+
+30. **WORLD HEALTH ORGANIZATION; INTERNATIONAL TELECOMMUNICATION UNION (2024).** *Implementation toolkit for accessible telehealth services*. Disponível em: https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities. Documento normativo/técnico para incluir acessibilidade na concepção de serviços de telessaúde.
+
+A documentação desta rodada exploratória está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
