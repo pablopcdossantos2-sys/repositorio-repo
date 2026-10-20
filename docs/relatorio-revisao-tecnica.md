@@ -169,3 +169,8 @@ Depois da execução, os arquivos de produto e teste mantiveram os mesmos hashes
 - Não houve recrutamento, teste com participantes nem validação de eficácia educativa.
 
 A execução automatizada confirma a qualidade técnica coberta pelos testes, não a usabilidade real nem a aprendizagem do público pretendido.
+
+
+## Roteiro de execução da próxima auditoria
+
+O checklist operacional e a matriz de rastreabilidade produto–requisito estão em [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md). O roteiro foi criado como documento de trabalho, mas seus itens manuais não foram executados nesta atualização.
