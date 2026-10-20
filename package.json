@@ -1,0 +1,22 @@
+{
+  "name": "conversa-clara-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Testes automatizados do protótipo acadêmico Conversa Clara",
+  "type": "module",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "check:syntax": "node --check produto/app.js",
+    "check:static": "node scripts/check-prototype.mjs",
+    "check:html": "html-validate produto/index.html",
+    "test:e2e": "playwright test tests/prototype.spec.js --workers=2",
+    "test": "npm run check:syntax && npm run check:static && npm run check:html && npm run test:e2e"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@playwright/test": "1.64.1",
+    "html-validate": "11.16.4"
+  }
+}
