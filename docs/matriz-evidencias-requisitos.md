@@ -1,8 +1,8 @@
 # Matriz inicial de evidências, requisitos e decisões
 
-> **Status: preliminar.** Esta matriz organiza a fundamentação já listada no repositório; não equivale a revisão sistemática, avaliação formal da qualidade da evidência ou validação clínica. As referências e seus metadados devem ser conferidos antes da versão final do anteprojeto.
+> **Status: preliminar.** Esta matriz organiza a fundamentação relacionada ao tema escolhido; não equivale a revisão sistemática, avaliação formal da qualidade da evidência ou validação clínica. As referências e seus metadados devem ser conferidos antes da versão final do anteprojeto.
 
-**Enquadramento do projeto:** linha “2) Tecnologias para Educação em Saúde”; tipo “Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”. Os requisitos devem priorizar qualidade educativa, linguagem clara, acessibilidade e compreensão das mensagens, sem presumir aprendizagem duradoura ou eficácia clínica.
+**Enquadramento do projeto:** linha “2) Tecnologias para Educação em Saúde”; tipo “Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”. Os requisitos devem priorizar prática guiada de tarefas digitais de teleconsulta, linguagem clara, acessibilidade e feedback, sem presumir aprendizagem duradoura ou eficácia clínica.
 
 ## 1. Matriz de rastreabilidade
 
@@ -14,29 +14,32 @@
 | Instrumento de literacia digital | Norman; Skinner (2006), *eHEALS: the eHealth Literacy Scale* | A escala aborda literacia em saúde digital percebida; não mede por si só usabilidade do protótipo nem compreensão de uma orientação específica. | Não adotar automaticamente a escala; justificar qualquer instrumento em função da pergunta e da população. | Verificar validação em português brasileiro, adequação ao público e permissões/condições de uso. |
 | Ética em pesquisa com pessoas | CNS (2012), Resolução nº 466/2012; CNS (2016), Resolução nº 510/2016, conforme aplicabilidade | O desenho final deve ser analisado para determinar os procedimentos éticos e institucionais pertinentes. | Nenhum recrutamento ou coleta antes das verificações e aprovações aplicáveis; minimização de dados; consentimento conforme protocolo. | Confirmar com orientação e instituição as normas aplicáveis ao desenho definitivo e o trâmite necessário. |
 
-## 2. Rastreabilidade dos requisitos do protótipo
+## 2. Rastreabilidade dos requisitos do simulador escolhido
 
-| ID | Requisito | Justificativa atual | Como verificar sem participantes | Estado |
+**Decisão vigente:** Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital. O simulador trabalha apenas com cenários fictícios e não abre conexões com uma teleconsulta real.
+
+| ID | Requisito / objetivo de aprendizagem | Justificativa | Como verificar sem participantes | Estado |
 |---|---|---|---|---|
-| RF-01 | Explicar finalidade e limites | Segurança de uso e prevenção de interpretação como sistema clínico | Revisão textual da tela inicial e avisos | Implementado; revisar redação |
-| RF-02 | Navegar entre os três módulos sem conta | Simplicidade e baixo atrito | Percorrer todas as rotas em computador e celular | Implementado; testar responsividade |
-| RF-03 | Checklist pré-atendimento | Apoiar a preparação da conversa | Marcar, desmarcar e reiniciar itens | Implementado |
-| RF-04 | Exemplo de orientação em linguagem clara | Demonstrar apresentação de informação sem gerar conduta clínica | Revisão de linguagem e identificação visível como exemplo fictício | Implementado; manter conteúdo fictício |
-| RF-05 | Organizar próximos passos | Demonstrar organização de ações informadas pelo serviço | Conferir hierarquia visual e leitura em tela pequena | Implementado |
-| RF-06 | Reiniciar e limpar a sessão | Permitir nova demonstração sem carregar escolhas anteriores | Preencher opções, reiniciar e conferir estado inicial | Implementado; incluir no checklist técnico |
-| RF-07 | Utilizar cenários fictícios | Reduzir risco de exposição de dados reais na demonstração | Inspecionar textos e conteúdo do repositório | Implementado na versão atual; revisar em cada alteração |
-| RF-08 | Não coletar nem transmitir dados identificáveis | Privacidade e escopo de protótipo | Inspecionar código, armazenamento local, requisições de rede e dependências | Declarado no projeto; precisa de verificação técnica documentada |
-| AQ-01 | Navegação por teclado e foco visível | Acessibilidade | Percorrer todos os controles sem mouse e registrar falhas | Parcialmente previsto; testar |
-| AQ-02 | Não depender apenas de cor | Acessibilidade e compreensão | Conferir rótulos, estados e mensagens sem depender de distinção cromática | Verificar |
-| AQ-03 | Legibilidade em celular e computador | Uso em diferentes telas | Teste manual em larguras e navegadores distintos | Pendente |
-| AQ-04 | Mensagens claras de erro e feedback | Orientação explícita durante a tarefa | Acionar estados vazios, respostas corretas/incorretas e reinicialização | Implementado parcialmente; revisar consistência |
+| OA-01 | Reconhecer passos básicos de preparação do aparelho e do ambiente | Reduzir a complexidade percebida por meio de uma sequência clara e previsível | Conferir instruções e testar checklist local | Implementado na interface; retestar após a alteração do conteúdo |
+| OA-02 | Praticar a entrada em uma sala virtual fictícia | Treinar sequência de ações sem expor o usuário a um serviço real | Inspecionar instruções e garantir que nenhum link real seja aberto | Conteúdo em desenvolvimento; verificar no navegador |
+| OA-03 | Escolher uma resposta segura diante de uma falha de áudio simulada | Permitir prática contextual e feedback orientado à tarefa | Testar opções correta/incorretas e mensagem de feedback | Implementado no cenário; retestar após a alteração |
+| OA-04 | Ensaiar pedido de repetição/esclarecimento | Tornar visível uma estratégia de comunicação que pode ser praticada sem dados pessoais | Revisar clareza da frase modelo e confirmar sua natureza fictícia | Incluído como conteúdo; revisar pedagogicamente |
+| OA-05 | Localizar e confirmar os próximos passos apresentados no cenário | Praticar a confirmação de informação sem gerar recomendação clínica | Verificar hierarquia visual e conteúdo fictício | Incluído como conteúdo; testar responsividade |
+| RF-01 | Explicar finalidade e limites do simulador | Evitar confusão com serviço clínico ou plataforma oficial | Revisão textual da tela inicial e dos avisos | Implementado; retestar |
+| RF-02 | Navegar entre três etapas sem conta | Simplicidade e baixo atrito | Percorrer todas as rotas em desktop e celular | Implementado; retestar |
+| RF-03 | Manter todas as escolhas somente na sessão local | Privacidade por padrão | Inspecionar armazenamento, código e rede | Declarado; revalidar tecnicamente |
+| RF-04 | Reiniciar e limpar a sessão | Permitir nova prática sem carregar escolhas anteriores | Preencher opções, reiniciar e conferir estado inicial/foco | Implementado; retestar |
+| AQ-01 | Oferecer navegação por teclado e foco visível | Acessibilidade e orientação | Percorrer controles sem mouse e registrar falhas | Testes automatizados existentes; inspeção manual pendente |
+| AQ-02 | Não depender apenas de cor para indicar estado | Acessibilidade e compreensão | Conferir rótulos, mensagens e estados | Testar após alteração do texto |
+| AQ-03 | Legibilidade em celular, zoom e diferentes navegadores | Uso em contextos variados | Testes Playwright e testes manuais em tamanhos/dispositivos definidos | Automatização existente; repetição pendente |
+| AQ-04 | Dar feedback simples e não punitivo | Apoiar a prática sem aumentar a carga cognitiva | Acionar estados vazios, respostas corretas/incorretas e reinicialização | Implementado; retestar |
 
-## 3. Lacunas prioritárias da revisão
+## 3. Lacunas prioritárias para o Treino de Teleconsulta
 
-1. Estudos empíricos de usabilidade de serviços ou ferramentas de telessaúde com adultos.
-2. Estudos sobre compreensão de orientações transmitidas remotamente e linguagem simples em saúde.
+1. Estudos empíricos sobre preparação/treinamento de usuários para teleconsultas e prática de tarefas digitais.
+2. Recursos ou simuladores existentes que ensinem entrada em sala virtual, uso de controles e resposta a problemas técnicos simples.
 3. Instrumentos de usabilidade disponíveis em português brasileiro e adequados ao desenho exploratório.
-4. Evidências sobre barreiras de acessibilidade e literacia digital em pessoas com diferentes níveis de escolaridade e experiência tecnológica.
+4. Evidências sobre pessoas que necessitam de apoio digital, sem presumir homogeneidade por idade ou escolaridade.
 5. Recomendações nacionais de privacidade, segurança e governança aplicáveis ao protótipo e à coleta de dados planejada.
 
 ## 4. Modelo para registrar novas referências
