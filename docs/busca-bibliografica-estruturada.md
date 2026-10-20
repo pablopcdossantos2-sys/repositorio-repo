@@ -14,7 +14,7 @@ O objeto é uma solução tecnológica de ensino/educação em saúde aplicada a
 
 ### Estrutura PCC
 
-- **População (P):** adultos que utilizam serviços de saúde e, como grupo complementar, profissionais de saúde.
+- **População (P):** adultos usuários de serviços de saúde com diferentes níveis de proficiência em tarefas digitais e cuidadores, quando envolvidos no apoio à participação em teleconsulta. Estudos sobre treinamento de profissionais serão evidência adjacente, não o foco principal da seleção.
 - **Conceito (C):** tecnologias educativas digitais, educação em saúde, usabilidade, acessibilidade, linguagem simples, letramento em saúde/digital, compreensão de informação e atividades demonstrativas de aprendizagem.
 - **Contexto (C):** educação em saúde no contexto de telessaúde, teleconsulta, atenção primária e serviços públicos, priorizando o SUS e contextos brasileiros.
 
@@ -179,6 +179,15 @@ A seleção abaixo é **provisória e baseada em relevância temática dos regis
 - **Implicação:** se a literacia digital for variável de interesse, justificar o instrumento e complementar autorrelato com desempenho em tarefas, quando aprovado e factível.
 - **Confiança:** moderada para demonstrar heterogeneidade; limitada para escolher instrumento isoladamente.
 
+### Estudo 10 — Galvin et al. (2024), revisão de escopo sobre treinamento de usuários de telessaúde
+
+- **Referência:** Galvin E, Desselle S, Gavin B, McNicholas F, Cullinan S, Hayden J. *Training Service Users in the Use of Telehealth: Scoping Review*. Journal of Medical Internet Research. 2024;26:e57586. DOI: [10.2196/57586](https://doi.org/10.2196/57586). [Texto integral](https://www.jmir.org/2024/1/e57586).
+- **Desenho/escopo:** revisão de escopo de intervenções que ensinam adultos usuários/cuidadores a participar de consultas síncronas de telessaúde. As bases foram pesquisadas em junho de 2023. A revisão incluiu 13 estudos, todos dos EUA e publicados entre 2020 e 2023.
+- **Achado pertinente:** os formatos mais comuns descritos foram telefonemas preparatórios individuais, frequentemente com instruções escritas, ensinando instalação/configuração de software e resolução de problemas técnicos. Pessoas idosas foram o grupo mais frequente.
+- **Limites:** a revisão não realizou avaliação formal da qualidade dos estudos e identificou evidência limitada e mista para melhoria da competência. Os estudos eram geograficamente concentrados e ocorreram principalmente no contexto da pandemia.
+- **Implicação:** a revisão fundamenta a relevância de estudar treinamento de usuários, mas não demonstra a eficácia do nosso simulador. O diferencial precisa ser comparado com recursos autoguiados e em português e avaliado por tarefas apropriadas.
+- **Tipo de uso nesta pesquisa:** referência de contexto para formular a pergunta e refinar critérios de elegibilidade; por ser revisão, não deve ser contabilizada como estudo primário se o protocolo de seleção for focado em estudos originais.
+
 ## 7. Síntese transversal: o que a evidência sustenta
 
 1. **Acessibilidade e linguagem simples são requisitos de projeto**, mas a legibilidade textual sozinha não demonstra compreensão.
@@ -199,6 +208,11 @@ A seleção abaixo é **provisória e baseada em relevância temática dos regis
 - Discutir com a orientação se o trabalho será uma revisão narrativa estruturada, revisão de escopo ou outro desenho. Não chamar de revisão sistemática sem protocolo e processo completos.
 
 ## 9. Referências de normas e diretrizes de apoio
+
+- Galvin E, Desselle S, Gavin B, McNicholas F, Cullinan S, Hayden J. *Training Service Users in the Use of Telehealth: Scoping Review*. J Med Internet Res. 2024;26:e57586. https://doi.org/10.2196/57586.
+- Raymundo TM et al. *Adaptação transcultural do Mobile Proficiency Questionnaire e validade de conteúdo para o português brasileiro*. Rev Bras Geriatr Gerontol. 2024;27:e230200. https://doi.org/10.1590/1981-22562024027.230200.pt.
+- BridgingApps. *Digital House Calls*. https://bridgingapps.org/courses-landing/.
+- National Center for Farmworker Health. *Patient Telehealth Readiness Assessment Tool*. https://www.ncfh.org/digital-library/patient-telehealth-readiness-assessment-tool/. A página e a adequação do material devem ser verificadas antes de qualquer uso metodológico.
 
 - World Health Organization; International Telecommunication Union. *WHO-ITU global standard for accessibility of telehealth services*. 2022. https://www.who.int/publications/i/item/9789240050464
 - World Wide Web Consortium. *Web Content Accessibility Guidelines (WCAG) 2.2*. 2024. https://www.w3.org/TR/WCAG22/
