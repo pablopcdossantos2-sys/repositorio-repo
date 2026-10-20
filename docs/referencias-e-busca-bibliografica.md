@@ -1,6 +1,8 @@
-# Fundamentação científica: referências iniciais e plano de busca
+# Fundamentação científica do Treino de Teleconsulta: referências iniciais e plano de busca
 
 ## Fontes iniciais verificadas
+
+**Recorte ativo:** Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital. As referências gerais sobre acessibilidade, experiência digital, letramento em saúde digital e usabilidade sustentam decisões de desenho, mas não demonstram, por si sós, eficácia de um simulador específico. É necessário buscar estudos sobre treinamento/preparação para teleconsulta e comparar recursos educativos existentes.
 
 1. **World Health Organization; International Telecommunication Union (2022).** *WHO-ITU global standard for accessibility of telehealth services.* https://www.who.int/publications/i/item/9789240050464  
    Relevância: apresenta requisitos de acessibilidade para serviços de telessaúde e ajuda a justificar linguagem, navegação e inclusão desde o desenho.
@@ -118,7 +120,7 @@ A síntese de evidências e as implicações para o produto estão documentadas 
 
 ## Estudos adicionais conferidos na busca complementar de 19/10/2026
 
-23. **RAANHUIS, A. F. A. et al. (2026).** Usability of a Patient Portal in Patients with Digital Support Needs: A Think Aloud Study. *Studies in Health Technology and Informatics*, 336, 2200–2204. DOI: https://doi.org/10.3233/SHTI260651. Estudo exploratório de usabilidade com participantes que precisam de apoio digital; destaca visibilidade do estado do sistema e diferenças associadas ao tipo de instrução recebida. Uso como evidência contextual, não validação do Conversa Clara.
+23. **RAANHUIS, A. F. A. et al. (2026).** Usability of a Patient Portal in Patients with Digital Support Needs: A Think Aloud Study. *Studies in Health Technology and Informatics*, 336, 2200–2204. DOI: https://doi.org/10.3233/SHTI260651. Estudo exploratório de usabilidade com participantes que precisam de apoio digital; destaca visibilidade do estado do sistema e diferenças associadas ao tipo de instrução recebida. Uso como evidência contextual, não validação do Treino de Teleconsulta.
 
 24. **KHAIRAT, S. et al. (2026).** What Telehealth Gets Right and What's Missing: A National Multistakeholder Study of Access and Sustainability. *The Permanente Journal*. Epub 8 set. 2026. DOI: https://doi.org/10.7812/TPP/26.102. Estudo qualitativo com 62 participantes nos EUA sobre benefícios, barreiras e sustentabilidade da telessaúde; útil para formular questões sobre conectividade, acesso a dispositivos, apoio digital e fluxos de serviço.
 
