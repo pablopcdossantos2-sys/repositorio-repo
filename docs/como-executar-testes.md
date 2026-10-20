@@ -2,6 +2,8 @@
 
 Este documento descreve as verificações automatizadas do simulador educativo **Treino de Teleconsulta**. Elas são auxiliares de qualidade e não substituem testes manuais de acessibilidade, avaliação metodológica ou pesquisa com participantes.
 
+Para instruções didáticas desde a abertura do protótipo até a instalação do ambiente de testes, consulte o [tutorial de instalação e teste do protótipo](tutorial-instalar-e-testar-prototipo.md).
+
 ## Pré-requisitos
 
 - Node.js **24.8.0 ou posterior** (a versão selecionada é declarada em `.nvmrc`; o requisito também está em `package.json`).
