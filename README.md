@@ -46,6 +46,7 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
 - [Referências iniciais e plano de busca bibliográfica](docs/referencias-e-busca-bibliografica.md)
 - [Busca bibliográfica estruturada — protocolo e síntese crítica](docs/busca-bibliografica-estruturada.md)
+- [Revisão rápida de evidências e recomendações para o produto (19/10/2026)](docs/revisao-rapida-evidencias-e-recomendacoes.md)
 - [Plano de desenvolvimento e roadmap](docs/roadmap.md)
 - [Especificação do produto mínimo](docs/produto-minimo.md)
 - [Estratégia de parceria e ética](docs/parceria-e-etica.md)
