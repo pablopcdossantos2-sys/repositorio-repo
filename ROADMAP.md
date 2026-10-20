@@ -50,15 +50,20 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Construir uma primeira interface web estática, sem dependências externas em tempo de uso.
 - [x] Definir limites de segurança: cenário fictício, sem dados reais, sem teleconsulta e sem orientação clínica individual.
 - [x] Registrar histórico comparativo dos temas sem manter decisões concorrentes em aberto.
-- [ ] Alinhar todas as telas, mensagens, testes e documentos à prática de etapas reais comuns de uma teleconsulta — sempre em cenário fictício.
+- [x] Alinhar a interface a três situações fictícias: link indisponível, falha de áudio e pedido de esclarecimento.
+- [x] Adicionar escolhas com feedback específico em cada situação e manter todas as interações locais.
+- [x] Escurecer a variável de borda e acrescentar verificação estática do contraste de bordas significativas.
+- [ ] Confirmar a suíte automatizada após as últimas mudanças e concluir testes manuais em dispositivos/tecnologias assistivas.
 - [ ] Definir objetivos de aprendizagem observáveis e critérios iniciais de sucesso.
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
 
 - [ ] Executar as estratégias nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO.
-- [ ] Acrescentar estratégia focada em preparação de usuários para teleconsulta, simulações educativas, treinamento de habilidades digitais e barreiras para pessoas com necessidades de apoio digital.
+- [x] Acrescentar estratégias focadas em preparação, simulação educativa, habilidades digitais e necessidades de apoio.
+- [x] Adicionar nota exploratória com evidências sobre treinamento de usuários, recursos comparáveis e suas limitações.
+- [ ] Executar as estratégias nas bases oficiais e registrar as contagens/exportações; a busca formal permanece pendente.
 - [ ] Registrar data, estratégia efetiva, filtros, resultados, exportações, deduplicação e critérios de inclusão/exclusão.
-- [ ] Comparar recursos existentes (portais, guias, vídeos, tutoriais e simuladores) e descrever o diferencial específico do protótipo.
+- [ ] Completar o benchmarking de recursos existentes (portais, guias, vídeos, tutoriais, cursos autoguiados e simuladores) e demonstrar o diferencial específico; o levantamento atual é exploratório.
 - [ ] Atualizar `docs/busca-bibliografica-estruturada.md`, `docs/referencias-e-busca-bibliografica.md` e `docs/matriz-evidencias-requisitos.md` com evidências reproduzíveis.
 - [ ] Discutir pergunta, objetivos, público-alvo, produto e adequação à linha com a orientação.
 - [ ] Conferir o edital e o modelo oficial vigentes da UERJ, incluindo extensão, formato, critérios e documentos obrigatórios.
@@ -78,13 +83,14 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 3 — Produto, conteúdo e acessibilidade (P1)
 
-- [ ] Reestruturar o protótipo para três etapas educativas: antes da teleconsulta; entrar/participar da sala virtual fictícia; encerrar e confirmar próximos passos.
-- [ ] Para cada etapa, explicitar objetivo de aprendizagem, instrução simples, decisão/tarefa e feedback acolhedor.
+- [x] Reestruturar o protótipo em três etapas: antes; durante, com três cenários selecionáveis; encerrar/confirmar próximos passos.
+- [x] Acrescentar em cada cenário uma tarefa de escolha e feedback acolhedor; a revisão pedagógica com a orientação ainda está pendente.
 - [ ] Garantir que exemplos, nome de serviço, link, data e profissionais sejam fictícios; não imitar portal oficial real de modo enganoso.
 - [ ] Evitar pedir informações pessoais ou clínicas; nenhuma resposta deve ser enviada ou armazenada.
 - [ ] Testar navegação por teclado, foco, mensagens dinâmicas, movimento reduzido, contraste, larguras de tela e ampliação.
 - [ ] Testar manualmente com tecnologia assistiva disponível e documentar limitações reais.
-- [ ] Atualizar `docs/produto-minimo.md` e `docs/relatorio-revisao-tecnica.md` para refletir o produto efetivamente implementado.
+- [x] Atualizar `docs/produto-minimo.md` e a especificação do produto com os três cenários.
+- [ ] Atualizar o relatório com o resultado da CI final após os testes do novo fluxo.
 
 **Critério de saída:** cada funcionalidade corresponde a um objetivo educativo e tem um teste verificável; conteúdo e interface não podem ser confundidos com serviço real de telessaúde.
 
