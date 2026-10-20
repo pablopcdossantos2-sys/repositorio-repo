@@ -63,6 +63,15 @@ test("navegação move o foco para o título da etapa ativa", async ({ page }) =
   await expect(page.locator('.tab[data-view="guidance"]')).toHaveAttribute("aria-current", "step");
 });
 
+test("os controles fictícios permitem praticar ações sem ativar áudio nem enviar mensagens reais", async ({ page }) => {
+  await page.locator('.tab[data-view="guidance"]').click();
+  await page.getByRole("button", { name: "Conferir áudio (simulação)" }).click();
+  await expect(page.locator("#room-feedback")).toContainText("conferir o controle de áudio");
+  await page.getByRole("button", { name: "Avisar que não estou ouvindo" }).click();
+  await expect(page.locator("#room-feedback")).toContainText("não envia uma mensagem real");
+  await expect(page.locator("#view-guidance")).toContainText("não ativam microfone nem áudio real");
+});
+
 test("avaliação de compreensão exige escolha e apresenta feedback coerente", async ({ page }) => {
   await page.locator('.tab[data-view="guidance"]').click();
   await page.locator("#check-understanding").click();
@@ -100,6 +109,7 @@ test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async
   for (const checkbox of await page.locator(".check-row input").all()) await expect(checkbox).not.toBeChecked();
   for (const option of await page.locator('input[name="understanding"]').all()) await expect(option).not.toBeChecked();
   await expect(page.locator("#understanding-feedback")).toBeEmpty();
+  await expect(page.locator("#room-feedback")).toBeEmpty();
   await expect(page.locator("#rating-feedback")).toBeEmpty();
   await expect(page.locator('[data-rating][aria-pressed="true"]')).toHaveCount(0);
   await expect(page.locator("#check-status")).toHaveText("Nenhum item marcado.");
