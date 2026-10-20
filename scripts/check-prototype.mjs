@@ -125,7 +125,7 @@ check("opções de avaliação comunicam estado selecionado", () => {
 check("reinicialização limpa estados interativos e devolve a etapa inicial", () => {
   assert.match(js, /getElementById\(["']restart["']\)/);
   assert.match(js, /checks\.forEach\(input => \{ input\.checked = false; \}\)/);
-  assert.match(js, /input\[name='understanding'\]/);
+  assert.match(js, /input\[type='radio'\]/);
   assert.match(js, /showView\(["']prepare["']\)/);
   assert.match(js, /rating-feedback/);
   assert.match(js, /scenarioFeedback/);
