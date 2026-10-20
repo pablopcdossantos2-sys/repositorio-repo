@@ -4,7 +4,7 @@
 
 ## Título de trabalho
 
-**Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo para adultos com baixa familiaridade digital.**
+**Treino de Teleconsulta: desenvolvimento de um simulador educativo para adultos com baixa familiaridade digital.**
 
 ## Linha de pesquisa
 
@@ -16,7 +16,7 @@
 
 ## Tema e delimitação
 
-Desenvolvimento e avaliação de um simulador educativo web, responsivo e acessível, para adultos com baixa familiaridade digital. Por meio de etapas guiadas e situações fictícias, o produto permitirá praticar ações básicas relacionadas à participação em uma teleconsulta: preparar dispositivo e ambiente, entrar em uma sala virtual demonstrativa, reconhecer controles básicos, lidar com dificuldades simples de áudio/vídeo, pedir que uma informação seja repetida e confirmar os próximos passos antes de encerrar.
+Desenvolvimento de um simulador educativo web, responsivo e acessível, para adultos com baixa familiaridade digital, com fundamentação documental e avaliação técnica, pedagógica e de acessibilidade sem participantes como plano inicial. Por meio de etapas guiadas e situações fictícias, o produto permitirá praticar ações básicas relacionadas à participação em uma teleconsulta: preparar dispositivo e ambiente, entrar em uma sala virtual demonstrativa, reconhecer controles básicos, lidar com dificuldades simples de áudio/vídeo, pedir que uma informação seja repetida e confirmar os próximos passos antes de encerrar.
 
 O simulador não será conectado a plataforma de telemedicina ou serviço real, não realizará uma consulta, não usará áudio/vídeo ao vivo e não oferecerá aconselhamento clínico. Guaraí, Tocantins, é um possível cenário de articulação e avaliação, condicionado a interesse institucional e às autorizações pertinentes.
 
@@ -40,27 +40,27 @@ A solução deverá tratar acessibilidade, linguagem clara, baixo consumo de rec
 
 ## Objetivo geral
 
-Desenvolver e avaliar um simulador educativo web, acessível e baseado em cenários fictícios, para apoiar adultos com baixa familiaridade digital na prática de etapas básicas de uma teleconsulta.
+Desenvolver um simulador educativo web, acessível e baseado em cenários fictícios, fundamentado em literatura e análise de soluções existentes, para praticar etapas básicas de uma teleconsulta.
 
 ## Objetivos específicos
 
 1. Sintetizar evidências e recursos existentes sobre preparação para teleconsulta, simulação educativa, usabilidade de telessaúde, acessibilidade e necessidades de apoio digital.
 2. Definir, com a orientação, o público, a operacionalização de “baixa familiaridade digital”, os objetivos de aprendizagem e os requisitos funcionais e pedagógicos.
 3. Desenvolver iterativamente um protótipo web com etapas para preparação, entrada/participação em sala virtual fictícia e encerramento/confirmar próximos passos.
-4. Avaliar tecnicamente a acessibilidade e a coerência pedagógica do produto; planejar avaliação de tarefas e compreensão com participantes somente após confirmação das aprovações necessárias.
+4. Avaliar tecnicamente a acessibilidade, a coerência pedagógica e o funcionamento do produto sem participantes; reconsiderar avaliação com pessoas somente se a orientação acadêmica indicar que é necessária e após confirmação das autorizações aplicáveis.
 5. Documentar o produto, as evidências, as limitações e as recomendações para evolução.
 
 ## Método — proposta inicial
 
-Pesquisa tecnológica aplicada, exploratória. O plano prevê: (1) revisão bibliográfica reproduzível e comparação de soluções existentes; (2) elaboração de objetivos de aprendizagem, roteiro de simulação e requisitos rastreáveis; (3) desenvolvimento iterativo e auditoria técnica/pedagógica sem participantes; e (4) caso autorizado e viável, avaliação formativa com tarefas padronizadas.
+Pesquisa tecnológica aplicada, exploratória. O plano inicial prevê: (1) revisão bibliográfica reproduzível e comparação de soluções existentes; (2) elaboração de objetivos de aprendizagem, roteiro de simulação e requisitos rastreáveis; (3) desenvolvimento iterativo; e (4) auditoria técnica, pedagógica, de linguagem e acessibilidade sem participantes. Entrevistas, codesenho ou testes com pessoas não integram o plano inicial e só serão acrescentados se a orientação acadêmica indicar que são necessários, após análise de viabilidade e das autorizações aplicáveis.
 
-As tarefas candidatas incluem preparar o aparelho/ambiente, entrar em uma sala virtual fictícia, decidir o que fazer se não ouvir, pedir repetição de uma informação e localizar a confirmação dos próximos passos. Serão considerados conclusão da tarefa, erro, necessidade de ajuda, compreensão da instrução e comentários sobre clareza. Instrumentos, tamanho e perfil da amostra, critérios de sucesso e plano de análise precisam ser definidos com a orientação antes de qualquer coleta.
+As tarefas candidatas podem apoiar a auditoria interna do fluxo, mas não constituem avaliação empírica de usabilidade. Se a orientação solicitar teste com pessoas, tarefas, critérios de sucesso, regras de ajuda, instrumentos, amostra e análise serão definidos em protocolo próprio antes de qualquer coleta.
 
 ## Público, cenário e recrutamento
 
 O público de interesse são adultos com baixa familiaridade digital. Essa característica será operacionalizada com a orientação por critérios explícitos e não estigmatizantes, a definir antes do estudo. Não será inferida automaticamente pela idade, escolaridade, deficiência ou diagnóstico. Guaraí-TO pode ser considerado para articulação institucional, mas a parceria não está confirmada e não é pressuposto para construir o produto.
 
-Se a avaliação com participantes não for viável ou autorizada no prazo, a dissertação deverá se apoiar em avaliação documental, técnica e pedagógica sem participantes e limitar suas conclusões a essas evidências. Essa alternativa não permite afirmar melhora da experiência ou dos resultados de usuários reais.
+O plano inicial é avaliação documental, técnica e pedagógica sem participantes, com conclusões limitadas a essas evidências. Se a orientação exigir avaliação com pessoas, o projeto será revisto para incluir apenas a etapa necessária, condicionada à viabilidade e às autorizações aplicáveis; sem essa etapa, não se afirmará melhora da experiência ou dos resultados de usuários reais.
 
 ## Produto técnico-tecnológico
 
@@ -80,7 +80,7 @@ Nenhum recrutamento, entrevista, teste de pesquisa ou coleta com participantes d
 - Protótipo documentado para prática simulada de etapas de teleconsulta.
 - Mapa de objetivos de aprendizagem, requisitos e testes correspondentes.
 - Auditoria técnica, de acessibilidade e de coerência pedagógica.
-- Se autorizada, evidência inicial de usabilidade e desempenho em tarefas simuladas.
+- Registro de avaliação documental, técnica, pedagógica e de acessibilidade do protótipo; evidência de usabilidade com pessoas apenas se essa etapa for solicitada, viável e autorizada.
 - Recomendações de melhoria e descrição explícita das limitações.
 
 ## Limitações previstas
@@ -99,7 +99,7 @@ Nenhum recrutamento, entrevista, teste de pesquisa ou coleta com participantes d
 | Meses 4–6 | Especificar objetivos de aprendizagem, cenários, requisitos e protocolo; discutir trâmites institucionais/éticos. |
 | Meses 7–11 | Desenvolver o simulador e executar revisões técnicas/pedagógicas iterativas. |
 | Meses 12–14 | Auditoria de acessibilidade, testes técnicos e correções. |
-| Meses 15–18 | Avaliação com participantes somente se autorizada; caso contrário, aprofundar avaliação documental e técnica. |
+| Meses 15–18 | Avaliação documental, técnica, pedagógica e de acessibilidade; avaliação com participantes apenas se solicitada pela orientação e devidamente autorizada. |
 | Meses 19–21 | Analisar os dados realmente obtidos, aperfeiçoar o produto e documentar limites. |
 | Meses 22–24 | Redigir, revisar e preparar a entrega acadêmica. |
 
