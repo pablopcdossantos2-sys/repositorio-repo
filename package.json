@@ -1,8 +1,8 @@
 {
-  "name": "conversa-clara-prototype",
+  "name": "treino-teleconsulta-simulator",
   "private": true,
   "version": "0.1.0",
-  "description": "Testes automatizados do protótipo acadêmico Conversa Clara",
+  "description": "Testes automatizados do simulador educativo Treino de Teleconsulta",
   "type": "module",
   "engines": {
     "node": ">=24.8.0"
