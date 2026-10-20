@@ -224,3 +224,14 @@ A exportação PDF foi usada apenas para verificação; o artefato principal con
 6. [ ] Confirmar com a orientação se o desenho inicial sem participantes atende aos requisitos do curso.
 
 A apresentação em `apresentacao/` permanece versionada e não foi modificada nesta rodada.
+
+
+## Atualização — estado dos requisitos do protótipo e busca formal (20/10/2026)
+
+- [x] Atualizar `docs/produto-minimo.md` para separar requisitos desejados do estado atual de implementação, com uma matriz RF-01 a RF-11.
+- [x] Marcar RF-07 (prática interativa de encerramento/OE-05) como pendente de implementação/decisão. A tela atual contém exemplos estáticos e uma escala de facilidade local; a escala não cumpre OE-05.
+- [x] Registrar a regra de não ampliar automaticamente o escopo: primeiro justificar a necessidade pedagógica, especificar opções e feedback e planejar os testes.
+- [x] Registrar tentativa adicional de acesso à API E-utilities do PubMed; a ferramenta de navegação não conseguiu acessar o endpoint e não forneceu contagem.
+- [ ] Executar PM-1 a PM-4, BVS-1 a BVS-3 e SC-1 a SC-2 nas interfaces oficiais com contagens e exportações reais. A busca formal continua pendente.
+
+**Limites desta atualização:** nenhuma alteração de HTML/CSS/JS e nenhuma nova execução de testes automatizados. A inspeção da matriz de requisitos é documental e não substitui a auditoria manual do navegador.
