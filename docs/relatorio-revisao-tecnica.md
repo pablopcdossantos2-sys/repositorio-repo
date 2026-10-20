@@ -118,6 +118,6 @@ Foi adicionado o `html-validate` com regras recomendadas, executado no CI. A pri
 
 Após as correções, a validação de HTML, os testes estáticos e os 16 testes Playwright/axe-core passaram na execução [39356779809](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39356779809).
 
-Também foi adicionado `package.json` com versões diretas de ferramentas de desenvolvimento fixadas, `.nvmrc` com Node.js 24 e [instruções para executar as verificações localmente](como-executar-testes.md). **Ainda não há `package-lock.json` versionado**, portanto as dependências transitivas não estão completamente travadas. O roadmap mantém essa limitação aberta em vez de declarar a instalação plenamente reproduzível.
+Também foi adicionado `package.json` com versões diretas de ferramentas de desenvolvimento fixadas, `.nvmrc` com Node.js 24, `package-lock.json` v3 com a árvore de dependências transitivas e [instruções para executar as verificações localmente](como-executar-testes.md). A CI foi alterada para `npm ci`, usando o lockfile versionado; o run atualizado está sendo verificado em [GitHub Actions](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39358531889).
 
 As ações `actions/checkout` e `actions/setup-node` foram atualizadas para a série v7, baseada em runtime Node 24, removendo a dependência das versões antigas que geravam alerta sobre Node 20.
