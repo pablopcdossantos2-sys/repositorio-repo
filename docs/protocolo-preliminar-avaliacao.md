@@ -92,7 +92,7 @@ O plano de análise deve ser definido previamente. Resultados quantitativos pode
 
 ## 9. Público e elegibilidade
 
-O público de interesse são adultos com baixa familiaridade digital. A definição operacional ainda está pendente. Deve ser construída com a orientação, com critério explícito, pertinente à pergunta e não estigmatizante. Não usar idade, escolaridade ou deficiência isoladamente como proxy automática. A forma de identificar a necessidade de apoio digital deverá evitar perguntas invasivas e estar descrita no protocolo.
+O público de interesse conceitual são adultos com baixa familiaridade digital, mas o plano inicial não prevê recrutamento. A definição operacional só precisará ser formalizada para pesquisa com pessoas se a orientação solicitar essa etapa. Não usar idade, escolaridade ou deficiência isoladamente como proxy automática; qualquer procedimento futuro de identificação deverá ser justificado e não estigmatizante.
 
 Tamanho da amostra, recrutamento e inclusão/exclusão permanecem em aberto até a definição do desenho e da viabilidade. Não fixar uma amostra arbitrária.
 
@@ -120,7 +120,7 @@ A avaliação do protótipo pode indicar problemas de interface, acessibilidade,
 
 ## 13. Próximas decisões
 
-1. Discutir a pergunta principal: necessidades e requisitos para orientar o desenvolvimento do produto.
+1. Confirmar com a orientação a pergunta principal e se o plano inicial sem participantes atende aos requisitos acadêmicos.
 2. Completar busca bibliográfica e comparação com soluções existentes.
 3. Confirmar com a orientação se o plano inicial sem participantes atende aos requisitos; somente se necessário, investigar acesso ao público e definir a atividade mínima necessária.
 4. Realizar auditoria técnica/pedagógica sem participantes.
