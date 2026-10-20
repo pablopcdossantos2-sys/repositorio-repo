@@ -27,7 +27,7 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 
 1. **Tela inicial:** explica que é treino simulado, sem conexão com serviço real, sem coleta de dados, e permite iniciar ou rever as instruções.
 2. **Antes da teleconsulta:** oferece checklist de preparação do aparelho, conexão, ambiente com privacidade e perguntas que a pessoa quer lembrar.
-3. **Durante — sala virtual fictícia:** apresenta passos de acesso e de reconhecimento dos controles; uma situação simulada (por exemplo, “não consigo ouvir”) pede que a pessoa escolha como proceder com segurança.
+3. **Durante — sala virtual fictícia:** oferece três situações com ramificação e feedback: o link não abre; a pessoa não consegue ouvir; e uma informação não ficou clara. A pessoa escolhe uma ação e recebe explicação sem conexão real.
 4. **Ao encerrar:** a pessoa pratica como pedir repetição/esclarecimento, confirmar os próximos passos que foram apresentados no cenário e procurar canal oficial se a dúvida permanecer.
 5. **Reiniciar:** limpa escolhas e feedbacks locais e devolve o foco ao título inicial.
 
@@ -38,7 +38,7 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 - **RF-03:** oferecer checklist simples de preparação, sem solicitar informações identificáveis.
 - **RF-04:** oferecer o botão “Entrar na sala de treino” para praticar a entrada numa sala virtual fictícia; o feedback deve deixar claro que nenhuma conexão real é aberta.
 - **RF-05:** disponibilizar controles fictícios e interativos para praticar entrada, conferência de áudio e comunicação da dificuldade, sem ativar microfone/câmera ou enviar mensagens.
-- **RF-06:** propor ao menos uma decisão educativa diante de uma dificuldade técnica simulada.
+- **RF-06:** oferecer ao menos três cenários ramificados (acesso à sala, falha de áudio e pedido de esclarecimento) com escolhas plausíveis e feedback contextual.
 - **RF-07:** oferecer uma prática de comunicação, como pedir que uma informação seja repetida ou confirmar um próximo passo.
 - **RF-08:** fornecer feedback simples, respeitoso e explicativo para cada escolha relevante.
 - **RF-09:** permitir reiniciar a sessão local e limpar todas as escolhas/feedbacks.
@@ -70,10 +70,11 @@ Criar um **simulador educativo digital** em que adultos com baixa familiaridade 
 As tarefas candidatas incluem:
 1. Identificar itens básicos de preparação do dispositivo e ambiente.
 2. Seguir as instruções para entrar numa sala virtual fictícia.
-3. Diante de um cenário sem áudio, escolher uma ação apropriada (por exemplo, conferir o controle visível ou avisar que não consegue ouvir, em vez de abandonar a sessão sem comunicar).
-4. Praticar um pedido para repetir ou esclarecer uma informação.
-5. Localizar e confirmar os próximos passos que o cenário apresentou.
-6. Reiniciar a experiência e verificar que as escolhas foram limpas.
+3. Responder ao cenário de acesso: conferir conexão/link oficial e escolher um canal de suporte conhecido sem compartilhar senha.
+4. Diante de um cenário sem áudio, escolher uma ação apropriada (conferir o controle visível ou avisar que não consegue ouvir).
+5. Diante de uma informação pouco clara, ensaiar pedido de repetição/esclarecimento.
+6. Localizar e confirmar os próximos passos que o cenário apresentou.
+7. Reiniciar a experiência e verificar que as escolhas foram limpas.
 
 Indicadores candidatos: conclusão de tarefa, erro/ação inesperada, necessidade de ajuda, compreensão da instrução, facilidade percebida e sugestões de melhoria. Tarefas, rubrica, instrumentos e plano de análise precisam ser definidos previamente no protocolo.
 
