@@ -141,3 +141,31 @@ Os controles da sala são apenas demonstrativos: não abrem conexão real, não 
 ### Limites ainda pendentes
 
 Essa CI valida o código e os fluxos automatizados do commit indicado; não substitui teste manual com teclado, leitor de tela, zoom, celulares e navegadores reais. Não é validação pedagógica com participantes e não comprova eficácia educativa, aprendizagem duradoura nem melhoria de participação em teleconsultas reais. A inspeção manual permanece pendente no [issue #2 — Testes manuais de acessibilidade do Treino de Teleconsulta](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/2). A avaliação com pessoas segue condicionada à definição do protocolo e às aprovações aplicáveis.
+
+
+## 10. Validação após expansão para três cenários — 20/10/2026
+
+### Fluxos incluídos
+
+O cenário único de falha de áudio foi reorganizado em três situações selecionáveis: (1) link/sala indisponível; (2) dificuldade para ouvir; (3) informação não compreendida. Cada situação tem escolhas e feedback dependente da resposta. Os controles são inteiramente fictícios e não iniciam chamadas, não ativam áudio/vídeo nem enviam mensagens.
+
+### Resultado da integração contínua
+
+- **Execução:** [GitHub Actions nº 39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486), resultado **success**.
+- **Commit do workflow:** `11d5bee68f5f8de4234ab9f5388f7f1067545b69`.
+- **Verificações estáticas:** 15 passaram.
+- **Validação de sintaxe, HTML e instalação limpa das dependências:** sucesso.
+- **Testes Playwright/axe-core:** **22 passaram**, incluindo teste por cenário para o feedback e varredura de acessibilidade em cada um dos três cenários.
+- **Contraste calculado no verificador estático:** foco `#005fcc` em branco 5,98:1 e em `#f4f7fb` 5,57:1; borda `#7d8c99` em branco 3,45:1 e em `#f4f7fb` 3,21:1.
+
+Depois da execução, os arquivos de produto e teste mantiveram os mesmos hashes de conteúdo no `main`; as alterações posteriores foram em documentação. Assim, os resultados de CI correspondem aos arquivos atuais do protótipo.
+
+### Pendências que permanecem
+
+- Testes manuais com teclado, leitor de tela, ampliação/zoom e dispositivos físicos ainda não foram executados.
+- O cálculo estático de contraste não garante que toda combinação de estados, fundos e limites visuais esteja conforme a WCAG; verificar os componentes que dependem de bordas para serem identificados.
+- A revisão pedagógica e o uso autônomo versus mediado ainda precisam ser discutidos com a orientação.
+- A busca bibliográfica formal nas interfaces oficiais e o benchmarking completo continuam pendentes.
+- Não houve recrutamento, teste com participantes nem validação de eficácia educativa.
+
+A execução automatizada confirma a qualidade técnica coberta pelos testes, não a usabilidade real nem a aprendizagem do público pretendido.
