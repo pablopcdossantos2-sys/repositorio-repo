@@ -47,6 +47,8 @@ O escopo final será refinado após revisão da literatura, conversa com a Secre
 - [Referências iniciais e plano de busca bibliográfica](docs/referencias-e-busca-bibliografica.md)
 - [Busca bibliográfica estruturada — protocolo e síntese crítica](docs/busca-bibliografica-estruturada.md)
 - [Revisão rápida de evidências e recomendações para o produto (19/10/2026)](docs/revisao-rapida-evidencias-e-recomendacoes.md)
+- [Registro da busca exploratória complementar (19/10/2026)](docs/registro-busca-exploratoria-2026-10-19.md)
+- [Verificações estáticas do protótipo](scripts/check-prototype.mjs)
 - [Plano de desenvolvimento e roadmap](docs/roadmap.md)
 - [Especificação do produto mínimo](docs/produto-minimo.md)
 - [Estratégia de parceria e ética](docs/parceria-e-etica.md)
