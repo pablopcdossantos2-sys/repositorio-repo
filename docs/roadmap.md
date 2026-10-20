@@ -28,7 +28,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 - [x] Consolidar strings e formulário de registro de execução ([registro](registro-busca-estruturada-2026-10-20.md)).
 - [ ] Executar buscas reprodutíveis em PubMed/MEDLINE, BVS/LILACS e SciELO; as interfaces oficiais não retornaram páginas de resultados pelo ambiente usado nesta rodada, sem contagens/exportações confirmadas.
-- [ ] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital.
+- [x] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital nas estratégias propostas.
 - [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
 - [x] Registrar um primeiro benchmark exploratório de recursos públicos e suas limitações ([benchmark](benchmark-recursos-existentes.md)).
 - [ ] Aprofundar o benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
