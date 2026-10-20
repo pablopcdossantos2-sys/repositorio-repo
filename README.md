@@ -86,7 +86,8 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [x] Enquadramento declarado na linha de Tecnologias para Educação em Saúde.
 - [x] Protótipo reorientado ao tema, com três situações interativas e feedback condicionado à escolha.
 - [x] Contraste de foco e bordas significativas incluído nas verificações estáticas.
-- [ ] Confirmar a suíte automatizada após a última atualização de cenários; testes manuais de acessibilidade continuam pendentes.
+- [x] Confirmar a suíte automatizada após a expansão para três cenários: 15 verificações estáticas e 22 testes Playwright/axe-core passaram em 20/10/2026.
+- [ ] Concluir testes manuais de acessibilidade com teclado, tecnologia assistiva, zoom e dispositivos reais.
 - [ ] Refinar pergunta, objetivos e definição operacional de “baixa familiaridade digital” com a orientação.
 - [ ] Concluir busca bibliográfica reproduzível nas bases previstas e mapear produtos semelhantes.
 - [ ] Validar os objetivos educativos, os cenários e os critérios de êxito.
