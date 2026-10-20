@@ -115,3 +115,11 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 ## Aviso
 
 Este repositório documenta um protótipo de pesquisa; não é uma ferramenta oficial do SUS nem um sistema de atendimento. Não publicar aqui dados pessoais, prontuários, consentimentos preenchidos ou informações identificáveis de participantes.
+
+
+## Preparação para defesa oral
+
+- [Apresentação atualizada em OpenDocument Presentation (.odp)](apresentacao/defesa-oral-atualizada.odp)
+- [Guia de fala, perguntas prováveis e checklist](apresentacao/guia-defesa-oral-atualizado.md)
+
+A apresentação reflete o estado atual do protótipo e as pendências técnicas/bibliográficas; personalize o slide sobre a motivação para cursar o mestrado e confirme as regras do edital vigente antes da defesa.
