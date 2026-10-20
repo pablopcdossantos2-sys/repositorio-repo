@@ -1,45 +1,45 @@
-# Contato com a Secretaria Municipal de Saúde de Guaraí
+# Roteiro de conversa exploratória — Secretaria Municipal de Saúde de Guaraí
 
 ## Objetivo
 
-Agendar uma conversa exploratória para compreender o contexto de telessaúde e educação em saúde e verificar se existe viabilidade de parceria para pesquisa tecnológica de uma solução educativa digital. O primeiro contato não deve solicitar dados de pacientes, prontuários nem autorização para iniciar recrutamento.
+Compreender, em nível geral, como os usuários são orientados para participar de teleconsultas e verificar se existe interesse e viabilidade para discutir uma colaboração futura relacionada ao projeto **Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. Esta conversa não é coleta de dados de pesquisa, não pede acesso a prontuários e não solicita autorização para iniciar recrutamento.
 
 ## Mensagem inicial sugerida
 
-Olá! Estou preparando um anteprojeto para o Mestrado Profissional em Telessaúde e Saúde Digital da UERJ, na linha “Tecnologias para Educação em Saúde”. A proposta é desenvolver e avaliar um recurso educativo digital simples, em linguagem clara, para ajudar adultos a se prepararem para atendimentos de telessaúde, compreenderem exemplos de informações em saúde e identificarem próximos passos descritos no cenário educativo.
+Olá! Estou preparando um anteprojeto para o Mestrado Profissional em Telessaúde e Saúde Digital da UERJ, na linha “2) Tecnologias para Educação em Saúde”. A proposta é desenvolver um simulador educativo simples, com situações fictícias, para que adultos com baixa familiaridade digital possam praticar etapas básicas de uma teleconsulta — por exemplo, preparar o aparelho, entrar em uma sala virtual demonstrativa, reagir a uma dificuldade simples de áudio e confirmar os próximos passos.
 
-Gostaria de conversar com a Secretaria Municipal de Saúde para conhecer o fluxo de telessaúde utilizado no município e verificar se haveria possibilidade de uma futura parceria de pesquisa. Neste primeiro momento, a intenção é apenas apresentar a proposta e entender os procedimentos necessários. Qualquer pesquisa com participantes dependerá das autorizações institucionais e éticas aplicáveis.
+A ideia não é criar um sistema de atendimento nem conectar o simulador a plataformas ou prontuários. Gostaria de conhecer, em termos gerais, o fluxo e os materiais de orientação existentes e saber quais procedimentos institucionais seriam necessários para avaliar futuramente uma solução educativa desse tipo. Neste primeiro contato não pretendo recrutar participantes nem coletar dados de pacientes. Qual seria a pessoa ou setor mais indicado para uma conversa exploratória?
 
-Seria possível agendar uma breve conversa com a pessoa responsável pela telessaúde ou pela coordenação da Atenção Básica? Agradeço desde já.
+## Agenda sugerida para 20–30 minutos
 
-## Agenda sugerida para reunião de 20–30 minutos
+1. Apresentar o tema e os limites do simulador.
+2. Perguntar quais etapas gerais os usuários precisam percorrer para participar de uma teleconsulta.
+3. Conhecer os materiais ou orientações que já são oferecidos antes e durante o acesso.
+4. Perguntar que canais de suporte existem quando há dificuldade técnica — sem solicitar exemplos que identifiquem pacientes.
+5. Apresentar a ideia de simulação fictícia e verificar se faz sentido discutir uma possível colaboração futura.
+6. Perguntar quais setores e autorizações seriam necessários se o protocolo vier a prever avaliação com pessoas.
+7. Registrar dúvidas, contatos institucionais e próximos passos, sem assumir compromisso ou autorização.
 
-1. Apresentar o objetivo do projeto em 2 minutos.
-2. Perguntar como funciona o fluxo atual de telessaúde/telemedicina e quais unidades participam.
-3. Entender como usuários recebem informações antes e depois do atendimento.
-4. Perguntar se há interesse em discutir uma parceria e quais autorizações seriam necessárias.
-5. Verificar limites operacionais: tempo dos profissionais, local para testes, dispositivos, recrutamento e restrições de dados.
-6. Registrar próximos passos e contato institucional apropriado.
+## Perguntas orientadoras
 
-## Perguntas a fazer
+- Como os usuários recebem instruções para preparar o aparelho e entrar na teleconsulta?
+- Existe suporte quando a pessoa não consegue acessar a sala ou não consegue ouvir/ver adequadamente?
+- Que materiais ou tutoriais públicos já existem e poderiam ser considerados no benchmarking?
+- Quais aspectos do fluxo podem ser descritos sem acessar dados pessoais ou informações assistenciais?
+- Que restrições existem quanto ao uso de dispositivos, tempo das equipes e ambiente para eventual pesquisa?
+- Quais autorizações administrativas seriam necessárias para colaborar com um projeto acadêmico?
+- Com quem devemos confirmar exigências éticas e de proteção de dados antes de qualquer avaliação?
 
-- Quais serviços ou unidades participam do fluxo de telemedicina/telessaúde?
-- O município dispõe de materiais de educação em saúde, preparação para atendimento ou orientação pós-atendimento?
-- Quais formatos educativos já são usados e quais dificuldades de compreensão são observadas pelas equipes, sem solicitar informações identificáveis de pacientes?
-- Quem seria a pessoa responsável por avaliar uma proposta de pesquisa?
-- Seria possível realizar entrevistas e testes de usabilidade sem acessar prontuários?
-- Quais autorizações formais seriam necessárias?
-- Há regras locais sobre uso de celulares, computadores, instalações ou marca institucional?
-- Existe algum período do ano em que a equipe teria maior disponibilidade?
+## Cuidados importantes
 
-## O que não prometer
+- Não observar consultas, solicitar lista de usuários, pedir dados de prontuário nem recolher exemplos identificáveis.
+- Não solicitar que a equipe recrute pessoas nesta fase.
+- Não conduzir entrevistas, testes ou pesquisa com participantes durante a conversa exploratória.
+- Não apresentar a solução como produto validado, oficial ou autorizado pelo SUS.
+- Não prometer que o produto aumentará o acesso, a adesão ou melhorará resultados clínicos.
+- Distinguir a manifestação de interesse institucional de autorização administrativa e de aprovação ética.
+- Registrar apenas informações institucionais não confidenciais e os próximos passos.
 
-- Não afirmar que o protótipo já está validado ou que melhora desfechos clínicos.
-- Não prometer integração com prontuário, inteligência artificial ou implantação definitiva.
-- Não iniciar entrevistas, recrutamento ou coleta de dados durante a conversa exploratória.
-- Não solicitar dados identificáveis de pacientes.
-- Não apresentar a parceria como formalizada antes de haver confirmação por escrito.
+## Registro após a conversa
 
-## Após a reunião
-
-Registrar somente informações institucionais não confidenciais e os próximos passos. Se houver interesse, solicitar orientação sobre a documentação necessária para uma parceria formal. A autorização do serviço e a avaliação ética são etapas distintas e deverão ser tratadas conforme as regras aplicáveis.
+Preencher fora deste repositório público, se houver informação de contato pessoal ou conteúdo não público: data, setor consultado, informações gerais sobre fluxo/material, requisitos indicados, próximo passo e pontos que precisam ser confirmados por escrito. Não inserir dados pessoais de usuários nem informações confidenciais.
