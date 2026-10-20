@@ -95,13 +95,18 @@ check("abas e botões data-go possuem painel de destino", () => {
     assert.ok(idSet.has(`view-${match[1]}`), `data-go aponta para view-${match[1]} inexistente`);
   }
 });
-check("foco visível possui cor com contraste mínimo de 3:1 nos fundos testados", () => {
+check("foco e bordas significativas possuem contraste mínimo de 3:1", () => {
   const focus = /--focus:\s*(#[0-9a-f]{6})/i.exec(css)?.[1];
+  const line = /--line:\s*(#[0-9a-f]{6})/i.exec(css)?.[1];
   assert.ok(focus, "variável --focus não encontrada");
+  assert.ok(line, "variável --line não encontrada");
   for (const background of ["#ffffff", "#f4f7fb"]) {
-    const ratio = contrastRatio(focus, background);
-    assert.ok(ratio >= 3, `contraste de ${focus} sobre ${background} é ${ratio.toFixed(2)}:1`);
-    console.log(`  Contraste ${focus} sobre ${background}: ${ratio.toFixed(2)}:1`);
+    const focusRatio = contrastRatio(focus, background);
+    const lineRatio = contrastRatio(line, background);
+    assert.ok(focusRatio >= 3, `contraste de foco ${focus} sobre ${background} é ${focusRatio.toFixed(2)}:1`);
+    assert.ok(lineRatio >= 3, `contraste de borda ${line} sobre ${background} é ${lineRatio.toFixed(2)}:1`);
+    console.log(`  Contraste de foco ${focus} sobre ${background}: ${focusRatio.toFixed(2)}:1`);
+    console.log(`  Contraste de borda ${line} sobre ${background}: ${lineRatio.toFixed(2)}:1`);
   }
   assert.match(css, /:focus-visible|\.panel h2:focus/, "não foi encontrada regra visível para foco");
 });
