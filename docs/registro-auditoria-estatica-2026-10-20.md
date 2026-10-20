@@ -50,6 +50,10 @@ Esses SHAs identificam o conteúdo dos arquivos consultados; não são, por si, 
 | AUD-19 — distribuição | O HTML referencia `app.js` localmente e não foram encontradas referências externas em `src`/`href`. | **Parcial — inspeção estática** | Não foi aberto o pacote distribuído nem verificado o carregamento na forma final de hospedagem. |
 | AUD-20 — integridade dos testes | Há registro histórico de CI em documentação do projeto. | **Pendente de conferência da execução mais recente** | Não foi consultado nesta rodada o estado atual do workflow para o commit exato inspecionado. |
 
+## 3.1 Verificação preliminar de contraste
+
+Foi feito cálculo estático de contraste para combinações selecionadas de texto, fundo, botões, foco e bordas. As combinações de texto verificadas ficaram acima de 4,5:1; o indicador de foco `#005fcc` teve razões de 5,98:1 em branco e 5,57:1 no fundo principal. Foram encontradas possíveis pendências para análise contextual: borda da etapa ativa `#9ab9ff` sobre `#e6eeff` = 1,68:1; borda do checklist marcado `#8db1ff` sobre `#f0f6ff` = 1,96:1; borda amarela `#f2d58a` sobre `#fff6df` = 1,33:1. Ver [Verificação preliminar de contraste](verificacao-preliminar-contraste-2026-10-20.md). As bordas de estados precisam de avaliação contextual sob WCAG 2.2 SC 1.4.11; a borda do aviso pode ser decorativa ou informativa. Não se declara falha definitiva nem conformidade integral sem verificar o componente completo e os estados reais no navegador.
+
 ## 4. Observações e riscos remanescentes
 
 1. A nota de facilidade de 1 a 5 no painel final é uma interação local da demonstração. O código inspecionado não contém mecanismo de envio ou persistência dessa nota. Não tratar cliques ou notas eventuais como dados de pesquisa nem reportá-los como avaliação de usuários.
