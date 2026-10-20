@@ -71,8 +71,8 @@ test("navegação move o foco para o título da etapa ativa", async ({ page }) =
 
 test("os controles fictícios permitem praticar ações sem ativar áudio nem enviar mensagens reais", async ({ page }) => {
   await page.locator('.tab[data-view="guidance"]').click();
-  await page.getByRole("button", { name: "Entrar na sala de treino" }).click();
-  await expect(page.locator("#entry-room-feedback")).toContainText("Nenhuma conexão real foi iniciada");
+  await page.getByRole("button", { name: "Tentar entrar na sala de treino" }).click();
+  await expect(page.locator("#entry-room-feedback")).toContainText("Nenhuma conexão real foi aberta");
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.getByRole("button", { name: "Conferir áudio (simulação)" }).click();
   await expect(page.locator("#room-feedback")).toContainText("conferir o controle de áudio");
