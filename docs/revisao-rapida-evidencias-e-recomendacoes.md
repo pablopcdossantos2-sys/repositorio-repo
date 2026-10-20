@@ -99,6 +99,18 @@ Se houver acesso ao serviço real, é importante mapear antes o fluxo de prepara
 
 Fonte: [OMS, Recommendations on digital interventions for health system strengthening, 2019](https://www.who.int/publications/i/item/9789241550505).
 
+### 2.7 Evidência recente (2025–2026): apoio digital, barreiras de acesso e usabilidade
+
+Um estudo qualitativo de 2026 avaliou um portal do paciente com participantes que precisavam de apoio digital. Nas sessões de think-aloud, uma dificuldade relevante foi perceber o estado do sistema; os participantes que receberam instruções orais apresentaram menos problemas de usabilidade do que aqueles que receberam instruções por escrito ou nenhuma instrução. O estudo é pequeno e feito em outro país e outro tipo de sistema, mas reforça dois princípios úteis para o Conversa Clara: o sistema deve tornar o estado e o resultado das ações perceptíveis; instruções claras podem ser parte do contexto de uso, embora não devam substituir uma interface compreensível por si só.
+
+Outro estudo qualitativo multicêntrico dos EUA, publicado em setembro de 2026, reuniu 62 participantes (40 pacientes, 15 profissionais e 7 gestores/políticos) para discutir acesso e sustentabilidade da telessaúde. Os entrevistados identificaram benefícios de acesso, mas também barreiras persistentes; entre as medidas propostas estavam conectividade de banda larga, acesso a dispositivos e pontos comunitários, apoio à literacia digital, plataformas simples e integração adequada ao fluxo de trabalho. Esses resultados não podem ser transferidos diretamente ao contexto brasileiro, mas sustentam incluir perguntas sobre conectividade, dispositivos e suporte disponível na conversa exploratória com o serviço local. Um protótipo de interface não resolverá, isoladamente, essas barreiras estruturais.
+
+Em 2025, uma análise de 1.661 adultos usuários de internet na Polônia examinou visitas médicas remotas por telefone. Literacia em saúde digital, ansiedade tecnológica, idade e escolaridade apresentaram associação estatística com o escore de usabilidade; o estudo foi observacional e baseado em autorrelato, em sistema e contexto diferentes. A utilidade para o projeto é lembrar que a experiência digital não é homogênea, e não usar coeficientes ou estimativas desse país como previsão para Guaraí.
+
+**Implicações adicionais:** (1) incluir na inspeção de interface se cada ação apresenta feedback compreensível; (2) planejar tarefas observadas com possibilidade de registrar necessidade de ajuda; (3) discutir se familiaridade digital e acesso a dispositivo/conectividade precisam ser descritos no protocolo; (4) mapear barreiras do serviço antes de propor funcionalidades. Não adicionar um modo de onboarding extenso automaticamente: primeiro testar se a interface existente pode ser compreendida e se instruções breves bastam.
+
+Fontes: [Raanhuis et al., 2026](https://doi.org/10.3233/SHTI260651); [Khairat et al., 2026](https://doi.org/10.7812/TPP/26.102); [Duplaga, 2025](https://doi.org/10.3233/SHTI251307).
+
 ## 3. Recomendações priorizadas para o Conversa Clara
 
 | Prioridade | Recomendação | Critério verificável de conclusão |
@@ -144,6 +156,10 @@ Fonte: [OMS, Recommendations on digital interventions for health system strength
 11. **Governo Federal do Brasil.** Modelo de Acessibilidade em Governo Eletrônico (eMAG), versão 3.1. [Portal eMAG](https://emag.governoeletronico.gov.br/).
 12. **World Health Organization.** Recommendations on digital interventions for health system strengthening. 2019. [Diretriz](https://www.who.int/publications/i/item/9789241550505).
 13. **PRISMA.** PRISMA 2020 statement and reporting resources. [Checklist e fluxogramas](https://www.prisma-statement.org/prisma-2020).
+
+14. **RAANHUIS, A. F. A. et al. (2026).** Usability of a Patient Portal in Patients with Digital Support Needs: A Think Aloud Study. *Studies in Health Technology and Informatics*, 336, 2200–2204. DOI: https://doi.org/10.3233/SHTI260651. Estudo de think-aloud que identifica problemas de visibilidade do estado do sistema e sugere que o apoio oral pode reduzir dificuldades em um contexto específico. A fonte é um estudo pequeno, não um teste do Conversa Clara.
+15. **KHAIRAT, S. et al. (2026).** What Telehealth Gets Right and What's Missing: A National Multistakeholder Study of Access and Sustainability. *The Permanente Journal*. Publicado em 8 set. 2026. DOI: https://doi.org/10.7812/TPP/26.102. Entrevistas qualitativas com 62 pacientes, profissionais e gestores nos EUA; destaca benefícios de acesso e barreiras de conectividade, dispositivos, literacia digital e fluxo de trabalho.
+16. **DUPLAGA, M. (2025).** The Determinants of the Usability of Telephone-Based Remote Physician Visits. *Studies in Health Technology and Informatics*, 329, 1976–1977. DOI: https://doi.org/10.3233/SHTI251307. Estudo observacional de 1.661 adultos usuários de internet na Polônia; associações entre usabilidade autorreferida, literacia digital, ansiedade tecnológica, idade e escolaridade. Não é diretamente generalizável ao contexto de Guaraí.
 
 ## 7. Próximo passo obrigatório
 
