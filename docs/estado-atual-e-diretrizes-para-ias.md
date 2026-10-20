@@ -316,7 +316,7 @@ Foi registrada em `docs/registro-busca-estruturada-2026-10-20.md` uma tentativa 
 1. Executar as buscas oficiais manualmente num navegador acessível e registrar consulta, data/hora, filtros, totais e exportações.
 2. Solicitar ao desenvolvedor que siga o tutorial e reporte os resultados de `npm test` com sistema, versões e commit.
 3. Realizar auditoria manual conforme AUD-01 a AUD-20; não marcar casos como concluídos sem evidência.
-4. Fazer revisão editorial de cada cenário e feedback com base na matriz de objetivos.
+4. [x] Fazer revisão editorial dos textos e feedbacks dos três cenários com base na matriz de objetivos; consultar o registro editorial. O teste de regressão e a inspeção manual após a edição permanecem pendentes.
 5. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
 
 
@@ -349,3 +349,33 @@ A escala de facilidade de 1 a 5 no encerramento continua sendo apenas feedback l
 ### Diretriz operacional atualizada
 
 Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre objetivo educativo, texto apresentado, feedback de acerto/tentativa e critério de teste. Se uma fonte só fundamenta um princípio geral, não a apresentar como validação do texto específico. Atualizar sempre `ROADMAP.md` e este documento após avanços verificáveis.
+
+
+## Atualização de continuidade — revisão editorial dos cenários e anteprojeto (20/10/2026)
+
+### Alterações confirmadas no repositório
+
+- A revisão editorial dos cenários OE-02 (link), OE-03 (áudio) e OE-04 (informação não compreendida) foi concluída como trabalho documental e aplicada ao código.
+- `produto/index.html`: opções e instruções foram ajustadas para recomendar a confirmação do link por um canal oficial já conhecido; conferir volume e, quando disponível, saída de som; pedir repetição/explicação e confirmar o próximo passo mencionado.
+- `produto/app.js`: feedbacks de acerto, tentativa e botões fictícios foram refinados para explicar a razão da ação, indicar um próximo passo e preservar o tom não punitivo. As mensagens reforçam que não há conexão, áudio ou mensagem real.
+- [Registro editorial](revisao-editorial-cenarios-feedbacks-2026-10-20.md) atualizado com os textos, o racional, as fontes documentadas e as verificações pendentes.
+- `docs/mapa-objetivos-educativos-e-tarefas.md` atualizado para refletir a revisão editorial, sem declarar validação com usuários.
+- `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md` fortalecidos com uma distinção mais explícita entre evidência publicada e hipótese de design. A revisão de escopo de Galvin et al. (2024) descreve evidência limitada/mista de melhoria da competência; o benchmark já identificou Digital House Calls, então a estrutura antes/durante/depois e o caráter autoguiado não são apresentados como novidade exclusiva.
+- `README.md` aponta para o registro editorial; `ROADMAP.md` lista a revisão como concluída e prioriza o teste de regressão.
+
+### Decisões e limites que permanecem
+
+1. **OE-05/Encerrar:** continua com exemplos estáticos. Não foi adicionada tarefa interativa nova; a escala de facilidade de 1 a 5 não é medida de aprendizagem.
+2. **Busca bibliográfica:** as consultas oficiais, contagens, exportações e triagem continuam pendentes.
+3. **Teste de código:** houve alteração de HTML e JavaScript. Não registrar como aprovados os testes de regressão até que exista execução verificável após estes commits.
+4. **Auditoria manual:** teclado/foco, anúncio de mensagens, zoom/reflow, leitor de tela e estados visuais continuam pendentes.
+5. **Participantes:** não houve validação com usuários. Não iniciar atividades com pessoas sem indicação explícita da orientação e verificação das autorizações aplicáveis.
+
+### Próximas ações
+
+1. O desenvolvedor deve seguir [Tutorial didático para abrir e testar o protótipo](tutorial-instalar-e-testar-prototipo.md) e executar `npm test`; registrar sistema operacional, versões, saída e commit testado.
+2. Conferir manualmente o foco e a leitura dos feedbacks em navegador e tecnologia assistiva disponível.
+3. Executar e registrar as buscas formais em PubMed/MEDLINE, BVS/LILACS e SciELO.
+4. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
+
+**Integridade:** revisão editorial não equivale a teste de compreensão, usabilidade com o público-alvo, aprendizagem demonstrada ou eficácia clínica. Atualizar este documento e o ROADMAP após cada avanço verificável.
