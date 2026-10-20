@@ -88,7 +88,13 @@ Executar consultas reproduzíveis em PubMed/MEDLINE, BVS/LILACS e SciELO, adapta
 
 ### Fase 2 — Objetivos educativos e desenvolvimento do protótipo
 
-Transformar as evidências em objetivos de aprendizagem, tarefas e critérios observáveis. Criar o simulador com três partes: (a) preparar dispositivo, conexão, ambiente e dúvidas; (b) praticar três situações fictícias, selecionáveis, de acesso indisponível, falha de áudio e informação pouco clara, com escolhas e feedback contextual; (c) praticar pedidos de esclarecimento e confirmar os próximos passos presentes no cenário. Todos os personagens, ligações e mensagens serão fictícios. Cada requisito deverá estar ligado a uma justificativa, implementação e forma de teste.
+Transformar as evidências em objetivos de aprendizagem, tarefas e critérios observáveis. Criar o simulador com três partes: (a) preparar dispositivo, conexão, ambiente e dúvidas; (b) praticar três situações fictícias, selecionáveis, de acesso indisponível, falha de áudio e informação pouco clara, com escolhas e feedback contextual; (c) apresentar exemplos educativos estáticos de pedido de esclarecimento, confirmação dos próximos passos presentes no cenário e uso de canal oficial conhecido. A etapa de encerramento ainda não tem tarefa de escolha e feedback para OE-05; a escala de facilidade de 1 a 5 não é tarefa de aprendizagem. Todos os personagens, ligações e mensagens serão fictícios. Cada requisito deverá estar ligado a uma justificativa, implementação e forma de teste.
+
+### Critérios editoriais e relação entre objetivos e feedback
+
+Os cenários interativos serão examinados quanto à clareza da situação, concretude da ação segura, explicação do feedback, tom não punitivo, privacidade e ausência de aconselhamento clínico. O cenário de acesso orienta a conferir conexão e link/canal oficial conhecido; o de áudio, verificar o volume e os controles disponíveis e comunicar a dificuldade; o de informação pouco clara, pedir repetição/explicação alternativa e confirmar o próximo passo. A revisão editorial destes textos foi registrada em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+
+As recomendações de fontes sobre preparação para telessaúde, acessibilidade e treinamento de usuários fundamentam esses critérios gerais, mas não validam as formulações específicas. A adequação linguística e pedagógica ao público-alvo permanece hipótese de design sob avaliação documental e técnica; não se afirmará compreensão ou eficácia sem evidência apropriada.
 
 ### Fase 3 — Auditoria técnica e pedagógica
 
