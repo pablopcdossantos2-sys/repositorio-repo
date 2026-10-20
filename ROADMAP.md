@@ -153,4 +153,4 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 - [x] Adicionar os arquivos finais à pasta `apresentacao/`: [apresentação ODP](apresentacao/defesa-oral-atualizada.odp) e [guia Markdown](apresentacao/guia-defesa-oral-atualizado.md). O pacote ODP foi aberto e convertido em PDF pelo LibreOffice Impress, com 15 páginas geradas. A inspeção visual de miniaturas não identificou páginas ausentes; a revisão de legibilidade em tela cheia e a personalização pelo candidato continuam pendentes.
 - [ ] Personalizar nome e motivação do candidato e confirmar no edital vigente duração e permissão de slides.
 
-**Arquivos planejados:** `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`. A apresentação é material de preparação, não substitui a conferência do edital vigente nem validação acadêmica do método.
+**Arquivos adicionados:** `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`. A apresentação é material de preparação, não substitui a conferência do edital vigente nem validação acadêmica do método.
