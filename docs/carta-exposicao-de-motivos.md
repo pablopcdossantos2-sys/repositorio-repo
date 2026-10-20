@@ -44,6 +44,7 @@ Atenciosamente,
 
 ## Referências oficiais para conferência
 
+- [Edital — Processo seletivo da Turma 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/)
 - [Perguntas frequentes do Programa — formato e conteúdo da carta](https://www.telessaude.uerj.br/mestrado/faq/)
 - [Página oficial do Mestrado Profissional em Telessaúde e Saúde Digital](https://www.telessaude.uerj.br/mestrado/)
 - [Linhas de pesquisa do Programa](https://www.telessaude.uerj.br/mestrado/linhas-de-pesquisa/)
