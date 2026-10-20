@@ -76,7 +76,9 @@ test("os controles fictícios permitem praticar ações sem ativar áudio nem en
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.getByRole("button", { name: "Conferir áudio (simulação)" }).click();
   await expect(page.locator("#room-feedback")).toContainText("conferir o controle de áudio");
+  await expect(page.locator("#room-feedback")).toContainText("saída de som");
   await page.getByRole("button", { name: "Avisar que não estou ouvindo" }).click();
+  await expect(page.locator("#room-feedback")).toContainText("Não estou conseguindo ouvir");
   await expect(page.locator("#room-feedback")).toContainText("não envia uma mensagem real");
   await expect(page.locator("#view-guidance")).toContainText("não ativam microfone nem áudio real");
 });
@@ -102,6 +104,8 @@ test("cenário de entrada recomenda usar link/canal oficial sem compartilhar sen
   await page.locator('[name="entry-choice"][value="safe"]').check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#entry-choice-feedback")).toContainText("Boa escolha");
+  await expect(page.locator("#entry-choice-feedback")).toContainText("canal oficial que você já conhece");
+  await expect(page.locator("#entry-choice-feedback")).toContainText("senha ou código de acesso");
 });
 
 test("cenário de esclarecimento orienta a pedir repetição em vez de adivinhar", async ({ page }) => {
@@ -113,6 +117,8 @@ test("cenário de esclarecimento orienta a pedir repetição em vez de adivinhar
   await page.locator('[name="clarify-choice"][value="safe"]').check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#clarify-feedback")).toContainText("Boa prática");
+  await expect(page.locator("#clarify-feedback")).toContainText("próximo passo mencionado");
+  await expect(page.locator("#clarify-feedback")).toContainText("não fornece orientação clínica");
 });
 
 test("nota de facilidade mantém somente uma opção selecionada", async ({ page }) => {
