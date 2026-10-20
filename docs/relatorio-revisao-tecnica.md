@@ -78,3 +78,31 @@ Foi feita nova inspeção do HTML, JavaScript e CSS atuais, incluindo os caminho
 7. Use um verificador automatizado de acessibilidade e uma ferramenta de contraste como apoio, não como substituto do teste manual.
 
 Não marcar os testes de navegador, dispositivo ou leitor de tela como concluídos até que alguém os execute e registre os resultados.
+
+
+## 8. Verificação automatizada em navegador — 19/10/2026
+
+### Ferramentas e escopo
+
+Foi adicionada uma suíte Playwright com axe-core em `tests/prototype.spec.js`, executada pelo workflow `.github/workflows/prototype-quality.yml`. A execução automatizada foi realizada no GitHub Actions, em Chromium no runner Linux. Isso é evidência de execução automatizada; não equivale a teste em dispositivo físico ou com uma pessoa usando leitor de tela.
+
+### Resultados
+
+- **Verificações estáticas:** 14 verificações passaram no workflow [39355380708](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355380708), incluindo sintaxe JavaScript, referências locais, IDs, alvos ARIA, movimento reduzido e cálculo de contraste do foco.
+- **Testes de navegador e axe-core:** 15 testes passaram no workflow [39355695848](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39355695848).
+- Os cenários incluem estado inicial e painéis ocultos, atualização/limpeza do checklist, foco depois da navegação, feedback de compreensão, seleção única de nota, reinicialização completa, ausência de rolagem horizontal no estado inicial em viewports de 320, 360, 390, 768 e 1280 pixels CSS e navegação com movimento reduzido.
+- axe-core foi executado nos três estados da interface com tags WCAG 2.1/2.2 A/AA. As três varreduras terminaram sem violações reportadas por essas regras automatizadas.
+
+### Achado e correção aplicados
+
+A primeira execução da suíte identificou uma violação `label-content-name-mismatch` na escala de facilidade: os nomes `aria-label` dos botões “1” e “5” não incluíam corretamente o texto visível (“Difícil” e “Fácil”). Os nomes acessíveis foram ajustados para `1 Difícil` e `5 Fácil`, preservando o nome de grupo que explica a escala; depois, a suíte completa passou.
+
+### Limitações e pendências
+
+1. A varredura automática não comprova conformidade integral com WCAG 2.2 e não substitui inspeção manual.
+2. Não foram executados teste manual com NVDA, VoiceOver ou TalkBack nem testes com dispositivos físicos.
+3. A verificação de responsividade automatizada mede ausência de rolagem horizontal inesperada apenas no estado inicial em viewports definidos; não avalia toda combinação de conteúdo, zoom, navegador ou dispositivo.
+4. A inspeção de armazenamento/rede é parcialmente estática no script; ela não substitui uma inspeção manual da aba de rede e das ferramentas de armazenamento do navegador.
+5. Os testes não envolvem participantes e não constituem validação de usabilidade ou compreensão clínica.
+
+Os itens do checklist manual da seção 4 continuam pendentes até serem executados e documentados.
