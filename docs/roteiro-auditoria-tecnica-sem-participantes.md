@@ -87,6 +87,10 @@ Copiar e preencher para cada rodada:
 - **Limitações:**
 - **Próxima ação:**
 
+## Registro de inspeção estática inicial — 20/10/2026
+
+Foi feita uma inspeção estática parcial dos arquivos atuais de HTML, JavaScript e CSS, sem executar o protótipo no navegador e sem participantes. Resultados, hashes dos arquivos e limites estão no [Registro da auditoria estática do protótipo — 20/10/2026](registro-auditoria-estatica-2026-10-20.md). A inspeção não conclui a auditoria manual: testes de rede/armazenamento no navegador, teclado/foco, zoom, contraste integral, leitor de tela e distribuição continuam pendentes.
+
 ## 7. Referências de apoio
 
 - [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md).
