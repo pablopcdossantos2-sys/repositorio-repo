@@ -88,3 +88,15 @@ Não acrescentar chatbot, IA, integração com prontuário, consulta real, conta
 - [x] Corrigir o slide da apresentação ODP para refletir a distinção; [commit da correção](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36).
 - [ ] Executar auditoria manual em navegador/tecnologia assistiva; esta revisão foi estática, sem execução de testes.
 - [ ] Concluir buscas bibliográficas formais e registrar contagens/exportações reais.
+
+
+## Atualização — revisão editorial dos cenários e anteprojeto (20/10/2026)
+
+- [x] Revisar as instruções e os feedbacks de OE-02 (link), OE-03 (áudio) e OE-04 (informação não compreendida), com ênfase em ação concreta, tom não punitivo, canal oficial conhecido e ausência de orientação clínica.
+- [x] Atualizar `produto/index.html` e `produto/app.js`; ver [registro editorial](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+- [x] Alinhar o mapa de objetivos e os anteprojetos à revisão, distinguindo evidência publicada de hipótese de design.
+- [ ] Executar os testes automatizados após a alteração de texto e registrar o resultado do commit testado.
+- [ ] Conferir manualmente foco, mensagens dinâmicas, teclado e tecnologia assistiva.
+- [ ] Concluir a busca bibliográfica formal e registrar contagens/exportações reais.
+
+OE-05 permanece com conteúdo estático; não foi criada nova interação de encerramento. A escala de facilidade de 1 a 5 não é uma tarefa de aprendizagem. A revisão editorial não equivale a validação com usuários nem demonstra eficácia educativa.
