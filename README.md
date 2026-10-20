@@ -8,6 +8,8 @@ Desenvolver e avaliar um protótipo web responsivo, simples e acessível, que aj
 
 O cenário preferencial de pesquisa é a rede pública de saúde de Guaraí, Tocantins, condicionado à viabilidade e às autorizações institucionais e éticas aplicáveis.
 
+O protótipo demonstrativo usa o nome provisório **Conversa Clara**; ele não representa um sistema oficial da Secretaria Municipal de Saúde.
+
 ## Princípios de escopo
 
 - **Simplicidade e viabilidade:** construir somente o necessário para responder à pergunta de pesquisa.
