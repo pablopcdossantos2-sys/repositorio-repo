@@ -4,17 +4,17 @@
 
 ## 1. Finalidade
 
-Planejar uma avaliação proporcional de um simulador web que permita praticar etapas básicas de uma teleconsulta num ambiente fictício. O foco é a usabilidade da interface, a execução e compreensão de tarefas simuladas e a clareza das instruções — não a eficácia de uma consulta real.
+Planejar, de forma preliminar, o desenvolvimento e a avaliação proporcional de um simulador web em ambiente fictício. À luz das preferências metodológicas mais recentes, a prioridade passa a ser identificar necessidades e revisar uma representação simples da solução; a avaliação técnica ocorre sem participantes, e eventual teste autônomo de usabilidade é complementar e condicionado. O estudo não avalia a eficácia de uma consulta real.
 
 ## 2. Pergunta de pesquisa de trabalho
 
-Como adultos com baixa familiaridade digital conseguem navegar e executar tarefas definidas num simulador educativo de teleconsulta, e quais barreiras de usabilidade, compreensão e acessibilidade são observadas?
+Quais necessidades, barreiras e preferências de adultos com baixa familiaridade digital devem orientar um simulador educativo para praticar etapas básicas de uma teleconsulta? Se houver acesso e aprovações aplicáveis, uma etapa complementar poderá examinar a revisão de uma representação simples do produto e, posteriormente, tarefas autônomas no protótipo.
 
 A pergunta definitiva, a operacionalização do público e a inclusão de participantes ainda precisam ser discutidas com a orientação. A pesquisa não deve presumir que todos os usuários com baixa familiaridade digital tenham as mesmas dificuldades.
 
 ## 3. Objetivo geral de avaliação
 
-Examinar a usabilidade, a clareza das instruções e o desempenho em tarefas simuladas do protótipo Treino de Teleconsulta, identificando barreiras e oportunidades de aperfeiçoamento.
+Identificar necessidades relevantes para o produto e traduzi-las em requisitos e decisões de design para o protótipo Treino de Teleconsulta. A usabilidade e o desempenho em tarefas ficam como avaliação complementar, condicionada à viabilidade e às aprovações aplicáveis.
 
 ## 4. Objetivos específicos de avaliação
 
@@ -24,6 +24,12 @@ Examinar a usabilidade, a clareza das instruções e o desempenho em tarefas sim
 4. Produzir recomendações e registrar os limites do que foi observado.
 
 ## 5. Desenho em camadas
+
+### Prioridade metodológica revisada
+
+A preferência de trabalho é uma combinação enxuta: (1) identificar necessidades por uma técnica principal a definir com a orientação; (2) revisar com o público uma representação simples ou protótipo de baixa fidelidade, se houver acesso e aprovações. A auditoria técnica/pedagógica sem participantes pode avançar de modo independente. A avaliação de usabilidade autônoma do protótipo funcional é complementar, não requisito central neste momento. A viabilidade de acesso permanece incerta; não há campo, parceria, aprovação ou amostra confirmados.
+
+
 
 ### Camada 0 — sem participantes
 
@@ -114,11 +120,12 @@ A avaliação do protótipo pode indicar problemas de interface, acessibilidade,
 
 ## 13. Próximas decisões
 
-1. Discutir pergunta, objetivo principal, público e método com a orientação.
+1. Discutir a pergunta principal: necessidades e requisitos para orientar o desenvolvimento do produto.
 2. Completar busca bibliográfica e comparação com soluções existentes.
-3. Definir objetivo de aprendizagem e rubrica por tarefa.
+3. Investigar acesso ao público e escolher a técnica principal de identificação de necessidades e o formato de revisão de protótipo simples.
 4. Realizar auditoria técnica/pedagógica sem participantes.
-5. Verificar campo, autorizações e necessidade de apreciação ética antes de qualquer avaliação com pessoas.
+5. Verificar campo, autorizações e necessidade de apreciação ética antes de qualquer atividade com pessoas.
+6. Manter o teste de usabilidade autônoma como etapa complementar, a decidir após avaliação de prazo e viabilidade.
 
 ## 14. Rubrica candidata para auditoria técnica/pedagógica (Camada 0)
 
