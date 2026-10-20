@@ -279,3 +279,9 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 - [ ] Discutir com a orientação se a avaliação sem participantes atende aos requisitos do curso.
 
 **Limite:** revisão editorial e atualização de texto não são validação com usuários, não demonstram compreensão do público-alvo e não comprovam eficácia educativa.
+
+
+### Ajuste de rastreabilidade dos testes — 20/10/2026
+
+- [x] Alinhar as novas asserções Playwright às formulações efetivamente presentes na versão atual de `produto/app.js` (link/canal oficial conhecido; controles de som disponíveis; confirmação do próximo passo).
+- [ ] Confirmar a execução da CI para o commit de teste [b911436](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/b911436ee49e2678ad4f69c8ededf63be98d4467). A consulta de status disponível não retornou checks; não interpretar isso como aprovação nem falha.
