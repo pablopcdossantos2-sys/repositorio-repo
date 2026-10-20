@@ -6,6 +6,8 @@
 
 ## 1. Matriz de rastreabilidade
 
+A busca oficial estruturada ainda não foi executada com contagens/exportações; consultar [registro de execução das buscas](registro-busca-estruturada-2026-10-20.md). A inspeção estática parcial do protótipo foi registrada em [registro de auditoria estática](registro-auditoria-estatica-2026-10-20.md), sem substituir verificações manuais.
+
 | Tema | Referência inicial | Implicação para o projeto | Requisito ou decisão de produto | Evidência ainda necessária |
 |---|---|---|---|---|
 | Acessibilidade em telessaúde | WHO; ITU (2022), *WHO-ITU global standard for accessibility of telehealth services* | A acessibilidade deve ser tratada como requisito do serviço digital, não como acabamento posterior. | Interface responsiva; foco visível; rótulos claros; linguagem compreensível; navegação por teclado e toque. | Extrair os critérios aplicáveis ao protótipo e registrar como cada um será verificado. |
