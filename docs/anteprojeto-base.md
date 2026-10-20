@@ -16,13 +16,13 @@
 
 ## Tema e delimitação
 
-Desenvolvimento de um simulador educativo web, responsivo e acessível, para adultos com baixa familiaridade digital, com fundamentação documental e avaliação técnica, pedagógica e de acessibilidade sem participantes como plano inicial. Por meio de etapas guiadas e situações fictícias, o produto permitirá praticar ações básicas relacionadas à participação em uma teleconsulta: preparar dispositivo e ambiente, entrar em uma sala virtual demonstrativa, reconhecer controles básicos, lidar com dificuldades simples de áudio/vídeo, pedir que uma informação seja repetida e confirmar os próximos passos antes de encerrar.
+Desenvolvimento de um simulador educativo web, responsivo e acessível, para adultos com baixa familiaridade digital, com fundamentação documental e avaliação técnica, pedagógica e de acessibilidade sem participantes como plano inicial. Por meio de etapas guiadas e situações fictícias, o produto permitirá praticar ações básicas relacionadas à participação em uma teleconsulta: preparar dispositivo e ambiente, acessar uma sala virtual demonstrativa, lidar com uma dificuldade simples de áudio, pedir que uma informação seja repetida ou explicada de outro modo e confirmar os próximos passos antes de encerrar.
 
 O simulador não será conectado a plataforma de telemedicina ou serviço real, não realizará uma consulta, não usará áudio/vídeo ao vivo e não oferecerá aconselhamento clínico. Guaraí, Tocantins, é um possível cenário de articulação e avaliação, condicionado a interesse institucional e às autorizações pertinentes.
 
 ## Problema de pesquisa
 
-A oferta de teleconsultas pressupõe que os usuários consigam realizar ações digitais básicas e navegar por um ambiente de comunicação remota. Pessoas com menor familiaridade com interfaces digitais podem precisar de apoio para preparar o dispositivo, acessar um link, reconhecer controles, lidar com dificuldades técnicas e comunicar-se durante o atendimento. A existência e a natureza dessas barreiras no público e contexto que vierem a ser definidos deverão ser sustentadas por literatura e, se aprovado, por levantamento de necessidades; não serão presumidas como características universais.
+Participar de uma teleconsulta pode exigir ações digitais que vão além da conversa clínica, como preparar o aparelho, acessar um link, reconhecer controles e comunicar uma dificuldade. Pessoas com diferentes níveis de experiência digital podem precisar de tipos distintos de apoio; o projeto não presume que todos os adultos com baixa familiaridade digital enfrentem as mesmas barreiras. A existência, a natureza e a relevância dessas dificuldades para o público e contexto que vierem a ser definidos deverão ser sustentadas pela literatura e, se a orientação solicitar e as aprovações forem obtidas, por levantamento de necessidades.
 
 ## Pergunta de pesquisa
 
@@ -34,9 +34,9 @@ A proposição de design é que passos curtos, instruções claras, oportunidade
 
 ## Justificativa e relevância
 
-O projeto aproxima educação em saúde e telessaúde por meio do ensino de habilidades digitais necessárias para participar de um atendimento remoto. Diferentemente de um guia informativo, a proposta é permitir que a pessoa pratique decisões em uma simulação segura, com oportunidade de reconhecer controles e ensaiar respostas diante de dificuldades simples. O desenvolvimento deverá se apoiar em revisão bibliográfica e comparação com materiais e produtos existentes para demonstrar uma lacuna real.
+O projeto aproxima educação em saúde e telessaúde por meio da prática simulada de tarefas digitais específicas relacionadas à participação em um atendimento remoto. A revisão de escopo de Galvin et al. (2024) identificou diferentes estratégias de preparação para usuários de telessaúde e descreveu evidência limitada e mista de melhoria da competência; isso justifica não presumir que um recurso educativo seja eficaz apenas por existir. O benchmark exploratório já identificou o curso autoguiado Digital House Calls, além de tutoriais e guias de preparação. Portanto, a organização antes/durante/depois e o caráter autoguiado não serão apresentados como novidade por si sós. A contribuição específica — prática de escolhas em cenários fictícios com feedback imediato e foco em ações seguras — permanece uma hipótese de design a comparar com os recursos existentes, e não uma alegação de originalidade comprovada.
 
-A solução deverá tratar acessibilidade, linguagem clara, baixo consumo de recursos, uso em celular e ritmo flexível como requisitos centrais. A contribuição potencial é apoiar autonomia e confiança na execução de tarefas digitais específicas, mas tais resultados precisam ser medidos; não serão afirmados previamente.
+A solução deverá tratar acessibilidade, linguagem clara, baixo consumo de recursos, uso em celular e ritmo flexível como requisitos de design derivados de guias e literatura pertinente, incluindo o toolkit WHO/ITU (2024). Os textos dos três cenários foram revisados para orientar ações concretas, evitar culpa, reforçar o uso de canais oficiais conhecidos e separar comunicação de aconselhamento clínico. Esta revisão é documental: não demonstra compreensão pelo público-alvo nem eficácia. Qualquer alegação sobre autonomia, confiança ou desempenho real exigiria evidência adicional compatível com o método aprovado.
 
 ## Objetivo geral
 
@@ -85,6 +85,7 @@ Nenhum recrutamento, entrevista, teste de pesquisa ou coleta com participantes d
 
 - Protótipo documentado para prática simulada de etapas de teleconsulta.
 - Mapa de objetivos de aprendizagem, requisitos e testes correspondentes.
+- Registro da revisão editorial dos cenários e feedbacks, com justificativa e pendências de verificação.
 - Auditoria técnica, de acessibilidade e de coerência pedagógica.
 - Registro de avaliação documental, técnica, pedagógica e de acessibilidade do protótipo; evidência de usabilidade com pessoas apenas se essa etapa for solicitada, viável e autorizada.
 - Recomendações de melhoria e descrição explícita das limitações.
