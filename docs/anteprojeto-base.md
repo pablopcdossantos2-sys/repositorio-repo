@@ -4,55 +4,54 @@
 
 ## Título provisório
 
-**Desenvolvimento e avaliação de uma solução digital para apoiar a preparação e a continuidade do cuidado em atendimentos de telessaúde no SUS.**
+**Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações.**
 
 ## Linha de pesquisa
 
-Assistência Remota em Saúde (confirmar nomenclatura e aderência no edital vigente).
+**2) Tecnologias para Educação em Saúde**
+
+## Tipo de projeto
+
+**Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.**
 
 ## Tema e delimitação
 
-Desenvolvimento e avaliação inicial de um protótipo web responsivo, de baixa complexidade, destinado a apoiar usuários adultos na preparação para atendimentos de telessaúde, na compreensão de orientações recebidas e na organização dos próximos passos do cuidado. Guaraí, Tocantins, é o cenário institucional preferencial, condicionado à viabilidade e às autorizações necessárias.
+Desenvolvimento e avaliação inicial de um recurso digital de educação em saúde, implementado como protótipo web responsivo e de baixa complexidade. O recurso pretende apoiar usuários adultos na preparação para atendimentos de telessaúde, na compreensão de informação educativa apresentada em linguagem clara e na identificação de próximos passos descritos em cenários demonstrativos. Guaraí, Tocantins, é o cenário preferencial de articulação institucional, condicionado à viabilidade e às autorizações necessárias.
 
 A primeira versão não terá integração com prontuários, inteligência artificial, diagnóstico automatizado ou prescrição. O protótipo não substituirá o profissional de saúde nem o sistema oficial de registro clínico.
 
 ## Problema de pesquisa
 
-Em atendimentos de saúde, parte dos usuários pode ter dificuldade para organizar dúvidas antes da consulta, compreender orientações recebidas ou lembrar os próximos passos do cuidado. Uma ferramenta digital simples, desenhada com participação de usuários e profissionais, pode ajudar a organizar essas informações, mas sua utilidade e usabilidade precisam ser avaliadas no contexto em que se pretende utilizá-la.
+Em contextos de telessaúde, usuários podem encontrar dificuldades para preparar perguntas, compreender informações de saúde apresentadas após o atendimento ou identificar os próximos passos combinados. Recursos educativos digitais precisam ser claros, acessíveis e adequados ao contexto de uso; sua contribuição para a compreensão e sua usabilidade devem ser investigadas, e não presumidas.
 
 ## Pergunta de pesquisa
 
-Como uma solução digital simples, desenvolvida a partir das necessidades de usuários adultos e profissionais de saúde, pode apoiar a preparação para atendimentos de telessaúde, a compreensão de orientações e a organização dos próximos passos do cuidado?
+Como um protótipo web de educação em saúde, desenvolvido a partir de necessidades de usuários adultos e profissionais, pode apoiar a preparação para atendimentos de telessaúde e a compreensão de informações e próximos passos apresentados em linguagem clara?
 
 ## Hipótese de trabalho
 
-Um protótipo desenvolvido com participação de usuários e profissionais poderá apresentar usabilidade e compreensão adequadas em tarefas definidas para avaliação. Esta hipótese é exploratória; não se presume, nesta etapa, eficácia clínica ou melhoria comprovada de desfechos de saúde.
+Um protótipo educativo digital desenvolvido com base em evidências e necessidades do público poderá apresentar usabilidade satisfatória e facilitar a compreensão de mensagens educativas em tarefas controladas. Esta hipótese é exploratória; não se presume, nesta etapa, aprendizagem duradoura, mudança comportamental ou eficácia clínica.
 
 ## Justificativa
 
-A transformação digital em saúde precisa considerar não apenas a disponibilidade da tecnologia, mas também sua compreensão, acessibilidade e adequação ao fluxo de cuidado. Uma ferramenta de escopo reduzido pode ser mais viável para desenvolvimento e avaliação no prazo de um mestrado profissional do que uma plataforma integrada a prontuários ou baseada em inteligência artificial. O projeto pretende gerar um produto tecnológico documentado e evidências iniciais sobre sua usabilidade e compreensão.
+A educação em saúde apoiada por tecnologias digitais deve considerar clareza da linguagem, acessibilidade, contexto de aprendizagem e compreensão por parte do público. Uma solução educativa de escopo reduzido permite investigar princípios de desenho e compreensão sem depender de integração com prontuários ou inteligência artificial. O projeto pretende gerar um produto tecnológico documentado e evidências iniciais sobre usabilidade, compreensão das mensagens educativas e utilidade percebida.
 
 A justificativa final deverá ser complementada com revisão bibliográfica atualizada e dados oficiais verificados sobre o contexto local e a telessaúde no SUS.
 
 ## Objetivo geral
 
-Desenvolver e avaliar a usabilidade, a compreensão de orientações e a percepção de utilidade de uma solução digital destinada a apoiar usuários adultos na preparação para atendimentos de telessaúde e na organização dos próximos passos do cuidado, considerando o contexto de serviços públicos de saúde de Guaraí, Tocantins.
+Desenvolver e avaliar um protótipo web de educação em saúde, considerando usabilidade, compreensão de mensagens educativas e utilidade percebida para apoiar adultos na preparação para atendimentos de telessaúde e na identificação de próximos passos, tendo Guaraí, Tocantins, como cenário preferencial, condicionado à viabilidade institucional.
 
 ## Objetivos específicos
 
-1. Identificar necessidades e dificuldades de usuários adultos e profissionais de saúde relacionadas à preparação para atendimentos de telessaúde, à compreensão de orientações e à organização dos próximos passos do cuidado.
-2. Desenvolver um protótipo web responsivo com recursos de preparação para a consulta, apresentação de orientações em linguagem acessível e organização dos próximos passos.
-3. Avaliar a usabilidade, a compreensão das orientações e a percepção de utilidade do protótipo junto a usuários adultos e profissionais de saúde.
-4. Aperfeiçoar e documentar o produto com base nos resultados da avaliação.
+1. Identificar, por revisão da literatura e diagnóstico autorizado de necessidades, requisitos de educação em saúde digital, linguagem clara, acessibilidade e compreensão de informação no contexto de telessaúde.
+2. Desenvolver iterativamente um protótipo web responsivo com recursos educativos de preparação para o atendimento, compreensão de exemplos fictícios e organização de próximos passos.
+3. Avaliar a usabilidade, a compreensão das mensagens educativas e a utilidade percebida do protótipo em tarefas definidas no protocolo.
+4. Aperfeiçoar e documentar o produto com base nos achados da avaliação.
 
 ## Método — proposta inicial
 
-Pesquisa aplicada, exploratória, com abordagem mista (qualitativa e quantitativa), organizada em quatro etapas:
-
-1. **Revisão e diagnóstico de necessidades:** revisão de literatura e entrevistas semiestruturadas com profissionais e usuários adultos, após autorizações pertinentes.
-2. **Desenvolvimento do protótipo:** definição dos requisitos, construção iterativa e revisão do conteúdo por profissionais apropriados.
-3. **Avaliação:** testes de tarefas, questionários breves e entrevistas/debriefing. Indicadores possíveis: conclusão de tarefas, erros, necessidade de ajuda, tempo de execução quando relevante, compreensão das orientações e percepção de utilidade.
-4. **Aperfeiçoamento:** análise dos resultados e atualização do protótipo e da documentação.
+Pesquisa tecnológica aplicada, exploratória, com abordagem mista e desenvolvimento de uma solução educativa digital. Será organizada em quatro etapas: (1) revisão de literatura e levantamento autorizado de necessidades educativas; (2) definição de requisitos e desenvolvimento iterativo do protótipo; (3) avaliação formativa de usabilidade, compreensão de mensagens educativas e utilidade percebida; e (4) aperfeiçoamento e documentação. Poderão ser observados conclusão de tarefas, tipos de erro, necessidade de ajuda, compreensão e comentários sobre a clareza do conteúdo. O desenho final, instrumentos e análise serão definidos com a orientação.
 
 O número de participantes, os instrumentos, os critérios de elegibilidade e o plano de análise serão definidos após revisão metodológica e diálogo com a orientação. Qualquer estimativa preliminar de amostra será justificada, não tratada como cálculo definitivo.
 
@@ -66,9 +65,9 @@ Caso o acesso ao serviço real não seja viável dentro do prazo, poderá ser pr
 
 Protótipo funcional web responsivo com três módulos previstos:
 
-- Preparação: checklist de dúvidas e perguntas.
-- Orientações: apresentação de orientações fornecidas ou validadas por profissional responsável, em linguagem clara.
-- Próximos passos: organização de retornos, exames e encaminhamentos informados pelo serviço.
+- Preparação para aprender e participar: checklist demonstrativo de dúvidas e perguntas.
+- Conteúdo educativo: apresentação de um exemplo fictício em linguagem clara e atividade demonstrativa de compreensão.
+- Organização: visualização de próximos passos ilustrativos descritos no cenário, sem fornecer recomendação clínica autônoma.
 
 O protótipo não terá integração com prontuários nem IA na primeira versão. Não realizará diagnóstico, prescrição, ajuste de tratamento ou decisão clínica automatizada.
 
