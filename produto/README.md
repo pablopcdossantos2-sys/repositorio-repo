@@ -23,10 +23,11 @@ A publicação depende de habilitar o GitHub Pages nas configurações do reposi
 
 ## O que testar
 
-- Navegação entre Preparar, Entender e Próximos passos.
-- Marcação e limpeza do checklist.
-- Seleção de resposta no exemplo fictício.
-- Seleção de avaliação e reinício da demonstração.
+- Navegação entre Antes, Durante e Encerrar.
+- Marcação e limpeza do checklist de preparação.
+- Situação fictícia em que a pessoa não consegue ouvir e feedback da resposta escolhida.
+- Confirmação dos próximos passos apresentados no cenário.
+- Seleção da avaliação local e reinício do treino.
 - Leitura em tela estreita, zoom, navegação por teclado e foco visível.
 
 ## Limites
