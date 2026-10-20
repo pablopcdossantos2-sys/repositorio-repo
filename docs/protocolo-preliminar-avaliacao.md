@@ -1,33 +1,33 @@
-# Protocolo preliminar de avaliação do protótipo
+# Protocolo preliminar de avaliação da solução digital de educação em saúde
 
-> **Documento de trabalho — não é protocolo aprovado para pesquisa com participantes.** Deve ser discutido com a orientação acadêmica, ajustado ao edital e submetido às instâncias institucionais e éticas aplicáveis antes de entrevistas, recrutamento, testes com participantes ou coleta de dados de pesquisa.
+> **Documento de trabalho — não é protocolo aprovado para pesquisa com participantes.** Enquadramento selecionado: linha **2) Tecnologias para Educação em Saúde** e tipo **Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.** Deve ser discutido com a orientação acadêmica, ajustado ao edital e submetido às instâncias institucionais e éticas aplicáveis antes de entrevistas, recrutamento, testes com participantes ou coleta de dados de pesquisa.
 
 ## 1. Finalidade
 
-Transformar a ideia geral de avaliação em um plano executável, mantendo o escopo pequeno. A avaliação inicial deve verificar se a interface pode ser usada e se as informações fictícias são compreendidas, sem alegar benefício clínico ou melhoria efetiva da continuidade do cuidado.
+Transformar a avaliação de uma solução tecnológica de educação em saúde em um plano executável, mantendo o escopo pequeno. A avaliação inicial deve verificar usabilidade, clareza e compreensão das mensagens educativas fictícias em tarefas controladas, sem alegar aprendizagem duradoura, mudança comportamental, benefício clínico ou melhoria efetiva da continuidade do cuidado.
 
 ## 2. Pergunta de pesquisa provisória
 
-Como adultos e profissionais de saúde avaliam a usabilidade, a clareza das informações e a utilidade percebida de um protótipo web responsivo que apoia a preparação para atendimentos de telessaúde e a organização de próximos passos?
+Como adultos e/ou profissionais de saúde avaliam a usabilidade, a clareza, a compreensão e a utilidade percebida de um protótipo web de educação em saúde que apresenta recursos demonstrativos para preparação para atendimentos de telessaúde e entendimento de próximos passos?
 
 A redação final deve ser alinhada à linha de pesquisa e à orientação acadêmica. Se o estudo não tiver acesso ao fluxo real de telessaúde, a pergunta e os objetivos deverão explicitar o contexto simulado.
 
 ## 3. Objetivo geral provisório
 
-Desenvolver e avaliar, em contexto definido no protocolo, a usabilidade, a compreensão de informações demonstrativas e a utilidade percebida de um protótipo web de apoio à preparação e à continuidade informacional após atendimentos de telessaúde.
+Desenvolver e avaliar, em contexto definido no protocolo, um protótipo web de educação em saúde, verificando sua usabilidade, a compreensão de mensagens educativas e sua utilidade percebida no cenário de preparação e orientação em telessaúde.
 
 ## 4. Objetivos específicos de trabalho
 
-1. Identificar, por revisão da literatura e diagnóstico de necessidades autorizado, requisitos de clareza, acessibilidade e organização de informações relevantes ao atendimento remoto.
-2. Desenvolver iterativamente um protótipo responsivo com checklist pré-atendimento, exemplo de orientação em linguagem clara e organização de próximos passos.
-3. Avaliar tarefas de uso, dificuldades, compreensão e utilidade percebida, produzindo recomendações documentadas para aperfeiçoamento.
+1. Identificar, por revisão da literatura e levantamento autorizado de necessidades, requisitos para uma solução educativa digital acessível, clara e adequada ao contexto de telessaúde.
+2. Desenvolver iterativamente um protótipo responsivo com checklist preparatório, exemplo educativo fictício em linguagem clara, atividade demonstrativa de compreensão e organização de próximos passos.
+3. Avaliar usabilidade, compreensão das mensagens educativas, dificuldades de navegação e utilidade percebida, produzindo recomendações para aperfeiçoamento.
 
 ## 5. Desenho em etapas
 
 ### Etapa A — revisão e preparação (pode avançar agora)
 
 - Executar e registrar a busca bibliográfica conforme o documento de referências e busca bibliográfica.
-- Conferir cada referência e identificar estudos sobre usabilidade, linguagem simples, compreensão de orientações e acessibilidade em telessaúde.
+- Conferir cada referência e identificar estudos sobre educação em saúde digital, design de tecnologias educativas, linguagem simples, compreensão de informação e acessibilidade em contextos de telessaúde.
 - Revisar o protótipo com uma lista interna de verificação de conteúdo, navegação, teclado, celular e reinicialização.
 - Elaborar uma matriz que conecte cada requisito à literatura ou a uma decisão explícita de projeto.
 - Não registrar dados de pessoas nem tratar a revisão informal como revisão sistemática.
@@ -53,14 +53,14 @@ As tarefas abaixo são propostas para discussão, não instruções para iniciar
 | Código | Tarefa | Evidência observável |
 |---|---|---|
 | T1 | Encontrar o módulo de preparação e marcar dois itens | Conclusão, tempo aproximado e necessidade de ajuda |
-| T2 | Localizar o exemplo de orientação | Capacidade de encontrar a informação solicitada |
-| T3 | Escolher a interpretação que corresponde ao exemplo fictício | Resposta e eventual dúvida ou erro |
+| T2 | Localizar o exemplo educativo fictício e identificar a mensagem principal | Capacidade de encontrar e explicar a informação solicitada |
+| T3 | Responder à atividade demonstrativa sobre o exemplo educativo | Resposta e eventual dúvida ou erro; não equivale a medida de aprendizagem duradoura |
 | T4 | Encontrar os próximos passos demonstrativos | Conclusão e dificuldade de navegação |
 | T5 | Reiniciar a demonstração | Se o conteúdo da sessão é limpo corretamente |
 | T6 | Relatar o que foi confuso ou faltou | Comentários qualitativos, sem solicitar dados clínicos pessoais |
 | T7 | Explicar com palavras próprias a ideia principal e o próximo passo do cenário fictício | Resposta classificada por uma rubrica definida antes da avaliação: compreensão adequada, parcial ou interpretação incorreta |
 
-Não se deve usar somente o tempo de execução para julgar sucesso. Uma pessoa pode precisar de mais tempo e ainda compreender corretamente a informação.
+Não se deve usar somente o tempo de execução para julgar sucesso. Uma pessoa pode precisar de mais tempo e ainda compreender corretamente a informação. A resposta imediata a um exemplo fictício mede apenas compreensão naquela tarefa, não retenção, aprendizagem duradoura ou mudança de comportamento.
 
 ## 7. Indicadores candidatos
 
@@ -110,7 +110,7 @@ O número de participantes, os critérios de inclusão/exclusão e a estratégia
 
 ## 10. Alternativa se não houver acesso ao serviço
 
-Propor, discutir e obter as aprovações aplicáveis para avaliação com tarefas simuladas e conteúdo fictício. Nesse cenário, a conclusão possível limita-se a usabilidade, clareza e compreensão no contexto do teste. Não concluir que o produto melhora adesão, continuidade real do cuidado, desfechos clínicos ou eficiência do serviço.
+Propor, discutir e obter as aprovações aplicáveis para avaliação da solução de educação em saúde, com tarefas simuladas e conteúdo fictício. Nesse cenário, a conclusão possível limita-se à usabilidade, clareza e compreensão observada durante as tarefas. Não concluir que o produto gera aprendizagem duradoura, melhora adesão, continuidade real do cuidado, desfechos clínicos ou eficiência do serviço.
 
 ## 11. Critérios para considerar o protótipo pronto para avaliação
 
