@@ -59,6 +59,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Anteprojeto — versão de trabalho](docs/anteprojeto-base.md)
 - [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
 - [Especificação do produto mínimo](docs/produto-minimo.md)
+- [Decisões metodológicas — opções, desenho recomendado e pendências](docs/decisoes-metodologicas.md)
 - [Protocolo preliminar de avaliação](docs/protocolo-preliminar-avaliacao.md)
 - [Matriz de evidências e requisitos](docs/matriz-evidencias-requisitos.md)
 - [Nota de evidências e decisões para o tema](docs/nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md)
@@ -93,6 +94,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [ ] Concluir busca bibliográfica reproduzível nas bases previstas e mapear produtos semelhantes.
 - [ ] Validar os objetivos educativos, os cenários e os critérios de êxito.
 - [ ] Fazer contato exploratório para avaliar possibilidade de parceria/campo, sem pressupor autorização.
+- [ ] Discutir com a orientação as decisões metodológicas preliminares, incluindo codesenho e eventual avaliação de usabilidade autônoma.
 - [ ] Definir protocolo, plano de dados e aprovações aplicáveis antes de qualquer pesquisa com participantes.
 - [ ] Concluir testes manuais de acessibilidade em navegador, dispositivo e tecnologia assistiva.
 
