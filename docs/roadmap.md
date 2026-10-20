@@ -109,3 +109,13 @@ OE-05 permanece com conteúdo estático; não foi criada nova interação de enc
 - [ ] Registrar sistema, versões, saída de `npm test` e commit testado.
 
 Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/492d562b2a674e8c42eb4e48a320a290a2af0a43). Não declarar sucesso até a execução real.
+
+
+## Atualização — critérios verificáveis para textos e feedbacks (20/10/2026)
+
+- [x] Criar matriz de critérios de qualidade para rastrear objetivos, situações, ação segura, feedback e verificações.
+- [x] Relacionar os critérios aos cenários interativos OE-02, OE-03 e OE-04 e aos conteúdos OE-01/OE-05.
+- [x] Atualizar os anteprojetos, mapa de objetivos e README com referência à matriz.
+- [ ] Executar testes de regressão no commit atual e registrar saída.
+- [ ] Fazer auditoria manual do protótipo no navegador/tecnologias assistivas.
+- [ ] Concluir busca bibliográfica formal com contagens e exportações.
