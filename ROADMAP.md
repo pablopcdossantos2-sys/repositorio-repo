@@ -294,3 +294,22 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 - [ ] Registrar no relatório o resultado real da execução local ou da CI, associando-o ao commit testado.
 
 Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/492d562b2a674e8c42eb4e48a320a290a2af0a43). Não marcar a suíte como aprovada até obter o resultado.
+
+
+## Atualização — matriz de critérios editoriais e fortalecimento metodológico (20/10/2026)
+
+### Avanços documentais desta rodada
+
+- [x] Criar [matriz de critérios para revisão de textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md), com critérios observáveis para ação concreta, feedback explicativo, tom não punitivo, privacidade, limite não clínico, simulação explícita, variação de dispositivos, acessibilidade e rastreabilidade.
+- [x] Relacionar OE-02 (link), OE-03 (áudio), OE-04 (esclarecimento), OE-01 (checklist) e OE-05 (encerramento) às ações esperadas e verificações sem participantes.
+- [x] Ligar a matriz ao README, ao mapa de objetivos e aos dois rascunhos de anteprojeto.
+- [x] Registrar limites de inferência: fontes fundamentam princípios gerais, não validam os microtextos específicos nem comprovam compreensão ou eficácia.
+
+### Pendências mantidas
+
+- [ ] Executar a suíte Playwright/axe-core após as alterações de conteúdo/código e registrar o commit efetivamente testado; não presumir CI aprovada.
+- [ ] Executar auditoria manual de navegação, foco, mensagens, zoom/reflow, leitor de tela, estados visuais e comportamento de rede.
+- [ ] Executar a busca bibliográfica formal nas interfaces oficiais e registrar contagens/exportações reais.
+- [ ] Confirmar com a orientação se o plano sem participantes atende aos requisitos do curso.
+
+**Limite desta rodada:** foram realizadas alterações documentais; não houve alteração no HTML/CSS/JavaScript, execução de testes, auditoria manual ou avaliação com participantes. A matriz documenta consistência do design, não validação do público-alvo.
