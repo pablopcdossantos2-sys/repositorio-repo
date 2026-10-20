@@ -168,7 +168,7 @@ Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complem
 ### Conteúdo alinhado ao estado atual
 
 - Escopo deliberadamente enxuto: revisão/documentação, avaliação técnica, pedagógica e de acessibilidade sem participantes como prioridade.
-- O protótipo é demonstrativo, com cenários fictícios; a etapa “Encerrar” tem conteúdo estático.
+- O protótipo é demonstrativo, com cenários fictícios; o conteúdo educativo de “Encerrar” é estático. A tela também tem uma escala de facilidade de 1 a 5, com estado e feedback apenas locais; ela não mede aprendizagem nem valida o protótipo.
 - O último CI documentado é de 22 testes Playwright + axe-core aprovados no commit `11d5bee68f5f8de4234ab9f5388f7f1067545b69`; não apresentar a auditoria manual como concluída.
 - A busca bibliográfica formal em PubMed/MEDLINE, BVS/LILACS e SciELO continua pendente; não inventar contagens.
 - A análise de contraste é preliminar e parcial; algumas bordas precisam de avaliação contextual.
@@ -209,3 +209,26 @@ Foi feita uma leitura estática adicional do HTML/CSS para contextualizar as tr�
 - Aviso de exemplo fictício: símbolo de informação, fundo amarelo-claro e texto explícito.
 
 Essa leitura sugere que as bordas podem não ser o único indicador de estado, mas **não encerra a auditoria de acessibilidade**: ainda faltam inspeção em navegador, teclado e tecnologia assistiva. AUD-15 permanece parcial. Não foi alterado CSS; portanto, não houve necessidade de nova CI por esta atualização documental. O detalhe foi registrado em [verificação preliminar de contraste](verificacao-preliminar-contraste-2026-10-20.md) e [registro da auditoria estática](registro-auditoria-estatica-2026-10-20.md).
+
+
+## Atualização de continuidade — segunda revisão estática (20/10/2026)
+
+Foi realizada uma segunda inspeção textual dos arquivos atuais de produto e dos testes, sem executar o navegador. O registro completo, com hashes e limites, está em [segunda revisão estática do protótipo](segunda-revisao-estatica-2026-10-20.md).
+
+### Achados estáticos desta rodada
+
+- HTML: 24 IDs identificados pela varredura, sem duplicações.
+- JavaScript: nove referências únicas a `getElementById`, todas correspondentes a IDs existentes; as três referências `aria-controls` apontam para elementos existentes.
+- Referências `href`/`src`: somente `styles.css`, `#main` e `app.js`; nenhuma URL HTTP(S) externa declarada.
+- Busca lexical no JS: não encontrou as APIs comuns pesquisadas de rede/persistência (`fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`, cookies, `WebSocket`, `sendBeacon`, `indexedDB`). Isso não prova ausência universal de tráfego ou persistência.
+- A suíte `tests/prototype.spec.js` inclui testes escritos para navegação, foco, cenários, feedback, reinício, escala de facilidade, larguras de viewport, axe-core e solicitações externas; não foi executada nesta rodada.
+
+### Correção de precisão pedagógica
+
+A etapa “Encerrar” tem conteúdo educativo estático, mas também inclui uma escala interativa de facilidade de 1 a 5. Essa escala é um controle local, declarado como não enviado nem armazenado; **não é tarefa de aprendizagem para OE-05, instrumento de pesquisa, medida de compreensão nem validação com usuários**. O mapa de objetivos, o guia da apresentação e o relatório técnico foram atualizados para deixar essa distinção explícita.
+
+### Limites e próximos passos
+
+Nenhum arquivo de produto foi alterado, nenhuma execução nova de CI foi realizada e nenhuma avaliação com participantes ocorreu. Continuam prioritários: auditoria manual no navegador (teclado/foco, zoom/reflow, leitor de tela, estados visuais e Network/Application), buscas bibliográficas oficiais com contagens/exportações reais e eventual execução da suíte após mudanças de código.
+
+A regra de continuidade permanece: após cada avanço verificável, atualizar `ROADMAP.md` e este documento; não registrar como concluídas atividades que não foram executadas.
