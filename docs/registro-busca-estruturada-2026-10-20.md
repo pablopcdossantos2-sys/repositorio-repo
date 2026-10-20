@@ -167,3 +167,10 @@ Não estimar valores nem gerar diagrama de fluxo antes de ter números reais. N�
 ## 9. Próxima ação
 
 Executar manualmente as strings nas três interfaces oficiais, registrar a string efetiva e os totais apresentados, exportar os resultados e guardar os arquivos. Se a interface continuar inacessível no ambiente, usar um navegador normal do pesquisador e registrar a execução local; não substituir contagens ausentes por estimativas de resultados web.
+
+
+## Tentativa adicional de acesso à interface oficial — 20/10/2026
+
+Foi feita uma tentativa adicional de abrir a API oficial E-utilities do NCBI para consultar a contagem da estratégia PM-1, mantendo a string documentada. A ferramenta de navegação não conseguiu acessar o endpoint (“not accessible via this tool”). Nenhum total foi obtido e nenhuma consulta formal foi considerada executada. Isso registra apenas uma limitação do ambiente de navegação; não indica indisponibilidade do PubMed e não altera o estado pendente das estratégias PM-1 a PM-4, BVS-1 a BVS-3 e SC-1 a SC-2.
+
+A próxima execução deverá ocorrer em um navegador acessível ao pesquisador, com a string realmente submetida, data/hora, filtros, total exibido e exportação anotados. Não preencher contagens por aproximação.
