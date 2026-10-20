@@ -113,7 +113,7 @@ Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-
 
 ## Atualização — critérios verificáveis para textos e feedbacks (20/10/2026)
 
-- [x] Criar matriz de critérios de qualidade para rastrear objetivos, situações, ação segura, feedback e verificações.
+- [x] Criar [matriz de critérios de qualidade para rastrear objetivos, situações, ação segura, feedback e verificações](matriz-criterios-qualidade-textos-feedbacks.md).
 - [x] Relacionar os critérios aos cenários interativos OE-02, OE-03 e OE-04 e aos conteúdos OE-01/OE-05.
 - [x] Atualizar os anteprojetos, mapa de objetivos e README com referência à matriz.
 - [ ] Executar testes de regressão no commit atual e registrar saída.
