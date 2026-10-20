@@ -1,5 +1,5 @@
-# Arquivo renomeado
+# Registro histórico de comparação de temas
 
-A versão atual deste documento foi atualizada com o anexo e renomeada para refletir corretamente a quantidade de temas.
+O repositório passou a trabalhar exclusivamente com **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. Este arquivo permanece apenas para preservar links antigos; os outros temas do documento comparativo não são opções ativas.
 
-Consulte [Critérios do edital e seis opções de tema para o anteprojeto](criterios-edital-e-seis-temas.md).
+Consulte [Critérios do edital e registro da decisão de tema](criterios-edital-e-seis-temas.md).
