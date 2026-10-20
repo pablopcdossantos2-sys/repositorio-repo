@@ -361,7 +361,7 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 - [Registro editorial](revisao-editorial-cenarios-feedbacks-2026-10-20.md) atualizado com os textos, o racional, as fontes documentadas e as verificações pendentes.
 - `docs/mapa-objetivos-educativos-e-tarefas.md` atualizado para refletir a revisão editorial, sem declarar validação com usuários.
 - `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md` fortalecidos com uma distinção mais explícita entre evidência publicada e hipótese de design. A revisão de escopo de Galvin et al. (2024) descreve evidência limitada/mista de melhoria da competência; o benchmark já identificou Digital House Calls, então a estrutura antes/durante/depois e o caráter autoguiado não são apresentados como novidade exclusiva.
-- `README.md` aponta para o registro editorial; `ROADMAP.md` lista a revisão como concluída e prioriza o teste de regressão.
+- `README.md`, `ROADMAP.md` e `docs/roadmap.md` apontam para a revisão editorial; os roadmaps registram a revisão como concluída e priorizam os testes de regressão.
 
 ### Decisões e limites que permanecem
 
@@ -378,7 +378,7 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 3. Executar e registrar as buscas formais em PubMed/MEDLINE, BVS/LILACS e SciELO.
 4. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
 
-**Integridade:** revisão editorial não equivale a teste de compreensão, usabilidade com o público-alvo, aprendizagem demonstrada ou eficácia clínica. Atualizar este documento e o ROADMAP após cada avanço verificável.
+**Integridade:** revisão editorial não equivale a teste de compreensão, usabilidade com o público-alvo, aprendizagem demonstrada ou eficácia clínica. Não há resultado novo de `npm test` confirmado nesta rodada; não declarar os testes aprovados até registrar uma execução posterior às alterações de código. Atualizar este documento e o ROADMAP após cada avanço verificável.
 
 
 ### Ajuste de continuidade — asserções dos feedbacks
