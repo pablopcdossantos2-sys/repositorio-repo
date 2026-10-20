@@ -441,3 +441,6 @@ Galvin et al. (2024), WHO/ITU (2024) e os guias de preparação do HHS informam 
 O documento `docs/produto-minimo.md` agora aponta diretamente para a matriz de critérios editoriais, reduzindo o risco de manter critérios de conteúdo separados da especificação funcional. Essa alteração é documental: não muda o comportamento do protótipo e não gera novo resultado de teste.
 
 A matriz, a especificação do produto, o mapa de objetivos, o README, o anteprojeto e os roadmaps devem permanecer consistentes. As pendências de execução de testes, auditoria manual e busca bibliográfica formal continuam abertas.
+
+
+O roadmap técnico `docs/roadmap.md` também aponta para a matriz de critérios, junto do `README.md`, `ROADMAP.md`, mapa de objetivos, especificação do produto e anteprojetos. Esta verificação foi documental; não altera o estado dos testes.
