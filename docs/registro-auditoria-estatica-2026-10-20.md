@@ -18,7 +18,7 @@ Esses SHAs identificam o conteúdo dos arquivos consultados; não são, por si, 
 ## 2. Procedimentos realizados
 
 - Leitura dos arquivos HTML, JavaScript e CSS atuais na branch `main`.
-- Busca estática de referências `src`/`href` externas no HTML.
+- Busca estática de referências `src`/`href` externas no HTML.\n- Busca por IDs duplicados e conferência da estrutura dos controles de escolha.
 - Inventário de campos `input`, formulários e `iframe`.
 - Busca no JavaScript por APIs comuns de rede e persistência: `fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`, cookies, `WebSocket`, `sendBeacon` e `indexedDB`.
 - Revisão da lógica que mostra/oculta painéis, seleciona cenários, fornece feedback e reinicia a demonstração.
@@ -30,7 +30,7 @@ Esses SHAs identificam o conteúdo dos arquivos consultados; não são, por si, 
 |---|---|---|---|
 | AUD-01 — identidade/escopo | Título, rodapé e seção de limites identificam o produto como protótipo/demonstração; afirmam que não há consulta real, integração assistencial ou aconselhamento clínico individual. | **Passou na inspeção textual** | Não comprova que toda pessoa interpretará a mensagem corretamente; não foi teste com pessoas. |
 | AUD-02 — dados solicitados | Foram encontrados apenas campos de checklist (`checkbox`) e escolhas de cenário (`radio`); não foram encontrados campos para nome, contato, credenciais ou dados clínicos. | **Passou na inspeção estática dos campos atuais** | Não verifica comportamento de uma versão hospedada nem scripts que venham a ser adicionados depois. |
-| AUD-03 — rede/armazenamento | O HTML não contém referências externas em `src`/`href`; o JavaScript não contém as APIs de rede/persistência pesquisadas. Os recursos do protótipo são referenciados localmente. | **Parcial — código inspecionado** | Não houve inspeção de Network/Application em navegador; esta busca de padrões não exclui toda forma possível de comunicação nem substitui teste de execução. |
+| AUD-03 — rede/armazenamento | O HTML não contém referências externas em `src`/`href`; não foram encontrados IDs duplicados; os quatro checkboxes do checklist estão inseridos em rótulos e os rádios estão agrupados por cenário com legenda. O JavaScript não contém as APIs de rede/persistência pesquisadas. Os recursos do protótipo são referenciados localmente. | **Parcial — código inspecionado** | Não houve inspeção de Network/Application em navegador; esta busca de padrões não exclui toda forma possível de comunicação nem substitui teste de execução. |
 | AUD-04 — checklist | O JavaScript atual atualiza a mensagem de quantidade marcada e o botão de reinício do checklist desmarca os itens. | **Parcial — lógica lida** | A interação não foi executada nesta rodada. |
 | AUD-05 — navegação/foco | A lógica alterna a classe de ocultação e `aria-hidden`, atualiza o indicador da etapa, foca o título do painel e rola até o painel. | **Parcial — lógica lida** | A experiência real de foco, teclado e painel oculto precisa de teste em navegador. |
 | AUD-06 — link/entrada | O feedback estático orienta conferir conexão e canal/link oficial e não compartilhar credenciais por links suspeitos; a mensagem da simulação informa que nenhuma conexão real foi aberta. | **Passou na revisão textual do conteúdo** | Os botões e todas as opções não foram acionados nesta rodada. |
