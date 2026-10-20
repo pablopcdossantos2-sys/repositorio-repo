@@ -67,7 +67,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
 
-- [ ] Executar as estratégias nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO.
+- [x] Consolidar as estratégias e criar registro de execução com campos para contagens/exportações ([registro](docs/registro-busca-estruturada-2026-10-20.md)).
+- [ ] Executar as estratégias nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO; nesta rodada as páginas de resultados não foram recuperadas pelo ambiente de navegação, então não há contagens/exportações oficiais documentadas.
 - [x] Acrescentar estratégias focadas em preparação, simulação educativa, habilidades digitais e necessidades de apoio.
 - [x] Adicionar nota exploratória com evidências sobre treinamento de usuários, recursos comparáveis e suas limitações.
 - [x] Registrar rodada exploratória da web em 20/10/2026 sobre métodos de usabilidade de simulações educativas e diretriz de acessibilidade WHO/ITU ([registro](docs/registro-busca-exploratoria-2026-10-20.md)).
