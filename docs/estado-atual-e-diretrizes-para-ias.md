@@ -55,11 +55,11 @@ Todos os nomes, mensagens e situações devem permanecer fictícios e não devem
 
 ## 4. Evidências e pesquisa bibliográfica: estado real
 
-Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`docs/roteiro-auditoria-tecnica-sem-participantes.md`), um mapa preliminar de objetivos educativos/tarefas (`docs/mapa-objetivos-educativos-e-tarefas.md`) e documentação de estudos e recomendações de acessibilidade. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
+Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`docs/roteiro-auditoria-tecnica-sem-participantes.md`), um mapa preliminar de objetivos educativos/tarefas (`docs/mapa-objetivos-educativos-e-tarefas.md`) e documentação de estudos e recomendações de acessibilidade. Em 20/10/2026, foram criados o [registro de execução das buscas bibliográficas](registro-busca-estruturada-2026-10-20.md) e o [registro da auditoria estática parcial](registro-auditoria-estatica-2026-10-20.md). O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
 
 Continuam pendentes:
-- executar e documentar buscas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO;
-- registrar strings exatas, datas, filtros, contagens, exportações, deduplicação e critérios de seleção;
+- executar e documentar buscas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO — as strings e o formulário de registro foram consolidados, mas as consultas oficiais ainda não foram executadas com contagens/exportações reproduzíveis;
+- registrar strings exatas efetivamente submetidas, datas, filtros, contagens, exportações, deduplicação e critérios de seleção; o registro atual marca esses campos como pendentes, sem inventar contagens;
 - conferir referências e ler criticamente as fontes relevantes;
 - aprofundar o benchmark exploratório de guias, vídeos, tutoriais, recursos educativos e simuladores existentes;
 - sustentar a lacuna e a contribuição específica do produto sem presumir originalidade.
