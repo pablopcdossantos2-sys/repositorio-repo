@@ -1,5 +1,7 @@
 # Guia operacional das tarefas pessoais do projeto
 
+> **Leia primeiro:** [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). Diretriz vigente: priorizar desenvolvimento do protótipo e avaliação documental/técnica sem participantes. A tarefa de consultar campo/parceria é opcional e só deve ser priorizada se houver indicação da orientação; entrevistas, codesenho ou teste com pessoas não fazem parte do plano inicial.
+
 **Projeto:** Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital  
 **Versão:** 1.0 — 19/10/2026  
 **Público:** pessoa responsável por conceber, executar e documentar o projeto  
@@ -16,7 +18,8 @@ Este guia reúne as ações que exigem decisão, contato, julgamento ou presenç
 - **Objetivo:** apoiar a prática guiada de etapas digitais básicas de uma teleconsulta por meio de uma interface acessível e fictícia.
 - **Escopo:** preparar aparelho/ambiente, praticar a entrada e participação numa sala virtual fictícia e ensaiar o encerramento/confirmar próximos passos.
 - **Status do cenário:** Guaraí-TO é apenas uma possibilidade de articulação; parceria e acesso ao campo não estão confirmados.
-- **Decisões metodológicas pendentes:** operacionalização não estigmatizante de “baixa familiaridade digital”, objetivos de aprendizagem, tarefas, critérios de êxito, instrumentos e análise.
+- **Plano metodológico vigente:** desenvolvimento fundamentado em fontes documentais e avaliação técnica/pedagógica sem participantes. Confirmar com a orientação se isso atende aos requisitos acadêmicos.
+- **Atividade com pessoas:** não é requisito inicial. Critérios de elegibilidade, amostra, instrumentos e análise só devem ser detalhados se a orientação indicar que uma etapa com pessoas é necessária.
 
 As outras opções de tema permanecem no documento comparativo apenas como histórico. Não desenvolver funcionalidades nem redigir partes do anteprojeto para os temas descartados. A avaliação em tarefas simuladas não será apresentada como prova de aprendizagem duradoura, maior adesão, acesso efetivo ou eficácia clínica.
 
@@ -36,31 +39,32 @@ As outras opções de tema permanecem no documento comparativo apenas como hist�
 | 2 | Conferir edital e modelo acadêmico oficiais | P0 | Sim | Lista de requisitos e documento adequado |
 | 3 | Executar buscas bibliográficas formais | P0 | Sim | Consultas, contagens, exportações e seleção registradas |
 | 4 | Verificar referências e atualizar a matriz de evidências | P0 | Sim | Referências conferidas e requisitos rastreáveis |
-| 5 | Consultar a Secretaria de Saúde sobre viabilidade | P0 | Sim, apenas contato exploratório | Registro da conversa e próximos passos |
+| 5 | Verificar eventual campo/parceria institucional | P2/condicional | Somente se a orientação considerar necessário para o escopo | Registro da viabilidade; não pressupor parceria |
 | 6 | Definir protocolo, ética e gestão de dados | P0 | Preparação sim; coleta não | Protocolo e autorizações aplicáveis confirmados |
 | 7 | Fazer revisão manual de acessibilidade/usabilidade | P1 | Sim, sem participantes | Checklist e achados retestados |
 | 8 | Revisar o conteúdo demonstrativo | P1 | Conteúdo fictício sim; clínico requer validação | Fonte/validação documentada e limites explícitos |
 | 9 | Avaliar com participantes, se aprovado | P0 antes da coleta | **Somente após aprovação** | Registros protegidos e protocolo seguido |
 | 10 | Analisar resultados e preparar entrega final | P0/P1 | Estrutura pode ser preparada | Relatório, limitações e produto documentados |
 
-As tarefas 1–8 podem avançar em paralelo quando isso não antecipar uma atividade condicionada à aprovação. A etapa 9 permanece bloqueada até a confirmação formal aplicável.
+As tarefas documentais, de produto e de avaliação técnica sem participantes podem avançar em paralelo quando fizer sentido. O contato para campo/parceria é condicional, não uma tarefa obrigatória imediata. A etapa 9 permanece fora do plano inicial e bloqueada até que a orientação indique sua necessidade e as autorizações aplicáveis sejam confirmadas.
 
 ---
 
 ## Tarefa 1 — Reunir-se com a orientação acadêmica
 
-**Objetivo:** transformar decisões provisórias em um plano compatível com o curso, o prazo e o método aprovado.
+**Objetivo:** confirmar com a orientação se o desenvolvimento do protótipo com avaliação documental/técnica sem participantes atende aos requisitos do curso, ao prazo e ao método esperado.
 
 ### O que fazer
 - Envie à orientação o README, o anteprojeto, o ROADMAP, a matriz de evidências e o protocolo preliminar.
 - Peça uma reunião dedicada a decisões concretas.
+- Pergunta prioritária: **o plano inicial sem participantes é adequado para o mestrado?** Só se a orientação considerar necessária uma etapa com pessoas, discutir as perguntas específicas de elegibilidade, recrutamento, amostra, instrumentos e análise.
 - Leve estas perguntas e anote a decisão para cada uma:
   1. A pergunta de pesquisa está delimitada e demonstra aderência à linha “Tecnologias para Educação em Saúde” e ao tipo de projeto selecionado?
   2. O produto será avaliado em um fluxo real de telessaúde ou em tarefas simuladas? Qual é o plano alternativo?
   3. Quais grupos são realmente necessários: usuários adultos, profissionais de saúde ou ambos?
   4. Como definir número de participantes e critérios de elegibilidade de forma justificável?
-  5. Qual instrumento de usabilidade é adequado: TUQ-Brasil, SUS ou tarefas observadas? Por quê?
-  6. Como avaliar a compreensão separadamente da usabilidade?
+  5. **Somente se for solicitada avaliação com pessoas:** qual instrumento ou abordagem de usabilidade é adequado (por exemplo, tarefas observadas, TUQ-Brasil ou SUS), considerando o que o simulador realmente mede? Por quê?
+  6. **Somente se houver avaliação com pessoas:** como avaliar compreensão separadamente da usabilidade?
   7. Qual desenho e técnica de análise respondem à pergunta?
   8. Quais exigências acadêmicas, prazos e aprovações precisam ser cumpridos?
 - Pergunte expressamente se a mudança para cenário simulado exige alteração do protocolo ou de submissões.
