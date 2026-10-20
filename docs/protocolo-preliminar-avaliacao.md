@@ -58,6 +58,7 @@ As tarefas abaixo são propostas para discussão, não instruções para iniciar
 | T4 | Encontrar os próximos passos demonstrativos | Conclusão e dificuldade de navegação |
 | T5 | Reiniciar a demonstração | Se o conteúdo da sessão é limpo corretamente |
 | T6 | Relatar o que foi confuso ou faltou | Comentários qualitativos, sem solicitar dados clínicos pessoais |
+| T7 | Explicar com palavras próprias a ideia principal e o próximo passo do cenário fictício | Resposta classificada por uma rubrica definida antes da avaliação: compreensão adequada, parcial ou interpretação incorreta |
 
 Não se deve usar somente o tempo de execução para julgar sucesso. Uma pessoa pode precisar de mais tempo e ainda compreender corretamente a informação.
 
@@ -68,6 +69,7 @@ Não se deve usar somente o tempo de execução para julgar sucesso. Uma pessoa 
 - tipos de erro ou caminho incorreto;
 - tarefas que exigiram ajuda;
 - respostas às questões de compreensão;
+- classificação das explicações em palavras próprias, quando a tarefa T7 for adotada, usando critérios definidos previamente;
 - avaliação de clareza/facilidade, se houver escala simples previamente definida.
 
 ### Qualitativos
@@ -77,6 +79,16 @@ Não se deve usar somente o tempo de execução para julgar sucesso. Uma pessoa 
 - sugestões recorrentes de melhoria.
 
 A escolha final dos indicadores e dos instrumentos deverá ser justificada. Não adotar automaticamente a escala eHEALS: ela mede literacia em saúde digital percebida, não substitui uma medida de usabilidade nem uma tarefa direta de compreensão.
+
+### Instrumento de usabilidade — decisão pendente
+
+O instrumento deve ser selecionado em conjunto com a orientação, conforme o objeto e a carga aceitável para os participantes:
+
+- **TUQ-Brasil:** questionário específico de usabilidade de telessaúde, com 21 itens; o estudo de adaptação brasileira avaliou 54 pessoas com experiência recente em telessaúde. Sua adequação a uma aplicação curta e simulada que não realiza uma teleconsulta precisa ser justificada ([Santos et al., 2023](https://doi.org/10.1590/1806-9282.20230228)).
+- **SUS:** escala genérica de usabilidade percebida, com 10 itens; pode ser considerada se o objeto for principalmente a interface do protótipo, desde que seu uso esteja justificado no protocolo.
+- **Tarefas observadas:** conclusão sem ajuda, erros, necessidade de ajuda e pontos de bloqueio devem ser analisados à parte de qualquer escore global. A escala de usabilidade não substitui a avaliação direta de compreensão.
+
+Não aplicar automaticamente TUQ-Brasil e SUS em conjunto. A escolha, o modo de pontuação, eventuais condições de uso e a interpretação devem ser definidos antes da coleta.
 
 ## 8. Amostra e análise
 
