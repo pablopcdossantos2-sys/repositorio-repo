@@ -15,7 +15,7 @@ O protótipo demonstrativo usa o nome provisório **Conversa Clara**; ele não r
 - **Linha de pesquisa:** 2) Tecnologias para Educação em Saúde
 - **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
 - **Título de trabalho atual:** “Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações”.
-- **Status do tema:** provisório. O tema final será escolhido após análise dos seis candidatos e dos critérios do edital em [Critérios do edital e seis temas](docs/criterios-edital-e-cinco-temas.md).
+- **Status do tema:** provisório. O tema final será escolhido após análise dos seis candidatos e dos critérios do edital em [Critérios do edital e seis temas](docs/criterios-edital-e-seis-temas.md).
 
 ## Princípios de escopo
 
@@ -53,7 +53,7 @@ A aderência principal é com **educação em saúde**. O contexto de telessaúd
 
 - [ROADMAP — prioridades, critérios de conclusão e pendências](ROADMAP.md)
 - [Guia operacional das tarefas que dependem do responsável pelo projeto](docs/tarefas-pessoais-e-proximos-passos.md)
-- [Critérios do edital e seis temas candidatos para o anteprojeto](docs/criterios-edital-e-cinco-temas.md)
+- [Critérios do edital e seis temas candidatos para o anteprojeto](docs/criterios-edital-e-seis-temas.md)
 - [Anteprojeto — base de trabalho](docs/anteprojeto-base.md)
 - [Carta de exposição de motivos — minuta editável](docs/carta-exposicao-de-motivos.md)
 - [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](docs/declaracao-conhecimento-deliberacao-13-2023.md)
