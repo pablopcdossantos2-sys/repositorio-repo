@@ -195,3 +195,32 @@ Commit da atualização do ODP: [50bd1e648bf871afea0d90266fd95153da40fa36](https
 - [ ] Revisar todos os slides em tamanho de apresentação e personalizar os campos do candidato; a inspeção desta rodada foi focada no slide alterado.
 
 A exportação PDF foi usada apenas para verificação; o artefato principal continua sendo `apresentacao/defesa-oral-atualizada.odp`. Não houve mudança no código do produto nem nova CI.
+
+
+## Atualização de continuidade — documentação, tutorial e coerência metodológica (20/10/2026)
+
+### Concluído nesta rodada
+
+- [x] Remover do `README.md` as seções **“Situação atual”**, **“Aviso”** e **“Preparação para defesa oral”**, mantendo a organização geral e os links úteis.
+- [x] Criar [tutorial didático para abrir e testar o protótipo](docs/tutorial-instalar-e-testar-prototipo.md), distinguindo o uso sem instalação da aplicação da instalação do ambiente para testes automatizados.
+- [x] Ligar o tutorial a `README.md`, `produto/README.md` e `docs/como-executar-testes.md`.
+- [x] Harmonizar a pergunta e o objetivo do `README.md`, `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md) com o plano atual de desenvolvimento e avaliação documental/técnica/pedagógica sem participantes.
+- [x] Reformular a hipótese no anteprojeto-base como proposição de design verificável, sem alegar que o protótipo é utilizável pelo público-alvo ou melhora resultados reais.
+
+### Estado de execução e limites
+
+- Nenhum arquivo de código do produto foi alterado nesta rodada.
+- Não foi executada nova suíte automatizada: o ambiente de trabalho não conseguiu resolver `github.com` para clonar o repositório e executar os comandos localmente. Isso não indica falha do produto; significa que não há resultado de teste novo a registrar.
+- O tutorial descreve o procedimento esperado; não significa que o desenvolvedor já tenha instalado o ambiente ou executado os passos.
+- A pergunta harmonizada é uma proposta de trabalho alinhada à preferência metodológica atual e continua sujeita à discussão com a orientação acadêmica.
+
+### Próximas prioridades
+
+1. [ ] Executar as buscas bibliográficas nas bases oficiais e registrar estratégias realmente submetidas, contagens, exportações e triagem.
+2. [ ] O desenvolvedor seguir o tutorial e registrar os resultados locais de `npm test`, versão de Node.js, sistema operacional e commit.
+3. [ ] Executar a auditoria manual de teclado/foco, zoom/reflow, leitores de tela, estados visuais e Network/Application, registrando cada caso sem presumir sucesso.
+4. [ ] Revisar editorialmente as instruções e feedbacks de cada cenário à luz da literatura e dos critérios do mapa de objetivos.
+5. [ ] Decidir, após revisão pedagógica, se o encerramento precisa de uma tarefa interativa mínima para OE-05; não implementar automaticamente sem justificativa.
+6. [ ] Confirmar com a orientação se o desenho inicial sem participantes atende aos requisitos do curso.
+
+A apresentação em `apresentacao/` permanece versionada e não foi modificada nesta rodada.
