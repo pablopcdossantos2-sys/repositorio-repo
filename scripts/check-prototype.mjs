@@ -53,6 +53,13 @@ check("documento em português e metadados básicos", () => {
 const ids = [...html.matchAll(/\bid=["']([^"']+)["']/g)].map(match => match[1]);
 const idSet = new Set(ids);
 check("IDs HTML são únicos", () => assert.equal(ids.length, idSet.size, "há IDs duplicados"));
+check("o produto está centrado no tema Treino de Teleconsulta", () => {
+  assert.match(html, /Treino de Teleconsulta/i);
+  assert.match(html, /sala virtual fictícia/i);
+  assert.match(html, /O que fazer se você não consegue ouvir/i);
+  assert.match(html, /baixa familiaridade digital|simulador educativo/i);
+  assert.doesNotMatch(html, /Conversa Clara/);
+});
 check("pular para conteúdo tem destino válido", () => {
   assert.match(html, /class=["']skip-link["'][^>]*href=["']#main["']/i);
   assert.ok(idSet.has("main"), "não existe id=main");
