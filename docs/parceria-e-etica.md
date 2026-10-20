@@ -2,14 +2,14 @@
 
 ## Objetivo do contato institucional
 
-Solicitar uma conversa exploratória com a Secretaria Municipal de Saúde de Guaraí-TO para compreender o fluxo de telessaúde e verificar a viabilidade de parceria para pesquisa. O contato inicial não envolverá recrutamento, coleta de dados ou intervenção assistencial.
+Solicitar uma conversa exploratória com a Secretaria Municipal de Saúde de Guaraí-TO para compreender o contexto de telessaúde e educação em saúde e verificar a viabilidade de parceria para pesquisa tecnológica de uma solução educativa digital. O contato inicial não envolverá recrutamento, coleta de dados ou intervenção assistencial.
 
 ## Perguntas para a reunião
 
 1. Em quais unidades ocorre o fluxo de telemedicina/telessaúde?
-2. Como usuários são preparados para o atendimento e recebem orientações depois dele?
+2. Como usuários são preparados para o atendimento, que materiais de educação em saúde recebem e como são apoiados para compreender orientações e próximos passos?
 3. Quais profissionais ou equipes participam do fluxo?
-4. Há interesse institucional em discutir uma pesquisa de desenvolvimento e avaliação de protótipo?
+4. Há interesse institucional em discutir uma pesquisa tecnológica de desenvolvimento e avaliação de um protótipo educativo digital?
 5. Quais autorizações administrativas, jurídicas, de gestão ou de serviço seriam necessárias?
 6. Quais limitações existem quanto a recrutamento, espaço, tempo das equipes e uso de dispositivos?
 7. A instituição exigiria avaliação local adicional ou acordo formal?
