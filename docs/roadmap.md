@@ -28,10 +28,10 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [ ] Executar buscas reprodutíveis em PubMed/MEDLINE, BVS/LILACS e SciELO.
 - [ ] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital.
 - [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
-- [ ] Fazer benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
+- [x] Registrar um primeiro benchmark exploratório de recursos públicos e suas limitações ([benchmark](benchmark-recursos-existentes.md)).\n- [ ] Aprofundar o benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
 - [ ] Definir a lacuna do projeto com base no que foi encontrado, sem presumir originalidade antes da comparação.
 - [x] Fazer rodada exploratória complementar na web em 20/10/2026 e registrar publicações recentes sobre simulação/avaliação e diretriz WHO/ITU.
-- [x] Registrar explicitamente que trabalhos de simulação para profissionais são evidência metodológica adjacente, não evidência direta para usuários finais.
+- [x] Registrar explicitamente que trabalhos de simulação para profissionais são evidência metodológica adjacente, não evidência direta para usuários finais.\n- [x] Relacionar recursos de preparação existentes e derivar requisitos provisórios sem alegar originalidade.
 - [ ] Atualizar a matriz de evidências e requisitos após conferência integral das referências e leitura crítica.
 
 ## Fase 2 — Cenário, público e ética (P0)
