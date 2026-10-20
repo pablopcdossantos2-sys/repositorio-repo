@@ -172,7 +172,7 @@ Trabalhe em docs/protocolo-preliminar-avaliacao.md até que cada item provisóri
 - **Interrupção e suporte:** estabelecer o que fazer se a pessoa cansar, se incomodar ou pedir para parar, de acordo com o protocolo aprovado.
 - **Limites:** não inferir eficácia clínica, melhora causal da continuidade do cuidado ou representatividade populacional a partir de teste breve de usabilidade.
 
-## Tarefa 8 — Revisar o treino simulado e seus objetivos de aprendizagem
+## Tarefa 8 — Revisar os três cenários do treino simulado e seus objetivos de aprendizagem
 
 1. Percorra as três etapas e marque frases ambíguas, termos técnicos, instruções longas e botões cujo efeito não esteja claro.
 2. Confirme que o conteúdo é fictício e está identificado como demonstração. Não insira orientação médica real improvisada como se fosse clinicamente correta.
