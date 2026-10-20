@@ -434,3 +434,10 @@ Galvin et al. (2024), WHO/ITU (2024) e os guias de preparação do HHS informam 
 4. Confirmar com a orientação se a avaliação sem participantes atende aos requisitos do mestrado.
 
 **Regra de integridade:** a matriz demonstra rastreabilidade e consistência documental, não compreensão pelo público-alvo, usabilidade validada ou eficácia educativa. Atualizar este documento e `ROADMAP.md` após cada avanço verificável.
+
+
+### Complemento — especificação do produto mínimo (20/10/2026)
+
+O documento `docs/produto-minimo.md` agora aponta diretamente para a matriz de critérios editoriais, reduzindo o risco de manter critérios de conteúdo separados da especificação funcional. Essa alteração é documental: não muda o comportamento do protótipo e não gera novo resultado de teste.
+
+A matriz, a especificação do produto, o mapa de objetivos, o README, o anteprojeto e os roadmaps devem permanecer consistentes. As pendências de execução de testes, auditoria manual e busca bibliográfica formal continuam abertas.
