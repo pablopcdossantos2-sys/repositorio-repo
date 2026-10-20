@@ -22,3 +22,6 @@
 /* Agrupamento nativo e acessível das opções de compreensão. */
 .understand-check { border: 0; padding-left: 0; padding-right: 0; min-width: 0; }
 .understand-check legend { padding: 0; margin-bottom: 8px; font-weight: 700; }
+
+/* Painel de controles da sala virtual fictícia: prática sem mídia real. */
+.simulation-card{margin:18px 0;padding:16px;border:1px solid var(--line);border-radius:12px;background:#f7f9fc;min-width:0}.simulation-card h4{margin:0 0 6px;font-size:16px}.simulation-card>p{color:var(--muted);font-size:14px;margin:6px 0 12px}.simulation-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.simulation-actions .button{flex:1 1 190px;white-space:normal;overflow-wrap:anywhere}@media(max-width:420px){.simulation-actions{flex-direction:column}.simulation-actions .button{width:100%;flex-basis:auto}}
