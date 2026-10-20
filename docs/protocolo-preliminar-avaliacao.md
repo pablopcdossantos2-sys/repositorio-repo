@@ -1,6 +1,6 @@
 # Protocolo preliminar de avaliação da solução digital de educação em saúde
 
-> **Documento de trabalho — não é protocolo aprovado para pesquisa com participantes.** Enquadramento selecionado: linha **2) Tecnologias para Educação em Saúde** e tipo **Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.** Deve ser discutido com a orientação acadêmica, ajustado ao edital e submetido às instâncias institucionais e éticas aplicáveis antes de entrevistas, recrutamento, testes com participantes ou coleta de dados de pesquisa.
+> **Documento de trabalho — não é protocolo aprovado para pesquisa com participantes.** Enquadramento selecionado: **linha de pesquisa:** 2) Tecnologias para Educação em Saúde; **tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde. O protocolo deve ser discutido com a orientação acadêmica, ajustado ao edital e submetido às instâncias institucionais e éticas aplicáveis antes de entrevistas, recrutamento, testes com participantes ou coleta de dados de pesquisa.
 
 ## 1. Finalidade
 
