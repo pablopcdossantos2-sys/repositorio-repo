@@ -1,20 +1,20 @@
 # Busca bibliográfica estruturada — protocolo e síntese crítica
 
-**Projeto:** Telessaúde Guaraí — apoio à preparação e continuidade do cuidado  
+**Projeto:** Conversa Clara — solução tecnológica de educação em saúde no contexto de telessaúde  
 **Data deste levantamento:** 17 de outubro de 2026  
 **Status:** busca estruturada preliminar; síntese crítica inicial, ainda não uma revisão sistemática concluída.
 
 ## 1. Pergunta e escopo
 
-**Pergunta orientadora:** Que evidências orientam o desenho e a avaliação de uma aplicação web simples e acessível para apoiar adultos na preparação para uma teleconsulta, na compreensão de orientações e na organização dos próximos passos do cuidado, sem substituir o profissional ou o serviço de saúde?
+**Pergunta orientadora:** Que evidências orientam o desenho e a avaliação de uma solução web acessível de educação em saúde, com linguagem clara e atividade demonstrativa de compreensão, para apoiar adultos na preparação para atendimentos de telessaúde e na identificação de próximos passos, sem substituir profissionais ou serviços de saúde?
 
-O objeto é uma intervenção digital de apoio à comunicação e à organização do cuidado. Não se pressupõe que a ferramenta melhore desfechos clínicos ou continuidade real do cuidado. O projeto inicial não inclui prontuário eletrônico, inteligência artificial, diagnóstico nem prescrição.
+O objeto é uma solução tecnológica de ensino/educação em saúde aplicada ao contexto de telessaúde. A revisão deve informar conteúdo educativo, linguagem clara, acessibilidade, compreensão, usabilidade e avaliação centrada no público. Não se pressupõe aprendizagem duradoura, mudança de comportamento ou melhoria de desfechos clínicos. O projeto inicial não inclui prontuário eletrônico, inteligência artificial, diagnóstico nem prescrição.
 
 ### Estrutura PCC
 
 - **População (P):** adultos que utilizam serviços de saúde e, como grupo complementar, profissionais de saúde.
-- **Conceito (C):** usabilidade, acessibilidade, letramento em saúde digital, compreensão/legibilidade de orientações e apoio à preparação/continuidade do cuidado.
-- **Contexto (C):** telessaúde, teleconsulta, atenção primária e ferramentas digitais de comunicação em saúde, priorizando o SUS e contextos brasileiros.
+- **Conceito (C):** tecnologias educativas digitais, educação em saúde, usabilidade, acessibilidade, linguagem simples, letramento em saúde/digital, compreensão de informação e atividades demonstrativas de aprendizagem.
+- **Contexto (C):** educação em saúde no contexto de telessaúde, teleconsulta, atenção primária e serviços públicos, priorizando o SUS e contextos brasileiros.
 
 ## 2. Fontes e transparência da busca
 
