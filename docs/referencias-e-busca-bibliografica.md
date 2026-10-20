@@ -151,3 +151,18 @@ A análise crítica e as decisões de desenvolvimento estão em [Nota de evidên
 30. **WORLD HEALTH ORGANIZATION; INTERNATIONAL TELECOMMUNICATION UNION (2024).** *Implementation toolkit for accessible telehealth services*. Disponível em: https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities. Documento normativo/técnico para incluir acessibilidade na concepção de serviços de telessaúde.
 
 A documentação desta rodada exploratória está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
+
+
+## Referências adicionais do benchmark de recursos — 20/10/2026
+
+31. **BRIDGINGAPPS.** *Digital House Calls*. Curso autoguiado de preparação para telemedicina destinado a pessoas idosas e cuidadores, com vídeos, texto e recursos visuais, organizado em antes/durante/depois. https://bridgingapps.org/courses-landing/. Fonte comparadora; a inspeção integral do curso ainda está pendente.
+
+32. **TELessaúde BAHIA.** *Como acessar sua Teleconsulta pelo Consultório Virtual — Tutorial do paciente*. Página de serviço público com etapas de acesso ao consultório virtual. https://telessaude.saude.ba.gov.br/25181-2/. É um fluxo específico do serviço, não um padrão universal nem um simulador independente.
+
+33. **U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES.** *Preparing patients for telehealth*. Guia para serviços/profissionais sobre preparação e apoio aos pacientes. https://telehealth.hhs.gov/providers/preparing-patients-for-telehealth.
+
+34. **U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES.** *Helping patients prepare for their telehealth appointment*. Recomendações sobre expectativas, ambiente, dispositivo, privacidade e preparação. https://telehealth.hhs.gov/providers/preparing-patients-for-their-appointment.
+
+35. **NATIONAL CENTER FOR FARMWORKER HEALTH.** *Patient Telehealth Readiness Assessment Tool*. Ferramenta mediada por equipes para identificar necessidades de recursos e apoio; não é um simulador autoguiado. https://www.ncfh.org/digital-library/patient-telehealth-readiness-assessment-tool/.
+
+A descrição comparativa, os limites da verificação e os requisitos provisórios derivados estão em [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md). A identificação destes recursos não comprova originalidade do protótipo nem substitui buscas bibliográficas reproduzíveis nas bases oficiais.
