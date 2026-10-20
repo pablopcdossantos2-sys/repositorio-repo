@@ -101,3 +101,16 @@ Referências acadêmicas adicionais discutidas na síntese:
 18. **WIENER, R. C.; ABUHALIMEH, B. J. (2025).** Evaluating adult digital health literacy, 2020–2025: A systematic review. *PLOS Digital Health*, 4(11), e0001075. https://doi.org/10.1371/journal.pdig.0001075. Revisão de 20 estudos que utilizaram eHEALS; relata heterogeneidade entre adultos.
 
 **Nota metodológica:** as estratégias e strings estão registradas, mas a pesquisa direta e reprodutível nas interfaces oficiais e a contagem de resultados continuam pendentes. A síntese não deve ser chamada de revisão sistemática concluída.
+
+
+## Fontes adicionais da revisão rápida de 19/10/2026
+
+A síntese de evidências e as implicações para o produto estão documentadas em [Revisão rápida de evidências e recomendações para o produto](revisao-rapida-evidencias-e-recomendacoes.md). Fontes adicionais selecionadas nesta rodada:
+
+19. **WANG, T. et al. (2022).** Digital Patient Experience: Umbrella Systematic Review. *Journal of Medical Internet Research*, 24(8), e37952. DOI: https://doi.org/10.2196/37952. Revisão abrangente de fatores que influenciam experiência digital, incluindo informação, navegação, apresentação visual e métodos centrados no usuário.
+
+20. **DUFFY, A. et al. (2025).** Examining Challenges to Co-Design Digital Health Interventions With End Users: Systematic Review. *Journal of Medical Internet Research*, 27, e50178. DOI: https://doi.org/10.2196/50178. Revisão sobre abordagens, desafios e lacunas no codesign de intervenções digitais de saúde com usuários finais.
+
+21. **WORLD HEALTH ORGANIZATION (2019).** *Recommendations on digital interventions for health system strengthening*. Geneva: WHO. Disponível em: https://www.who.int/publications/i/item/9789241550505. Diretriz que recomenda considerar benefícios, danos, aceitabilidade, viabilidade, recursos e equidade, sem tratar intervenções digitais como substitutas de sistemas de saúde funcionais.
+
+22. **PRISMA (2020).** *PRISMA 2020 statement and reporting resources*. Disponível em: https://www.prisma-statement.org/prisma-2020. Recursos de apoio à transparência do relato de revisões sistemáticas; a referência não significa que a revisão rápida do repositório tenha seguido integralmente PRISMA.
