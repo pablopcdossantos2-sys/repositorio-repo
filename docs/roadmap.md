@@ -9,6 +9,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - **Objetivo educativo:** prática guiada de tarefas digitais relacionadas a uma teleconsulta em ambiente fictício.
 - **Público:** adultos com baixa familiaridade digital; a definição operacional permanece pendente de discussão com a orientação.
 - **Limite de inferência:** desempenho em tarefas simuladas não comprova aprendizagem duradoura, melhor acesso a teleconsultas reais ou eficácia clínica.
+- **Preferência metodológica inicial:** identificar necessidades e produzir protótipo fundamentado, com combinação enxuta de identificação de necessidades e revisão de representação simples; acesso, campo, aprovação e amostra não confirmados. Usabilidade autônoma é complementar e condicionada.
 
 ## Fase 0 — Decisão e base técnica
 
@@ -33,9 +34,10 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 2 — Cenário, público e ética (P0)
 
-- [ ] Discutir a pergunta, público, tarefas e desenho com a orientação.
+- [ ] Discutir a pergunta, público e desenho com a orientação, priorizando identificação de necessidades e revisão de protótipo simples.
+- [ ] Investigar alternativas de acesso ao público sem presumir campo, parceria ou amostra.
 - [ ] Avaliar se a Secretaria Municipal de Saúde de Guaraí é um campo viável; a parceria é apenas potencial, não confirmada.
-- [ ] Definir elegibilidade, amostra, recrutamento e proteção de dados se houver participantes.
+- [ ] Definir elegibilidade, amostra, recrutamento e proteção de dados somente após escolher o método e confirmar a viabilidade, se houver participantes.
 - [ ] Confirmar autorizações administrativas e apreciação ética aplicáveis.
 - [ ] Não recrutar, entrevistar ou testar com participantes antes da confirmação das aprovações pertinentes.
 
@@ -50,7 +52,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 ## Fase 4 — Avaliação e aperfeiçoamento (P1)
 
 - [x] Redigir uma rubrica candidata por tarefa para auditoria sem participantes; critérios e uso ainda exigem revisão da orientação.
-- [ ] Aprovar tarefas padronizadas, critérios de conclusão, erros, necessidade de ajuda e rubrica de compreensão com a orientação.
+- [ ] Definir a técnica principal de identificação de necessidades e o formato de revisão do protótipo simples.
+- [ ] Aprovar tarefas padronizadas, critérios de conclusão, erros, necessidade de ajuda e rubrica de compreensão se a avaliação de usabilidade autônoma for mantida.
 - [ ] Escolher instrumento de usabilidade de acordo com o que o simulador realmente testa; não presumir que uma escala de consulta real seja automaticamente adequada.
 - [ ] Planejar análise antes da coleta.
 - [ ] Caso haja aprovação e viabilidade, conduzir a avaliação prevista no protocolo; caso contrário, limitar a avaliação a evidências documentais, técnicas e pedagógicas.
