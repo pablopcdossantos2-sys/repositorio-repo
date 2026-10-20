@@ -50,18 +50,40 @@
 
     <section class="panel hidden" id="view-guidance" aria-labelledby="guidance-title">
       <div class="panel-heading">
-        <div><p class="eyebrow">DURANTE · SALA VIRTUAL FICTÍCIA</p><h2 id="guidance-title">O que fazer se você não consegue ouvir?</h2></div>
+        <div><p class="eyebrow">DURANTE · SALA VIRTUAL FICTÍCIA</p><h2 id="guidance-title">Pratique três situações comuns numa teleconsulta</h2></div>
         <span class="step-count">Etapa 2 de 3</span>
       </div>
       <div class="fictional-banner"><span aria-hidden="true">ⓘ</span> Exemplo inteiramente fictício — não representa uma recomendação médica.</div>
-      <article class="guidance-card">
-        <h3>Situação simulada</h3>
-        <p>Você entrou na sala virtual fictícia, mas não consegue ouvir a pessoa profissional. Pratique primeiro uma ação nos controles simulados e depois escolha o que faria nesta situação.</p>
+      <div class="scenario-picker" role="group" aria-label="Escolha uma situação simulada">
+        <button type="button" class="scenario-tab active" data-scenario-target="entry" aria-pressed="true">1. Entrar na sala</button>
+        <button type="button" class="scenario-tab" data-scenario-target="audio" aria-pressed="false">2. Resolver o áudio</button>
+        <button type="button" class="scenario-tab" data-scenario-target="clarify" aria-pressed="false">3. Pedir esclarecimento</button>
+      </div>
+
+      <article class="guidance-card scenario-card" data-scenario-card="entry" aria-labelledby="entry-title">
+        <div class="scenario-heading"><span class="scenario-number">Situação 1 de 3</span><h3 id="entry-title" tabindex="-1">O link não abre</h3></div>
+        <p>Chegou o horário marcado, mas você não consegue entrar na sala virtual.</p>
+        <div class="simulation-card" role="group" aria-label="Ação fictícia para entrar na sala">
+          <p>Pratique a entrada. Este botão não abre um link nem inicia uma consulta real.</p>
+          <button class="button primary" id="simulate-enter" type="button">Entrar na sala de treino</button>
+          <p class="feedback" id="entry-room-feedback" aria-live="polite"></p>
+        </div>
+        <fieldset class="understand-check">
+          <legend>O que seria uma boa primeira tentativa?</legend>
+          <label class="choice"><input type="radio" name="entry-choice" value="safe"> Conferir a conexão e o link recebido pelo canal oficial; se continuar sem acesso, usar o contato oficial já conhecido para pedir ajuda.</label>
+          <label class="choice"><input type="radio" name="entry-choice" value="unsafe"> Informar minha senha ou dados pessoais em qualquer link que apareça numa mensagem.</label>
+          <label class="choice"><input type="radio" name="entry-choice" value="unsafe"> Desistir sem avisar o serviço de que não consegui entrar.</label>
+          <button class="button secondary scenario-check" type="button" data-scenario-check="entry">Verificar resposta</button>
+          <p class="feedback" id="entry-choice-feedback" aria-live="polite"></p>
+        </fieldset>
+      </article>
+
+      <article class="guidance-card scenario-card hidden" data-scenario-card="audio" aria-labelledby="audio-title" aria-hidden="true">
+        <div class="scenario-heading"><span class="scenario-number">Situação 2 de 3</span><h3 id="audio-title" tabindex="-1">Não consigo ouvir</h3></div>
+        <p>Você conseguiu entrar na sala virtual fictícia, mas não consegue ouvir a pessoa profissional.</p>
         <div class="simulation-card" role="group" aria-label="Controles fictícios da sala virtual">
-          <h4>Controles da sala de treino</h4>
           <p>Estes botões não ativam microfone nem áudio real; servem apenas para praticar a sequência.</p>
           <div class="simulation-actions">
-            <button class="button primary" id="simulate-enter" type="button">Entrar na sala de treino</button>
             <button class="button secondary" id="simulate-audio" type="button">Conferir áudio (simulação)</button>
             <button class="button secondary" id="simulate-help" type="button">Avisar que não estou ouvindo</button>
           </div>
@@ -72,8 +94,21 @@
           <label class="choice"><input type="radio" name="understanding" value="correct"> Conferir o volume ou o controle de áudio disponível e avisar que não está ouvindo.</label>
           <label class="choice"><input type="radio" name="understanding" value="wrong"> Encerrar sem avisar que ocorreu um problema.</label>
           <label class="choice"><input type="radio" name="understanding" value="wrong"> Compartilhar dados pessoais por outro link enviado por alguém desconhecido.</label>
-          <button class="button secondary" id="check-understanding" type="button">Verificar resposta</button>
+          <button class="button secondary scenario-check" id="check-understanding" type="button" data-scenario-check="audio">Verificar resposta</button>
           <p class="feedback" id="understanding-feedback" aria-live="polite"></p>
+        </fieldset>
+      </article>
+
+      <article class="guidance-card scenario-card hidden" data-scenario-card="clarify" aria-labelledby="clarify-title" aria-hidden="true">
+        <div class="scenario-heading"><span class="scenario-number">Situação 3 de 3</span><h3 id="clarify-title" tabindex="-1">Não entendi uma informação</h3></div>
+        <p>Durante a teleconsulta fictícia, uma explicação não ficou clara. Você não precisa fingir que entendeu.</p>
+        <fieldset class="understand-check">
+          <legend>Qual resposta ajuda a esclarecer a informação?</legend>
+          <label class="choice"><input type="radio" name="clarify-choice" value="safe"> Pedir para repetir ou explicar de outro jeito e confirmar qual é o próximo passo.</label>
+          <label class="choice"><input type="radio" name="clarify-choice" value="unsafe"> Fingir que entendi para não atrasar a conversa.</label>
+          <label class="choice"><input type="radio" name="clarify-choice" value="unsafe"> Adivinhar o que foi dito e mudar por conta própria uma orientação.</label>
+          <button class="button secondary scenario-check" type="button" data-scenario-check="clarify">Verificar resposta</button>
+          <p class="feedback" id="clarify-feedback" aria-live="polite"></p>
         </fieldset>
       </article>
       <div class="actions"><button class="button secondary" data-go="prepare" type="button">← Voltar</button><button class="button primary" data-go="next" type="button">Continuar →</button></div>
