@@ -58,9 +58,15 @@ O impacto pretendido é contribuir para a educação digital em saúde por meio 
 
 O estudo não assumirá que o simulador aumenta a utilização de teleconsultas, melhora a continuidade do cuidado ou altera desfechos clínicos. Tais alegações demandariam desenho, medidas e contexto específicos que não fazem parte desta versão inicial.
 
+### Pergunta de pesquisa de trabalho
+
+Como desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador web que ofereça prática fictícia de etapas básicas de uma teleconsulta para adultos com baixa familiaridade digital?
+
+A pergunta delimita a avaliação inicial ao processo de desenvolvimento, à rastreabilidade dos requisitos e à inspeção do produto. Não pressupõe que o simulador melhore a aprendizagem ou o desempenho de usuários reais; essa conclusão exigiria evidência adicional e um desenho compatível.
+
 ## 12. Objetivo geral
 
-Desenvolver um simulador educativo web, acessível e baseado em cenários fictícios, fundamentado em literatura e análise de soluções existentes, para praticar etapas básicas de uma teleconsulta.
+Desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador educativo web acessível e baseado em cenários fictícios para a prática simulada de etapas básicas de uma teleconsulta.
 
 ## 13. Objetivos específicos
 
