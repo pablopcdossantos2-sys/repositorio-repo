@@ -1,10 +1,17 @@
-# ROADMAP — Telessaúde Guaraí / Conversa Clara
+# ROADMAP — Conversa Clara / tecnologia para educação em saúde
 
 **Atualizado em:** 19/10/2026  
 **Branch de referência:** `main`  
 **Status geral:** protótipo demonstrativo implementado; validação técnica, definição metodológica e etapas institucionais continuam em andamento.
 
 Este documento consolida as pendências técnicas, acadêmicas e de pesquisa. Os estados refletem o que está documentado no repositório; uma tarefa não é considerada concluída apenas porque foi planejada.
+
+## Enquadramento acadêmico selecionado
+
+- **Linha de pesquisa:** 2) Tecnologias para Educação em Saúde.
+- **Tipo de projeto:** Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde.
+- **Título de trabalho:** “Conversa Clara: protótipo web de educação em saúde para apoiar a preparação para atendimentos de telessaúde e a compreensão de orientações”.
+- **Orientação de escopo:** tratar a aplicação como solução educativa digital; a avaliação pretendida é de usabilidade, clareza e compreensão em tarefas delimitadas, não de eficácia clínica nem de aprendizagem duradoura.
 
 ## Como interpretar os estados
 
@@ -46,6 +53,7 @@ O arquivo [`docs/tarefas-pessoais-e-proximos-passos.md`](docs/tarefas-pessoais-e
 - [x] Registrar uma revisão estática do HTML, CSS e JavaScript.
 - [x] Documentar a estratégia de parceria, o protocolo preliminar, a matriz de evidências e as limitações.
 - [x] Consolidar as tarefas remanescentes neste roadmap.
+- [x] Atualizar a linha de pesquisa para “2) Tecnologias para Educação em Saúde” e o tipo de projeto para “Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”, alinhando os anteprojetos e o produto a esse enquadramento.
 - [x] Registrar a busca web exploratória complementar e seus limites em `docs/registro-busca-exploratoria-2026-10-19.md`; buscas diretas nas interfaces oficiais ainda pendentes.
 - [x] Elaborar revisão rápida focalizada de evidências e recomendações para o produto em `docs/revisao-rapida-evidencias-e-recomendacoes.md` (19/10/2026); a busca bibliográfica formal nas bases planejadas continua pendente.
 - [x] Corrigir a cor do indicador de foco no CSS para uma opção de maior contraste; contraste calculado para `#005fcc`: 5,98:1 sobre branco e 5,57:1 sobre o fundo `#f4f7fb`. A medição sistemática dos demais elementos e a validação prática continuam pendentes.
@@ -58,7 +66,7 @@ O arquivo [`docs/tarefas-pessoais-e-proximos-passos.md`](docs/tarefas-pessoais-e
 - [ ] Examinar os textos integrais pertinentes e avaliar criticamente as evidências de acordo com o tipo de estudo.
 - [ ] Atualizar `docs/busca-bibliografica-estruturada.md` e `docs/matriz-evidencias-requisitos.md` com resultados reproduzíveis.
 - [ ] Conferir referências bibliográficas, DOI, metadados e adequação das afirmações aos estudos.
-- [ ] Discutir com a orientação a pergunta, os objetivos, a linha de pesquisa, os instrumentos e a viabilidade dentro do prazo.
+- [ ] Discutir com a orientação a aderência da pergunta e dos objetivos à linha “Tecnologias para Educação em Saúde”, ao tipo de projeto selecionado, aos instrumentos e à viabilidade dentro do prazo.
 - [ ] Conferir o edital e o modelo oficial vigentes da UERJ, incluindo extensão, formato e campos que ainda são rascunho.
 
 **Critério de saída:** buscas e decisões de seleção documentadas de forma reprodutível; anteprojeto coerente com o método aprovado pela orientação. Não chamar a revisão de sistemática concluída antes de executar e registrar o processo previsto.
