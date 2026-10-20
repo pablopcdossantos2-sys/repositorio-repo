@@ -4,7 +4,7 @@ Este documento descreve as verificações automatizadas do protótipo Conversa C
 
 ## Pré-requisitos
 
-- Node.js **24.x** (o projeto declara Node.js >=22.16.0 para compatibilidade com as ferramentas de desenvolvimento).
+- Node.js **24.8.0 ou posterior** (a versão selecionada é declarada em `.nvmrc`; o requisito também está em `package.json`).
 - npm compatível com a versão de Node instalada.
 - Conexão à internet na primeira instalação para baixar as dependências e o Chromium do Playwright.
 
@@ -13,11 +13,11 @@ Este documento descreve as verificações automatizadas do protótipo Conversa C
 Na raiz do repositório, execute:
 
 ```sh
-npm install
+npm ci
 npx playwright install chromium
 ```
 
-As dependências diretas de desenvolvimento estão declaradas com versões exatas em `package.json`. Como ainda não há `package-lock.json` versionado, as dependências transitivas não estão completamente fixadas; para reproduções de longa duração, a próxima melhoria de engenharia é gerar e versionar o lockfile após validar o ambiente de desenvolvimento.
+As dependências diretas estão declaradas com versões exatas em `package.json`, e `package-lock.json` fixa as versões transitivas e suas integridades. Use `npm ci` para instalar exatamente a árvore registrada; ao alterar dependências, gere e revise o lockfile com `npm install` e versione ambos os arquivos na mesma alteração. A primeira instalação precisa de conexão à internet para baixar os pacotes e o Chromium do Playwright.
 
 ## Rodar a suíte completa
 
