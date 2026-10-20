@@ -34,7 +34,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 |---|---|---|
 | P0 | Pergunta, evidência e enquadramento | Pergunta delimitada, busca reproduzível e lacuna sustentada; alinhamento com a linha de pesquisa. |
 | P0 | Objetivos educativos e conteúdo | Mapa de aprendizagem e roteiro de simulação com instruções, escolhas seguras e feedback compreensível. |
-| P0 | Ética e cenário | Definição de avaliação sem participantes e caminho condicionado para eventual estudo com pessoas. |
+| P0 | Método e cenário | Confirmar com a orientação se a avaliação documental/técnica sem participantes atende aos requisitos; caminho com pessoas apenas se necessário. |
 | P1 | Produto e acessibilidade | Interface realmente centrada em praticar passos de teleconsulta, acessível em celular e teclado. |
 | P1 | Avaliação | Tarefas, critérios de êxito, ajuda necessária, erros e compreensão definidos previamente. |
 | P2 | Engenharia e entrega | Testes proporcionais, documentação do produto, limitações e estratégia de publicação. |
@@ -81,8 +81,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 - [ ] Definir “baixa familiaridade digital” operacionalmente, sem associá-la automaticamente a idade, escolaridade ou diagnóstico.
 - [ ] Confirmar com a orientação se o plano sem participantes atende aos requisitos; somente se necessário, investigar acesso e definir a menor atividade com pessoas que responda à exigência.
-- [ ] Fazer contato exploratório com a Secretaria Municipal de Saúde de Guaraí para avaliar contexto e possibilidade de parceria; não pressupor aceite.
-- [ ] Definir tarefas simuladas, elegibilidade, convite, consentimento, dados necessários e plano de análise, caso haja pesquisa com pessoas.
+- [ ] **Condicional:** só avaliar contato com a Secretaria Municipal de Saúde de Guaraí se a orientação indicar que uma articulação institucional/campo é necessária; não pressupor aceite nem parceria.
+- [ ] Definir tarefas de auditoria interna e critérios técnicos; elegibilidade, convite, consentimento e plano de análise para pessoas só se a orientação solicitar uma etapa empírica.
 - [ ] Verificar formalmente autorizações institucionais e apreciação ética aplicável.
 - [ ] Não recrutar, entrevistar, observar usuários em contexto de atendimento nem coletar respostas antes de confirmar as aprovações necessárias.
 
