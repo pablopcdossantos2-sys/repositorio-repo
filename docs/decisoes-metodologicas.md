@@ -14,10 +14,10 @@ Enquadramento de trabalho: pesquisa tecnológica de solução inovadora para ens
 
 ### Preferências iniciais registradas
 
-- **Objetivo principal:** identificar necessidades e codesenhar a solução educativa.
-- **Viabilidade de participantes:** possivelmente viável, caso haja aprovação e acesso; não confirmada.
-- **Modo de uso do protótipo na avaliação:** autônomo, isto é, a pessoa tenta realizar as tarefas sem orientação passo a passo do pesquisador durante a tentativa. Isso não significa que o processo de codesenho precise ser não mediado: oficinas ou conversas de codesenho podem ser facilitadas, se aprovadas e viáveis.
-- **Amostra, local, recrutamento, instrumentos e calendário:** não definidos.
+- **Objetivo principal:** identificar necessidades e produzir um protótipo fundamentado, combinando identificação de necessidades e revisão de uma representação simples da solução.
+- **Viabilidade de participantes:** incerta; alternativas de acesso precisam ser investigadas. Nenhuma parceria ou autorização está confirmada.
+- **Modo de uso do protótipo na avaliação, se realizada:** autônomo durante as tentativas de tarefa, sem orientação passo a passo. O codesenho pode ser facilitado; a preferência por autonomia refere-se ao uso do protótipo, não à interação participativa.
+- **Amostra, local, recrutamento, instrumentos e calendário:** não definidos e não presumidos.
 
 ## 3. Comparação dos desenhos metodológicos
 
@@ -31,7 +31,7 @@ Enquadramento de trabalho: pesquisa tecnológica de solução inovadora para ens
 
 ### Síntese da comparação
 
-A opção mais coerente é **combinar C + A e, se houver viabilidade e aprovação, acrescentar B**. O codesenho orienta a definição do problema e os requisitos; a avaliação técnica acompanha o desenvolvimento; a avaliação formativa examina o uso de uma versão do protótipo. A avaliação de aprendizagem e a comparação entre versões ficam fora do escopo principal inicial, salvo decisão posterior justificada.
+A opção mais coerente com as preferências atualizadas é **identificação de necessidades + revisão participativa de um protótipo simples + avaliação técnica sem participantes**. Uma avaliação formativa de usabilidade autônoma pode ser acrescentada apenas se houver acesso, aprovação e tempo, mas não é requisito central do estudo. A avaliação de aprendizagem e a comparação entre versões ficam fora do escopo principal.
 
 ## 4. Desenho recomendado
 
@@ -39,7 +39,7 @@ A opção mais coerente é **combinar C + A e, se houver viabilidade e aprovaç�
 
 Pesquisa tecnológica aplicada, com processo iterativo de desenvolvimento do produto educativo e abordagem participativa para identificar necessidades e codesenhar requisitos. A avaliação deve ser formativa e proporcional ao estágio do produto.
 
-A expressão “abordagem participativa” descreve a intenção de incluir a perspectiva do público nas decisões de design. A modalidade concreta — entrevistas, oficinas, observação de tarefas, análise de jornada ou combinação — ainda precisa ser escolhida com a orientação. Não denominar o trabalho “codesenho com usuários” se, por falta de acesso ou aprovação, as decisões forem baseadas somente em literatura e avaliação interna.
+A expressão “abordagem participativa” descreve a intenção de incluir a perspectiva do público nas decisões de design. A modalidade preferida é uma **combinação enxuta em duas etapas**: (1) identificar necessidades por uma técnica a selecionar com a orientação; (2) revisar uma representação simples ou protótipo de baixa fidelidade para discutir linguagem, sequência e feedback. Não se pressupõe oficina em grupo. Não denominar o trabalho “codesenho com usuários” se, por falta de acesso ou aprovação, as decisões forem baseadas somente em literatura e avaliação interna.
 
 ### Fases propostas
 
@@ -54,14 +54,12 @@ A expressão “abordagem participativa” descreve a intenção de incluir a pe
 
 **Fase 2 — Identificação de necessidades e codesenho, condicionada**
 
-Se houver acesso ao público de interesse e forem obtidas as aprovações aplicáveis, escolher um procedimento compatível com o tempo e os recursos do mestrado. Alternativas a comparar com a orientação:
+Se houver acesso ao público de interesse e forem obtidas as aprovações aplicáveis, escolher um procedimento compatível com o tempo e os recursos do mestrado. A combinação enxuta é a opção preferida para discussão com a orientação:
 
-1. conversas/entrevistas semiestruturadas sobre preparação para teleconsulta, dificuldades digitais, estratégias de apoio e expectativas;
-2. oficina de codesenho para priorizar problemas, revisar linguagem e propor sequência, instruções e feedbacks;
-3. observação de tarefas ou percurso de uso, com foco em barreiras e não em julgar a pessoa;
-4. abordagem em duas partes: identificar necessidades e, em seguida, revisar uma representação simples ou protótipo de baixa fidelidade.
+1. **Identificação de necessidades:** selecionar uma técnica principal de baixo ônus (por exemplo, conversas semiestruturadas), conforme acesso e recursos, para explorar dificuldades, estratégias de apoio, expectativas e linguagem.
+2. **Revisão de representação simples:** usar um esboço, fluxo ou protótipo de baixa fidelidade para verificar se os requisitos propostos fazem sentido e recolher prioridades de melhoria.
 
-Não é necessário adotar todas as modalidades. Selecionar a menor combinação que responda à pergunta de pesquisa e possa ser executada com rigor. A técnica, os participantes elegíveis, o recrutamento, o consentimento, a proteção de dados e a análise devem constar no protocolo antes da execução.
+A oficina em grupo ou observação de tarefas não será presumida; pode substituir ou complementar uma das etapas se for mais viável e metodologicamente justificada. A técnica, os participantes, o recrutamento, o consentimento, a proteção de dados e a análise devem constar no protocolo antes da execução.
 
 **Fase 3 — Tradução dos achados em requisitos e iteração do produto**
 
@@ -115,7 +113,7 @@ O codesenho pode ser facilitado e colaborativo; a preferência por uso autônomo
 
 **Pergunta principal recomendada, provisória:**
 
-> Quais necessidades, barreiras e preferências de adultos com diferentes níveis de familiaridade digital devem orientar o codesenho de um simulador educativo para praticar etapas básicas de uma teleconsulta?
+> Quais necessidades, barreiras e preferências de adultos com baixa familiaridade digital devem orientar o desenvolvimento de um simulador educativo para praticar etapas básicas de uma teleconsulta?
 
 Esta pergunta precisa ser refinada com a orientação. Se não houver acesso a participantes, deve ser reformulada para corresponder ao que de fato será estudado, por exemplo, necessidades e requisitos identificados na literatura e em materiais existentes — sem alegar que representam diretamente a experiência do público.
 
@@ -170,13 +168,13 @@ Mesmo que a avaliação formativa seja realizada, os achados se referem às tare
 ### Preferências iniciais registradas
 
 - [x] Objetivo principal: identificar necessidades e codesenhar a solução.
-- [x] Viabilidade de participantes: possivelmente viável se houver aprovação e acesso, ainda não confirmados.
+- [x] Viabilidade de participantes: incerta; alternativas de acesso a investigar, sem parceria, aprovação ou amostra confirmadas.
 - [x] Modo de uso do protótipo na avaliação: autônomo durante as tentativas de tarefa.
 
 ### Pendências para discussão com a orientação
 
 - [ ] Confirmar a pergunta de pesquisa e a compatibilidade com o programa/edital.
-- [ ] Escolher a modalidade de identificação de necessidades/codesenho (entrevistas, oficina, observação, protótipo de baixa fidelidade ou combinação).
+- [x] Preferência metodológica inicial: combinação enxuta de identificação de necessidades e revisão de protótipo simples; técnica específica ainda pendente.
 - [ ] Definir como operacionalizar baixa familiaridade digital e os critérios de elegibilidade.
 - [ ] Avaliar a possibilidade real de acesso ao público e ao campo, sem pressupor parceria.
 - [ ] Verificar autorizações institucionais e apreciação ética aplicáveis antes de qualquer atividade com participantes.
@@ -189,8 +187,9 @@ Mesmo que a avaliação formativa seja realizada, os achados se referem às tare
 
 ## 13. Próximos passos recomendados
 
-1. Levar à orientação a proposta de desenho **codesenho + desenvolvimento e avaliação técnica + usabilidade autônoma condicionada**.
-2. Escolher uma única modalidade principal de codesenho, considerando tempo, acesso e recursos.
-3. Elaborar um mapa de fases com produtos verificáveis, sem inserir datas ou amostra ainda não confirmadas.
-4. Atualizar o protocolo preliminar e o anteprojeto somente depois das decisões metodológicas.
+1. Levar à orientação a proposta de **identificação de necessidades + revisão de protótipo simples + avaliação técnica**, com usabilidade autônoma apenas como etapa complementar condicionada.
+2. Investigar alternativas realistas de acesso ao público, sem presumir campo, parceria, aprovação ou amostra.
+3. Selecionar a técnica principal para identificar necessidades e definir como a revisão do protótipo será conduzida.
+4. Elaborar um mapa de fases com produtos verificáveis, sem inserir datas ou amostras não confirmadas.
+5. Atualizar o protocolo preliminar e o anteprojeto após a discussão metodológica.
 5. Manter o plano sem participantes como alternativa documentada, não como prova de codesenho com o público.
