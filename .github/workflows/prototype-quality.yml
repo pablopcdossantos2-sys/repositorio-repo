@@ -18,6 +18,7 @@ on:
       - "scripts/**"
       - "tests/**"
       - "package.json"
+      - ".nvmrc"
       - ".htmlvalidate.json"
       - ".github/workflows/prototype-quality.yml"
   workflow_dispatch:
