@@ -16,13 +16,13 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 
 ## Objetivo do projeto
 
-Desenvolver e avaliar um protótipo web responsivo que **permita a adultos com baixa familiaridade digital praticar, em ambiente simulado e sem conexão com serviços reais, as etapas básicas de uma teleconsulta**: preparar dispositivo e ambiente, acessar uma sala virtual fictícia, lidar com dificuldades simples de áudio/vídeo, comunicar dúvidas e confirmar os próximos passos antes de encerrar.
+Desenvolver e avaliar tecnicamente, pedagogicamente e quanto à acessibilidade um protótipo web responsivo que **ofereça prática simulada de etapas básicas de uma teleconsulta**: preparar dispositivo e ambiente, acessar uma sala virtual fictícia, lidar com dificuldades simples de áudio, comunicar dúvidas e confirmar os próximos passos antes de encerrar. A avaliação inicial será documental e técnica, sem participantes; portanto, não permitirá concluir que o produto melhora a aprendizagem ou o desempenho de usuários reais.
 
 A proposta é educativa, não assistencial. O simulador não realiza teleconsulta, não coleta dados clínicos, não se conecta a sistemas de saúde e não comprova por si só aprendizagem duradoura, melhor acesso, adesão ou desfechos clínicos.
 
 ## Pergunta de pesquisa de trabalho
 
-Como um simulador educativo web, acessível e desenvolvido em linguagem simples, pode apoiar adultos com baixa familiaridade digital a praticar as etapas básicas de uma teleconsulta em tarefas simuladas?
+Como desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador web que ofereça prática fictícia de etapas básicas de uma teleconsulta para adultos com baixa familiaridade digital?
 
 ## Produto mínimo em foco
 
