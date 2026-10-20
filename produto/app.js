@@ -46,6 +46,10 @@
     updateCheckStatus();
   });
 
+  document.getElementById("simulate-enter").addEventListener("click", () => {
+    document.getElementById("room-feedback").textContent = "Você entrou na sala de treino fictícia. Nenhuma conexão real foi iniciada e nenhum microfone ou câmera está ativo.";
+  });
+
   document.getElementById("simulate-audio").addEventListener("click", () => {
     document.getElementById("room-feedback").textContent = "Você praticou conferir o controle de áudio. Se ainda não ouvir, avise a pessoa profissional.";
   });
