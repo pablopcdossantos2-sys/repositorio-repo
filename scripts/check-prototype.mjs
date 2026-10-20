@@ -56,9 +56,15 @@ check("IDs HTML são únicos", () => assert.equal(ids.length, idSet.size, "há I
 check("o produto está centrado no tema Treino de Teleconsulta", () => {
   assert.match(html, /Treino de Teleconsulta/i);
   assert.match(html, /sala virtual fictícia/i);
-  assert.match(html, /O que fazer se você não consegue ouvir/i);
+  assert.match(html, /Pratique três situações comuns numa teleconsulta/i);
+  assert.match(html, /data-scenario-card="entry"/);
+  assert.match(html, /data-scenario-card="audio"/);
+  assert.match(html, /data-scenario-card="clarify"/);
+  assert.match(html, /data-scenario-target/);
   assert.match(html, /id="simulate-enter"/);
   assert.match(html, /id="simulate-audio"/);
+  assert.match(html, /id="entry-choice-feedback"/);
+  assert.match(html, /id="clarify-feedback"/);
   assert.match(html, /id="simulate-help"/);
   assert.match(html, /não ativam microfone nem áudio real/i);
   assert.match(html, /baixa familiaridade digital|simulador educativo/i);
@@ -117,6 +123,8 @@ check("reinicialização limpa estados interativos e devolve a etapa inicial", (
   assert.match(js, /input\[name='understanding'\]/);
   assert.match(js, /showView\(["']prepare["']\)/);
   assert.match(js, /rating-feedback/);
+  assert.match(js, /scenarioFeedback/);
+  assert.match(js, /clarify-choice/);
 });
 check("HTML/CSS/JS não dependem de chamadas de rede ou armazenamento persistente no protótipo", () => {
   assert.doesNotMatch(js, /\b(?:localStorage|sessionStorage|XMLHttpRequest)\b|\bfetch\s*\(|\bsendBeacon\s*\(/);
