@@ -249,3 +249,31 @@ test("com movimento reduzido ativo, a interface continua navegável", async ({ p
   await expect(page.locator("#view-guidance")).toBeVisible();
   await expect(page.locator("#guidance-title")).toBeFocused();
 });
+
+
+test("feedbacks dos três cenários explicam uma próxima ação concreta", async ({ page }) => {
+  await page.locator('.tab[data-view="guidance"]').click();
+
+  await page.locator('[name="entry-choice"][value="safe"]').check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#entry-choice-feedback")).toContainText("Confira se o aparelho está conectado");
+  await page.locator('[name="entry-choice"][value="unsafe"]').first().check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#entry-choice-feedback")).toContainText("use apenas o link ou contato oficial");
+
+  await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
+  await page.locator('[name="understanding"][value="correct"]').check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#understanding-feedback")).toContainText("saída de som está correta");
+  await page.locator('[name="understanding"][value="wrong"]').first().check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#understanding-feedback")).toContainText("avise o profissional");
+
+  await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
+  await page.locator('[name="clarify-choice"][value="safe"]').check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#clarify-feedback")).toContainText("confirmar qual é o próximo passo");
+  await page.locator('[name="clarify-choice"][value="unsafe"]').first().check();
+  await page.getByRole("button", { name: "Verificar resposta" }).click();
+  await expect(page.locator("#clarify-feedback")).toContainText("Não precisa fingir que entendeu");
+});
