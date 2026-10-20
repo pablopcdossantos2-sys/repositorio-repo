@@ -386,3 +386,12 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 Após a revisão do texto atual no `main`, as novas asserções de `tests/prototype.spec.js` foram alinhadas às frases reais do JavaScript: conferir a conexão e confirmar o link por canal oficial conhecido; conferir volume/saída de som quando disponível e avisar a pessoa profissional; pedir esclarecimento e confirmar o próximo passo mencionado. O ajuste de teste está no commit [b911436](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/b911436ee49e2678ad4f69c8ededf63be98d4467).
 
 A consulta de status para esse commit retornou uma lista vazia de checks; portanto, **o resultado da CI ainda não está confirmado**. A suíte deve ser conferida no GitHub Actions antes de registrar aprovação. Não afirmar que os testes passaram com base apenas na existência das asserções.
+
+
+### Complemento — asserções automatizadas para os feedbacks (20/10/2026)
+
+A suíte `tests/prototype.spec.js` foi atualizada no commit [492d562](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/492d562b2a674e8c42eb4e48a320a290a2af0a43) para verificar partes específicas dos feedbacks: uso de canal oficial já conhecido e não compartilhar senha/código; conferir saída de som e comunicar que não consegue ouvir; confirmar o próximo passo mencionado e não fornecer orientação clínica. A alteração de testes complementa as mudanças de conteúdo nos commits `3a5184a` e `586bc1b`.
+
+**Estado:** os testes foram escritos/atualizados, mas a execução posterior às mudanças não está confirmada. A consulta ao status combinado do commit `492d562` não retornou status checks. O desenvolvedor deve seguir o tutorial e executar `npm test`; registrar a saída, ambiente e commit testado antes de afirmar sucesso. Não presumir que a CI rodou ou passou.
+
+Esta atualização também precisa ser mantida no `ROADMAP.md`. As próximas prioridades continuam sendo: executar os testes, fazer auditoria manual sem participantes e concluir a busca bibliográfica formal.
