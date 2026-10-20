@@ -100,3 +100,12 @@ Não acrescentar chatbot, IA, integração com prontuário, consulta real, conta
 - [ ] Concluir a busca bibliográfica formal e registrar contagens/exportações reais.
 
 OE-05 permanece com conteúdo estático; não foi criada nova interação de encerramento. A escala de facilidade de 1 a 5 não é uma tarefa de aprendizagem. A revisão editorial não equivale a validação com usuários nem demonstra eficácia educativa.
+
+
+### Complemento — cobertura automatizada de feedback (20/10/2026)
+
+- [x] Acrescentar asserções específicas em `tests/prototype.spec.js` para as mensagens de link, áudio e esclarecimento.
+- [ ] Executar a suíte após as alterações de HTML/JavaScript/testes; o status combinado consultado não confirmou uma execução aprovada.
+- [ ] Registrar sistema, versões, saída de `npm test` e commit testado.
+
+Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/492d562b2a674e8c42eb4e48a320a290a2af0a43). Não declarar sucesso até a execução real.
