@@ -266,3 +266,25 @@ A seleção abaixo é **provisória e baseada em relevância temática dos regis
 
 ---
 **Nota de integridade:** esta é uma síntese crítica inicial baseada em metadados e resumos acessíveis. A avaliação definitiva exige conferência dos textos integrais e repetição documentada das buscas nas interfaces oficiais. Não foram inventadas contagens de registros nem declarada conformidade PRISMA.
+
+## 7. Busca exploratória complementar — 20/10/2026
+
+Uma rodada complementar na web localizou literatura metodológica sobre avaliação de simulações educativas de telemedicina e atualizou a conferência de diretrizes de acessibilidade. O registro integral das consultas, dos metadados e dos limites está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
+
+### Registros a incorporar à triagem
+
+**LESSEROTH/LESSELROTH et al. (2025).** Usability Testing an Educational Telemedicine Simulation: Description of Methods and Preliminary Findings. *Studies in Health Technology and Informatics*, 327, 273–277. DOI: [10.3233/SHTI250327](https://doi.org/10.3233/SHTI250327). Descreve teste pré-piloto de simulação destinada a residentes de obstetrícia/ginecologia e medicina de família, com observação de problemas de usabilidade, erros, facilidade de uso e satisfação. Evidência metodológica adjacente, não treinamento de usuários/pacientes.
+
+**LESSELROTH et al. (2026).** Hybrid Usability Analysis to Improve an Educational Telemedicine Simulation: Task Analysis and Survey Results. DOI: [10.3233/SHTI250237](https://doi.org/10.3233/SHTI250237). Combina conclusão de tarefas, avaliação de competências, percepções e observações qualitativas. A população são aprendizes/profissionais, portanto os resultados não devem ser transferidos diretamente ao público deste projeto.
+
+**LESSELROTH et al. (2026).** Methods for Usability Testing an Educational Simulation: A Case-Study Using a Maternal Telehealth Scenario. *Studies in Health Technology and Informatics*, 336, 2125–2129. DOI: [10.3233/SHTI260636](https://doi.org/10.3233/SHTI260636). A avaliação relatada conseguiu medir 7 de 10 competências, com três limitações relacionadas à usabilidade/fidelidade da simulação; reforça a necessidade de verificar se tarefas e rubricas representam o que se pretende observar.
+
+**KOBEISSI et al. (2025).** Best Practice Guidelines for Preparing Simulated Patients for Telehealth Simulation. *Simulation in Healthcare*, 20(6), 388–398. DOI: [10.1097/SIH.0000000000000863](https://doi.org/10.1097/SIH.0000000000000863). Refere-se à preparação de pacientes simulados em educação de profissionais; classificar como evidência adjacente, não como treinamento de usuários finais.
+
+**WHO/ITU (2024).** *Implementation toolkit for accessible telehealth services*. [Página oficial da OMS](https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities). [Documento](https://www.itu.int/dms_pub/itu-t/opb/joint/T-JOINT-WHO-2024-1-PDF-E.pdf). Diretriz e toolkit com recomendações de acessibilidade; registrar como fonte normativa/técnica, separada dos estudos empíricos.
+
+### Implicação para o produto e avaliação
+
+A literatura recente sobre simulação encontrada neste levantamento está orientada sobretudo à formação profissional. Ela ajuda a selecionar métodos de teste pré-piloto, mas não demonstra ausência de simuladores autoguiados de pacientes. Para o protótipo, adotar uma rubrica candidata por tarefa: (a) ação segura e adequada concluída independentemente; (b) ação adequada após ajuda/feedback; (c) escolha insegura ou tarefa não concluída. Registrar também o tipo de ajuda e a compreensão do feedback, sem tratar sucesso imediato como prova de aprendizagem duradoura.
+
+**Limite:** busca realizada em resultados web, com abertura de páginas acessíveis; não executada com contagens ou exportações dentro das interfaces oficiais das três bases. Não usar os registros como resultado exaustivo nem alegar conformidade PRISMA.
