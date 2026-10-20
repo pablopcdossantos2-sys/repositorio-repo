@@ -11,8 +11,8 @@ O projeto **Treino de Teleconsulta: simulador educativo para usuários com baixa
 1. **Treino de Teleconsulta:** apresentar o simulador como recurso educativo simples, com situações fictícias e sem atendimento real.
 2. **Problema e relevância:** dificuldades com links, áudio e compreensão podem criar barreiras; não citar números sem fonte verificada.
 3. **Escopo atual:** sem chamada real, câmera, microfone, mensageria, prontuário, IA, diagnóstico, prescrição ou coleta de dados pessoais.
-4. **Objetivos educativos:** OE-01 a OE-04 aparecem no checklist e nos cenários; isso não comprova aprendizagem. OE-05 é atualmente conteúdo estático.
-5. **Protótipo atual:** etapas Antes/Durante/Encerrar; cenários “O link não abre”, “Não consigo ouvir” e “Não entendi uma informação”.
+4. **Objetivos educativos:** OE-01 a OE-04 aparecem no checklist e nos cenários; isso não comprova aprendizagem. O conteúdo educativo de OE-05 é estático; a tela também possui uma escala local de facilidade (1–5), que não mede aprendizagem nem valida o protótipo.
+5. **Protótipo atual:** etapas Antes/Durante/Encerrar; cenários “O link não abre”, “Não consigo ouvir” e “Não entendi uma informação”. No encerramento, o conteúdo educativo é estático; há também uma escala de facilidade 1–5 com feedback local, sem envio ou armazenamento.
 6. **Verificação técnica:** último CI documentado: 22 testes Playwright + axe-core aprovados para o commit `11d5bee68f5f8de4234ab9f5388f7f1067545b69`. Não confundir testes automatizados com auditoria manual completa.
 7. **Achados de contraste:** os cálculos são preliminares; bordas de alguns estados precisam de avaliação contextual antes de concluir se são informação visual essencial.
 8. **Literatura:** Galvin et al. (2024), trabalhos metodológicos de Lesselroth et al. (2025/2026) e OMS/UIT (2024) são referências iniciais. As buscas formais ainda estão pendentes.
@@ -53,7 +53,10 @@ O protótipo é demonstrativo e não há desenho nem evidência que permitam inf
 
 ## Estado das evidências
 
-- **Documentado:** protótipo demonstrativo, cenários fictícios, roteiro de auditoria, mapa de objetivos educativos, auditoria estática parcial e verificação preliminar de contraste.
+- **Documentado:** protótipo demonstrativo, cenários fictícios, roteiro de auditoria, mapa de objetivos educativos, duas rodadas de inspeção estática parcial e verificação preliminar de contraste.
 - **Automatizado:** último CI documentado com 22 testes Playwright + axe-core aprovados no commit indicado.
 - **Pendente:** buscas formais, contagens/triagem, auditoria manual, testes em dispositivos reais e leitores de tela.
 - **Não realizado:** avaliação com participantes; não deve ser presumida como aprovada ou agendada.
+
+
+**Nota de precisão pedagógica (20/10/2026):** a escala de facilidade no encerramento é uma interação de interface, não uma tarefa de aprendizagem para OE-05 nem instrumento de avaliação com participantes. Ver `docs/segunda-revisao-estatica-2026-10-20.md`.
