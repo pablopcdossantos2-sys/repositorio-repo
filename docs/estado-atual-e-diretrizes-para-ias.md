@@ -288,3 +288,33 @@ Essa formulação reduz o risco de prometer uma avaliação de resultados que o 
 3. Se alterar código, orientar o desenvolvedor a executar o tutorial, associar os resultados ao commit exato e atualizar o relatório técnico.
 4. Não ampliar o encerramento para uma nova tarefa interativa antes de revisar sua necessidade pedagógica e a rastreabilidade de OE-05.
 5. Atualizar `ROADMAP.md` e este documento após cada avanço verificável, mantendo pendências como pendências até haver evidência de execução.
+
+
+## Atualização de continuidade — matriz de requisitos e busca bibliográfica (20/10/2026)
+
+### Planejamento do protótipo
+
+O documento `docs/produto-minimo.md` agora contém uma matriz explícita do estado de RF-01 a RF-11, distinguindo o que está implementado em código, o que requer revisão e o que ainda é requisito pendente. A principal lacuna é **RF-07/OE-05**: a etapa “Encerrar” apresenta exemplos estáticos, mas não oferece tarefa interativa de escolha e feedback. A escala de facilidade de 1 a 5 é local e não atende a esse objetivo.
+
+Diretriz: não adicionar automaticamente uma nova interação. Primeiro justificar o ganho pedagógico, revisar a evidência e o objetivo, especificar tarefa/opções/feedback e prever testes automatizados. Se o conteúdo estático for suficiente para o escopo acordado, documentar a decisão em vez de ampliar o produto.
+
+### Busca bibliográfica
+
+Foi registrada em `docs/registro-busca-estruturada-2026-10-20.md` uma tentativa adicional de abrir o endpoint oficial E-utilities do PubMed para PM-1. A ferramenta de navegação não conseguiu acessar o endpoint, portanto não foi obtida contagem nem considerada executada a busca. As consultas formais nas bases oficiais seguem pendentes; não inventar totais ou inferir que as bases estejam indisponíveis.
+
+### Estado desta rodada
+
+- Não foram alterados HTML, CSS ou JavaScript.
+- Não houve nova execução de Playwright/axe-core.
+- O ambiente local não conseguiu resolver `github.com` ao tentar clonar o repositório; logo, não há resultado novo de testes locais.
+- O README está sem as três seções removidas a pedido e contém link para o tutorial de teste.
+- O tutorial distingue abrir a aplicação sem instalação de preparar Node.js/npm/Playwright para testes automatizados.
+- A pergunta e o objetivo de trabalho foram harmonizados em README e anteprojetos para refletir avaliação documental/técnica/pedagógica sem participantes, sem alegar eficácia ou usabilidade demonstrada.
+
+### Próximas ações
+
+1. Executar as buscas oficiais manualmente num navegador acessível e registrar consulta, data/hora, filtros, totais e exportações.
+2. Solicitar ao desenvolvedor que siga o tutorial e reporte os resultados de `npm test` com sistema, versões e commit.
+3. Realizar auditoria manual conforme AUD-01 a AUD-20; não marcar casos como concluídos sem evidência.
+4. Fazer revisão editorial de cada cenário e feedback com base na matriz de objetivos.
+5. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
