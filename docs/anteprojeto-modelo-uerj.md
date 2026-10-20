@@ -1,6 +1,6 @@
 # Anteprojeto — estruturado conforme o modelo da UERJ
 
-> **Rascunho para revisão.** Preencher o nome do candidato, conferir o edital e o modelo oficial baixado do site da UERJ, ajustar o limite de páginas/formatação e revisar as referências antes da submissão. A parceria com Guaraí ainda não está formalizada.
+> **Rascunho para revisão; o tema descrito é uma opção provisória.** Preencher o nome do candidato, conferir o edital e o modelo oficial baixado do site da UERJ, ajustar limite de páginas/formatação e revisar referências antes da submissão. A escolha definitiva deve considerar [a matriz dos critérios do edital e os cinco temas candidatos](criterios-edital-e-cinco-temas.md). A parceria com Guaraí ainda não está formalizada e pode não ser necessária para o tema final.
 
 ## 1. Nome do anteprojeto
 
