@@ -114,3 +114,14 @@ A síntese de evidências e as implicações para o produto estão documentadas 
 21. **WORLD HEALTH ORGANIZATION (2019).** *Recommendations on digital interventions for health system strengthening*. Geneva: WHO. Disponível em: https://www.who.int/publications/i/item/9789241550505. Diretriz que recomenda considerar benefícios, danos, aceitabilidade, viabilidade, recursos e equidade, sem tratar intervenções digitais como substitutas de sistemas de saúde funcionais.
 
 22. **PRISMA (2020).** *PRISMA 2020 statement and reporting resources*. Disponível em: https://www.prisma-statement.org/prisma-2020. Recursos de apoio à transparência do relato de revisões sistemáticas; a referência não significa que a revisão rápida do repositório tenha seguido integralmente PRISMA.
+
+
+## Estudos adicionais conferidos na busca complementar de 19/10/2026
+
+23. **RAANHUIS, A. F. A. et al. (2026).** Usability of a Patient Portal in Patients with Digital Support Needs: A Think Aloud Study. *Studies in Health Technology and Informatics*, 336, 2200–2204. DOI: https://doi.org/10.3233/SHTI260651. Estudo exploratório de usabilidade com participantes que precisam de apoio digital; destaca visibilidade do estado do sistema e diferenças associadas ao tipo de instrução recebida. Uso como evidência contextual, não validação do Conversa Clara.
+
+24. **KHAIRAT, S. et al. (2026).** What Telehealth Gets Right and What's Missing: A National Multistakeholder Study of Access and Sustainability. *The Permanente Journal*. Epub 8 set. 2026. DOI: https://doi.org/10.7812/TPP/26.102. Estudo qualitativo com 62 participantes nos EUA sobre benefícios, barreiras e sustentabilidade da telessaúde; útil para formular questões sobre conectividade, acesso a dispositivos, apoio digital e fluxos de serviço.
+
+25. **DUPLAGA, M. (2025).** The Determinants of the Usability of Telephone-Based Remote Physician Visits. *Studies in Health Technology and Informatics*, 329, 1976–1977. DOI: https://doi.org/10.3233/SHTI251307. Estudo observacional de 1.661 adultos usuários de internet na Polônia; associa fatores demográficos, literacia eletrônica e ansiedade tecnológica à usabilidade autorreferida. Não generalizar seus resultados para a população de Guaraí.
+
+A busca, os critérios de seleção desta rodada exploratória e seus limites estão documentados em [Registro da busca exploratória complementar de 19/10/2026](registro-busca-exploratoria-2026-10-19.md). As buscas reprodutíveis e contagens diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continuam pendentes.
