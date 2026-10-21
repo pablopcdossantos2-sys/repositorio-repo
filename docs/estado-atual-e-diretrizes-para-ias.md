@@ -502,3 +502,8 @@ Esse resultado é evidência automatizada para o commit citado, não certificaç
 ## Atualização de continuidade — ficha de auditoria manual (21/10/2026)
 
 Foi criado o [Modelo de preenchimento da auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md). Orientar a próxima auditoria a copiar a ficha por rodada, registrar commit/navegador/viewport/zoom/tecnologia assistiva, preencher os casos e anexar evidências sem dados pessoais. Usar C/PC/NC/NT/BL/NA; não converter NT/BL em aprovação nem declarar conformidade WCAG integral. A auditoria permanece pendente até haver resultados observados.
+
+
+### Formulário interativo de auditoria manual (21/10/2026)
+
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.

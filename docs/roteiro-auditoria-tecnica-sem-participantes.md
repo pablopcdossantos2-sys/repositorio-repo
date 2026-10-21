@@ -124,3 +124,8 @@ Essas verificações são pendentes. Os testes automatizados não substituem a e
 ## Instrumento de registro recomendado
 
 Use o [Modelo de preenchimento — auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md) para registrar cada rodada com respostas objetivas padronizadas, ambiente, evidência, defeitos e retestes. Mantenha este roteiro como visão geral de escopo/rastreabilidade; o modelo complementa o roteiro e não substitui a inspeção manual.
+
+
+### Formulário interativo de auditoria manual (21/10/2026)
+
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.

@@ -102,3 +102,8 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Verificações estáticas](scripts/check-prototype.mjs)
 - [Como executar os testes localmente](docs/como-executar-testes.md)
 - [Workflow de qualidade contínua](.github/workflows/prototype-quality.yml)
+
+
+### Formulário interativo de auditoria manual (21/10/2026)
+
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.

@@ -375,3 +375,8 @@ A revisão é documental e de conteúdo. Não comprova compreensão do público-
 - [ ] Corrigir e retestar defeitos identificados, mantendo os resultados vinculados ao commit.
 
 Instrumento: [Modelo de preenchimento — auditoria manual de acessibilidade](docs/modelo-preenchimento-auditoria-manual-acessibilidade.md). O formulário não equivale a validação com participantes ou certificação integral WCAG.
+
+
+### Formulário interativo de auditoria manual (21/10/2026)
+
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.

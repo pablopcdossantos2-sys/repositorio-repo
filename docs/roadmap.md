@@ -140,3 +140,8 @@ A CI [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/ac
 ## Atualização — ficha objetiva para auditoria manual (21/10/2026)
 
 Criado o [Modelo de preenchimento da auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md). A ficha usa códigos estáveis (C/PC/NC/NT/BL/NA), perguntas por área, evidências, registro de defeitos e resumo quantitativo. A auditoria segue pendente até o modelo ser preenchido com resultados efetivamente observados.
+
+
+### Formulário interativo de auditoria manual (21/10/2026)
+
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
