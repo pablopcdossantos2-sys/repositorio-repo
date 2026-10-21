@@ -1,88 +1,278 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%ASCII PDF generated for repository archival
 1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R
->>
+<< /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
+<< /Type /Pages /Kids [ 5 0 R 7 0 R 9 0 R 11 0 R ] /Count 4 >>
 endobj
 3 0 obj
-<<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
 endobj
 4 0 obj
-<<
-/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 5 0 obj
-<<
-/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
 endobj
 6 0 obj
-<<
-/Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Length 2387 >>
+stream
+BT /F2 18 Tf 1 0 0 1 48 790 Tm (AUDITORIA MANUAL DE ACESSIBILIDADE) Tj ET
+BT /F1 11 Tf 1 0 0 1 48 764 Tm (Registro recebido - AUD-MAN-2026-10-21-01) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 743 Tm (Data: 21/10/2026  |  Instrumento: 1.1) Tj ET
+BT /F2 12 Tf 1 0 0 1 48 708 Tm (ATENCAO: respostas recebidas, auditoria nao validada) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 687 Tm (O JSON registra 59 casos como C \(Conforme\), mas todas as evidencias individuais) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 671 Tm (estao vazias. A unica modalidade marcada foi Mouse/trackpad.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 655 Tm (Os testes de leitor de tela, zoom/reflow, teclado e dispositivos moveis nao) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 639 Tm (estao demonstrados por evidencias no registro recebido.) Tj ET
+BT /F2 11 Tf 1 0 0 1 48 602 Tm (IDENTIFICACAO \(copias publicas com dados pessoais redigidos\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 580 Tm (ID da rodada: AUD-MAN-2026-10-21-01) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 563 Tm (Data registrada: 2026-10-21) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 546 Tm (Commit informado: 872b28c0ef06f96706d5132c6dfa6bba34a73196) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 529 Tm (Sistema: Windows \(versao reportada 19.0.0; confirmar edicao\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 512 Tm (Navegador: Opera 137.0.0.0) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 495 Tm (Dispositivo: computador \(indicacao do navegador\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 478 Tm (Viewport no JSON: vazio | Zoom informado: 100%) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 461 Tm (Leitor de tela: nao informado) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 444 Tm (CI informada: GitHub Actions run #39615349270) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 427 Tm (Perfil marcado: Mouse/trackpad) Tj ET
+BT /F2 11 Tf 1 0 0 1 48 389 Tm (RESUMO REGISTRADO) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 367 Tm (Conforme \(C\): 59    Parcial \(PC\): 0    Nao conforme \(NC\): 0) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 350 Tm (Nao testado \(NT\): 0    Bloqueado \(BL\): 0    Nao aplicavel \(NA\): 0) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 318 Tm (A conclusao selecionada no formulario foi 'sem falhas observadas'.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 302 Tm (Como as evidencias estao vazias, essa conclusao nao pode ser verificada) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 286 Tm (apenas com os arquivos exportados. Os codigos foram preservados sem alteracao.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 70 Tm (A copia PDF compacta e derivada do JSON; nao e o PDF original de 24 paginas.) Tj ET
+endstream
 endobj
 7 0 obj
-<<
-/Contents 14 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 10 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<<
-/PageMode /UseNone /Pages 10 0 R /Type /Catalog
->>
+<< /Length 7391 >>
+stream
+BT /F2 16 Tf 1 0 0 1 48 790 Tm (CASOS RECEBIDOS \(59 no total\)) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 765 Tm (Todos aparecem como C no JSON; todas as evidencias estao vazias.) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 735 Tm (BAS-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 735 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 715 Tm (BAS-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 715 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 695 Tm (BAS-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 695 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 675 Tm (BAS-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 675 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 655 Tm (KBD-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 655 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 635 Tm (KBD-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 635 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 615 Tm (KBD-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 615 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 595 Tm (KBD-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 595 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 575 Tm (KBD-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 575 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 555 Tm (KBD-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 555 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 535 Tm (KBD-07  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 535 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 515 Tm (KBD-08  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 515 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 495 Tm (SR-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 495 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 475 Tm (SR-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 475 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 455 Tm (SR-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 455 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 435 Tm (SR-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 435 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 415 Tm (SR-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 415 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 395 Tm (SR-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 395 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 375 Tm (SR-07  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 375 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 355 Tm (SR-08  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 355 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 335 Tm (SR-09  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 335 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 315 Tm (SR-10  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 315 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 295 Tm (SR-11  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 295 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 275 Tm (VIS-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 275 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 255 Tm (VIS-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 255 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 235 Tm (VIS-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 235 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 215 Tm (VIS-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 215 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 195 Tm (VIS-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 195 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 175 Tm (VIS-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 175 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 42 155 Tm (VIS-07  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 187 155 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 735 Tm (VIS-08  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 735 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 715 Tm (VIS-09  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 715 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 695 Tm (VIS-10  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 695 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 675 Tm (TXT-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 675 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 655 Tm (TXT-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 655 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 635 Tm (TXT-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 635 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 615 Tm (TXT-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 615 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 595 Tm (TXT-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 595 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 575 Tm (TXT-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 575 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 555 Tm (TXT-07  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 555 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 535 Tm (OPT-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 535 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 515 Tm (OPT-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 515 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 495 Tm (OPT-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 495 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 475 Tm (OPT-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 475 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 455 Tm (OPT-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 455 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 435 Tm (OPT-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 435 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 415 Tm (OPT-07  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 415 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 395 Tm (MOB-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 395 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 375 Tm (MOB-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 375 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 355 Tm (MOB-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 355 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 335 Tm (MOB-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 335 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 315 Tm (MOB-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 315 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 295 Tm (MOB-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 295 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 275 Tm (SEG-01  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 275 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 255 Tm (SEG-02  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 255 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 235 Tm (SEG-03  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 235 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 215 Tm (SEG-04  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 215 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 195 Tm (SEG-05  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 195 Tm (Evidencia: \(vazia\)) Tj ET
+BT /F1 9 Tf 1 0 0 1 315 175 Tm (SEG-06  |  C - Conforme) Tj ET
+BT /F1 8 Tf 1 0 0 1 460 175 Tm (Evidencia: \(vazia\)) Tj ET
+endstream
 endobj
 9 0 obj
-<<
-/Author () /CreationDate (D:20261021152737+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20261021152737+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (C\363pia p\372blica compacta do registro recebido) /Title (Auditoria manual de acessibilidade \204 c\363pia p\372blica redigida) /Trapped /False
->>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
 endobj
 10 0 obj
-<<
-/Count 4 /Kids [ 4 0 R 5 0 R 6 0 R 7 0 R ] /Type /Pages
->>
+<< /Length 2890 >>
+stream
+BT /F2 16 Tf 1 0 0 1 48 790 Tm (MATRIZ DE COMBINACOES VISUAIS) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 765 Tm (As oito combinacoes foram marcadas C para texto/controles e foco/selecao.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 749 Tm (Todas as evidencias da matriz estao vazias.) Tj ET
+BT /F2 10 Tf 1 0 0 1 45 710 Tm (Combinacao) Tj ET
+BT /F2 10 Tf 1 0 0 1 270 710 Tm (Texto/controles) Tj ET
+BT /F2 10 Tf 1 0 0 1 390 710 Tm (Foco/selecao) Tj ET
+BT /F2 10 Tf 1 0 0 1 490 710 Tm (Evidencia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 682 Tm (Claro + padrao) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 682 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 682 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 682 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 654 Tm (Escuro + padrao) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 654 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 654 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 654 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 626 Tm (Claro + alto contraste) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 626 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 626 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 626 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 598 Tm (Escuro + alto contraste) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 598 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 598 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 598 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 570 Tm (Claro + azul/ambar) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 570 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 570 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 570 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 542 Tm (Escuro + azul/ambar) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 542 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 542 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 542 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 514 Tm (Claro + monocromatico) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 514 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 514 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 514 Tm (vazia) Tj ET
+BT /F1 9 Tf 1 0 0 1 45 486 Tm (Escuro + monocromatico) Tj ET
+BT /F1 9 Tf 1 0 0 1 300 486 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 415 486 Tm (C) Tj ET
+BT /F1 9 Tf 1 0 0 1 490 486 Tm (vazia) Tj ET
+BT /F2 12 Tf 1 0 0 1 48 437 Tm (DIVERGENCIAS QUE EXIGEM CONFIRMACAO) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 414 Tm (1. O PDF original informa viewport 1280 x 800; no JSON o campo esta vazio.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 398 Tm (   As duas exportacoes nao foram reconciliadas.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 372 Tm (2. O commit informado \(872b28c0...\) nao coincide com a versao de codigo) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 356 Tm (   associada ao run de CI #39615349270 \(03578a999a...\).) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 330 Tm (3. O texto de sistema operacional '19.0.0' nao identifica a edicao do Windows.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 314 Tm (4. O zoom registrado e 100%, enquanto varios casos pedem testes a 200%/400%.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 287 Tm (Essas diferencas nao provam que testes nao foram feitos; apenas limitam a) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 271 Tm (possibilidade de verificar a execucao a partir do registro arquivado.) Tj ET
+endstream
 endobj
 11 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2679
->>
-stream
-Gatm=>BA97&q9"FbR7ER$HmM>%A"]X<jpY6"gb,l<*gpB3"]qA]TR)Sq=Wq:Oep,GG(^>KfG\nYoQC!G_)VE#s-]u+HTblfGCg.CAd]r-T\8ZpHTQTFpQHUC-:$"m%qHkaW*#_j&&&^'_9-!9+EjZ<,2c?fP0"tG3mnV0Xk;=.[!CW_gp3>Rg<:;^Am$'r/Ye\Ef.'\agp$IZMWN)<cO;>k4MT/(4,hVEk#G\J4Cn.4T=a9f\5lcn[P^]cc.t$hp4^b_&Y"-[6pW*K4t@_Z;r$Mh@A:6s%uB$T6%p3i`_dG'G_EX.%X?,b)R2OWTjl*H<@UFZ+?sK^OdWqI9VeILl1K8oC,=1O=$k,r.5kd0\hKPSWr+4<1>"a-*p,ueq;EBB86lB\q?!N%]kO<Ui'ZbCf\4#HVeg?M5gPpb/S`<o+EfEqYZIIS9R_J63K[Q9'>Z%o9XkqTY]u[H&K^!-quOjZghL]3g,t-D/6o_@[=O[G9ki7sAC+k(9%M)e'pjDgnu_Ep"mcuIkBP,c3!sO72bp`7'c\c6R:DXfji*d#9:+TH.%"!bk*]H824UiWfN$IH/Y(<jUrh&2JofO[+WGc-in#nhCidClQ`]!TK6:L=ltY_"pWV^;gobK[Ctdfe%7dB9iM*>n;<@HkH$s%MA@X=0]uNm>j^pN'O\k`h8OB!q/.cfs@tAP9lBH_poa)')'q9hT2[HAu^``mi2MpWVj>mRA-tPGj>1r4SSmJ)M6n:;IPh:V,&la6+R>b@td[hh7I/E6KVqK*@G&_eVFa<uco;@L2Y?nHeObq.OVS]6^)^3"u)P^S2WQnd8:1j$tT>RVCWL2N(o4o)`!fFgoWnUAB%;Y_UXCnP6@1s^O#U0U6qo[4Jbhq6RZI?BAfjAMNVj$'q3=[\unfLYSD9G?XL]#2))tL"qNG#EmX^,*;,kP'jV:dRG4FOa7A]%5RJZpH@>T10d^bRK;h"+FT3F*Y$DmM4C*!RfNBsue^dL^(\Wtr9sV;(]KjL[Z8`,-*LJ"#+UE2CBj,Mu@!&5$GcViYW7qlHSU6s>4QmZLi/Gd)Bg\//4c:_CVQBk;ml)3U%5T'aKTT2k^#qtZc9W;pWu@,%Z:(j%3;Q\*+%*g-aJ'hG8KO>9\nci;HFiE*X%]:W%5bfE0lO.h(to!i9!"W9j!lkB32>Qm'Lj7N#ae3g#KI/JO8p\^Xm*`6q\lQ9uO7Ll0.Z*hd>@T.AmB7NAPBcb@ecol5EDj+?:B$<X(i$nJe)L7b+$8`VE0#H:h;\,";0WbH!'?D>\N8"Ms(24KSBH@L,ZY7',dERYJg;F=!n<BFk-:^W&q;Zha2Z$M!!'pi&'Apd,?L>*MiK:b73GJo,C72])_OF0i1!N(%.L*lurWt=',-*`";UgE'0[&_3QISeJ+&)Do#QI*gk.Xm_qQ-I3+F>NBU?QIEY,%6R"i>A3g>F9RfgUo>K-?N+oBp?us)LFX.3B;.Ea8GJ(Mu6!!s;+7\cA`4?a5jB!*$4qPTB2df%q&7Uj-l=cKLV^ks&YB_8HgO]cte>0eo(Ni$ZH/R5uZ6kOpDd$U_,kgS_*qa!DTok<P'N[a=d9'\V[^H6Lg6U[7SZk>lq9!%3&<_@nuP"qs+\:%2));0%U,n+Xun+7Z^ho_s@;Lj5G<Xu<6U.`dkiDWu%[hsXO#V!+JP+naPK.i#M&UCP3Sq&]3UibVPg\+k-HC4nT;=Yh`1Rbi8W-pc-3#$>o)R!3\dY$Of"[s<D2\I$VR:"SN>l.-``d)m'1X5p)Q\!g3XW-g8\-M0DX=cEgo^]kkfD/Z@p.cZ;3q`"HQng'%T-Y>Z'-C\du2dJ3si/0Sb[[1.QG;HU2Z;2O[qZ+A)ReIA?-q=a[#ta"V2D7+1XS76IG+^NPf]cab@(d*#4cnY.48k'IN4,u%`3KJbENmp,BYd9qLLJ^7@_'7uY?PD%oKcTe!3Ps=q/m(0l(1MrT&9i)l>@EgVqsSY*8R>H`ui?JED7+V>m(!I!h/YOeuZX.&MS.XnHhQQJGtsK07HZOLN^U_4Pnlb(%OkmM_[IS?+f`*ZtjlRA(rp%qE]n/VpOA`_jbiYGEGA799cO/(>0]FCa65-'FC1HG-,<!'$b3g'<nrGh.pV9+@p)%MYWr'-'0I4,8kY,`nK4p6jNDMMIr1qCBc*W^=lVhZ8D3L;0[e[XYRAuZR)[C-2>Yhj[Yon:NklVj%Yu"6;,d#p5K]irMQV`*@&S^lhi3Mm?f'U2G<<HWGJJ/%/D>7UTgW#f@jgn)aZbZk(B/nVr1_<X-o4>7\+aP37XXhh+nl2K3RtuFuP$m0KN*Bd\#T[BS/5ok7pro7gtT(*dAmhTk"i]&VA+m#(5Y$85g5N3lI%XZ\_5%I!?@QHuhuf926D3G+<hW0Ec%1FY$%Gq/CdFF_VpBd)X4k09;_V.7U4_oZ=H"-\kMgJp]THjO`j]Su`L2aZ7B3r9F(!Ys@kUe]<rD\^:8*q!23a*kGtP:k^HpV2CY4^n6>F_gdj`4JorqgnF6_=HO)8Ur@%!.7GArp^s;]%MG>0Vm2K7`.%7_(,B<m[H_:mmYNs*!7SRV9/gES(D1c(9&Y3>@0P6"m,8pG9$0='Ws4+$e_G<$fe%M3WS7#H[OESIM`sHG2E/r,[#5uW$tXL2#bbJp&/7p/HU%kmU5ok>NB;K?G0qHi2%=p'5:1&Sg]~>endstream
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
 endobj
 12 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 2119
->>
+<< /Length 1755 >>
 stream
-Gau12gNV++&;T0?=6Pe.JFVj_b9JUC#PM&/F#a'D(R)@7F4.QDBpZ/UrCUgfC:%2-R]\%jW>3bSpF3O7EWK%k0CV3hf0UJ'`2e))5`46k!*s7mqc1;"*IU$'NRVj=3G^?Z,F)-#;#ZOS[rEA*qTA1*]BTTX;Q<=rfb@%[\e;>bnSGZ%LXddg]pSK9IQjnm\'&V9/n@t?q1Yiuc-V<:$WYA'b@07aFh\crL;iR%li(YOCtGGq1%2jcMt)L'>pugEERuf0]b]X(@eNgGT"Dm.a&3Y;<;99Rg-+D0=EQq7H[W3)K*]V5S$9&q_Ut=nQQ7^$[Y2(%KiF^[RpW3s65AT8KlLs9]orM$#>f_qcVD'r\.QVn1#*4rgMYZrB[T?(gl._>\(PE[2X%+=qm_k#NiVfinPOfcFpA(l%ZR)jl&Xo5R#fEpS);L\D\(ts)7c2?rr$HpfN>)%]AKd1G$N[0[XV"%k5P/C*.Bk3rV\D^KfF2eggi$,QUm\"+'Mp0K=J/grVFeK/;J)WmZuK'C>6K7)d@Vj?2!Sm^!HQAgMJT)EG)adgA/45;;Y1=[U9!dM2c?uqX=C\f(S@pnZURC[e&U<a)S)Q0o]a\N2NLqe(Bu+5&`s<mN0Ab?0N7I^m3`ZWf>A">o;%BGR;fm>PI.J3Pt./S+;-05ATt@[AYQ:5<k[.ip\)DSRf`9c20G\VL_V[&nJs7I^YlHa*TX;+cYQlGT/i:G%[qJYX]X9<43gBdIHPoQR*2N&^(8/Ikm">=89*`[=3cr[64"$La2sD2b6HU/NjEZT#4eYML^@^4rjp4n0AKOSt-pY-3,2J84UNK4UIrq>t9?(IRC`-&BgsRi>%s$@2e9N_uh/f8*CDFOg%JS6E+,>&W_Ta*MJcp#JquRM1`F_HQ\"-#e`Mb&oQr*-p/UA8.5Mj/g"L;T#AJ<&J(Z]!6OCKm*_(oGWt,Le-%&-I"YXI&dR#Y4HP9t,bL.%92@n5q8i@L8Oo`0ds:$%&^Ai<a+IbEo_QZtfVKs`n8-#T+ijqsH9.*L18;<7icl#>KO-m681k_+4;W!*#V&0CT$ARAMJ0/M3$&29U"<'fP066McU8`bJr!7(Vt7tS,+:#+NX*Bfkk3D]jRNl,pQ1\+,aX9?$W#/H:[eoDVg6YT-PKpTSn,_3&0R>i[<alp4<C6,*qK+im1fqRK6/BL6q$Q5`$6GX410GsO?=ka\0g3d&EKD=+<=$+'i@(.nONrb:+`(J,`dj3Y)@NI"F[1,84Sh97MJWf4;*7^;p2'@a^ZQYCEjl+6/^u:P*)tA:I=%)LdsdNG\[%r+F/?&506;#$;YT%N[0sP8A:-]/=p$/*Cq4nO^&urr@oNW/%n50P$C0pGs:5M&=f"h4rm08+-BeMnN[B*8oKfO,aXQ_Sr\+A"D=Qs:C!''7tBnM*XKSbkm`f<YY.bYiVA:"6?#t?q/da)Hj$rCidhZ2Q/3W(8M2(cSr]CjUb0@2o'&F1p]the_uh/6^@VWo894M3n9i/!+Y:CXo'&F1p]the_uh/6^@VWo894M3n9i/!Te*shI"YXI$3sX&4:f<_S'OQEaU$3]4:f<WRnH3@Qj?b]IQK]i^#_?5S)AA$kDXQVn2r,fps/PuZTPG=0WuLg#3@/"I':n-HX`8bKCXNJCeq*D=_OFJm@^Pfq:m4H;^#rsKS;>9dieZ<L_'4VlVUMpJ@Z@^IK-"fU&e1MPrS[:W)2KW_^@jU+$Lq7IU.hP5?-?f1>$WW;u*1OJpZlD=-`[@Bt05]E#:LCTF(<kFgS((E#=mc:^08upB9!P`');!Su.?jhJY@^@pgX>DrR8kjYSrp$$)IoVa3<Pc=qm#-I-=%:4mVV+K(6@C6VZWS3"`jj.%%Le2X?9Ep>W^7QE?OWIp^%cDaZ9NH=A-Vi#OFPZ-P2.`eUKS-n@W32[+(W]6nC3>Ki=Jt+=9WDH?DF/g@\N,qUU;rX<&a=6/>''5?;V[RUg32]/)--drlS2/A=;,2shari(M3<A4ES.gLE&Ea1\'6$\PE^H90:ened+ijt0:-^f?kCasj*##0e+bPaR]%#`?!PTBR-UIBt6aMU3.?#99Hg'"gpPYk`\A/!H;F%#URcd07\+cYir0KD>#EVY4q>~>endstream
+BT /F2 16 Tf 1 0 0 1 48 790 Tm (INTERPRETACAO E PROXIMOS PASSOS) Tj ET
+BT /F2 12 Tf 1 0 0 1 48 760 Tm (Status desta rodada: INCONCLUSIVA / REQUER COMPLEMENTACAO) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 735 Tm (O arquivo preserva as respostas submetidas; nao as transforma automaticamente) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 719 Tm (em falhas. No entanto, 59 codigos C sem evidencias nao demonstram que os) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 703 Tm (criterios foram executados e atendidos.) Tj ET
+BT /F2 12 Tf 1 0 0 1 48 665 Tm (RECOMENDACOES) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 640 Tm (1. Reexecutar os casos e registrar acoes, ambiente e resultados observados.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 621 Tm (2. Para casos nao executados, usar NT; usar BL quando uma dependencia impedir.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 602 Tm (3. Registrar evidencia de teclado, leitor de tela, zoom/reflow, contraste e) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 586 Tm (   telas moveis nos casos correspondentes.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 560 Tm (4. Confirmar o commit efetivamente testado, a CI correspondente, o sistema e) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 544 Tm (   o viewport. Depois, exportar novamente JSON e PDF.) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 518 Tm (5. Preservar esta rodada como historico; registrar retestes separadamente.) Tj ET
+BT /F2 12 Tf 1 0 0 1 48 470 Tm (LIMITES) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 447 Tm (Esta nota e uma analise documental dos arquivos recebidos. Nao e uma auditoria) Tj ET
+BT /F1 10 Tf 1 0 0 1 48 431 Tm (independente do prototipo nem certifica conformidade WCAG.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 395 Tm (Privacidade: a copia publica omite o nome completo e o caminho local original.) Tj ET
+BT /F1 9 Tf 1 0 0 1 48 70 Tm (Referencia: docs/auditorias/manual/2026-10-21/README.md) Tj ET
+endstream
 endobj
-
+xref
+0 13
+0000000000 65535 f 
+0000000054 00000 n 
+0000000103 00000 n 
+0000000181 00000 n 
+0000000278 00000 n 
+0000000380 00000 n 
+0000000516 00000 n 
+0000002954 00000 n 
+0000003090 00000 n 
+0000010532 00000 n 
+0000010669 00000 n 
+0000013611 00000 n 
+0000013749 00000 n 
+trailer
+<< /Size 13 /Root 1 0 R /Info << /Title (Audit record public compact copy) /Author () >> >>
+startxref
+15556
+%%EOF
