@@ -104,3 +104,18 @@ Foi feita uma inspeção estática parcial dos arquivos atuais de HTML, JavaScri
 - [W3C — Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/).
 
 **Estado atual:** este roteiro está criado, mas a auditoria manual nele descrita não foi executada por esta alteração documental. A suíte automatizada histórica não deve ser usada para marcar todos os casos como concluídos.
+
+
+## Complemento de auditoria — controles visuais e cartões de resposta (21/10/2026)
+
+Incluir os seguintes casos na execução manual, registrando ambiente, resultado observado, defeito e reteste:
+
+- [ ] Alternar modo claro e escuro; verificar texto, rótulos, estados selecionados, cartões, avisos e feedbacks.
+- [ ] Testar alto contraste em ambos os temas, tanto com paleta padrão quanto com paleta monocromática.
+- [ ] Alternar paleta azul/âmbar e preto e branco; confirmar que acerto e nova tentativa continuam identificáveis pelo texto, sem depender somente da cor.
+- [ ] Aumentar o texto até o nível máximo e usar zoom do navegador; verificar cortes, sobreposição, rolagem horizontal e leitura dos cartões de resposta.
+- [ ] Comparar largura e altura dos três cartões em cada cenário e verificar seleção por teclado e toque.
+- [ ] Percorrer os controles e mensagens com leitor de tela disponível; confirmar a leitura do tema, nível do texto, contraste, paleta, foco e feedback dinâmico.
+- [ ] Restaurar as preferências e recarregar a página; confirmar que os padrões são modo claro, texto normal e opções visuais padrão. Confirmar que nenhuma preferência foi persistida.
+
+Essas verificações são pendentes. Os testes automatizados não substituem a execução manual com navegador, teclado, leitor de tela e ampliação.

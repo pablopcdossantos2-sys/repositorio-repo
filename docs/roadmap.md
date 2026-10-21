@@ -119,3 +119,14 @@ Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-
 - [ ] Executar testes de regressão no commit atual e registrar saída.
 - [ ] Fazer auditoria manual do protótipo no navegador/tecnologias assistivas.
 - [ ] Concluir busca bibliográfica formal com contagens e exportações.
+
+
+## Atualização — controles de acessibilidade visual (21/10/2026)
+
+- [x] Adicionar alternância entre tema claro (padrão) e escuro, escala de texto, alto contraste, paletas azul/âmbar e monocromática e reforço de foco/leitura.
+- [x] Padronizar a apresentação das opções de rádio de cada cenário com cartões de largura e altura uniformes.
+- [x] Adicionar testes Playwright para os controles, navegação por teclado e dimensões dos cartões.
+- [ ] Confirmar o resultado final da nova CI após corrigir as asserções de texto antigas e os nomes acessíveis dos botões.
+- [ ] Executar a auditoria manual com tecnologia assistiva e diferentes combinações de tema/contraste, texto grande e telas estreitas.
+
+Registro: [Implementação de controles visuais e acessibilidade](revisao-acessibilidade-visual-e-controles-2026-10-21.md). A implementação não equivale a conformidade integral WCAG nem a validação com pessoas com deficiência.
