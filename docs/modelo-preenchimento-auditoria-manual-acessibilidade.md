@@ -272,6 +272,8 @@ Critérios particularmente relacionados (lista indicativa, não exaustiva): 1.3.
 
 O [formulário HTML interativo](formulario-auditoria-manual-acessibilidade.html) oferece um ícone de informação ao lado dos campos preenchíveis. O ícone abre uma janela de ajuda com o significado do campo, orientações de preenchimento e exemplo correspondente. Para os casos de auditoria, a ajuda usa o ID, a pergunta e o critério do caso para orientar o registro de evidências.
 
+**Importação e correção de exportações:** o formulário HTML permite importar uma exportação `.json` anterior, revisar ou corrigir campos e exportar o mesmo registro novamente. A importação substitui os valores atuais, portanto exporte uma cópia antes se quiser preservá-los. O JSON precisa pertencer ao projeto e ao instrumento reconhecidos pelo formulário. A ajuda do campo **Viewport** explica como medir a largura e altura da área visível do protótipo em pixels CSS. A seção **Como conduzir a auditoria** divide a execução em preparação, funcionamento básico, teclado/foco, tecnologia assistiva, testes visuais/adaptação e registro dos resultados. Marque C apenas quando o caso tiver sido efetivamente executado e observado; use NT ou BL quando apropriado.
+
 O formulário sugere automaticamente a data da rodada, o nome/versão do navegador, uma identificação aproximada do sistema operacional e uma categoria aproximada de dispositivo. Os campos continuam editáveis e as sugestões devem ser confirmadas. URL do protótipo, viewport, zoom, leitor de tela, commit testado e resultado da CI ficam manuais para evitar preencher automaticamente valores que poderiam não corresponder ao protótipo auditado ou exigem confirmação. Não há envio nem gravação automática das respostas.
 
 
