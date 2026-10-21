@@ -115,3 +115,8 @@ Além do modelo Markdown, está disponível o [formulário HTML preenchível](do
 ## Registro da auditoria manual (21/10/2026)
 
 Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+
+
+### Tutorial para executar as pendências
+
+- [Tutorial passo a passo: auditoria manual de acessibilidade, busca bibliográfica, benchmark e verificação do CI](docs/tutorial-execucao-pendencias.md) — orienta o executor sobre procedimentos, evidências mínimas, critérios de registro e limites das conclusões. Não substitui os modelos e protocolos específicos vinculados no tutorial.
