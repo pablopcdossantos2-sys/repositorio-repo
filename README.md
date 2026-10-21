@@ -13,6 +13,7 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 - [Registro de execução das buscas bibliográficas (20/10/2026)](docs/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
 - [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
 - [Verificação preliminar de contraste (20/10/2026)](docs/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
+- [Implementação de controles visuais e acessibilidade (21/10/2026)](docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md) — tema claro/escuro, escala de texto, alto contraste, paletas e padronização das opções; auditoria manual permanece pendente.
 - [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — segunda passagem para trocar termos abstratos por ações concretas; regressão automatizada e auditoria manual ainda pendentes.
 - [Matriz de critérios para revisão de textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
 
@@ -58,7 +59,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 ## Princípios de escopo e segurança
 
 - **Ensinar uma tarefa por vez:** instruções concretas, progressão previsível, exemplos fictícios e feedback não punitivo.
-- **Acessibilidade desde o início:** teclado, foco visível, leitura por tecnologia assistiva, contraste, responsividade e linguagem simples.
+- **Acessibilidade desde o início:** teclado, foco visível, leitura por tecnologia assistiva, contraste, responsividade e linguagem simples. O protótipo também oferece tema claro/escuro, aumento/redução do texto, alto contraste, paleta azul/âmbar, paleta monocromática e foco/leitura reforçados; os ajustes são temporários e ainda precisam de auditoria manual.
 - **Sem teleconsulta real:** nenhum áudio/vídeo ao vivo ou contato com profissionais pelo protótipo.
 - **Sem dados clínicos ou identificáveis:** evitar formulários que solicitem dados pessoais; não transmitir nem persistir respostas.
 - **Sem decisões clínicas:** nenhum diagnóstico, prescrição, triagem ou alteração de conduta.

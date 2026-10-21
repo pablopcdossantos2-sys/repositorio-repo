@@ -470,3 +470,23 @@ Os guias do HHS e o toolkit WHO/ITU orientam princípios gerais de preparação 
 ### Diretriz para a próxima IA
 
 Ao continuar, leia novamente o README, o roadmap e este documento. Use o registro editorial, a matriz e o mapa de objetivos como fontes de rastreabilidade; não afirme validação dos textos com usuários, nem implemente uma tarefa interativa de encerramento sem revisar o ganho pedagógico e a decisão de escopo.
+
+
+## Atualização de continuidade — controles de aparência e acessibilidade (21/10/2026)
+
+### Implementado no protótipo
+
+- Modo claro como padrão explícito e alternância para modo escuro.
+- Três níveis de tamanho do texto (normal, grande e muito grande), com controles de aumentar/diminuir e estados desabilitados nos limites.
+- Alto contraste com combinações específicas para temas claro e escuro.
+- Paleta azul/âmbar, que reduz a dependência de vermelho/verde, e paleta monocromática.
+- Reforço de foco visível, espaçamento da leitura e sublinhado de links.
+- Botão para restaurar as configurações visuais padrão; as escolhas são mantidas apenas na página atual e não são gravadas em armazenamento.
+- Opções de resposta em cartões de largura comum e linhas de altura uniforme em cada cenário.
+- Testes automatizados acrescentados para a barra, os modos, a navegação por teclado e o tamanho dos cartões.
+
+### Limites e próximos passos
+
+O modo para leitores de tela não é um botão visual separado: deve funcionar por meio da semântica nativa, títulos, rótulos, grupos de rádio, foco, mensagens de estado e tecnologias assistivas do navegador/dispositivo. Não afirmar que a ferramenta está “validada para pessoas cegas” sem auditoria manual pertinente. Paletas de cores são opções gerais, não uma solução que atenda a todos os tipos de daltonismo.
+
+Na execução de CI consultada durante esta atualização, a verificação estática, sintática e HTML terminou com sucesso; os testes Playwright/axe-core ainda estavam em execução. Confirmar a conclusão da CI para o commit de código antes de declarar aprovação. Em seguida, fazer verificação manual com teclado, leitor de tela, zoom/ampliação, diferentes combinações de tema/contraste, telas pequenas e opções de resposta com texto muito grande.

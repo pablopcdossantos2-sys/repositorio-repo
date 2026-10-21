@@ -35,7 +35,20 @@ A publicação depende de habilitar o GitHub Pages nas configurações do reposi
 - Confirmação dos próximos passos apresentados no cenário.
 - Seleção da avaliação local e reinício do treino.
 - Leitura em tela estreita, zoom, navegação por teclado e foco visível.
+- Alternância entre modo claro e escuro; o modo claro é o padrão.
+- Aumentar/reduzir o texto; conferir que a interface e as opções continuam legíveis.
+- Ativar/desativar alto contraste, paleta azul e âmbar, paleta preto e branco e foco/leitura reforçados.
+- Conferir se as três opções de resposta de cada cenário têm tamanhos iguais e continuam selecionáveis por teclado.
 
 ## Limites
 
 O protótipo não é um produto clínico pronto, não se conecta a serviços de saúde e não deve ser utilizado para orientar decisões clínicas. A avaliação com participantes só poderá ocorrer após definição do protocolo e obtenção das aprovações aplicáveis.
+
+
+## Controles de aparência e acessibilidade
+
+No início da página, a seção **Aparência e acessibilidade** oferece modo claro/escuro, três tamanhos de texto, alto contraste, paletas de cores e reforço do foco e espaçamento da leitura. **Restaurar padrão** retorna ao modo claro e às configurações iniciais. Os ajustes existem apenas enquanto a página permanece aberta; não são armazenados.
+
+A paleta azul/âmbar e a versão preto e branco ajudam a reduzir a dependência de diferenças entre vermelho e verde ou de matizes. Elas não cobrem necessariamente todas as formas de daltonismo. Para pessoas cegas, a ferramenta depende da estrutura semântica, navegação por teclado, nomes de controles e compatibilidade do navegador/leitor de tela; os controles visuais não substituem os recursos assistivos do dispositivo.
+
+Consulte o [registro de implementação e verificações pendentes](../docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md). A inclusão dos controles não equivale a certificação de conformidade WCAG, e a auditoria manual com tecnologias assistivas continua pendente.

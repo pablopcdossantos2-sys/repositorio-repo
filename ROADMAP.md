@@ -343,3 +343,25 @@ Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos
 - [ ] Confirmar com a orientação se o desenho sem participantes atende aos requisitos do curso.
 
 A revisão é documental e de conteúdo. Não comprova compreensão do público-alvo, usabilidade real ou eficácia educativa.
+
+
+## Atualização — controles visuais, acessibilidade e uniformização das opções (21/10/2026)
+
+### Implementado nesta rodada
+
+- [x] Definir modo claro como padrão e adicionar alternância para modo escuro.
+- [x] Adicionar três níveis de tamanho de texto e controles para aumentar/diminuir.
+- [x] Adicionar alto contraste, paleta azul/âmbar, paleta monocromática e reforço do foco/leitura.
+- [x] Manter as configurações apenas na sessão atual, sem armazenamento persistente.
+- [x] Padronizar os cartões de opções de resposta em largura e altura dentro de cada cenário.
+- [x] Incluir verificações estáticas e testes de navegador para os novos controles e a uniformidade dos cartões.
+- [x] Atualizar README, guia de uso e diretrizes para IAs com os recursos e seus limites.
+
+### Validação e pendências
+
+- [x] A CI completou as verificações estáticas, sintáticas e de validação HTML nesta execução.
+- [ ] Confirmar o resultado final dos testes Playwright/axe-core da CI correspondente ao commit de código.
+- [ ] Fazer auditoria manual com teclado, leitor de tela, ampliação/zoom e diferentes combinações de tema, contraste e paleta.
+- [ ] Confirmar a igualdade dimensional dos cartões também com texto muito grande e em larguras móveis; retestar qualquer caso divergente.
+
+**Limite:** esses controles ampliam as preferências visuais e a testabilidade, mas não certificam conformidade WCAG nem demonstram acessibilidade para todas as deficiências visuais. Ver [registro de implementação e verificações pendentes](docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md).
