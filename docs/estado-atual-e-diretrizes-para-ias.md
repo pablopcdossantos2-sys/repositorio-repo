@@ -40,7 +40,7 @@ A aplicação em `produto/index.html`, `produto/app.js` e `produto/styles.css` �
 
 - **Antes:** preparação e checklist;
 - **Durante:** situações fictícias “O link não abre”, “Não consigo ouvir” e “Não entendi uma informação”, com opções e feedback;
-- **Encerrar:** reinício e/ou próximos passos demonstrativos conforme o estado atual da interface.
+- **Encerrar:** exemplos fictícios de próximos passos, exercício de escolha única sobre confirmar combinados/etapas/contato conhecido e feedback local; a escala de facilidade de 1 a 5 permanece separada e não mede aprendizagem.
 
 O produto deve continuar simples, acessível, sem dependências externas em tempo de uso e sem dados reais. Manter estas restrições:
 

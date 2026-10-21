@@ -34,7 +34,7 @@ A revisão editorial e a simplificação da linguagem dos cenários, assim como 
 1. **Tela inicial:** explica que é treino simulado, sem conexão com serviço real, sem coleta de dados, e permite iniciar ou rever as instruções.
 2. **Antes da teleconsulta:** oferece checklist de preparação do aparelho, conexão, ambiente com privacidade e perguntas que a pessoa quer lembrar.
 3. **Durante — sala virtual fictícia:** oferece três situações com ramificação e feedback: o link não abre; a pessoa não consegue ouvir; e uma informação não ficou clara. A pessoa escolhe uma ação e recebe explicação sem conexão real.
-4. **Ao encerrar — estado atual:** a interface apresenta exemplos estáticos de como pedir repetição/esclarecimento, confirmar os próximos passos e procurar um canal oficial. Ainda não há uma tarefa interativa com escolha e feedback que pratique o objetivo OE-05; portanto, não descrever essa etapa como prática interativa implementada.
+4. **Ao encerrar:** a interface apresenta exemplos estáticos e um exercício de escolha única com feedback para praticar a confirmação do que ficou combinado, do próximo passo e do contato conhecido para dúvidas. Esta interação atende à especificação de design preliminar de OE-05, mas não comprova compreensão ou aprendizagem pelo público-alvo.
 5. **Reiniciar:** limpa escolhas e feedbacks locais e devolve o foco ao título inicial.
 
 ## Requisitos funcionais mínimos
@@ -45,7 +45,7 @@ A revisão editorial e a simplificação da linguagem dos cenários, assim como 
 - **RF-04:** oferecer o botão “Entrar na sala de treino” para praticar a entrada numa sala virtual fictícia; o feedback deve deixar claro que nenhuma conexão real é aberta.
 - **RF-05:** disponibilizar controles fictícios e interativos para praticar entrada, conferência de áudio e comunicação da dificuldade, sem ativar microfone/câmera ou enviar mensagens.
 - **RF-06:** oferecer ao menos três cenários ramificados (acesso à sala, falha de áudio e pedido de esclarecimento) com escolhas plausíveis e feedback contextual.
-- **RF-07 (pendente de implementação/decisão):** oferecer uma prática de comunicação, como pedir que uma informação seja repetida ou confirmar um próximo passo. A tela atual só apresenta exemplos estáticos; a escala local de facilidade de 1 a 5 não atende a este requisito.
+- **RF-07:** oferecer uma prática de comunicação relacionada ao encerramento, escolhendo confirmar o que ficou combinado, o próximo passo e o contato previamente informado pelo serviço; apresentar feedback local sem orientação clínica. A escala de facilidade de 1 a 5 continua sem função de medida educativa.
 - **RF-08:** fornecer feedback simples, respeitoso e explicativo para cada escolha relevante.
 - **RF-09:** permitir reiniciar a sessão local e limpar todas as escolhas/feedbacks.
 - **RF-10:** não coletar, armazenar ou transmitir respostas ou dados pessoais/clínicos.
@@ -63,13 +63,13 @@ A tabela separa a especificação desejada da implementação observada no códi
 | RF-04 — entrada fictícia na sala | Implementado | O botão apresenta feedback e não abre uma sala real. |
 | RF-05 — controles fictícios de áudio e comunicação | Implementado | Os controles só atualizam mensagens locais; confirmar no navegador e na inspeção de rede. |
 | RF-06 — três cenários com escolhas e feedback | Implementado | Link, áudio e esclarecimento; revisão editorial concluída, teste de regressão e auditoria manual pendentes. |
-| RF-07 — prática interativa de encerramento | **Pendente / decisão de escopo** | Há exemplos estáticos, mas não uma tarefa de escolha com feedback para OE-05. |
+| RF-07 — prática interativa de encerramento | Implementado em código | Exercício de escolha única com feedback local; regressão automatizada acrescentada. Auditoria manual pendente; não demonstra aprendizagem. |
 | RF-08 — feedback claro e respeitoso | Implementado em texto, ainda não verificado por regressão | Feedbacks dos três cenários foram revisados editorialmente; falta executar a suíte após a edição e fazer auditoria manual. |
 | RF-09 — reiniciar e limpar estados locais | Implementado em código | Confirmar manualmente que todos os estados e o foco retornam corretamente. |
 | RF-10 — não coletar/transmitir/persistir dados | Implementado por desenho e inspeção estática parcial | Não equivale a prova universal; executar a verificação de Network/Application no navegador. |
 | RF-11 — conteúdo fictício e sem aconselhamento clínico | Implementado em conteúdo atual | Revisar textos e verificar que nada sugere serviço oficial ou instrução clínica individual. |
 
-**Decisão de planejamento:** não implementar uma nova interação de encerramento automaticamente. Primeiro revisar o objetivo OE-05, a evidência bibliográfica, o ganho pedagógico esperado e o custo de teste. Se for mantido como requisito da primeira versão, especificar a tarefa, as opções, o feedback e os testes automatizados antes de alterar o código.
+**Decisão de implementação (21/10/2026):** após a revisão do objetivo OE-05 e da matriz de qualidade, foi acrescentada uma interação mínima de encerramento com três opções, feedback para acerto/nova tentativa e teste de reinicialização. A mudança não adiciona rede, persistência ou serviços. O resultado da CI deve ser registrado e a inspeção manual permanece pendente.
 
 ## Requisitos de qualidade e acessibilidade
 
