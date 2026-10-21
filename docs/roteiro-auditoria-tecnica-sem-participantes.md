@@ -119,3 +119,8 @@ Incluir os seguintes casos na execução manual, registrando ambiente, resultado
 - [ ] Restaurar as preferências e recarregar a página; confirmar que os padrões são modo claro, texto normal e opções visuais padrão. Confirmar que nenhuma preferência foi persistida.
 
 Essas verificações são pendentes. Os testes automatizados não substituem a execução manual com navegador, teclado, leitor de tela e ampliação.
+
+
+## Instrumento de registro recomendado
+
+Use o [Modelo de preenchimento — auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md) para registrar cada rodada com respostas objetivas padronizadas, ambiente, evidência, defeitos e retestes. Mantenha este roteiro como visão geral de escopo/rastreabilidade; o modelo complementa o roteiro e não substitui a inspeção manual.

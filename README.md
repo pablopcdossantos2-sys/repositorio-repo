@@ -14,6 +14,7 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 - [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
 - [Verificação preliminar de contraste (20/10/2026)](docs/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
 - [Implementação de controles visuais e acessibilidade (21/10/2026)](docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md) — tema claro/escuro, escala de texto, alto contraste, paletas e padronização das opções; CI: 26 testes automatizados passaram; auditoria manual permanece pendente.
+- [Modelo de auditoria manual de acessibilidade](docs/modelo-preenchimento-auditoria-manual-acessibilidade.md) — escala padronizada C/PC/NC/NT/BL/NA e registro de evidências.
 - [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — segunda passagem para trocar termos abstratos por ações concretas; regressão automatizada e auditoria manual ainda pendentes.
 - [Matriz de critérios para revisão de textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
 
@@ -91,6 +92,7 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - [Guia operacional das tarefas pessoais](docs/tarefas-pessoais-e-proximos-passos.md)
 - [Relatório de revisão técnica](docs/relatorio-revisao-tecnica.md)
 - [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](docs/roteiro-auditoria-tecnica-sem-participantes.md)
+- [Modelo de preenchimento da auditoria manual de acessibilidade](docs/modelo-preenchimento-auditoria-manual-acessibilidade.md) — ficha por rodada com perguntas objetivas, evidências, defeitos e retestes.
 - [Carta de exposição de motivos — minuta editável](docs/carta-exposicao-de-motivos.md)
 - [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](docs/declaracao-conhecimento-deliberacao-13-2023.md)
 - [Protótipo — página inicial](produto/index.html)

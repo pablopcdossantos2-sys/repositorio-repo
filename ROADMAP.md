@@ -365,3 +365,13 @@ A revisão é documental e de conteúdo. Não comprova compreensão do público-
 - [ ] Confirmar a igualdade dimensional dos cartões também com texto muito grande e em larguras móveis; retestar qualquer caso divergente.
 
 **Limite:** esses controles ampliam as preferências visuais e a testabilidade, mas não certificam conformidade WCAG nem demonstram acessibilidade para todas as deficiências visuais. Ver [registro de implementação e verificações pendentes](docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md).
+
+
+## Atualização — modelo estruturado de auditoria manual (21/10/2026)
+
+- [x] Criar um modelo reutilizável com códigos padronizados C/PC/NC/NT/BL/NA, dados do ambiente e casos de teste por área.
+- [x] Incluir campos de evidência, IDs de defeito, gravidade, commit da correção e resultado do reteste.
+- [ ] Executar a primeira rodada manual com o navegador e as tecnologias assistivas realmente disponíveis.
+- [ ] Corrigir e retestar defeitos identificados, mantendo os resultados vinculados ao commit.
+
+Instrumento: [Modelo de preenchimento — auditoria manual de acessibilidade](docs/modelo-preenchimento-auditoria-manual-acessibilidade.md). O formulário não equivale a validação com participantes ou certificação integral WCAG.

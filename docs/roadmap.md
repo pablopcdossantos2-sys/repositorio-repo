@@ -135,3 +135,8 @@ Registro: [Implementação de controles visuais e acessibilidade](revisao-acessi
 ### Resultado dos testes automatizados — 21/10/2026
 
 A CI [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270) terminou com sucesso no commit de código [03578a9](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81): verificações de sintaxe, estrutura e HTML aprovadas e 26 testes Playwright/axe-core aprovados. Os testes manuais de acessibilidade e leitores de tela permanecem pendentes.
+
+
+## Atualização — ficha objetiva para auditoria manual (21/10/2026)
+
+Criado o [Modelo de preenchimento da auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md). A ficha usa códigos estáveis (C/PC/NC/NT/BL/NA), perguntas por área, evidências, registro de defeitos e resumo quantitativo. A auditoria segue pendente até o modelo ser preenchido com resultados efetivamente observados.

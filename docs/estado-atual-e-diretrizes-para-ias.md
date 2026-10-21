@@ -497,3 +497,8 @@ Na execução de CI consultada durante esta atualização, a verificação está
 A execução do GitHub Actions [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270), no commit de código [03578a9](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81), concluiu com sucesso. As verificações de sintaxe, estrutura e HTML passaram, e os **26 testes Playwright/axe-core passaram**. A execução inclui os testes de modo claro/escuro, tamanho do texto, alto contraste, paletas, foco por teclado e dimensões uniformes das opções.
 
 Esse resultado é evidência automatizada para o commit citado, não certificação integral WCAG. Continuam pendentes testes manuais com leitor de tela e ampliação, inspeção das combinações de cores em dispositivos reais e verificação da igualdade dos cartões em outros tamanhos de tela/configurações.
+
+
+## Atualização de continuidade — ficha de auditoria manual (21/10/2026)
+
+Foi criado o [Modelo de preenchimento da auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md). Orientar a próxima auditoria a copiar a ficha por rodada, registrar commit/navegador/viewport/zoom/tecnologia assistiva, preencher os casos e anexar evidências sem dados pessoais. Usar C/PC/NC/NT/BL/NA; não converter NT/BL em aprovação nem declarar conformidade WCAG integral. A auditoria permanece pendente até haver resultados observados.
