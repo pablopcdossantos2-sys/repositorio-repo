@@ -394,3 +394,14 @@ O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos context
 ## Registro da auditoria manual (21/10/2026)
 
 Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+
+## Atualização — regressão das preferências visuais (21/10/2026)
+
+- [x] Ampliar os testes Playwright para verificar a combinação de tema escuro, texto muito grande, alto contraste, paleta azul/âmbar e foco reforçado.
+- [x] Verificar que “Restaurar padrão” retorna todos os atributos e controles visuais aos valores iniciais.
+- [x] Acrescentar teste de regressão para confirmar que as preferências visuais não são gravadas em `localStorage` ou `sessionStorage` e voltam ao padrão após recarregar.
+- [ ] Aguardar o resultado da CI para o commit que contém os novos testes; não presumir aprovação.
+- [ ] A auditoria manual continua necessária para zoom real, leitores de tela, toque e outras combinações de navegador/dispositivo.
+
+**Limite:** são testes automatizados de comportamento no navegador, não evidência de acessibilidade universal, conformidade integral WCAG ou validação com participantes.
+
