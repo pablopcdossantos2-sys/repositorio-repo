@@ -19,7 +19,7 @@ test("apresenta o tema escolhido e as três etapas de treino de teleconsulta", a
   await page.locator('.tab[data-view="guidance"]').click();
   await expect(page.getByRole("heading", { name: "Pratique três situações comuns numa teleconsulta" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "O link não abre" })).toBeVisible();
-  await expect(page.locator('[data-scenario-card="entry"]').getByText(/sala virtual fictícia/)).toBeVisible();
+  await expect(page.locator('[data-scenario-card="entry"]').getByText(/link da sala não abre/)).toBeVisible();
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await expect(page.getByRole("heading", { name: "Não consigo ouvir" })).toBeVisible();
   await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
@@ -40,6 +40,18 @@ test("começa na etapa Preparar e mantém os outros painéis ocultos", async ({ 
 test("teclado percorre a navegação e ativa etapa com Enter", async ({ page }) => {
   await page.keyboard.press("Tab");
   await expect(page.locator(".skip-link")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator("#theme-toggle")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator("#text-increase")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator("#contrast-toggle")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator("#palette-select")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator("#focus-toggle")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.locator("#accessibility-reset")).toBeFocused();
   await page.keyboard.press("Tab");
   await expect(page.locator('.tab[data-view="prepare"]')).toBeFocused();
   await page.keyboard.press("Tab");
@@ -75,7 +87,7 @@ test("os controles fictícios permitem praticar ações sem ativar áudio nem en
   await expect(page.locator("#entry-room-feedback")).toContainText("Nenhuma conexão real foi aberta");
   await page.getByRole("button", { name: "2. Resolver o áudio" }).click();
   await page.getByRole("button", { name: "Conferir áudio (simulação)" }).click();
-  await expect(page.locator("#room-feedback")).toContainText("conferir o controle de áudio");
+  await expect(page.locator("#room-feedback")).toContainText("primeira verificação");
   await expect(page.locator("#room-feedback")).toContainText("alto-falante ou fone");
   await page.getByRole("button", { name: "Avisar que não estou ouvindo" }).click();
   await expect(page.locator("#room-feedback")).toContainText("Não estou conseguindo ouvir");
@@ -90,7 +102,7 @@ test("avaliação de compreensão exige escolha e apresenta feedback coerente", 
   await expect(page.locator("#understanding-feedback")).toContainText("Escolha uma resposta");
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
-  await expect(page.locator("#understanding-feedback")).toContainText("Isso!");
+  await expect(page.locator("#understanding-feedback")).toContainText("Isso.");
   await page.locator('input[name="understanding"][value="wrong"]').first().check();
   await page.locator("#check-understanding").click();
   await expect(page.locator("#understanding-feedback")).toContainText("Tente novamente");
@@ -105,7 +117,7 @@ test("cenário de entrada recomenda usar link/canal oficial sem compartilhar sen
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#entry-choice-feedback")).toContainText("Boa escolha");
   await expect(page.locator("#entry-choice-feedback")).toContainText("contato que o serviço de saúde informou antes");
-  await expect(page.locator("#entry-choice-feedback")).toContainText("senha ou código de acesso");
+  await expect(page.locator("#entry-choice-feedback")).toContainText("senha ou código");
 });
 
 test("cenário de esclarecimento orienta a pedir repetição em vez de adivinhar", async ({ page }) => {
@@ -262,7 +274,7 @@ test("feedbacks dos três cenários explicam uma próxima ação concreta", asyn
 
   await page.locator('[name="entry-choice"][value="safe"]').check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
-  await expect(page.locator("#entry-choice-feedback")).toContainText("Confira a conexão e confirme o link");
+  await expect(page.locator("#entry-choice-feedback")).toContainText("Confira se a internet está funcionando");
   await page.locator('[name="entry-choice"][value="unsafe"]').first().check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#entry-choice-feedback")).toContainText("confirme o link pelo contato que o serviço de saúde informou antes");
@@ -273,7 +285,7 @@ test("feedbacks dos três cenários explicam uma próxima ação concreta", asyn
   await expect(page.locator("#understanding-feedback")).toContainText("alto-falante ou fone");
   await page.locator('[name="understanding"][value="wrong"]').first().check();
   await page.getByRole("button", { name: "Verificar resposta" }).click();
-  await expect(page.locator("#understanding-feedback")).toContainText("avise a pessoa profissional");
+  await expect(page.locator("#understanding-feedback")).toContainText("avise o profissional de saúde");
 
   await page.getByRole("button", { name: "3. Pedir esclarecimento" }).click();
   await page.locator('[name="clarify-choice"][value="safe"]').check();
@@ -318,17 +330,33 @@ test("controles de aparência e acessibilidade funcionam e o modo claro é o pad
 
 test("opções de resposta têm largura e altura uniformes em cada cenário", async ({ page }) => {
   await page.setViewportSize({ width: 1280, height: 900 });
-  await page.locator('.tab[data-view="guidance"]').click();
-  for (const name of ["entry-choice", "understanding", "clarify-choice"]) {
-    const cards = page.locator(`.choice-list label.choice input[name="${name}"]`).locator("..");
-    const count = await cards.count();
-    expect(count).toBe(3);
-    const boxes = [];
-    for (const card of await cards.all()) boxes.push(await card.boundingBox());
-    const heights = boxes.map(box => box.height);
-    const widths = boxes.map(box => box.width);
-    expect(Math.max(...heights) - Math.min(...heights), `${name}: alturas divergentes ${heights.join(", ")}`).toBeLessThanOrEqual(1);
-    expect(Math.max(...widths) - Math.min(...widths), `${name}: larguras divergentes ${widths.join(", ")}`).toBeLessThanOrEqual(1);
+  const scenarios = [
+    { name: "entry-choice", target: "entry", button: "1. Entrar na sala" },
+    { name: "understanding", target: "audio", button: "2. Resolver o áudio" },
+    { name: "clarify-choice", target: "clarify", button: "3. Pedir esclarecimento" }
+  ];
+  for (const textSize of ["normal", "larger"]) {
+    if (textSize === "larger") {
+      await page.locator("#text-increase").click();
+      await page.locator("#text-increase").click();
+    }
+    for (const item of scenarios) {
+      await page.locator('.tab[data-view="guidance"]').click();
+      await page.getByRole("button", { name: item.button }).click();
+      const cards = page.locator(`[data-scenario-card="${item.target}"] .choice-list label.choice`);
+      await expect(cards).toHaveCount(3);
+      const boxes = [];
+      for (const card of await cards.all()) boxes.push(await card.boundingBox());
+      expect(boxes.every(Boolean), `${item.name}: cartão sem caixa visível`).toBe(true);
+      const heights = boxes.map(box => box.height);
+      const widths = boxes.map(box => box.width);
+      expect(Math.max(...heights) - Math.min(...heights), `${item.name}/${textSize}: alturas divergentes ${heights.join(", ")}`).toBeLessThanOrEqual(1);
+      expect(Math.max(...widths) - Math.min(...widths), `${item.name}/${textSize}: larguras divergentes ${widths.join(", ")}`).toBeLessThanOrEqual(1);
+    }
+    if (textSize === "larger") {
+      await page.locator("#text-decrease").click();
+      await page.locator("#text-decrease").click();
+    }
   }
 });
 
