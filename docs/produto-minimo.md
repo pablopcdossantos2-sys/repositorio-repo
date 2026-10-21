@@ -69,7 +69,7 @@ A tabela separa a especificação desejada da implementação observada no códi
 | RF-10 — não coletar/transmitir/persistir dados | Implementado por desenho e inspeção estática parcial | Não equivale a prova universal; executar a verificação de Network/Application no navegador. |
 | RF-11 — conteúdo fictício e sem aconselhamento clínico | Implementado em conteúdo atual | Revisar textos e verificar que nada sugere serviço oficial ou instrução clínica individual. |
 
-**Decisão de implementação (21/10/2026):** após a revisão do objetivo OE-05 e da matriz de qualidade, foi acrescentada uma interação mínima de encerramento com três opções, feedback para acerto/nova tentativa e teste de reinicialização. A mudança não adiciona rede, persistência ou serviços. O resultado da CI deve ser registrado e a inspeção manual permanece pendente.
+**Decisão de implementação (21/10/2026):** após a revisão do objetivo OE-05 e da matriz de qualidade, foi acrescentada uma interação mínima de encerramento com três opções, feedback para acerto/nova tentativa e teste de reinicialização. A mudança não adiciona rede, persistência ou serviços. A CI [#39640867875](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39640867875) passou; a inspeção manual permanece pendente.
 
 ## Requisitos de qualidade e acessibilidade
 

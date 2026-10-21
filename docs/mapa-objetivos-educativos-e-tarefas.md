@@ -53,7 +53,7 @@ Para cada tarefa interativa, a revisão documental deve responder:
 
 **Decisão de design registrada em 21/10/2026:** foi implementada a melhoria mínima de encerramento: uma escolha sobre confirmar o que ficou combinado, o próximo passo e o contato conhecido para dúvidas. A implementação reutiliza a estrutura de escolhas, feedback e estados acessíveis já presente nos três cenários, evitando adicionar dependências ou serviços.
 
-Ver [implementação da prática de encerramento (OE-05)](implementacao-pratica-encerramento-2026-10-21.md). A mudança precisa passar pela CI deste commit e pela auditoria manual; não constitui validação com usuários nem evidência de aprendizagem.
+Ver [implementação da prática de encerramento (OE-05)](implementacao-pratica-encerramento-2026-10-21.md). A CI [#39640867875](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39640867875) passou com 16 verificações estáticas e 27 testes Playwright/axe-core. A auditoria manual permanece pendente; o resultado automatizado não constitui validação com usuários nem evidência de aprendizagem.
 
 ## 7. Relação com outros documentos
 

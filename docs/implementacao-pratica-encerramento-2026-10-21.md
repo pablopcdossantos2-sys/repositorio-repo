@@ -2,7 +2,7 @@
 
 **Projeto:** Treino de Teleconsulta  
 **Data:** 21/10/2026  
-**Status:** implementada no protótipo; testes automatizados adicionados à suíte; auditoria manual e avaliação com participantes não realizadas.
+**Status:** implementada no protótipo; CI #39640867875 passou (16 verificações estáticas e 27 testes Playwright/axe-core); auditoria manual e avaliação com participantes não realizadas.
 
 ## Objetivo educativo
 
