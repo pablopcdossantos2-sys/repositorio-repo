@@ -6,6 +6,88 @@
   const scenarioTabs = [...document.querySelectorAll("[data-scenario-target]")];
   const scenarioCards = [...document.querySelectorAll("[data-scenario-card]")];
 
+  const themeToggle = document.getElementById("theme-toggle");
+  const textDecrease = document.getElementById("text-decrease");
+  const textIncrease = document.getElementById("text-increase");
+  const textSizeValue = document.getElementById("text-size-value");
+  const contrastToggle = document.getElementById("contrast-toggle");
+  const paletteSelect = document.getElementById("palette-select");
+  const focusToggle = document.getElementById("focus-toggle");
+  const accessibilityReset = document.getElementById("accessibility-reset");
+  const accessibilityStatus = document.getElementById("accessibility-status");
+  const textSizes = [
+    { value: "normal", label: "Normal" },
+    { value: "large", label: "Grande" },
+    { value: "larger", label: "Muito grande" }
+  ];
+
+  function syncAccessibilityControls(announce = false) {
+    const dark = document.body.dataset.theme === "dark";
+    const highContrast = document.body.dataset.contrast === "high";
+    const focusEnhanced = document.body.dataset.focusMode === "enhanced";
+    const textSizeIndex = Math.max(0, textSizes.findIndex(item => item.value === document.body.dataset.textSize));
+    themeToggle.setAttribute("aria-pressed", String(dark));
+    themeToggle.textContent = dark ? "Ativar modo claro" : "Ativar modo escuro";
+    contrastToggle.setAttribute("aria-pressed", String(highContrast));
+    contrastToggle.textContent = highContrast ? "Desativar alto contraste" : "Ativar alto contraste";
+    focusToggle.setAttribute("aria-pressed", String(focusEnhanced));
+    focusToggle.textContent = focusEnhanced ? "Desativar foco e leitura reforçados" : "Reforçar foco e leitura";
+    textSizeValue.textContent = textSizes[textSizeIndex].label;
+    textDecrease.disabled = textSizeIndex === 0;
+    textIncrease.disabled = textSizeIndex === textSizes.length - 1;
+    document.documentElement.style.colorScheme = dark ? "dark" : "light";
+    const themeColor = document.querySelector('meta[name="theme-color"]');
+    if (themeColor) themeColor.setAttribute("content", dark ? "#0c1219" : "#f5f8fc");
+    if (announce) {
+      const paletteLabel = paletteSelect.options[paletteSelect.selectedIndex].text;
+      accessibilityStatus.textContent = [
+        dark ? "Modo escuro" : "Modo claro",
+        "texto " + textSizes[textSizeIndex].label.toLowerCase(),
+        highContrast ? "alto contraste ativado" : "contraste padrão",
+        "paleta " + paletteLabel.toLowerCase(),
+        focusEnhanced ? "foco e leitura reforçados ativados" : "foco reforçado desativado"
+      ].join(". ") + ".";
+    }
+  }
+
+  themeToggle.addEventListener("click", () => {
+    document.body.dataset.theme = document.body.dataset.theme === "dark" ? "light" : "dark";
+    syncAccessibilityControls(true);
+  });
+  textDecrease.addEventListener("click", () => {
+    const index = textSizes.findIndex(item => item.value === document.body.dataset.textSize);
+    if (index > 0) document.body.dataset.textSize = textSizes[index - 1].value;
+    syncAccessibilityControls(true);
+  });
+  textIncrease.addEventListener("click", () => {
+    const index = textSizes.findIndex(item => item.value === document.body.dataset.textSize);
+    if (index >= 0 && index < textSizes.length - 1) document.body.dataset.textSize = textSizes[index + 1].value;
+    syncAccessibilityControls(true);
+  });
+  contrastToggle.addEventListener("click", () => {
+    document.body.dataset.contrast = document.body.dataset.contrast === "high" ? "standard" : "high";
+    syncAccessibilityControls(true);
+  });
+  paletteSelect.addEventListener("change", () => {
+    document.body.dataset.palette = paletteSelect.value;
+    syncAccessibilityControls(true);
+  });
+  focusToggle.addEventListener("click", () => {
+    document.body.dataset.focusMode = document.body.dataset.focusMode === "enhanced" ? "standard" : "enhanced";
+    syncAccessibilityControls(true);
+  });
+  accessibilityReset.addEventListener("click", () => {
+    document.body.dataset.theme = "light";
+    document.body.dataset.textSize = "normal";
+    document.body.dataset.contrast = "standard";
+    document.body.dataset.palette = "standard";
+    document.body.dataset.focusMode = "standard";
+    paletteSelect.value = "standard";
+    syncAccessibilityControls(false);
+    accessibilityStatus.textContent = "As preferências de aparência e acessibilidade foram restauradas.";
+  });
+
+
   const scenarioFeedback = {
     entry: {
       inputName: "entry-choice",
@@ -134,6 +216,8 @@
     showScenario("entry", false);
     showView("prepare");
   });
+
+  syncAccessibilityControls(false);
 
   views.forEach(view => view.setAttribute("aria-hidden", String(view.id !== "view-prepare")));
   updateCheckStatus();

@@ -122,6 +122,22 @@ check("opções de avaliação comunicam estado selecionado", () => {
   assert.match(html, /aria-pressed=["']false["']/);
   assert.match(js, /setAttribute\(["']aria-pressed["'],\s*String\(other === button\)\)/);
 });
+check("controles de aparência e acessibilidade têm rótulos e padrões explícitos", () => {
+  assert.match(html, /<body[^>]*data-theme="light"/);
+  for (const id of ["theme-toggle", "text-decrease", "text-increase", "contrast-toggle", "palette-select", "focus-toggle", "accessibility-reset", "accessibility-status"]) {
+    assert.ok(idSet.has(id), `falta id=${id}`);
+  }
+  assert.match(html, /<label[^>]*for="palette-select"/);
+  assert.match(html, /aria-live="polite"/);
+  assert.match(html, /option value="blue-amber"/);
+  assert.match(html, /option value="monochrome"/);
+  assert.match(css, /body\[data-theme="dark"\]/);
+  assert.match(css, /body\[data-contrast="high"\]/);
+  assert.match(css, /body\[data-text-size="large"\]/);
+  assert.match(css, /\.choice-list/);
+  assert.match(js, /syncAccessibilityControls/);
+  assert.doesNotMatch(js, /\b(?:localStorage|sessionStorage)\b/);
+});
 check("reinicialização limpa estados interativos e devolve a etapa inicial", () => {
   assert.match(js, /getElementById\(["']restart["']\)/);
   assert.match(js, /checks\.forEach\(input => \{ input\.checked = false; \}\)/);

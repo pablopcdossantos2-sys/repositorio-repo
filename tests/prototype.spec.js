@@ -283,3 +283,59 @@ test("feedbacks dos três cenários explicam uma próxima ação concreta", asyn
   await page.getByRole("button", { name: "Verificar resposta" }).click();
   await expect(page.locator("#clarify-feedback")).toContainText("Não precisa fingir que entendeu");
 });
+
+test("controles de aparência e acessibilidade funcionam e o modo claro é o padrão", async ({ page }) => {
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "light");
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "normal");
+  await expect(page.locator("#theme-toggle")).toHaveText("Ativar modo escuro");
+  await expect(page.locator("#text-decrease")).toBeDisabled();
+  await page.locator("#theme-toggle").click();
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "dark");
+  await expect(page.locator("#theme-toggle")).toHaveText("Ativar modo claro");
+  await expect(page.locator("html")).toHaveCSS("color-scheme", "dark");
+  await page.locator("#text-increase").click();
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "large");
+  await expect(page.locator("#text-size-value")).toHaveText("Grande");
+  await page.locator("#text-increase").click();
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "larger");
+  await expect(page.locator("#text-increase")).toBeDisabled();
+  await page.locator("#contrast-toggle").click();
+  await expect(page.locator("body")).toHaveAttribute("data-contrast", "high");
+  await expect(page.locator("#contrast-toggle")).toHaveAttribute("aria-pressed", "true");
+  await page.locator("#palette-select").selectOption("blue-amber");
+  await expect(page.locator("body")).toHaveAttribute("data-palette", "blue-amber");
+  await page.locator("#palette-select").selectOption("monochrome");
+  await expect(page.locator("body")).toHaveAttribute("data-palette", "monochrome");
+  await page.locator("#focus-toggle").click();
+  await expect(page.locator("body")).toHaveAttribute("data-focus-mode", "enhanced");
+  await page.locator("#accessibility-reset").click();
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "light");
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "normal");
+  await expect(page.locator("body")).toHaveAttribute("data-contrast", "standard");
+  await expect(page.locator("body")).toHaveAttribute("data-palette", "standard");
+  await expect(page.locator("body")).toHaveAttribute("data-focus-mode", "standard");
+});
+
+test("opções de resposta têm largura e altura uniformes em cada cenário", async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.locator('.tab[data-view="guidance"]').click();
+  for (const name of ["entry-choice", "understanding", "clarify-choice"]) {
+    const cards = page.locator(`.choice-list label.choice input[name="${name}"]`).locator("..");
+    const count = await cards.count();
+    expect(count).toBe(3);
+    const boxes = [];
+    for (const card of await cards.all()) boxes.push(await card.boundingBox());
+    const heights = boxes.map(box => box.height);
+    const widths = boxes.map(box => box.width);
+    expect(Math.max(...heights) - Math.min(...heights), `${name}: alturas divergentes ${heights.join(", ")}`).toBeLessThanOrEqual(1);
+    expect(Math.max(...widths) - Math.min(...widths), `${name}: larguras divergentes ${widths.join(", ")}`).toBeLessThanOrEqual(1);
+  }
+});
+
+test("o painel de acessibilidade permanece acessível por teclado", async ({ page }) => {
+  await expect(page.getByRole("region", { name: "Aparência e acessibilidade" })).toBeVisible();
+  await expect(page.getByLabel("Paleta de cores")).toBeVisible();
+  await page.locator("#theme-toggle").focus();
+  await page.keyboard.press("Enter");
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "dark");
+});
