@@ -507,3 +507,8 @@ Foi criado o [Modelo de preenchimento da auditoria manual de acessibilidade](mod
 ### Formulário interativo de auditoria manual (21/10/2026)
 
 Além do modelo Markdown, está disponível o [formulário HTML preenchível](formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+
+
+### Usabilidade do formulário de auditoria — ajuda contextual (21/10/2026)
+
+O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](formulario-auditoria-manual-acessibilidade.html).

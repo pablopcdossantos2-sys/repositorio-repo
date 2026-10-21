@@ -267,3 +267,9 @@ Não anexe nomes, imagens de pessoas, dados clínicos, credenciais nem informaç
 Critérios particularmente relacionados (lista indicativa, não exaustiva): 1.3.1 relações e informações; 1.4.1 uso de cor; 1.4.3 contraste mínimo; 1.4.4 redimensionar texto; 1.4.10 reflow; 1.4.11 contraste não textual; 1.4.12 espaçamento do texto; 2.1.1 teclado; 2.1.2 sem bloqueio do teclado; 2.4.7 foco visível; 2.4.11 foco não obscurecido; 2.5.8 tamanho do alvo mínimo; 4.1.2 nome, função, valor; 4.1.3 mensagens de estado.
 
 **Fim do modelo em branco.** Copie o arquivo antes de preencher para preservar uma versão reutilizável.
+
+## Formulário HTML interativo e ajuda contextual (21/10/2026)
+
+O [formulário HTML interativo](formulario-auditoria-manual-acessibilidade.html) oferece um ícone de informação ao lado dos campos preenchíveis. O ícone abre uma janela de ajuda com o significado do campo, orientações de preenchimento e exemplo correspondente. Para os casos de auditoria, a ajuda usa o ID, a pergunta e o critério do caso para orientar o registro de evidências.
+
+O formulário sugere automaticamente a data da rodada, o nome/versão do navegador, uma identificação aproximada do sistema operacional e uma categoria aproximada de dispositivo. Os campos continuam editáveis e as sugestões devem ser confirmadas. URL do protótipo, viewport, zoom, leitor de tela, commit testado e resultado da CI ficam manuais para evitar preencher automaticamente valores que poderiam não corresponder ao protótipo auditado ou exigem confirmação. Não há envio nem gravação automática das respostas.
