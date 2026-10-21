@@ -360,7 +360,7 @@ A revisão é documental e de conteúdo. Não comprova compreensão do público-
 ### Validação e pendências
 
 - [x] A CI completou as verificações estáticas, sintáticas e de validação HTML nesta execução.
-- [ ] Confirmar o resultado final dos testes Playwright/axe-core da CI correspondente ao commit de código.
+- [x] Confirmar o resultado final dos testes Playwright/axe-core: 26 testes passaram na execução [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270), no commit [03578a9](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81).
 - [ ] Fazer auditoria manual com teclado, leitor de tela, ampliação/zoom e diferentes combinações de tema, contraste e paleta.
 - [ ] Confirmar a igualdade dimensional dos cartões também com texto muito grande e em larguras móveis; retestar qualquer caso divergente.
 

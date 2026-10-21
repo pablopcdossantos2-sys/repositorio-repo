@@ -130,3 +130,8 @@ Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-
 - [ ] Executar a auditoria manual com tecnologia assistiva e diferentes combinações de tema/contraste, texto grande e telas estreitas.
 
 Registro: [Implementação de controles visuais e acessibilidade](revisao-acessibilidade-visual-e-controles-2026-10-21.md). A implementação não equivale a conformidade integral WCAG nem a validação com pessoas com deficiência.
+
+
+### Resultado dos testes automatizados — 21/10/2026
+
+A CI [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270) terminou com sucesso no commit de código [03578a9](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81): verificações de sintaxe, estrutura e HTML aprovadas e 26 testes Playwright/axe-core aprovados. Os testes manuais de acessibilidade e leitores de tela permanecem pendentes.

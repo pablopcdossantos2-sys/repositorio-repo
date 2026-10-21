@@ -43,7 +43,7 @@ Foram adicionadas verificações estáticas para os controles, atributos padrão
 - navegação por teclado no painel;
 - comparação de largura e altura dos cartões de resposta.
 
-A primeira execução Playwright/axe-core concluiu com falha: havia asserções de texto antigas que não correspondiam aos feedbacks editoriais atuais, e o axe-core identificou nomes acessíveis que não incluíam o texto visível em alguns controles. As verificações sintáticas, estáticas e HTML passaram. Os problemas de asserções e nomes acessíveis foram corrigidos em [commit de correção](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81). A nova execução está associada ao [GitHub Actions](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270); seu resultado ainda deve ser confirmado antes de declarar os testes aprovados.
+A primeira execução Playwright/axe-core concluiu com falha: havia asserções de texto antigas que não correspondiam aos feedbacks editoriais atuais, e o axe-core identificou nomes acessíveis que não incluíam o texto visível em alguns controles. As verificações sintáticas, estáticas e HTML passaram. Corrigi as asserções e os nomes acessíveis. A nova execução, [GitHub Actions #39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270), terminou com sucesso no commit [03578a9](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81): **26 testes Playwright/axe-core passaram**. Isso não certifica conformidade integral WCAG; a auditoria manual segue pendente.
 
 ## 5. Roteiro de auditoria manual pendente
 

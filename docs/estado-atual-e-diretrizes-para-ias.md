@@ -490,3 +490,10 @@ Ao continuar, leia novamente o README, o roadmap e este documento. Use o registr
 O modo para leitores de tela não é um botão visual separado: deve funcionar por meio da semântica nativa, títulos, rótulos, grupos de rádio, foco, mensagens de estado e tecnologias assistivas do navegador/dispositivo. Não afirmar que a ferramenta está “validada para pessoas cegas” sem auditoria manual pertinente. Paletas de cores são opções gerais, não uma solução que atenda a todos os tipos de daltonismo.
 
 Na execução de CI consultada durante esta atualização, a verificação estática, sintática e HTML terminou com sucesso; os testes Playwright/axe-core ainda estavam em execução. Confirmar a conclusão da CI para o commit de código antes de declarar aprovação. Em seguida, fazer verificação manual com teclado, leitor de tela, zoom/ampliação, diferentes combinações de tema/contraste, telas pequenas e opções de resposta com texto muito grande.
+
+
+## Atualização de validação — controles visuais e testes de navegador (21/10/2026)
+
+A execução do GitHub Actions [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270), no commit de código [03578a9](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/03578a999aeca76b014e08563391f16662ea4f81), concluiu com sucesso. As verificações de sintaxe, estrutura e HTML passaram, e os **26 testes Playwright/axe-core passaram**. A execução inclui os testes de modo claro/escuro, tamanho do texto, alto contraste, paletas, foco por teclado e dimensões uniformes das opções.
+
+Esse resultado é evidência automatizada para o commit citado, não certificação integral WCAG. Continuam pendentes testes manuais com leitor de tela e ampliação, inspeção das combinações de cores em dispositivos reais e verificação da igualdade dos cartões em outros tamanhos de tela/configurações.
