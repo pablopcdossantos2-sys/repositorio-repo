@@ -174,3 +174,10 @@ Executar manualmente as strings nas três interfaces oficiais, registrar a strin
 Foi feita uma tentativa adicional de abrir a API oficial E-utilities do NCBI para consultar a contagem da estratégia PM-1, mantendo a string documentada. A ferramenta de navegação não conseguiu acessar o endpoint (“not accessible via this tool”). Nenhum total foi obtido e nenhuma consulta formal foi considerada executada. Isso registra apenas uma limitação do ambiente de navegação; não indica indisponibilidade do PubMed e não altera o estado pendente das estratégias PM-1 a PM-4, BVS-1 a BVS-3 e SC-1 a SC-2.
 
 A próxima execução deverá ocorrer em um navegador acessível ao pesquisador, com a string realmente submetida, data/hora, filtros, total exibido e exportação anotados. Não preencher contagens por aproximação.
+
+
+## Ferramenta complementar para PubMed E-utilities — 21/10/2026
+
+Foi adicionada a ferramenta auxiliar scripts/buscar-pubmed.mjs, que extrai as estratégias PM-1 a PM-4 deste registro e pode gravar em JSON a string exata, o total reportado pela API, os PMIDs retornados, a data/hora UTC e os parâmetros da chamada. O uso está descrito no [guia de execução complementar](guia-execucao-pubmed-automatizada.md). Testes com respostas simuladas verificam a extração das estratégias, a validação dos parâmetros e o registro de contagem/paginação.
+
+**Estado atual:** nenhuma execução real da API foi realizada nesta atualização; não há contagens ou exportações novas. O script é complementar e não substitui a busca na interface oficial, o registro de filtros visuais nem a exportação bibliográfica para triagem. Não alterar o estado de PM-1 a PM-4 para concluído antes da execução efetiva e do arquivamento dos artefatos.

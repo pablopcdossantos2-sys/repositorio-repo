@@ -8,11 +8,12 @@
     "node": ">=24.8.0"
   },
   "scripts": {
-    "check:syntax": "node --check produto/app.js",
+    "check:syntax": "node --check produto/app.js && node --check scripts/buscar-pubmed.mjs && node --check tests/buscar-pubmed.test.js",
     "check:static": "node scripts/check-prototype.mjs",
     "check:html": "html-validate produto/index.html",
     "test:e2e": "playwright test tests/prototype.spec.js --workers=2",
-    "test": "npm run check:syntax && npm run check:static && npm run check:html && npm run test:e2e"
+    "test:research-tools": "node --test tests/buscar-pubmed.test.js",
+    "test": "npm run check:syntax && npm run test:research-tools && npm run check:static && npm run check:html && npm run test:e2e"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

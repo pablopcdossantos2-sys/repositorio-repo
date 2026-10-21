@@ -11,6 +11,7 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 ### Registros de execução recentes
 
 - [Registro de execução das buscas bibliográficas (20/10/2026)](docs/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
+- [Guia da busca complementar no PubMed via E-utilities](docs/guia-execucao-pubmed-automatizada.md) — instruções para gerar registros JSON complementares sem confundi-los com execução oficial da interface.
 - [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
 - [Verificação preliminar de contraste (20/10/2026)](docs/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
 - [Implementação de controles visuais e acessibilidade (21/10/2026)](docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md) — tema claro/escuro, escala de texto, alto contraste, paletas e padronização das opções; CI: 26 testes automatizados passaram; auditoria manual permanece pendente.

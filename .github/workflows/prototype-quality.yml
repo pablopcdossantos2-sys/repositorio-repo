@@ -46,6 +46,7 @@ jobs:
           npm run check:syntax
           npm run check:static
           npm run check:html
+          npm run test:research-tools
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
       - name: Run browser and axe-core tests

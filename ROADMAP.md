@@ -70,6 +70,9 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
 
+- [x] Criar ferramenta auxiliar para registrar buscas PubMed via NCBI E-utilities, extraindo PM-1 a PM-4 do registro existente; ver [guia](docs/guia-execucao-pubmed-automatizada.md). A ferramenta ainda precisa ser executada pelo pesquisador e não substitui a busca na interface oficial.
+- [ ] Executar as estratégias na interface oficial e, se viável, guardar JSON complementar da API; manter pendente até os arquivos e metadados reais existirem.
+
 - [x] Consolidar as estratégias e criar registro de execução com campos para contagens/exportações ([registro](docs/registro-busca-estruturada-2026-10-20.md)).
 - [ ] Executar as estratégias nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO; nesta rodada as páginas de resultados não foram recuperadas pelo ambiente de navegação, então não há contagens/exportações oficiais documentadas.
 - [x] Acrescentar estratégias focadas em preparação, simulação educativa, habilidades digitais e necessidades de apoio.
