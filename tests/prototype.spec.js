@@ -391,3 +391,51 @@ test("o painel de acessibilidade permanece acessível por teclado", async ({ pag
   await page.keyboard.press("Enter");
   await expect(page.locator("body")).toHaveAttribute("data-theme", "dark");
 });
+
+test("preferências visuais podem ser combinadas e restauradas sem armazenamento persistente", async ({ page }) => {
+  await page.locator("#theme-toggle").click();
+  await page.locator("#text-increase").click();
+  await page.locator("#text-increase").click();
+  await page.locator("#contrast-toggle").click();
+  await page.locator("#palette-select").selectOption("blue-amber");
+  await page.locator("#focus-toggle").click();
+
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "dark");
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "larger");
+  await expect(page.locator("body")).toHaveAttribute("data-contrast", "high");
+  await expect(page.locator("body")).toHaveAttribute("data-palette", "blue-amber");
+  await expect(page.locator("body")).toHaveAttribute("data-focus-mode", "enhanced");
+  await expect(page.locator("#accessibility-status")).toContainText("modo escuro");
+  await expect(page.locator("#accessibility-status")).toContainText("muito grande");
+  await expect(page.locator("#accessibility-status")).toContainText("alto contraste ativado");
+
+  await page.locator("#accessibility-reset").click();
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "light");
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "normal");
+  await expect(page.locator("body")).toHaveAttribute("data-contrast", "standard");
+  await expect(page.locator("body")).toHaveAttribute("data-palette", "standard");
+  await expect(page.locator("body")).toHaveAttribute("data-focus-mode", "standard");
+  await expect(page.locator("#text-decrease")).toBeDisabled();
+  await expect(page.locator("#accessibility-status")).toContainText("preferências de aparência e acessibilidade foram restauradas");
+});
+
+test("preferências visuais não persistem após recarregar a página", async ({ page }) => {
+  await page.locator("#theme-toggle").click();
+  await page.locator("#text-increase").click();
+  await page.locator("#palette-select").selectOption("monochrome");
+  await page.locator("#contrast-toggle").click();
+
+  const storageBeforeReload = await page.evaluate(() => ({
+    local: window.localStorage.length,
+    session: window.sessionStorage.length
+  }));
+  expect(storageBeforeReload).toEqual({ local: 0, session: 0 });
+
+  await page.reload();
+  await expect(page.locator("body")).toHaveAttribute("data-theme", "light");
+  await expect(page.locator("body")).toHaveAttribute("data-text-size", "normal");
+  await expect(page.locator("body")).toHaveAttribute("data-contrast", "standard");
+  await expect(page.locator("body")).toHaveAttribute("data-palette", "standard");
+  await expect(page.locator("body")).toHaveAttribute("data-focus-mode", "standard");
+});
+
