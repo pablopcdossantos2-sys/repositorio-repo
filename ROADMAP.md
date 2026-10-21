@@ -79,6 +79,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Adicionar nota exploratória com evidências sobre treinamento de usuários, recursos comparáveis e suas limitações.
 - [x] Registrar rodada exploratória da web em 20/10/2026 sobre métodos de usabilidade de simulações educativas e diretriz de acessibilidade WHO/ITU ([registro](docs/registro-busca-exploratoria-2026-10-20.md)).
 - [x] Registrar um primeiro benchmark exploratório de recursos públicos e seus limites ([benchmark](docs/benchmark-recursos-existentes.md)).
+- [x] Inspecionar parcialmente o sumário público de Digital House Calls, o toolkit WHO/ITU de 2024 e páginas públicas brasileiras; registrar limites de acesso e criar matriz de aplicabilidade à auditoria. O benchmark aprofundado e a lacuna de inovação continuam pendentes.
 - [x] Acrescentar ao protocolo uma rubrica candidata para sucesso total/parcial e falha por tarefa, para revisão da orientação.
 - [ ] Executar as estratégias nas bases oficiais e registrar as contagens/exportações; a busca formal permanece pendente.
 - [ ] Registrar data, estratégia efetiva, filtros, resultados, exportações, deduplicação e critérios de inclusão/exclusão.

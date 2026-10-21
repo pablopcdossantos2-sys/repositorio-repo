@@ -148,3 +148,40 @@ Estes requisitos são provisórios e precisam ser rastreados na [matriz de evid�
 - National Center for Farmworker Health. *Patient Telehealth Readiness Assessment Tool*. https://www.ncfh.org/digital-library/patient-telehealth-readiness-assessment-tool/. Acesso em 20/10/2026.
 - World Health Organization; International Telecommunication Union. *Implementation toolkit for accessible telehealth services*. 2024. https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities. Acesso em 20/10/2026.
 - Galvin E, Desselle S, Gavin B, McNicholas F, Cullinan S, Hayden J. Training Service Users in the Use of Telehealth: Scoping Review. *J Med Internet Res*. 2024;26:e57586. doi:10.2196/57586. https://pubmed.ncbi.nlm.nih.gov/39083789/. Acesso em 20/10/2026.
+
+
+## 9. Inspeção complementar de recursos — 21/10/2026
+
+Esta atualização registra páginas públicas abertas nesta data. É uma ampliação parcial do benchmark; não equivale a percorrer integralmente todos os módulos nem a uma busca sistemática.
+
+### 9.1 Digital House Calls — conteúdo listado e limite de acesso
+
+Além da página geral de cursos ([BridgingApps — Courses](https://bridgingapps.org/courses-landing/)), foram abertas a página do [curso em inglês](https://bridgingapps.org/courses/digital-house-calls-a-step-by-step-guide-for-telemedicine-visits-english) e a [versão em espanhol](https://bridgingapps.org/courses/digital-house-calls-spanish/).
+
+A página do curso em inglês descreve um curso gratuito, autoguiado, com lições repetíveis, dirigido a pessoas idosas e cuidadores de pessoas com deficiência. O sumário público lista três grandes blocos: preparação antes da consulta; plano de ação para o dia/horário da consulta; e encerramento/ações posteriores. Entre os tópicos listados estão preparação tecnológica, necessidades individuais, espaço da consulta, prontidão pessoal e médica, chegada à consulta, privacidade/segurança, resolução de problemas, resumo da visita/verificação do plano, acompanhamento/encaminhamentos e organização de documentos. A versão em espanhol lista tópicos equivalentes, incluindo preparação tecnológica, privacidade, resolução de problemas e resumo da visita.
+
+**Limite de inspeção:** o site indica que o curso é gratuito, mas exige inscrição/login para acessar as lições internas; as páginas abertas mostram que o visitante não está inscrito e que o conteúdo não está disponível para ele. Portanto, foi possível inspecionar a estrutura pública e o sumário das lições, mas não as atividades dentro de cada aula, sua acessibilidade real, os feedbacks ou os resultados de avaliação. Não há base para afirmar que o curso não usa escolhas/feedback — apenas que esses detalhes não puderam ser verificados na página pública.
+
+**Consequência para o projeto:** o comparador é ainda mais próximo do que uma página introdutória isolada, pois apresenta lições organizadas em antes/durante/depois, plano de prontidão e solução de problemas. O protótipo não pode alegar que a estrutura temporal ou o caráter autoguiado é a inovação. A contribuição específica ainda precisa ser delimitada por comparação funcional e evidência, especialmente quanto ao uso em português brasileiro, contexto público brasileiro e escolhas com feedback imediato. Essas são hipóteses de diferenciação, não originalidade comprovada.
+
+### 9.2 WHO/ITU — critérios técnicos que podem ser traduzidos para a ficha de auditoria
+
+Foi aberta a versão oficial de 2024 do [Implementation toolkit for accessible telehealth services (PDF da ITU/WHO)](https://www.itu.int/dms_pub/itu-t/opb/joint/T-JOINT-WHO-2024-1-PDF-E.pdf), além da [página oficial da WHO](https://www.who.int/publications/b/74046). O toolkit explica um processo de implementação do padrão WHO-ITU de acessibilidade; o padrão referenciado é a recomendação F.780.2 e resume 25 requisitos técnicos de acessibilidade. Entre os temas explícitos estão compatibilidade com leitores de tela/teclados Braille, contraste e ampliação, clareza de linguagem, controles que não exijam coordenação motora fina, mensagens de estado e conteúdo compreensível, privacidade e disponibilidade de material educativo simples.
+
+Nem todos os requisitos de um serviço real são aplicáveis ao simulador, que não fornece videochamada, chat, intérprete remoto nem participação real em consulta. Foi criada a [Matriz de aplicabilidade do toolkit WHO/ITU ao protótipo](matriz-aplicabilidade-who-itu-prototipo.md), associando requisitos relevantes aos IDs já existentes da auditoria e registrando os itens fora do escopo. A matriz também identifica aspectos ainda não perguntados explicitamente no instrumento 1.1 (por exemplo, esforço de rolagem e exigência de duplo clique), a considerar numa futura versão da ficha.
+
+### 9.3 Recursos públicos brasileiros — busca web complementar
+
+Foram repetidas consultas exploratórias sobre tutoriais e orientações públicas para pacientes, incluindo:
+- "site:gov.br teleconsulta paciente orientações passo a passo"
+- "site:gov.br telessaúde tutorial paciente teleconsulta acesso sistema público"
+
+A página [Telessaúde — Ministério da Saúde](https://www.gov.br/saude/pt-br/composicao/seidigi/sus-digital/telessaude) apresenta uma explicação institucional geral sobre Telessaúde no SUS, mas não foi identificada nela uma sequência de instruções para o paciente entrar numa teleconsulta. A página [Núcleos de Telessaúde no Brasil](https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/telessaude-2/nucleos-de-telessaude-no-brasil) lista o Núcleo Telessaúde Estadual de Tocantins, sem constituir em si um tutorial para usuários finais. A evidência desta rodada continua sendo exploratória: não demonstra que não existam outros tutoriais estaduais, municipais ou locais.
+
+O [Tutorial do paciente do Telessaúde Bahia](https://telessaude.saude.ba.gov.br/25181-2/) permanece o recurso brasileiro mais diretamente passo a passo identificado neste levantamento. A página descreve oito passos, incluindo recebimento do protocolo/link ou QR code, acesso, identificação por CPF e data de nascimento, consentimento e autorização de câmera/microfone. É um fluxo específico do Consultório Virtual do TelessaúdeBA. Os campos de identificação e permissões reais não devem ser transpostos para o protótipo educativo, cujo escopo exige cenário inteiramente fictício, sem coleta de dados ou início de mídia.
+
+### 9.4 Estado atualizado e limites
+
+- **Confirmado por inspeção da página pública:** estrutura geral e sumário de Digital House Calls; necessidade de inscrição/login para abrir o conteúdo das lições; propósito institucional do toolkit WHO/ITU; sequência descrita no tutorial do TelessaúdeBA.
+- **Ainda não verificado:** detalhes das lições internas do Digital House Calls, eficácia do curso, acessibilidade real de suas telas, total de recursos brasileiros disponíveis e superioridade relativa de qualquer produto.
+- **Próximo passo:** concluir a busca bibliográfica formal e, se for viável obter acesso legítimo ao curso, inspecionar as lições sem inferir recursos que a página pública não mostra. A lacuna de inovação continua em aberto.

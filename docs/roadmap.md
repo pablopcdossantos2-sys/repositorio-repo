@@ -31,6 +31,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital nas estratégias propostas.
 - [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
 - [x] Registrar um primeiro benchmark exploratório de recursos públicos e suas limitações ([benchmark](benchmark-recursos-existentes.md)).
+- [x] Inspecionar parcialmente o sumário público de Digital House Calls, o toolkit WHO/ITU e páginas brasileiras de telessaúde; registrar limitações de acesso e criar matriz de aplicabilidade ao protótipo. A comparação exaustiva e a lacuna de inovação continuam pendentes.
 - [ ] Aprofundar o benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
 - [ ] Definir a lacuna do projeto com base no que foi encontrado, sem presumir originalidade antes da comparação.
 - [x] Fazer rodada exploratória complementar na web em 20/10/2026 e registrar publicações recentes sobre simulação/avaliação e diretriz WHO/ITU.
