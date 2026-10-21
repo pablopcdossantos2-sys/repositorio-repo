@@ -269,3 +269,8 @@ body[data-focus-mode="enhanced"] .accessibility-panel { scroll-margin-top: 12px;
   .accessibility-grid { grid-template-columns: 1fr; }
   .choice-list { grid-auto-rows: minmax(112px, 1fr); }
 }
+
+/* A prática de encerramento reutiliza a apresentação acessível dos cenários. */
+.closing-practice { margin: 20px 0; }
+.closing-practice h3 { margin: 0 0 8px; }
+.closing-practice > p { color: var(--muted); font-size: calc(15px * var(--text-scale, 1)); }

@@ -65,6 +65,9 @@ check("o produto está centrado no tema Treino de Teleconsulta", () => {
   assert.match(html, /id="simulate-audio"/);
   assert.match(html, /id="entry-choice-feedback"/);
   assert.match(html, /id="clarify-feedback"/);
+  assert.match(html, /name="closing-choice"/);
+  assert.match(html, /id="closing-choice-feedback"/);
+  assert.match(html, /data-scenario-check="closing"/);
   assert.match(html, /id="simulate-help"/);
   assert.match(html, /não ativam microfone nem áudio real/i);
   assert.match(html, /baixa familiaridade digital|simulador educativo/i);
@@ -146,6 +149,7 @@ check("reinicialização limpa estados interativos e devolve a etapa inicial", (
   assert.match(js, /rating-feedback/);
   assert.match(js, /scenarioFeedback/);
   assert.match(js, /clarify-choice/);
+  assert.match(js, /closing-choice/);
 });
 check("HTML/CSS/JS não dependem de chamadas de rede ou armazenamento persistente no protótipo", () => {
   assert.doesNotMatch(js, /\b(?:localStorage|sessionStorage|XMLHttpRequest)\b|\bfetch\s*\(|\bsendBeacon\s*\(/);

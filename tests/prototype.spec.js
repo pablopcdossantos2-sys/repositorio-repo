@@ -133,6 +133,24 @@ test("cenário de esclarecimento orienta a pedir repetição em vez de adivinhar
   await expect(page.locator("#clarify-feedback")).toContainText("não fornece orientação clínica");
 });
 
+test("etapa Encerrar permite praticar a confirmação dos próximos passos", async ({ page }) => {
+  await page.locator('.tab[data-view="next"]').click();
+  await expect(page.getByRole("heading", { name: "Pratique o encerramento" })).toBeVisible();
+  await expect(page.locator("#closing-choice-feedback")).toBeEmpty();
+  await page.locator("#check-closing").click();
+  await expect(page.locator("#closing-choice-feedback")).toContainText("Escolha uma resposta");
+  await page.locator('input[name="closing-choice"][value="correct"]').check();
+  await page.locator("#check-closing").click();
+  await expect(page.locator("#closing-choice-feedback")).toContainText("Boa escolha");
+  await expect(page.locator("#closing-choice-feedback")).toContainText("qual é o próximo passo");
+  await expect(page.locator("#closing-choice-feedback")).toContainText("Não use links inesperados");
+  await page.locator('input[name="closing-choice"][value="wrong"]').first().check();
+  await page.locator("#check-closing").click();
+  await expect(page.locator("#closing-choice-feedback")).toContainText("Tente novamente");
+  await expect(page.locator("#closing-choice-feedback")).toContainText("Não precisa fingir que entendeu");
+  await expect(page.locator("#closing-choice-feedback")).toContainText("contato que o serviço informou antes");
+});
+
 test("nota de facilidade mantém somente uma opção selecionada", async ({ page }) => {
   await page.locator('.tab[data-view="next"]').click();
   await page.locator('[data-rating="4"]').click();
@@ -151,6 +169,8 @@ test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
   await page.locator('.tab[data-view="next"]').click();
+  await page.locator('input[name="closing-choice"][value="correct"]').check();
+  await page.locator("#check-closing").click();
   await page.locator('[data-rating="5"]').click();
   await page.locator("#restart").click();
 
@@ -163,6 +183,8 @@ test("reinicialização restaura escolhas, feedbacks, nota, etapa e foco", async
   await expect(page.locator("#entry-room-feedback")).toBeEmpty();
   await expect(page.locator("#entry-choice-feedback")).toBeEmpty();
   await expect(page.locator("#clarify-feedback")).toBeEmpty();
+  await expect(page.locator('input[name="closing-choice"]:checked')).toHaveCount(0);
+  await expect(page.locator("#closing-choice-feedback")).toBeEmpty();
   await expect(page.locator("#rating-feedback")).toBeEmpty();
   await expect(page.locator('[data-rating][aria-pressed="true"]')).toHaveCount(0);
   await expect(page.locator("#check-status")).toHaveText("Nenhum item marcado.");
@@ -254,6 +276,8 @@ test("navegação completa não gera exceções JavaScript nem solicita recursos
   await page.locator('input[name="understanding"][value="correct"]').check();
   await page.locator("#check-understanding").click();
   await page.locator('.tab[data-view="next"]').click();
+  await page.locator('input[name="closing-choice"][value="correct"]').check();
+  await page.locator("#check-closing").click();
   await page.locator('[data-rating="4"]').click();
   await page.locator("#restart").click();
 

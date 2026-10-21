@@ -106,6 +106,12 @@
       feedbackId: "clarify-feedback",
       success: "Boa prática. Peça ao profissional de saúde que repita ou explique de outro jeito. Depois, confirme qual é o próximo passo mencionado. Isso ajuda a evitar mal-entendidos; não precisa adivinhar nem mudar orientações por conta própria. Este exemplo não fornece orientação clínica.",
       retry: "Tente novamente. Diga que a informação não ficou clara e peça ao profissional de saúde que repita ou explique de outro jeito. Depois, confirme o próximo passo mencionado. Não precisa fingir que entendeu nem adivinhar."
+    },
+    closing: {
+      inputName: "closing-choice",
+      feedbackId: "closing-choice-feedback",
+      success: "Boa escolha. Antes de encerrar, confirme o que ficou combinado, qual é o próximo passo e qual contato o serviço de saúde informou para dúvidas. Se uma informação não ficou clara, peça que o profissional repita ou explique de outro jeito. Não use links inesperados. Este é um exemplo fictício e não fornece orientação clínica.",
+      retry: "Tente novamente. Não precisa fingir que entendeu nem abrir um link de alguém que você não reconhece. Peça ao profissional de saúde que esclareça o que ficou combinado, confirme o próximo passo e use o contato que o serviço informou antes se tiver dúvidas."
     }
   };
 

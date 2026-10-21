@@ -180,6 +180,22 @@
         <div class="next-item"><span class="next-icon" aria-hidden="true">?</span><div><strong>Confirmar o próximo passo</strong><p>Você pode perguntar o que foi combinado e qual contato do serviço de saúde deve usar se tiver dúvidas.</p></div><span class="tag">Exemplo</span></div>
         <div class="next-item"><span class="next-icon" aria-hidden="true">↗</span><div><strong>Procurar o canal oficial, se precisar</strong><p>Se a conexão falhar ou restar dúvida, use o contato que o serviço de saúde informou antes. Não compartilhe dados por links inesperados.</p></div><span class="tag">Exemplo</span></div>
       </div>
+
+      <div class="guidance-card closing-practice" aria-labelledby="closing-practice-title">
+        <h3 id="closing-practice-title">Pratique o encerramento</h3>
+        <p>Antes de terminar a conversa fictícia, escolha o que é importante confirmar. Esta atividade não é uma consulta real.</p>
+        <fieldset class="understand-check">
+          <legend>O que convém confirmar antes de encerrar?</legend>
+          <div class="choice-list">
+            <label class="choice"><input type="radio" name="closing-choice" value="correct"> Confirmar o que ficou combinado, qual é o próximo passo e qual contato do serviço de saúde devo usar se tiver dúvidas.</label>
+            <label class="choice"><input type="radio" name="closing-choice" value="wrong"> Encerrar sem perguntar, mesmo que uma informação ainda não tenha ficado clara.</label>
+            <label class="choice"><input type="radio" name="closing-choice" value="wrong"> Abrir um link recebido depois por mensagem, mesmo sem reconhecer quem enviou.</label>
+          </div>
+          <button class="button secondary scenario-check" id="check-closing" type="button" data-scenario-check="closing">Verificar resposta</button>
+          <p class="feedback" id="closing-choice-feedback" aria-live="polite"></p>
+        </fieldset>
+      </div>
+
       <div class="feedback-box"><h3>Como foi este treino?</h3><p>Esta pergunta serve apenas para explorar a interface. A resposta não é enviada nem armazenada.</p><p class="rating-hint">Escolha uma nota de 1 (difícil) a 5 (fácil).</p><div class="rating" role="group" aria-label="Facilidade de uso, de 1 difícil a 5 fácil"><button type="button" data-rating="1" aria-label="1 Difícil" aria-pressed="false">1<br><small>Difícil</small></button><button type="button" data-rating="2" aria-label="2 de 5" aria-pressed="false">2</button><button type="button" data-rating="3" aria-label="3 de 5" aria-pressed="false">3</button><button type="button" data-rating="4" aria-label="4 de 5" aria-pressed="false">4</button><button type="button" data-rating="5" aria-label="5 Fácil" aria-pressed="false">5<br><small>Fácil</small></button></div><p class="feedback" id="rating-feedback" aria-live="polite"></p></div>
       <div class="actions"><button class="button secondary" data-go="guidance" type="button">← Voltar</button><button class="button primary" id="restart" type="button">Reiniciar demonstração</button></div>
     </section>
