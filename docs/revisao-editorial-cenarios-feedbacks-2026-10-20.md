@@ -130,3 +130,8 @@ Referências:
 - [ ] Executar a busca bibliográfica formal nas bases oficiais; a busca estruturada continua pendente.
 
 **Conclusão:** esta rodada melhora a concretude dos textos e a coerência documental entre objetivos, opções, feedbacks e testes planejados. Não prova compreensão pelo público-alvo, usabilidade real ou eficácia educativa.
+
+
+## 9. Implementação posterior da prática de encerramento (21/10/2026)
+
+A revisão acima registrava corretamente que, em 20/10/2026, OE-05 ainda não tinha prática interativa. Em 21/10/2026 foi implementada uma melhoria separada: uma pergunta de escolha única sobre confirmar o que ficou combinado, o próximo passo e o contato previamente informado pelo serviço. O feedback reforça pedir explicação quando necessário e evitar links inesperados; não fornece orientação clínica nem inicia conexão real. A especificação, o estado atual e a matriz foram atualizados em [Implementação da prática de encerramento (OE-05)](implementacao-pratica-encerramento-2026-10-21.md). A mudança não constitui validação com usuários. CI e auditoria manual devem ser tratadas separadamente.

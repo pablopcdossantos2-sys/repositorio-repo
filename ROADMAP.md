@@ -101,7 +101,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 ## Fase 3 — Produto, conteúdo e acessibilidade (P1)
 
 - [x] Reestruturar o protótipo em três etapas: antes; durante, com três cenários selecionáveis; encerrar/confirmar próximos passos.
-- [x] Acrescentar em cada cenário uma tarefa de escolha e feedback acolhedor; revisão editorial documental registrada, com revisão pela orientação e teste manual ainda pendentes.
+- [x] Acrescentar tarefas de escolha e feedback para os três cenários de “Durante” e a prática de encerramento (OE-05); revisão documental registrada e testes automatizados adicionados, com resultado da CI deste commit e auditoria manual a confirmar.
 - [ ] Garantir que exemplos, nome de serviço, link, data e profissionais sejam fictícios; não imitar portal oficial real de modo enganoso.
 - [ ] Evitar pedir informações pessoais ou clínicas; nenhuma resposta deve ser enviada ou armazenada.
 - [ ] Testar navegação por teclado, foco, mensagens dinâmicas, movimento reduzido, contraste, larguras de tela e ampliação; registrar resultados no roteiro de auditoria.

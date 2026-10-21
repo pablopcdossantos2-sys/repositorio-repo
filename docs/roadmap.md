@@ -50,7 +50,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 ## Fase 3 — Protótipo e acessibilidade (P1)
 
 - [x] Implementar navegação entre três painéis, checklist local, feedback e reinicialização.
-- [ ] Atualizar conteúdo: instruções passo a passo, entrada simulada, controle de áudio/vídeo fictício, pedido de esclarecimento e próximos passos.
+- [x] Atualizar conteúdo interativo: entrada simulada, falha de áudio, pedido de esclarecimento e exercício de encerramento (OE-05) com escolha única e feedback local; auditoria manual permanece pendente.
 - [ ] Garantir que a interface não solicite dados pessoais/clínicos e não transmita ou armazene respostas.
 - [x] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional: 15 checagens estáticas e 22 testes de navegador passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
 - [x] Criar roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes ([roteiro](roteiro-auditoria-tecnica-sem-participantes.md)).
