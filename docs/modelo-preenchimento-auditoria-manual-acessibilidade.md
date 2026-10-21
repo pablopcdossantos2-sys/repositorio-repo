@@ -273,3 +273,8 @@ Critérios particularmente relacionados (lista indicativa, não exaustiva): 1.3.
 O [formulário HTML interativo](formulario-auditoria-manual-acessibilidade.html) oferece um ícone de informação ao lado dos campos preenchíveis. O ícone abre uma janela de ajuda com o significado do campo, orientações de preenchimento e exemplo correspondente. Para os casos de auditoria, a ajuda usa o ID, a pergunta e o critério do caso para orientar o registro de evidências.
 
 O formulário sugere automaticamente a data da rodada, o nome/versão do navegador, uma identificação aproximada do sistema operacional e uma categoria aproximada de dispositivo. Os campos continuam editáveis e as sugestões devem ser confirmadas. URL do protótipo, viewport, zoom, leitor de tela, commit testado e resultado da CI ficam manuais para evitar preencher automaticamente valores que poderiam não corresponder ao protótipo auditado ou exigem confirmação. Não há envio nem gravação automática das respostas.
+
+
+## Registro da auditoria manual (21/10/2026)
+
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.

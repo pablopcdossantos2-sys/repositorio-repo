@@ -385,3 +385,8 @@ Além do modelo Markdown, está disponível o [formulário HTML preenchível](do
 ### Usabilidade do formulário de auditoria — ajuda contextual (21/10/2026)
 
 O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](docs/formulario-auditoria-manual-acessibilidade.html).
+
+
+## Registro da auditoria manual (21/10/2026)
+
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.

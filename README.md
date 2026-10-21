@@ -107,3 +107,8 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 ### Formulário interativo de auditoria manual (21/10/2026)
 
 Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML inclui ícones de informação com exemplos e sugestões automáticas editáveis para data, navegador, sistema operacional e tipo aproximado de dispositivo; funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+
+
+## Registro da auditoria manual (21/10/2026)
+
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.

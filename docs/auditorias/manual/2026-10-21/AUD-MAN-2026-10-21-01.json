@@ -1,0 +1,342 @@
+{
+  "project": "Treino de Teleconsulta",
+  "instrumentVersion": "1.1",
+  "exportedAt": "2026-10-21T15:16:57.740Z",
+  "metadata": {
+    "roundId": "AUD-MAN-2026-10-21-01",
+    "date": "2026-10-21",
+    "reviewer": "Identificação pessoal omitida na cópia pública",
+    "commit": "872b28c0ef06f96706d5132c6dfa6bba34a73196",
+    "url": "Caminho local redigido; diretório do projeto: produto",
+    "os": "Windows (versão técnica reportada: 19.0.0; confirme a edição)",
+    "device": "Computador (indicação do navegador)",
+    "browser": "Opera 137.0.0.0",
+    "viewport": "",
+    "zoom": "100",
+    "screenReader": "",
+    "assistiveTech": "nenhuma outra tecnologia assistiva utilizada",
+    "ci": "https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39615349270",
+    "limitations": "",
+    "profileOther": ""
+  },
+  "profiles": [
+    "Mouse/trackpad"
+  ],
+  "cases": {
+    "BAS-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "BAS-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "BAS-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "BAS-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-06": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-07": {
+      "result": "C",
+      "evidence": ""
+    },
+    "KBD-08": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-06": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-07": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-08": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-09": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-10": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SR-11": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-06": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-07": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-08": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-09": {
+      "result": "C",
+      "evidence": ""
+    },
+    "VIS-10": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-06": {
+      "result": "C",
+      "evidence": ""
+    },
+    "TXT-07": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-06": {
+      "result": "C",
+      "evidence": ""
+    },
+    "OPT-07": {
+      "result": "C",
+      "evidence": ""
+    },
+    "MOB-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "MOB-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "MOB-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "MOB-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "MOB-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "MOB-06": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SEG-01": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SEG-02": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SEG-03": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SEG-04": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SEG-05": {
+      "result": "C",
+      "evidence": ""
+    },
+    "SEG-06": {
+      "result": "C",
+      "evidence": ""
+    }
+  },
+  "matrix": {
+    "Claro + padrão": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Escuro + padrão": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Claro + alto contraste": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Escuro + alto contraste": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Claro + azul/âmbar": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Escuro + azul/âmbar": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Claro + monocromático": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    },
+    "Escuro + monocromático": {
+      "textControls": "C",
+      "focusSelection": "C",
+      "evidence": ""
+    }
+  },
+  "summary": {
+    "highOpen": "",
+    "lowOpen": "",
+    "retested": "",
+    "conclusion": "Casos desta rodada executados sem falhas observadas: todos os casos aplicáveis foram executados e não há NC/PC em aberto. Isso não certifica WCAG integralmente nem valida o produto com usuários.",
+    "limitations": "",
+    "nextActions": "",
+    "counts": {
+      "C": 59,
+      "PC": 0,
+      "NC": 0,
+      "NT": 0,
+      "BL": 0,
+      "NA": 0
+    },
+    "totalCases": 59,
+    "answered": 59
+  },
+  "defect": {
+    "title": "",
+    "caseId": "",
+    "date": "",
+    "commit": "",
+    "environment": "",
+    "severity": "",
+    "affectedNeed": "",
+    "steps": "",
+    "expected": "",
+    "observed": "",
+    "evidence": "",
+    "fix": "",
+    "fixCommit": "",
+    "retest": "",
+    "retestEnv": "",
+    "notes": ""
+  },
+  "privacyNote": "Não inclua dados pessoais ou de saúde."
+}
