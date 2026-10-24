@@ -60,6 +60,7 @@ Ver [implementação da prática de encerramento (OE-05)](implementacao-pratica-
 - [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md): compara recursos e fundamenta requisitos provisórios.
 - [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md): rastreia fontes, requisitos e verificações.
 - [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md): relaciona objetivos, ações seguras, feedbacks e testes de regressão.
+- [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md): inventaria a cobertura automatizada observável e explicita o que ainda exige execução de CI ou inspeção manual.
 - [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md): fornece os casos AUD-01 a AUD-20 para inspeção.
 - [Especificação do produto mínimo](produto-minimo.md): descreve limites e funcionalidades atuais.
 - [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md): define a diretriz de escopo vigente.
