@@ -2,7 +2,7 @@
 
 > **Leitura obrigatória para continuidade entre IAs:** [Estado atual do projeto e diretrizes para IAs](docs/estado-atual-e-diretrizes-para-ias.md). Em caso de conflito com listas de tarefas ou propostas antigas, confira a diretriz metodológica vigente antes de agir.
 
-**Atualizado em:** 23/10/2026  
+**Atualizado em:** 24/10/2026  
 **Branch de referência:** `main`  
 **Status geral:** tema escolhido; protótipo web inicial existente; alinhamento funcional, revisão bibliográfica, método e etapas institucionais continuam em andamento.
 
@@ -26,6 +26,8 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 A página oficial consultada em 23/10/2026 informa que as inscrições terminam em **29/10/2026 às 12h**. A estrutura de `docs/anteprojeto-modelo-uerj.md` já foi reorganizada para os 16 itens oficiais e três objetivos específicos; resumo em português e abstract em inglês estão abaixo de 500 palavras. Ainda é necessário baixar e conferir o arquivo-modelo editável e o PDF integral do edital 2027, preencher a identificação do candidato e validar os documentos de inscrição. Não tratar o rascunho como pronto para submissão antes dessa conferência.
 
 - [Análise do edital da turma 2027 e lacunas do anteprojeto](docs/analise-edital-turma-2027-e-lacunas.md)
+- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](docs/levantamento-bibliografico-exploratorio-2026-10-24.md) — duas revisões de escopo e fontes brasileiras/contextuais; busca formal nas interfaces e exportações continuam pendentes.
+- [Conferência do modelo e edital 2027 (24/10/2026)](docs/conferencia-modelo-e-edital-2027-2026-10-24.md) — a página oficial foi conferida; DOCX e PDF integral do edital não puderam ser inspecionados nesta execução.
 - [Modelo oficial de anteprojeto](https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/)
 - [Edital e calendário da turma 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/)
 
