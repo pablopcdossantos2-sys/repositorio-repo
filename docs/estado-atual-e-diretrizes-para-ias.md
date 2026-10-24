@@ -517,3 +517,12 @@ O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos context
 ## Registro da auditoria manual (21/10/2026)
 
 Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+
+
+## Atualização de continuidade — rastreabilidade e estado das evidências (24/10/2026)
+
+Foi criada a [matriz de rastreabilidade entre objetivos educativos, requisitos funcionais e testes automatizados](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela registra quais testes existentes verificam partes dos objetivos OE-01 a OE-05 e dos requisitos RF-01 a RF-11, além de explicitar as limitações da cobertura. A matriz é uma inspeção estática da suíte, não uma execução de testes.
+
+A documentação do produto mínimo e do README foi alinhada para não classificar o RF-08 (feedback claro e respeitoso) como totalmente sem regressão automatizada: existem testes específicos para mensagens e próximos passos, mas eles não cobrem toda a linguagem nem comprovam compreensão pelo público-alvo.
+
+**Estado de validação na data desta atualização:** há execuções históricas bem-sucedidas de CI registradas em commits anteriores; não se deve inferir que o commit atual foi aprovado sem consultar o GitHub Actions e confirmar o SHA. Permanecem pendentes a auditoria manual de acessibilidade com evidências observadas, a execução reproduzível das buscas bibliográficas nas interfaces oficiais e a conferência integral do edital e do DOCX institucional vigente. Não afirmar conclusão dessas tarefas enquanto não houver evidência real. O [tutorial de execução das pendências](tutorial-execucao-pendencias.md) reúne os passos e critérios de conclusão.
