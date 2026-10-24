@@ -417,3 +417,13 @@ Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditoria
 
 **Limite:** são testes automatizados de comportamento no navegador, não evidência de acessibilidade universal, conformidade integral WCAG ou validação com participantes.
 
+
+
+## Matriz de rastreabilidade dos objetivos, requisitos e testes — 24/10/2026
+
+- [x] Inspecionar `tests/prototype.spec.js` e mapear as evidências automatizadas para OE-01 a OE-05 e RF-01 a RF-11.
+- [x] Distinguir cobertura parcial/observável de afirmações que exigem revisão editorial, inspeção manual ou avaliação com pessoas.
+- [x] Documentar limites dos testes Playwright/axe-core e apontar as pendências de teclado, leitor de tela, zoom/reflow, toque, permissões e Network/Application.
+- [x] Indexar a matriz no README: [matriz de rastreabilidade](docs/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md).
+
+**Limite desta rodada:** análise documental do código de teste; não houve execução nova de CI, alteração do protótipo, auditoria manual ou validação com participantes. A matriz não transforma cobertura automatizada em prova de aprendizagem, acessibilidade integral ou eficácia.
