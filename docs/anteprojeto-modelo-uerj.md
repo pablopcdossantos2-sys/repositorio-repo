@@ -70,11 +70,9 @@ Desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica
 
 ## 13. Objetivos específicos
 
-1. Realizar busca bibliográfica reproduzível e mapear soluções educativas existentes sobre preparação e participação em teleconsultas.
-2. Definir, com a orientação, a operacionalização do público, os objetivos de aprendizagem e os requisitos funcionais, pedagógicos e de acessibilidade.
-3. Desenvolver iterativamente um protótipo com etapas de preparação, entrada/participação em sala virtual fictícia e encerramento/confirmar próximos passos.
-4. Avaliar a consistência do conteúdo, a acessibilidade e o funcionamento técnico sem participantes; reconsiderar avaliação com pessoas somente se a orientação acadêmica indicar que é necessária e após verificar as autorizações aplicáveis.
-5. Documentar o produto, as evidências e limitações e formular recomendações para futuras iterações.
+1. **Fundamentar e especificar o produto:** realizar busca bibliográfica reproduzível e mapear soluções educativas existentes, derivando objetivos educativos e requisitos funcionais, pedagógicos, de linguagem, privacidade e acessibilidade a partir das fontes efetivamente analisadas.
+2. **Desenvolver o protótipo:** implementar iterativamente um simulador web fictício com etapas de preparação, prática de situações comuns durante a teleconsulta e confirmação dos próximos passos, mantendo os limites de escopo e segurança descritos neste anteprojeto.
+3. **Avaliar e documentar o protótipo:** realizar inspeção técnica, pedagógica e de acessibilidade sem participantes, registrar evidências, problemas, correções e limitações e formular recomendações para futuras iterações. Qualquer avaliação com pessoas será considerada apenas se a orientação acadêmica a indicar como necessária e após confirmação de viabilidade e autorizações aplicáveis.
 
 ## 14. Material e método
 
