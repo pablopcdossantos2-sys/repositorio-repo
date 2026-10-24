@@ -241,3 +241,94 @@ Antes de encerrar, confirme:
 5. Se os resultados forem incertos, preserve a incerteza e descreva o próximo passo necessário.
 
 **Critério de conclusão:** uma tarefa só é considerada concluída quando há registro reproduzível e evidência adequada. “Não consegui executar” é um resultado válido se documentado corretamente; não é uma falha a esconder nem motivo para inventar evidências.
+
+
+---
+
+## Parte F — conferir o edital integral e o modelo editável da seleção 2027
+
+**Situação registrada em 24/10/2026:** a página oficial do processo seletivo informa prazo até **29/10/2026, às 12h**. A página que descreve o modelo confirma a estrutura geral, mas ainda não foi possível inspecionar o conteúdo interno do DOCX oficial nem conferir o edital PDF integral. Portanto, não considere o anteprojeto pronto para submissão antes de concluir estes passos.
+
+### F1. Abrir as páginas oficiais
+
+1. Abra a página do processo seletivo 2027: <https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/>.
+2. Abra também o passo a passo oficial: <https://www.telessaude.uerj.br/mestrado/passo-a-passo/>.
+3. Abra a página oficial do modelo: <https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/>.
+4. Confira se todas as páginas se referem à turma/processo de 2027. Não use o edital de 2026 como substituto.
+5. Anote a data e hora em que consultou as páginas e registre qualquer atualização ou divergência.
+
+### F2. Baixar e conferir o edital integral em PDF
+
+1. Na página oficial da seleção 2027, localize o link para o edital completo, preferencialmente o arquivo PDF hospedado no domínio oficial da UERJ.
+2. Toque/clique no link do PDF. Se ele abrir no navegador, use o comando **Baixar** ou **Salvar**.
+3. Salve o arquivo com um nome claro, por exemplo `edital-uerj-telessaude-turma-2027.pdf`.
+4. Abra o PDF salvo e confira a primeira página: título, turma, data/publicação e órgão responsável.
+5. Leia o documento integral, incluindo anexos, retificações e cronograma. Não se limite ao resumo da página web.
+6. Registre em `docs/conferencia-modelo-e-edital-2027-2026-10-24.md` ou em atualização datada: nome do arquivo, URL oficial, data de acesso, número de páginas e os requisitos pertinentes com página/seção.
+7. Compare especialmente: linha/tipo de projeto, estrutura obrigatória, limites de palavras/páginas, formatação, critérios de avaliação, documentos exigidos, anexos, modo de envio e prazo.
+8. Se houver retificação ou versão mais recente, use a versão vigente e anote qual documento foi substituído.
+
+**Se não conseguir baixar:** não tente adivinhar os requisitos. Registre a mensagem observada e envie o PDF oficial nesta conversa para que o conteúdo possa ser conferido. Não publique no repositório arquivos pessoais nem documentos com dados pessoais.
+
+### F3. Baixar o modelo editável DOCX
+
+O endereço oficial identificado para o arquivo editável é:
+
+<https://www.telessaude.uerj.br/mestrado/wp-content/uploads/sites/3/2026/09/final_2026_-MODELO_ANTEPROJETO__MESTRADO-TELESSAUDE-SAUDE-DIGITAL_UERJ.docx>
+
+1. Abra o link acima no navegador.
+2. Se o arquivo abrir ou for baixado automaticamente, escolha **Baixar/Salvar** e guarde o DOCX original sem editá-lo.
+3. Se o navegador mostrar uma mensagem de formato não suportado, abra o menu do navegador e selecione **Fazer download** ou **Abrir em outro aplicativo**.
+4. Abra uma cópia no Microsoft Word ou LibreOffice Writer. Não edite o original baixado.
+5. Confira todas as páginas e instruções internas: margens, fonte, espaçamento, cabeçalhos/rodapés, limites, campos obrigatórios e orientações que não aparecem na página web.
+6. Verifique se o arquivo é de fato o modelo aplicável à seleção de 2027. O nome do arquivo conter “2026” exige confirmação explícita no edital/página oficial; não presuma compatibilidade.
+7. Compare o DOCX com `docs/anteprojeto-modelo-uerj.md`, seção por seção. A página pública menciona 16 seções, mas o próprio arquivo editável e o edital vigente prevalecem se houver divergência.
+8. Registre cada diferença, requisito e correção necessária. Não altere o modelo oficial para fazê-lo coincidir com o rascunho.
+
+### F4. Revisar o anteprojeto contra os requisitos confirmados
+
+1. Abra `docs/anteprojeto-modelo-uerj.md` e o checklist de requisitos do edital.
+2. Confira cada seção obrigatória na ordem exata do modelo vigente.
+3. Confirme o nome do candidato e os demais campos de identificação no documento privado de trabalho; não adivinhe nem publique dados pessoais no GitHub.
+4. Conte novamente as palavras do resumo em português e do abstract em inglês, usando o limite confirmado no edital/modelo.
+5. Confirme o número exato de objetivos específicos exigido no documento oficial.
+6. Verifique coerência entre título, linha, pergunta, justificativa, inovação, impacto social, objetivos, método, ética, limitações, cronograma e referências.
+7. Confirme que a metodologia não promete recrutamento, avaliação com participantes, parceria, aprovação ética ou resultados que ainda não existem.
+8. Confira cada referência bibliográfica e se as citações no texto correspondem à lista final.
+9. Marque cada requisito como **Atendido**, **Parcial**, **Pendente** ou **Não aplicável**, indicando evidência e localização no edital/modelo.
+10. Peça à orientação acadêmica a revisão das decisões metodológicas e do enquadramento antes da submissão.
+11. Só marque o documento como pronto após verificar o edital integral, o DOCX real, todos os campos obrigatórios e o arquivo final que será enviado.
+
+### F5. Completar o envio sem confundir as etapas
+
+1. Releia a página oficial de passo a passo e siga a sequência vigente.
+2. Confirme se o processo exige tanto cadastro/pagamento no sistema CEPUERJ quanto inscrição e upload no sistema do mestrado.
+3. Faça o cadastro e o pagamento somente se forem exigidos e depois de conferir os dados e as condições oficiais.
+4. Entre no sistema específico de candidatura, preencha os campos e anexe o documento no formato e tamanho exigidos.
+5. Antes de confirmar, revise o nome do arquivo anexado e abra a pré-visualização, quando disponível.
+6. Conclua o envio e guarde o comprovante/protocolo. Pagamento ou cadastro isolado não comprovam que a candidatura foi submetida.
+7. Se houver problema técnico, capture a mensagem sem expor dados pessoais e use o canal de suporte oficial indicado no edital.
+
+### Evidência mínima para fechar esta parte
+
+- [ ] PDF integral vigente do edital identificado e lido, com versão/data e URL.
+- [ ] DOCX oficial aberto e suas instruções internas conferidas.
+- [ ] Matriz requisito–fonte–seção do anteprojeto atualizada.
+- [ ] Campos pessoais revisados no arquivo privado.
+- [ ] Revisão acadêmica solicitada/concluída e pendências registradas.
+- [ ] Se houve submissão, comprovante oficial de envio preservado em local privado.
+
+---
+
+## Regra permanente para tarefas que exigem intervenção humana
+
+Toda vez que uma atividade depender de uma ação que o assistente não possa executar com segurança ou verificar por conta própria, ela deverá ser acrescentada a este tutorial ou ao roteiro especializado já indicado aqui. A instrução precisa conter, no mínimo:
+
+1. **Por que a ação humana é necessária** e o que já foi feito autonomamente.
+2. **Link direto oficial** para a página/sistema, quando existir.
+3. **Passos numerados e didáticos**, com os nomes de menus/botões quando conhecidos.
+4. **O que conferir e o que não presumir**, incluindo alertas de privacidade e segurança.
+5. **Qual evidência devolver** (arquivo, contagem, protocolo, resultado observado ou decisão), e por qual canal.
+6. **Critério objetivo de conclusão** e como registrar bloqueios ou erros sem inventar resultados.
+
+Antes de pedir que a pessoa execute uma tarefa, confira se já existe um roteiro especializado e atualize-o em vez de criar instruções duplicadas. O README deve apontar para este tutorial e para eventuais roteiros específicos. Uma tarefa não está concluída só porque o passo a passo foi escrito: a execução real e sua evidência devem ser registradas separadamente.
