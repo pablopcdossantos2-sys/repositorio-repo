@@ -298,6 +298,7 @@ Use “Bloqueada” quando a próxima ação depender de decisão, aprovação o
 - [Busca bibliográfica estruturada](busca-bibliografica-estruturada.md)
 - [Registro da busca exploratória](registro-busca-exploratoria-2026-10-19.md)
 - [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md)
+- [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md)
 - [Plano de parceria e ética](parceria-e-etica.md)
 - [Roteiro da reunião com a Secretaria](roteiro-reuniao-secretaria.md)
 - [Protocolo preliminar de avaliação](protocolo-preliminar-avaliacao.md)
