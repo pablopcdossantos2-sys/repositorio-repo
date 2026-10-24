@@ -11,6 +11,8 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 ### Registros de execução recentes
 
 - [Registro de execução das buscas bibliográficas (20/10/2026)](docs/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
+- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](docs/levantamento-bibliografico-exploratorio-2026-10-24.md) — estudos localizados, leitura crítica e limites da busca; não substitui a execução formal nas interfaces das bases.
+- [Conferência do modelo e edital 2027 (24/10/2026)](docs/conferencia-modelo-e-edital-2027-2026-10-24.md) — verificação parcial da página oficial e pendências de conferência literal do DOCX e PDF integral.
 - [Guia da busca complementar no PubMed via E-utilities](docs/guia-execucao-pubmed-automatizada.md) — instruções para gerar registros JSON complementares sem confundi-los com execução oficial da interface.
 - [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
 - [Verificação preliminar de contraste (20/10/2026)](docs/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
