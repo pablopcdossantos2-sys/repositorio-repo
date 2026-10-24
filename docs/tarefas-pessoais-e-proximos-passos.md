@@ -327,3 +327,41 @@ O roteiro didático central para as tarefas manuais é agora [Tutorial de execu�
 ### Regra de manutenção
 
 Sempre que surgir uma nova intervenção humana necessária, atualizar primeiro o tutorial central ou o roteiro especializado já existente com: motivo, URL oficial, passos numerados, verificações, evidência esperada e critério de conclusão. Manter o README apontando para o roteiro central. O registro do procedimento e o registro da execução são coisas diferentes; não marcar a tarefa como concluída apenas porque as instruções foram documentadas.
+
+
+---
+
+## Atualização — estado consolidado das intervenções humanas (24/10/2026)
+
+Esta seção atualiza as prioridades à luz da documentação técnica e da matriz de rastreabilidade revisadas em 24/10/2026. **Ela não declara nenhuma atividade manual como executada:** descreve o estado que pode ser sustentado pelas evidências disponíveis no repositório.
+
+### Prioridades e estado verificável
+
+| Prioridade | Tarefa humana | Estado atual | Próxima ação concreta | Evidência necessária para concluir |
+|---|---|---|---|---|
+| P0 | Confirmar com a orientação o enquadramento acadêmico e o método sem participantes | Pendente de decisão humana | Apresentar o anteprojeto atualizado, o protótipo, a matriz de evidências e a matriz de rastreabilidade; perguntar expressamente se a avaliação documental/técnica sem participantes atende aos requisitos | Ata datada com decisões, dúvidas, responsáveis e prazos |
+| P0 | Conferir o edital integral e o modelo DOCX oficial da seleção 2027 | Pendente; o conteúdo integral ainda não foi conferido | Seguir a Parte F do [tutorial de execução das pendências](tutorial-execucao-pendencias.md); abrir os arquivos oficiais e comparar cada requisito com o anteprojeto | PDF e DOCX oficiais identificados, data de acesso e checklist requisito–página–status |
+| P0 | Executar as buscas bibliográficas formais | Pendente; não há registro completo de contagens e exportações reproduzíveis | Seguir a Parte C do tutorial e executar as estratégias nas interfaces oficiais de PubMed/MEDLINE, BVS/LILACS e SciELO | Strings efetivamente executadas, data/hora, filtros, totais exibidos, arquivos exportados, deduplicação e decisões de seleção |
+| P0, condicional | Confirmar exigências institucionais e éticas para o desenho final | Preparação documental possível; autorizações não presumidas | Descrever à orientação e às instâncias competentes as atividades pretendidas e confirmar quais procedimentos se aplicam | Decisões e autorizações formais aplicáveis, antes de qualquer procedimento condicionado |
+| P1 | Executar testes automatizados no commit atual e conferir a CI | Pendente de confirmação atual | Seguir [Instruções para testes técnicos](como-executar-testes.md), executar `npm test` no ambiente compatível e consultar Actions para o SHA exato testado | Saída completa, versões do ambiente, SHA e resultado correspondente de CI; histórico de outro commit não basta |
+| P1 | Fazer auditoria manual de acessibilidade e comportamento | Pendente; rodada `AUD-MAN-2026-10-21-01` permanece inconclusiva | Repetir/complementar os casos com teclado, foco, zoom/reflow, leitor de tela quando disponível, diferentes tamanhos de tela e estados visuais; seguir o [modelo de auditoria](modelo-preenchimento-auditoria-manual-acessibilidade.md) | Observações reproduzíveis por caso, ambiente e commit, com evidências não identificáveis; corrigir e retestar achados |
+| P1 | Revisar o conteúdo educativo demonstrativo | Revisão editorial já registrada; validação clínica específica não presumida | Conferir os textos atuais contra a matriz de critérios; solicitar avaliação de profissional competente somente se houver conteúdo que exija validação clínica | Registro da revisão, escopo e fontes; deixar explícito que revisão editorial não comprova compreensão ou aprendizagem |
+| P2, condicional | Verificar viabilidade de campo/parceria com Guaraí-TO | Não confirmado e não prioritário por padrão | Fazer contato exploratório somente se a orientação considerar necessário para o escopo; não solicitar dados de pacientes nem iniciar coleta | Resposta institucional verificável e limites registrados; não anunciar parceria sem confirmação expressa |
+| Bloqueada até decisão/aprovação | Avaliar com participantes, coletar dados e analisar resultados | Fora do plano inicial; não iniciar sem indicação da orientação e confirmação das autorizações aplicáveis | Só detalhar elegibilidade, amostra, instrumentos, recrutamento e análise se a orientação decidir que a etapa é necessária | Protocolo aprovado/autorizações aplicáveis, execução conforme protocolo e dados tratados de forma segura |
+
+### Correção importante sobre os testes
+
+O guia [como executar os testes](como-executar-testes.md) agora descreve as cinco etapas de `npm test`, na ordem do `package.json`: `check:syntax`, `test:research-tools`, `check:static`, `check:html` e `test:e2e`. A etapa `test:research-tools` verifica testes automatizados da ferramenta auxiliar de busca PubMed; **não** equivale à execução de uma busca bibliográfica formal. A documentação foi alinhada, mas isso não prova que `npm test` foi executado com sucesso no commit atual.
+
+Há execuções históricas bem-sucedidas de CI, incluindo a execução [#40095534286](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/40095534286). Elas são evidência apenas dos commits e testes correspondentes àquelas execuções. Antes de registrar aprovação atual, compare o SHA do commit testado com o SHA da execução no GitHub Actions.
+
+### Ordem recomendada para a próxima intervenção
+
+1. Confirmar com a orientação se o desenho inicial sem participantes atende ao curso e quais documentos precisam ser entregues.
+2. Conferir integralmente edital e modelo oficial da seleção 2027, registrando os requisitos.
+3. Executar as buscas bibliográficas formais e preservar os arquivos originais.
+4. Executar `npm test` e verificar a CI para o commit exato.
+5. Completar a auditoria manual de acessibilidade, preservando a rodada anterior como inconclusiva até haver evidências suficientes.
+6. Somente depois das decisões acadêmicas, definir se há necessidade de campo/parceria ou avaliação com participantes.
+
+**Regra de integridade:** instruções atualizadas não equivalem à execução da tarefa. Não marcar como concluída uma atividade sem a evidência especificada; não publicar dados pessoais, de saúde, consentimentos preenchidos ou documentos internos restritos no repositório.
