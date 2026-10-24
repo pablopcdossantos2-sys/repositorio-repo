@@ -117,6 +117,10 @@ Além do modelo Markdown, está disponível o [formulário HTML preenchível](do
 Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
 
 
+### Edital e revisão do anteprojeto
+
+- [Análise do edital da turma 2027 e lacunas do anteprojeto](docs/analise-edital-turma-2027-e-lacunas.md) — lista requisitos confirmados nas páginas oficiais, distingue pontos ainda não conferidos no PDF e orienta a revisão do texto acadêmico.
+
 ### Tutorial para executar as pendências
 
 - [Tutorial passo a passo: auditoria manual de acessibilidade, busca bibliográfica, benchmark e verificação do CI](docs/tutorial-execucao-pendencias.md) — orienta o executor sobre procedimentos, evidências mínimas, critérios de registro e limites das conclusões. Não substitui os modelos e protocolos específicos vinculados no tutorial.
