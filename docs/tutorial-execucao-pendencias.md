@@ -21,6 +21,8 @@ O protótipo é um simulador educativo fictício. Não use dados reais de pacien
 
 ## Parte A — verificar os testes automatizados no GitHub Actions
 
+Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela identifica os títulos dos testes que existem no código e os limites da cobertura. É um inventário estático: **não é evidência de que os testes foram executados no commit atual**. Para registrar aprovação, use sempre a execução do Actions ligada ao SHA exato que está sendo avaliado.
+
 ### A1. Abrir a execução correta
 
 1. Abra o repositório no GitHub.
