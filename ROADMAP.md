@@ -77,6 +77,7 @@ A página oficial consultada em 23/10/2026 informa que as inscrições terminam 
 - [x] Corrigir a asserção de teste que esperava “modo escuro” com capitalização diferente do texto acessível real; CI de 24/10/2026 passou com verificações estáticas/estruturais/HTML e 29 testes Playwright + axe-core ([execução #64](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/40095534286), [commit](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/c405ffe40a72cb1f3a9ae1ee73a076ba641adb71)). A auditoria manual permanece pendente.
 - [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
 - [x] Criar mapa preliminar de objetivos educativos e tarefas, distinguindo conteúdo estático de prática interativa ([mapa](docs/mapa-objetivos-educativos-e-tarefas.md)).
+- [x] Traduzir o benchmark exploratório em uma matriz de requisitos verificáveis, evidências de inspeção e limites de inferência ([matriz](docs/matriz-traducao-benchmark-requisitos-2026-10-24.md)); isso consolida a análise documental, mas não conclui a busca formal nem a auditoria manual.
 - [ ] Revisar os objetivos com base na literatura e definir critérios de verificação.
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
