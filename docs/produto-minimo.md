@@ -64,7 +64,7 @@ A tabela separa a especificação desejada da implementação observada no códi
 | RF-05 — controles fictícios de áudio e comunicação | Implementado | Os controles só atualizam mensagens locais; confirmar no navegador e na inspeção de rede. |
 | RF-06 — três cenários com escolhas e feedback | Implementado | Link, áudio e esclarecimento; revisão editorial concluída, teste de regressão e auditoria manual pendentes. |
 | RF-07 — prática interativa de encerramento | Implementado em código | Exercício de escolha única com feedback local; regressão automatizada acrescentada. Auditoria manual pendente; não demonstra aprendizagem. |
-| RF-08 — feedback claro e respeitoso | Implementado em texto, ainda não verificado por regressão | Feedbacks dos três cenários foram revisados editorialmente; falta executar a suíte após a edição e fazer auditoria manual. |
+| RF-08 — feedback claro e respeitoso | Implementado em texto; há testes automatizados relacionados aos feedbacks | A suíte contém testes de coerência e de próxima ação concreta em cenários/estados específicos. A cobertura não é exaustiva; auditoria manual e avaliação de compreensão pelo público-alvo permanecem pendentes. |
 | RF-09 — reiniciar e limpar estados locais | Implementado em código | Confirmar manualmente que todos os estados e o foco retornam corretamente. |
 | RF-10 — não coletar/transmitir/persistir dados | Implementado por desenho e inspeção estática parcial | Não equivale a prova universal; executar a verificação de Network/Application no navegador. |
 | RF-11 — conteúdo fictício e sem aconselhamento clínico | Implementado em conteúdo atual | Revisar textos e verificar que nada sugere serviço oficial ou instrução clínica individual. |
