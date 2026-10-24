@@ -1,7 +1,7 @@
 # Tutorial de execução das pendências — auditoria, busca bibliográfica e validação do CI
 
 **Projeto:** Treino de Teleconsulta  
-**Versão:** 1.0 · **Preparado em:** 21/10/2026  
+**Versão:** 1.1 · **Atualizado em:** 24/10/2026  
 **Público-alvo:** desenvolvedor, pessoa responsável pelos testes técnicos ou pesquisador responsável pela documentação.
 
 ## Objetivo e limites
