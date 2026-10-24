@@ -306,3 +306,23 @@ Use “Bloqueada” quando a próxima ação depender de decisão, aprovação o
 
 ---
 Este é um guia operacional. Orientação acadêmica, instituição responsável, gestão do serviço e instâncias éticas precisam decidir e confirmar os pontos que dependem de sua competência; a pessoa responsável pelo projeto deve executar as ações sob seu controle e guardar evidência verificável.
+
+
+---
+
+## Atualização — centralização das instruções para intervenção humana (24/10/2026)
+
+O roteiro didático central para as tarefas manuais é agora [Tutorial de execução das pendências](tutorial-execucao-pendencias.md). Antes de executar uma tarefa, consulte esse tutorial e o roteiro especializado associado. A Parte F descreve, em passos numerados, como baixar e conferir o edital integral e o modelo DOCX oficial da seleção 2027 e como revisar o anteprojeto sem presumir que esteja pronto.
+
+### Ações humanas atualmente identificadas
+
+1. **Edital/modelo da seleção 2027:** baixar e inspecionar o PDF integral e o DOCX editável, pois o conteúdo interno desses arquivos ainda não pôde ser verificado pelas ferramentas disponíveis. Seguir a Parte F do tutorial central.
+2. **Busca bibliográfica formal:** executar as strings nas interfaces oficiais, registrar data/hora, filtros, contagens e exportações reais; seguir a Parte C do tutorial central e os registros de busca vinculados no README.
+3. **Auditoria manual de acessibilidade:** operar o protótipo no navegador e com as tecnologias assistivas disponíveis; registrar observações reais no modelo de auditoria, sem marcar como conforme o que não foi observado.
+4. **Decisões acadêmicas:** discutir com a orientação a adequação do método sem participantes, o enquadramento do projeto e as pendências do anteprojeto. Registrar decisões e prazos em ata não confidencial.
+5. **Submissão formal, se decidida:** conferir o arquivo final, seguir os sistemas e passos do edital vigente e guardar comprovante em local privado. Não inserir dados pessoais ou comprovantes identificáveis no repositório público.
+6. **Bloqueios técnicos ou documentais:** registrar a mensagem observada, a URL, a data e o arquivo/etapa afetada. Não transformar erro de acesso em “zero resultados” nem considerar um arquivo conferido quando seu conteúdo não foi aberto.
+
+### Regra de manutenção
+
+Sempre que surgir uma nova intervenção humana necessária, atualizar primeiro o tutorial central ou o roteiro especializado já existente com: motivo, URL oficial, passos numerados, verificações, evidência esperada e critério de conclusão. Manter o README apontando para o roteiro central. O registro do procedimento e o registro da execução são coisas diferentes; não marcar a tarefa como concluída apenas porque as instruções foram documentadas.
