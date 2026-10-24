@@ -405,7 +405,7 @@ test("preferências visuais podem ser combinadas e restauradas sem armazenamento
   await expect(page.locator("body")).toHaveAttribute("data-contrast", "high");
   await expect(page.locator("body")).toHaveAttribute("data-palette", "blue-amber");
   await expect(page.locator("body")).toHaveAttribute("data-focus-mode", "enhanced");
-  await expect(page.locator("#accessibility-status")).toContainText("modo escuro");
+  await expect(page.locator("#accessibility-status")).toContainText("Modo escuro");
   await expect(page.locator("#accessibility-status")).toContainText("muito grande");
   await expect(page.locator("#accessibility-status")).toContainText("alto contraste ativado");
 
