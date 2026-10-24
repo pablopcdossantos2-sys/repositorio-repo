@@ -22,6 +22,7 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 - [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — segunda passagem para trocar termos abstratos por ações concretas; regressão automatizada e auditoria manual ainda pendentes.
 - [Matriz de critérios para revisão de textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
 - [Implementação da prática de encerramento (OE-05)](docs/implementacao-pratica-encerramento-2026-10-21.md) — exercício interativo com feedback local, sem conexão real ou persistência; CI passou com 16 verificações estáticas e 27 testes Playwright/axe-core; auditoria manual pendente.
+- [CI mais recente — 24/10/2026](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/40095534286) — verificações sintáticas/estruturais/HTML concluídas e **29 testes Playwright + axe-core aprovados** após correção de uma expectativa de capitalização; isso não substitui a auditoria manual de acessibilidade.
 
 ## Objetivo do projeto
 
