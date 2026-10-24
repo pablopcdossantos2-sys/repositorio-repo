@@ -94,3 +94,24 @@ Marcar cada item como **Confirmado no edital 2027**, **Não exigido**, **Pendent
 ## 7. Conclusão
 
 A aderência temática do simulador à linha de educação em saúde é plausível, mas a elegibilidade final depende dos critérios oficiais e da avaliação do Programa. O projeto escrito tem documentação técnica relativamente extensa, porém ainda precisa de uma narrativa acadêmica consolidada e de evidência bibliográfica mais robusta. O próximo bloqueio documental é comparar o PDF integral do edital 2027 e seu modelo de anteprojeto com a versão que será submetida; as páginas oficiais confirmam que o modelo é obrigatório e que resultados, anexos e apêndices não substituem o conteúdo do corpo do anteprojeto.
+
+
+## 8. Conferência adicional do modelo oficial: divergências concretas
+
+A página oficial do modelo lista 16 seções, nesta ordem: (1) nome do anteprojeto; (2) linha de pesquisa; (3) nome completo do candidato; (4) sumário executivo; (5) resumo em português (500 palavras); (6) abstract em inglês (500 palavras); (7) introdução; (8) justificativa e relevância; (9) potencial de inovação; (10) impacto para a sociedade; (11) objetivo geral; (12) objetivos específicos (**listar 3**); (13) material e método; (14) aspectos éticos; (15) limitações para o desenvolvimento; (16) bibliografia. Fonte: [modelo oficial de anteprojeto da UERJ](https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/).
+
+Na versão de trabalho do repositório `docs/anteprojeto-modelo-uerj.md`, há conteúdo útil, mas a estrutura **ainda não reproduz exatamente** essa ordem: existe uma seção extra “Tipo de projeto”, o campo de candidato está numerado como seção 4, a pergunta de pesquisa e a relação com os critérios do edital aparecem como seções adicionais, e são listados cinco objetivos específicos. Antes da submissão, a versão final deve ser reorganizada para seguir a estrutura oficial, manter exatamente três objetivos específicos e distribuir a pergunta e os critérios dentro das seções pertinentes, sem perder conteúdo importante.
+
+A página do modelo indica 500 palavras para o resumo em português e 500 para o abstract em inglês. Recomenda-se conferir a contagem dos dois campos e manter cada um dentro desse limite. A estrutura deve ser verificada novamente no arquivo-modelo para download, pois a página web resume os campos e não substitui o arquivo editável oficial.
+
+## 9. Critérios de avaliação a abordar explicitamente no texto
+
+O edital anterior publicado no site descreve oito elementos considerados na análise e defesa do anteprojeto: aderência às linhas de pesquisa; relação com os ODS; potencial mercadológico e/ou de inovação; viabilidade em dois anos; impacto para a sociedade; equidade e diversidade; transformação digital do SUS; e escalabilidade. A página atual da turma 2027 aponta para o PDF próprio da seleção, que é a autoridade final; por isso, confirmar a lista no PDF 2027 antes de concluir a redação. A versão de trabalho deve cobrir os sete eixos substantivos já mapeados no repositório, garantindo que escalabilidade esteja explicitamente integrada ao eixo de inovação/potencial, sem assumir que isso substitui a redação exata do edital atual.
+
+## 10. Prazo e documentos de inscrição — alerta operacional
+
+Na verificação de 23/10/2026, a página oficial da turma 2027 informava encerramento das inscrições em **29/10/2026 às 12h**, com alteração explícita em relação ao prazo anteriormente exibido. Confira a página oficial no próprio dia do envio: [processo seletivo turma 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/).
+
+O FAQ informa que o modelo oficial é obrigatório, que o anteprojeto deve conter a proposta (não resultados ainda inexistentes) e que anexos/apêndices não serão considerados para avaliação. O passo a passo orienta que a solicitação de orientador seja feita pelo sistema de inscrição, sem contato direto com docentes para solicitar aceite. A inscrição só deve ser considerada concluída após cumprir todos os passos e anexar os documentos exigidos pelo edital 2027.
+
+Fontes: [FAQ oficial](https://www.telessaude.uerj.br/mestrado/faq/), [passo a passo oficial](https://www.telessaude.uerj.br/mestrado/passo-a-passo/) e [página do processo seletivo 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/).
