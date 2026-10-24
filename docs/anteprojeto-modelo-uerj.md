@@ -64,6 +64,8 @@ O impacto pretendido é contribuir para a educação digital em saúde por meio 
 
 O estudo não assumirá que o simulador aumenta a utilização de teleconsultas, melhora a continuidade do cuidado ou altera desfechos clínicos. Tais alegações demandariam desenho, medidas e contexto específicos que não fazem parte desta versão inicial.
 
+A dimensão de equidade será abordada por requisitos de linguagem simples, uso em celular e acessibilidade, reconhecendo que pessoas com baixa familiaridade digital não constituem um grupo homogêneo. A relação potencial com os ODS 3, 4 e 10 decorre, respectivamente, do foco educativo relacionado à telessaúde, da prática de habilidades e da atenção a barreiras digitais. A relação com a transformação digital do SUS é indireta: o recurso pode contribuir como material educativo, mas não é um sistema do SUS e não se presumem mudanças de acesso, uso de serviços ou resultados clínicos.
+
 ## 11. Objetivo geral
 
 Desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador educativo web acessível e baseado em cenários fictícios para a prática simulada de etapas básicas de uma teleconsulta.
