@@ -2,7 +2,7 @@
 
 > **Leitura obrigatória para continuidade entre IAs:** [Estado atual do projeto e diretrizes para IAs](docs/estado-atual-e-diretrizes-para-ias.md). Em caso de conflito com listas de tarefas ou propostas antigas, confira a diretriz metodológica vigente antes de agir.
 
-**Atualizado em:** 20/10/2026  
+**Atualizado em:** 23/10/2026  
 **Branch de referência:** `main`  
 **Status geral:** tema escolhido; protótipo web inicial existente; alinhamento funcional, revisão bibliográfica, método e etapas institucionais continuam em andamento.
 
@@ -20,6 +20,14 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - **Produto:** experiência guiada de três momentos — preparação do dispositivo/ambiente, entrada e participação numa sala virtual fictícia, e encerramento/confirmar próximos passos.
 - **Limites:** sem teleconsulta real, áudio/vídeo ao vivo, contas, prontuários, IA, diagnóstico ou prescrição; sem recolha ou transmissão de dados pessoais ou clínicos.
 - **Inferência permitida:** auditorias técnicas e pedagógicas, usabilidade e conclusão/compreensão em tarefas simuladas; não concluir aprendizagem duradoura, mudança de comportamento, acesso efetivo ou eficácia clínica sem desenho e evidência próprios.
+
+## Alerta de prazo — edital da turma 2027
+
+A página oficial consultada em 23/10/2026 informa que as inscrições terminam em **29/10/2026 às 12h**. A conferência do edital identificou uma pendência editorial importante: `docs/anteprojeto-modelo-uerj.md` é um rascunho de conteúdo, mas ainda não reproduz exatamente a ordem do modelo oficial e lista cinco objetivos específicos, enquanto a página oficial do modelo pede três. Antes de submeter, usar o arquivo-modelo oficial, reorganizar o conteúdo nas 16 seções exigidas e conferir todos os campos e documentos no PDF vigente.
+
+- [Análise do edital da turma 2027 e lacunas do anteprojeto](docs/analise-edital-turma-2027-e-lacunas.md)
+- [Modelo oficial de anteprojeto](https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/)
+- [Edital e calendário da turma 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/)
 
 ## Como interpretar os estados
 
