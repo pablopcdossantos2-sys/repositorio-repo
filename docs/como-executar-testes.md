@@ -30,7 +30,7 @@ npm test
 O comando executa, em sequência:
 
 1. `check:syntax` — valida a sintaxe do JavaScript.
-2. `test:research-tools` — executa os testes unitários da ferramenta auxiliar de busca no PubMed (`tests/buscar-pubmed.test.js)); isso verifica o código da ferramenta, não equivale a executar uma busca bibliográfica formal nem a registrar resultados de bases.
+2. `test:research-tools` — executa os testes unitários da ferramenta auxiliar de busca no PubMed (`tests/buscar-pubmed.test.js`); isso verifica o código da ferramenta, não equivale a executar uma busca bibliográfica formal nem a registrar resultados de bases.
 3. `check:static` — confere estrutura, referências locais, foco, limites de privacidade e coerência do tema Treino de Teleconsulta.
 4. `check:html` — valida o HTML.
 5. `test:e2e` — percorre o simulador em navegador, testa estados principais, foco, reinicialização, larguras de tela, movimento reduzido e regras de acessibilidade automatizada do axe-core.
