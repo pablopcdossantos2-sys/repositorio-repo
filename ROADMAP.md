@@ -23,7 +23,7 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 ## Alerta de prazo — edital da turma 2027
 
-A página oficial consultada em 23/10/2026 informa que as inscrições terminam em **29/10/2026 às 12h**. A conferência do edital identificou uma pendência editorial importante: `docs/anteprojeto-modelo-uerj.md` é um rascunho de conteúdo, mas ainda não reproduz exatamente a ordem do modelo oficial e lista cinco objetivos específicos, enquanto a página oficial do modelo pede três. Antes de submeter, usar o arquivo-modelo oficial, reorganizar o conteúdo nas 16 seções exigidas e conferir todos os campos e documentos no PDF vigente.
+A página oficial consultada em 23/10/2026 informa que as inscrições terminam em **29/10/2026 às 12h**. A estrutura de `docs/anteprojeto-modelo-uerj.md` já foi reorganizada para os 16 itens oficiais e três objetivos específicos; resumo em português e abstract em inglês estão abaixo de 500 palavras. Ainda é necessário baixar e conferir o arquivo-modelo editável e o PDF integral do edital 2027, preencher a identificação do candidato e validar os documentos de inscrição. Não tratar o rascunho como pronto para submissão antes dessa conferência.
 
 - [Análise do edital da turma 2027 e lacunas do anteprojeto](docs/analise-edital-turma-2027-e-lacunas.md)
 - [Modelo oficial de anteprojeto](https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/)
