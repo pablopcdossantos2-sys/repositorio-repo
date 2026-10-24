@@ -6,7 +6,7 @@
 
 ## 1. Matriz de rastreabilidade
 
-A busca oficial estruturada ainda não foi executada com contagens/exportações; consultar [registro de execução das buscas](registro-busca-estruturada-2026-10-20.md). A inspeção estática parcial do protótipo foi registrada em [registro de auditoria estática](registro-auditoria-estatica-2026-10-20.md), sem substituir verificações manuais.
+A busca oficial estruturada ainda não foi executada com contagens/exportações; consultar [registro de execução das buscas](registro-busca-estruturada-2026-10-20.md). A inspeção estática parcial do protótipo foi registrada em [registro de auditoria estática](registro-auditoria-estatica-2026-10-20.md), sem substituir verificações manuais. A relação entre objetivos educativos, requisitos funcionais e nomes de testes automatizados está resumida na [matriz de rastreabilidade entre objetivos, requisitos e testes](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md); ela documenta cobertura prevista, não comprova execução recente nem substitui a auditoria manual.
 
 | Tema | Referência inicial | Implicação para o projeto | Requisito ou decisão de produto | Evidência ainda necessária |
 |---|---|---|---|---|
