@@ -115,3 +115,10 @@ Na verificação de 23/10/2026, a página oficial da turma 2027 informava encerr
 O FAQ informa que o modelo oficial é obrigatório, que o anteprojeto deve conter a proposta (não resultados ainda inexistentes) e que anexos/apêndices não serão considerados para avaliação. O passo a passo orienta que a solicitação de orientador seja feita pelo sistema de inscrição, sem contato direto com docentes para solicitar aceite. A inscrição só deve ser considerada concluída após cumprir todos os passos e anexar os documentos exigidos pelo edital 2027.
 
 Fontes: [FAQ oficial](https://www.telessaude.uerj.br/mestrado/faq/), [passo a passo oficial](https://www.telessaude.uerj.br/mestrado/passo-a-passo/) e [página do processo seletivo 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/).
+
+
+## 11. Atualização após reorganização do rascunho
+
+Em 23/10/2026, o arquivo `docs/anteprojeto-modelo-uerj.md` foi reorganizado para apresentar exatamente 16 títulos numerados na ordem publicada na página oficial do modelo. O campo “Tipo de projeto” foi incorporado ao sumário executivo, a pergunta de pesquisa foi incorporada à introdução e os objetivos específicos foram consolidados em três. O resumo em português tem aproximadamente 205 palavras e o abstract em inglês aproximadamente 218, abaixo do limite de 500 palavras informado na página do modelo.
+
+Essa revisão corrige a estrutura editorial, mas **não torna o documento pronto para submissão**: ainda é necessário conferir o arquivo-modelo editável baixado, verificar o PDF integral do edital 2027 e suas exigências de formatação/documentação, preencher o nome do candidato e confirmar a adequação acadêmica. A seção de critérios de avaliação deve continuar explícita e distribuída nas seções pertinentes; a lista exata para a turma 2027 deve ser conferida no PDF vigente, sem presumir que o edital anterior seja idêntico.
