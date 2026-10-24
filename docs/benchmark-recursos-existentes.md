@@ -6,6 +6,10 @@
 
 > **Orientação de escopo:** o projeto deve começar com desenvolvimento simples e avaliação documental/técnica/pedagógica sem participantes. Este benchmark serve para fundamentar requisitos e delimitar a contribuição do protótipo; não autoriza afirmar originalidade ou eficácia. A etapa com pessoas só será considerada se a orientação acadêmica indicar que é necessária.
 
+## Documento derivado
+
+A tradução das observações deste levantamento em requisitos verificáveis, critérios de aceitação e limites de inferência está em [Matriz de tradução do benchmark em requisitos verificáveis (24/10/2026)](matriz-traducao-benchmark-requisitos-2026-10-24.md). Essa matriz não transforma o levantamento exploratório em revisão sistemática nem conclui as inspeções pendentes.
+
 ## 1. Pergunta do benchmark
 
 Que recursos públicos ajudam pacientes/usuários a preparar-se para uma teleconsulta, praticar tarefas digitais, identificar barreiras de prontidão ou resolver dificuldades técnicas, e que oportunidades de desenho ainda podem ser exploradas pelo protótipo?
