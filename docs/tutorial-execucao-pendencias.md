@@ -39,7 +39,7 @@ Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos
 - **Nenhuma execução encontrada:** confirme o commit e os filtros. Alguns workflows só rodam quando arquivos cobertos pelos filtros são alterados; uma alteração apenas documental pode não iniciar a CI.
 - **Workflow ignorado ou não executado:** isso não significa que os testes passaram.
 
-No histórico recente do projeto, o commit `d2d3044a36f72b2e87d07e13606f0068f5b5eebb` teve uma execução registrada com verificações estáticas, testes da ferramenta de busca e testes Playwright/axe-core aprovados. Isso não comprova, por si só, o estado de commits posteriores, nem substitui a verificação do commit atualmente publicado.
+No histórico recente do projeto, há execuções registradas com verificações estáticas, testes da ferramenta auxiliar de busca e testes Playwright/axe-core aprovados em commits anteriores. Consulte o SHA e a URL exatos na seção de histórico do [relatório de revisão técnica](relatorio-revisao-tecnica.md) e compare-os com o commit que está sendo avaliado. Uma aprovação anterior não comprova o estado de commits posteriores, nem substitui a verificação do commit atualmente publicado.
 
 ### A3. Guardar evidência
 
