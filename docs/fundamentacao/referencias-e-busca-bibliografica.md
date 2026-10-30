@@ -180,11 +180,11 @@ A descrição comparativa, os limites da verificação e os requisitos provisór
 |---|---|---|
 | (BRASIL, 2024a) | Decreto nº 12.198/2024 | **Confirmada** (DOU 25/09/2024, seção 1, p. 13; ementa corrigida). Ver 30/10/2026 |
 | (BRASIL, 2024b) | Portaria SGD/MGI nº 6.618/2024 | Existência e objeto confirmados; **dados do DOU e redação dos princípios a conferir** |
-| (BRASIL, 2024c) | Portaria GM/MS nº 3.232/2024 | **Confirmada** (DOU 04/03/2024, seção 1, p. 52); artigos do Anexo CVIII a conferir (AP-IA02) |
+| (BRASIL, 2024c) | Portaria GM/MS nº 3.232/2024 | **Confirmada** (DOU 04/03/2024, seção 1, p. 52); artigos do Anexo CVIII **conferidos** em 30/10/2026 (art. 2º, IV e X; art. 8º, I) em cópia do texto; URL do DOU não aberta |
 | (BRASIL, 2022) | Lei nº 14.510/2022 | **Confirmada** e ementa corrigida (DOU 28/12/2022, seção 1, p. 1) |
 | (BRASIL, 2018) | Lei nº 13.709/2018 | Metadados confirmados; **páginas do DOU a conferir** |
 | (BRASIL, 2012, 2016) | Res. CNS 466/2012 e 510/2016 | Ementas e datas do DOU confirmadas; **URL oficial a inserir** |
-| (COMITÊ GESTOR DA INTERNET NO BRASIL, 2026a, 2026b) | TIC Saúde 2025; TIC Domicílios 2025 | Números a conferir (AP-IA02) |
+| (COMITÊ GESTOR DA INTERNET NO BRASIL, 2026a, 2026b) | TIC Saúde 2025; TIC Domicílios 2025 | Números **conferidos** em 30/10/2026 (p. 4 de cada resumo executivo); **base dos indicadores e ano de TIC Domicílios (2025 ou 2026) a conferir**. Ver registros/verificacao-fontes-2026-10-30.md (AP-IA02) |
 | (HEVNER et al., 2004); (PEFFERS et al., 2007) | DSR | **Confirmadas** (DOI, volume, páginas) |
 | (KNOWLES; HOLTON; SWANSON, 2015); (SWELLER, 1988); (NIELSEN, 1993) | Referencial de aprendizagem e usabilidade | **Confirmadas** (Nielsen corrigido: Boston) |
 | (ISSENBERG et al., 2005) | Revisão BEME | **Confirmada**; formulação ajustada no texto (R10) |
