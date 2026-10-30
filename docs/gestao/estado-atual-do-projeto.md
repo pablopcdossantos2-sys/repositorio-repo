@@ -41,9 +41,7 @@ Guaraí-TO é cenário potencial de articulação, não parceria confirmada. A a
 
 ## 4. Seleção e candidatura
 
-O PDF do edital 2027 e o DOCX do modelo estão em `fontes-oficiais/` e foram conferidos em 30/10/2026 (ver `../anteprojeto/selecao/conferencia-docx-e-edital-2027-2026-10-30.md`). O edital vale só para a turma de março/2027 (item X.7).
-
-O PDF do edital 2027 e o DOCX do modelo estão em `fontes-oficiais/` e foram conferidos em 30/10/2026 (ver `../anteprojeto/selecao/conferencia-docx-e-edital-2027-2026-10-30.md`). O edital vale só para a turma de março/2027 (item X.7).
+O PDF do edital 2027 e o DOCX do modelo estão em `fontes-oficiais/` e foram conferidos em 30/10/2026 (ver [registro da conferência](../anteprojeto/selecao/conferencia-docx-e-edital-2027-2026-10-30.md)). A formulação de título, pergunta e objetivos está centralizada em [formulacao-vigente.md](../anteprojeto/formulacao-vigente.md). O edital vale só para a turma de março/2027 (item X.7).
 
 O PDF do edital arquivado indica 30/10/2026 às 12h; documentos baseados na página do Programa indicaram 29/10/2026 às 12h. Ambas as datas já passaram. O repositório não permite inferir se houve inscrição, prorrogação, recurso ou protocolo. Confirme o status diretamente no sistema e com o Programa, sem usar os antigos alertas de prazo como instruções atuais.
 
