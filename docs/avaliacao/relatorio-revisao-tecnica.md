@@ -178,7 +178,7 @@ O checklist operacional e a matriz de rastreabilidade produto–requisito estão
 
 ## 8. Inspeção estática complementar — 20/10/2026
 
-Foi realizada uma nova inspeção estática dos arquivos correntes de produto, sem execução em navegador. O registro detalhado, com hashes dos arquivos e estado por caso de auditoria, está em [Registro da auditoria estática do protótipo — 20/10/2026](registro-auditoria-estatica-2026-10-20.md).
+Foi realizada uma nova inspeção estática dos arquivos correntes de produto, sem execução em navegador. O registro detalhado, com hashes dos arquivos e estado por caso de auditoria, está em [Registro da auditoria estática do protótipo — 20/10/2026](registros/registro-auditoria-estatica-2026-10-20.md).
 
 Principais resultados: o HTML contém apenas checkboxes e rádios para checklist/escolhas; não foram encontradas referências externas em `src`/`href`; o JavaScript inspecionado não contém chamadas comuns de rede ou persistência (`fetch`, `XMLHttpRequest`, `localStorage`, `sessionStorage`, cookies, `WebSocket`, `sendBeacon`, `indexedDB`). A lógica de navegação, feedback e reinicialização foi lida estaticamente. Isso **não comprova** ausência universal de tráfego/armazenamento nem conformidade integral com WCAG.
 
@@ -187,7 +187,7 @@ Continuam pendentes a execução manual de teclado/foco, teste de rede/armazenam
 
 ## 9. Segunda revisão estática complementar — 20/10/2026
 
-Foi inspecionada novamente a versão corrente dos arquivos HTML/JS/CSS e a suíte escrita em `tests/prototype.spec.js`. O relatório específico [segunda revisão estática do protótipo](segunda-revisao-estatica-2026-10-20.md) registra hashes e resultados: 24 IDs sem duplicação na varredura, três destinos de `aria-controls` existentes, nove referências `getElementById` sem destino ausente, nenhuma URL HTTP(S) em `href`/`src` e nenhuma ocorrência das APIs comuns de rede/persistência pesquisadas no JS.
+Foi inspecionada novamente a versão corrente dos arquivos HTML/JS/CSS e a suíte escrita em `tests/prototype.spec.js`. O relatório específico [segunda revisão estática do protótipo](registros/segunda-revisao-estatica-2026-10-20.md) registra hashes e resultados: 24 IDs sem duplicação na varredura, três destinos de `aria-controls` existentes, nove referências `getElementById` sem destino ausente, nenhuma URL HTTP(S) em `href`/`src` e nenhuma ocorrência das APIs comuns de rede/persistência pesquisadas no JS.
 
 A leitura dos arquivos de teste indica cobertura escrita para navegação, foco, cenários, feedback, reinicialização, escala de facilidade, larguras de viewport, axe-core e solicitações externas durante um fluxo automatizado. Isso não significa que os testes tenham sido executados nesta rodada. Não houve execução em navegador, alteração do produto ou nova CI.
 
@@ -196,7 +196,7 @@ A escala interativa de facilidade (1–5) no encerramento foi distinguida do obj
 
 ## 10. Revisão editorial de feedbacks — 20/10/2026
 
-Os textos de situação, opções e feedback dos três cenários foram revisados para tornar a próxima ação mais concreta, reduzir ambiguidade e manter tom respeitoso e não clínico. O registro de decisões e a relação com as fontes estão em [revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+Os textos de situação, opções e feedback dos três cenários foram revisados para tornar a próxima ação mais concreta, reduzir ambiguidade e manter tom respeitoso e não clínico. O registro de decisões e a relação com as fontes estão em [revisão editorial dos cenários e feedbacks](../prototipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md).
 
 - **OE-02 — link:** orientar a conferir conexão e link/canal oficial conhecido e pedir ajuda por contato oficial conhecido; alertar contra compartilhar senhas ou dados pessoais em links inesperados.
 - **OE-03 — áudio:** conferir volume e, quando disponível, a saída de som; comunicar a dificuldade se persistir.

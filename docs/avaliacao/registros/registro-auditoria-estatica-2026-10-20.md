@@ -65,7 +65,7 @@ Foi feito cálculo estático de contraste para combinações selecionadas de tex
 
 ## 5. Próxima execução manual — ainda pendente
 
-Executar os casos AUD-03 a AUD-20 conforme [roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md), priorizando:
+Executar os casos AUD-03 a AUD-20 conforme [roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../roteiro-auditoria-tecnica-sem-participantes.md), priorizando:
 
 1. abrir a versão atual no navegador e registrar commit, navegador, versão, sistema e viewport;
 2. verificar painel Network/Application e confirmar que nenhuma resposta é enviada ou persistida;

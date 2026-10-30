@@ -87,17 +87,17 @@ Copiar e preencher para cada rodada:
 - **Limitações:**
 - **Próxima ação:**
 
-**Complemento de 20/10/2026:** a verificação preliminar de contraste foi documentada em [verificacao-preliminar-contraste-2026-10-20.md](verificacao-preliminar-contraste-2026-10-20.md). As combinações de texto selecionadas atingiram os limiares calculados, mas algumas bordas que indicam estados têm contraste abaixo de 3:1 contra o fundo adjacente. A necessidade dessas bordas como informação visual deve ser avaliada no contexto do componente; os estados reais ainda precisam de teste manual.
+**Complemento de 20/10/2026:** a verificação preliminar de contraste foi documentada em [verificacao-preliminar-contraste-2026-10-20.md](registros/verificacao-preliminar-contraste-2026-10-20.md). As combinações de texto selecionadas atingiram os limiares calculados, mas algumas bordas que indicam estados têm contraste abaixo de 3:1 contra o fundo adjacente. A necessidade dessas bordas como informação visual deve ser avaliada no contexto do componente; os estados reais ainda precisam de teste manual.
 
 ## Registro de inspeção estática inicial — 20/10/2026
 
-Foi feita uma inspeção estática parcial dos arquivos atuais de HTML, JavaScript e CSS, sem executar o protótipo no navegador e sem participantes. Resultados, hashes dos arquivos e limites estão no [Registro da auditoria estática do protótipo — 20/10/2026](registro-auditoria-estatica-2026-10-20.md). A inspeção não conclui a auditoria manual: testes de rede/armazenamento no navegador, teclado/foco, zoom, contraste integral, leitor de tela e distribuição continuam pendentes.
+Foi feita uma inspeção estática parcial dos arquivos atuais de HTML, JavaScript e CSS, sem executar o protótipo no navegador e sem participantes. Resultados, hashes dos arquivos e limites estão no [Registro da auditoria estática do protótipo — 20/10/2026](registros/registro-auditoria-estatica-2026-10-20.md). A inspeção não conclui a auditoria manual: testes de rede/armazenamento no navegador, teclado/foco, zoom, contraste integral, leitor de tela e distribuição continuam pendentes.
 
 ## 7. Referências de apoio
 
-- [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md).
-- [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md).
-- [Mapa preliminar de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md).
+- [Benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md).
+- [Matriz de evidências e requisitos](../prototipo/matriz-evidencias-requisitos.md).
+- [Mapa preliminar de objetivos educativos e tarefas](../prototipo/mapa-objetivos-educativos-e-tarefas.md).
 - [Relatório de revisão técnica](relatorio-revisao-tecnica.md).
 - [Como executar os testes localmente](como-executar-testes.md).
 - [WHO/ITU — Implementation toolkit for accessible telehealth services (2024)](https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities).
@@ -123,17 +123,17 @@ Essas verificações são pendentes. Os testes automatizados não substituem a e
 
 ## Instrumento de registro recomendado
 
-Use o [Modelo de preenchimento — auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md) para registrar cada rodada com respostas objetivas padronizadas, ambiente, evidência, defeitos e retestes. Mantenha este roteiro como visão geral de escopo/rastreabilidade; o modelo complementa o roteiro e não substitui a inspeção manual.
+Use o [Modelo de preenchimento — auditoria manual de acessibilidade](instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) para registrar cada rodada com respostas objetivas padronizadas, ambiente, evidência, defeitos e retestes. Mantenha este roteiro como visão geral de escopo/rastreabilidade; o modelo complementa o roteiro e não substitui a inspeção manual.
 
 
 ### Formulário interativo de auditoria manual (21/10/2026)
 
-Além do modelo Markdown, está disponível o [formulário HTML preenchível](formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
 
 
 ### Usabilidade do formulário de auditoria — ajuda contextual (21/10/2026)
 
-O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](formulario-auditoria-manual-acessibilidade.html).
+O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](instrumentos/formulario-auditoria-manual-acessibilidade.html).
 
 
 ## Registro da auditoria manual (21/10/2026)
