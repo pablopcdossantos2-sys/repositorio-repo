@@ -4,7 +4,7 @@ A documentação está organizada por fases do trabalho e por tipo de evidência
 
 ## Fases principais
 
-- [Anteprojeto e seleção](anteprojeto/README.md) — rascunho acadêmico, editais, modelo oficial, fontes da seleção, submissão e decisões metodológicas.
+- [Anteprojeto e seleção](anteprojeto/README.md) — texto-base na estrutura do DOCX oficial, edital, fontes da seleção, submissão e decisões metodológicas.
 - [Fundamentação](fundamentacao/README.md) — estratégia bibliográfica, registros de busca, referências e benchmark.
 - [Protótipo](prototipo/README.md) — escopo do simulador, objetivos, requisitos e decisões de conteúdo.
 - [Avaliação](avaliacao/README.md) — testes, auditorias, instrumentos, registros e protocolos.
