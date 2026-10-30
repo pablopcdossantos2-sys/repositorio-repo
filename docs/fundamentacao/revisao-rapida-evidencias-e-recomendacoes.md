@@ -109,7 +109,7 @@ Outro estudo qualitativo multicêntrico dos EUA, publicado em setembro de 2026, 
 
 Em 2025, uma análise de 1.661 adultos usuários de internet na Polônia examinou visitas médicas remotas por telefone. Literacia em saúde digital, ansiedade tecnológica, idade e escolaridade apresentaram associação estatística com o escore de usabilidade; o estudo foi observacional e baseado em autorrelato, em sistema e contexto diferentes. A utilidade para o projeto é lembrar que a experiência digital não é homogênea, e não usar coeficientes ou estimativas desse país como previsão para Guaraí.
 
-**Implicações adicionais:** (1) incluir na inspeção de interface se cada ação apresenta feedback compreensível; (2) planejar tarefas observadas com possibilidade de registrar necessidade de ajuda; (3) discutir se familiaridade digital e acesso a dispositivo/conectividade precisam ser descritos no protocolo; (4) mapear barreiras do serviço antes de propor funcionalidades. Não adicionar um modo de onboarding extenso automaticamente: primeiro testar se a interface existente pode ser compreendida e se instruções breves bastam.
+**Implicações adicionais:** (1) incluir na inspeção de interface se cada ação apresenta feedback claro e coerente com o objetivo; (2) manter um roteiro de tarefas para inspeção estruturada; observação com participantes e registro de necessidade de ajuda só se houver etapa condicional aprovada; (3) não transformar familiaridade digital, dispositivo ou conectividade em triagem na Camada 0; (4) mapear barreiras do serviço por fontes públicas e contato institucional exploratório, sem coleta de dados de usuários. Não adicionar um modo de onboarding extenso automaticamente.
 
 Fontes: [Raanhuis et al., 2026](https://doi.org/10.3233/SHTI260651); [Khairat et al., 2026](https://doi.org/10.7812/TPP/26.102); [Duplaga, 2025](https://doi.org/10.3233/SHTI251307).
 
@@ -118,10 +118,10 @@ Fontes: [Raanhuis et al., 2026](https://doi.org/10.3233/SHTI260651); [Khairat et
 | Prioridade | Recomendação | Critério verificável de conclusão |
 |---|---|---|
 | P0 | Finalizar a busca bibliográfica formal | Estratégias efetivamente executadas, datas, resultados, duplicatas, exclusões e seleção documentados; leitura integral e avaliação crítica conforme o plano. |
-| P0 | Definir pergunta, resultados e instrumento com a orientação | Protocolo descreve população, contexto, tarefas, medidas, análise e limites das inferências; questionário escolhido e justificado. |
+| P0 | Validar com a orientação a pergunta, os critérios de inspeção e o desenho condicional | Protocolo-base descreve artefatos, critérios, inspetores, análise e limites; questionários e medidas com participantes só serão definidos se essa etapa for solicitada. |
 | P0 | Confirmar cenário e aprovações aplicáveis | Registro das decisões institucionais e verificação dos trâmites éticos antes de atividades com participantes. |
 | P1 | Reforçar a avaliação da compreensão | Além da opção estruturada, incluir resposta em palavras próprias a cenário fictício, com rubrica predefinida; aplicar só conforme o protocolo aprovado. |
-| P1 | Preparar roteiro de observação de tarefas | Para cada tarefa, registrar sucesso, necessidade de ajuda, tipo de erro, dificuldade e observação contextual; não usar apenas tempo como sucesso. |
+| P1 | Manter roteiro de tarefas para inspeção e, condicionalmente, observação com pessoas | Na Camada 0, registrar comportamento técnico e consistência por inspeção; somente em etapa com participantes aprovada registrar sucesso, necessidade de ajuda, erros e contexto. Não usar apenas tempo como sucesso. |
 | P1 | Executar testes de acessibilidade e dispositivos | Ambiente, dimensões, zoom, teclado, leitor de tela, contraste e resultados registrados no relatório técnico. |
 | P1 | Fechar a rastreabilidade dos requisitos | Cada requisito aponta para justificativa, implementação, teste realizado e resultado; pendências não são marcadas como concluídas sem evidência. |
 | P2 | Introduzir automação mínima de qualidade | Verificação repetível de HTML e dos principais comportamentos, com instruções para executar localmente. |
