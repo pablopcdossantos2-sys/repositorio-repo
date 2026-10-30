@@ -16,6 +16,5 @@ Fonte da lista: `../selecao/fontes-oficiais/Corpo_Docente_Programa_De_Pos_Gradua
 | Vera Maria Benjamim Werneck | Permanente | | | | |
 
 Regras: citar só o que estiver no Lattes ou na página do Programa; não inferir aderência pelo nome; não contatar docentes (o passo a passo do Programa orienta usar o sistema de inscrição).
-```
 
 ---
