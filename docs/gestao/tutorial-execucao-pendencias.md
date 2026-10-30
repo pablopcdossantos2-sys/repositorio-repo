@@ -264,15 +264,11 @@ O prazo de inscrição indicado no edital (30/10/2026, às 12h) já passou. O re
 5. Revisar o texto-base `docs/anteprojeto/rascunhos/anteprojeto-docx-oficial.md` com a própria voz do candidato, resolver as marcas pendentes, confirmar as decisões D1–D9 e solicitar revisão da orientação. Não submeter texto gerado por IA sem revisão autoral.
 6. Migrar para uma cópia do DOCX oficial somente depois de confirmar que o modelo continua vigente; não editar o arquivo oficial preservado.
 
-### F2. Evidência mínima para fechar esta parte
+### F2. Onde registrar o estado
 
-- [x] PDF integral do edital 2027 identificado e conferido.
-- [x] DOCX oficial aberto e sua estrutura interna conferida.
-- [x] Corpo docente oficial conferido e lista de docentes permanentes identificada.
-- [ ] Cenário da candidatura informado pelo candidato e registrado sem inferência.
-- [ ] Próximo prazo e edital confirmados diretamente com o Programa, se aplicável.
-- [ ] Texto-base revisado pelo candidato e pela orientação.
-- [ ] Se houve submissão, comprovante oficial preservado em local privado (não publicar dados pessoais no repositório).
+O status e as pendências desta fase ficam exclusivamente em [Pendências do anteprojeto](../anteprojeto/pendencias.md). Atualize aquele arquivo quando o candidato fornecer uma confirmação, quando a IA concluir uma tarefa verificável ou quando uma decisão mudar.
+
+A conferência do edital/DOCX de 30/10/2026 já está registrada como concluída em [conferência documental](../anteprojeto/selecao/conferencia-docx-e-edital-2027-2026-10-30.md). Não replique aqui checklists de status. Este tutorial mantém apenas instruções operacionais para executar tarefas e registrar evidências.
 
 ---
 
