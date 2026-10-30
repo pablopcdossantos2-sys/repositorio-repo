@@ -54,8 +54,6 @@ O projeto desenvolve um recurso educativo web, em português brasileiro, no qual
 - [ ] Slides revistos em tela cheia, com legibilidade e duração dentro das regras oficiais.
 
 
-## Respostas-base ancoradas no texto
-
 ## Apêndice C — Respostas-base para a defesa (conferir com o texto efetivamente enviado)
 
 Cada resposta cabe em 20 a 30 segundos. Elas assumem o texto-base; no Cenário A, **ajuste ao PDF enviado**.
@@ -65,7 +63,7 @@ Cada resposta cabe em 20 a 30 segundos. Elas assumem o texto-base; no Cenário A
 | Por que um simulador e não um vídeo ou um guia? | Vídeos e guias mostram o que fazer; o simulador faz a pessoa **decidir** e receber explicação. Há literatura de simulação em saúde que aponta o feedback como elemento central de aprendizagem (Issenberg et al., 2005) [conferir]. A hipótese é minha e será examinada por comparação com os recursos existentes, não afirmada. |
 | O que é novo aqui? | Não digo que é o primeiro recurso de preparo. A contribuição está na combinação de prática de escolhas com feedback, foco em ações seguras, português simples sem cadastro e adaptação a outros serviços. A busca sistemática e a matriz comparativa vão testar essa combinação. |
 | Como a avaliação sem participantes responde à pergunta? | A pergunta é sobre **conformidade a requisitos** derivados da literatura, medida por inspeção com critérios prévios e inspetor independente. Ela não responde se as pessoas aprendem; isso é continuidade, e há uma etapa condicional prevista. |
-| Por que não testar com usuários? | Porque o acesso ao campo e a aprovação do CEP só são possíveis após a matrícula. A etapa condicional está no cronograma (meses 14–19). Sem ela, as conclusões se limitam ao que foi inspecionado. |
+| Por que não testar com usuários? | Porque a pergunta vigente pode ser respondida, no plano-base, pela inspeção de requisitos derivados da literatura e de recursos existentes. A inclusão de pessoas não é presumida: será considerada somente se a orientação indicar necessidade, houver viabilidade e forem obtidas as aprovações aplicáveis. Sem essa etapa, as conclusões ficam limitadas ao que foi documentado e inspecionado. |
 | Cabe em 24 meses? | Sim: o simulador já existe como prova de conceito, a arquitetura é estática e a etapa-base não depende de campo. O cronograma tem folga para o CEP. |
 | Qual o impacto no SUS Digital? | Contribui para o eixo de cultura, formação e educação permanente em saúde digital do Programa SUS Digital (Portaria 3.232/2024), por prática educativa. Não se integra a sistemas e não promete mudar desfechos. |
 | Como trata equidade? | Por requisitos concretos: celular e baixo consumo de dados, linguagem simples, teclado e leitor de tela, e alternativas por texto para quem não ouve. Não presumo baixa familiaridade por idade ou escolaridade. |
