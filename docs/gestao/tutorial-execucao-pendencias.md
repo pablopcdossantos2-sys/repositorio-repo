@@ -286,7 +286,7 @@ O endereço oficial identificado para o arquivo editável é:
 4. Abra uma cópia no Microsoft Word ou LibreOffice Writer. Não edite o original baixado.
 5. Confira todas as páginas e instruções internas: margens, fonte, espaçamento, cabeçalhos/rodapés, limites, campos obrigatórios e orientações que não aparecem na página web.
 6. Verifique se o arquivo é de fato o modelo aplicável à seleção de 2027. O nome do arquivo conter “2026” exige confirmação explícita no edital/página oficial; não presuma compatibilidade.
-7. Compare o DOCX com `docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md`, seção por seção. A página pública menciona 16 seções, mas o próprio arquivo editável e o edital vigente prevalecem se houver divergência.
+7. Compare o DOCX com `docs/anteprojeto/rascunhos/anteprojeto-docx-oficial.md`, seção por seção. A página pública menciona 16 seções, mas o próprio arquivo editável e o edital vigente prevalecem se houver divergência.
 8. Registre cada diferença, requisito e correção necessária. Não altere o modelo oficial para fazê-lo coincidir com o rascunho.
 
 ### F4. Revisar o anteprojeto contra os requisitos confirmados
