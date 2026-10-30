@@ -1,21 +1,20 @@
-# Anteprojeto
+# Anteprojeto e seleção
 
-Esta pasta reúne os materiais da fase de concepção e preparação acadêmica.
+Esta área reúne os materiais da concepção acadêmica, seleção e preparação de candidatura.
 
 ## Documento de trabalho
 
-- [`rascunhos/anteprojeto-modelo-uerj.md`](rascunhos/anteprojeto-modelo-uerj.md) — rascunho interno. **Não é uma cópia do DOCX oficial**: foi estruturado a partir de uma listagem de 16 itens publicada na web, que diverge do modelo DOCX identificado no relatório `relatorios/relatorio01.md`. Não usar diretamente para submissão antes da migração e conferência no modelo editável oficial.
-- [`versoes-anteriores/anteprojeto-base.md`](versoes-anteriores/anteprojeto-base.md) — versão anterior, preservada para histórico; não é a fonte vigente.
+- [Rascunho para adaptação](rascunhos/anteprojeto-modelo-uerj.md) — material interno, não é o DOCX oficial e não está pronto para submissão.
+- [Decisões metodológicas](decisoes-metodologicas.md) — opções e questões a validar com a orientação.
+- [Planejamento institucional e ético](planejamento/parceria-e-etica.md) — Guaraí-TO permanece cenário potencial, sem parceria formal.
 
-## Seleção e requisitos
+## Seleção
 
-A subpasta [`selecao/`](selecao/) concentra a análise do edital, a conferência do modelo e os registros históricos de escolha de tema. O projeto ativo é exclusivamente o Tema 4 — Treino de Teleconsulta.
+- [Análise do edital e lacunas](selecao/analise-edital-turma-2027-e-lacunas.md).
+- [Conferência do modelo e edital](selecao/conferencia-modelo-e-edital-2027-2026-10-24.md).
+- [Fontes oficiais armazenadas](selecao/fontes-oficiais/README.md) — edital, modelo DOCX e corpo docente.
+- [Critérios e histórico da escolha do tema](selecao/criterios-edital-e-cinco-temas.md). O documento comparativo integral está arquivado.
 
-## Submissão e planejamento
+## Submissão
 
-- [`submissao/`](submissao/) — minutas de documentos de candidatura.
-- [`planejamento/`](planejamento/) — decisões metodológicas, articulação institucional e cautelas éticas.
-
-## Revisão crítica
-
-O relatório de análise fica em [`../../relatorios/relatorio01.md`](../../relatorios/relatorio01.md). Suas recomendações de estrutura do DOCX, governança de dados, cronograma de 24 meses, tipo de produto e proposta de valor ainda precisam ser verificadas e incorporadas com a orientação acadêmica. Não preencher campos ou afirmar resultados, parcerias, aprovação ética ou etapas com participantes sem evidência.
+As minutas estão em [submissao/](submissao/). A subpasta [documentos-finais](submissao/documentos-finais/README.md) registra a situação dos arquivos finais. Não há anteprojeto DOCX/PDF final nem comprovante de submissão versionados neste repositório.
