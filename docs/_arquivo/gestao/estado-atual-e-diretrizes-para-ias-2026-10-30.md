@@ -127,7 +127,7 @@ Se uma passagem antiga contradisser a diretriz vigente, não a reproduzir automa
 
 Antes de executar uma tarefa:
 
-1. Ler este documento; depois consultar `../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md` e o documento específico da tarefa.
+1. Ler este documento; depois consultar `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md` e o documento específico da tarefa.
 2. Conferir o conteúdo atual de `main` e os links/commits relevantes; não confiar somente em contexto de conversa anterior ou em um resumo antigo.
 3. Respeitar o tema exclusivo, o escopo mínimo e a diretriz sem participantes como padrão.
 4. Distinguir fatos implementados, evidências verificadas, decisões registradas, hipóteses e tarefas futuras.
@@ -163,7 +163,7 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 ## Atualização de continuidade — apresentação oral (20/10/2026)
 
-Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e já foi adicionada ao repositório: [apresentação ODP](../apresentacao/defesa-oral-atualizada.odp) e [guia Markdown](../apresentacao/guia-defesa-oral-atualizado.md). O pacote ODP foi verificado estruturalmente e convertido em PDF pelo LibreOffice Impress, gerando 15 páginas. Uma inspeção de miniaturas confirmou que as 15 páginas estão presentes; ainda é necessário revisar a legibilidade em tamanho real e personalizar os campos do candidato.
+Foi criada uma apresentação de defesa oral em formato `.odp` e um guia complementar em Markdown. A versão atual contém 15 slides (13 principais e 2 anexos) e já foi adicionada ao repositório: [apresentação ODP](../../defesa/historico/defesa-oral-versao-anterior.odp) e [guia Markdown](../../defesa/guia-defesa-oral.md). O pacote ODP foi verificado estruturalmente e convertido em PDF pelo LibreOffice Impress, gerando 15 páginas. Uma inspeção de miniaturas confirmou que as 15 páginas estão presentes; ainda é necessário revisar a legibilidade em tamanho real e personalizar os campos do candidato.
 
 ### Conteúdo alinhado ao estado atual
 
@@ -262,10 +262,10 @@ Nenhum arquivo do produto foi alterado e não houve nova execução da CI.
 
 ### Alterações documentais confirmadas
 
-- O `../avaliacao/auditorias/manual/2026-10-21/README.md` teve removidas as seções “Situação atual”, “Aviso” e “Preparação para defesa oral”, conforme solicitado. O tutorial foi referenciado na estrutura do repositório, sem restaurar essas seções.
+- O `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md` teve removidas as seções “Situação atual”, “Aviso” e “Preparação para defesa oral”, conforme solicitado. O tutorial foi referenciado na estrutura do repositório, sem restaurar essas seções.
 - Foi criado [Tutorial didático: abrir e testar o protótipo](../../avaliacao/tutorial-instalar-e-testar-prototipo.md). Ele explica que a aplicação web não exige instalação, mas que os testes automatizados requerem Node.js 24.8.0 ou posterior, `npm ci`, instalação do Chromium do Playwright e execução de `npm test`.
 - O tutorial foi vinculado a `produto/README.md` e `../avaliacao/como-executar-testes.md).
-- A pergunta de pesquisa e o objetivo foram harmonizados em `../avaliacao/auditorias/manual/2026-10-21/README.md`, `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md) para focar no desenvolvimento e na avaliação documental, técnica, pedagógica e de acessibilidade sem participantes.
+- A pergunta de pesquisa e o objetivo foram harmonizados em `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md`, `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md) para focar no desenvolvimento e na avaliação documental, técnica, pedagógica e de acessibilidade sem participantes.
 - A hipótese do anteprojeto-base foi reescrita como proposição de design verificável. Não afirmar que o simulador já é utilizável pelo público-alvo, melhora a aprendizagem ou altera resultados de teleconsulta.
 
 ### Formulação de trabalho atual
@@ -283,7 +283,7 @@ Essa formulação reduz o risco de prometer uma avaliação de resultados que o 
 
 ### Instruções para a próxima IA
 
-1. Ler esta diretriz, `../avaliacao/auditorias/manual/2026-10-21/README.md` e `ROADMAP.md` antes de alterar arquivos.
+1. Ler esta diretriz, `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md` e `ROADMAP.md` antes de alterar arquivos.
 2. Priorizar as buscas formais com resultados verificáveis e a revisão documental dos textos/feedbacks do protótipo.
 3. Se alterar código, orientar o desenvolvedor a executar o tutorial, associar os resultados ao commit exato e atualizar o relatório técnico.
 4. Não ampliar o encerramento para uma nova tarefa interativa antes de revisar sua necessidade pedagógica e a rastreabilidade de OE-05.
@@ -330,7 +330,7 @@ Foi registrada em `../fundamentacao/registros/registro-busca-estruturada-2026-10
 - OE-04 (esclarecimento): feedback orienta pedir repetição/explicação alternativa e confirmar o próximo passo, sem adivinhar ou criar orientação clínica.
 - Criado `../protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md`, com texto revisado, racional, fontes contextuais e verificações pendentes.
 - Atualizado `../protótipo/mapa-objetivos-educativos-e-tarefas.md` e os anteprojetos `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md`.
-- O `../avaliacao/auditorias/manual/2026-10-21/README.md` foi atualizado com link para o novo registro. As seções “Preparação para defesa oral”, “Situação atual” e “Aviso” continuam removidas.
+- O `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md` foi atualizado com link para o novo registro. As seções “Preparação para defesa oral”, “Situação atual” e “Aviso” continuam removidas.
 - Adicionado teste Playwright em `tests/prototype.spec.js` para verificar a presença de instruções concretas nos feedbacks dos três cenários.
 
 ### Evidências e limites
@@ -361,7 +361,7 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 - [Registro editorial](../../prototipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) atualizado com os textos, o racional, as fontes documentadas e as verificações pendentes.
 - `../protótipo/mapa-objetivos-educativos-e-tarefas.md` atualizado para refletir a revisão editorial, sem declarar validação com usuários.
 - `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` fortalecidos com uma distinção mais explícita entre evidência publicada e hipótese de design. A revisão de escopo de Galvin et al. (2024) descreve evidência limitada/mista de melhoria da competência; o benchmark já identificou Digital House Calls, então a estrutura antes/durante/depois e o caráter autoguiado não são apresentados como novidade exclusiva.
-- `../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md` e `roadmap-historico-resumido.md` apontam para a revisão editorial; os roadmaps registram a revisão como concluída e priorizam os testes de regressão.
+- `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md` e `roadmap-historico-resumido.md` apontam para a revisão editorial; os roadmaps registram a revisão como concluída e priorizam os testes de regressão.
 
 ### Decisões e limites que permanecem
 
@@ -443,7 +443,7 @@ O documento `../protótipo/produto-minimo.md` agora aponta diretamente para a ma
 A matriz, a especificação do produto, o mapa de objetivos, o README, o anteprojeto e os roadmaps devem permanecer consistentes. As pendências de execução de testes, auditoria manual e busca bibliográfica formal continuam abertas.
 
 
-O roadmap técnico `roadmap-historico-resumido.md` também aponta para a matriz de critérios, junto do `../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md`, mapa de objetivos, especificação do produto e anteprojetos. Esta verificação foi documental; não altera o estado dos testes.
+O roadmap técnico `roadmap-historico-resumido.md` também aponta para a matriz de critérios, junto do `../avaliacao/../../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md`, mapa de objetivos, especificação do produto e anteprojetos. Esta verificação foi documental; não altera o estado dos testes.
 
 
 ## Atualização de continuidade — segunda simplificação editorial dos cenários (20/10/2026)
@@ -516,7 +516,7 @@ O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos context
 
 ## Registro da auditoria manual (21/10/2026)
 
-Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../../avaliacao/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
 
 
 ## Atualização de continuidade — rastreabilidade e estado das evidências (24/10/2026)

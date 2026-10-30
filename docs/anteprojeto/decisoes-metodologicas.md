@@ -1,6 +1,6 @@
 # Decisões metodológicas — Treino de Teleconsulta
 
-> **Referência de contexto vigente:** [Estado atual do projeto e diretrizes para IAs](../gestao/estado-atual-e-diretrizes-para-ias.md). A diretriz atual é começar com avaliação documental, técnica, pedagógica e de acessibilidade sem participantes; qualquer atividade com pessoas depende de indicação da orientação, viabilidade e autorizações aplicáveis.
+> **Referência de contexto vigente:** [Estado atual do projeto e diretrizes para IAs](../gestao/estado-atual-do-projeto.md). A diretriz atual é começar com avaliação documental, técnica, pedagógica e de acessibilidade sem participantes; qualquer atividade com pessoas depende de indicação da orientação, viabilidade e autorizações aplicáveis.
 
 > **Documento de trabalho para discussão com a orientação.** Registra preferências iniciais e recomendações, não decisões institucionais definitivas. Não há aprovação ética presumida, campo confirmado, parceria estabelecida, recrutamento autorizado ou amostra definida. Nenhuma atividade de pesquisa com participantes deve começar antes de verificar e obter as aprovações institucionais e éticas aplicáveis.
 

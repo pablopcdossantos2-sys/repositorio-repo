@@ -194,6 +194,6 @@ Registre o nome do teste, o passo, o resultado esperado e o observado. Não marq
 
 - [Como executar as verificações técnicas](como-executar-testes.md).
 - [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md).
-- [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md).
+- [Estado atual do projeto e diretrizes para IAs](../gestao/estado-atual-do-projeto.md).
 - [Documentação oficial do Node.js](https://nodejs.org/).
 - [Documentação oficial do Playwright](https://playwright.dev/docs/intro).

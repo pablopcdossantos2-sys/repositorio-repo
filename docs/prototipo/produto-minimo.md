@@ -1,6 +1,6 @@
 # Especificação do produto mínimo — Treino de Teleconsulta
 
-> Para manter a continuidade, leia [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). O plano inicial é desenvolvimento e avaliação técnica/pedagógica sem participantes; as tarefas abaixo são candidatas para inspeção interna. Testes com pessoas só serão incluídos se a orientação acadêmica indicar que são necessários e após confirmar viabilidade e autorizações.
+> Para manter a continuidade, leia [Estado atual do projeto e diretrizes para IAs](../gestao/estado-atual-do-projeto.md). O plano inicial é desenvolvimento e avaliação técnica/pedagógica sem participantes; as tarefas abaixo são candidatas para inspeção interna. Testes com pessoas só serão incluídos se a orientação acadêmica indicar que são necessários e após confirmar viabilidade e autorizações.
 
 ## Propósito
 

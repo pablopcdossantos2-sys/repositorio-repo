@@ -1,6 +1,6 @@
 # Guia operacional das tarefas pessoais do projeto
 
-> **Leia primeiro:** [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). Diretriz vigente: priorizar desenvolvimento do protótipo e avaliação documental/técnica sem participantes. A tarefa de consultar campo/parceria é opcional e só deve ser priorizada se houver indicação da orientação; entrevistas, codesenho ou teste com pessoas não fazem parte do plano inicial.
+> **Leia primeiro:** [Estado atual do projeto e diretrizes para IAs](../../gestao/estado-atual-do-projeto.md). Diretriz vigente: priorizar desenvolvimento do protótipo e avaliação documental/técnica sem participantes. A tarefa de consultar campo/parceria é opcional e só deve ser priorizada se houver indicação da orientação; entrevistas, codesenho ou teste com pessoas não fazem parte do plano inicial.
 
 **Projeto:** Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital  
 **Versão:** 1.0 — 19/10/2026  
@@ -291,7 +291,7 @@ Use “Bloqueada” quando a próxima ação depender de decisão, aprovação o
 
 ## Documentos de apoio
 
-- [Critérios do edital e decisão de tema](criterios-edital-e-seis-temas.md)
+- [Critérios do edital e decisão de tema](../../_arquivo/anteprojeto/criterios-edital-e-seis-temas-2026-10-30.md)
 - [Anteprojeto organizado conforme o modelo da UERJ](../../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md)
 - [Carta de exposição de motivos](../../anteprojeto/submissao/carta-exposicao-de-motivos.md)
 - [Declaração de conhecimento da Deliberação nº 13/2023](../../anteprojeto/submissao/declaracao-conhecimento-deliberacao-13-2023.md)

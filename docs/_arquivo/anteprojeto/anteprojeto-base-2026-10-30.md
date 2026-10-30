@@ -1,4 +1,4 @@
-> **Arquivo histórico — versão não vigente.** Esta versão contém decisões anteriores e objetivos específicos em número diferente do rascunho de trabalho. Para continuidade, consulte [`../rascunhos/anteprojeto-modelo-uerj.md`](../../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md) e as diretrizes atuais em [`../../gestao/estado-atual-e-diretrizes-para-ias.md`](../../gestao/estado-atual-e-diretrizes-para-ias.md). Não reutilizar trechos sem conferir a coerência com a versão atual.
+> **Arquivo histórico — versão não vigente.** Esta versão contém decisões anteriores e objetivos específicos em número diferente do rascunho de trabalho. Para continuidade, consulte [`../rascunhos/anteprojeto-modelo-uerj.md`](../../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md) e as diretrizes atuais em [`../../gestao/estado-atual-do-projeto.md`](../../gestao/estado-atual-do-projeto.md). Não reutilizar trechos sem conferir a coerência com a versão atual.
 
 # Anteprojeto — versão de trabalho
 

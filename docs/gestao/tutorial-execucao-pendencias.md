@@ -16,7 +16,7 @@ O protótipo é um simulador educativo fictício. Não use dados reais de pacien
 
 1. Abra o repositório: <https://github.com/pablopcdossantos2-sys/repositorio-repo>.
 2. Entre em **Code** e confira a branch `main`.
-3. Abra o arquivo [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md) antes de alterar código ou documentação.
+3. Abra o arquivo [Estado atual do projeto e diretrizes para IAs](estado-atual-do-projeto.md) antes de alterar código ou documentação.
 4. Abra [o modelo de auditoria manual](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) e faça uma cópia para a nova rodada. **Não substitua nem reescreva** o registro histórico `AUD-MAN-2026-10-21-01`: ele permanece inconclusivo se não tiver evidências observáveis.
 5. Registre a data, o commit que está sendo testado e o ambiente real utilizado. Se não souber o commit, na página principal do repositório copie o identificador curto exibido no commit mais recente da branch `main`.
 6. Use um perfil de navegador sem dados pessoais e feche outras abas que possam exibir informações privadas.

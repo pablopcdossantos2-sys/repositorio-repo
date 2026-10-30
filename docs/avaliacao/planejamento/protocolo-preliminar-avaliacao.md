@@ -1,6 +1,6 @@
 # Protocolo preliminar de avaliação — Treino de Teleconsulta
 
-> **Documento de trabalho; não é protocolo aprovado.** Antes de alterar este protocolo, leia [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). O plano inicial é avaliação documental, técnica, pedagógica e de acessibilidade sem participantes. Esta proposta precisa ser discutida com a orientação e ajustada ao edital e às instâncias institucionais/éticas aplicáveis. Não iniciar recrutamento, entrevistas, testes de pesquisa ou coleta com participantes antes de verificar e obter as aprovações necessárias.
+> **Documento de trabalho; não é protocolo aprovado.** Antes de alterar este protocolo, leia [Estado atual do projeto e diretrizes para IAs](../../gestao/estado-atual-do-projeto.md). O plano inicial é avaliação documental, técnica, pedagógica e de acessibilidade sem participantes. Esta proposta precisa ser discutida com a orientação e ajustada ao edital e às instâncias institucionais/éticas aplicáveis. Não iniciar recrutamento, entrevistas, testes de pesquisa ou coleta com participantes antes de verificar e obter as aprovações necessárias.
 
 ## 1. Finalidade
 

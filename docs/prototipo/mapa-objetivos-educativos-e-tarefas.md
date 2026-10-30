@@ -63,7 +63,7 @@ Ver [implementação da prática de encerramento (OE-05)](historico/implementaca
 - [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md): inventaria a cobertura automatizada observável e explicita o que ainda exige execução de CI ou inspeção manual.
 - [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md): fornece os casos AUD-01 a AUD-20 para inspeção.
 - [Especificação do produto mínimo](produto-minimo.md): descreve limites e funcionalidades atuais.
-- [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md): define a diretriz de escopo vigente.
+- [Estado atual do projeto e diretrizes para IAs](../gestao/estado-atual-do-projeto.md): define a diretriz de escopo vigente.
 - [Segunda revisão estática do protótipo — 20/10/2026](../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md): registra a inspeção de IDs, referências, APIs comuns e a distinção entre conteúdo de encerramento e escala de facilidade.
 
 ## 8. Próximas ações

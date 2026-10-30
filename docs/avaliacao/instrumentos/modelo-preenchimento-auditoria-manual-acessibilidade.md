@@ -281,4 +281,4 @@ Para relacionar os casos da ficha aos critérios aplicáveis do toolkit oficial 
 
 ## Registro da auditoria manual (21/10/2026)
 
-Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.

@@ -67,7 +67,7 @@ Estas tarefas são automatizáveis ou documentais, mas **não devem ser confundi
 
 ## Fontes internas
 
-- [Testes Playwright/axe-core](../tests/prototype.spec.js)
+- [Testes Playwright/axe-core](../../tests/prototype.spec.js)
 - [Mapa de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md)
 - [Especificação do produto mínimo](produto-minimo.md)
 - [Modelo de auditoria manual de acessibilidade](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md)

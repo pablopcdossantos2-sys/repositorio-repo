@@ -2,7 +2,7 @@
 
 # Roadmap de desenvolvimento — Treino de Teleconsulta
 
-> Antes de alterar código, método ou escopo, leia [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md), que reúne as decisões atuais e os limites das propostas condicionais.
+> Antes de alterar código, método ou escopo, leia [Estado atual do projeto e diretrizes para IAs](../../gestao/estado-atual-do-projeto.md), que reúne as decisões atuais e os limites das propostas condicionais.
 
 Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital**. A escolha de tema foi registrada em 20/10/2026; o anteprojeto e o protótipo continuam em refinamento.
 
@@ -157,4 +157,4 @@ O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos context
 
 ## Registro da auditoria manual (21/10/2026)
 
-Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../../avaliacao/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.

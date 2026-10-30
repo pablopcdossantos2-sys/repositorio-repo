@@ -1,6 +1,6 @@
 # ROADMAP — Treino de Teleconsulta
 
-> **Leitura obrigatória para continuidade entre IAs:** [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). Em caso de conflito com listas de tarefas ou propostas antigas, confira a diretriz metodológica vigente antes de agir.
+> **Leitura obrigatória para continuidade entre IAs:** [Estado atual do projeto e diretrizes para IAs](../../gestao/estado-atual-do-projeto.md). Em caso de conflito com listas de tarefas ou propostas antigas, confira a diretriz metodológica vigente antes de agir.
 
 **Atualizado em:** 24/10/2026  
 **Branch de referência:** `main`  
@@ -167,7 +167,7 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 - [x] Preparar guia complementar em Markdown com roteiro de fala, perguntas prováveis e checklist de preparação.
 - [x] Atualizar a apresentação para não pressupor entrevistas, amostra, parceria institucional, testes com participantes ou eficácia clínica.
 - [x] Corrigir a descrição das evidências técnicas: o último CI documentado contém 22 testes Playwright + axe-core aprovados no commit de código registrado; auditoria manual e busca bibliográfica formal seguem pendentes.
-- [x] Adicionar os arquivos finais à pasta `apresentacao/`: [apresentação ODP](../../apresentacao/defesa-oral-atualizada.odp) e [guia Markdown](../../apresentacao/guia-defesa-oral-atualizado.md). O pacote ODP foi aberto e convertido em PDF pelo LibreOffice Impress, com 15 páginas geradas. A inspeção visual de miniaturas não identificou páginas ausentes; a revisão de legibilidade em tela cheia e a personalização pelo candidato continuam pendentes.
+- [x] Adicionar os arquivos finais à pasta `apresentacao/`: [apresentação ODP](../../defesa/historico/defesa-oral-versao-anterior.odp) e [guia Markdown](../../defesa/guia-defesa-oral.md). O pacote ODP foi aberto e convertido em PDF pelo LibreOffice Impress, com 15 páginas geradas. A inspeção visual de miniaturas não identificou páginas ausentes; a revisão de legibilidade em tela cheia e a personalização pelo candidato continuam pendentes.
 - [ ] Personalizar nome e motivação do candidato e confirmar no edital vigente duração e permissão de slides.
 
 **Arquivos adicionados:** `apresentacao/defesa-oral-atualizada.odp` e `apresentacao/guia-defesa-oral-atualizado.md`. A apresentação é material de preparação, não substitui a conferência do edital vigente nem validação acadêmica do método.
@@ -405,7 +405,7 @@ O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos context
 
 ## Registro da auditoria manual (21/10/2026)
 
-Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../avaliacao/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../../avaliacao/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
 
 ## Atualização — regressão das preferências visuais (21/10/2026)
 

@@ -46,5 +46,5 @@ Uma rodada documental/técnica pode ser considerada concluída apenas quando hou
 - [Mapa de objetivos educativos, tarefas e critérios](mapa-objetivos-educativos-e-tarefas.md)
 - [Especificação do produto mínimo](produto-minimo.md)
 - [Matriz de aplicabilidade WHO/ITU ao protótipo](matriz-aplicabilidade-who-itu-prototipo.md)
-- [Estado atual e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md)
+- [Estado atual e diretrizes para IAs](../gestao/estado-atual-do-projeto.md)
 - [Galvin et al. (2024), revisão de escopo no JMIR](https://www.jmir.org/2024/1/e57586/)
