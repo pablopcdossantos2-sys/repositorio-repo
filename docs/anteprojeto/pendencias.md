@@ -1,6 +1,6 @@
 # Pendências — Anteprojeto e seleção
 
-**Atualização:** 30/10/2026  
+**Atualização:** 30/10/2026 — rodada 1 da AP-IA03 executada; revisão bibliográfica permanece aberta.  
 **Estado:** texto-base v1 estruturado; revisão autoral e validação acadêmica pendentes.  
 **Referências:** [formulação vigente](formulacao-vigente.md), [texto-base](rascunhos/anteprojeto-docx-oficial.md), [decisões metodológicas](decisoes-metodologicas.md).
 
@@ -19,9 +19,9 @@ Este é o registro único das pendências desta fase. Atualize-o à medida que c
 
 ## B. A IA pode solucionar autonomamente
 
-- [ ] **AP-IA01 — Auditar a consistência interna do texto-base** após cada decisão humana: título, pergunta, objetivos, método, cronograma, resumo e abstract. **Evidência:** relatório de consistência e alterações rastreáveis. **Situação:** rodada 1 (linha de base) executada em 30/10/2026; relatório em registros/auditoria-consistencia-2026-10-30.md. Reexecutar após D2, D3, D5, D6 e D9. Pendente de confirmação humana: número de inspetores independentes (AP-H04) e enquadramento ético da inspeção. Ao reordenar as entradas “BRASIL”, recalcular as letras 2024a/2024b e atualizar as quatro citações no texto-base (Introdução, Relevância ×2, Estratégia de Governo Digital).
+- [ ] **AP-IA01 — Auditar a consistência interna do texto-base** após cada decisão humana: título, pergunta, objetivos, método, cronograma, resumo e abstract. **Evidência:** relatório de consistência e alterações rastreáveis. **Situação:** rodada 1 (linha de base) executada em 30/10/2026; relatório em registros/auditoria-consistencia-2026-10-30.md. Reexecutar após D2, D3, D5, D6 e D9. Pendente de confirmação humana: número de inspetores independentes (AP-H04) e enquadramento ético da inspeção.
 - [ ] **AP-IA02 — Conferir fontes normativas e estatísticas primárias** e atualizar referências/trechos dependentes de WP5. Não inventar números. **Evidência:** URL, localização, data de consulta e referência revisada. Incluir a verificação dos descritores DeCS/MeSH das palavras-chave.
-- [ ] **AP-IA03 — Revisar referências e normalização bibliográfica**, apontando metadados não verificáveis.
+- [ ] **AP-IA03 — Revisar referências e normalização bibliográfica**, apontando metadados não verificáveis. **Situação:** rodada 1 executada em 30/10/2026 (metadados de 12 entradas conferidos, 6 correções, 1 lacuna); relatório em registros/auditoria-referencias-2026-10-30.md. Pendentes: datas de acesso, URLs oficiais das resoluções CNS, dados do DOU da Portaria SGD/MGI, WCAG 2.2, CGI.br, OMS/UIT e recursos do benchmark.
 - [ ] **AP-IA04 — Preparar checklist do DOCX** com base no modelo oficial vigente, após AP-H07. A migração final e a autorização de submissão continuam humanas.
 - [ ] **AP-IA05 — Revisar carta e declaração** após o candidato fornecer e confirmar os dados necessários; não preencher lacunas pessoais por inferência.
 
@@ -31,3 +31,4 @@ Este é o registro único das pendências desta fase. Atualize-o à medida que c
 |---|---|
 | 30/10/2026 | Controle criado a partir do texto-base v1, decisões D1–D9 e registros existentes. |
 | 30/10/2026 | AP-IA01, rodada 1: auditoria de consistência do texto-base; 12 achados (2 de gravidade alta, 3 média, 7 baixa — ver relatório); edições E1–E4 e E6–E9 aplicadas conforme condições. Item permanece aberto. |
+| 30/10/2026 | AP-IA03, rodada 1: verificação bibliográfica; correção de local (Nielsen), ementas (Lei 14.510, Decreto 12.198, CNS 466 e 510), DOI e dados de periódico; inclusão da Portaria SGD/MGI 6.618/2024; harmonização das chamadas. Item permanece aberto. |
