@@ -41,6 +41,8 @@ A opção mais viável para começar é **análise documental e de soluções ex
 
 Pesquisa tecnológica aplicada, exploratória, com foco inicial no desenvolvimento de um produto educativo fundamentado em literatura e análise de soluções existentes. A avaliação será proporcional ao estágio do produto e poderá ser inteiramente técnica, documental e pedagógica nesta etapa.
 
+**Arcabouço metodológico proposto no texto-base v1:** Design Science Research (DSR), com referência a Hevner et al. (2004) e Peffers et al. (2007). Essa é a opção atualmente redigida no anteprojeto, mas a decisão D3 permanece pendente de validação com a orientação; não tratá-la como decisão acadêmica definitiva até essa conversa.
+
 **Princípio de parcimônia metodológica:** não planejar entrevistas, oficinas, observações ou testes com pessoas como requisito de partida. Primeiro, completar a fundamentação, definir requisitos rastreáveis e desenvolver/revisar o protótipo simples. Levar o desenho à orientação acadêmica. Se ela indicar que dados diretos de pessoas são necessários, incorporar apenas a etapa pertinente — por exemplo, identificação enxuta de necessidades, revisão de protótipo ou teste de usabilidade — após avaliar acesso, tempo, protocolo e autorizações. Não denominar o trabalho “codesenho com usuários” se as decisões forem baseadas somente em literatura e avaliação interna.
 
 ### Fases propostas
@@ -60,9 +62,10 @@ Esta fase não integra o plano mínimo inicial. Se a orientação acadêmica ind
 
 Antes da execução, definir a técnica, participantes, recrutamento, consentimento, proteção de dados e análise; verificar autorizações institucionais e apreciação ética aplicáveis. A viabilidade de acesso permanece incerta.
 
-**Fase 3 — Tradução dos achados em requisitos e iteração do produto**
+**Fase 3 — Tradução das evidências documentais em requisitos e iteração do produto**
 
-- organizar os achados por temas ou categorias justificadas;
+- organizar os achados da literatura, do benchmark e da inspeção por temas ou categorias justificadas;
+- incorporar dados produzidos com pessoas somente se a etapa condicional tiver sido indicada pela orientação e aprovada pelas instâncias aplicáveis;
 - distinguir necessidades recorrentes, casos específicos e sugestões individuais;
 - registrar cada requisito com sua origem, prioridade, decisão (incorporado, adaptado, adiado ou não incorporado) e justificativa;
 - atualizar objetivos educativos, cenários, linguagem, sequência, feedback e requisitos de acessibilidade;
@@ -110,7 +113,7 @@ Esta descrição só será aplicada se houver uma etapa com pessoas aprovada e v
 
 **Pergunta principal provisória, compatível com o plano inicial sem participantes:**
 
-> Como desenvolver um protótipo educativo simples para praticar etapas básicas de uma teleconsulta, fundamentado em literatura, análise de soluções existentes e avaliação técnica, pedagógica e de acessibilidade?
+**Pergunta principal vigente:** ver [formulacao-vigente.md](formulacao-vigente.md).
 
 A pergunta deverá ser confirmada com a orientação e ajustada à exigência acadêmica. Se a orientação solicitar dados diretos do público, a pergunta poderá ser ampliada para incluir necessidades ou barreiras relatadas, sem presumir que essa etapa já ocorreu.
 
@@ -167,6 +170,8 @@ Esse plano alternativo preserva a viabilidade do projeto, mas muda o alcance das
 Mesmo que a avaliação formativa seja realizada, os achados se referem às tarefas e à versão do protótipo estudadas. Não demonstram, por si só, aprendizagem duradoura, transferência para teleconsultas reais, autonomia digital generalizada, aumento de acesso ao SUS, continuidade do cuidado ou melhora de desfechos clínicos.
 
 ## 12. Decisões já registradas e pendências
+
+Texto-base propõe: Camada 0 (sem participantes) como base; Camada 1 condicional (juízes ou usabilidade) com gatilho (orientação + CEP) e janela nos meses 14–19. **Decisão D2 do candidato pendente.**
 
 ### Preferências iniciais registradas
 

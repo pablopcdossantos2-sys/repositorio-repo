@@ -1,5 +1,7 @@
 # Declaração de conhecimento da Deliberação que regulamenta o funcionamento do curso — minuta editável
 
+> Confirmar no site do Programa qual Deliberação está vigente; o edital (IV.3, nº 15) não informa o número.
+
 > **Importante:** leia a íntegra da Deliberação nº 13, de 29 de junho de 2023, antes de assinar. Esta minuta não substitui a leitura do ato oficial nem a confirmação das instruções específicas da Turma 2027. A página oficial de perguntas frequentes informa que a ciência/anuência à Deliberação é registrada no sistema de inscrição; como o Programa também mantém uma página específica para o processo seletivo da Turma 2027, confira o texto integral do edital e o sistema para confirmar se esta declaração deve ser anexada como PDF assinado ou se a anuência no sistema é suficiente.
 
 ## DECLARAÇÃO

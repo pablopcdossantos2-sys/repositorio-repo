@@ -1,3 +1,5 @@
+> **Arquivo histórico — versão não vigente.** Segue uma lista de 16 itens de página web, não a estrutura do DOCX oficial. A versão vigente do texto é `docs/anteprojeto/rascunhos/anteprojeto-docx-oficial.md`.
+
 # Anteprojeto — rascunho interno para adaptação ao DOCX oficial
 
 > **Status: rascunho interno, não pronto para submissão.** Este arquivo conserva uma organização anterior baseada em uma listagem de 16 itens publicada em página web; ela **não corresponde à estrutura do DOCX oficial** conferido no relatório de análise de 29/10/2026. O texto é material de trabalho para reaproveitamento de conteúdo e precisa ser migrado para uma cópia do modelo DOCX oficial, com todos os campos, subitens e formatação conferidos. Não utilizar este Markdown como arquivo de candidatura. O plano metodológico-base continua sem participantes e não sustenta alegações de eficácia.

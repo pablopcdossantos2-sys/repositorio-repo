@@ -11,7 +11,7 @@ Este é o documento de referência para o estado atual. Registros detalhados e d
 
 | Fase | Situação conhecida |
 |---|---|
-| Anteprojeto e seleção | Há um rascunho Markdown e o modelo DOCX oficial arquivado. O rascunho não segue a estrutura interna do DOCX e não está pronto para submissão. O status efetivo da candidatura não está documentado aqui. |
+| Anteprojeto e seleção | Texto-base completo na estrutura do DOCX oficial em `anteprojeto/rascunhos/anteprojeto-docx-oficial.md` (v1, 30/10/2026), pendente de revisão do candidato e da orientação. DOCX/PDF preenchido ainda não existe no repositório. Status da candidatura: não confirmado (D1). |
 | Fundamentação | Há benchmark e levantamento exploratório. As buscas formais nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO ainda não têm contagens e exportações documentadas. |
 | Protótipo | Existe um simulador web estático em HTML, CSS e JavaScript, com três momentos: preparação, situações fictícias durante a teleconsulta e encerramento. O encerramento inclui escolha única com feedback local. |
 | Avaliação | Há testes automatizados e registros de inspeção estática. A rodada manual AUD-MAN-2026-10-21-01 foi considerada inconclusiva; não equivale a auditoria manual concluída. |
@@ -40,6 +40,8 @@ Guaraí-TO é cenário potencial de articulação, não parceria confirmada. A a
 - Inspeções técnicas e tarefas simuladas não demonstram aprendizagem duradoura, adoção, mudança de comportamento ou eficácia clínica.
 
 ## 4. Seleção e candidatura
+
+O PDF do edital 2027 e o DOCX do modelo estão em `fontes-oficiais/` e foram conferidos em 30/10/2026 (ver [registro da conferência](../anteprojeto/selecao/conferencia-docx-e-edital-2027-2026-10-30.md)). A formulação de título, pergunta e objetivos está centralizada em [formulacao-vigente.md](../anteprojeto/formulacao-vigente.md). O edital vale só para a turma de março/2027 (item X.7).
 
 O PDF do edital arquivado indica 30/10/2026 às 12h; documentos baseados na página do Programa indicaram 29/10/2026 às 12h. Ambas as datas já passaram. O repositório não permite inferir se houve inscrição, prorrogação, recurso ou protocolo. Confirme o status diretamente no sistema e com o Programa, sem usar os antigos alertas de prazo como instruções atuais.
 

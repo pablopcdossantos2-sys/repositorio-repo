@@ -8,9 +8,9 @@ Planejar o desenvolvimento de um simulador web fictício e sua avaliação docum
 
 ## 2. Pergunta de pesquisa de trabalho
 
-Como desenvolver e revisar tecnicamente um protótipo educativo simples para praticar etapas básicas de uma teleconsulta, com base em literatura, soluções existentes e critérios pedagógicos e de acessibilidade? Se a orientação solicitar dados diretos de pessoas, a pergunta e o protocolo serão revistos antes de qualquer atividade.
+Pergunta vigente: ver [formulacao-vigente.md](../../anteprojeto/formulacao-vigente.md).
 
-A pergunta definitiva, a operacionalização do público e a inclusão de participantes ainda precisam ser discutidas com a orientação. A pesquisa não deve presumir que todos os usuários com baixa familiaridade digital tenham as mesmas dificuldades.
+A operacionalização do público e a inclusão de participantes ainda precisam ser discutidas com a orientação. A pesquisa não deve presumir que todos os usuários com baixa familiaridade digital tenham as mesmas dificuldades.
 
 ## 3. Objetivo geral de avaliação
 

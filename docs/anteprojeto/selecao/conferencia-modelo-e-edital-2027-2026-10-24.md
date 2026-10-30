@@ -1,5 +1,7 @@
 # Conferência do modelo e do edital da seleção 2027 — registro de 24/10/2026
 
+> **Superado em 30/10/2026.** O DOCX oficial e o PDF do edital da Turma 2027 estão em `fontes-oficiais/` e foram lidos por inteiro. Ver [conferencia-docx-e-edital-2027-2026-10-30.md](conferencia-docx-e-edital-2027-2026-10-30.md). As afirmações abaixo sobre “DOCX não inspecionado” e “PDF integral não recuperado” não valem mais.
+
 > **Nota temporal — 30/10/2026:** todas as datas de inscrição registradas abaixo estão no passado. A página consultada indicava 29/10/2026 às 12h; o PDF arquivado indica 30/10/2026 às 12h. Não inferir status da candidatura nem eventual prorrogação a partir deste documento histórico; confirmar no sistema oficial.
 
 **Status geral: parcial. O anteprojeto não está liberado para submissão com base nesta conferência.**
