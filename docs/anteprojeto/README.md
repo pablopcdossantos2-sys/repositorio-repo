@@ -5,6 +5,7 @@ Esta área reúne os materiais da concepção acadêmica, seleção e preparaç�
 ## Documento de trabalho
 
 - [Texto-base na estrutura do DOCX oficial](rascunhos/anteprojeto-docx-oficial.md) — texto-base na estrutura do DOCX oficial; ainda não é o DOCX final; revisão do candidato e da orientação pendente.
+- [Formulação vigente](formulacao-vigente.md) — fonte única de título, pergunta, objetivos e palavras-chave.
 - [Decisões metodológicas](decisoes-metodologicas.md) — opções e questões a validar com a orientação.
 - [Planejamento institucional e ético](planejamento/parceria-e-etica.md) — Guaraí-TO permanece cenário potencial, sem parceria formal.
 
