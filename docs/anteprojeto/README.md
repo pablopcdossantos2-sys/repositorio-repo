@@ -11,7 +11,7 @@ Esta área reúne os materiais da concepção acadêmica, seleção e preparaç�
 ## Seleção
 
 - [Análise do edital e lacunas](selecao/analise-edital-turma-2027-e-lacunas.md).
-- [Conferência do modelo e edital](selecao/conferencia-modelo-e-edital-2027-2026-10-24.md).
+- [Conferência do DOCX e edital 2027 (30/10/2026)](selecao/conferencia-docx-e-edital-2027-2026-10-30.md) — registro vigente; a conferência de 24/10 está preservada como histórico.
 - [Fontes oficiais armazenadas](selecao/fontes-oficiais/README.md) — edital, modelo DOCX e corpo docente.
 - [Histórico da escolha do tema](selecao/historico-escolha-do-tema.md). O documento comparativo integral está arquivado.
 
