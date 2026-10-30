@@ -1,8 +1,7 @@
 # Relatórios
 
-- [Relatório 01](relatorio01.md) — análise do anteprojeto e confronto com o DOCX oficial.
-- [Relatório 02](relatorio02.md) — revisão adicional do anteprojeto, seleção e organização do repositório.
-- [Relatório 02 — outras seções](relatorio02-outras-secoes.md) — achados de links, gestão, apresentação, testes e estrutura documental.
-- [Relatório 03](relatorio03-plano-de-edicao-do-anteprojeto-2026-10-30.md) — plano de edição e texto-base do anteprojeto na estrutura do DOCX.
+# Relatórios e arquivo histórico
 
-Os relatórios são registros de análise. A documentação operacional atual está em docs/; decisões adotadas devem ser refletidas nos documentos de trabalho. Não trate recomendações não confirmadas como decisões ou evidências.
+- [Arquivo geral de relatórios trabalhados](arquivo_geral.md) — preserva o conteúdo integral dos relatórios individuais que já foram analisados ou executados. Os arquivos individuais correspondentes foram removidos após a consolidação.
+
+A documentação operacional atual está em `docs/`; decisões adotadas devem ser refletidas nos documentos de trabalho. O arquivo geral é histórico: não substitui os controles operacionais nem transforma recomendações não confirmadas em decisões ou evidências.
