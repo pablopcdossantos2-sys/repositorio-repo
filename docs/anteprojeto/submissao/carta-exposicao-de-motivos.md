@@ -2,7 +2,7 @@
 
 
 
- > **Antes de usar:** esta minuta foi preparada no contexto da Turma 2027, cujo prazo editalício já passou. Não a use em novo processo sem conferir o edital e os requisitos vigentes. Personalize antes de assinar, substitua os campos entre colchetes e mantenha apenas afirmações verdadeiras sobre sua trajetória. O texto do projeto está alinhado ao anteprojeto v1, mas exige revisão autoral e da orientação.
+> **Antes de usar:** esta minuta foi preparada no contexto da Turma 2027, cujo prazo editalício já passou. Não a use em novo processo sem conferir o edital e os requisitos vigentes. Personalize antes de assinar, substitua os campos entre colchetes e mantenha apenas afirmações verdadeiras sobre sua trajetória. O texto do projeto está alinhado ao anteprojeto v1, mas exige revisão autoral e da orientação.
 
 **À Comissão de Seleção do Mestrado Profissional em Telessaúde e Saúde Digital**  
 **Universidade do Estado do Rio de Janeiro — UERJ**
