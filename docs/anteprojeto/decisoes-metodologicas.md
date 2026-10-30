@@ -110,7 +110,7 @@ Esta descrição só será aplicada se houver uma etapa com pessoas aprovada e v
 
 **Pergunta principal provisória, compatível com o plano inicial sem participantes:**
 
-> Como desenvolver um protótipo educativo simples para praticar etapas básicas de uma teleconsulta, fundamentado em literatura, análise de soluções existentes e avaliação técnica, pedagógica e de acessibilidade?
+**Pergunta principal vigente:** ver [formulacao-vigente.md](formulacao-vigente.md).
 
 A pergunta deverá ser confirmada com a orientação e ajustada à exigência acadêmica. Se a orientação solicitar dados diretos do público, a pergunta poderá ser ampliada para incluir necessidades ou barreiras relatadas, sem presumir que essa etapa já ocorreu.
 
@@ -167,6 +167,8 @@ Esse plano alternativo preserva a viabilidade do projeto, mas muda o alcance das
 Mesmo que a avaliação formativa seja realizada, os achados se referem às tarefas e à versão do protótipo estudadas. Não demonstram, por si só, aprendizagem duradoura, transferência para teleconsultas reais, autonomia digital generalizada, aumento de acesso ao SUS, continuidade do cuidado ou melhora de desfechos clínicos.
 
 ## 12. Decisões já registradas e pendências
+
+Texto-base propõe: Camada 0 (sem participantes) como base; Camada 1 condicional (juízes ou usabilidade) com gatilho (orientação + CEP) e janela nos meses 14–19. **Decisão D2 do candidato pendente.**
 
 ### Preferências iniciais registradas
 
