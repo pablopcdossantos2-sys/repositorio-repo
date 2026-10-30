@@ -1,5 +1,7 @@
 # Carta de exposição de motivos — minuta editável
 
+> Harmonizar com o texto-base: o anteprojeto afirma público, pergunta, método e tarefas; a carta ainda diz que serão refinados. Rever após D2/D3.
+
 > **Antes de usar:** esta minuta precisa ser personalizada antes de assinatura. Substitua os campos entre colchetes e mantenha apenas afirmações verdadeiras sobre sua trajetória. Confira o edital vigente e os requisitos oficiais da carta antes de converter para PDF e enviar. O texto do projeto abaixo já foi alinhado ao tema escolhido, mas deve ser revisto por você antes da submissão.
 
 **À Comissão de Seleção do Mestrado Profissional em Telessaúde e Saúde Digital**  
