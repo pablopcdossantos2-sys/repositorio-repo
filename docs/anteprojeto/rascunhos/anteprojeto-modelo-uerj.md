@@ -28,11 +28,13 @@ O projeto propõe desenvolver e avaliar um simulador educativo web para adultos 
 
 **Contextualização:** participar de uma teleconsulta pode exigir ações digitais como preparar o aparelho, acessar uma sala virtual, reconhecer controles, lidar com dificuldades técnicas e comunicar dúvidas. A natureza e a frequência dessas barreiras devem ser verificadas por literatura e, quando autorizado, pelo contexto definido para a pesquisa. **Objetivo:** desenvolver um simulador educativo web para praticar etapas básicas de uma teleconsulta. **Método:** pesquisa tecnológica aplicada e exploratória, com revisão bibliográfica reproduzível, comparação de soluções existentes, especificação de objetivos e requisitos, desenvolvimento iterativo e auditoria técnica/pedagógica sem participantes. Uma avaliação formativa com pessoas só será proposta se a orientação acadêmica indicar que é necessária, condicionada à viabilidade e às autorizações aplicáveis. A operacionalização do público, a amostra, os instrumentos e o plano de análise serão definidos com a orientação. **Produto:** simulador web responsivo com três etapas — preparação; situações fictícias durante a consulta (acesso, áudio e esclarecimento); encerramento/confirmar próximos passos. Não realizará consulta real, não usará áudio/vídeo ao vivo, não se conectará a sistemas clínicos e não coletará dados pessoais ou clínicos. **Resultados esperados:** produto documentado, requisitos rastreáveis, relatório de acessibilidade/usabilidade técnica e, se houver avaliação autorizada, evidências preliminares de conclusão e compreensão de tarefas simuladas. As conclusões não serão extrapoladas para aprendizagem duradoura ou resultados clínicos.
 
+**Palavras-chave provisórias (confirmar no DeCS/MeSH):** Telemedicina; Educação em Saúde; Letramento em Saúde; Treinamento por Simulação.
+
 ## 6. Abstract (resumo em inglês)
 
 **Background:** Participating in a teleconsultation may require digital actions such as preparing a device, entering a virtual room, recognizing controls, responding to simple technical difficulties and communicating questions. The nature and frequency of barriers in the intended population must be established through research rather than assumed. **Research question:** To what extent does the prototype meet the content, language, privacy and accessibility requirements derived from the literature and the resources reviewed? **Objective:** To develop a web-based educational simulator for practicing basic teleconsultation steps. **Methods:** This applied exploratory technological project will include a reproducible literature search, a review of existing resources, the specification of learning objectives and requirements, iterative development, and technical and pedagogical audits without participants. Evaluation with people will be considered only if the academic supervisor indicates it is necessary and if feasibility and applicable approvals are confirmed. The operational definition of the target population, sample, instruments and analysis plan will be discussed with the academic supervisor. **Technology product:** A responsive web simulator with three stages: preparation, a fictional virtual consultation room, and closing/confirming the next steps shown in the scenario. It will not conduct a real consultation, use live audio/video, connect to clinical systems, or collect personal or clinical data. **Expected outcomes:** A documented product, traceable requirements and a technical/accessibility report; if an approved evaluation with participants is conducted, preliminary evidence about task completion and comprehension in simulated tasks. Results will not be generalized to sustained learning or clinical outcomes.
 
-**Palavras-chave provisórias (confirmar no DeCS/MeSH):** Telemedicina; Educação em Saúde; Letramento em Saúde; Treinamento por Simulação.
+**Keywords (provisional; verify in DeCS/MeSH):** Telemedicine; Health Education; Health Literacy; Simulation Training.
 
 ## 7. Introdução
 
@@ -50,7 +52,7 @@ A pergunta delimita a avaliação inicial ao processo de desenvolvimento, à ras
 
 ## 8. Justificativa e relevância
 
-**Pergunta de pesquisa:** em que medida o protótipo atende aos requisitos de conteúdo, linguagem, privacidade e acessibilidade derivados da literatura e dos recursos analisados? Esta pergunta complementa a pergunta de processo apresentada na Introdução e deverá ser harmonizada com o desenho aprovado pela orientação.
+**Pergunta de pesquisa:** em que medida o protótipo atende aos requisitos de conteúdo, linguagem, privacidade e acessibilidade derivados da literatura e dos recursos analisados? A pergunta delimita a avaliação à conformidade do protótipo com requisitos definidos documentalmente.
 
 A proposta se situa na interseção entre telessaúde e tecnologias para educação em saúde porque busca ensinar e permitir a prática de habilidades digitais aplicadas à participação em teleconsultas. O foco não é oferecer apenas instruções textuais ou criar uma plataforma clínica; é desenvolver uma simulação interativa com tarefas, escolhas e feedback que possa ser examinada quanto à clareza, acessibilidade e usabilidade.
 
@@ -76,7 +78,7 @@ A dimensão de equidade será abordada por requisitos de linguagem simples, uso 
 
 Desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador educativo web acessível e baseado em cenários fictícios para a prática simulada de etapas básicas de uma teleconsulta.
 
-## 12. Objetivos específicos (listar 3 objetivos específicos)
+## 12. Objetivos específicos
 
 1. **Fundamentar e especificar o produto:** realizar busca bibliográfica reproduzível e mapear soluções educativas existentes, derivando objetivos educativos e requisitos funcionais, pedagógicos, de linguagem, privacidade e acessibilidade a partir das fontes efetivamente analisadas.
 2. **Desenvolver o protótipo:** implementar iterativamente um simulador web fictício com etapas de preparação, prática de situações comuns durante a teleconsulta e confirmação dos próximos passos, mantendo os limites de escopo e segurança descritos neste anteprojeto.

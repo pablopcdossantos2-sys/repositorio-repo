@@ -8,7 +8,7 @@
     "node": ">=24.8.0"
   },
   "scripts": {
-    "check:syntax": "node --check produto/app.js && node --check scripts/buscar-pubmed.mjs && node --check tests/buscar-pubmed.test.js",
+    "check:syntax": "node --check produto/app.js && node --check scripts/check-prototype.mjs && node --check scripts/buscar-pubmed.mjs && node --check tests/buscar-pubmed.test.js && node --check tests/prototype.spec.js",
     "check:static": "node scripts/check-prototype.mjs",
     "check:html": "html-validate produto/index.html",
     "test:e2e": "playwright test tests/prototype.spec.js --workers=2",
