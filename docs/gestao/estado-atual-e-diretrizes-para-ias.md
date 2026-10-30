@@ -55,7 +55,7 @@ Todos os nomes, mensagens e situações devem permanecer fictícios e não devem
 
 ## 4. Evidências e pesquisa bibliográfica: estado real
 
-Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`docs/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`docs/roteiro-auditoria-tecnica-sem-participantes.md`), um mapa preliminar de objetivos educativos/tarefas (`docs/mapa-objetivos-educativos-e-tarefas.md`) e documentação de estudos e recomendações de acessibilidade. Em 20/10/2026, foram criados o [registro de execução das buscas bibliográficas](registro-busca-estruturada-2026-10-20.md) e o [registro da auditoria estática parcial](registro-auditoria-estatica-2026-10-20.md). A verificação preliminar de contraste foi registrada em [verificacao-preliminar-contraste-2026-10-20.md](verificacao-preliminar-contraste-2026-10-20.md); não substitui a auditoria manual. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
+Já existe uma rodada de busca exploratória complementar na web, um benchmark inicial de recursos existentes (`../fundamentacao/benchmark-recursos-existentes.md`), um roteiro de auditoria técnica/pedagógica/acessibilidade sem participantes (`../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md`), um mapa preliminar de objetivos educativos/tarefas (`../protótipo/mapa-objetivos-educativos-e-tarefas.md`) e documentação de estudos e recomendações de acessibilidade. Em 20/10/2026, foram criados o [registro de execução das buscas bibliográficas](../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md) e o [registro da auditoria estática parcial](../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md). A verificação preliminar de contraste foi registrada em [verificacao-preliminar-contraste-2026-10-20.md](../avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md); não substitui a auditoria manual. O benchmark identifica, entre outros, o curso Digital House Calls, o tutorial do TelessaúdeBA, guias do HHS, a ferramenta de prontidão do NCFH e o toolkit WHO/ITU. Ela serve para orientar perguntas e requisitos, mas **não é uma busca bibliográfica formal, sistemática ou reproduzível concluída**.
 
 Continuam pendentes:
 - executar e documentar buscas nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO — as strings e o formulário de registro foram consolidados, mas as consultas oficiais ainda não foram executadas com contagens/exportações reproduzíveis;
@@ -73,10 +73,10 @@ O histórico do repositório registra uma execução de CI bem-sucedida em 20/10
 Isso é um resultado histórico de automação, não uma declaração de acessibilidade integral nem validação empírica com público-alvo. Os testes manuais continuam pendentes, incluindo teclado, foco, zoom, telas estreitas, leitor de tela/tecnologia assistiva e dispositivos reais disponíveis. Sempre confira a execução mais recente da CI antes de declarar que a versão atual passou nos testes.
 
 Quando o código ou os fluxos mudarem:
-1. executar as verificações locais conforme `docs/como-executar-testes.md`;
+1. executar as verificações locais conforme `../avaliacao/como-executar-testes.md`;
 2. revisar regressões nos cenários e na reinicialização;
 3. conferir a CI correspondente ao commit;
-4. atualizar `docs/relatorio-revisao-tecnica.md` e o roadmap com os resultados reais, sem marcar testes manuais como concluídos sem executá-los.
+4. atualizar `../avaliacao/relatorio-revisao-tecnica.md` e o roadmap com os resultados reais, sem marcar testes manuais como concluídos sem executá-los.
 
 ## 6. Prioridades de desenvolvimento, na ordem recomendada
 
@@ -115,10 +115,10 @@ Não realizar “teste informal” com potenciais participantes para contornar e
 
 Alguns documentos já contêm tarefas candidatas, rubricas, roteiros ou descrições mais detalhadas de testes com participantes. Eles foram preparados como material de discussão ou como plano alternativo; sua existência não significa que a etapa foi aprovada ou que deva ser executada agora.
 
-- `docs/decisoes-metodologicas.md`: referência detalhada para comparar alternativas metodológicas; interpretar à luz da diretriz sem participantes como padrão.
-- `docs/protocolo-preliminar-avaliacao.md`: documento de trabalho, **não aprovado para coleta**; rubricas e tarefas com pessoas são condicionais.
-- `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md`: rascunhos em evolução; não assumir que cada frase já foi confirmada pela orientação ou que todo texto está harmonizado com esta consolidação.
-- `ROADMAP.md` e `docs/roadmap.md`: listas de pendências, não prova de que algo foi executado. Conferir caixas, links e evidências antes de reportar estado.
+- `../anteprojeto/decisoes-metodologicas.md`: referência detalhada para comparar alternativas metodológicas; interpretar à luz da diretriz sem participantes como padrão.
+- `../avaliacao/planejamento/protocolo-preliminar-avaliacao.md`: documento de trabalho, **não aprovado para coleta**; rubricas e tarefas com pessoas são condicionais.
+- `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md`: rascunhos em evolução; não assumir que cada frase já foi confirmada pela orientação ou que todo texto está harmonizado com esta consolidação.
+- `ROADMAP.md` e `roadmap-historico-resumido.md`: listas de pendências, não prova de que algo foi executado. Conferir caixas, links e evidências antes de reportar estado.
 - Registros bibliográficos exploratórios: informam próximos passos, mas não substituem a busca formal nas bases.
 
 Se uma passagem antiga contradisser a diretriz vigente, não a reproduzir automaticamente. Sugerir sua correção e harmonizar os documentos afetados.
@@ -127,7 +127,7 @@ Se uma passagem antiga contradisser a diretriz vigente, não a reproduzir automa
 
 Antes de executar uma tarefa:
 
-1. Ler este documento; depois consultar `README.md`, `ROADMAP.md` e o documento específico da tarefa.
+1. Ler este documento; depois consultar `../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md` e o documento específico da tarefa.
 2. Conferir o conteúdo atual de `main` e os links/commits relevantes; não confiar somente em contexto de conversa anterior ou em um resumo antigo.
 3. Respeitar o tema exclusivo, o escopo mínimo e a diretriz sem participantes como padrão.
 4. Distinguir fatos implementados, evidências verificadas, decisões registradas, hipóteses e tarefas futuras.
@@ -152,7 +152,7 @@ Esta hierarquia não permite ignorar exigências formais da instituição ou da 
 
 - **20/10/2026 — conferência da CI:** consultada a execução [GitHub Actions #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486), que passou com validações de sintaxe/estrutura/HTML e 22 testes Playwright + axe-core no commit de código `11d5bee68f5f8de4234ab9f5388f7f1067545b69`. Os três arquivos do produto inspecionados mantêm os mesmos hashes de conteúdo dessa versão. A CI não foi reexecutada após commits documentais porque o workflow não é acionado por documentação; repetir após qualquer alteração em código/testes. Os testes manuais seguem pendentes.
 
-- **20/10/2026 — complemento da auditoria:** calculadas razões de contraste para combinações selecionadas de texto, botões, foco e bordas. As combinações de texto examinadas atingiram os limiares calculados; algumas bordas que podem indicar estados têm contraste inferior a 3:1 e foram registradas para avaliação contextual, sem declarar falha definitiva. Ver `docs/verificacao-preliminar-contraste-2026-10-20.md`. Não houve alteração de CSS nem nova execução de testes nesta etapa.
+- **20/10/2026 — complemento da auditoria:** calculadas razões de contraste para combinações selecionadas de texto, botões, foco e bordas. As combinações de texto examinadas atingiram os limiares calculados; algumas bordas que podem indicar estados têm contraste inferior a 3:1 e foram registradas para avaliação contextual, sem declarar falha definitiva. Ver `../avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md`. Não houve alteração de CSS nem nova execução de testes nesta etapa.
 
 - **20/10/2026 — continuação:** consolidadas estratégias e um formulário de registro para buscas em PubMed/MEDLINE, BVS/LILACS e SciELO. A tentativa de abrir páginas de resultados pelo ambiente de navegação não permitiu obter contagens; as consultas oficiais e exportações continuam pendentes. Foi realizada e documentada inspeção estática parcial do HTML/JS/CSS, sem execução no navegador, sem alteração do produto e sem nova rodada de testes automatizados. Os registros correspondentes foram ligados ao README e aos dois roadmaps.
 
@@ -208,12 +208,12 @@ Foi feita uma leitura estática adicional do HTML/CSS para contextualizar as tr�
 - Checklist marcado: checkbox nativo marcado e fundo diferente.
 - Aviso de exemplo fictício: símbolo de informação, fundo amarelo-claro e texto explícito.
 
-Essa leitura sugere que as bordas podem não ser o único indicador de estado, mas **não encerra a auditoria de acessibilidade**: ainda faltam inspeção em navegador, teclado e tecnologia assistiva. AUD-15 permanece parcial. Não foi alterado CSS; portanto, não houve necessidade de nova CI por esta atualização documental. O detalhe foi registrado em [verificação preliminar de contraste](verificacao-preliminar-contraste-2026-10-20.md) e [registro da auditoria estática](registro-auditoria-estatica-2026-10-20.md).
+Essa leitura sugere que as bordas podem não ser o único indicador de estado, mas **não encerra a auditoria de acessibilidade**: ainda faltam inspeção em navegador, teclado e tecnologia assistiva. AUD-15 permanece parcial. Não foi alterado CSS; portanto, não houve necessidade de nova CI por esta atualização documental. O detalhe foi registrado em [verificação preliminar de contraste](../avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md) e [registro da auditoria estática](../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md).
 
 
 ## Atualização de continuidade — segunda revisão estática (20/10/2026)
 
-Foi realizada uma segunda inspeção textual dos arquivos atuais de produto e dos testes, sem executar o navegador. O registro completo, com hashes e limites, está em [segunda revisão estática do protótipo](segunda-revisao-estatica-2026-10-20.md).
+Foi realizada uma segunda inspeção textual dos arquivos atuais de produto e dos testes, sem executar o navegador. O registro completo, com hashes e limites, está em [segunda revisão estática do protótipo](../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md).
 
 ### Achados estáticos desta rodada
 
@@ -262,10 +262,10 @@ Nenhum arquivo do produto foi alterado e não houve nova execução da CI.
 
 ### Alterações documentais confirmadas
 
-- O `README.md` teve removidas as seções “Situação atual”, “Aviso” e “Preparação para defesa oral”, conforme solicitado. O tutorial foi referenciado na estrutura do repositório, sem restaurar essas seções.
-- Foi criado [Tutorial didático: abrir e testar o protótipo](tutorial-instalar-e-testar-prototipo.md). Ele explica que a aplicação web não exige instalação, mas que os testes automatizados requerem Node.js 24.8.0 ou posterior, `npm ci`, instalação do Chromium do Playwright e execução de `npm test`.
-- O tutorial foi vinculado a `produto/README.md` e `docs/como-executar-testes.md).
-- A pergunta de pesquisa e o objetivo foram harmonizados em `README.md`, `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md) para focar no desenvolvimento e na avaliação documental, técnica, pedagógica e de acessibilidade sem participantes.
+- O `../avaliacao/auditorias/manual/2026-10-21/README.md` teve removidas as seções “Situação atual”, “Aviso” e “Preparação para defesa oral”, conforme solicitado. O tutorial foi referenciado na estrutura do repositório, sem restaurar essas seções.
+- Foi criado [Tutorial didático: abrir e testar o protótipo](../avaliacao/tutorial-instalar-e-testar-prototipo.md). Ele explica que a aplicação web não exige instalação, mas que os testes automatizados requerem Node.js 24.8.0 ou posterior, `npm ci`, instalação do Chromium do Playwright e execução de `npm test`.
+- O tutorial foi vinculado a `produto/README.md` e `../avaliacao/como-executar-testes.md).
+- A pergunta de pesquisa e o objetivo foram harmonizados em `../avaliacao/auditorias/manual/2026-10-21/README.md`, `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md) para focar no desenvolvimento e na avaliação documental, técnica, pedagógica e de acessibilidade sem participantes.
 - A hipótese do anteprojeto-base foi reescrita como proposição de design verificável. Não afirmar que o simulador já é utilizável pelo público-alvo, melhora a aprendizagem ou altera resultados de teleconsulta.
 
 ### Formulação de trabalho atual
@@ -283,7 +283,7 @@ Essa formulação reduz o risco de prometer uma avaliação de resultados que o 
 
 ### Instruções para a próxima IA
 
-1. Ler esta diretriz, `README.md` e `ROADMAP.md` antes de alterar arquivos.
+1. Ler esta diretriz, `../avaliacao/auditorias/manual/2026-10-21/README.md` e `ROADMAP.md` antes de alterar arquivos.
 2. Priorizar as buscas formais com resultados verificáveis e a revisão documental dos textos/feedbacks do protótipo.
 3. Se alterar código, orientar o desenvolvedor a executar o tutorial, associar os resultados ao commit exato e atualizar o relatório técnico.
 4. Não ampliar o encerramento para uma nova tarefa interativa antes de revisar sua necessidade pedagógica e a rastreabilidade de OE-05.
@@ -294,13 +294,13 @@ Essa formulação reduz o risco de prometer uma avaliação de resultados que o 
 
 ### Planejamento do protótipo
 
-O documento `docs/produto-minimo.md` agora contém uma matriz explícita do estado de RF-01 a RF-11, distinguindo o que está implementado em código, o que requer revisão e o que ainda é requisito pendente. A principal lacuna é **RF-07/OE-05**: a etapa “Encerrar” apresenta exemplos estáticos, mas não oferece tarefa interativa de escolha e feedback. A escala de facilidade de 1 a 5 é local e não atende a esse objetivo.
+O documento `../protótipo/produto-minimo.md` agora contém uma matriz explícita do estado de RF-01 a RF-11, distinguindo o que está implementado em código, o que requer revisão e o que ainda é requisito pendente. A principal lacuna é **RF-07/OE-05**: a etapa “Encerrar” apresenta exemplos estáticos, mas não oferece tarefa interativa de escolha e feedback. A escala de facilidade de 1 a 5 é local e não atende a esse objetivo.
 
 Diretriz: não adicionar automaticamente uma nova interação. Primeiro justificar o ganho pedagógico, revisar a evidência e o objetivo, especificar tarefa/opções/feedback e prever testes automatizados. Se o conteúdo estático for suficiente para o escopo acordado, documentar a decisão em vez de ampliar o produto.
 
 ### Busca bibliográfica
 
-Foi registrada em `docs/registro-busca-estruturada-2026-10-20.md` uma tentativa adicional de abrir o endpoint oficial E-utilities do PubMed para PM-1. A ferramenta de navegação não conseguiu acessar o endpoint, portanto não foi obtida contagem nem considerada executada a busca. As consultas formais nas bases oficiais seguem pendentes; não inventar totais ou inferir que as bases estejam indisponíveis.
+Foi registrada em `../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md` uma tentativa adicional de abrir o endpoint oficial E-utilities do PubMed para PM-1. A ferramenta de navegação não conseguiu acessar o endpoint, portanto não foi obtida contagem nem considerada executada a busca. As consultas formais nas bases oficiais seguem pendentes; não inventar totais ou inferir que as bases estejam indisponíveis.
 
 ### Estado desta rodada
 
@@ -328,9 +328,9 @@ Foi registrada em `docs/registro-busca-estruturada-2026-10-20.md` uma tentativa 
 - OE-02 (link): feedback orienta conferir conexão e link/canal oficial conhecido, pedir ajuda pelo contato oficial conhecido e não compartilhar senhas/dados em links inesperados.
 - OE-03 (áudio): feedback orienta conferir volume e controles de som disponíveis, e comunicar a dificuldade caso persista.
 - OE-04 (esclarecimento): feedback orienta pedir repetição/explicação alternativa e confirmar o próximo passo, sem adivinhar ou criar orientação clínica.
-- Criado `docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md`, com texto revisado, racional, fontes contextuais e verificações pendentes.
-- Atualizado `docs/mapa-objetivos-educativos-e-tarefas.md` e os anteprojetos `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md`.
-- O `README.md` foi atualizado com link para o novo registro. As seções “Preparação para defesa oral”, “Situação atual” e “Aviso” continuam removidas.
+- Criado `../protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md`, com texto revisado, racional, fontes contextuais e verificações pendentes.
+- Atualizado `../protótipo/mapa-objetivos-educativos-e-tarefas.md` e os anteprojetos `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md`.
+- O `../avaliacao/auditorias/manual/2026-10-21/README.md` foi atualizado com link para o novo registro. As seções “Preparação para defesa oral”, “Situação atual” e “Aviso” continuam removidas.
 - Adicionado teste Playwright em `tests/prototype.spec.js` para verificar a presença de instruções concretas nos feedbacks dos três cenários.
 
 ### Evidências e limites
@@ -358,10 +358,10 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 - A revisão editorial dos cenários OE-02 (link), OE-03 (áudio) e OE-04 (informação não compreendida) foi concluída como trabalho documental e aplicada ao código.
 - `produto/index.html`: opções e instruções foram ajustadas para recomendar a confirmação do link por um canal oficial já conhecido; conferir volume e, quando disponível, saída de som; pedir repetição/explicação e confirmar o próximo passo mencionado.
 - `produto/app.js`: feedbacks de acerto, tentativa e botões fictícios foram refinados para explicar a razão da ação, indicar um próximo passo e preservar o tom não punitivo. As mensagens reforçam que não há conexão, áudio ou mensagem real.
-- [Registro editorial](revisao-editorial-cenarios-feedbacks-2026-10-20.md) atualizado com os textos, o racional, as fontes documentadas e as verificações pendentes.
-- `docs/mapa-objetivos-educativos-e-tarefas.md` atualizado para refletir a revisão editorial, sem declarar validação com usuários.
-- `docs/anteprojeto-base.md` e `docs/anteprojeto-modelo-uerj.md` fortalecidos com uma distinção mais explícita entre evidência publicada e hipótese de design. A revisão de escopo de Galvin et al. (2024) descreve evidência limitada/mista de melhoria da competência; o benchmark já identificou Digital House Calls, então a estrutura antes/durante/depois e o caráter autoguiado não são apresentados como novidade exclusiva.
-- `README.md`, `ROADMAP.md` e `docs/roadmap.md` apontam para a revisão editorial; os roadmaps registram a revisão como concluída e priorizam os testes de regressão.
+- [Registro editorial](../protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) atualizado com os textos, o racional, as fontes documentadas e as verificações pendentes.
+- `../protótipo/mapa-objetivos-educativos-e-tarefas.md` atualizado para refletir a revisão editorial, sem declarar validação com usuários.
+- `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` fortalecidos com uma distinção mais explícita entre evidência publicada e hipótese de design. A revisão de escopo de Galvin et al. (2024) descreve evidência limitada/mista de melhoria da competência; o benchmark já identificou Digital House Calls, então a estrutura antes/durante/depois e o caráter autoguiado não são apresentados como novidade exclusiva.
+- `../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md` e `roadmap-historico-resumido.md` apontam para a revisão editorial; os roadmaps registram a revisão como concluída e priorizam os testes de regressão.
 
 ### Decisões e limites que permanecem
 
@@ -373,7 +373,7 @@ Quando alterar feedbacks ou textos pedagógicos, registrar a ligação entre obj
 
 ### Próximas ações
 
-1. O desenvolvedor deve seguir [Tutorial didático para abrir e testar o protótipo](tutorial-instalar-e-testar-prototipo.md) e executar `npm test`; registrar sistema operacional, versões, saída e commit testado.
+1. O desenvolvedor deve seguir [Tutorial didático para abrir e testar o protótipo](../avaliacao/tutorial-instalar-e-testar-prototipo.md) e executar `npm test`; registrar sistema operacional, versões, saída e commit testado.
 2. Conferir manualmente o foco e a leitura dos feedbacks em navegador e tecnologia assistiva disponível.
 3. Executar e registrar as buscas formais em PubMed/MEDLINE, BVS/LILACS e SciELO.
 4. Discutir com a orientação se o plano sem participantes atende aos requisitos acadêmicos.
@@ -401,7 +401,7 @@ Esta atualização também precisa ser mantida no `ROADMAP.md`. As próximas pri
 
 ### Avanço documental confirmado
 
-Foi criada a [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md). O documento traduz a revisão editorial dos cenários em critérios observáveis para:
+Foi criada a [Matriz de critérios para revisão de textos e feedbacks](../protótipo/matriz-criterios-qualidade-textos-feedbacks.md). O documento traduz a revisão editorial dos cenários em critérios observáveis para:
 - ação concreta e próximo passo;
 - feedback explicativo para acerto e tentativa;
 - tom respeitoso e não punitivo;
@@ -438,12 +438,12 @@ Galvin et al. (2024), WHO/ITU (2024) e os guias de preparação do HHS informam 
 
 ### Complemento — especificação do produto mínimo (20/10/2026)
 
-O documento `docs/produto-minimo.md` agora aponta diretamente para a matriz de critérios editoriais, reduzindo o risco de manter critérios de conteúdo separados da especificação funcional. Essa alteração é documental: não muda o comportamento do protótipo e não gera novo resultado de teste.
+O documento `../protótipo/produto-minimo.md` agora aponta diretamente para a matriz de critérios editoriais, reduzindo o risco de manter critérios de conteúdo separados da especificação funcional. Essa alteração é documental: não muda o comportamento do protótipo e não gera novo resultado de teste.
 
 A matriz, a especificação do produto, o mapa de objetivos, o README, o anteprojeto e os roadmaps devem permanecer consistentes. As pendências de execução de testes, auditoria manual e busca bibliográfica formal continuam abertas.
 
 
-O roadmap técnico `docs/roadmap.md` também aponta para a matriz de critérios, junto do `README.md`, `ROADMAP.md`, mapa de objetivos, especificação do produto e anteprojetos. Esta verificação foi documental; não altera o estado dos testes.
+O roadmap técnico `roadmap-historico-resumido.md` também aponta para a matriz de critérios, junto do `../avaliacao/auditorias/manual/2026-10-21/README.md`, `ROADMAP.md`, mapa de objetivos, especificação do produto e anteprojetos. Esta verificação foi documental; não altera o estado dos testes.
 
 
 ## Atualização de continuidade — segunda simplificação editorial dos cenários (20/10/2026)
@@ -501,17 +501,17 @@ Esse resultado é evidência automatizada para o commit citado, não certificaç
 
 ## Atualização de continuidade — ficha de auditoria manual (21/10/2026)
 
-Foi criado o [Modelo de preenchimento da auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md). Orientar a próxima auditoria a copiar a ficha por rodada, registrar commit/navegador/viewport/zoom/tecnologia assistiva, preencher os casos e anexar evidências sem dados pessoais. Usar C/PC/NC/NT/BL/NA; não converter NT/BL em aprovação nem declarar conformidade WCAG integral. A auditoria permanece pendente até haver resultados observados.
+Foi criado o [Modelo de preenchimento da auditoria manual de acessibilidade](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md). Orientar a próxima auditoria a copiar a ficha por rodada, registrar commit/navegador/viewport/zoom/tecnologia assistiva, preencher os casos e anexar evidências sem dados pessoais. Usar C/PC/NC/NT/BL/NA; não converter NT/BL em aprovação nem declarar conformidade WCAG integral. A auditoria permanece pendente até haver resultados observados.
 
 
 ### Formulário interativo de auditoria manual (21/10/2026)
 
-Além do modelo Markdown, está disponível o [formulário HTML preenchível](formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
 
 
 ### Usabilidade do formulário de auditoria — ajuda contextual (21/10/2026)
 
-O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](formulario-auditoria-manual-acessibilidade.html).
+O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html).
 
 
 ## Registro da auditoria manual (21/10/2026)
@@ -521,7 +521,7 @@ Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( auditorias/man
 
 ## Atualização de continuidade — rastreabilidade e estado das evidências (24/10/2026)
 
-Foi criada a [matriz de rastreabilidade entre objetivos educativos, requisitos funcionais e testes automatizados](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela registra quais testes existentes verificam partes dos objetivos OE-01 a OE-05 e dos requisitos RF-01 a RF-11, além de explicitar as limitações da cobertura. A matriz é uma inspeção estática da suíte, não uma execução de testes.
+Foi criada a [matriz de rastreabilidade entre objetivos educativos, requisitos funcionais e testes automatizados](../protótipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela registra quais testes existentes verificam partes dos objetivos OE-01 a OE-05 e dos requisitos RF-01 a RF-11, além de explicitar as limitações da cobertura. A matriz é uma inspeção estática da suíte, não uma execução de testes.
 
 A documentação do produto mínimo e do README foi alinhada para não classificar o RF-08 (feedback claro e respeitoso) como totalmente sem regressão automatizada: existem testes específicos para mensagens e próximos passos, mas eles não cobrem toda a linguagem nem comprovam compreensão pelo público-alvo.
 

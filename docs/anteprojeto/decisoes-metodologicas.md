@@ -1,6 +1,6 @@
 # Decisões metodológicas — Treino de Teleconsulta
 
-> **Referência de contexto vigente:** [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md). A diretriz atual é começar com avaliação documental, técnica, pedagógica e de acessibilidade sem participantes; qualquer atividade com pessoas depende de indicação da orientação, viabilidade e autorizações aplicáveis.
+> **Referência de contexto vigente:** [Estado atual do projeto e diretrizes para IAs](../gestao/estado-atual-e-diretrizes-para-ias.md). A diretriz atual é começar com avaliação documental, técnica, pedagógica e de acessibilidade sem participantes; qualquer atividade com pessoas depende de indicação da orientação, viabilidade e autorizações aplicáveis.
 
 > **Documento de trabalho para discussão com a orientação.** Registra preferências iniciais e recomendações, não decisões institucionais definitivas. Não há aprovação ética presumida, campo confirmado, parceria estabelecida, recrutamento autorizado ou amostra definida. Nenhuma atividade de pesquisa com participantes deve começar antes de verificar e obter as aprovações institucionais e éticas aplicáveis.
 
@@ -77,7 +77,7 @@ Antes da execução, definir a técnica, participantes, recrutamento, consentime
 
 **Fase 5 — Teste com pessoas, somente se a orientação considerar necessário**
 
-O teste de usabilidade não integra o plano mínimo inicial. Caso seja solicitado pela orientação e seja viável e autorizado, definir tarefas e regras padronizadas de ajuda, interrupção e registro antes de qualquer sessão. As tarefas e rubricas já descritas no [protocolo preliminar de avaliação](protocolo-preliminar-avaliacao.md) são apenas materiais candidatos para revisão, não um protocolo aprovado.
+O teste de usabilidade não integra o plano mínimo inicial. Caso seja solicitado pela orientação e seja viável e autorizado, definir tarefas e regras padronizadas de ajuda, interrupção e registro antes de qualquer sessão. As tarefas e rubricas já descritas no [protocolo preliminar de avaliação](../avaliacao/planejamento/protocolo-preliminar-avaliacao.md) são apenas materiais candidatos para revisão, não um protocolo aprovado.
 
 Se essa fase não ocorrer, relatar claramente que não houve avaliação empírica com usuários. Não atribuir à inspeção técnica resultados sobre experiência real, necessidades relatadas ou usabilidade com o público-alvo.
 
