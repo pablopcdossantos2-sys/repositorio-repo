@@ -46,7 +46,7 @@ Para cada caso relacionado, registrar C apenas após observar o comportamento. U
 
 ## 5. Relação com outros registros
 
-- [Modelo de preenchimento da auditoria manual](modelo-preenchimento-auditoria-manual-acessibilidade.md)
-- [Benchmark de recursos existentes](benchmark-recursos-existentes.md)
+- [Modelo de preenchimento da auditoria manual](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md)
+- [Benchmark de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md)
 - [Especificação do produto mínimo](produto-minimo.md)
 - [Estado atual e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md)

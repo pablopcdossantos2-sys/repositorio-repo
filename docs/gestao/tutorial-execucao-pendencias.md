@@ -23,7 +23,7 @@ O protótipo é um simulador educativo fictício. Não use dados reais de pacien
 
 ## Parte A — verificar os testes automatizados no GitHub Actions
 
-Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](../protótipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela identifica os títulos dos testes que existem no código e os limites da cobertura. É um inventário estático: **não é evidência de que os testes foram executados no commit atual**. Para registrar aprovação, use sempre a execução do Actions ligada ao SHA exato que está sendo avaliado.
+Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](../prototipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela identifica os títulos dos testes que existem no código e os limites da cobertura. É um inventário estático: **não é evidência de que os testes foram executados no commit atual**. Para registrar aprovação, use sempre a execução do Actions ligada ao SHA exato que está sendo avaliado.
 
 ### A1. Abrir a execução correta
 
@@ -194,7 +194,7 @@ Só declare a busca formal executada depois que as consultas, contagens e export
 
 ### D1. Consultar as fontes já identificadas
 
-Comece pelo documento [Benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md) e pela [matriz de aplicabilidade WHO/ITU](../protótipo/matriz-aplicabilidade-who-itu-prototipo.md). As fontes já registradas incluem:
+Comece pelo documento [Benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md) e pela [matriz de aplicabilidade WHO/ITU](../prototipo/matriz-aplicabilidade-who-itu-prototipo.md). As fontes já registradas incluem:
 - Digital House Calls, curso em inglês: <https://bridgingapps.org/courses/digital-house-calls-a-step-by-step-guide-for-telemedicine-visits-english>
 - Digital House Calls, curso em espanhol: <https://bridgingapps.org/courses/digital-house-calls-spanish/>
 - WHO/ITU, toolkit de acessibilidade para serviços de telessaúde: <https://www.who.int/publications/b/74046>

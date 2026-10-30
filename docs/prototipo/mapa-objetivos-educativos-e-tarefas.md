@@ -53,22 +53,22 @@ Para cada tarefa interativa, a revisão documental deve responder:
 
 **Decisão de design registrada em 21/10/2026:** foi implementada a melhoria mínima de encerramento: uma escolha sobre confirmar o que ficou combinado, o próximo passo e o contato conhecido para dúvidas. A implementação reutiliza a estrutura de escolhas, feedback e estados acessíveis já presente nos três cenários, evitando adicionar dependências ou serviços.
 
-Ver [implementação da prática de encerramento (OE-05)](implementacao-pratica-encerramento-2026-10-21.md). A CI [#39640867875](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39640867875) passou com 16 verificações estáticas e 27 testes Playwright/axe-core. A auditoria manual permanece pendente; o resultado automatizado não constitui validação com usuários nem evidência de aprendizagem.
+Ver [implementação da prática de encerramento (OE-05)](historico/implementacao-pratica-encerramento-2026-10-21.md). A CI [#39640867875](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39640867875) passou com 16 verificações estáticas e 27 testes Playwright/axe-core. A auditoria manual permanece pendente; o resultado automatizado não constitui validação com usuários nem evidência de aprendizagem.
 
 ## 7. Relação com outros documentos
 
-- [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md): compara recursos e fundamenta requisitos provisórios.
+- [Benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md): compara recursos e fundamenta requisitos provisórios.
 - [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md): rastreia fontes, requisitos e verificações.
 - [Matriz de critérios para revisão de textos e feedbacks](matriz-criterios-qualidade-textos-feedbacks.md): relaciona objetivos, ações seguras, feedbacks e testes de regressão.
 - [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md): inventaria a cobertura automatizada observável e explicita o que ainda exige execução de CI ou inspeção manual.
-- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md): fornece os casos AUD-01 a AUD-20 para inspeção.
+- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md): fornece os casos AUD-01 a AUD-20 para inspeção.
 - [Especificação do produto mínimo](produto-minimo.md): descreve limites e funcionalidades atuais.
 - [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md): define a diretriz de escopo vigente.
-- [Segunda revisão estática do protótipo — 20/10/2026](segunda-revisao-estatica-2026-10-20.md): registra a inspeção de IDs, referências, APIs comuns e a distinção entre conteúdo de encerramento e escala de facilidade.
+- [Segunda revisão estática do protótipo — 20/10/2026](../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md): registra a inspeção de IDs, referências, APIs comuns e a distinção entre conteúdo de encerramento e escala de facilidade.
 
 ## 8. Próximas ações
 
-**Complemento estático de 20/10/2026:** a segunda revisão confirmou, por inspeção textual, 24 IDs sem duplicações, três destinos de `aria-controls` existentes, nove referências únicas de `getElementById` sem destino ausente e nenhuma URL HTTP(S) em `href`/`src`. A escala de facilidade do encerramento é interativa, mas não constitui tarefa de OE-05. Detalhes e hashes em [segunda revisão estática](segunda-revisao-estatica-2026-10-20.md). A inspeção não executou navegador nem testes nesta rodada.
+**Complemento estático de 20/10/2026:** a segunda revisão confirmou, por inspeção textual, 24 IDs sem duplicações, três destinos de `aria-controls` existentes, nove referências únicas de `getElementById` sem destino ausente e nenhuma URL HTTP(S) em `href`/`src`. A escala de facilidade do encerramento é interativa, mas não constitui tarefa de OE-05. Detalhes e hashes em [segunda revisão estática](../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md). A inspeção não executou navegador nem testes nesta rodada.
 
 1. [x] Fazer uma segunda passagem editorial para tornar ações e termos mais concretos; ver [registro de revisão e simplificação](revisao-editorial-cenarios-feedbacks-2026-10-20.md) e [matriz de critérios](matriz-criterios-qualidade-textos-feedbacks.md).
 2. [x] Criar uma matriz estática inicial de rastreabilidade para OE-01 a OE-05 e RF-01 a RF-11, com base nos títulos e nas asserções existentes em `tests/prototype.spec.js`; ver [matriz de rastreabilidade de 24/10/2026](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). **Limite:** a matriz foi criada por inspeção do código de teste; ainda precisa ser reconciliada com uma execução de regressão no commit atual.
