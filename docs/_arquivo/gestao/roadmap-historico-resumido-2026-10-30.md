@@ -1,4 +1,4 @@
-> **Arquivo histórico:** este roadmap resumido foi preservado para consulta. O documento ativo e atualizado é [`roadmap.md`](roadmap.md).
+> **Arquivo histórico:** este roadmap resumido foi preservado para consulta. O documento ativo e atualizado é [`roadmap.md`](../../gestao/roadmap.md).
 
 # Roadmap de desenvolvimento — Treino de Teleconsulta
 
@@ -22,17 +22,17 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Criar uma primeira interface web estática, com cenários fictícios e sem dependências externas no tempo de uso.
 - [x] Reorientar a interface para três etapas gerais: preparação, situações simuladas durante a consulta e encerramento.
 - [x] Implementar três situações selecionáveis com feedback dependente da resposta (link indisponível, áudio e pedido de esclarecimento).
-- [x] Criar mapa preliminar de objetivos educativos e tarefas ([mapa](mapa-objetivos-educativos-e-tarefas.md)).
+- [x] Criar mapa preliminar de objetivos educativos e tarefas ([mapa](../../prototipo/mapa-objetivos-educativos-e-tarefas.md)).
 - [ ] Revisar objetivos, tarefas e testes, incluindo a lacuna de prática interativa no encerramento.
 - [ ] Definir de modo não estigmatizante o que será considerado “baixa familiaridade digital”.
 
 ## Fase 1 — Evidências e diferenciação (P0)
 
-- [x] Consolidar strings e formulário de registro de execução ([registro](registro-busca-estruturada-2026-10-20.md)).
+- [x] Consolidar strings e formulário de registro de execução ([registro](../../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md)).
 - [ ] Executar buscas reprodutíveis em PubMed/MEDLINE, BVS/LILACS e SciELO; as interfaces oficiais não retornaram páginas de resultados pelo ambiente usado nesta rodada, sem contagens/exportações confirmadas.
 - [x] Incluir termos para teleconsulta, simulação educativa, preparação de pacientes, competência digital, acessibilidade e necessidade de apoio digital nas estratégias propostas.
 - [ ] Registrar estratégias, data, filtros, resultados, exportações, deduplicação e razões de exclusão.
-- [x] Registrar um primeiro benchmark exploratório de recursos públicos e suas limitações ([benchmark](benchmark-recursos-existentes.md)).
+- [x] Registrar um primeiro benchmark exploratório de recursos públicos e suas limitações ([benchmark](../../fundamentacao/benchmark-recursos-existentes.md)).
 - [x] Inspecionar parcialmente o sumário público de Digital House Calls, o toolkit WHO/ITU e páginas brasileiras de telessaúde; registrar limitações de acesso e criar matriz de aplicabilidade ao protótipo. A comparação exaustiva e a lacuna de inovação continuam pendentes.
 - [ ] Aprofundar o benchmarking de guias, vídeos, tutoriais, plataformas e simuladores existentes.
 - [ ] Definir a lacuna do projeto com base no que foi encontrado, sem presumir originalidade antes da comparação.
@@ -56,9 +56,9 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 - [x] Atualizar conteúdo interativo: entrada simulada, falha de áudio, pedido de esclarecimento e exercício de encerramento (OE-05) com escolha única e feedback local; CI #39640867875 passou (16 verificações estáticas e 27 testes Playwright/axe-core); auditoria manual permanece pendente.
 - [ ] Garantir que a interface não solicite dados pessoais/clínicos e não transmita ou armazene respostas.
 - [x] Executar testes Playwright, axe-core e verificações estáticas após a atualização funcional: 15 checagens estáticas e 22 testes de navegador passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
-- [x] Criar roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes ([roteiro](roteiro-auditoria-tecnica-sem-participantes.md)).
-- [x] Registrar inspeção estática parcial do HTML/JS/CSS, incluindo controles e busca por APIs comuns de rede/persistência ([registro](registro-auditoria-estatica-2026-10-20.md)).
-- [x] Calcular contraste de combinações selecionadas e registrar pendências a confirmar no navegador ([verificação preliminar](verificacao-preliminar-contraste-2026-10-20.md)).
+- [x] Criar roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes ([roteiro](../../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md)).
+- [x] Registrar inspeção estática parcial do HTML/JS/CSS, incluindo controles e busca por APIs comuns de rede/persistência ([registro](../../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md)).
+- [x] Calcular contraste de combinações selecionadas e registrar pendências a confirmar no navegador ([verificação preliminar](../../avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md)).
 - [ ] Completar testes manuais de teclado, leitor de tela, contraste em componentes reais, zoom, telas pequenas, rede/armazenamento e movimento reduzido; inspeção estática não equivale à auditoria completa.
 
 ## Fase 4 — Avaliação e aperfeiçoamento (P1)
@@ -85,7 +85,7 @@ Não acrescentar chatbot, IA, integração com prontuário, consulta real, conta
 
 ## Atualização — revisão estática e precisão pedagógica (20/10/2026)
 
-- [x] Registrar a segunda revisão estática em [segunda-revisao-estatica-2026-10-20.md](segunda-revisao-estatica-2026-10-20.md).
+- [x] Registrar a segunda revisão estática em [segunda-revisao-estatica-2026-10-20.md](../../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md).
 - [x] Distinguir o conteúdo educativo estático de encerramento da escala interativa de facilidade (1–5); esta escala não é tarefa de OE-05 nem medida de aprendizagem.
 - [x] Atualizar o mapa de objetivos, o relatório técnico, o guia da defesa e o estado atual do projeto.
 - [x] Corrigir o slide da apresentação ODP para refletir a distinção; [commit da correção](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/50bd1e648bf871afea0d90266fd95153da40fa36).
@@ -96,7 +96,7 @@ Não acrescentar chatbot, IA, integração com prontuário, consulta real, conta
 ## Atualização — revisão editorial dos cenários e anteprojeto (20/10/2026)
 
 - [x] Revisar as instruções e os feedbacks de OE-02 (link), OE-03 (áudio) e OE-04 (informação não compreendida), com ênfase em ação concreta, tom não punitivo, canal oficial conhecido e ausência de orientação clínica.
-- [x] Atualizar `produto/index.html` e `produto/app.js`; ver [registro editorial](revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+- [x] Atualizar `produto/index.html` e `produto/app.js`; ver [registro editorial](../../prototipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md).
 - [x] Alinhar o mapa de objetivos e os anteprojetos à revisão, distinguindo evidência publicada de hipótese de design.
 - [ ] Executar os testes automatizados após a alteração de texto e registrar o resultado do commit testado.
 - [ ] Conferir manualmente foco, mensagens dinâmicas, teclado e tecnologia assistiva.
@@ -116,7 +116,7 @@ Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-
 
 ## Atualização — critérios verificáveis para textos e feedbacks (20/10/2026)
 
-- [x] Criar [matriz de critérios de qualidade para rastrear objetivos, situações, ação segura, feedback e verificações](matriz-criterios-qualidade-textos-feedbacks.md).
+- [x] Criar [matriz de critérios de qualidade para rastrear objetivos, situações, ação segura, feedback e verificações](../../prototipo/matriz-criterios-qualidade-textos-feedbacks.md).
 - [x] Relacionar os critérios aos cenários interativos OE-02, OE-03 e OE-04 e aos conteúdos OE-01/OE-05.
 - [x] Atualizar os anteprojetos, mapa de objetivos e README com referência à matriz.
 - [ ] Executar testes de regressão no commit atual e registrar saída.
@@ -132,7 +132,7 @@ Commit de teste: [492d562](https://github.com/pablopcdossantos2-sys/repositorio-
 - [ ] Confirmar o resultado final da nova CI após corrigir as asserções de texto antigas e os nomes acessíveis dos botões.
 - [ ] Executar a auditoria manual com tecnologia assistiva e diferentes combinações de tema/contraste, texto grande e telas estreitas.
 
-Registro: [Implementação de controles visuais e acessibilidade](revisao-acessibilidade-visual-e-controles-2026-10-21.md). A implementação não equivale a conformidade integral WCAG nem a validação com pessoas com deficiência.
+Registro: [Implementação de controles visuais e acessibilidade](../../avaliacao/registros/revisao-acessibilidade-visual-e-controles-2026-10-21.md). A implementação não equivale a conformidade integral WCAG nem a validação com pessoas com deficiência.
 
 
 ### Resultado dos testes automatizados — 21/10/2026
@@ -142,17 +142,17 @@ A CI [#39615349270](https://github.com/pablopcdossantos2-sys/repositorio-repo/ac
 
 ## Atualização — ficha objetiva para auditoria manual (21/10/2026)
 
-Criado o [Modelo de preenchimento da auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md). A ficha usa códigos estáveis (C/PC/NC/NT/BL/NA), perguntas por área, evidências, registro de defeitos e resumo quantitativo. A auditoria segue pendente até o modelo ser preenchido com resultados efetivamente observados.
+Criado o [Modelo de preenchimento da auditoria manual de acessibilidade](../../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md). A ficha usa códigos estáveis (C/PC/NC/NT/BL/NA), perguntas por área, evidências, registro de defeitos e resumo quantitativo. A auditoria segue pendente até o modelo ser preenchido com resultados efetivamente observados.
 
 
 ### Formulário interativo de auditoria manual (21/10/2026)
 
-Além do modelo Markdown, está disponível o [formulário HTML preenchível](formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](../../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
 
 
 ### Usabilidade do formulário de auditoria — ajuda contextual (21/10/2026)
 
-O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](formulario-auditoria-manual-acessibilidade.html).
+O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](../../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html).
 
 
 ## Registro da auditoria manual (21/10/2026)
