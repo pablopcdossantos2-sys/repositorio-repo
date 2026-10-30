@@ -106,7 +106,7 @@ O artigo orienta a preparação de pacientes padronizados para atividades de sim
 - **Galvin et al. (2024):** revisão de escopo de treinamento de usuários finais; 13 estudos incluídos, com evidência limitada e mista de melhoria de competência. PubMed: https://pubmed.ncbi.nlm.nih.gov/39083789/.
 - **WHO/ITU (2024):** toolkit técnico de acessibilidade para serviços de telessaúde. OMS: https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities.
 
-A análise de propósito, formato, público, limites e requisitos derivados está em [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md).
+A análise de propósito, formato, público, limites e requisitos derivados está em [Benchmark exploratório de recursos existentes](../benchmark-recursos-existentes.md).
 
 ### Interpretação e limites
 

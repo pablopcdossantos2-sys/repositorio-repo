@@ -24,7 +24,7 @@
 
 ## Atualização de 20/10/2026 — estado de execução
 
-O protocolo de strings foi organizado no [Registro de execução das buscas bibliográficas — 20/10/2026](registro-busca-estruturada-2026-10-20.md). A tentativa de abrir as interfaces oficiais pelo ambiente de pesquisa não recuperou as páginas de resultados; portanto, **as buscas nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO seguem pendentes**. Não há contagens, exportações ou deduplicação documentadas nesta rodada. A pesquisa web exploratória e os artigos localizados individualmente continuam sendo evidência complementar, não substitutos das buscas formais.
+O protocolo de strings foi organizado no [Registro de execução das buscas bibliográficas — 20/10/2026](registros/registro-busca-estruturada-2026-10-20.md). A tentativa de abrir as interfaces oficiais pelo ambiente de pesquisa não recuperou as páginas de resultados; portanto, **as buscas nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO seguem pendentes**. Não há contagens, exportações ou deduplicação documentadas nesta rodada. A pesquisa web exploratória e os artigos localizados individualmente continuam sendo evidência complementar, não substitutos das buscas formais.
 
 ## Plano de busca bibliográfica a executar
 
@@ -130,7 +130,7 @@ A síntese de evidências e as implicações para o produto estão documentadas 
 
 25. **DUPLAGA, M. (2025).** The Determinants of the Usability of Telephone-Based Remote Physician Visits. *Studies in Health Technology and Informatics*, 329, 1976–1977. DOI: https://doi.org/10.3233/SHTI251307. Estudo observacional de 1.661 adultos usuários de internet na Polônia; associa fatores demográficos, literacia eletrônica e ansiedade tecnológica à usabilidade autorreferida. Não generalizar seus resultados para a população de Guaraí.
 
-A busca, os critérios de seleção desta rodada exploratória e seus limites estão documentados em [Registro da busca exploratória complementar de 19/10/2026](registro-busca-exploratoria-2026-10-19.md). As buscas reprodutíveis e contagens diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continuam pendentes.
+A busca, os critérios de seleção desta rodada exploratória e seus limites estão documentados em [Registro da busca exploratória complementar de 19/10/2026](registros/registro-busca-exploratoria-2026-10-19.md). As buscas reprodutíveis e contagens diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continuam pendentes.
 
 
 ## Evidências iniciais específicas de treinamento de usuários — 20/10/2026
@@ -154,7 +154,7 @@ A análise crítica e as decisões de desenvolvimento estão em [Nota de evidên
 
 30. **WORLD HEALTH ORGANIZATION; INTERNATIONAL TELECOMMUNICATION UNION (2024).** *Implementation toolkit for accessible telehealth services*. Disponível em: https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities. Documento normativo/técnico para incluir acessibilidade na concepção de serviços de telessaúde.
 
-A documentação desta rodada exploratória está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
+A documentação desta rodada exploratória está em [Registro da busca exploratória complementar — 20/10/2026](registros/registro-busca-exploratoria-2026-10-20.md).
 
 
 ## Referências adicionais do benchmark de recursos — 20/10/2026

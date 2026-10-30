@@ -5,7 +5,7 @@
 
 ## Finalidade e limites
 
-O script **scripts/buscar-pubmed.mjs** executa PM-1 a PM-4, documentadas no [registro de execução das buscas](registro-busca-estruturada-2026-10-20.md), pela API NCBI E-utilities. Ele registra a string exata, data/hora UTC, endpoint, parâmetros, total reportado e os IDs PubMed devolvidos.
+O script **scripts/buscar-pubmed.mjs** executa PM-1 a PM-4, documentadas no [registro de execução das buscas](registros/registro-busca-estruturada-2026-10-20.md), pela API NCBI E-utilities. Ele registra a string exata, data/hora UTC, endpoint, parâmetros, total reportado e os IDs PubMed devolvidos.
 
 **Ele não substitui a execução da consulta na interface oficial do PubMed**, não documenta filtros visuais, não baixa títulos/resumos e não substitui a exportação bibliográfica para triagem. Nenhuma contagem foi gerada nesta atualização: o script foi criado e testado com respostas simuladas, mas não foi usado para realizar buscas reais.
 

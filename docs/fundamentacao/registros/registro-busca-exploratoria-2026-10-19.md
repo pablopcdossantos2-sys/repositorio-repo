@@ -3,7 +3,7 @@
 **Projeto:** Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital  
 **Tipo de busca:** complementar, exploratória e dirigida à pergunta do projeto  
 **Data:** 19/10/2026 (fuso local do projeto)  
-**Documento de síntese:** [Revisão rápida de evidências e recomendações](revisao-rapida-evidencias-e-recomendacoes.md)
+**Documento de síntese:** [Revisão rápida de evidências e recomendações](../revisao-rapida-evidencias-e-recomendacoes.md)
 
 ## Atualização de escopo (20/10/2026)
 
@@ -61,4 +61,4 @@ Executar diretamente nas interfaces oficiais (não apenas por busca web) e regis
 6. Leitura integral e avaliação crítica apropriada ao desenho dos estudos.
 7. Fluxo de seleção e atualização da matriz de evidências/requisitos.
 
-As strings iniciais e os critérios de elegibilidade permanecem em [Busca bibliográfica estruturada](busca-bibliografica-estruturada.md). Este registro suplementar não deve ser apresentado como revisão sistemática ou de escopo concluída.
+As strings iniciais e os critérios de elegibilidade permanecem em [Busca bibliográfica estruturada](../busca-bibliografica-estruturada.md). Este registro suplementar não deve ser apresentado como revisão sistemática ou de escopo concluída.

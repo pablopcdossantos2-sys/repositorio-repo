@@ -4,7 +4,7 @@
 **Data deste levantamento:** 17 de outubro de 2026  
 **Status:** busca estruturada preliminar; síntese crítica inicial, ainda não uma revisão sistemática concluída.
 
-**Atualização de 20/10/2026:** as strings e o estado de execução estão organizados em [Registro de execução das buscas bibliográficas — 20/10/2026](registro-busca-estruturada-2026-10-20.md). As consultas oficiais ainda não foram executadas com contagens/exportações reproduzíveis; o protocolo abaixo não deve ser interpretado como busca formal concluída.
+**Atualização de 20/10/2026:** as strings e o estado de execução estão organizados em [Registro de execução das buscas bibliográficas — 20/10/2026](registros/registro-busca-estruturada-2026-10-20.md). As consultas oficiais ainda não foram executadas com contagens/exportações reproduzíveis; o protocolo abaixo não deve ser interpretado como busca formal concluída.
 
 ## 1. Pergunta e escopo
 
@@ -31,7 +31,7 @@ Bases-alvo: **PubMed/MEDLINE, BVS (incluindo LILACS) e SciELO**. O levantamento 
 
 Data de corte desta versão: 17/10/2026. Idiomas de interesse: português, inglês e espanhol. Janela prioritária: 2016–2026; trabalhos fundamentais anteriores podem ser incluídos por relevância conceitual. Não foi aplicado filtro de desenho na busca principal, para não excluir estudos qualitativos ou de implementação.
 
-Em 19/10/2026 foi feita uma busca web complementar para localizar registros mais recentes e confirmar metadados de estudos relevantes; as consultas e os limites dessa rodada estão em [Registro da busca exploratória complementar](registro-busca-exploratoria-2026-10-19.md). Essa rodada não gerou contagens completas nas bases oficiais e não substitui a execução das estratégias abaixo diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO.
+Em 19/10/2026 foi feita uma busca web complementar para localizar registros mais recentes e confirmar metadados de estudos relevantes; as consultas e os limites dessa rodada estão em [Registro da busca exploratória complementar](registros/registro-busca-exploratoria-2026-10-19.md). Essa rodada não gerou contagens completas nas bases oficiais e não substitui a execução das estratégias abaixo diretamente nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO.
 
 ## 3. Estratégias de busca para executar nas interfaces oficiais
 
@@ -271,7 +271,7 @@ A seleção abaixo é **provisória e baseada em relevância temática dos regis
 
 ## 7. Busca exploratória complementar — 20/10/2026
 
-Uma rodada complementar na web localizou literatura metodológica sobre avaliação de simulações educativas de telemedicina e atualizou a conferência de diretrizes de acessibilidade. O registro integral das consultas, dos metadados e dos limites está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
+Uma rodada complementar na web localizou literatura metodológica sobre avaliação de simulações educativas de telemedicina e atualizou a conferência de diretrizes de acessibilidade. O registro integral das consultas, dos metadados e dos limites está em [Registro da busca exploratória complementar — 20/10/2026](registros/registro-busca-exploratoria-2026-10-20.md).
 
 ### Registros a incorporar à triagem
 

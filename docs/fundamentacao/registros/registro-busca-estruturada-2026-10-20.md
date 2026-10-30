@@ -161,8 +161,8 @@ Não estimar valores nem gerar diagrama de fluxo antes de ter números reais. N�
 
 - Galvin E et al. Training Service Users in the Use of Telehealth: Scoping Review. *J Med Internet Res*. 2024;26:e57586. https://pubmed.ncbi.nlm.nih.gov/39083789/
 - Ajuda oficial do PubMed sobre construção de buscas e exportação: https://pubmed.ncbi.nlm.nih.gov/help/
-- Benchmark exploratório do repositório: [benchmark-recursos-existentes.md](benchmark-recursos-existentes.md).
-- Síntese estruturada preliminar: [busca-bibliografica-estruturada.md](busca-bibliografica-estruturada.md).
+- Benchmark exploratório do repositório: [benchmark-recursos-existentes.md](../benchmark-recursos-existentes.md).
+- Síntese estruturada preliminar: [busca-bibliografica-estruturada.md](../busca-bibliografica-estruturada.md).
 
 ## 9. Próxima ação
 
@@ -178,6 +178,6 @@ A próxima execução deverá ocorrer em um navegador acessível ao pesquisador,
 
 ## Ferramenta complementar para PubMed E-utilities — 21/10/2026
 
-Foi adicionada a ferramenta auxiliar scripts/buscar-pubmed.mjs, que extrai as estratégias PM-1 a PM-4 deste registro e pode gravar em JSON a string exata, o total reportado pela API, os PMIDs retornados, a data/hora UTC e os parâmetros da chamada. O uso está descrito no [guia de execução complementar](guia-execucao-pubmed-automatizada.md). Testes com respostas simuladas verificam a extração das estratégias, a validação dos parâmetros e o registro de contagem/paginação.
+Foi adicionada a ferramenta auxiliar scripts/buscar-pubmed.mjs, que extrai as estratégias PM-1 a PM-4 deste registro e pode gravar em JSON a string exata, o total reportado pela API, os PMIDs retornados, a data/hora UTC e os parâmetros da chamada. O uso está descrito no [guia de execução complementar](../guia-execucao-pubmed-automatizada.md). Testes com respostas simuladas verificam a extração das estratégias, a validação dos parâmetros e o registro de contagem/paginação.
 
 **Estado atual:** nenhuma execução real da API foi realizada nesta atualização; não há contagens ou exportações novas. O script é complementar e não substitui a busca na interface oficial, o registro de filtros visuais nem a exportação bibliográfica para triagem. Não alterar o estado de PM-1 a PM-4 para concluído antes da execução efetiva e do arquivamento dos artefatos.

@@ -8,7 +8,7 @@
 
 ## Documento derivado
 
-A tradução das observações deste levantamento em requisitos verificáveis, critérios de aceitação e limites de inferência está em [Matriz de tradução do benchmark em requisitos verificáveis (24/10/2026)](matriz-traducao-benchmark-requisitos-2026-10-24.md). Essa matriz não transforma o levantamento exploratório em revisão sistemática nem conclui as inspeções pendentes.
+A tradução das observações deste levantamento em requisitos verificáveis, critérios de aceitação e limites de inferência está em [Matriz de tradução do benchmark em requisitos verificáveis (24/10/2026)](../prototipo/matriz-traducao-benchmark-requisitos-2026-10-24.md). Essa matriz não transforma o levantamento exploratório em revisão sistemática nem conclui as inspeções pendentes.
 
 ## 1. Pergunta do benchmark
 
@@ -132,7 +132,7 @@ Não afirmar que o protótipo é único ou inovador apenas porque usa escolha e 
 | B-07 | Atender critérios de acessibilidade aplicáveis | WHO/ITU 2024; WCAG 2.2 | Auditoria estática e manual; registrar itens não verificados |
 | B-08 | Evitar afirmações de eficácia, validação por usuários ou aprendizagem duradoura | Galvin et al. (2024) relata evidência limitada e mista; o projeto ainda não terá dados de usuários | Revisão das alegações em documentação e interface |
 
-Estes requisitos são provisórios e precisam ser rastreados na [matriz de evidências e requisitos](matriz-evidencias-requisitos.md) e na especificação do produto mínimo.
+Estes requisitos são provisórios e precisam ser rastreados na [matriz de evidências e requisitos](../prototipo/matriz-evidencias-requisitos.md) e na especificação do produto mínimo.
 
 ## 7. Próximos passos
 
@@ -172,7 +172,7 @@ A página do curso em inglês descreve um curso gratuito, autoguiado, com liçõ
 
 Foi aberta a versão oficial de 2024 do [Implementation toolkit for accessible telehealth services (PDF da ITU/WHO)](https://www.itu.int/dms_pub/itu-t/opb/joint/T-JOINT-WHO-2024-1-PDF-E.pdf), além da [página oficial da WHO](https://www.who.int/publications/b/74046). O toolkit explica um processo de implementação do padrão WHO-ITU de acessibilidade; o padrão referenciado é a recomendação F.780.2 e resume 25 requisitos técnicos de acessibilidade. Entre os temas explícitos estão compatibilidade com leitores de tela/teclados Braille, contraste e ampliação, clareza de linguagem, controles que não exijam coordenação motora fina, mensagens de estado e conteúdo compreensível, privacidade e disponibilidade de material educativo simples.
 
-Nem todos os requisitos de um serviço real são aplicáveis ao simulador, que não fornece videochamada, chat, intérprete remoto nem participação real em consulta. Foi criada a [Matriz de aplicabilidade do toolkit WHO/ITU ao protótipo](matriz-aplicabilidade-who-itu-prototipo.md), associando requisitos relevantes aos IDs já existentes da auditoria e registrando os itens fora do escopo. A matriz também identifica aspectos ainda não perguntados explicitamente no instrumento 1.1 (por exemplo, esforço de rolagem e exigência de duplo clique), a considerar numa futura versão da ficha.
+Nem todos os requisitos de um serviço real são aplicáveis ao simulador, que não fornece videochamada, chat, intérprete remoto nem participação real em consulta. Foi criada a [Matriz de aplicabilidade do toolkit WHO/ITU ao protótipo](../prototipo/matriz-aplicabilidade-who-itu-prototipo.md), associando requisitos relevantes aos IDs já existentes da auditoria e registrando os itens fora do escopo. A matriz também identifica aspectos ainda não perguntados explicitamente no instrumento 1.1 (por exemplo, esforço de rolagem e exigência de duplo clique), a considerar numa futura versão da ficha.
 
 ### 9.3 Recursos públicos brasileiros — busca web complementar
 

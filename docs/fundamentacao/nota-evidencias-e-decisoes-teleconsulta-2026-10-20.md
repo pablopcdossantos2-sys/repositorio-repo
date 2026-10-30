@@ -86,7 +86,7 @@ A busca exploratória complementar de 20/10/2026 identificou três publicações
 
 **Consequência para o método:** a Camada 0 deve verificar, antes de qualquer piloto, se cada tarefa tem uma ação observável, critérios explícitos de sucesso parcial/total, registro de ajuda necessária e feedback alinhado ao objetivo. O protocolo preliminar recebeu uma rubrica candidata por tarefa. Ela não está aprovada e não substitui revisão da orientação. A distinção entre usuários finais e aprendizes profissionais foi adicionada à síntese para evitar extrapolação.
 
-O registro de consultas, fontes e limites desta rodada está em [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md). Como na nota anterior, a busca oficial reproduzível nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continua pendente; não foram obtidas contagens completas nem exportações dessas bases nesta rodada.
+O registro de consultas, fontes e limites desta rodada está em [Registro da busca exploratória complementar — 20/10/2026](registros/registro-busca-exploratoria-2026-10-20.md). Como na nota anterior, a busca oficial reproduzível nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO continua pendente; não foram obtidas contagens completas nem exportações dessas bases nesta rodada.
 
 
 ## 9. Benchmark exploratório de recursos existentes — 20/10/2026
