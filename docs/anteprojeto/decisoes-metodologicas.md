@@ -41,6 +41,8 @@ A opção mais viável para começar é **análise documental e de soluções ex
 
 Pesquisa tecnológica aplicada, exploratória, com foco inicial no desenvolvimento de um produto educativo fundamentado em literatura e análise de soluções existentes. A avaliação será proporcional ao estágio do produto e poderá ser inteiramente técnica, documental e pedagógica nesta etapa.
 
+**Arcabouço metodológico proposto no texto-base v1:** Design Science Research (DSR), com referência a Hevner et al. (2004) e Peffers et al. (2007). Essa é a opção atualmente redigida no anteprojeto, mas a decisão D3 permanece pendente de validação com a orientação; não tratá-la como decisão acadêmica definitiva até essa conversa.
+
 **Princípio de parcimônia metodológica:** não planejar entrevistas, oficinas, observações ou testes com pessoas como requisito de partida. Primeiro, completar a fundamentação, definir requisitos rastreáveis e desenvolver/revisar o protótipo simples. Levar o desenho à orientação acadêmica. Se ela indicar que dados diretos de pessoas são necessários, incorporar apenas a etapa pertinente — por exemplo, identificação enxuta de necessidades, revisão de protótipo ou teste de usabilidade — após avaliar acesso, tempo, protocolo e autorizações. Não denominar o trabalho “codesenho com usuários” se as decisões forem baseadas somente em literatura e avaliação interna.
 
 ### Fases propostas
