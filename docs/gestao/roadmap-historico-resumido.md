@@ -1,3 +1,5 @@
+> **Arquivo histórico:** este roadmap resumido foi preservado para consulta. O documento ativo e atualizado é [`roadmap.md`](roadmap.md).
+
 # Roadmap de desenvolvimento — Treino de Teleconsulta
 
 > Antes de alterar código, método ou escopo, leia [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md), que reúne as decisões atuais e os limites das propostas condicionais.

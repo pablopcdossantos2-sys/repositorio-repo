@@ -1,6 +1,6 @@
 # Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital
 
-> **Para continuidade do trabalho:** antes de qualquer alteração, leia [Estado atual do projeto e diretrizes para IAs](docs/estado-atual-e-diretrizes-para-ias.md). Esse documento consolida as decisões vigentes e orienta como resolver conflitos com rascunhos anteriores.
+> **Para continuidade do trabalho:** antes de qualquer alteração, leia [Estado atual do projeto e diretrizes para IAs](../docs/gestao/estado-atual-e-diretrizes-para-ias.md). Esse documento consolida as decisões vigentes e orienta como resolver conflitos com rascunhos anteriores.
 
 Projeto de pesquisa tecnológica em desenvolvimento para o **Mestrado Profissional em Telessaúde e Saúde Digital da UERJ**. O tema escolhido é, de forma exclusiva:
 
@@ -10,19 +10,19 @@ O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúd
 
 ### Registros de execução recentes
 
-- [Registro de execução das buscas bibliográficas (20/10/2026)](docs/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
-- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](docs/levantamento-bibliografico-exploratorio-2026-10-24.md) — estudos localizados, leitura crítica e limites da busca; não substitui a execução formal nas interfaces das bases.
-- [Conferência do modelo e edital 2027 (24/10/2026)](docs/conferencia-modelo-e-edital-2027-2026-10-24.md) — verificação parcial da página oficial e pendências de conferência literal do DOCX e PDF integral.
-- [Guia da busca complementar no PubMed via E-utilities](docs/guia-execucao-pubmed-automatizada.md) — instruções para gerar registros JSON complementares sem confundi-los com execução oficial da interface.
-- [Registro da auditoria estática do protótipo (20/10/2026)](docs/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
-- [Verificação preliminar de contraste (20/10/2026)](docs/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
-- [Implementação de controles visuais e acessibilidade (21/10/2026)](docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md) — tema claro/escuro, escala de texto, alto contraste, paletas e padronização das opções; CI: 26 testes automatizados passaram; auditoria manual permanece pendente.
-- [Matriz de aplicabilidade WHO/ITU–protótipo](docs/matriz-aplicabilidade-who-itu-prototipo.md) — relaciona requisitos de acessibilidade para serviços reais aos casos de auditoria aplicáveis ao simulador, mantendo os limites de escopo explícitos.
-- [Modelo de auditoria manual de acessibilidade](docs/modelo-preenchimento-auditoria-manual-acessibilidade.md) — escala padronizada C/PC/NC/NT/BL/NA e registro de evidências.
-- [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — segunda passagem para trocar termos abstratos por ações concretas; há testes automatizados relacionados aos feedbacks, mas a auditoria manual e a compreensão pelo público-alvo permanecem pendentes.
-- [Matriz de critérios para revisão de textos e feedbacks](docs/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
-- [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](docs/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md) — relaciona OE-01–OE-05 e RF-01–RF-11 aos testes existentes, separando cobertura automatizada parcial das verificações manuais pendentes.
-- [Implementação da prática de encerramento (OE-05)](docs/implementacao-pratica-encerramento-2026-10-21.md) — exercício interativo com feedback local, sem conexão real ou persistência; CI passou com 16 verificações estáticas e 27 testes Playwright/axe-core; auditoria manual pendente.
+- [Registro de execução das buscas bibliográficas (20/10/2026)](../docs/fundamentacao/registros/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
+- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](../docs/fundamentacao/levantamento-bibliografico-exploratorio-2026-10-24.md) — estudos localizados, leitura crítica e limites da busca; não substitui a execução formal nas interfaces das bases.
+- [Conferência do modelo e edital 2027 (24/10/2026)](../docs/anteprojeto/selecao/conferencia-modelo-e-edital-2027-2026-10-24.md) — verificação parcial da página oficial e pendências de conferência literal do DOCX e PDF integral.
+- [Guia da busca complementar no PubMed via E-utilities](../docs/fundamentacao/guia-execucao-pubmed-automatizada.md) — instruções para gerar registros JSON complementares sem confundi-los com execução oficial da interface.
+- [Registro da auditoria estática do protótipo (20/10/2026)](../docs/avaliacao/registros/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
+- [Verificação preliminar de contraste (20/10/2026)](../docs/avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
+- [Implementação de controles visuais e acessibilidade (21/10/2026)](../docs/avaliacao/registros/revisao-acessibilidade-visual-e-controles-2026-10-21.md) — tema claro/escuro, escala de texto, alto contraste, paletas e padronização das opções; CI: 26 testes automatizados passaram; auditoria manual permanece pendente.
+- [Matriz de aplicabilidade WHO/ITU–protótipo](../docs/protótipo/matriz-aplicabilidade-who-itu-prototipo.md) — relaciona requisitos de acessibilidade para serviços reais aos casos de auditoria aplicáveis ao simulador, mantendo os limites de escopo explícitos.
+- [Modelo de auditoria manual de acessibilidade](../docs/avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) — escala padronizada C/PC/NC/NT/BL/NA e registro de evidências.
+- [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](../docs/protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — segunda passagem para trocar termos abstratos por ações concretas; há testes automatizados relacionados aos feedbacks, mas a auditoria manual e a compreensão pelo público-alvo permanecem pendentes.
+- [Matriz de critérios para revisão de textos e feedbacks](../docs/protótipo/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
+- [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](../docs/protótipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md) — relaciona OE-01–OE-05 e RF-01–RF-11 aos testes existentes, separando cobertura automatizada parcial das verificações manuais pendentes.
+- [Implementação da prática de encerramento (OE-05)](../docs/protótipo/historico/implementacao-pratica-encerramento-2026-10-21.md) — exercício interativo com feedback local, sem conexão real ou persistência; CI passou com 16 verificações estáticas e 27 testes Playwright/axe-core; auditoria manual pendente.
 - [CI mais recente — 24/10/2026](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/40095534286) — verificações sintáticas/estruturais/HTML concluídas e **29 testes Playwright + axe-core aprovados** após correção de uma expectativa de capitalização; isso não substitui a auditoria manual de acessibilidade.
 
 ## Objetivo do projeto
@@ -62,7 +62,7 @@ A prioridade é consolidar evidências, requisitos e avaliação técnica/pedag�
 
 ## Critérios que orientam o anteprojeto
 
-O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, relevância e aderência à linha; (2) potencial mercadológico e/ou inovação/escalabilidade; (3) conclusão em dois anos; (4) impacto para a sociedade; (5) equidade e diversidade; (6) relação com os ODS; e (7) relação com a transformação digital do SUS. A matriz histórica de comparação e o registro da decisão estão em [Critérios do edital e decisão de tema](docs/criterios-edital-e-seis-temas.md). As outras cinco alternativas não integram mais o escopo ativo do projeto.
+O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, relevância e aderência à linha; (2) potencial mercadológico e/ou inovação/escalabilidade; (3) conclusão em dois anos; (4) impacto para a sociedade; (5) equidade e diversidade; (6) relação com os ODS; e (7) relação com a transformação digital do SUS. A matriz histórica de comparação e o registro da decisão estão em [Critérios do edital e decisão de tema](../docs/anteprojeto/selecao/criterios-edital-e-seis-temas.md). As outras cinco alternativas não integram mais o escopo ativo do projeto.
 
 ## Princípios de escopo e segurança
 
@@ -74,57 +74,61 @@ O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, r
 - **Ética antes da pesquisa:** não recrutar, entrevistar nem conduzir testes de pesquisa com participantes sem verificar e obter as aprovações aplicáveis.
 - **Alegações proporcionais à evidência:** usabilidade e desempenho em tarefas simuladas não equivalem a aprendizagem duradoura nem a resultados clínicos.
 
+## Organização da documentação
+
+A documentação agora está organizada por fase; consulte o [índice de documentos](docs/README.md) para localizar anteprojeto, fundamentação, protótipo, avaliação e gestão.
+
 ## Estrutura do repositório
 
 - [ROADMAP — prioridades, critérios de conclusão e pendências](ROADMAP.md)
-- [Roadmap técnico do produto](docs/roadmap.md)
-- [Anteprojeto — versão de trabalho](docs/anteprojeto-base.md)
-- [Anteprojeto organizado conforme o modelo da UERJ](docs/anteprojeto-modelo-uerj.md)
-- [Especificação do produto mínimo](docs/produto-minimo.md)
-- [Mapa preliminar de objetivos educativos e tarefas](docs/mapa-objetivos-educativos-e-tarefas.md)
-- [Registro detalhado da revisão editorial dos cenários e feedbacks](docs/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — racional pedagógico, relação com fontes documentadas e verificações pendentes.
-- [Decisões metodológicas — opções, desenho recomendado e pendências](docs/decisoes-metodologicas.md)
-- [Protocolo preliminar de avaliação](docs/protocolo-preliminar-avaliacao.md)
-- [Matriz de evidências e requisitos](docs/matriz-evidencias-requisitos.md)
-- [Nota de evidências e decisões para o tema](docs/nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md)
-- [Critérios do edital e decisão de tema](docs/criterios-edital-e-seis-temas.md)
-- [Plano de parceria e ética](docs/parceria-e-etica.md)
-- [Roteiro de conversa exploratória com a Secretaria](docs/roteiro-reuniao-secretaria.md)
-- [Busca bibliográfica estruturada — protocolo e síntese crítica](docs/busca-bibliografica-estruturada.md)
-- [Referências iniciais e plano de busca](docs/referencias-e-busca-bibliografica.md)
-- [Benchmark exploratório de recursos existentes](docs/benchmark-recursos-existentes.md)
-- [Revisão rápida de evidências e recomendações](docs/revisao-rapida-evidencias-e-recomendacoes.md)
-- [Registro da busca exploratória complementar — 19/10/2026](docs/registro-busca-exploratoria-2026-10-19.md)
-- [Registro da busca exploratória complementar — 20/10/2026](docs/registro-busca-exploratoria-2026-10-20.md)
-- [Guia operacional das tarefas pessoais](docs/tarefas-pessoais-e-proximos-passos.md)
-- [Relatório de revisão técnica](docs/relatorio-revisao-tecnica.md)
-- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](docs/roteiro-auditoria-tecnica-sem-participantes.md)
-- [Modelo de preenchimento da auditoria manual de acessibilidade](docs/modelo-preenchimento-auditoria-manual-acessibilidade.md) — ficha por rodada com perguntas objetivas, evidências, defeitos e retestes.
-- [Carta de exposição de motivos — minuta editável](docs/carta-exposicao-de-motivos.md)
-- [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](docs/declaracao-conhecimento-deliberacao-13-2023.md)
+- [Roadmap técnico do produto](../docs/gestao/roadmap-historico-resumido.md)
+- [Anteprojeto — versão de trabalho](../docs/anteprojeto/versoes-anteriores/anteprojeto-base.md)
+- [Anteprojeto organizado conforme o modelo da UERJ](../docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md)
+- [Especificação do produto mínimo](../docs/protótipo/produto-minimo.md)
+- [Mapa preliminar de objetivos educativos e tarefas](../docs/protótipo/mapa-objetivos-educativos-e-tarefas.md)
+- [Registro detalhado da revisão editorial dos cenários e feedbacks](../docs/protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — racional pedagógico, relação com fontes documentadas e verificações pendentes.
+- [Decisões metodológicas — opções, desenho recomendado e pendências](../docs/anteprojeto/decisoes-metodologicas.md)
+- [Protocolo preliminar de avaliação](../docs/avaliacao/planejamento/protocolo-preliminar-avaliacao.md)
+- [Matriz de evidências e requisitos](../docs/protótipo/matriz-evidencias-requisitos.md)
+- [Nota de evidências e decisões para o tema](../docs/fundamentacao/nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md)
+- [Critérios do edital e decisão de tema](../docs/anteprojeto/selecao/criterios-edital-e-seis-temas.md)
+- [Plano de parceria e ética](../docs/anteprojeto/planejamento/parceria-e-etica.md)
+- [Roteiro de conversa exploratória com a Secretaria](../docs/anteprojeto/planejamento/roteiro-reuniao-secretaria.md)
+- [Busca bibliográfica estruturada — protocolo e síntese crítica](../docs/fundamentacao/busca-bibliografica-estruturada.md)
+- [Referências iniciais e plano de busca](../docs/fundamentacao/referencias-e-busca-bibliografica.md)
+- [Benchmark exploratório de recursos existentes](../docs/fundamentacao/benchmark-recursos-existentes.md)
+- [Revisão rápida de evidências e recomendações](../docs/fundamentacao/revisao-rapida-evidencias-e-recomendacoes.md)
+- [Registro da busca exploratória complementar — 19/10/2026](../docs/fundamentacao/registros/registro-busca-exploratoria-2026-10-19.md)
+- [Registro da busca exploratória complementar — 20/10/2026](../docs/fundamentacao/registros/registro-busca-exploratoria-2026-10-20.md)
+- [Guia operacional das tarefas pessoais](../docs/gestao/tarefas-pessoais-e-proximos-passos.md)
+- [Relatório de revisão técnica](../docs/avaliacao/relatorio-revisao-tecnica.md)
+- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../docs/avaliacao/roteiro-auditoria-tecnica-sem-participantes.md)
+- [Modelo de preenchimento da auditoria manual de acessibilidade](../docs/avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) — ficha por rodada com perguntas objetivas, evidências, defeitos e retestes.
+- [Carta de exposição de motivos — minuta editável](../docs/anteprojeto/submissao/carta-exposicao-de-motivos.md)
+- [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](../docs/anteprojeto/submissao/declaracao-conhecimento-deliberacao-13-2023.md)
 - [Protótipo — página inicial](produto/index.html)
 - [Como abrir o protótipo](produto/README.md)
-- [Tutorial didático para abrir e testar o protótipo](docs/tutorial-instalar-e-testar-prototipo.md)
+- [Tutorial didático para abrir e testar o protótipo](../docs/avaliacao/tutorial-instalar-e-testar-prototipo.md)
 - [Testes de navegador e acessibilidade automatizada](tests/prototype.spec.js)
 - [Verificações estáticas](scripts/check-prototype.mjs)
-- [Como executar os testes localmente](docs/como-executar-testes.md)
+- [Como executar os testes localmente](../docs/avaliacao/como-executar-testes.md)
 - [Workflow de qualidade contínua](.github/workflows/prototype-quality.yml)
 
 
 ### Formulário interativo de auditoria manual (21/10/2026)
 
-Além do modelo Markdown, está disponível o [formulário HTML preenchível](docs/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML inclui ícones de informação com exemplos e sugestões automáticas editáveis para data, navegador, sistema operacional e tipo aproximado de dispositivo; funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](../docs/avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML inclui ícones de informação com exemplos e sugestões automáticas editáveis para data, navegador, sistema operacional e tipo aproximado de dispositivo; funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
 
 
 ## Registro da auditoria manual (21/10/2026)
 
-Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( docs/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
+Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../docs/avaliacao/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
 
 
 ### Edital e revisão do anteprojeto
 
-- [Análise do edital da turma 2027 e lacunas do anteprojeto](docs/analise-edital-turma-2027-e-lacunas.md) — lista requisitos confirmados nas páginas oficiais, distingue pontos ainda não conferidos no PDF e orienta a revisão do texto acadêmico.
+- [Análise do edital da turma 2027 e lacunas do anteprojeto](../docs/anteprojeto/selecao/analise-edital-turma-2027-e-lacunas.md) — lista requisitos confirmados nas páginas oficiais, distingue pontos ainda não conferidos no PDF e orienta a revisão do texto acadêmico.
 
 ### Tutorial para executar as pendências
 
-- [Tutorial passo a passo: auditoria manual de acessibilidade, busca bibliográfica, benchmark e verificação do CI](docs/tutorial-execucao-pendencias.md) — orienta o executor sobre procedimentos, evidências mínimas, critérios de registro e limites das conclusões. Não substitui os modelos e protocolos específicos vinculados no tutorial.
+- [Tutorial passo a passo: auditoria manual de acessibilidade, busca bibliográfica, benchmark e verificação do CI](../docs/gestao/tutorial-execucao-pendencias.md) — orienta o executor sobre procedimentos, evidências mínimas, critérios de registro e limites das conclusões. Não substitui os modelos e protocolos específicos vinculados no tutorial.

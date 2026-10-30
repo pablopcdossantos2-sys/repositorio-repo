@@ -10,9 +10,9 @@ O protótipo usa HTML, CSS e JavaScript puros; não precisa de Node.js, npm, Git
 
 ## Para executar os testes automatizados
 
-O simulador **não precisa ser instalado**. Para executar a suíte automatizada, porém, é necessário instalar Node.js 24.8.0 ou posterior, npm, as dependências do projeto e o Chromium do Playwright. Siga o [tutorial didático para abrir e testar o protótipo](../docs/tutorial-instalar-e-testar-prototipo.md), que apresenta os dois caminhos passo a passo.
+O simulador **não precisa ser instalado**. Para executar a suíte automatizada, porém, é necessário instalar Node.js 24.8.0 ou posterior, npm, as dependências do projeto e o Chromium do Playwright. Siga o [tutorial didático para abrir e testar o protótipo](../docs/avaliacao/tutorial-instalar-e-testar-prototipo.md), que apresenta os dois caminhos passo a passo.
 
-A documentação de referência dos comandos está em [Como executar as verificações técnicas](../docs/como-executar-testes.md).
+A documentação de referência dos comandos está em [Como executar as verificações técnicas](../docs/avaliacao/como-executar-testes.md).
 
 ## Opção 2 — publicar uma demonstração pelo GitHub Pages
 
@@ -51,4 +51,4 @@ No início da página, a seção **Aparência e acessibilidade** oferece modo cl
 
 A paleta azul/âmbar e a versão preto e branco ajudam a reduzir a dependência de diferenças entre vermelho e verde ou de matizes. Elas não cobrem necessariamente todas as formas de daltonismo. Para pessoas cegas, a ferramenta depende da estrutura semântica, navegação por teclado, nomes de controles e compatibilidade do navegador/leitor de tela; os controles visuais não substituem os recursos assistivos do dispositivo.
 
-Consulte o [registro de implementação e verificações pendentes](../docs/revisao-acessibilidade-visual-e-controles-2026-10-21.md). A inclusão dos controles não equivale a certificação de conformidade WCAG, e a auditoria manual com tecnologias assistivas continua pendente.
+Consulte o [registro de implementação e verificações pendentes](../docs/avaliacao/registros/revisao-acessibilidade-visual-e-controles-2026-10-21.md). A inclusão dos controles não equivale a certificação de conformidade WCAG, e a auditoria manual com tecnologias assistivas continua pendente.
