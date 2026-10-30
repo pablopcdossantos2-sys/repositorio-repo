@@ -2,9 +2,8 @@
 
 Esta área reúne os materiais da concepção acadêmica, seleção e preparação de candidatura.
 
-## Documento de trabalho
-
-- [Texto-base na estrutura do DOCX oficial](rascunhos/anteprojeto-docx-oficial.md) — texto-base na estrutura do DOCX oficial; ainda não é o DOCX final; revisão do candidato e da orientação pendente.
+- [Pendências da fase](pendencias.md) — controle único, separado entre ações do desenvolvedor e tarefas autônomas da IA.
+- [Texto-base na estrutura do DOCX oficial](rascunhos/anteprojeto-docx-oficial.md) — ainda não é o DOCX final; revisão do candidato e da orientação pendente.
 - [Formulação vigente](formulacao-vigente.md) — fonte única de título, pergunta, objetivos e palavras-chave.
 - [Decisões metodológicas](decisoes-metodologicas.md) — opções e questões a validar com a orientação.
 - [Planejamento institucional e ético](planejamento/parceria-e-etica.md) — Guaraí-TO permanece cenário potencial, sem parceria formal.
@@ -12,9 +11,9 @@ Esta área reúne os materiais da concepção acadêmica, seleção e preparaç�
 ## Seleção
 
 - [Análise do edital e lacunas](selecao/analise-edital-turma-2027-e-lacunas.md).
-- [Conferência do DOCX e edital 2027 (30/10/2026)](selecao/conferencia-docx-e-edital-2027-2026-10-30.md) — registro vigente; a conferência de 24/10 está preservada como histórico.
-- [Fontes oficiais armazenadas](selecao/fontes-oficiais/README.md) — edital, modelo DOCX e corpo docente.
-- [Histórico da escolha do tema](selecao/historico-escolha-do-tema.md). O documento comparativo integral está arquivado.
+- [Conferência do DOCX e edital 2027 (30/10/2026)](selecao/conferencia-docx-e-edital-2027-2026-10-30.md).
+- [Fontes oficiais armazenadas](selecao/fontes-oficiais/README.md).
+- [Histórico da escolha do tema](selecao/historico-escolha-do-tema.md).
 
 ## Submissão
 
