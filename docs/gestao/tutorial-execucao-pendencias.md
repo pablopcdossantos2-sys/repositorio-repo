@@ -141,7 +141,7 @@ Execute as buscas separadamente em cada base. Abra:
 - LILACS via BVS: <https://lilacs.bvsalud.org/>
 - SciELO: <https://search.scielo.org/>
 
-O protocolo e as estratégias já aprovadas para esta etapa estão em [Registro de execução das buscas bibliográficas](registro-busca-estruturada-2026-10-20.md). **Use as strings desse arquivo como fonte de verdade**: copie cada estratégia completa sem reescrevê-la de memória. Se a interface exigir adaptação, registre a versão adaptada e o motivo.
+O protocolo e as estratégias já aprovadas para esta etapa estão em [Registro de execução das buscas bibliográficas](../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md). **Use as strings desse arquivo como fonte de verdade**: copie cada estratégia completa sem reescrevê-la de memória. Se a interface exigir adaptação, registre a versão adaptada e o motivo.
 
 ### C2. Registrar uma execução por estratégia e base
 
