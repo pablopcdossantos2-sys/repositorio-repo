@@ -16,7 +16,7 @@ Não realiza consultas reais, não utiliza áudio/vídeo ao vivo, não se conect
 - **Fundamentação:** há levantamento e benchmark exploratórios. As buscas formais nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO ainda precisam ser executadas e documentadas com contagens e exportações.
 - **Avaliação:** existem verificações automatizadas e registros de inspeção parcial. A rodada manual AUD-MAN-2026-10-21-01 é inconclusiva e não deve ser descrita como auditoria concluída.
 - **Método:** o plano-base é documental e técnico, sem participantes. Qualquer etapa com pessoas depende de decisão da orientação, viabilidade e aprovações aplicáveis.
-- **Candidatura:** o repositório contém rascunhos e fontes oficiais, não um pacote final comprovado de submissão. O status externo do processo não pode ser inferido pelo conteúdo do GitHub.
+- **Candidatura:** o repositório contém um texto-base na estrutura do DOCX em `docs/anteprojeto/rascunhos/anteprojeto-docx-oficial.md`, ainda pendente de revisão do candidato e da orientação; não há pacote final comprovado de submissão. O status externo do processo não pode ser inferido pelo conteúdo do GitHub.
 
 ## Navegação por fase
 
