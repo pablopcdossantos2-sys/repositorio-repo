@@ -25,9 +25,9 @@ Este roadmap acompanha exclusivamente **Tema 4 — Treino de Teleconsulta: simul
 
 A página oficial consultada em 23/10/2026 informa que as inscrições terminam em **29/10/2026 às 12h**. A estrutura de `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` já foi reorganizada para os 16 itens oficiais e três objetivos específicos; resumo em português e abstract em inglês estão abaixo de 500 palavras. Ainda é necessário baixar e conferir o arquivo-modelo editável e o PDF integral do edital 2027, preencher a identificação do candidato e validar os documentos de inscrição. Não tratar o rascunho como pronto para submissão antes dessa conferência.
 
-- [Análise do edital da turma 2027 e lacunas do anteprojeto](../anteprojeto/selecao/analise-edital-turma-2027-e-lacunas.md)
-- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](../fundamentacao/levantamento-bibliografico-exploratorio-2026-10-24.md) — duas revisões de escopo e fontes brasileiras/contextuais; busca formal nas interfaces e exportações continuam pendentes.
-- [Conferência do modelo e edital 2027 (24/10/2026)](../anteprojeto/selecao/conferencia-modelo-e-edital-2027-2026-10-24.md) — a página oficial foi conferida; DOCX e PDF integral do edital não puderam ser inspecionados nesta execução.
+- [Análise do edital da turma 2027 e lacunas do anteprojeto](../../anteprojeto/selecao/analise-edital-turma-2027-e-lacunas.md)
+- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](../../fundamentacao/levantamento-bibliografico-exploratorio-2026-10-24.md) — duas revisões de escopo e fontes brasileiras/contextuais; busca formal nas interfaces e exportações continuam pendentes.
+- [Conferência do modelo e edital 2027 (24/10/2026)](../../anteprojeto/selecao/conferencia-modelo-e-edital-2027-2026-10-24.md) — a página oficial foi conferida; DOCX e PDF integral do edital não puderam ser inspecionados nesta execução.
 - [Modelo oficial de anteprojeto](https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/)
 - [Edital e calendário da turma 2027](https://www.telessaude.uerj.br/mestrado/edital-processo-seletivo-turma-2027/)
 
@@ -55,8 +55,8 @@ A página oficial consultada em 23/10/2026 informa que as inscrições terminam 
 - [#2 — Testes manuais de acessibilidade](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/2)
 - [#3 — Protocolo de avaliação e autorizações aplicáveis](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/3)
 - [#4 — Viabilidade de cenário/parceria em Guaraí](https://github.com/pablopcdossantos2-sys/repositorio-repo/issues/4)
-- [Registro de execução das buscas (20/10/2026)](../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md)
-- [Registro da auditoria estática parcial (20/10/2026)](../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md)
+- [Registro de execução das buscas (20/10/2026)](../../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md)
+- [Registro da auditoria estática parcial (20/10/2026)](../../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md)
 
 ## Fase 0 — Decisões e base técnica
 
@@ -69,28 +69,28 @@ A página oficial consultada em 23/10/2026 informa que as inscrições terminam 
 - [x] Adicionar escolhas com feedback específico em cada situação e manter todas as interações locais.
 - [x] Escurecer a variável de borda e acrescentar verificação estática do contraste de bordas significativas.
 - [x] Confirmar a suíte automatizada após as mudanças: 15 verificações estáticas e 22 testes de navegador/axe-core passaram em 20/10/2026 ([CI #39368979486](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)).
-- [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md)).
-- [x] Realizar e registrar inspeção estática parcial do HTML/JS/CSS, incluindo busca por campos pessoais e APIs comuns de rede/persistência ([registro](../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md)).
-- [x] Calcular contraste de combinações selecionadas de texto, foco e estados e registrar possíveis pendências ([verificação preliminar](../avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md)).
+- [x] Criar roteiro rastreável de auditoria técnica/pedagógica/acessibilidade sem participantes ([roteiro](../../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md)).
+- [x] Realizar e registrar inspeção estática parcial do HTML/JS/CSS, incluindo busca por campos pessoais e APIs comuns de rede/persistência ([registro](../../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md)).
+- [x] Calcular contraste de combinações selecionadas de texto, foco e estados e registrar possíveis pendências ([verificação preliminar](../../avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md)).
 - [x] Fazer revisão contextual estática das bordas com baixo contraste: há outros indicadores de estado no código, mas AUD-15 segue parcial até teste manual em navegador/tecnologia assistiva.
 - [x] Conferir a última CI para o código do protótipo inspecionado: 22 testes Playwright + axe-core passaram no commit de código registrado ([execução](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/39368979486)); os testes manuais continuam pendentes.
 - [x] Corrigir a asserção de teste que esperava “modo escuro” com capitalização diferente do texto acessível real; CI de 24/10/2026 passou com verificações estáticas/estruturais/HTML e 29 testes Playwright + axe-core ([execução #64](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/40095534286), [commit](https://github.com/pablopcdossantos2-sys/repositorio-repo/commit/c405ffe40a72cb1f3a9ae1ee73a076ba641adb71)). A auditoria manual permanece pendente.
 - [ ] Concluir testes manuais em dispositivos/tecnologias assistivas; automação não substitui essa etapa.
-- [x] Criar mapa preliminar de objetivos educativos e tarefas, distinguindo conteúdo estático de prática interativa ([mapa](../protótipo/mapa-objetivos-educativos-e-tarefas.md)).
-- [x] Traduzir o benchmark exploratório em uma matriz de requisitos verificáveis, evidências de inspeção e limites de inferência ([matriz](../protótipo/matriz-traducao-benchmark-requisitos-2026-10-24.md)); isso consolida a análise documental, mas não conclui a busca formal nem a auditoria manual.
+- [x] Criar mapa preliminar de objetivos educativos e tarefas, distinguindo conteúdo estático de prática interativa ([mapa](../../prototipo/mapa-objetivos-educativos-e-tarefas.md)).
+- [x] Traduzir o benchmark exploratório em uma matriz de requisitos verificáveis, evidências de inspeção e limites de inferência ([matriz](../../prototipo/matriz-traducao-benchmark-requisitos-2026-10-24.md)); isso consolida a análise documental, mas não conclui a busca formal nem a auditoria manual.
 - [ ] Revisar os objetivos com base na literatura e definir critérios de verificação.
 
 ## Fase 1 — Revisão bibliográfica e alinhamento acadêmico (P0)
 
-- [x] Criar ferramenta auxiliar para registrar buscas PubMed via NCBI E-utilities, extraindo PM-1 a PM-4 do registro existente; ver [guia](../fundamentacao/guia-execucao-pubmed-automatizada.md). A ferramenta ainda precisa ser executada pelo pesquisador e não substitui a busca na interface oficial.
+- [x] Criar ferramenta auxiliar para registrar buscas PubMed via NCBI E-utilities, extraindo PM-1 a PM-4 do registro existente; ver [guia](../../fundamentacao/guia-execucao-pubmed-automatizada.md). A ferramenta ainda precisa ser executada pelo pesquisador e não substitui a busca na interface oficial.
 - [ ] Executar as estratégias na interface oficial e, se viável, guardar JSON complementar da API; manter pendente até os arquivos e metadados reais existirem.
 
-- [x] Consolidar as estratégias e criar registro de execução com campos para contagens/exportações ([registro](../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md)).
+- [x] Consolidar as estratégias e criar registro de execução com campos para contagens/exportações ([registro](../../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md)).
 - [ ] Executar as estratégias nas interfaces oficiais PubMed/MEDLINE, BVS/LILACS e SciELO; nesta rodada as páginas de resultados não foram recuperadas pelo ambiente de navegação, então não há contagens/exportações oficiais documentadas.
 - [x] Acrescentar estratégias focadas em preparação, simulação educativa, habilidades digitais e necessidades de apoio.
 - [x] Adicionar nota exploratória com evidências sobre treinamento de usuários, recursos comparáveis e suas limitações.
-- [x] Registrar rodada exploratória da web em 20/10/2026 sobre métodos de usabilidade de simulações educativas e diretriz de acessibilidade WHO/ITU ([registro](../fundamentacao/registros/registro-busca-exploratoria-2026-10-20.md)).
-- [x] Registrar um primeiro benchmark exploratório de recursos públicos e seus limites ([benchmark](../fundamentacao/benchmark-recursos-existentes.md)).
+- [x] Registrar rodada exploratória da web em 20/10/2026 sobre métodos de usabilidade de simulações educativas e diretriz de acessibilidade WHO/ITU ([registro](../../fundamentacao/registros/registro-busca-exploratoria-2026-10-20.md)).
+- [x] Registrar um primeiro benchmark exploratório de recursos públicos e seus limites ([benchmark](../../fundamentacao/benchmark-recursos-existentes.md)).
 - [x] Inspecionar parcialmente o sumário público de Digital House Calls, o toolkit WHO/ITU de 2024 e páginas públicas brasileiras; registrar limites de acesso e criar matriz de aplicabilidade à auditoria. O benchmark aprofundado e a lacuna de inovação continuam pendentes.
 - [x] Acrescentar ao protocolo uma rubrica candidata para sucesso total/parcial e falha por tarefa, para revisão da orientação.
 - [ ] Executar as estratégias nas bases oficiais e registrar as contagens/exportações; a busca formal permanece pendente.
@@ -182,7 +182,7 @@ Em 20/10/2026, foi escolhido exclusivamente **Tema 4 — Treino de Teleconsulta:
 
 ## Atualização — segunda revisão estática do protótipo (20/10/2026)
 
-- [x] Inspecionar estaticamente os arquivos atuais de HTML, JavaScript e CSS, registrando hashes e limites em [segunda revisão estática](../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md).
+- [x] Inspecionar estaticamente os arquivos atuais de HTML, JavaScript e CSS, registrando hashes e limites em [segunda revisão estática](../../avaliacao/registros/segunda-revisao-estatica-2026-10-20.md).
 - [x] Conferir por busca textual 24 IDs sem duplicações, os três destinos de `aria-controls`, nove referências únicas de `getElementById` e referências `href`/`src` apenas locais.
 - [x] Repetir a busca lexical por APIs comuns de rede/persistência; nenhuma das APIs listadas foi encontrada no JavaScript inspecionado. Isso não prova ausência universal de rede/armazenamento.
 - [x] Corrigir a documentação pedagógica: o conteúdo educativo de encerramento é estático, embora exista uma escala interativa de facilidade de 1 a 5. A escala não é tarefa de aprendizagem nem validação com usuários.
@@ -218,7 +218,7 @@ A exportação PDF foi usada apenas para verificação; o artefato principal con
 ### Concluído nesta rodada
 
 - [x] Remover do `README.md` as seções **“Situação atual”**, **“Aviso”** e **“Preparação para defesa oral”**, mantendo a organização geral e os links úteis.
-- [x] Criar [tutorial didático para abrir e testar o protótipo](../avaliacao/tutorial-instalar-e-testar-prototipo.md), distinguindo o uso sem instalação da aplicação da instalação do ambiente para testes automatizados.
+- [x] Criar [tutorial didático para abrir e testar o protótipo](../../avaliacao/tutorial-instalar-e-testar-prototipo.md), distinguindo o uso sem instalação da aplicação da instalação do ambiente para testes automatizados.
 - [x] Ligar o tutorial a `README.md`, `produto/README.md` e `../avaliacao/como-executar-testes.md`.
 - [x] Harmonizar a pergunta e o objetivo do `README.md`, `../anteprojeto/versoes-anteriores/anteprojeto-base.md` e `../anteprojeto/rascunhos/anteprojeto-modelo-uerj.md) com o plano atual de desenvolvimento e avaliação documental/técnica/pedagógica sem participantes.
 - [x] Reformular a hipótese no anteprojeto-base como proposição de design verificável, sem alegar que o protótipo é utilizável pelo público-alvo ou melhora resultados reais.
@@ -235,7 +235,7 @@ A exportação PDF foi usada apenas para verificação; o artefato principal con
 1. [ ] Executar as buscas bibliográficas nas bases oficiais e registrar estratégias realmente submetidas, contagens, exportações e triagem.
 2. [ ] O desenvolvedor seguir o tutorial e registrar os resultados locais de `npm test`, versão de Node.js, sistema operacional e commit.
 3. [ ] Executar a auditoria manual de teclado/foco, zoom/reflow, leitores de tela, estados visuais e Network/Application, registrando cada caso sem presumir sucesso.
-4. [x] Revisar editorialmente as instruções e feedbacks dos três cenários à luz dos objetivos e das fontes já documentadas; ver [registro](../protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md).
+4. [x] Revisar editorialmente as instruções e feedbacks dos três cenários à luz dos objetivos e das fontes já documentadas; ver [registro](../../prototipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md).
 5. [ ] Executar testes de regressão automatizados e auditoria manual do fluxo após as mudanças de texto no HTML/JavaScript.
 5. [ ] Decidir, após revisão pedagógica, se o encerramento precisa de uma tarefa interativa mínima para OE-05; não implementar automaticamente sem justificativa.
 6. [ ] Confirmar com a orientação se o desenho inicial sem participantes atende aos requisitos do curso.
@@ -262,7 +262,7 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 - [x] Atualizar os textos do cenário “O link não abre”: conferir conexão e link/canal oficial conhecido; pedir ajuda por contato oficial conhecido; não compartilhar senhas/dados em links inesperados.
 - [x] Atualizar “Não consigo ouvir”: conferir volume e controles de saída de som quando disponíveis e avisar o profissional se o problema continuar.
 - [x] Atualizar “Não entendi uma informação”: pedir repetição/explicação alternativa e confirmar o próximo passo, sem adivinhar.
-- [x] Criar [registro da revisão editorial dos cenários e feedbacks](../protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) com racional, fontes já documentadas, rastreabilidade e limites.
+- [x] Criar [registro da revisão editorial dos cenários e feedbacks](../../prototipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) com racional, fontes já documentadas, rastreabilidade e limites.
 - [x] Harmonizar o mapa de objetivos educativos e os dois rascunhos de anteprojeto, corrigindo a descrição da etapa “Encerrar”: os exemplos são estáticos; a escala de facilidade 1–5 não é tarefa de aprendizagem.
 - [x] Adicionar teste Playwright para conferir que o feedback dos três cenários contém a próxima ação concreta.
 - [x] Indexar o registro de revisão no README.
@@ -289,7 +289,7 @@ A apresentação em `apresentacao/` permanece versionada e não foi modificada n
 - [x] Atualizar o README e este roadmap para apontar ao registro editorial.
 
 **Pendências após a alteração do código:**
-- [ ] Executar `npm test` conforme o [tutorial](../avaliacao/tutorial-instalar-e-testar-prototipo.md) e registrar o commit efetivamente testado; não há resultado novo de teste confirmado nesta rodada.
+- [ ] Executar `npm test` conforme o [tutorial](../../avaliacao/tutorial-instalar-e-testar-prototipo.md) e registrar o commit efetivamente testado; não há resultado novo de teste confirmado nesta rodada.
 - [ ] Conferir o fluxo manualmente, inclusive foco e mensagens anunciadas por leitor de tela.
 - [ ] Executar a busca bibliográfica formal nas bases oficiais; contagens/exportações permanecem pendentes.
 - [ ] Discutir com a orientação se a avaliação sem participantes atende aos requisitos do curso.
@@ -316,7 +316,7 @@ Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos
 
 ### Avanços documentais desta rodada
 
-- [x] Criar [matriz de critérios para revisão de textos e feedbacks](../protótipo/matriz-criterios-qualidade-textos-feedbacks.md), com critérios observáveis para ação concreta, feedback explicativo, tom não punitivo, privacidade, limite não clínico, simulação explícita, variação de dispositivos, acessibilidade e rastreabilidade.
+- [x] Criar [matriz de critérios para revisão de textos e feedbacks](../../prototipo/matriz-criterios-qualidade-textos-feedbacks.md), com critérios observáveis para ação concreta, feedback explicativo, tom não punitivo, privacidade, limite não clínico, simulação explícita, variação de dispositivos, acessibilidade e rastreabilidade.
 - [x] Relacionar OE-02 (link), OE-03 (áudio), OE-04 (esclarecimento), OE-01 (checklist) e OE-05 (encerramento) às ações esperadas e verificações sem participantes.
 - [x] Ligar a matriz ao README, ao mapa de objetivos e aos dois rascunhos de anteprojeto.
 - [x] Registrar limites de inferência: fontes fundamentam princípios gerais, não validam os microtextos específicos nem comprovam compreensão ou eficácia.
@@ -338,7 +338,7 @@ Commit das asserções adicionais: [492d562](https://github.com/pablopcdossantos
 - [ ] Não marcar os critérios técnicos como aprovados até registrar execução no commit atual.
 
 
-- [x] Conferir o encadeamento documental: o roadmap técnico também aponta diretamente para a [matriz de critérios de qualidade dos textos e feedbacks](../protótipo/matriz-criterios-qualidade-textos-feedbacks.md).
+- [x] Conferir o encadeamento documental: o roadmap técnico também aponta diretamente para a [matriz de critérios de qualidade dos textos e feedbacks](../../prototipo/matriz-criterios-qualidade-textos-feedbacks.md).
 
 
 ## Atualização — segunda simplificação editorial dos cenários (20/10/2026)
@@ -380,7 +380,7 @@ A revisão é documental e de conteúdo. Não comprova compreensão do público-
 - [ ] Fazer auditoria manual com teclado, leitor de tela, ampliação/zoom e diferentes combinações de tema, contraste e paleta.
 - [ ] Confirmar a igualdade dimensional dos cartões também com texto muito grande e em larguras móveis; retestar qualquer caso divergente.
 
-**Limite:** esses controles ampliam as preferências visuais e a testabilidade, mas não certificam conformidade WCAG nem demonstram acessibilidade para todas as deficiências visuais. Ver [registro de implementação e verificações pendentes](../avaliacao/registros/revisao-acessibilidade-visual-e-controles-2026-10-21.md).
+**Limite:** esses controles ampliam as preferências visuais e a testabilidade, mas não certificam conformidade WCAG nem demonstram acessibilidade para todas as deficiências visuais. Ver [registro de implementação e verificações pendentes](../../avaliacao/registros/revisao-acessibilidade-visual-e-controles-2026-10-21.md).
 
 
 ## Atualização — modelo estruturado de auditoria manual (21/10/2026)
@@ -390,17 +390,17 @@ A revisão é documental e de conteúdo. Não comprova compreensão do público-
 - [ ] Executar a primeira rodada manual com o navegador e as tecnologias assistivas realmente disponíveis.
 - [ ] Corrigir e retestar defeitos identificados, mantendo os resultados vinculados ao commit.
 
-Instrumento: [Modelo de preenchimento — auditoria manual de acessibilidade](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md). O formulário não equivale a validação com participantes ou certificação integral WCAG.
+Instrumento: [Modelo de preenchimento — auditoria manual de acessibilidade](../../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md). O formulário não equivale a validação com participantes ou certificação integral WCAG.
 
 
 ### Formulário interativo de auditoria manual (21/10/2026)
 
-Além do modelo Markdown, está disponível o [formulário HTML preenchível](../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
+Além do modelo Markdown, está disponível o [formulário HTML preenchível](../../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
 
 
 ### Usabilidade do formulário de auditoria — ajuda contextual (21/10/2026)
 
-O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html).
+O formulário HTML foi ampliado com ícones de ajuda por campo, exemplos contextualizados e preenchimento automático conservador da data, do navegador/versão, da identificação aproximada do sistema operacional e da categoria aproximada do dispositivo. Os campos seguem editáveis e as sugestões precisam ser revisadas. URL do protótipo, viewport, zoom, leitor de tela, commit e CI continuam manuais para evitar valores que não correspondem ao produto testado. Não há envio nem gravação automática das respostas. Link: [formulário HTML de auditoria](../../avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html).
 
 
 ## Registro da auditoria manual (21/10/2026)
@@ -424,6 +424,6 @@ Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../avaliacao/a
 - [x] Inspecionar `tests/prototype.spec.js` e mapear as evidências automatizadas para OE-01 a OE-05 e RF-01 a RF-11.
 - [x] Distinguir cobertura parcial/observável de afirmações que exigem revisão editorial, inspeção manual ou avaliação com pessoas.
 - [x] Documentar limites dos testes Playwright/axe-core e apontar as pendências de teclado, leitor de tela, zoom/reflow, toque, permissões e Network/Application.
-- [x] Indexar a matriz no README: [matriz de rastreabilidade](../protótipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md).
+- [x] Indexar a matriz no README: [matriz de rastreabilidade](../../prototipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md).
 
 **Limite desta rodada:** análise documental do código de teste; não houve execução nova de CI, alteração do protótipo, auditoria manual ou validação com participantes. A matriz não transforma cobertura automatizada em prova de aprendizagem, acessibilidade integral ou eficácia.
