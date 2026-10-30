@@ -52,3 +52,39 @@ O projeto desenvolve um recurso educativo web, em português brasileiro, no qual
 - [ ] Fontes oficiais do SUS Digital, Governo Digital, ODS e políticas de equidade lidas e citadas corretamente.
 - [ ] Resultado de CI vinculado ao SHA exato, sem reutilizar contagem histórica como atual.
 - [ ] Slides revistos em tela cheia, com legibilidade e duração dentro das regras oficiais.
+
+
+## Respostas-base ancoradas no texto
+
+## Apêndice C — Respostas-base para a defesa (conferir com o texto efetivamente enviado)
+
+Cada resposta cabe em 20 a 30 segundos. Elas assumem o texto-base; no Cenário A, **ajuste ao PDF enviado**.
+
+| Pergunta provável | Resposta-base |
+|---|---|
+| Por que um simulador e não um vídeo ou um guia? | Vídeos e guias mostram o que fazer; o simulador faz a pessoa **decidir** e receber explicação. Há literatura de simulação em saúde que aponta o feedback como elemento central de aprendizagem (Issenberg et al., 2005) [conferir]. A hipótese é minha e será examinada por comparação com os recursos existentes, não afirmada. |
+| O que é novo aqui? | Não digo que é o primeiro recurso de preparo. A contribuição está na combinação de prática de escolhas com feedback, foco em ações seguras, português simples sem cadastro e adaptação a outros serviços. A busca sistemática e a matriz comparativa vão testar essa combinação. |
+| Como a avaliação sem participantes responde à pergunta? | A pergunta é sobre **conformidade a requisitos** derivados da literatura, medida por inspeção com critérios prévios e inspetor independente. Ela não responde se as pessoas aprendem; isso é continuidade, e há uma etapa condicional prevista. |
+| Por que não testar com usuários? | Porque o acesso ao campo e a aprovação do CEP só são possíveis após a matrícula. A etapa condicional está no cronograma (meses 14–19). Sem ela, as conclusões se limitam ao que foi inspecionado. |
+| Cabe em 24 meses? | Sim: o simulador já existe como prova de conceito, a arquitetura é estática e a etapa-base não depende de campo. O cronograma tem folga para o CEP. |
+| Qual o impacto no SUS Digital? | Contribui para o eixo de cultura, formação e educação permanente em saúde digital do Programa SUS Digital (Portaria 3.232/2024), por prática educativa. Não se integra a sistemas e não promete mudar desfechos. |
+| Como trata equidade? | Por requisitos concretos: celular e baixo consumo de dados, linguagem simples, teclado e leitor de tela, e alternativas por texto para quem não ouve. Não presumo baixa familiaridade por idade ou escolaridade. |
+| Como os ODS se aplicam? | ODS 3.8 (acesso efetivo a serviços), 4.4 (habilidades em TIC) e 10.2 (inclusão), com um mecanismo por meta. |
+| Por que este mestrado? | [PREENCHER PELO CANDIDATO] |
+
+---
+
+
+### Critério do edital → slides sugeridos
+
+| Critério | Slides de apoio |
+|---|---|
+| Justificativa, relevância e aderência à linha | 2, 3 |
+| Inovação e escalabilidade | 4, 5, 12 |
+| Viabilidade em 24 meses | 7, 10 |
+| Impacto para a sociedade | 8, 9 |
+| Equidade e diversidade | 8 |
+| Objetivos de Desenvolvimento Sustentável | 9 |
+| Transformação digital do SUS | 9 |
+
+> No Cenário A, conferir cada resposta com o PDF efetivamente enviado antes de usá-la. Personalizar a motivação e os dados pessoais; não usar as respostas como declarações factuais sem comprovação.
