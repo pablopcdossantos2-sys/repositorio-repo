@@ -7,6 +7,9 @@ Este arquivo é uma lista curta de ações humanas. Os procedimentos detalhados 
 - [ ] Decidir D1–D9 do relatório 03: status da candidatura; etapa condicional com pessoas; arcabouço metodológico; tipo/estrato de produto; três docentes; licença; declaração de uso de IA; dados pessoais e trajetória; checklist do modelo.
 - [ ] Ler e reescrever o texto-base com suas palavras (edital X.8: plágio/autoplágio); não submeter texto gerado por IA sem revisão autoral.
 
+- [ ] Decidir D1–D9 do relatório 03: status da candidatura; etapa condicional com pessoas; arcabouço metodológico; tipo/estrato de produto; três docentes; licença; declaração de uso de IA; dados pessoais e trajetória; checklist do modelo.
+- [ ] Ler e reescrever o texto-base com suas palavras (edital X.8: plágio/autoplágio); não submeter texto gerado por IA sem revisão autoral.
+
 - [ ] Confirmar o status real da candidatura 2027 e eventuais comunicações do Programa. As datas divergentes de 29/10 e 30/10/2026 já passaram; não confiar nos alertas antigos.
 - [ ] Confirmar com a orientação o próximo passo acadêmico, a linha, a pergunta, o método e o produto planejado.
 - [ ] Decidir quais docentes permanentes devem ser indicados, conforme regras oficiais e aderência temática. Essa escolha depende de leitura dos perfis e decisão do candidato; não está registrada no repositório.
