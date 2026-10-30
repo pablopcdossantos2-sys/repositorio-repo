@@ -1,6 +1,8 @@
 # Análise de enquadramento e pendências do edital — turma 2027
 
-**Projeto:** Treino de Teleconsulta  
+**Projeto:** Treino de Teleconsulta
+
+> **Nota temporal — 30/10/2026:** as datas registradas neste documento (29/10/2026 às 12h, conforme a página consultada na época) já passaram. O PDF arquivado registra 30/10/2026 às 12h, também já passado. Este histórico não confirma a situação da candidatura, eventual prorrogação ou protocolo; consulte diretamente o Programa e o sistema de inscrição.  
 **Data da verificação:** 23/10/2026  
 **Finalidade:** transformar as informações oficiais disponíveis em uma lista de verificação para revisão do projeto escrito.  
 **Status:** análise preliminar documentada; a conferência literal de todos os itens do PDF do edital 2027 e do arquivo-modelo de anteprojeto ainda precisa ser feita contra os documentos baixados da página oficial.
@@ -17,7 +19,7 @@
 
 ## 2. Informações confirmadas nas páginas oficiais atuais
 
-- A página da turma 2027 informa que as inscrições vão de 01/10/2026 até **12h de 29/10/2026**, após atualização do calendário. O prazo é iminente e deve ser conferido novamente no canal oficial.
+- A página da turma 2027 informa que as inscrições vão de 01/10/2026 até **12h de 29/10/2026**, após atualização do calendário. Esse prazo é um registro histórico da consulta de 23/10/2026; não é uma instrução operacional vigente.
 - A página informa o resultado da elegibilidade do anteprojeto em 10/11/2026, o recurso dessa etapa em 11–12/11/2026 e a apresentação do anteprojeto com defesa oral em 16/11/2026.
 - O FAQ oficial declara que é **obrigatório utilizar o modelo de anteprojeto disponibilizado pelo Programa**; não se deve presumir que um documento livre ou a documentação técnica do GitHub substitua esse modelo.
 - O FAQ informa que o anteprojeto deve conter a proposta de pesquisa, e não resultados de uma pesquisa ainda não realizada; também afirma que anexos e apêndices não são considerados para avaliação. Portanto, informações essenciais devem estar no corpo do anteprojeto e dentro da estrutura e dos limites do modelo.
@@ -35,7 +37,7 @@ O objeto deve ser descrito como um **protótipo educativo web para praticar deci
 
 ### Formulação de trabalho a harmonizar
 
-- **Título provisório:** *Treino de Teleconsulta: desenvolvimento de um simulador educativo web para praticar etapas básicas de uma teleconsulta fictícia por adultos com baixa familiaridade digital*.
+- **Título provisório:** *Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo web para adultos com baixa familiaridade digital*.
 - **Pergunta provisória:** *Como desenvolver e avaliar, por inspeção documental, pedagógica, técnica e de acessibilidade sem participantes, um simulador educativo web que permita praticar etapas básicas de uma teleconsulta fictícia?*
 - **Objetivo geral provisório:** desenvolver e documentar um protótipo educativo web, fundamentado em literatura e análise de recursos existentes, e avaliar sua consistência pedagógica, funcionamento técnico, linguagem e critérios de acessibilidade aplicáveis por meio de inspeção sem participantes.
 - **Objetivos específicos provisórios:**

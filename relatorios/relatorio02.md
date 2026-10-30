@@ -2,6 +2,8 @@
 
 **Escopo:** o projeto escrito (anteprojeto) e o que o cerca (submissão, edital, defesa). O protótipo só entra onde afeta o texto. Seções fora do anteprojeto estão no Apêndice A.
 **Data da análise:** 30/10/2026, cerca de 00h50 (Brasília).
+
+> **Nota temporal — atualização em 30/10/2026, após 12h:** a contagem regressiva e o plano de execução para “hoje” da Seção 6.1 são registros históricos do momento da análise, não instruções vigentes. O PDF arquivado indica 30/10/2026 às 12h e a página consultada antes indicava 29/10/2026 às 12h; ambas as datas já passaram. Isso não permite inferir se houve inscrição, prorrogação ou protocolo. Confirmar diretamente com o Programa.
 **Material analisado:** repositório `repositorio-repo-main` (zip), incluindo o **modelo DOCX oficial**, o **PDF do edital** (Turma 2027) e o PDF do corpo docente, que estão em `docs/processo-seletivo-arquivos/`. O `relatorios/relatorio01.md` foi lido por inteiro e confrontado com as fontes (Seção 2).
 
 ---
@@ -390,3 +392,19 @@ Nenhuma busca formal foi executada (PubMed, BVS/LILACS e SciELO constam como "pe
 - Busquei online apenas para confirmar a **existência** de: Decreto nº 12.198/2024, Portaria GM/MS nº 3.232/2024, a edição 2025 da TIC Saúde e o artigo de Galvin et al. (2024). **Não li** o conteúdo desses documentos.
 - Leis, resoluções, metas de ODS, referenciais teóricos e métodos citados de memória estão marcados "a verificar" e devem ser conferidos antes de entrar no texto.
 - As contagens de palavras vêm de script sobre o Markdown e são aproximadas.
+
+
+---
+
+## 8. Acompanhamento das recomendações — 30/10/2026
+
+Após a análise, foram implementadas melhorias no repositório:
+
+1. **Links e navegação:** o README da raiz foi refeito com caminhos a partir da raiz do repositório; os diretórios de documentação receberam índices e a correção global de links está sendo registrada no acompanhamento técnico.
+2. **Organização por fase:** os materiais oficiais da seleção foram movidos para anteprojeto/seleção/fontes-oficiais; o material de defesa foi movido para docs/defesa; a pasta docs/protótipo foi renomeada para docs/prototipo, sem acento.
+3. **Arquivo histórico:** versões acumuladas do estado, roadmap e tarefas foram preservadas em docs/_arquivo/gestao; versões anteriores do anteprojeto e comparações de temas foram preservadas em docs/_arquivo/anteprojeto.
+4. **Gestão:** o estado atual, roadmap e próximas ações foram reescritos em versões curtas, com uma fonte principal por assunto. Os documentos extensos antigos continuam acessíveis no arquivo.
+5. **Defesa:** o guia Markdown foi refeito para incluir proposta de valor, fundamentação, método, viabilidade, impacto, equidade, ODS, SUS Digital e os limites da avaliação. O ODP antigo foi preservado sem edição, sinalizado como versão anterior não pronta para uso.
+6. **Anteprojeto:** o rascunho foi harmonizado com um título de trabalho único; a pergunta de pesquisa foi retirada da frase de bastidor no resumo, incluída no Abstract e posicionada também na Justificativa; as palavras-chave foram aproximadas dos resumos e o inglês foi uniformizado para a variante americana. Os descritores permanecem provisórios até conferência no DeCS/MeSH.
+
+**Pendências não resolvidas por automação:** preencher e revisar o DOCX oficial; confirmar método, tipo de produto, cronograma e critérios com a orientação; verificar leis, metas, documentos do SUS Digital/Governo Digital e referências; personalizar a carta e a motivação para a defesa; escolher docentes conforme a regra vigente; atualizar o ODP no editor de apresentações. Não foram inventados dados pessoais, resultados de busca ou decisões acadêmicas.

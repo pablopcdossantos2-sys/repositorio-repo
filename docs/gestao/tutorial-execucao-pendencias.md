@@ -1,5 +1,7 @@
 # Tutorial de execução das pendências — auditoria, busca bibliográfica e validação do CI
 
+> **Atualização temporal — 30/10/2026:** a Parte F contém instruções e datas históricas da seleção 2027. Os prazos de 29/10 e 30/10/2026 às 12h já passaram. Use essa parte apenas para compreender a conferência documental; confirme com o Programa qual é a situação atual e quais passos se aplicam a processos futuros.
+
 **Projeto:** Treino de Teleconsulta  
 **Versão:** 1.1 · **Atualizado em:** 24/10/2026  
 **Público-alvo:** desenvolvedor, pessoa responsável pelos testes técnicos ou pesquisador responsável pela documentação.
@@ -249,7 +251,7 @@ Antes de encerrar, confirme:
 
 ## Parte F — conferir o edital integral e o modelo editável da seleção 2027
 
-**Situação registrada em 24/10/2026:** a página oficial do processo seletivo informa prazo até **29/10/2026, às 12h**. A página que descreve o modelo confirma a estrutura geral, mas ainda não foi possível inspecionar o conteúdo interno do DOCX oficial nem conferir o edital PDF integral. Portanto, não considere o anteprojeto pronto para submissão antes de concluir estes passos.
+**Registro histórico de 24/10/2026:** a página consultada então informava prazo até **29/10/2026, às 12h**. Esse prazo já passou e não deve ser usado como prazo atual. A página que descreve o modelo confirma a estrutura geral, mas ainda não foi possível inspecionar o conteúdo interno do DOCX oficial nem conferir o edital PDF integral. Portanto, não considere o anteprojeto pronto para submissão antes de concluir estes passos.
 
 ### F1. Abrir as páginas oficiais
 

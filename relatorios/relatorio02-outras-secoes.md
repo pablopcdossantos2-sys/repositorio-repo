@@ -64,3 +64,20 @@ Conferido em `docs/avaliacao/auditorias/manual/2026-10-21/README.md` e no JSON: 
 
 ## O que NÃO foi feito
 - Não rodei `npm ci` nem os testes Playwright; não confirmei a contagem real de testes (29 segundo o README). Não abri o ODP no LibreOffice (só extraí o texto). Não verifiquei online nenhuma fonte, norma, versão de action ou prazo oficial. Não li integralmente `estado-atual-e-diretrizes-para-ias.md`, `roadmap.md`, `tarefas-pessoais...` e `tutorial-execucao-pendencias.md`; usei grep e trechos, então a lista de inconsistências em M1 e M2 não é exaustiva.
+
+
+---
+
+## Atualização após a reorganização — 30/10/2026
+
+As recomendações deste arquivo foram convertidas nas seguintes mudanças no repositório:
+
+- O README da raiz foi substituído por um índice de projeto com caminhos válidos a partir da raiz; os links de documentos foram revisados após movimentação de arquivos.
+- docs/protótipo foi renomeado para docs/prototipo para evitar acento em caminhos e fragilidade em extrações ZIP/Windows.
+- docs/processo-seletivo-arquivos foi movido para docs/anteprojeto/selecao/fontes-oficiais; apresentacao foi movido para docs/defesa.
+- Versões antigas do estado, roadmap e lista de tarefas foram preservadas em docs/_arquivo/gestao; anteprojeto-base e comparação dos temas foram preservados em docs/_arquivo/anteprojeto.
+- docs/gestao agora mantém documentos curtos de estado, roadmap e próximas ações. Os tutoriais operacionais continuam separados porque descrevem procedimentos, não o status do projeto.
+- O guia de defesa foi refeito em Markdown; o ODP antigo foi mantido como histórico e explicitamente marcado como não pronto para apresentação.
+- O rascunho de anteprojeto passou a usar um título único, pergunta de pesquisa alinhada entre Resumo/Abstract/Justificativa e palavras-chave logo após os resumos. A validação dos descritores no DeCS/MeSH continua pendente.
+
+A contagem de 139 links quebrados em 294 citada acima pertence ao ZIP e ao momento da análise. A contagem posterior deve ser feita sobre a árvore atual do GitHub, e os resultados serão registrados separadamente. A renomeação de pastas e a correção de links não executam os testes Playwright nem alteram o produto.

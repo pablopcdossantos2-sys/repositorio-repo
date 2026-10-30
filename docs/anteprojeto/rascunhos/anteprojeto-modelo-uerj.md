@@ -1,10 +1,10 @@
-# Anteprojeto — versão de trabalho alinhada à estrutura oficial da UERJ
+# Anteprojeto — rascunho interno para adaptação ao DOCX oficial
 
 > **Status: rascunho interno, não pronto para submissão.** Este arquivo conserva uma organização anterior baseada em uma listagem de 16 itens publicada em página web; ela **não corresponde à estrutura do DOCX oficial** conferido no relatório de análise de 29/10/2026. O texto é material de trabalho para reaproveitamento de conteúdo e precisa ser migrado para uma cópia do modelo DOCX oficial, com todos os campos, subitens e formatação conferidos. Não utilizar este Markdown como arquivo de candidatura. O plano metodológico-base continua sem participantes e não sustenta alegações de eficácia.
 
 ## 1. Nome do anteprojeto
 
-**Treino de Teleconsulta: desenvolvimento de um simulador educativo para adultos com baixa familiaridade digital**
+**Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo web para adultos com baixa familiaridade digital**
 
 ## 2. Linha de pesquisa (no Mestrado Telessaúde UERJ)
 
@@ -24,13 +24,15 @@ O projeto propõe desenvolver e avaliar um simulador educativo web para adultos 
 
 ## 5. Resumo (em português)
 
-**Pergunta de pesquisa:** em que medida o protótipo atende aos requisitos de conteúdo, linguagem, privacidade e acessibilidade derivados da literatura e dos recursos analisados? Esta formulação é complementar à pergunta de processo e deve ser harmonizada com a orientação acadêmica antes da migração para o DOCX.
+**Pergunta de pesquisa:** em que medida o protótipo atende aos requisitos de conteúdo, linguagem, privacidade e acessibilidade derivados da literatura e dos recursos analisados?
 
 **Contextualização:** participar de uma teleconsulta pode exigir ações digitais como preparar o aparelho, acessar uma sala virtual, reconhecer controles, lidar com dificuldades técnicas e comunicar dúvidas. A natureza e a frequência dessas barreiras devem ser verificadas por literatura e, quando autorizado, pelo contexto definido para a pesquisa. **Objetivo:** desenvolver um simulador educativo web para praticar etapas básicas de uma teleconsulta. **Método:** pesquisa tecnológica aplicada e exploratória, com revisão bibliográfica reproduzível, comparação de soluções existentes, especificação de objetivos e requisitos, desenvolvimento iterativo e auditoria técnica/pedagógica sem participantes. Uma avaliação formativa com pessoas só será proposta se a orientação acadêmica indicar que é necessária, condicionada à viabilidade e às autorizações aplicáveis. A operacionalização do público, a amostra, os instrumentos e o plano de análise serão definidos com a orientação. **Produto:** simulador web responsivo com três etapas — preparação; situações fictícias durante a consulta (acesso, áudio e esclarecimento); encerramento/confirmar próximos passos. Não realizará consulta real, não usará áudio/vídeo ao vivo, não se conectará a sistemas clínicos e não coletará dados pessoais ou clínicos. **Resultados esperados:** produto documentado, requisitos rastreáveis, relatório de acessibilidade/usabilidade técnica e, se houver avaliação autorizada, evidências preliminares de conclusão e compreensão de tarefas simuladas. As conclusões não serão extrapoladas para aprendizagem duradoura ou resultados clínicos.
 
 ## 6. Abstract (resumo em inglês)
 
-**Background:** Participating in a telehealth consultation may require digital actions such as preparing a device, entering a virtual room, recognizing controls, responding to simple technical difficulties and communicating questions. The nature and frequency of barriers in the intended population must be established through research rather than assumed. **Objective:** To develop a web-based educational simulator for practising basic teleconsultation steps. **Methods:** This applied exploratory technological project will include a reproducible literature search, a review of existing resources, the specification of learning objectives and requirements, iterative development, and technical and pedagogical audits without participants. Evaluation with people will be considered only if the academic supervisor indicates it is necessary and if feasibility and applicable approvals are confirmed. The operational definition of the target population, sample, instruments and analysis plan will be discussed with the academic supervisor. **Technology product:** A responsive web simulator with three stages: preparation, a fictional virtual consultation room, and closing/confirming the next steps shown in the scenario. It will not conduct a real consultation, use live audio/video, connect to clinical systems, or collect personal or clinical data. **Expected outcomes:** A documented product, traceable requirements and a technical/accessibility report; if an approved evaluation with participants is conducted, preliminary evidence about task completion and comprehension in simulated tasks. Results will not be generalized to sustained learning or clinical outcomes.
+**Background:** Participating in a teleconsultation may require digital actions such as preparing a device, entering a virtual room, recognizing controls, responding to simple technical difficulties and communicating questions. The nature and frequency of barriers in the intended population must be established through research rather than assumed. **Research question:** To what extent does the prototype meet the content, language, privacy and accessibility requirements derived from the literature and the resources reviewed? **Objective:** To develop a web-based educational simulator for practicing basic teleconsultation steps. **Methods:** This applied exploratory technological project will include a reproducible literature search, a review of existing resources, the specification of learning objectives and requirements, iterative development, and technical and pedagogical audits without participants. Evaluation with people will be considered only if the academic supervisor indicates it is necessary and if feasibility and applicable approvals are confirmed. The operational definition of the target population, sample, instruments and analysis plan will be discussed with the academic supervisor. **Technology product:** A responsive web simulator with three stages: preparation, a fictional virtual consultation room, and closing/confirming the next steps shown in the scenario. It will not conduct a real consultation, use live audio/video, connect to clinical systems, or collect personal or clinical data. **Expected outcomes:** A documented product, traceable requirements and a technical/accessibility report; if an approved evaluation with participants is conducted, preliminary evidence about task completion and comprehension in simulated tasks. Results will not be generalized to sustained learning or clinical outcomes.
+
+**Palavras-chave provisórias (confirmar no DeCS/MeSH):** Telemedicina; Educação em Saúde; Letramento em Saúde; Treinamento por Simulação.
 
 ## 7. Introdução
 
@@ -47,6 +49,8 @@ Como desenvolver e avaliar, por análise documental e auditoria técnica, pedag�
 A pergunta delimita a avaliação inicial ao processo de desenvolvimento, à rastreabilidade dos requisitos e à inspeção do produto. Não pressupõe que o simulador melhore a aprendizagem ou o desempenho de usuários reais; essa conclusão exigiria evidência adicional e um desenho compatível.
 
 ## 8. Justificativa e relevância
+
+**Pergunta de pesquisa:** em que medida o protótipo atende aos requisitos de conteúdo, linguagem, privacidade e acessibilidade derivados da literatura e dos recursos analisados? Esta pergunta complementa a pergunta de processo apresentada na Introdução e deverá ser harmonizada com o desenho aprovado pela orientação.
 
 A proposta se situa na interseção entre telessaúde e tecnologias para educação em saúde porque busca ensinar e permitir a prática de habilidades digitais aplicadas à participação em teleconsultas. O foco não é oferecer apenas instruções textuais ou criar uma plataforma clínica; é desenvolver uma simulação interativa com tarefas, escolhas e feedback que possa ser examinada quanto à clareza, acessibilidade e usabilidade.
 
@@ -133,8 +137,6 @@ O simulador não pedirá dados pessoais, contatos, sintomas, diagnósticos, medi
 - A avaliação com participantes, se proposta, depende de viabilidade e aprovações.
 - Resultados de tarefas simuladas não comprovam aprendizagem duradoura, participação em teleconsulta real ou eficácia clínica.
 - A generalização de resultados será limitada pelo cenário, amostra, tarefas e métodos efetivamente utilizados.
-
-**Palavras-chave provisórias para conferência no DeCS/MeSH:** Telemedicina; Educação em Saúde; Letramento em Saúde; Treinamento por Simulação. Não tratar esta lista como descritores validados sem conferir os vocabulários oficiais.
 
 ## 16. Bibliografia
 

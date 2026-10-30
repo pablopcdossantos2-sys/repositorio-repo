@@ -1,4 +1,6 @@
-# Conferência do modelo e do edital da seleção 2027 — atualização de 24/10/2026
+# Conferência do modelo e do edital da seleção 2027 — registro de 24/10/2026
+
+> **Nota temporal — 30/10/2026:** todas as datas de inscrição registradas abaixo estão no passado. A página consultada indicava 29/10/2026 às 12h; o PDF arquivado indica 30/10/2026 às 12h. Não inferir status da candidatura nem eventual prorrogação a partir deste documento histórico; confirmar no sistema oficial.
 
 **Status geral: parcial. O anteprojeto não está liberado para submissão com base nesta conferência.**
 
