@@ -5,6 +5,7 @@ Esta área reúne os materiais da concepção acadêmica, seleção e preparaç�
 - [Pendências da fase](pendencias.md) — controle único, separado entre ações do desenvolvedor e tarefas autônomas da IA.
 - [Texto-base na estrutura do DOCX oficial](rascunhos/anteprojeto-docx-oficial.md) — ainda não é o DOCX final; revisão do candidato e da orientação pendente.
 - [Formulação vigente](formulacao-vigente.md) — fonte única de título, pergunta, objetivos e palavras-chave.
+- [Registro da auditoria de consistência (rodada 1)](registros/auditoria-consistencia-2026-10-30.md) — verificações, achados, alterações e pendências remanescentes.
 - [Decisões metodológicas](decisoes-metodologicas.md) — opções e questões a validar com a orientação.
 - [Planejamento institucional e ético](planejamento/parceria-e-etica.md) — Guaraí-TO permanece cenário potencial, sem parceria formal.
 
