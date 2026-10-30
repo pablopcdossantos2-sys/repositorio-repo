@@ -1,134 +1,42 @@
-# Treino de Teleconsulta — simulador educativo para usuários com baixa familiaridade digital
+# Treino de Teleconsulta
 
-> **Para continuidade do trabalho:** antes de qualquer alteração, leia [Estado atual do projeto e diretrizes para IAs](../docs/gestao/estado-atual-e-diretrizes-para-ias.md). Esse documento consolida as decisões vigentes e orienta como resolver conflitos com rascunhos anteriores.
+**Título de trabalho:** *Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo web para adultos com baixa familiaridade digital.*
 
-Projeto de pesquisa tecnológica em desenvolvimento para o **Mestrado Profissional em Telessaúde e Saúde Digital da UERJ**. O tema escolhido é, de forma exclusiva:
+Projeto de pesquisa tecnológica em desenvolvimento para o Mestrado Profissional em Telessaúde e Saúde Digital da UERJ, na linha **2) Tecnologias para Educação em Saúde**. O tema de trabalho é um simulador educativo de tarefas digitais ligadas à participação em uma teleconsulta fictícia.
 
-> **Tema 4 — Treino de Teleconsulta: simulador educativo para usuários com baixa familiaridade digital.**
+## O projeto em poucas palavras
 
-O projeto está enquadrado na linha **“2) Tecnologias para Educação em Saúde”** e no tipo **“Pesquisa Tecnológica de soluções inovadoras para Ensino e Educação em Saúde ou para Educação à Distância em Saúde”**. A nomenclatura, os requisitos e a adequação final precisam ser conferidos com o edital vigente e com a orientação acadêmica.
+O simulador permite praticar três momentos: preparação do dispositivo e do ambiente; situações fictícias envolvendo acesso, áudio e compreensão de informações; e encerramento com confirmação dos próximos passos. O produto é demonstrativo e educativo, não assistencial.
 
-### Registros de execução recentes
+Não realiza consultas reais, não utiliza áudio/vídeo ao vivo, não se conecta a serviços ou prontuários, não oferece aconselhamento clínico e não solicita nem transmite dados pessoais ou de saúde. Não possui login, IA ou dependências externas em tempo de uso.
 
-- [Registro de execução das buscas bibliográficas (20/10/2026)](../docs/fundamentacao/registros/registro-busca-estruturada-2026-10-20.md) — strings e estados de execução; as consultas oficiais ainda precisam ser executadas e exportadas.
-- [Levantamento bibliográfico exploratório e avaliação crítica (24/10/2026)](../docs/fundamentacao/levantamento-bibliografico-exploratorio-2026-10-24.md) — estudos localizados, leitura crítica e limites da busca; não substitui a execução formal nas interfaces das bases.
-- [Conferência do modelo e edital 2027 (24/10/2026)](../docs/anteprojeto/selecao/conferencia-modelo-e-edital-2027-2026-10-24.md) — verificação parcial da página oficial e pendências de conferência literal do DOCX e PDF integral.
-- [Guia da busca complementar no PubMed via E-utilities](../docs/fundamentacao/guia-execucao-pubmed-automatizada.md) — instruções para gerar registros JSON complementares sem confundi-los com execução oficial da interface.
-- [Registro da auditoria estática do protótipo (20/10/2026)](../docs/avaliacao/registros/registro-auditoria-estatica-2026-10-20.md) — inspeção de código parcial; testes manuais em navegador permanecem pendentes.
-- [Verificação preliminar de contraste (20/10/2026)](../docs/avaliacao/registros/verificacao-preliminar-contraste-2026-10-20.md) — cálculos selecionados de contraste e pontos a confirmar no navegador.
-- [Implementação de controles visuais e acessibilidade (21/10/2026)](../docs/avaliacao/registros/revisao-acessibilidade-visual-e-controles-2026-10-21.md) — tema claro/escuro, escala de texto, alto contraste, paletas e padronização das opções; CI: 26 testes automatizados passaram; auditoria manual permanece pendente.
-- [Matriz de aplicabilidade WHO/ITU–protótipo](../docs/protótipo/matriz-aplicabilidade-who-itu-prototipo.md) — relaciona requisitos de acessibilidade para serviços reais aos casos de auditoria aplicáveis ao simulador, mantendo os limites de escopo explícitos.
-- [Modelo de auditoria manual de acessibilidade](../docs/avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) — escala padronizada C/PC/NC/NT/BL/NA e registro de evidências.
-- [Revisão editorial e simplificação dos cenários e feedbacks (20/10/2026)](../docs/protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — segunda passagem para trocar termos abstratos por ações concretas; há testes automatizados relacionados aos feedbacks, mas a auditoria manual e a compreensão pelo público-alvo permanecem pendentes.
-- [Matriz de critérios para revisão de textos e feedbacks](../docs/protótipo/matriz-criterios-qualidade-textos-feedbacks.md) — rastreabilidade entre objetivos, textos, feedbacks, critérios de aceitação e verificações.
-- [Matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](../docs/protótipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md) — relaciona OE-01–OE-05 e RF-01–RF-11 aos testes existentes, separando cobertura automatizada parcial das verificações manuais pendentes.
-- [Implementação da prática de encerramento (OE-05)](../docs/protótipo/historico/implementacao-pratica-encerramento-2026-10-21.md) — exercício interativo com feedback local, sem conexão real ou persistência; CI passou com 16 verificações estáticas e 27 testes Playwright/axe-core; auditoria manual pendente.
-- [CI mais recente — 24/10/2026](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions/runs/40095534286) — verificações sintáticas/estruturais/HTML concluídas e **29 testes Playwright + axe-core aprovados** após correção de uma expectativa de capitalização; isso não substitui a auditoria manual de acessibilidade.
+## Estado atual
 
-## Objetivo do projeto
+- **Protótipo:** prova de conceito web estática em HTML, CSS e JavaScript, localizada em [produto/](produto/).
+- **Fundamentação:** há levantamento e benchmark exploratórios. As buscas formais nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO ainda precisam ser executadas e documentadas com contagens e exportações.
+- **Avaliação:** existem verificações automatizadas e registros de inspeção parcial. A rodada manual AUD-MAN-2026-10-21-01 é inconclusiva e não deve ser descrita como auditoria concluída.
+- **Método:** o plano-base é documental e técnico, sem participantes. Qualquer etapa com pessoas depende de decisão da orientação, viabilidade e aprovações aplicáveis.
+- **Candidatura:** o repositório contém rascunhos e fontes oficiais, não um pacote final comprovado de submissão. O status externo do processo não pode ser inferido pelo conteúdo do GitHub.
 
-Desenvolver e avaliar tecnicamente, pedagogicamente e quanto à acessibilidade um protótipo web responsivo que **ofereça prática simulada de etapas básicas de uma teleconsulta**: preparar dispositivo e ambiente, acessar uma sala virtual fictícia, lidar com dificuldades simples de áudio, comunicar dúvidas e confirmar os próximos passos antes de encerrar. A avaliação inicial será documental e técnica, sem participantes; portanto, não permitirá concluir que o produto melhora a aprendizagem ou o desempenho de usuários reais.
+## Navegação por fase
 
-A proposta é educativa, não assistencial. O simulador não realiza teleconsulta, não coleta dados clínicos, não se conecta a sistemas de saúde e não comprova por si só aprendizagem duradoura, melhor acesso, adesão ou desfechos clínicos.
+- [Índice geral da documentação](docs/README.md)
+- [Anteprojeto, edital e submissão](docs/anteprojeto/README.md)
+- [Fundamentação e busca bibliográfica](docs/fundamentacao/README.md)
+- [Protótipo e requisitos](docs/prototipo/README.md)
+- [Avaliação, testes e auditorias](docs/avaliacao/README.md)
+- [Defesa e apresentação](docs/defesa/README.md)
+- [Gestão, estado atual e roadmap](docs/gestao/README.md)
+- [Relatórios de análise](relatorios/README.md)
 
-## Pergunta de pesquisa de trabalho
+## Abrir o protótipo
 
-Como desenvolver e avaliar, por análise documental e auditoria técnica, pedagógica e de acessibilidade sem participantes, um simulador web que ofereça prática fictícia de etapas básicas de uma teleconsulta para adultos com baixa familiaridade digital?
+Abra [produto/index.html](produto/index.html) no navegador. Não é necessário instalar Node.js para experimentar a aplicação. Para executar os testes automatizados, siga [produto/README.md](produto/README.md) e o tutorial de testes.
 
-## Produto mínimo em foco
+## Verificações automatizadas
 
-1. **Antes:** preparar aparelho, conexão, ambiente privado e dúvidas que a pessoa deseja levar ao atendimento.
-2. **Durante — simulação:** praticar em três situações selecionáveis: o link não abre, não consigo ouvir e não entendi uma informação. Cada escolha recebe feedback específico, sem conexão com sistemas reais.
-3. **Ao encerrar:** praticar como pedir esclarecimentos, confirmar o que ficou combinado e identificar canais oficiais de contato quando persistirem dúvidas.
+O histórico do README anterior citava uma execução de 24/10/2026 com 29 testes Playwright + axe-core. Esse número é histórico, não uma contagem garantida da main atual. Sempre consulte [GitHub Actions](https://github.com/pablopcdossantos2-sys/repositorio-repo/actions) e confirme o SHA da execução antes de informar resultados.
 
-Os cenários e nomes serão fictícios. O produto não terá login, integração com prontuários, inteligência artificial, diagnóstico, prescrição nem recomendação clínica automatizada. Não deverá pedir nem armazenar informações pessoais ou de saúde. A interface deve oferecer instruções passo a passo, linguagem clara, botões identificáveis, baixa carga cognitiva e uso em celular.
+## Contribuição e segurança
 
-## Público e cenário
-
-O público de interesse são **adultos com baixa familiaridade digital**; a definição operacional e os critérios de elegibilidade deverão ser elaborados com a orientação, justificados na metodologia e verificados antes de qualquer pesquisa com pessoas. Guaraí, Tocantins, permanece como **cenário potencial de articulação**, não como parceria confirmada nem como requisito para construir o protótipo. A eventual participação de usuários ou profissionais dependerá das autorizações institucionais e éticas aplicáveis.
-
-## Método de trabalho — ainda sujeito à orientação
-
-A preferência metodológica inicial é desenvolver um **protótipo simples fundamentado em literatura e análise de soluções existentes**, com avaliação técnica, pedagógica e de acessibilidade sem participantes. A interação com pessoas não é requisito inicial; só será incorporada se a orientação acadêmica indicar que é necessária e após verificar viabilidade e autorizações. Nenhuma parceria, campo, aprovação ou amostra está confirmada.
-
-1. Executar uma busca bibliográfica reproduzível e mapear soluções existentes.
-2. Derivar requisitos preliminares da literatura, guias e soluções analisadas, distinguindo evidências de hipóteses.
-3. Confirmar com a orientação se o plano inicial sem participantes atende aos requisitos; apenas se for necessário, definir a atividade mínima com pessoas e verificar acesso e aprovações.
-4. Desenvolver e avaliar tecnicamente o simulador com cenários fictícios, incorporando os requisitos priorizados.
-5. Manter testes com pessoas fora do plano inicial, salvo indicação da orientação e confirmação de viabilidade e autorizações.
-6. Documentar decisões, alterações, limites e recomendações.
-
-A prioridade é consolidar evidências, requisitos e avaliação técnica/pedagógica sem participantes. Técnica, amostra, instrumentos e análise de atividades com pessoas só serão definidos se a orientação solicitar essa etapa. Nenhuma atividade de pesquisa com participantes deve começar antes de verificar e obter as aprovações aplicáveis.
-
-## Critérios que orientam o anteprojeto
-
-O anteprojeto deve responder aos sete critérios do edital: (1) justificativa, relevância e aderência à linha; (2) potencial mercadológico e/ou inovação/escalabilidade; (3) conclusão em dois anos; (4) impacto para a sociedade; (5) equidade e diversidade; (6) relação com os ODS; e (7) relação com a transformação digital do SUS. A matriz histórica de comparação e o registro da decisão estão em [Critérios do edital e decisão de tema](../docs/anteprojeto/selecao/criterios-edital-e-seis-temas.md). As outras cinco alternativas não integram mais o escopo ativo do projeto.
-
-## Princípios de escopo e segurança
-
-- **Ensinar uma tarefa por vez:** instruções concretas, progressão previsível, exemplos fictícios e feedback não punitivo.
-- **Acessibilidade desde o início:** teclado, foco visível, leitura por tecnologia assistiva, contraste, responsividade e linguagem simples. O protótipo também oferece tema claro/escuro, aumento/redução do texto, alto contraste, paleta azul/âmbar, paleta monocromática e foco/leitura reforçados; os ajustes são temporários e ainda precisam de auditoria manual.
-- **Sem teleconsulta real:** nenhum áudio/vídeo ao vivo ou contato com profissionais pelo protótipo.
-- **Sem dados clínicos ou identificáveis:** evitar formulários que solicitem dados pessoais; não transmitir nem persistir respostas.
-- **Sem decisões clínicas:** nenhum diagnóstico, prescrição, triagem ou alteração de conduta.
-- **Ética antes da pesquisa:** não recrutar, entrevistar nem conduzir testes de pesquisa com participantes sem verificar e obter as aprovações aplicáveis.
-- **Alegações proporcionais à evidência:** usabilidade e desempenho em tarefas simuladas não equivalem a aprendizagem duradoura nem a resultados clínicos.
-
-## Organização da documentação
-
-A documentação agora está organizada por fase; consulte o [índice de documentos](docs/README.md) para localizar anteprojeto, fundamentação, protótipo, avaliação e gestão.
-
-## Estrutura do repositório
-
-- [ROADMAP — prioridades, critérios de conclusão e pendências](ROADMAP.md)
-- [Roadmap técnico do produto](../docs/gestao/roadmap-historico-resumido.md)
-- [Anteprojeto — versão de trabalho](../docs/anteprojeto/versoes-anteriores/anteprojeto-base.md)
-- [Anteprojeto organizado conforme o modelo da UERJ](../docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md)
-- [Especificação do produto mínimo](../docs/protótipo/produto-minimo.md)
-- [Mapa preliminar de objetivos educativos e tarefas](../docs/protótipo/mapa-objetivos-educativos-e-tarefas.md)
-- [Registro detalhado da revisão editorial dos cenários e feedbacks](../docs/protótipo/revisao-editorial-cenarios-feedbacks-2026-10-20.md) — racional pedagógico, relação com fontes documentadas e verificações pendentes.
-- [Decisões metodológicas — opções, desenho recomendado e pendências](../docs/anteprojeto/decisoes-metodologicas.md)
-- [Protocolo preliminar de avaliação](../docs/avaliacao/planejamento/protocolo-preliminar-avaliacao.md)
-- [Matriz de evidências e requisitos](../docs/protótipo/matriz-evidencias-requisitos.md)
-- [Nota de evidências e decisões para o tema](../docs/fundamentacao/nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md)
-- [Critérios do edital e decisão de tema](../docs/anteprojeto/selecao/criterios-edital-e-seis-temas.md)
-- [Plano de parceria e ética](../docs/anteprojeto/planejamento/parceria-e-etica.md)
-- [Roteiro de conversa exploratória com a Secretaria](../docs/anteprojeto/planejamento/roteiro-reuniao-secretaria.md)
-- [Busca bibliográfica estruturada — protocolo e síntese crítica](../docs/fundamentacao/busca-bibliografica-estruturada.md)
-- [Referências iniciais e plano de busca](../docs/fundamentacao/referencias-e-busca-bibliografica.md)
-- [Benchmark exploratório de recursos existentes](../docs/fundamentacao/benchmark-recursos-existentes.md)
-- [Revisão rápida de evidências e recomendações](../docs/fundamentacao/revisao-rapida-evidencias-e-recomendacoes.md)
-- [Registro da busca exploratória complementar — 19/10/2026](../docs/fundamentacao/registros/registro-busca-exploratoria-2026-10-19.md)
-- [Registro da busca exploratória complementar — 20/10/2026](../docs/fundamentacao/registros/registro-busca-exploratoria-2026-10-20.md)
-- [Guia operacional das tarefas pessoais](../docs/gestao/tarefas-pessoais-e-proximos-passos.md)
-- [Relatório de revisão técnica](../docs/avaliacao/relatorio-revisao-tecnica.md)
-- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../docs/avaliacao/roteiro-auditoria-tecnica-sem-participantes.md)
-- [Modelo de preenchimento da auditoria manual de acessibilidade](../docs/avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) — ficha por rodada com perguntas objetivas, evidências, defeitos e retestes.
-- [Carta de exposição de motivos — minuta editável](../docs/anteprojeto/submissao/carta-exposicao-de-motivos.md)
-- [Declaração de conhecimento da Deliberação nº 13/2023 — minuta editável](../docs/anteprojeto/submissao/declaracao-conhecimento-deliberacao-13-2023.md)
-- [Protótipo — página inicial](produto/index.html)
-- [Como abrir o protótipo](produto/README.md)
-- [Tutorial didático para abrir e testar o protótipo](../docs/avaliacao/tutorial-instalar-e-testar-prototipo.md)
-- [Testes de navegador e acessibilidade automatizada](tests/prototype.spec.js)
-- [Verificações estáticas](scripts/check-prototype.mjs)
-- [Como executar os testes localmente](../docs/avaliacao/como-executar-testes.md)
-- [Workflow de qualidade contínua](.github/workflows/prototype-quality.yml)
-
-
-### Formulário interativo de auditoria manual (21/10/2026)
-
-Além do modelo Markdown, está disponível o [formulário HTML preenchível](../docs/avaliacao/instrumentos/formulario-auditoria-manual-acessibilidade.html), que permite preencher os casos com teclado ou mouse, gerar um arquivo JSON com as respostas e abrir a impressão do navegador para salvar em PDF. O HTML inclui ícones de informação com exemplos e sugestões automáticas editáveis para data, navegador, sistema operacional e tipo aproximado de dispositivo; funciona localmente, não envia respostas a um servidor e não as salva automaticamente. A auditoria manual continua pendente até que haja execução documentada.
-
-
-## Registro da auditoria manual (21/10/2026)
-
-Foi arquivada a rodada `AUD-MAN-2026-10-21-01`, com [JSON e PDF]( ../docs/avaliacao/auditorias/manual/2026-10-21/README.md ). As respostas foram mantidas como recebidas nas cópias públicas redigidas, mas a análise inicial encontrou todas as 59 respostas C sem evidências, somente o perfil Mouse/trackpad marcado e divergências de metadados. O registro é **inconclusivo** até que a execução seja complementada; ver a nota de análise no diretório de auditoria.
-
-
-### Edital e revisão do anteprojeto
-
-- [Análise do edital da turma 2027 e lacunas do anteprojeto](../docs/anteprojeto/selecao/analise-edital-turma-2027-e-lacunas.md) — lista requisitos confirmados nas páginas oficiais, distingue pontos ainda não conferidos no PDF e orienta a revisão do texto acadêmico.
-
-### Tutorial para executar as pendências
-
-- [Tutorial passo a passo: auditoria manual de acessibilidade, busca bibliográfica, benchmark e verificação do CI](../docs/gestao/tutorial-execucao-pendencias.md) — orienta o executor sobre procedimentos, evidências mínimas, critérios de registro e limites das conclusões. Não substitui os modelos e protocolos específicos vinculados no tutorial.
+Mantenha dados, personagens e serviços fictícios. Não adicione dados pessoais/clínicos, integrações assistenciais, contas, rastreamento ou coleta sem nova decisão explícita e revisão ética/técnica. As conclusões do projeto devem permanecer proporcionais às evidências documentadas.

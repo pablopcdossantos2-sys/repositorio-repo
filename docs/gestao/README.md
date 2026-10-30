@@ -1,11 +1,8 @@
 # Gestão do projeto
 
-Documentos de acompanhamento e fonte de orientação para continuidade.
+- [Estado atual do projeto](estado-atual-do-projeto.md) — fonte única para o status conhecido, escopo e limites.
+- [Roadmap ativo](roadmap.md) — fases, pendências e critérios de conclusão.
+- [Próximas ações do responsável](tarefas-pessoais-e-proximos-passos.md) — lista curta de decisões e tarefas que exigem ação humana.
+- [Tutorial de execução](tutorial-execucao-pendencias.md) — instruções operacionais para auditoria, busca bibliográfica e conferência de documentos.
 
-- [`estado-atual-e-diretrizes-para-ias.md`](estado-atual-e-diretrizes-para-ias.md) — referência principal para escopo e decisões vigentes.
-- [`roadmap.md`](roadmap.md) — roadmap principal, anteriormente mantido na raiz.
-- [`roadmap-historico-resumido.md`](roadmap-historico-resumido.md) — versão resumida histórica, preservada para consulta.
-- `tarefas-pessoais-e-proximos-passos.md` — lista de tarefas do responsável.
-- `tutorial-execucao-pendencias.md` — passo a passo para tarefas de busca, auditoria e CI.
-
-A página `ROADMAP.md` na raiz é apenas um atalho; mantenha o conteúdo do roadmap nesta pasta para evitar duplicidade.
+Os snapshots extensos anteriores a 30/10/2026 foram movidos para [Arquivo histórico](../_arquivo/gestao/README.md). Não manter listas paralelas do mesmo estado em vários documentos.
