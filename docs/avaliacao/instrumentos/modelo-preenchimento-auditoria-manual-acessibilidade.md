@@ -276,7 +276,7 @@ O [formulário HTML interativo](formulario-auditoria-manual-acessibilidade.html)
 
 O formulário sugere automaticamente a data da rodada, o nome/versão do navegador, uma identificação aproximada do sistema operacional e uma categoria aproximada de dispositivo. Os campos continuam editáveis e as sugestões devem ser confirmadas. URL do protótipo, viewport, zoom, leitor de tela, commit testado e resultado da CI ficam manuais para evitar preencher automaticamente valores que poderiam não corresponder ao protótipo auditado ou exigem confirmação. Não há envio nem gravação automática das respostas.
 
-Para relacionar os casos da ficha aos critérios aplicáveis do toolkit oficial WHO/ITU, consulte a [Matriz de aplicabilidade WHO/ITU–protótipo](matriz-aplicabilidade-who-itu-prototipo.md). Ela distingue requisitos diretos, parciais e fora do escopo do simulador fictício; não constitui declaração de conformidade com o padrão para serviços reais de telessaúde.
+Para relacionar os casos da ficha aos critérios aplicáveis do toolkit oficial WHO/ITU, consulte a [Matriz de aplicabilidade WHO/ITU–protótipo](../../prototipo/matriz-aplicabilidade-who-itu-prototipo.md). Ela distingue requisitos diretos, parciais e fora do escopo do simulador fictício; não constitui declaração de conformidade com o padrão para serviços reais de telessaúde.
 
 
 ## Registro da auditoria manual (21/10/2026)
