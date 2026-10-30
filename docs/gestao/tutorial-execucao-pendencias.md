@@ -15,13 +15,13 @@ O protótipo é um simulador educativo fictício. Não use dados reais de pacien
 1. Abra o repositório: <https://github.com/pablopcdossantos2-sys/repositorio-repo>.
 2. Entre em **Code** e confira a branch `main`.
 3. Abra o arquivo [Estado atual do projeto e diretrizes para IAs](estado-atual-e-diretrizes-para-ias.md) antes de alterar código ou documentação.
-4. Abra [o modelo de auditoria manual](modelo-preenchimento-auditoria-manual-acessibilidade.md) e faça uma cópia para a nova rodada. **Não substitua nem reescreva** o registro histórico `AUD-MAN-2026-10-21-01`: ele permanece inconclusivo se não tiver evidências observáveis.
+4. Abra [o modelo de auditoria manual](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) e faça uma cópia para a nova rodada. **Não substitua nem reescreva** o registro histórico `AUD-MAN-2026-10-21-01`: ele permanece inconclusivo se não tiver evidências observáveis.
 5. Registre a data, o commit que está sendo testado e o ambiente real utilizado. Se não souber o commit, na página principal do repositório copie o identificador curto exibido no commit mais recente da branch `main`.
 6. Use um perfil de navegador sem dados pessoais e feche outras abas que possam exibir informações privadas.
 
 ## Parte A — verificar os testes automatizados no GitHub Actions
 
-Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela identifica os títulos dos testes que existem no código e os limites da cobertura. É um inventário estático: **não é evidência de que os testes foram executados no commit atual**. Para registrar aprovação, use sempre a execução do Actions ligada ao SHA exato que está sendo avaliado.
+Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos, requisitos e testes automatizados (24/10/2026)](../protótipo/matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md). Ela identifica os títulos dos testes que existem no código e os limites da cobertura. É um inventário estático: **não é evidência de que os testes foram executados no commit atual**. Para registrar aprovação, use sempre a execução do Actions ligada ao SHA exato que está sendo avaliado.
 
 ### A1. Abrir a execução correta
 
@@ -39,7 +39,7 @@ Antes de interpretar a CI, consulte a [matriz de rastreabilidade entre objetivos
 - **Nenhuma execução encontrada:** confirme o commit e os filtros. Alguns workflows só rodam quando arquivos cobertos pelos filtros são alterados; uma alteração apenas documental pode não iniciar a CI.
 - **Workflow ignorado ou não executado:** isso não significa que os testes passaram.
 
-No histórico recente do projeto, há execuções registradas com verificações estáticas, testes da ferramenta auxiliar de busca e testes Playwright/axe-core aprovados em commits anteriores. Consulte o SHA e a URL exatos na seção de histórico do [relatório de revisão técnica](relatorio-revisao-tecnica.md) e compare-os com o commit que está sendo avaliado. Uma aprovação anterior não comprova o estado de commits posteriores, nem substitui a verificação do commit atualmente publicado.
+No histórico recente do projeto, há execuções registradas com verificações estáticas, testes da ferramenta auxiliar de busca e testes Playwright/axe-core aprovados em commits anteriores. Consulte o SHA e a URL exatos na seção de histórico do [relatório de revisão técnica](../avaliacao/relatorio-revisao-tecnica.md) e compare-os com o commit que está sendo avaliado. Uma aprovação anterior não comprova o estado de commits posteriores, nem substitui a verificação do commit atualmente publicado.
 
 ### A3. Guardar evidência
 
@@ -52,7 +52,7 @@ Registre no relatório: URL da execução, SHA completo do commit, data/hora exi
 1. Abra a aplicação a partir do endereço de demonstração usado pelo projeto ou execute-a conforme as instruções atuais do README. Se não conseguir iniciar a aplicação, registre o bloqueio e a mensagem; não invente resultados.
 2. Registre sistema operacional, dispositivo, navegador e versão, tamanho aproximado da janela/viewport e zoom.
 3. Para cada combinação de ambiente, crie um registro separado. Não misture observações feitas em computador com observações feitas em celular.
-4. Abra o modelo [Modelo de preenchimento — auditoria manual](modelo-preenchimento-auditoria-manual-acessibilidade.md) e copie-o para um novo arquivo, por exemplo `docs/auditorias/AUD-MAN-AAAA-MM-DD-01.md`. Use a data real e um identificador que ainda não exista.
+4. Abra o modelo [Modelo de preenchimento — auditoria manual](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md) e copie-o para um novo arquivo, por exemplo `docs/avaliacao/auditorias/manual/AAAA-MM-DD/AUD-MAN-AAAA-MM-DD-01.md`. Use a data real e um identificador que ainda não exista.
 5. Na cópia, substitua os campos de ambiente e de execução; não marque critérios antecipadamente.
 
 ### B2. Teste de teclado, sem mouse
@@ -160,7 +160,7 @@ Não aplique filtros de idioma, data ou tipo de publicação que não estejam pr
 
 ### C3. Busca complementar automatizada no PubMed (opcional)
 
-O repositório contém [um guia para executar a ferramenta complementar de PubMed](guia-execucao-pubmed-automatizada.md) e o script `scripts/buscar-pubmed.mjs).
+O repositório contém [um guia para executar a ferramenta complementar de PubMed](../fundamentacao/guia-execucao-pubmed-automatizada.md) e o script `scripts/buscar-pubmed.mjs).
 
 1. Siga o guia para preparar Node.js e abrir um terminal na pasta do repositório.
 2. Execute apenas os comandos descritos no guia.
@@ -192,7 +192,7 @@ Só declare a busca formal executada depois que as consultas, contagens e export
 
 ### D1. Consultar as fontes já identificadas
 
-Comece pelo documento [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md) e pela [matriz de aplicabilidade WHO/ITU](matriz-aplicabilidade-who-itu-prototipo.md). As fontes já registradas incluem:
+Comece pelo documento [Benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md) e pela [matriz de aplicabilidade WHO/ITU](../protótipo/matriz-aplicabilidade-who-itu-prototipo.md). As fontes já registradas incluem:
 - Digital House Calls, curso em inglês: <https://bridgingapps.org/courses/digital-house-calls-a-step-by-step-guide-for-telemedicine-visits-english>
 - Digital House Calls, curso em espanhol: <https://bridgingapps.org/courses/digital-house-calls-spanish/>
 - WHO/ITU, toolkit de acessibilidade para serviços de telessaúde: <https://www.who.int/publications/b/74046>
@@ -284,12 +284,12 @@ O endereço oficial identificado para o arquivo editável é:
 4. Abra uma cópia no Microsoft Word ou LibreOffice Writer. Não edite o original baixado.
 5. Confira todas as páginas e instruções internas: margens, fonte, espaçamento, cabeçalhos/rodapés, limites, campos obrigatórios e orientações que não aparecem na página web.
 6. Verifique se o arquivo é de fato o modelo aplicável à seleção de 2027. O nome do arquivo conter “2026” exige confirmação explícita no edital/página oficial; não presuma compatibilidade.
-7. Compare o DOCX com `docs/anteprojeto-modelo-uerj.md`, seção por seção. A página pública menciona 16 seções, mas o próprio arquivo editável e o edital vigente prevalecem se houver divergência.
+7. Compare o DOCX com `docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md`, seção por seção. A página pública menciona 16 seções, mas o próprio arquivo editável e o edital vigente prevalecem se houver divergência.
 8. Registre cada diferença, requisito e correção necessária. Não altere o modelo oficial para fazê-lo coincidir com o rascunho.
 
 ### F4. Revisar o anteprojeto contra os requisitos confirmados
 
-1. Abra `docs/anteprojeto-modelo-uerj.md` e o checklist de requisitos do edital.
+1. Abra `docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` e o checklist de requisitos do edital.
 2. Confira cada seção obrigatória na ordem exata do modelo vigente.
 3. Confirme o nome do candidato e os demais campos de identificação no documento privado de trabalho; não adivinhe nem publique dados pessoais no GitHub.
 4. Conte novamente as palavras do resumo em português e do abstract em inglês, usando o limite confirmado no edital/modelo.

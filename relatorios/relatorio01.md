@@ -1,6 +1,6 @@
 # Relatório de análise do anteprojeto — *Treino de Teleconsulta*
 
-**Objeto analisado:** o projeto escrito (anteprojeto), com foco em `docs/anteprojeto-modelo-uerj.md` (versão baseada em uma lista de 16 itens de uma página web, **não** no DOCX oficial) e, como apoio, `docs/anteprojeto-base.md`, `docs/decisoes-metodologicas.md`, `docs/produto-minimo.md`, `docs/mapa-objetivos-educativos-e-tarefas.md`, `docs/analise-edital-turma-2027-e-lacunas.md`, `docs/conferencia-modelo-e-edital-2027-2026-10-24.md`, `docs/levantamento-bibliografico-exploratorio-2026-10-24.md`, `docs/benchmark-recursos-existentes.md`, `docs/matriz-evidencias-requisitos.md`, `docs/parceria-e-etica.md`, `docs/carta-exposicao-de-motivos.md` e o `README.md`.
+**Objeto analisado:** o projeto escrito (anteprojeto), com foco em `docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` (versão baseada em uma lista de 16 itens de uma página web, **não** no DOCX oficial) e, como apoio, `docs/anteprojeto/versoes-anteriores/anteprojeto-base.md`, `docs/anteprojeto/decisoes-metodologicas.md`, `docs/protótipo/produto-minimo.md`, `docs/protótipo/mapa-objetivos-educativos-e-tarefas.md`, `docs/anteprojeto/selecao/analise-edital-turma-2027-e-lacunas.md`, `docs/anteprojeto/selecao/conferencia-modelo-e-edital-2027-2026-10-24.md`, `docs/fundamentacao/levantamento-bibliografico-exploratorio-2026-10-24.md`, `docs/fundamentacao/benchmark-recursos-existentes.md`, `docs/protótipo/matriz-evidencias-requisitos.md`, `docs/anteprojeto/planejamento/parceria-e-etica.md`, `docs/anteprojeto/submissao/carta-exposicao-de-motivos.md` e o `README.md`.
 **Documentos oficiais incorporados na revisão 2:** o **modelo DOCX oficial** (`final_2026_-MODELO_ANTEPROJETO…docx`) e o **PDF do edital da Turma 2027** (arquivo nomeado "EDITAL_2026", mas cujo conteúdo é a Turma 2027, com inscrições de 01/10/2026 a 30/10/2026).
 **Fora do escopo (conforme solicitado):** código, testes, CI e interface do protótipo.
 **Data do relatório:** 29/10/2026 (revisão 2, após a leitura do DOCX e do edital).
@@ -462,3 +462,20 @@ Ordem sugerida, da maior para a menor relação entre esforço e pontuação:
 ## 9. Observação final
 
 O projeto já tem o que é mais difícil de construir: **rigor e honestidade intelectual**. O que falta é traduzi-los em um texto que **convença** sem deixar de ser verdadeiro, com decisões visíveis (método, camadas de avaliação, cronograma), contexto nacional e uma proposta de valor clara. Nenhuma das melhorias acima exige mudar a natureza do projeto, apenas dar-lhe forma final.
+
+
+---
+
+## 10. Acompanhamento das recomendações — 30/10/2026
+
+Após a revisão 2, foram realizadas as seguintes alterações no repositório:
+
+1. **Organização documental por fase:** os documentos antes concentrados na raiz de `docs/` foram distribuídos entre `anteprojeto/`, `fundamentacao/`, `protótipo/`, `avaliacao/` e `gestao/`, com índices próprios. Os registros de auditoria foram mantidos na fase de avaliação e os registros bibliográficos na fundamentação.
+2. **Hierarquia das versões:** `anteprojeto-modelo-uerj.md` foi preservado como rascunho interno, mas agora declara expressamente que sua organização baseada em 16 itens de uma página web não corresponde ao DOCX oficial. `anteprojeto-base.md` foi movido para `versoes-anteriores/` e identificado como histórico.
+3. **Contradição do encerramento:** o rascunho de trabalho foi atualizado para registrar a tarefa de escolha única com feedback local implementada no protótipo. O código interno OE-05 não é necessário para descrever essa funcionalidade no texto acadêmico.
+4. **Roadmap duplicado:** o roadmap mais completo passou a ser o documento principal em `docs/gestao/roadmap.md`; `ROADMAP.md` na raiz funciona como atalho, e a versão resumida anterior foi preservada como histórica.
+5. **Navegação:** README, índice de documentação e instruções de execução foram atualizados para refletir os novos caminhos.
+
+**O que não foi declarado como concluído:** a migração integral do conteúdo para o DOCX oficial, o preenchimento de todas as seções exigidas, a confirmação dos descritores DeCS/MeSH, a verificação de referências e marcos normativos, a decisão acadêmica sobre o método e eventual participação de pessoas, a definição do tipo de produto e a aprovação de qualquer parceria ou protocolo ético. Essas tarefas continuam pendentes e devem ser resolvidas com evidência e orientação acadêmica, sem transformar as sugestões deste relatório em decisões já aprovadas.
+
+**Nota temporal:** este registro de implementação é posterior ao relatório original, que permanece datado de 29/10/2026 (revisão 2). A análise de prazo na Seção 0 retrata a divergência documental observada naquela data e não constitui confirmação do calendário vigente em 30/10/2026.
