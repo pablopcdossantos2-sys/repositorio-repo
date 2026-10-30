@@ -60,9 +60,10 @@ Esta fase não integra o plano mínimo inicial. Se a orientação acadêmica ind
 
 Antes da execução, definir a técnica, participantes, recrutamento, consentimento, proteção de dados e análise; verificar autorizações institucionais e apreciação ética aplicáveis. A viabilidade de acesso permanece incerta.
 
-**Fase 3 — Tradução dos achados em requisitos e iteração do produto**
+**Fase 3 — Tradução das evidências documentais em requisitos e iteração do produto**
 
-- organizar os achados por temas ou categorias justificadas;
+- organizar os achados da literatura, do benchmark e da inspeção por temas ou categorias justificadas;
+- incorporar dados produzidos com pessoas somente se a etapa condicional tiver sido indicada pela orientação e aprovada pelas instâncias aplicáveis;
 - distinguir necessidades recorrentes, casos específicos e sugestões individuais;
 - registrar cada requisito com sua origem, prioridade, decisão (incorporado, adaptado, adiado ou não incorporado) e justificativa;
 - atualizar objetivos educativos, cenários, linguagem, sequência, feedback e requisitos de acessibilidade;
