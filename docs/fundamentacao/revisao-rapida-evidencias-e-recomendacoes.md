@@ -10,14 +10,14 @@
 
 ## 1. Síntese executiva
 
-A evidência disponível sustenta priorizar linguagem compreensível, organização clara da informação, acessibilidade desde o início e avaliação baseada em tarefas. Isso é pertinente ao enquadramento como pesquisa tecnológica de uma solução inovadora para educação em saúde: o produto deve ser tratado como recurso educativo e a avaliação deve medir usabilidade, clareza e compreensão imediata de conteúdo fictício/validado. A evidência **não sustenta presumir** que uma interface com linguagem simplificada, isoladamente, gere aprendizagem duradoura, mude comportamentos ou melhore adesão, continuidade do cuidado ou desfechos clínicos.
+A evidência disponível sustenta priorizar linguagem compreensível, organização clara da informação e acessibilidade desde o início. No plano-base do anteprojeto, esses elementos serão examinados por inspeção técnica, pedagógica e de acessibilidade, com critérios prévios. Avaliação de usabilidade e compreensão com pessoas só será acrescentada se a orientação indicar essa etapa e as aprovações aplicáveis forem obtidas. A evidência **não sustenta presumir** que uma interface com linguagem simplificada, isoladamente, gere aprendizagem duradoura, mude comportamentos ou melhore adesão, continuidade do cuidado ou desfechos clínicos.
 
 As decisões mais importantes são:
 
 1. **Se a orientação indicar uma etapa com participantes:** avaliar tarefas e compreensão por critérios prévios, sem depender apenas de uma nota geral ou de uma pergunta de múltipla escolha. No plano-base atual, a avaliação é por inspeção sem participantes.
 2. Escolher com a orientação **um** instrumento de usabilidade que corresponda ao objeto avaliado. TUQ-Brasil é específico para sistemas de telessaúde; SUS é mais genérico. Nenhum deles mede, por si só, compreensão das orientações.
 3. Inspecionar manualmente os critérios de acessibilidade aplicáveis, incluindo teclado, ampliação e tecnologias assistivas. Um teste com usuários é condicional e não substitui a auditoria de acessibilidade; ferramentas automáticas também não provam conformidade integral.
-4. Manter usuários adultos e profissionais de saúde como grupos analíticos distintos quando necessário, pois suas tarefas e contextos não são iguais.
+4. Se uma etapa com participantes vier a ser aprovada, manter usuários adultos e profissionais de saúde como grupos analíticos distintos quando necessário, pois suas tarefas e contextos não são iguais.
 5. Não acrescentar contas, integração com prontuários, IA ou envio de lembretes para responder à pergunta atual. Essas funções aumentariam o risco e o escopo sem serem necessárias à avaliação preliminar proposta.
 
 ## 2. Achados das fontes e sua aplicabilidade
@@ -30,7 +30,7 @@ Uma revisão sistemática anterior de Daraz e colaboradores incluiu 157 estudos 
 
 **Implicação para o protótipo:** usar frases curtas, explicar termos necessários e organizar a informação em blocos. A compreensão pelo público-alvo não será afirmada no plano-base; se a orientação solicitar etapa com participantes, deverá ser examinada por procedimento e rubrica definidos previamente. Não considerar pontuação automática de legibilidade como prova suficiente de compreensão.
 
-**Melhoria recomendada:** na tarefa de compreensão, além de uma resposta estruturada, pedir ao participante para explicar em palavras próprias a ideia principal e o próximo passo do cenário fictício. Definir previamente uma rubrica simples para classificar a resposta (por exemplo: compreendeu o passo principal; compreensão parcial; interpretação incorreta). A formulação, o procedimento e a análise devem ser discutidos com a orientação e incluídos no protocolo antes de qualquer pesquisa com participantes.
+**Melhoria condicional:** se a orientação solicitar avaliação com participantes, considerar, além de uma resposta estruturada, pedir que a pessoa explique em palavras próprias a ideia principal e o próximo passo do cenário fictício. Definir rubrica, procedimento e análise com a orientação e incluí-los no protocolo antes de qualquer pesquisa com participantes. Isso não integra a inspeção-base.
 
 Fontes: [Dunnett et al., 2025](https://doi.org/10.1016/j.puhe.2025.105937); [Daraz et al., 2018](https://doi.org/10.1177/1062860617751639).
 
@@ -57,9 +57,9 @@ Um estudo brasileiro de 2025 avaliou o aplicativo e-SUS Território com Agentes 
 **Recomendação de decisão:** discutir com a orientação e escolher um instrumento, com justificativa explícita:
 - **TUQ-Brasil:** considerar se o objeto e as tarefas forem suficientemente próximos de um sistema/serviço de telessaúde para que os 21 itens façam sentido.
 - **SUS:** considerar como medida geral da usabilidade da interface se o foco for o protótipo web em si.
-- **Tarefas observadas:** em qualquer opção, medir conclusão sem ajuda, necessidade de ajuda, erros e pontos de bloqueio; avaliar compreensão separadamente.
+- **Tarefas observadas (somente se houver etapa com participantes):** medir conclusão sem ajuda, necessidade de ajuda, erros e pontos de bloqueio; avaliar compreensão separadamente. Não aplicar esses indicadores à inspeção sem participantes.
 
-Não aplicar TUQ-Brasil e SUS automaticamente em conjunto. A escolha deve considerar o tamanho e o tipo do estudo, a carga para os participantes, a pergunta de pesquisa e as condições de uso dos instrumentos.
+Não aplicar TUQ-Brasil e SUS automaticamente em conjunto. Se a orientação aprovar uma etapa com participantes, a escolha deverá considerar o tamanho e o tipo do estudo, a carga para as pessoas, a pergunta e as condições de uso dos instrumentos. Nenhum instrumento de autorrelato é necessário para a inspeção-base.
 
 Fontes: [Santos et al., 2023 — TUQ-Brasil](https://doi.org/10.1590/1806-9282.20230228); [Neves et al., 2025 — e-SUS Território](https://revista.saudeemdebate.org.br/sed/article/view/9774).
 
@@ -69,7 +69,7 @@ Uma revisão sistemática publicada em 2025 examinou 20 estudos de adultos que u
 
 A eHEALS é uma medida autorreferida de letramento em saúde digital; não é, isoladamente, uma medida de usabilidade do protótipo nem uma prova de que alguém compreende uma instrução específica.
 
-**Implicação para o projeto:** não presumir que todos os usuários têm a mesma familiaridade com celulares ou com informações digitais. Se a experiência digital for relevante à pergunta de pesquisa, decidir com a orientação se deve ser caracterizada — sem substituir tarefas de uso ou perguntas de compreensão por uma escala autorreferida.
+**Implicação para o projeto:** não presumir que todos os adultos têm a mesma familiaridade com celulares ou informações digitais. A definição funcional já registrada no anteprojeto orienta o público de interesse, mas não implica triagem ou coleta de perfil na Camada 0. Se uma etapa com pessoas for aprovada, decidir com a orientação se a experiência digital deve ser caracterizada.
 
 Fonte: [Wiener & Abuhalimeh, 2025](https://doi.org/10.1371/journal.pdig.0001075).
 
