@@ -4,12 +4,12 @@ Este documento contém apenas as próximas etapas e os critérios de avanço. At
 
 ## Fase 1 — Consolidar o anteprojeto
 
-**Estado:** rascunho interno; migração para o DOCX oficial pendente.
+**Estado:** texto-base v1 completo na estrutura do DOCX oficial; dados normativos e estatísticos ainda exigem conferência (WP5); revisão do candidato e da orientação pendente.
 
 - [ ] Confirmar com o Programa a situação da candidatura e as próximas datas oficiais.
 - [ ] Confirmar com a orientação o enquadramento, pergunta, método, objetivos e tipo de produto.
 - [ ] Migrar o conteúdo para uma cópia do DOCX oficial; não usar o Markdown atual como formulário de submissão.
-- [ ] Completar Proposta de valor, SUS Digital, Governo Digital, equidade e diversidade, ODS, governança de dados, tipo de estudo, método de análise, cronograma, infraestrutura e tipo de produto.
+- [x] Completar Proposta de valor, SUS Digital, Governo Digital, equidade e diversidade, ODS, governança de dados, tipo de estudo, método de análise, cronograma, infraestrutura e tipo de produto (texto-base v1; dados a conferir no WP5).
 - [ ] Harmonizar título, resumo, abstract e palavras-chave; revisar referências em ABNT.
 - [ ] Personalizar a carta e a declaração somente com informações confirmadas pelo candidato.
 
