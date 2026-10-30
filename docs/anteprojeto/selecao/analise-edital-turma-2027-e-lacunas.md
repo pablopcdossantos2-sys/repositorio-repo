@@ -66,7 +66,7 @@ A etapa com participantes permanece condicional e não integra o plano-base. A i
 | Cronograma | O roadmap lista frentes, mas não substitui cronograma de pesquisa exigido pelo modelo oficial, caso previsto. | Inserir cronograma no campo do modelo oficial, com períodos realistas e dependências. |
 | Referências | Há links em documentos separados. | Consolidar as referências efetivamente citadas no anteprojeto, conferir metadados/DOI/URL e padronizar no formato exigido pelo modelo ou edital. |
 | Limites e ética | As diretrizes restringem a fase atual a inspeção sem participantes. | Declarar ausência de coleta com pessoas nesta fase; não afirmar dispensa ética universal. Se o plano mudar, consultar a orientação e as regras institucionais antes de coletar dados. |
-| Formato de submissão | O Programa exige o modelo oficial e informa que o anteprojeto é submetido em PDF conforme edital. | Baixar o modelo da turma 2027, preencher nele e conferir nome, extensão, tamanho e campos contra o edital vigente. Não submeter este relatório de análise como anteprojeto. |
+| Formato de submissão | O Programa exige o modelo oficial e informa que o anteprojeto é submetido em PDF conforme edital. | Para eventual novo processo seletivo, obter o modelo e o edital vigentes para aquela turma; não presumir que o DOCX da Turma 2027 continue válido. Preencher o modelo aplicável e conferir nome, extensão, tamanho e campos contra o edital correspondente. Não submeter este relatório de análise como anteprojeto. |
 
 ## 5. Roteiro para revisão literal do PDF 2027 e do modelo
 
