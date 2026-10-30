@@ -6,7 +6,7 @@
 
 ## 1. Matriz de rastreabilidade
 
-A busca oficial estruturada ainda não foi executada com contagens/exportações; consultar [registro de execução das buscas](registro-busca-estruturada-2026-10-20.md). A inspeção estática parcial do protótipo foi registrada em [registro de auditoria estática](registro-auditoria-estatica-2026-10-20.md), sem substituir verificações manuais. A relação entre objetivos educativos, requisitos funcionais e nomes de testes automatizados está resumida na [matriz de rastreabilidade entre objetivos, requisitos e testes](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md); ela documenta cobertura prevista, não comprova execução recente nem substitui a auditoria manual.
+A busca oficial estruturada ainda não foi executada com contagens/exportações; consultar [registro de execução das buscas](../fundamentacao/registros/registro-busca-estruturada-2026-10-20.md). A inspeção estática parcial do protótipo foi registrada em [registro de auditoria estática](../avaliacao/registros/registro-auditoria-estatica-2026-10-20.md), sem substituir verificações manuais. A relação entre objetivos educativos, requisitos funcionais e nomes de testes automatizados está resumida na [matriz de rastreabilidade entre objetivos, requisitos e testes](matriz-rastreabilidade-objetivos-requisitos-testes-2026-10-24.md); ela documenta cobertura prevista, não comprova execução recente nem substitui a auditoria manual.
 
 | Tema | Referência inicial | Implicação para o projeto | Requisito ou decisão de produto | Evidência ainda necessária |
 |---|---|---|---|---|
@@ -42,7 +42,7 @@ A busca oficial estruturada ainda não foi executada com contagens/exportações
 
 ## 3. Lacunas prioritárias para o Treino de Teleconsulta
 
-A revisão de escopo de Galvin et al. (2024) é evidência diretamente pertinente ao treinamento de usuários, mas identifica formatos predominantemente mediados e evidência limitada/mista de melhoria de competência. O curso Digital House Calls, em inglês e espanhol, demonstra que já existem recursos autoguiados com vídeos e plano antes/durante/depois. Portanto, **a lacuna de um simulador autoguiado em português permanece hipótese a verificar**, não conclusão desta matriz. Ver [Nota de evidências e decisões de 20/10/2026](nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md).
+A revisão de escopo de Galvin et al. (2024) é evidência diretamente pertinente ao treinamento de usuários, mas identifica formatos predominantemente mediados e evidência limitada/mista de melhoria de competência. O curso Digital House Calls, em inglês e espanhol, demonstra que já existem recursos autoguiados com vídeos e plano antes/durante/depois. Portanto, **a lacuna de um simulador autoguiado em português permanece hipótese a verificar**, não conclusão desta matriz. Ver [Nota de evidências e decisões de 20/10/2026](../fundamentacao/nota-evidencias-e-decisoes-teleconsulta-2026-10-20.md).
 
 1. Estudos empíricos sobre preparação/treinamento de usuários para teleconsultas e prática de tarefas digitais.
 2. Recursos ou simuladores existentes que ensinem entrada em sala virtual, uso de controles e resposta a problemas técnicos simples.
@@ -92,7 +92,7 @@ As fontes abaixo foram localizadas em páginas oficiais de organizações, peri�
 
 ## 7. Relação com a busca bibliográfica estruturada
 
-A síntese crítica e as estratégias de busca estão em [docs/busca-bibliografica-estruturada.md](busca-bibliografica-estruturada.md). Os estudos de Kim e Xie (2017), Daraz et al. (2018), Milanti et al. (2023), Santos et al. (2023), Jiang et al. (2024), Neves et al. (2025), Oliveira et al. (2025), Wiener e Abuhalimeh (2025) e Colussi et al. (2026) ajudam a sustentar requisitos de linguagem compreensível, acessibilidade e avaliação contextualizada. A síntese é provisória; a execução documentada das buscas nas interfaces oficiais, leitura integral e avaliação formal de qualidade ainda são necessárias.
+A síntese crítica e as estratégias de busca estão em [docs/busca-bibliografica-estruturada.md](../fundamentacao/busca-bibliografica-estruturada.md). Os estudos de Kim e Xie (2017), Daraz et al. (2018), Milanti et al. (2023), Santos et al. (2023), Jiang et al. (2024), Neves et al. (2025), Oliveira et al. (2025), Wiener e Abuhalimeh (2025) e Colussi et al. (2026) ajudam a sustentar requisitos de linguagem compreensível, acessibilidade e avaliação contextualizada. A síntese é provisória; a execução documentada das buscas nas interfaces oficiais, leitura integral e avaliação formal de qualidade ainda são necessárias.
 
 
 ## 9. Síntese focalizada de evidências e decisões — 19/10/2026
@@ -119,7 +119,7 @@ A revisão rápida em `docs/revisao-rapida-evidencias-e-recomendacoes.md` comple
 | Khairat et al. (2026), entrevistas multistakeholder sobre acesso e sustentabilidade da telessaúde. DOI: 10.7812/TPP/26.102. | As entrevistas destacam benefícios de acesso, mas também barreiras de conectividade, dispositivos, literacia digital, onboarding e fluxo de trabalho. | Incluir essas dimensões no roteiro exploratório de conversa institucional e não presumir que a interface resolva barreiras estruturais. | Estudo realizado nos EUA; usar como pauta de perguntas e não como estimativa do cenário brasileiro. |
 | Duplaga (2025), usabilidade de consultas médicas remotas por telefone. DOI: 10.3233/SHTI251307. | Literacia digital, ansiedade tecnológica, idade e escolaridade associaram-se a escores autorreferidos de usabilidade em uma amostra de 1.661 adultos usuários de internet. | Considerar heterogeneidade de experiência e barreiras digitais ao definir as características a descrever no protocolo. | Estudo observacional da Polônia; não é diretamente generalizável ao contexto de Guaraí. |
 
-A seleção e os limites da busca desta rodada estão registrados em [registro de busca exploratória complementar](registro-busca-exploratoria-2026-10-19.md); ela não substitui busca reprodutível nas interfaces oficiais.
+A seleção e os limites da busca desta rodada estão registrados em [registro de busca exploratória complementar](../fundamentacao/registros/registro-busca-exploratoria-2026-10-19.md); ela não substitui busca reprodutível nas interfaces oficiais.
 
 ## 10. Evidências metodológicas adicionais — busca exploratória de 20/10/2026
 
@@ -128,12 +128,12 @@ A seleção e os limites da busca desta rodada estão registrados em [registro d
 | Usabilidade pré-piloto de simulação educativa | Lesselroth et al. (2025), DOI 10.3233/SHTI250327; Lesselroth et al. (2026), DOI 10.3233/SHTI250237 e 10.3233/SHTI260636 | Incluir uma rubrica por tarefa, critérios prévios de sucesso parcial/total, tipo de ajuda e registro de problemas de fluxo/fidelidade; combinar conclusão de tarefa e comentário qualitativo na avaliação planejada. | Os estudos encontrados avaliam sobretudo simulações de telemedicina dirigidas a residentes/profissionais. Servem como referência metodológica adjacente, não como evidência direta de benefício a pacientes/usuários com baixa familiaridade digital. |
 | Acessibilidade de telessaúde | WHO; ITU (2024), *Implementation toolkit for accessible telehealth services*. https://www.who.int/activities/making-accessible-telehealth-services-for-persons-with-disabilities | Ampliar a auditoria de acessibilidade para além do contraste: verificar conteúdo compreensível, ordem e visibilidade do foco, navegação por teclado e, onde pertinente, compatibilidade com tecnologia assistiva e alternativas a conteúdos audiovisuais. | Trata-se de orientação para acessibilidade de serviços de telessaúde. A referência ajuda a planejar a auditoria, mas não prova conformidade automática do protótipo. |
 
-**Registro de procedência:** a rodada de 20/10/2026 foi exploratória na web; buscas oficiais reproduzíveis nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO, com exportação e contagens, continuam pendentes. Consulte [Registro da busca exploratória complementar — 20/10/2026](registro-busca-exploratoria-2026-10-20.md).
+**Registro de procedência:** a rodada de 20/10/2026 foi exploratória na web; buscas oficiais reproduzíveis nas interfaces PubMed/MEDLINE, BVS/LILACS e SciELO, com exportação e contagens, continuam pendentes. Consulte [Registro da busca exploratória complementar — 20/10/2026](../fundamentacao/registros/registro-busca-exploratoria-2026-10-20.md).
 
 
 ## 11. Benchmark exploratório de recursos existentes — 20/10/2026
 
-O [mapa preliminar de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md) explicita a relação entre objetivos, cenários, feedback e verificações internas. O [benchmark de recursos existentes](benchmark-recursos-existentes.md) identifica materiais públicos que ajudam a preparar usuários para teleconsulta. O levantamento é exploratório, não exaustivo e não constitui teste comparativo de eficácia.
+O [mapa preliminar de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md) explicita a relação entre objetivos, cenários, feedback e verificações internas. O [benchmark de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md) identifica materiais públicos que ajudam a preparar usuários para teleconsulta. O levantamento é exploratório, não exaustivo e não constitui teste comparativo de eficácia.
 
 | Fonte/recurso | O que acrescenta à matriz | Requisito ou decisão provisória | Limite |
 |---|---|---|---|
@@ -149,4 +149,4 @@ O [mapa preliminar de objetivos educativos e tarefas](mapa-objetivos-educativos-
 
 ## 12. Verificação operacional dos requisitos
 
-Para transformar os requisitos derivados da literatura e do benchmark em inspeção verificável, foi criado o [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md). Ele relaciona cada requisito B-01–B-08 a áreas da interface, testes propostos e estado de verificação. Os itens manuais continuam pendentes; a existência do roteiro não deve ser descrita como execução da auditoria.
+Para transformar os requisitos derivados da literatura e do benchmark em inspeção verificável, foi criado o [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md). Ele relaciona cada requisito B-01–B-08 a áreas da interface, testes propostos e estado de verificação. Os itens manuais continuam pendentes; a existência do roteiro não deve ser descrita como execução da auditoria.

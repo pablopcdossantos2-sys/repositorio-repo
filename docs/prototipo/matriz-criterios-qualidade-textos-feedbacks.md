@@ -54,7 +54,7 @@ Essas regras demonstram **consistência documental**, não compreensão pelo pú
 - **HHS, Preparing patients for telehealth / Helping patients prepare for their telehealth appointment:** oferece contexto prático sobre preparação e apoio; não é protocolo universal para todas as plataformas.
 - **Digital House Calls (BridgingApps):** confirma que já existe recurso autoguiado organizado em antes/durante/depois; essa estrutura não é diferencial exclusivo.
 
-Referências e URLs já registradas em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md), [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md) e [Benchmark exploratório](benchmark-recursos-existentes.md).
+Referências e URLs já registradas em [Revisão editorial dos cenários e feedbacks](revisao-editorial-cenarios-feedbacks-2026-10-20.md), [Matriz de evidências e requisitos](matriz-evidencias-requisitos.md) e [Benchmark exploratório](../fundamentacao/benchmark-recursos-existentes.md).
 
 ## 6. Estado e próximas ações
 

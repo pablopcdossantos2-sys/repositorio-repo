@@ -70,5 +70,5 @@ Estas tarefas são automatizáveis ou documentais, mas **não devem ser confundi
 - [Testes Playwright/axe-core](../tests/prototype.spec.js)
 - [Mapa de objetivos educativos e tarefas](mapa-objetivos-educativos-e-tarefas.md)
 - [Especificação do produto mínimo](produto-minimo.md)
-- [Modelo de auditoria manual de acessibilidade](modelo-preenchimento-auditoria-manual-acessibilidade.md)
-- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](roteiro-auditoria-tecnica-sem-participantes.md)
+- [Modelo de auditoria manual de acessibilidade](../avaliacao/instrumentos/modelo-preenchimento-auditoria-manual-acessibilidade.md)
+- [Roteiro de auditoria técnica, pedagógica e de acessibilidade sem participantes](../avaliacao/roteiro-auditoria-tecnica-sem-participantes.md)

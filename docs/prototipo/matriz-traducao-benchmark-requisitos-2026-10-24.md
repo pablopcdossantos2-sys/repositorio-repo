@@ -6,7 +6,7 @@
 
 ## 1. Objetivo e regra de uso
 
-Esta matriz transforma observações do [benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md) em decisões de design e verificações proporcionais ao protótipo atual. O propósito é tornar explícito por que cada requisito existe, onde aparece no produto e que evidência seria suficiente para inspecioná-lo sem participantes.
+Esta matriz transforma observações do [benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md) em decisões de design e verificações proporcionais ao protótipo atual. O propósito é tornar explícito por que cada requisito existe, onde aparece no produto e que evidência seria suficiente para inspecioná-lo sem participantes.
 
 A comparação é descritiva. Os recursos têm públicos, países, formatos e finalidades diferentes; não se conclui que um recurso é melhor, que a solução proposta é original ou que os requisitos abaixo foram validados com usuários.
 
@@ -42,7 +42,7 @@ Uma rodada documental/técnica pode ser considerada concluída apenas quando hou
 
 ## 5. Fontes documentais
 
-- [Benchmark exploratório de recursos existentes](benchmark-recursos-existentes.md)
+- [Benchmark exploratório de recursos existentes](../fundamentacao/benchmark-recursos-existentes.md)
 - [Mapa de objetivos educativos, tarefas e critérios](mapa-objetivos-educativos-e-tarefas.md)
 - [Especificação do produto mínimo](produto-minimo.md)
 - [Matriz de aplicabilidade WHO/ITU ao protótipo](matriz-aplicabilidade-who-itu-prototipo.md)
