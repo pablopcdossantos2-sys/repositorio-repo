@@ -2,6 +2,8 @@
 
 **Projeto:** Treino de Teleconsulta
 
+> **Atualização 30/10/2026:** o DOCX e o PDF do edital da Turma 2027 foram conferidos; ver [conferencia-docx-e-edital-2027-2026-10-30.md](conferencia-docx-e-edital-2027-2026-10-30.md). Os itens de “limite de verificação” abaixo estão superados.
+
 > **Nota temporal — 30/10/2026:** as datas registradas neste documento (29/10/2026 às 12h, conforme a página consultada na época) já passaram. O PDF arquivado registra 30/10/2026 às 12h, também já passado. Este histórico não confirma a situação da candidatura, eventual prorrogação ou protocolo; consulte diretamente o Programa e o sistema de inscrição.  
 **Data da verificação:** 23/10/2026  
 **Finalidade:** transformar as informações oficiais disponíveis em uma lista de verificação para revisão do projeto escrito.  
@@ -15,7 +17,7 @@
 4. [Página principal do Programa](https://www.telessaude.uerj.br/mestrado/), que encaminha para o edital e o modelo de anteprojeto.
 5. [Edital da turma 2026, arquivo oficial da UERJ](https://www.telessaude.uerj.br/mestrado/wp-content/uploads/sites/3/2025/08/Edital___Processo_Seletivo___Mestrado_Profissional_em_Telessaude_e_Saude_Digital__Aprovado_-1.pdf). Este documento anterior foi usado apenas como referência histórica de estrutura administrativa, nunca como substituto do edital da turma 2027.
 
-**Limite de verificação:** a página atual identifica o edital e o modelo de anteprojeto da turma 2027, mas o conteúdo integral desses dois arquivos não foi disponibilizado em texto pesquisável nesta consulta. Por isso, não declaro que todos os artigos, limites de páginas, critérios de pontuação ou exigências de formatação do PDF 2027 foram conferidos. Antes de fechar a versão para inscrição, deve-se baixar o PDF do edital 2027 e o modelo diretamente na página oficial e comparar item por item.
+**Limite de verificação (superado em 30/10/2026):** a página atual identifica o edital e o modelo de anteprojeto da turma 2027, mas o conteúdo integral desses dois arquivos não foi disponibilizado em texto pesquisável nesta consulta. Por isso, não declaro que todos os artigos, limites de páginas, critérios de pontuação ou exigências de formatação do PDF 2027 foram conferidos. Antes de fechar a versão para inscrição, deve-se baixar o PDF do edital 2027 e o modelo diretamente na página oficial e comparar item por item.
 
 ## 2. Informações confirmadas nas páginas oficiais atuais
 
@@ -38,7 +40,7 @@ O objeto deve ser descrito como um **protótipo educativo web para praticar deci
 ### Formulação de trabalho a harmonizar
 
 - **Título provisório:** *Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo web para adultos com baixa familiaridade digital*.
-- **Pergunta provisória:** *Como desenvolver e avaliar, por inspeção documental, pedagógica, técnica e de acessibilidade sem participantes, um simulador educativo web que permita praticar etapas básicas de uma teleconsulta fictícia?*
+- **Pergunta vigente:** ver [formulacao-vigente.md](../formulacao-vigente.md).
 - **Objetivo geral provisório:** desenvolver e documentar um protótipo educativo web, fundamentado em literatura e análise de recursos existentes, e avaliar sua consistência pedagógica, funcionamento técnico, linguagem e critérios de acessibilidade aplicáveis por meio de inspeção sem participantes.
 - **Objetivos específicos provisórios:**
   1. mapear evidências e recursos educativos existentes sobre preparação e participação de usuários em teleconsultas;
@@ -100,6 +102,8 @@ A aderência temática do simulador à linha de educação em saúde é plausív
 
 ## 8. Conferência adicional do modelo oficial: divergências concretas
 
+> **Correção (30/10/2026):** a ordem de 16 títulos vem da página web do modelo e **não corresponde** ao DOCX oficial. O texto vigente foi migrado para `rascunhos/anteprojeto-docx-oficial.md`.
+
 A página oficial do modelo lista 16 seções, nesta ordem: (1) nome do anteprojeto; (2) linha de pesquisa; (3) nome completo do candidato; (4) sumário executivo; (5) resumo em português (500 palavras); (6) abstract em inglês (500 palavras); (7) introdução; (8) justificativa e relevância; (9) potencial de inovação; (10) impacto para a sociedade; (11) objetivo geral; (12) objetivos específicos (**listar 3**); (13) material e método; (14) aspectos éticos; (15) limitações para o desenvolvimento; (16) bibliografia. Fonte: [modelo oficial de anteprojeto da UERJ](https://www.telessaude.uerj.br/mestrado/modelo-anteprojeto/).
 
 Na versão anterior do rascunho, a estrutura não reproduzia a ordem oficial e havia cinco objetivos específicos. Em revisão realizada em 23/10/2026, `docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` foi reorganizado para apresentar os 16 títulos na ordem publicada, integrar o tipo de projeto ao sumário executivo, incorporar a pergunta de pesquisa à introdução e manter três objetivos específicos. Os critérios de inovação/escalabilidade, equidade, ODS e transformação digital do SUS também foram explicitados no sumário e nas seções de impacto. A revisão estrutural não substitui a conferência do arquivo-modelo editável e do PDF integral do edital 2027.
@@ -120,6 +124,8 @@ Fontes: [FAQ oficial](https://www.telessaude.uerj.br/mestrado/faq/), [passo a pa
 
 
 ## 11. Atualização após reorganização do rascunho
+
+> **Correção (30/10/2026):** a ordem de 16 títulos vem da página web do modelo e **não corresponde** ao DOCX oficial. O texto vigente foi migrado para `rascunhos/anteprojeto-docx-oficial.md`.
 
 Em 23/10/2026, o arquivo `docs/anteprojeto/rascunhos/anteprojeto-modelo-uerj.md` foi reorganizado para apresentar exatamente 16 títulos numerados na ordem publicada na página oficial do modelo. O campo “Tipo de projeto” foi incorporado ao sumário executivo, a pergunta de pesquisa foi incorporada à introdução e os objetivos específicos foram consolidados em três. O resumo em português tem aproximadamente 205 palavras e o abstract em inglês aproximadamente 218, abaixo do limite de 500 palavras informado na página do modelo.
 
