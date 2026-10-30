@@ -37,19 +37,19 @@ A definição atual no repositório associa o projeto à linha **Tecnologias par
 
 O objeto deve ser descrito como um **protótipo educativo web para praticar decisões e etapas básicas de uma teleconsulta fictícia**, e não como plataforma clínica, serviço de telessaúde, ferramenta diagnóstica ou produto de eficácia demonstrada.
 
-### Formulação de trabalho a harmonizar
+### Formulação de trabalho vigente
 
-- **Título provisório:** *Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo web para adultos com baixa familiaridade digital*.
-- **Pergunta vigente:** ver [formulacao-vigente.md](../formulacao-vigente.md).
-- **Objetivo geral provisório:** desenvolver e documentar um protótipo educativo web, fundamentado em literatura e análise de recursos existentes, e avaliar sua consistência pedagógica, funcionamento técnico, linguagem e critérios de acessibilidade aplicáveis por meio de inspeção sem participantes.
-- **Objetivos específicos provisórios:**
-  1. mapear evidências e recursos educativos existentes sobre preparação e participação de usuários em teleconsultas;
-  2. derivar requisitos de conteúdo, interação, segurança informacional e acessibilidade a partir das fontes identificadas;
-  3. implementar um fluxo simulado de preparação, resolução de dificuldades comuns e encerramento;
-  4. inspecionar o protótipo com critérios de verificação definidos previamente e documentar falhas, correções e limitações;
-  5. disponibilizar documentação técnica e pedagógica que permita reproduzir a avaliação.
+A formulação única está em [formulacao-vigente.md](../formulacao-vigente.md). Para evitar divergências, reproduz-se aqui apenas o título e os objetivos atuais:
 
-Essas formulações são propostas editoriais, não decisões acadêmicas finais. A pergunta deve permanecer compatível com o que será realmente executado. A inspeção sem participantes não permite concluir que pessoas do público-alvo conseguem usar o protótipo nem demonstrar aprendizagem, eficácia ou mudança de comportamento.
+- **Título:** *Treino de Teleconsulta: desenvolvimento e avaliação de um simulador educativo web para adultos com baixa familiaridade digital*.
+- **Pergunta de pesquisa:** em que medida o simulador atende aos requisitos de conteúdo, linguagem, privacidade e acessibilidade derivados da literatura e dos recursos existentes, segundo inspeção técnica, pedagógica e de acessibilidade?
+- **Objetivo geral:** desenvolver e avaliar, por inspeção técnica, pedagógica e de acessibilidade, um simulador educativo web em português brasileiro para a prática, em cenários fictícios, de ações digitais básicas de participação em teleconsulta por adultos com baixa familiaridade digital.
+- **Objetivos específicos:**
+  1. Mapear as evidências científicas e os recursos educativos existentes sobre preparo de usuários para teleconsulta, por busca bibliográfica reproduzível e matriz comparativa, a fim de derivar objetivos educativos e requisitos rastreáveis.
+  2. Desenvolver, de forma iterativa, o simulador com os momentos de preparação, de prática de situações de dificuldade e de encerramento, documentando a rastreabilidade entre fonte, requisito, objetivo educativo, tarefa e verificação.
+  3. Avaliar o simulador por inspeção técnica, pedagógica e de acessibilidade, com critérios definidos previamente e inspetores independentes, registrando defeitos, correções e limitações e formulando recomendações de adaptação e de futura avaliação com usuários.
+
+A etapa com participantes permanece condicional e não integra o plano-base. A inspeção sem participantes não permite concluir que pessoas do público-alvo conseguem usar o protótipo nem demonstrar aprendizagem, eficácia ou mudança de comportamento.
 
 ## 4. Matriz de lacunas do projeto escrito
 
