@@ -14,9 +14,9 @@ A evidência disponível sustenta priorizar linguagem compreensível, organizaç
 
 As decisões mais importantes são:
 
-1. Medir se as pessoas conseguem completar tarefas e explicar a mensagem educativa em suas próprias palavras; não depender apenas de uma nota geral ou de uma pergunta de múltipla escolha.
+1. **Se a orientação indicar uma etapa com participantes:** avaliar tarefas e compreensão por critérios prévios, sem depender apenas de uma nota geral ou de uma pergunta de múltipla escolha. No plano-base atual, a avaliação é por inspeção sem participantes.
 2. Escolher com a orientação **um** instrumento de usabilidade que corresponda ao objeto avaliado. TUQ-Brasil é específico para sistemas de telessaúde; SUS é mais genérico. Nenhum deles mede, por si só, compreensão das orientações.
-3. Incluir teste com usuários e tecnologias assistivas no plano de acessibilidade. Inspeção estática e ferramentas automáticas são úteis, mas não provam conformidade integral.
+3. Inspecionar manualmente os critérios de acessibilidade aplicáveis, incluindo teclado, ampliação e tecnologias assistivas. Um teste com usuários é condicional e não substitui a auditoria de acessibilidade; ferramentas automáticas também não provam conformidade integral.
 4. Manter usuários adultos e profissionais de saúde como grupos analíticos distintos quando necessário, pois suas tarefas e contextos não são iguais.
 5. Não acrescentar contas, integração com prontuários, IA ou envio de lembretes para responder à pergunta atual. Essas funções aumentariam o risco e o escopo sem serem necessárias à avaliação preliminar proposta.
 
@@ -28,7 +28,7 @@ A revisão sistemática narrativa de Dunnett e colaboradores incluiu 30 estudos 
 
 Uma revisão sistemática anterior de Daraz e colaboradores incluiu 157 estudos que avaliaram 7.891 websites dos Estados Unidos e do Canadá; os níveis médios de legibilidade foram estimados entre 10º e 15º ano escolar, acima da recomendação então discutida pelos autores. Esse achado demonstra um problema recorrente em conteúdo de saúde online, mas os níveis escolares calculados para inglês não devem ser convertidos diretamente em uma meta para conteúdo em português brasileiro.
 
-**Implicação para o protótipo:** usar frases curtas, explicar termos necessários, organizar a informação em blocos e testar a compreensão com pessoas da população-alvo. Não considerar uma pontuação automática de legibilidade como prova suficiente de compreensão.
+**Implicação para o protótipo:** usar frases curtas, explicar termos necessários e organizar a informação em blocos. A compreensão pelo público-alvo não será afirmada no plano-base; se a orientação solicitar etapa com participantes, deverá ser examinada por procedimento e rubrica definidos previamente. Não considerar pontuação automática de legibilidade como prova suficiente de compreensão.
 
 **Melhoria recomendada:** na tarefa de compreensão, além de uma resposta estruturada, pedir ao participante para explicar em palavras próprias a ideia principal e o próximo passo do cenário fictício. Definir previamente uma rubrica simples para classificar a resposta (por exemplo: compreendeu o passo principal; compreensão parcial; interpretação incorreta). A formulação, o procedimento e a análise devem ser discutidos com a orientação e incluídos no protocolo antes de qualquer pesquisa com participantes.
 
@@ -40,9 +40,9 @@ Uma umbrella review sobre experiência digital do paciente analisou 45 revisões
 
 Uma revisão sistemática de 2025 sobre codesign em intervenções digitais de saúde incluiu 171 estudos. Identificou abordagens variadas e desafios ligados à participação, ao contexto de uso, aos testes e a custos/escala. Isso favorece um processo iterativo pragmático em vez de uma especificação decidida exclusivamente por quem desenvolve o produto.
 
-**Implicação para o protótipo:** manter a interface pequena, observar como os usuários a utilizam e registrar as dificuldades encontradas. A validação com usuários e profissionais não deve limitar-se a perguntar se “gostaram”; deve relacionar feedback a tarefas, contexto de uso e decisões específicas de interface.
+**Implicação para o protótipo:** manter a interface pequena e registrar, por inspeção, problemas de navegação, conteúdo e contexto previstos. Caso uma etapa com participantes seja aprovada, relacionar observações a tarefas, contexto de uso e decisões específicas de interface; não limitar a avaliação a perguntar se “gostaram”.
 
-**Melhoria recomendada:** organizar ciclos curtos de avaliação e correção depois das aprovações aplicáveis. Separar feedback de usuários adultos de feedback de profissionais de saúde quando as tarefas ou expectativas forem diferentes.
+**Melhoria recomendada:** organizar ciclos curtos de inspeção e correção no plano-base. Se houver etapa condicional com pessoas, planejar ciclos após as aprovações aplicáveis e separar feedback de usuários adultos e profissionais quando as tarefas ou expectativas forem diferentes.
 
 Fontes: [Wang et al., 2022 — Digital Patient Experience: Umbrella Systematic Review](https://doi.org/10.2196/37952); [Duffy et al., 2025 — Examining Challenges to Co-Design Digital Health Interventions With End Users](https://doi.org/10.2196/50178).
 
